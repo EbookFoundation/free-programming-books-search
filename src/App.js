@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
- 
+const axios = require('axios');
 class App extends Component {
   constructor(props) {
     super(props);
@@ -7,9 +7,13 @@ class App extends Component {
         message: "Default Content"
     }
   }
- 
+
+  asyncCall = async () => {
+    return axios.get('https://raw.githubusercontent.com/Senior-Design-2021-Ebook-Team/markdown-parser/main/fpb.json');
+  }
+
   updateContent = () => {
-    if (this.state.message == "Default Content") {
+    if (this.state.message === "Default Content") {
       this.setState({ message: "Updated Content!"});
     }
     else {
@@ -18,6 +22,7 @@ class App extends Component {
   }
  
   render() {
+    console.log(this.asyncCall());
     return (
       <div>
         <div className="h1 bg-secondary text-white text-center p-2">
@@ -25,7 +30,7 @@ class App extends Component {
         </div>
         <div className="text-center">
           <button className="btn btn-secondary" onClick={this.updateContent}>
-            Click Me
+            Click me
           </button>
         </div>
       </div>
