@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect, Component } from 'react';
+import LangDropdown from './components/LangDropdown';
+import axios from 'axios';
 
 function makeBook(author, hLang, cLang, title, url)
 {
@@ -85,27 +87,42 @@ class SubmitButton extends Component{
 	}
 }
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        message: "Default Content"
-    }
-  }
+function App() {
+	const [ data, setData ] = useState(undefined);
+	const [ loading, setLoading ] = useState(true); //Determines whether to show spinner
 
+	useEffect( // runs the first time the page renders
+		() => {
+			async function fetchData() {
+				setLoading(true);
+				let result = await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
+				setData(result.data);
+				setLoading(false);
+			}
+			fetchData();
+		},
+		[]
+	);
 
- 
-  render() {
-    return (
-      <div>
-        <div id="frontPage">
-          <h1>Free Programming Books</h1>
-          <input type="text"></input>
-		  <SubmitButton/>
-        </div>
-      </div>
-    );
-  }
+	if(loading){ //still fetching resource
+		return(
+			<h1>Loading...</h1>
+		);
+	}
+	else{ // resource fetched
+		console.log(data);
+		return(
+			<div>
+				<div id="frontPage">
+					<h1>Free Programming Books</h1>
+					<input type="text"></input>
+					<LangDropdown data={data}/>
+					<SubmitButton/>
+				</div>
+			</div>
+		);
+	}
 }
+
  
 export default App;
