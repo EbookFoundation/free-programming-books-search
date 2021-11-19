@@ -1,6 +1,8 @@
 import React, { useState, useEffect, Component } from 'react';
 import LangDropdown from './components/LangDropdown';
+import SearchBar from './components/SearchBar';
 import axios from 'axios';
+import Fuse from 'fuse.js';
 
 function makeBook(author, hLang, cLang, title, url)
 {
@@ -87,11 +89,27 @@ class SubmitButton extends Component{
 	}
 }
 
+// Sorts search results by their score
+function sortByScore(results){
+	results.sort(function(a,b){
+		return a.score - b.score;
+	});
+	return results;
+}
+
 function App() {
 	const [ data, setData ] = useState(undefined);
 	const [ loading, setLoading ] = useState(true); //Determines whether to show spinner
+	const [ searchTerm, setSearchTerm ] = useState('');
+	const [ searchResults, setSearchResults ] = useState([]);
+	let resultsList = null; // the html string containing the search results
 
-	useEffect( // runs the first time the page renders
+	const setSearch = (term) => { // Lets a child set the value of the search term
+		setSearchTerm(term);
+	};
+
+	// fetches data the first time the page renders
+	useEffect( 
 		() => {
 			async function fetchData() {
 				setLoading(true);
@@ -103,25 +121,70 @@ function App() {
 		},
 		[]
 	);
+	
+	// fires when searchTerm changes
+	// THIS IS THE MAIN SEARCH FUNCTION CURRENTLY
+	useEffect(
+		() => {
+			if(data){
+				let result = [];
+				data.children[0].children.forEach( (document) => {
+					document.sections.forEach( (section) => {
+						const fuseOptions = {
+							findAllMatches: true, 
+							shouldSort: false, 
+							includeScore: true, 
+							threshold: 0.3, 
+							keys: ['title']
+						};
+						let fuse = new Fuse(section.entries, fuseOptions);
+						let fuseResult = fuse.search(searchTerm);
+						result = result.concat(fuseResult);
+						section.subsections.forEach( (subsection) => {
+							let fuse = new Fuse(subsection.entries, fuseOptions);
+							let fuseResult = fuse.search(searchTerm);
+							result = result.concat(fuseResult);
+						});
+					});
+				});
+				result = sortByScore(result);
+				setSearchResults(result);
+			}
+		},
+		[ searchTerm ]
+	)
 
-	if(loading){ //still fetching resource
+	const buildList = () => {
+
+	};
+	
+	if(loading){ // if still fetching resource
 		return(
 			<h1>Loading...</h1>
 		);
 	}
-	else{ // resource fetched
-		console.log(data);
-		return(
-			<div>
-				<div id="frontPage">
-					<h1>Free Programming Books</h1>
-					<input type="text"></input>
-					<LangDropdown data={data}/>
-					<SubmitButton/>
-				</div>
-			</div>
-		);
+	if(searchTerm && searchResults.length !== 0){
+		resultsList =
+			searchResults &&
+			searchResults.map((entry) => {
+				return (<li><a href={entry.item.url}>{entry.item.title}</a></li>)
+			});
 	}
+	console.log(data);
+	return(
+		<div>
+			<div id="frontPage">
+				<h1>Free Programming Books</h1>
+				{/* <input type="text"></input> */}
+				<SearchBar setSearch={setSearch}/>
+				<LangDropdown data={data}/>
+				<SubmitButton/>
+				<ol>
+					{resultsList}
+				</ol>
+			</div>
+		</div>
+	);
 }
 
  

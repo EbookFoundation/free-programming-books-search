@@ -29,6 +29,7 @@ function LangDropdown({ data }){
     return(
         
         <select name="languages" id="languages">
+            <option key="allLangs" value="allLangs">All Languages</option>
             {options}
         </select>
     )
