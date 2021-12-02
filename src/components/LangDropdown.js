@@ -1,17 +1,23 @@
 import React, { useState, useEffect } from 'react';
 
-function LangDropdown({ data }){
+function LangDropdown({ changeParameter, data }){
     const [ languages, setLanguages ] = useState([]);
     let options = null;
 
+    const handleChange = (e) => {
+        changeParameter('lang.code', e.target.value);
+    }
+
     useEffect( // run whenever data changes
         () => {
-            let langArray = [];
-            data.children[0].children.forEach( (document) => {
-                langArray.push(document.language);
-            });
-            langArray.sort((a, b) => a.name > b.name)
-            setLanguages(langArray);
+            if(data){
+                let langArray = [];
+                data.children[0].children.forEach( (document) => {
+                    langArray.push(document.language);
+                });
+                langArray.sort((a, b) => a.name > b.name)
+                setLanguages(langArray);
+            }
         },
         [data]
     )
@@ -26,10 +32,9 @@ function LangDropdown({ data }){
                 return createOption(language)
             });
     // console.log(options);
-    return(
-        
-        <select name="languages" id="languages">
-            <option key="allLangs" value="allLangs">All Languages</option>
+    return(  
+        <select onChange={handleChange} name="languages" id="languages">
+            <option key="allLangs" value="">All Languages</option>
             {options}
         </select>
     )

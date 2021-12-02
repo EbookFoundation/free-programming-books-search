@@ -1,8 +1,11 @@
 import React, { useState, useEffect, Component } from 'react';
 import LangDropdown from './components/LangDropdown';
 import SearchBar from './components/SearchBar';
+import SearchResult from './components/SearchResult';
 import axios from 'axios';
 import Fuse from 'fuse.js';
+
+const fpb = require('./fpb.json');
 
 function makeBook(author, hLang, cLang, title, url)
 {
@@ -24,9 +27,9 @@ function forEachBook(func, json) //Runs func on each section, entry, and book in
 	
 	for (const hLang in json) //for each human language
 	{
-		if (Array.isArray(json[hLang].sections)) //check if sections is an array 
+		if (Array.isArray(hLang.sections)) //check if sections is an array 
 		{
-			json[hLang].sections.forEach( 
+			hLang.sections.forEach( 
 			(cLang) => //for each computer lanuage
 				{if (Array.isArray(cLang.entries)) //verify is entries is an array
 					{
@@ -97,24 +100,68 @@ function sortByScore(results){
 	return results;
 }
 
-function App() {
-	const [ data, setData ] = useState(undefined);
-	const [ loading, setLoading ] = useState(true); //Determines whether to show spinner
-	const [ searchTerm, setSearchTerm ] = useState('');
-	const [ searchResults, setSearchResults ] = useState([]);
-	let resultsList = null; // the html string containing the search results
 
-	const setSearch = (term) => { // Lets a child set the value of the search term
-		setSearchTerm(term);
+function jsonToArray(json){
+	let arr = [];
+	let sections = [];
+	json.children[0].children.forEach(
+		(document) => {
+			document.sections.forEach(
+				(section) => {
+					if(!sections.includes(section.section))
+						sections.push(section.section);
+					section.entries.forEach(
+						(entry) => {
+							arr.push({author: entry.author, title: entry.title, url: entry.url, lang: document.language, section: section.section});
+						}
+					)
+					section.subsections.forEach(
+						(subsection) => {
+							subsection.entries.forEach(
+								(entry) => {
+									arr.push({author: entry.author, title: entry.title, url: entry.url, lang: document.language, section: section.section, subsection: subsection.section});
+								}
+							)
+						}
+					)
+				}
+			)
+		}
+	)
+	return {arr: arr, sections: sections};
+}
+
+function App() {
+	const [ data, setData ] = useState(undefined); // keeps the state of the json
+	const [ dataArray, setDataArray ] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
+	const [ index, setIndex ] = useState([]);
+	const [ loading, setLoading ] = useState(true); //Determines whether to show spinner
+	const [ searchParams, setSearchParams ] = useState({title: ''});
+	const [ searchResults, setSearchResults ] = useState([]);
+	const [ error, setError ] = useState('');
+
+	let resultsList = null; // the html string containing the search results
+	let sectionResults = null;
+
+	const changeParameter = (param, value) => { // Lets a child set the value of the search term
+		setSearchParams({...searchParams, [param]: value});
 	};
 
 	// fetches data the first time the page renders
 	useEffect( 
 		() => {
 			async function fetchData() {
-				setLoading(true);
-				let result = await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
-				setData(result.data);
+				try{
+					setLoading(true);
+					let result = await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
+					setData(result.data);
+					let { arr, sections } = jsonToArray(result.data);
+					setDataArray(arr);
+					setIndex(sections);
+				}
+				catch(e){
+					setError("Couldn't get data. Please try again later")
+				}
 				setLoading(false);
 			}
 			fetchData();
@@ -126,62 +173,67 @@ function App() {
 	// THIS IS THE MAIN SEARCH FUNCTION CURRENTLY
 	useEffect(
 		() => {
-			if(data){
-				let result = [];
-				data.children[0].children.forEach( (document) => {
-					document.sections.forEach( (section) => {
-						const fuseOptions = {
-							findAllMatches: true, 
-							shouldSort: false, 
-							includeScore: true, 
-							threshold: 0.3, 
-							keys: ['title']
-						};
-						let fuse = new Fuse(section.entries, fuseOptions);
-						let fuseResult = fuse.search(searchTerm);
-						result = result.concat(fuseResult);
-						section.subsections.forEach( (subsection) => {
-							let fuse = new Fuse(subsection.entries, fuseOptions);
-							let fuseResult = fuse.search(searchTerm);
-							result = result.concat(fuseResult);
-						});
-					});
+			if(dataArray){
+				const fuseOptions = {
+					useExtendedSearch: true,
+					findAllMatches: true, 
+					shouldSort: true, 
+					includeScore: true, 
+					threshold: 0.2, 
+					keys: ['title', 'lang.code']
+				}
+				
+				let fuse = new Fuse(dataArray, fuseOptions);
+				let query = [];
+				for (const [key, value] of Object.entries(searchParams)) {
+					if(value == null || value == '') continue;
+					if(key == 'lang.code'){
+						query.push({'lang.code': `^${value}`});
+						continue
+					}
+					query.push({[key]: value});
+				}
+				let result = fuse.search({
+					$and: query
 				});
-				result = sortByScore(result);
-				setSearchResults(result);
+				setSearchResults(result.slice(0, 40));
 			}
 		},
-		[ searchTerm ]
+		[ searchParams ]
 	)
 
-	const buildList = () => {
-
-	};
-	
 	if(loading){ // if still fetching resource
 		return(
 			<h1>Loading...</h1>
 		);
 	}
-	if(searchTerm && searchResults.length !== 0){
+	if(error){
+		return(
+			<h1>Error: {error}</h1>
+		)
+	}
+	if(searchParams.title && searchResults.length !== 0){
 		resultsList =
 			searchResults &&
 			searchResults.map((entry) => {
-				return (<li><a href={entry.item.url}>{entry.item.title}</a></li>)
+				return <SearchResult data={entry.item}/>
+				// return (<li><a href={entry.item.url}>{entry.item.title}</a></li>)
 			});
 	}
-	console.log(data);
 	return(
-		<div>
-			<div id="frontPage">
-				<h1>Free Programming Books</h1>
-				{/* <input type="text"></input> */}
-				<SearchBar setSearch={setSearch}/>
-				<LangDropdown data={data}/>
-				<SubmitButton/>
-				<ol>
-					{resultsList}
-				</ol>
+		<div className="frontPage">
+			<h1>Free Programming Books</h1>
+			<div>
+				<SearchBar changeParameter={changeParameter}/>
+				<LangDropdown changeParameter={changeParameter} data={data}/>
+			</div>
+			<h2>Section Results</h2>
+			<div className="search-results">
+				{sectionResults}
+			</div>
+			<h2>Top Results</h2>
+			<div className="search-results">
+				{resultsList}
 			</div>
 		</div>
 	);

@@ -2,7 +2,7 @@ import React from 'react';
 
 function SearchBar(props){
     const handleChange = (e) => {
-        props.setSearch(e.target.value);
+        props.changeParameter('title', e.target.value);
     }
 
     return(
