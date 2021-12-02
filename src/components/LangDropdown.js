@@ -13,7 +13,11 @@ function LangDropdown({ changeParameter, data }){
             if(data){
                 let langArray = [];
                 data.children[0].children.forEach( (document) => {
-                    langArray.push(document.language);
+					if (typeof document.language.name === "string" && document.language.name.length > 0) //make sure the language is valid and not blank
+					{
+						//console.log("LANGUAGE: " + document.language.name)
+						langArray.push(document.language);
+					}
                 });
                 langArray.sort((a, b) => a.name > b.name)
                 setLanguages(langArray);
