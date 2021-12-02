@@ -125,7 +125,7 @@ function App() {
 			async function fetchData() {
 				try{
 					setLoading(true);
-					let result = await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
+					let result = {data:fpb}//await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
 					setData(result.data);
 					let { arr, sections } = jsonToArray(result.data);
 					setDataArray(arr);
@@ -158,7 +158,7 @@ function App() {
 				let fuse = new Fuse(dataArray, fuseOptions);
 				let query = [];
 				for (const [key, value] of Object.entries(searchParams)) {
-					if(value == null || value == '') continue;
+					if(value === null || value == '') continue;
 					if(key == 'lang.code'){
 						query.push({'lang.code': `^${value}`});
 						continue

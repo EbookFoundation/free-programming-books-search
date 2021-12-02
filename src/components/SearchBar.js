@@ -12,7 +12,7 @@ function SearchBar(props){
             }}
             name="searchBar"
         >
-            <input autoComplete="off" type="text" name="searchTerm" onChange={handleChange} />
+            <input autoComplete="off" type="text" name="searchTerm" placeholder="Enter Book Name" onChange={handleChange} />
         </form>
     )
 }
