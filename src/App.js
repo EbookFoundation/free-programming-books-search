@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import LangDropdown from './components/LangDropdown';
 import SearchBar from './components/SearchBar';
 import SearchResult from './components/SearchResult';
@@ -47,23 +47,6 @@ function forEachBook(func, json) //Runs func on each section, entry, and book in
 	
 }
 
-function searchByLanguage(lang, json)
-{
-	let answer =[] //list of books to return
-	for (const obj in json)
-	{
-			/*obj.sections.forEach((section) => section.forEach((entry) => entry.forEach((book) => answer.push(makeBook(book.author,lang,section.section,book.title,book.url)))))*/
-			
-		forEachBook((hLang,cLang,book) => {
-			if (hLang.language !== undefined && hLang.language.name !== undefined && hLang.language.name.toLowerCase() === lang.toLowerCase())
-			{
-			answer.push(makeBook(book.author,hLang.language.name,cLang.section,book.title,book.url))
-			}
-				},json)
-}
-	console.log(answer)
-}
-
 // Sorts search results by their score
 function sortByScore(results){
 	results.sort(function(a,b){
@@ -106,16 +89,17 @@ function jsonToArray(json){
 function App() {
 	const [ data, setData ] = useState(undefined); // keeps the state of the json
 	const [ dataArray, setDataArray ] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
-	const [ index, setIndex ] = useState([]);
-	const [ loading, setLoading ] = useState(true); //Determines whether to show spinner
+	const [ index, setIndex ] = useState([]); // used for "table of contents". currently unused
+	const [ loading, setLoading ] = useState(true); // Determines whether to show spinner
 	const [ searchParams, setSearchParams ] = useState({title: ''});
 	const [ searchResults, setSearchResults ] = useState([]);
+	const [ sectionResults, setSectionResults ] = useState([]);
 	const [ error, setError ] = useState('');
 
 	let resultsList = null; // the html string containing the search results
-	let sectionResults = null;
+	let sectionResultsList = null;
 
-	const changeParameter = (param, value) => { // Lets a child set the value of the search term
+	const changeParameter = (param, value) => { // Lets a child component set the value of the search term
 		setSearchParams({...searchParams, [param]: value});
 	};
 
@@ -125,7 +109,7 @@ function App() {
 			async function fetchData() {
 				try{
 					setLoading(true);
-					let result = {data:fpb}//await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
+					let result = await axios.get('https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json');
 					setData(result.data);
 					let { arr, sections } = jsonToArray(result.data);
 					setDataArray(arr);
@@ -150,6 +134,7 @@ function App() {
 	useEffect(
 		() => {
 			if(dataArray){
+				// Finds most relevant titles
 				const fuseOptions = {
 					useExtendedSearch: true,
 					findAllMatches: true, 
@@ -162,8 +147,8 @@ function App() {
 				let fuse = new Fuse(dataArray, fuseOptions);
 				let query = [];
 				for (const [key, value] of Object.entries(searchParams)) {
-					if(value === null || value == '') continue;
-					if(key == 'lang.code'){
+					if(value === null || value === '') continue;
+					if(key === 'lang.code'){
 						query.push({'lang.code': `^${value}`});
 						continue
 					}
@@ -172,7 +157,17 @@ function App() {
 				let result = fuse.search({
 					$and: query
 				});
-				setSearchResults(result.slice(0, 40));
+				result = result.slice(0, 40);
+				setSearchResults(result);
+
+				let sResults = []; // section results 
+				// Finds the most relevant sections
+				result.forEach( (entry) => {
+					let section = entry.item.section;
+					if(!sResults.includes(section))
+					sResults.push(section);
+				});
+				setSectionResults(sResults);
 			}
 		},
 		[ searchParams ]
@@ -193,7 +188,11 @@ function App() {
 			searchResults &&
 			searchResults.map((entry) => {
 				return <SearchResult data={entry.item}/>
-				// return (<li><a href={entry.item.url}>{entry.item.title}</a></li>)
+			});
+		sectionResultsList = 
+			sectionResults && 
+			sectionResults.map((section) => {
+				return <li>{section}</li>
 			});
 	}
 	return(
@@ -204,8 +203,9 @@ function App() {
 				<LangDropdown changeParameter={changeParameter} data={data}/>
 			</div>
 			<h2>Section Results</h2>
+			{sectionResultsList && <p>This feature is not complete! For now, use this to help reference the markdown documents on the main respository.</p>}
 			<div className="search-results">
-				{sectionResults}
+				{sectionResultsList}
 			</div>
 			<h2>Top Results</h2>
 			<div className="search-results">
