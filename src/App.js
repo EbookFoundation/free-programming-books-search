@@ -160,7 +160,11 @@ function App() {
 					setIndex(sections);
 				}
 				catch(e){
-					setError("Couldn't get data. Please try again later")
+					// setError("Couldn't get data. Please try again later")
+					setData(fpb);
+					let { arr, sections } = jsonToArray(fpb);
+					setIndex(sections);
+					setDataArray(arr);
 				}
 				setLoading(false);
 			}
