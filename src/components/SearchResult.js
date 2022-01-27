@@ -1,19 +1,17 @@
-import React from 'react';
+import React from "react";
 
-function SearchResult({ data }){
-    return(
-        <div>
-            <button onClick={(e) => {
-					if (data.url !== undefined)
-					{
-				  e.preventDefault();
-				  window.location.href= data.url;
-					}}}>
-                <h3>{data.title} by {data.author}</h3>
-                <p>({data.lang.code})</p>
-            </button>
-        </div>
-    )
+function SearchResult({ data }) {
+  return (
+    <div class="result">
+      <h3>
+        <a href={data.url} target="_blank">
+          {data.title}
+        </a>
+      </h3>
+      <h4>by {data.author ? data.author : "Unknown Author"}</h4>
+      <p>({data.lang.code})</p>
+    </div>
+  );
 }
 
 export default SearchResult;
