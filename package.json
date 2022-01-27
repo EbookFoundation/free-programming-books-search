@@ -1,6 +1,6 @@
 {
-  "homepage": "https://brogan20.github.io/search-fpb/",
-  "name": "my-app",
+  "homepage": "https://EbookFoundation.github.io/free-programming-books-search/",
+  "name": "FPB Search Page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
