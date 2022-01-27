@@ -5,7 +5,7 @@ import SearchResult from "./components/SearchResult";
 import axios from "axios";
 import Fuse from "fuse.js";
 
-const fpb = require("./fpb.json"); //local copy of json becuase online currently can't be accessed
+const fpb = null;
 
 // eslint-disable-next-line
 function makeBook(author, hLang, cLang, title, url) {
@@ -27,7 +27,8 @@ function forEachBook(func, json) {
     throw "ERROR in forEachBook: parameter not a fucntion";
   }
 
-  for (const hLang in json) { //for each human language
+  for (const hLang in json) {
+    //for each human language
     if (Array.isArray(hLang.sections)) {
       //check if sections is an array
       hLang.sections.forEach(
