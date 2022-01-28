@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/EbookFoundation/free-programming-books-search/static/css/main.098739b2.chunk.css",
-    "main.js": "/EbookFoundation/free-programming-books-search/static/js/main.aaa98923.chunk.js",
-    "main.js.map": "/EbookFoundation/free-programming-books-search/static/js/main.aaa98923.chunk.js.map",
-    "runtime-main.js": "/EbookFoundation/free-programming-books-search/static/js/runtime-main.630f7fdb.js",
-    "runtime-main.js.map": "/EbookFoundation/free-programming-books-search/static/js/runtime-main.630f7fdb.js.map",
-    "static/js/2.4d054bbe.chunk.js": "/EbookFoundation/free-programming-books-search/static/js/2.4d054bbe.chunk.js",
-    "static/js/2.4d054bbe.chunk.js.map": "/EbookFoundation/free-programming-books-search/static/js/2.4d054bbe.chunk.js.map",
-    "static/js/3.ec41b92f.chunk.js": "/EbookFoundation/free-programming-books-search/static/js/3.ec41b92f.chunk.js",
-    "static/js/3.ec41b92f.chunk.js.map": "/EbookFoundation/free-programming-books-search/static/js/3.ec41b92f.chunk.js.map",
-    "index.html": "/EbookFoundation/free-programming-books-search/index.html",
-    "static/css/main.098739b2.chunk.css.map": "/EbookFoundation/free-programming-books-search/static/css/main.098739b2.chunk.css.map",
-    "static/js/2.4d054bbe.chunk.js.LICENSE.txt": "/EbookFoundation/free-programming-books-search/static/js/2.4d054bbe.chunk.js.LICENSE.txt"
+    "main.css": "/free-programming-books-search/static/css/main.098739b2.chunk.css",
+    "main.js": "/free-programming-books-search/static/js/main.c03d470a.chunk.js",
+    "main.js.map": "/free-programming-books-search/static/js/main.c03d470a.chunk.js.map",
+    "runtime-main.js": "/free-programming-books-search/static/js/runtime-main.70079c95.js",
+    "runtime-main.js.map": "/free-programming-books-search/static/js/runtime-main.70079c95.js.map",
+    "static/js/2.be0fdc5d.chunk.js": "/free-programming-books-search/static/js/2.be0fdc5d.chunk.js",
+    "static/js/2.be0fdc5d.chunk.js.map": "/free-programming-books-search/static/js/2.be0fdc5d.chunk.js.map",
+    "static/js/3.e69bb6e5.chunk.js": "/free-programming-books-search/static/js/3.e69bb6e5.chunk.js",
+    "static/js/3.e69bb6e5.chunk.js.map": "/free-programming-books-search/static/js/3.e69bb6e5.chunk.js.map",
+    "index.html": "/free-programming-books-search/index.html",
+    "static/css/main.098739b2.chunk.css.map": "/free-programming-books-search/static/css/main.098739b2.chunk.css.map",
+    "static/js/2.be0fdc5d.chunk.js.LICENSE.txt": "/free-programming-books-search/static/js/2.be0fdc5d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.630f7fdb.js",
-    "static/js/2.4d054bbe.chunk.js",
+    "static/js/runtime-main.70079c95.js",
+    "static/js/2.be0fdc5d.chunk.js",
     "static/css/main.098739b2.chunk.css",
-    "static/js/main.aaa98923.chunk.js"
+    "static/js/main.c03d470a.chunk.js"
   ]
 }
