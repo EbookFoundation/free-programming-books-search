@@ -1,6 +1,6 @@
 {
-  "homepage": "https://4dylanregan.github.io/myapp",
-  "name": "my-app",
+  "homepage": "https://ebookfoundation.github.io/free-programming-books-search/",
+  "name": "fpb_search_page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
