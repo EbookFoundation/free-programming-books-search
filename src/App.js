@@ -6,8 +6,8 @@ import LightSwitch from "./components/LightSwitch";
 import axios from "axios";
 import Fuse from "fuse.js";
 
-import SunImg from "./img/sun.png"
-import MoonImg from "./img/moon.png"
+import SunImg from "./img/sun.png";
+import MoonImg from "./img/moon.png";
 
 const fpb = null;
 
@@ -108,7 +108,7 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
- 	const [lightMode, setLightMode] = useState(true);
+  const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -205,27 +205,52 @@ function App() {
       });
   }
   return (
-    <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black"}}>
-	<img src={lightMode ? SunImg: MoonImg}
-	onClick = {()=>setLightMode(!lightMode)} style={{width: "100px", height: "100px",display: "block",
-													  marginLeft: "auto",
-													  marginRight: "auto",
-													  }}/>
-	 <h1>Free Programming Books</h1>
-      <div>
-        <SearchBar changeParameter={changeParameter} />
-        <LangDropdown changeParameter={changeParameter} data={data} />
+    <div
+      className="frontPage"
+      // style={{
+      //   color: lightMode ? "black" : "white",
+      //   backgroundColor: lightMode ? "white" : "black",
+      // }}
+    >
+      <div className="header">
+        {/* <img
+          src={lightMode ? SunImg : MoonImg}
+          onClick={() => setLightMode(!lightMode)}
+          style={{
+            width: "100px",
+            height: "100px",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        /> */}
+        <h1>Free Programming Books</h1>
+        <div>
+          <SearchBar changeParameter={changeParameter} />
+          <LangDropdown changeParameter={changeParameter} data={data} />
+        </div>
+        <br />
+        <a href="https://github.com/EbookFoundation/free-programming-books">
+          View the Project on GitHub
+          <br />
+          <small>EbookFoundation/free-programming-books</small>
+        </a>
+        <br />
+        <br />
+        <a
+          href="https://github.com/EbookFoundation/free-programming-books/issues/"
+          target="_blank"
+        >
+          Report an error on GitHub
+        </a>
+        <h2>Section Results</h2>
+        {sectionResultsList && <p>This feature is not complete!</p>}
+        <div className="section-results">{sectionResultsList}</div>
       </div>
-      <h2>Section Results</h2>
-      {sectionResultsList && (
-        <p>
-          This feature is not complete! For now, use this to help reference the
-          markdown documents on the main respository.
-        </p>
-      )}
-      <div className="search-results">{sectionResultsList}</div>
-      <h2>Top Results</h2>
-      <div className="search-results">{resultsList}</div>
+      <div>
+        <h2>Top Results</h2>
+        <ul className="search-results">{resultsList}</ul>
+      </div>
     </div>
   );
 }

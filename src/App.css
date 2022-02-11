@@ -1,6 +1,7 @@
 body {
   box-sizing: border-box;
-  background-color: #222222;
+  background-color: white;
+  color: black;
 }
 
 #root {
@@ -8,33 +9,49 @@ body {
 }
 
 .frontPage {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  flex-direction: column;
-  height: 100;
-  color: whitesmoke;
   text-align: center;
   justify-content: center;
+  padding-left: 20%;
+}
+
+.header {
+  padding-top: 3%;
+  width: 20%;
+  float: left;
+  position: fixed;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.header a {
+  align-self: left;
+  align-items: left;
+  align-content: left;
+}
+
+.header a:visited {
+  color: #267cb9;
+}
+
+a {
+  color: #267cb9;
+}
+
+a:visited {
+  color: purple;
+}
+
+small {
+  font-size: 11px;
 }
 
 .search-results {
-  justify-content: center;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  box-sizing: border-box;
-  /* justify-content: normal ; */
-  align-content: flex-start;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 0% 20% 20% 30%;
+  width: 40%;
 }
 
 .result {
-  width: 30%;
   padding: 0.25em 0.5em;
 }

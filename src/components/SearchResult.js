@@ -2,15 +2,11 @@ import React from "react";
 
 function SearchResult({ data }) {
   return (
-    <div class="result">
-      <h3>
+    <li class="result">
         <a href={data.url} target="_blank">
-          {data.title}
+        ({data.lang.code}) {data.title} by {data.author ? data.author : "Unknown Author"}
         </a>
-      </h3>
-      <h4>by {data.author ? data.author : "Unknown Author"}</h4>
-      <p>({data.lang.code})</p>
-    </div>
+    </li>
   );
 }
 
