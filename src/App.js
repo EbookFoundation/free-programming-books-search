@@ -2,8 +2,12 @@ import React, { useState, useEffect } from "react";
 import LangDropdown from "./components/LangDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
+import LightSwitch from "./components/LightSwitch";
 import axios from "axios";
 import Fuse from "fuse.js";
+
+import SunImg from "./img/sun.png"
+import MoonImg from "./img/moon.png"
 
 const fpb = null;
 
@@ -104,6 +108,8 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
+ 	const [lightMode, setLightMode] = useState(true);
+
   // eslint-disable-next-line
   const [error, setError] = useState("");
 
@@ -199,8 +205,13 @@ function App() {
       });
   }
   return (
-    <div className="frontPage">
-      <h1>Free Programming Books</h1>
+    <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black"}}>
+	<img src={lightMode ? SunImg: MoonImg}
+	onClick = {()=>setLightMode(!lightMode)} style={{width: "100px", height: "100px",display: "block",
+													  marginLeft: "auto",
+													  marginRight: "auto",
+													  }}/>
+	 <h1>Free Programming Books</h1>
       <div>
         <SearchBar changeParameter={changeParameter} />
         <LangDropdown changeParameter={changeParameter} data={data} />
