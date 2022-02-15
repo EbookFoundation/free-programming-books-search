@@ -204,6 +204,8 @@ function App() {
         return <li>{section}</li>;
       });
   }
+  document.body.style.backgroundColor = lightMode ? "white" : "black";
+ 
   return (
     <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black"}}>
 	<img src={lightMode ? SunImg: MoonImg}
