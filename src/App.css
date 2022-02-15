@@ -21,6 +21,10 @@ body {
   justify-content: center;
 }
 
+a{
+	color: inherit;
+}
+
 .search-results {
   justify-content: center;
   align-items: flex-start;

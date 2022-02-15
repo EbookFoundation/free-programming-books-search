@@ -205,9 +205,8 @@ function App() {
       });
   }
   document.body.style.backgroundColor = lightMode ? "white" : "black";
- 
   return (
-    <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black"}}>
+    <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black", ">a": {color: "red"}}}>
 	<img src={lightMode ? SunImg: MoonImg}
 	onClick = {()=>setLightMode(!lightMode)} style={{width: "100px", height: "100px",display: "block",
 													  marginLeft: "auto",
