@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LangDropdown from "./components/LangDropdown";
+import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
@@ -131,6 +132,7 @@ function App() {
         );
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
+        console.log(arr);
         setDataArray(arr);
         setIndex(sections);
       } catch (e) {
@@ -156,15 +158,19 @@ function App() {
         shouldSort: true,
         includeScore: true,
         threshold: 0.2,
-        keys: ["title", "lang.code"],
+        keys: ["title", "lang.code", "section"],
       };
 
       let fuse = new Fuse(dataArray, fuseOptions);
       let query = [];
       for (const [key, value] of Object.entries(searchParams)) {
         if (value === null || value === "") continue;
-        if (key === "lang.code") {
-          query.push({ "lang.code": `^${value}` });
+        // if (key === "lang.code") {
+        //   query.push({ "lang.code": `^${value}` });
+        //   continue;
+        // }
+        if (key === "section"){
+          query.push({"section": `^${value}`});
           continue;
         }
         query.push({ [key]: value });
@@ -223,7 +229,8 @@ function App() {
           markdown documents on the main respository.
         </p>
       )}
-      <div className="search-results">{sectionResultsList}</div>
+      <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} />
+      <div className="search-results section-results">{sectionResultsList}</div>
       <h2>Top Results</h2>
       <div className="search-results">{resultsList}</div>
     </div>

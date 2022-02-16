@@ -38,3 +38,20 @@ body {
   width: 30%;
   padding: 0.25em 0.5em;
 }
+
+.section-results {
+  list-style-type: disc;
+  display:inline;
+  padding: 10px 40px;
+  /* padding-left: 1em;
+  padding-right: 1em;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex; */
+}
+
+.sect-drop {
+  box-sizing: border-box;
+  width: 10rem;
+  align-self: center;
+}
