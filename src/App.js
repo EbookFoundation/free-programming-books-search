@@ -165,10 +165,10 @@ function App() {
       let query = [];
       for (const [key, value] of Object.entries(searchParams)) {
         if (value === null || value === "") continue;
-        // if (key === "lang.code") {
-        //   query.push({ "lang.code": `^${value}` });
-        //   continue;
-        // }
+        if (key === "lang.code") {
+          query.push({ "lang.code": `^${value}` });
+          continue;
+        }
         if (key === "section"){
           query.push({"section": `^${value}`});
           continue;

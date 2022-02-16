@@ -53,8 +53,8 @@ function SectDropdown({ changeParameter, data }) {
     });
   // console.log(options);
   return (
-    <select className="sect-drop" onChange={handleChange} name="languages" id="languages">
-      <option key="allLangs" value="">
+    <select className="sect-drop" onChange={handleChange} name="sections" id="sections">
+      <option key="allSects" value="">
         Section Results
       </option>
       {options}
