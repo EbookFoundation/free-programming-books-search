@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+import Fuse from "fuse.js";
+
 import LangDropdown from "./components/LangDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
-import axios from "axios";
-import Fuse from "fuse.js";
+import Default from "./components/Default";
 
 import SunImg from "./img/sun.png";
 import MoonImg from "./img/moon.png";
@@ -206,13 +208,13 @@ function App() {
   }
   return (
     <div
-      className="frontPage"
+      className="wrapper"
       // style={{
       //   color: lightMode ? "black" : "white",
       //   backgroundColor: lightMode ? "white" : "black",
       // }}
     >
-      <div className="header">
+      <header className="header">
         {/* <img
           src={lightMode ? SunImg : MoonImg}
           onClick={() => setLightMode(!lightMode)}
@@ -224,33 +226,63 @@ function App() {
             marginRight: "auto",
           }}
         /> */}
-        <h1>Free Programming Books</h1>
+        <h1>
+          <a href="https://ebookfoundation.github.io/free-programming-books/">free-programming-books</a>
+        </h1>
         <div>
           <SearchBar changeParameter={changeParameter} />
           <LangDropdown changeParameter={changeParameter} data={data} />
         </div>
         <br />
-        <a href="https://github.com/EbookFoundation/free-programming-books">
-          View the Project on GitHub
-          <br />
-          <small>EbookFoundation/free-programming-books</small>
-        </a>
-        <br />
-        <br />
-        <a
-          href="https://github.com/EbookFoundation/free-programming-books/issues/"
-          target="_blank"
-        >
+        <p>
+          <img
+            class="emoji"
+            title=":books:"
+            alt=":books:"
+            src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
+            height="20"
+            width="20"
+          />{" "}
+          Freely available programming books
+        </p>
+        <p class="view">
+          <a href="https://github.com/EbookFoundation/free-programming-books">
+            View the Project on GitHub
+            <small>EbookFoundation/free-programming-books</small>
+          </a>
+        </p>
+        <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank">
           Report an error on GitHub
         </a>
-        <h2>Section Results</h2>
+        {/* <h2>Section Results</h2>
         {sectionResultsList && <p>This feature is not complete!</p>}
-        <div className="section-results">{sectionResultsList}</div>
-      </div>
-      <div>
-        <h2>Top Results</h2>
-        <ul className="search-results">{resultsList}</ul>
-      </div>
+        <div className="section-results">{sectionResultsList}</div> */}
+      </header>
+
+      <section className="search-results">
+        {resultsList ? (
+          <div>
+            <br />
+            <h2>Search Results</h2>
+            <ul>{resultsList}</ul>
+          </div>
+        ) : (
+          <Default />
+        )}
+      </section>
+
+      <footer>
+        <p>
+          This project is maintained by
+          <a href="https://github.com/EbookFoundation">EbookFoundation</a>
+        </p>
+        <p>
+          <small>
+            Hosted on GitHub Pages — Theme by
+            <a href="https://github.com/orderedlist">orderedlist</a>
+          </small>
+        </p>
+      </footer>
     </div>
   );
 }

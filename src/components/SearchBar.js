@@ -11,6 +11,7 @@ function SearchBar(props) {
         e.preventDefault();
       }}
       name="searchBar"
+      className="searchbar"
     >
       <input
         autoComplete="off"
