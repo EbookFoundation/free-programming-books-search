@@ -227,7 +227,9 @@ function App() {
           }}
         /> */}
         <h1>
-          <a href="https://ebookfoundation.github.io/free-programming-books/">free-programming-books</a>
+          <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
+            free-programming-books
+          </a>
         </h1>
 
         <p>
@@ -249,14 +251,14 @@ function App() {
         <br />
 
         <p class="view">
-          <a href="https://github.com/EbookFoundation/free-programming-books">
+          <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
             View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
           </a>
         </p>
         <p>
           Does a link not work?
           <br />
-          <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank">
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank" rel="noreferrer">
             Report an error on GitHub
           </a>
         </p>
@@ -279,11 +281,17 @@ function App() {
 
       <footer>
         <p>
-          This project is maintained by <a href="https://github.com/EbookFoundation">EbookFoundation</a>
+          This project is maintained by{" "}
+          <a href="https://github.com/EbookFoundation" target="_blank" rel="noreferrer">
+            EbookFoundation
+          </a>
         </p>
         <p>
           <small>
-            Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+            Hosted on GitHub Pages — Theme by{" "}
+            <a href="https://github.com/orderedlist" target="_blank" rel="noreferrer">
+              orderedlist
+            </a>
           </small>
         </p>
       </footer>
