@@ -247,8 +247,7 @@ function App() {
         </p>
         <p class="view">
           <a href="https://github.com/EbookFoundation/free-programming-books">
-            View the Project on GitHub
-            <small>EbookFoundation/free-programming-books</small>
+            View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
           </a>
         </p>
         <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank">
@@ -273,13 +272,11 @@ function App() {
 
       <footer>
         <p>
-          This project is maintained by
-          <a href="https://github.com/EbookFoundation">EbookFoundation</a>
+          This project is maintained by <a href="https://github.com/EbookFoundation">EbookFoundation</a>
         </p>
         <p>
           <small>
-            Hosted on GitHub Pages — Theme by
-            <a href="https://github.com/orderedlist">orderedlist</a>
+            Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a>
           </small>
         </p>
       </footer>
