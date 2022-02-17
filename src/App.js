@@ -229,11 +229,7 @@ function App() {
         <h1>
           <a href="https://ebookfoundation.github.io/free-programming-books/">free-programming-books</a>
         </h1>
-        <div>
-          <SearchBar changeParameter={changeParameter} />
-          <LangDropdown changeParameter={changeParameter} data={data} />
-        </div>
-        <br />
+
         <p>
           <img
             class="emoji"
@@ -245,13 +241,20 @@ function App() {
           />{" "}
           Freely available programming books
         </p>
+
+        <div>
+          <SearchBar changeParameter={changeParameter} />
+          <LangDropdown changeParameter={changeParameter} data={data} />
+        </div>
+        <br />
+
         <p class="view">
           <a href="https://github.com/EbookFoundation/free-programming-books">
             View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
           </a>
         </p>
         <p>
-          Does a link not work? 
+          Does a link not work?
           <br />
           <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank">
             Report an error on GitHub

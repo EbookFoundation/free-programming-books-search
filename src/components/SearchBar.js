@@ -18,6 +18,7 @@ function SearchBar(props) {
         type="text"
         name="searchTerm"
         placeholder="Enter Book Name"
+        className="searchterm"
         onChange={handleChange}
       />
     </form>
