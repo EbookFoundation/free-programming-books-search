@@ -250,9 +250,13 @@ function App() {
             View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
           </a>
         </p>
-        <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank">
-          Report an error on GitHub
-        </a>
+        <p>
+          Does a link not work? 
+          <br />
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank">
+            Report an error on GitHub
+          </a>
+        </p>
         {/* <h2>Section Results</h2>
         {sectionResultsList && <p>This feature is not complete!</p>}
         <div className="section-results">{sectionResultsList}</div> */}
