@@ -68,6 +68,54 @@ function Default() {
           </a>
         </li>
       </ul>
+
+      <h2 id="translations">Translations</h2>
+
+      <p>
+        Volunteers have translated many of our Contributing, How-to, and Code of Conduct documents into languages
+        covered by our lists.
+      </p>
+
+      <ul>
+        <li>
+          English
+          <ul>
+            <li>
+              <a href="/free-programming-books/docs/CODE_OF_CONDUCT.html">Code of Conduct</a>
+            </li>
+            <li>
+              <a href="/free-programming-books/docs/CONTRIBUTING.html">Contributing</a>
+            </li>
+            <li>
+              <a href="/free-programming-books/docs/HOWTO.html">How-to</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          …{" "}
+          <em>
+            <a href="/free-programming-books/docs/#translations">More languages</a>
+          </em>{" "}
+          …
+        </li>
+      </ul>
+
+      <p>
+        You might notice that there are{" "}
+        <a href="/free-programming-books/docs/#translations">some missing translations here</a> - perhaps you would like
+        to help out by{" "}
+        <a href="/free-programming-books/docs/CONTRIBUTING.html#help-out-by-contributing-a-translation">
+          contributing a translation
+        </a>
+        ?
+      </p>
+
+      <h2 id="license">License</h2>
+
+      <p>
+        Each file included in this repository is licensed under the{" "}
+        <a href="/free-programming-books/LICENSE">CC BY License</a>.
+      </p>
     </section>
   );
 }
