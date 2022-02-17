@@ -45,7 +45,7 @@ function LangDropdown({ changeParameter, data }) {
     });
   // console.log(options);
   return (
-    <select onChange={handleChange} name="languages" id="languages">
+    <select onChange={handleChange} name="languages" id="languages" class="languages">
       <option key="allLangs" value="">
         All Languages
       </option>

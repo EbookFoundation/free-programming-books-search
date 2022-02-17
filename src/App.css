@@ -269,3 +269,22 @@ footer {
     color:#444;
   }
 }
+
+.searchbar {
+  padding-bottom: 0.3em;
+}
+
+.searchterm {
+  border: 1px solid #666;
+  border-radius: 0.3em;
+  padding: 0.15em 0.15em 0.15em 0.15em;
+  width: 15em;
+}
+
+.languages {
+  border: 1px solid #666;
+  border-radius: 0.3em;
+  padding: 0.15em 0.15em 0.15em 0.15em;
+  width: 15.4em;
+
+}
