@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 import App from './App';
+import ThemeContextWrapper from './darkMode';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+<ThemeContextWrapper>
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+</ThemeContextWrapper>,
   document.getElementById('root')
 );
 

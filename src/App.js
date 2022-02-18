@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import LangDropdown from "./components/LangDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
 import axios from "axios";
 import Fuse from "fuse.js";
+import { ThemeContext, themes } from './darkMode';
 
 import SunImg from "./img/sun.png"
 import MoonImg from "./img/moon.png"
@@ -204,30 +205,39 @@ function App() {
         return <li>{section}</li>;
       });
   }
-  document.body.style.backgroundColor = lightMode ? "white" : "black";
   return (
-    <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black", ">a": {color: "red"}}}>
-	<img src={lightMode ? SunImg: MoonImg}
-	onClick = {()=>setLightMode(!lightMode)} style={{width: "100px", height: "100px",display: "block",
-													  marginLeft: "auto",
-													  marginRight: "auto",
-													  }}/>
-	 <h1>Free Programming Books</h1>
-      <div>
-        <SearchBar changeParameter={changeParameter} />
-        <LangDropdown changeParameter={changeParameter} data={data} />
-      </div>
-      <h2>Section Results</h2>
-      {sectionResultsList && (
-        <p>
-          This feature is not complete! For now, use this to help reference the
-          markdown documents on the main respository.
-        </p>
-      )}
-      <div className="search-results">{sectionResultsList}</div>
-      <h2>Top Results</h2>
-      <div className="search-results">{resultsList}</div>
-    </div>
+	<div className="frontPage" >
+		<ThemeContext.Consumer>
+		{ ({ changeTheme }) => 
+			(<img src={lightMode ? SunImg: MoonImg}
+			onClick = {()=>{
+							setLightMode(!lightMode);
+							changeTheme(lightMode ? themes.light : themes.dark)
+							}} 
+							style={{width: "100px", height: "100px",display: "block",
+															  marginLeft: "auto",
+															  marginRight: "auto",
+															  }}
+		/>)
+		}
+		</ThemeContext.Consumer>
+
+		 <h1>Free Programming Books</h1>
+		  <div>
+			<SearchBar changeParameter={changeParameter} />
+			<LangDropdown changeParameter={changeParameter} data={data} />
+		  </div>
+		  <h2>Section Results</h2>
+		  {sectionResultsList && (
+			<p>
+			  This feature is not complete! For now, use this to help reference the
+			  markdown documents on the main respository.
+			</p>
+		  )}
+		  <div className="search-results">{sectionResultsList}</div>
+		  <h2>Top Results</h2>
+		  <div className="search-results">{resultsList}</div>
+	</div>
   );
 }
 

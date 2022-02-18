@@ -1,10 +1,16 @@
 body {
   box-sizing: border-box;
   background-color: #222222;
+  color: white;
 }
 
 #root {
   box-sizing: border-box;
+}
+
+.white-content {
+  background-color: white;
+  color: black;
 }
 
 .frontPage {
@@ -16,7 +22,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100;
-  color: whitesmoke;
   text-align: center;
   justify-content: center;
 }
