@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function SectDropdown({ changeParameter, data }) {
+function SectDropdown({ changeParameter, data, value}) {
   const [sections, setSections] = useState([]);
   let options = null;
 
@@ -53,7 +53,7 @@ function SectDropdown({ changeParameter, data }) {
     });
   // console.log(options);
   return (
-    <select className="sect-drop" onChange={handleChange} name="sections" id="sections">
+    <select value={value} className="sect-drop" onChange={handleChange} name="sections" id="sections">
       <option key="allSects" value="">
         Section Results
       </option>

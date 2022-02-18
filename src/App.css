@@ -34,20 +34,30 @@ body {
   padding-right: 1em;
 }
 
+
 .result {
   width: 30%;
   padding: 0.25em 0.5em;
 }
 
 .section-results {
-  list-style-type: disc;
   display:inline;
   padding: 10px 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   /* padding-left: 1em;
   padding-right: 1em;
   justify-content: center;
   align-items: flex-start;
   display: flex; */
+}
+
+.section-results button {
+  border-radius: 0;
+  box-shadow: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #222222;
 }
 
 .sect-drop {

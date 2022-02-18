@@ -207,7 +207,7 @@ function App() {
     sectionResultsList =
       sectionResults &&
       sectionResults.map((section) => {
-        return <li>{section}</li>;
+        return <button onClick={() => {changeParameter("section", section); }}>{section}</button>;
       });
   }
   return (
@@ -229,7 +229,7 @@ function App() {
           markdown documents on the main respository.
         </p>
       )}
-      <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} />
+      <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
       <div className="search-results section-results">{sectionResultsList}</div>
       <h2>Top Results</h2>
       <div className="search-results">{resultsList}</div>
