@@ -55,7 +55,7 @@ function SectDropdown({ changeParameter, data, value}) {
   return (
     <select value={value} className="sect-drop" onChange={handleChange} name="sections" id="sections">
       <option key="allSects" value="">
-        Section Results
+        Topics
       </option>
       {options}
     </select>
