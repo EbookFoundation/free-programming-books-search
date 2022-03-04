@@ -250,12 +250,6 @@ function App() {
           Freely available programming books
         </p>
 
-        <div>
-          <SearchBar changeParameter={changeParameter} />
-          <LangDropdown changeParameter={changeParameter} data={data} />
-        </div>
-        <br />
-
         <p class="view">
           <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
             View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
@@ -268,10 +262,13 @@ function App() {
             Report an error on GitHub
           </a>
         </p>
-        <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
-        <div className="search-results section-results">{sectionResultsList}</div>
-        <h2>Top Results</h2>
-        <div className="search-results">{resultsList}</div>
+
+        <div>
+          <SearchBar changeParameter={changeParameter} />
+          <LangDropdown changeParameter={changeParameter} data={data} />
+          <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
+          <div className="search-results section-results">{sectionResultsList}</div>
+        </div>
       </header>
 
       <section className="search-results">
@@ -302,7 +299,6 @@ function App() {
           </small>
         </p>
       </footer>
-      )}
 
     </div>
   );
