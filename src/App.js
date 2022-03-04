@@ -267,7 +267,7 @@ function App() {
           <SearchBar changeParameter={changeParameter} />
           <LangDropdown changeParameter={changeParameter} data={data} />
           <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
-          <h3>Suggestions based on your search</h3>
+          {sectionResultsList && <h3>Suggestions based on your search</h3>}
           <div className="search-results section-results">{sectionResultsList}</div>
         </div>
       </header>
