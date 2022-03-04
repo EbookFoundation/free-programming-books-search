@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+import Fuse from "fuse.js";
+
 import LangDropdown from "./components/LangDropdown";
 import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
-import axios from "axios";
-import Fuse from "fuse.js";
+import Default from "./components/Default";
 
-import SunImg from "./img/sun.png"
-import MoonImg from "./img/moon.png"
+import SunImg from "./img/sun.png";
+import MoonImg from "./img/moon.png";
 
 const fpb = null;
 
@@ -109,7 +111,7 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
- 	const [lightMode, setLightMode] = useState(true);
+  const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -211,28 +213,97 @@ function App() {
       });
   }
   return (
-    <div className="frontPage" style={{color: lightMode ? "black" : "white", backgroundColor: lightMode ? "white" : "black"}}>
-	<img src={lightMode ? SunImg: MoonImg}
-	onClick = {()=>setLightMode(!lightMode)} style={{width: "100px", height: "100px",display: "block",
-													  marginLeft: "auto",
-													  marginRight: "auto",
-													  }}/>
-	 <h1>Free Programming Books</h1>
-      <div>
-        <SearchBar changeParameter={changeParameter} />
-        <LangDropdown changeParameter={changeParameter} data={data} />
-      </div>
-      <h2>Section Results</h2>
-      {sectionResultsList && (
+    <div
+      className="wrapper"
+      // style={{
+      //   color: lightMode ? "black" : "white",
+      //   backgroundColor: lightMode ? "white" : "black",
+      // }}
+    >
+      <header className="header">
+        {/* <img
+          src={lightMode ? SunImg : MoonImg}
+          onClick={() => setLightMode(!lightMode)}
+          style={{
+            width: "100px",
+            height: "100px",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        /> */}
+        <h1>
+          <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
+            free-programming-books
+          </a>
+        </h1>
+
         <p>
-          This feature is not complete! For now, use this to help reference the
-          markdown documents on the main respository.
+          <img
+            class="emoji"
+            title=":books:"
+            alt=":books:"
+            src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
+            height="20"
+            width="20"
+          />{" "}
+          Freely available programming books
         </p>
+
+        <div>
+          <SearchBar changeParameter={changeParameter} />
+          <LangDropdown changeParameter={changeParameter} data={data} />
+        </div>
+        <br />
+
+        <p class="view">
+          <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
+            View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
+          </a>
+        </p>
+        <p>
+          Does a link not work?
+          <br />
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank" rel="noreferrer">
+            Report an error on GitHub
+          </a>
+        </p>
+        <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
+        <div className="search-results section-results">{sectionResultsList}</div>
+        <h2>Top Results</h2>
+        <div className="search-results">{resultsList}</div>
+      </header>
+
+      <section className="search-results">
+        {resultsList ? (
+          <div>
+            <br />
+            <h2>Search Results</h2>
+            <ul>{resultsList}</ul>
+          </div>
+        ) : (
+          <Default />
+        )}
+      </section>
+
+      <footer>
+        <p>
+          This project is maintained by{" "}
+          <a href="https://github.com/EbookFoundation" target="_blank" rel="noreferrer">
+            EbookFoundation
+          </a>
+        </p>
+        <p>
+          <small>
+            Hosted on GitHub Pages — Theme by{" "}
+            <a href="https://github.com/orderedlist" target="_blank" rel="noreferrer">
+              orderedlist
+            </a>
+          </small>
+        </p>
+      </footer>
       )}
-      <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
-      <div className="search-results section-results">{sectionResultsList}</div>
-      <h2>Top Results</h2>
-      <div className="search-results">{resultsList}</div>
+
     </div>
   );
 }

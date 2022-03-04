@@ -20,7 +20,9 @@ function LangDropdown({ changeParameter, data }) {
           ) {
             //make sure the language is valid and not blank
             //console.log("LANGUAGE: " + document.language.name)
-            langArray.push(document.language);
+            if (document.language.code !== "en-US") { // used to ensure only one English is listed
+              langArray.push(document.language);
+            }
           }
         });
         langArray.sort((a, b) => a.name > b.name);
@@ -45,7 +47,7 @@ function LangDropdown({ changeParameter, data }) {
     });
   // console.log(options);
   return (
-    <select onChange={handleChange} name="languages" id="languages">
+    <select onChange={handleChange} name="languages" id="languages" class="languages">
       <option key="allLangs" value="">
         All Languages
       </option>
