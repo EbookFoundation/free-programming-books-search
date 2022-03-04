@@ -5,7 +5,8 @@ import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
 import axios from "axios";
 import Fuse from "fuse.js";
-import { ThemeContext, themes } from './darkMode';
+import { ThemeContext, themes, swapMode } from './darkMode';
+import { useCookies } from 'react-cookie';
 
 import SunImg from "./img/sun.png"
 import MoonImg from "./img/moon.png"
@@ -109,7 +110,7 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
- 	const [lightMode, setLightMode] = useState(true);
+const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -124,6 +125,7 @@ function App() {
 
   // fetches data the first time the page renders
   useEffect(() => {
+	swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode)
     async function fetchData() {
       try {
         setLoading(true);
@@ -208,17 +210,19 @@ function App() {
   return (
 	<div className="frontPage" >
 		<ThemeContext.Consumer>
-		{ ({ changeTheme }) => 
-			(<img src={lightMode ? SunImg: MoonImg}
+		{ ({ changeTheme }) => {
+			let willBeDarkMode = (cookies.lightMode && cookies.lightMode.toLowerCase() !== "true") //whether or not we are currently light mode and will become dark mode
+			changeTheme(willBeDarkMode ? themes.light : themes.dark)			
+			return (<img src={willBeDarkMode ? SunImg: MoonImg}
 			onClick = {()=>{
-							setLightMode(!lightMode);
-							changeTheme(lightMode ? themes.light : themes.dark)
+							setCookie("lightMode",willBeDarkMode);
+							changeTheme(willBeDarkMode ? themes.light : themes.dark)
 							}} 
 							style={{width: "100px", height: "100px",display: "block",
 															  marginLeft: "auto",
 															  marginRight: "auto",
 															  }}
-		/>)
+		/>)}
 		}
 		</ThemeContext.Consumer>
 

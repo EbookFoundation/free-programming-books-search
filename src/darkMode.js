@@ -7,19 +7,7 @@ export const themes = {
   light: "white-content",
 };
 
-export const ThemeContext = createContext({
-    theme: themes.dark,
-  changeTheme: () => {},
-});
-
-export default function ThemeContextWrapper(props) {
-  const [theme, setTheme] = useState(themes.dark);
-
-  function changeTheme(theme) {
-    setTheme(theme);
-  }
-
-  useEffect(() => {
+export const swapMode = (theme) => {
     switch (theme) {
       case themes.light:
         document.body.classList.add('white-content');
@@ -29,7 +17,21 @@ export default function ThemeContextWrapper(props) {
         document.body.classList.remove('white-content');
         break;
     }
-  }, [theme]);
+  }
+
+export const ThemeContext = createContext({
+    theme: themes.dark,
+  changeTheme: () => {},
+});
+
+export default function ThemeContextWrapper(props) {
+  const [theme, setTheme] = useState(props.theme);
+
+  function changeTheme(theme) {
+    setTheme(theme);
+  }
+ // console.log(theme)
+  swapMode(theme)
 
   return (
     <ThemeContext.Provider value={{ theme: theme, changeTheme: changeTheme }}>
