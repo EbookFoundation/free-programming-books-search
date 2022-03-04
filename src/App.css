@@ -288,3 +288,9 @@ footer {
   width: 15.4em;
 
 }
+
+.sect-drop {
+  box-sizing: border-box;
+  width: 10rem;
+  align-self: center;
+}
