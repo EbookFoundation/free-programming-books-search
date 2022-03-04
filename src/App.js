@@ -3,6 +3,7 @@ import axios from "axios";
 import Fuse from "fuse.js";
 
 import LangDropdown from "./components/LangDropdown";
+import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
@@ -133,6 +134,7 @@ function App() {
         );
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
+        console.log(arr);
         setDataArray(arr);
         setIndex(sections);
       } catch (e) {
@@ -158,7 +160,7 @@ function App() {
         shouldSort: true,
         includeScore: true,
         threshold: 0.2,
-        keys: ["title", "lang.code"],
+        keys: ["title", "lang.code", "section"],
       };
 
       let fuse = new Fuse(dataArray, fuseOptions);
@@ -167,6 +169,10 @@ function App() {
         if (value === null || value === "") continue;
         if (key === "lang.code") {
           query.push({ "lang.code": `^${value}` });
+          continue;
+        }
+        if (key === "section"){
+          query.push({"section": `^${value}`});
           continue;
         }
         query.push({ [key]: value });
@@ -203,7 +209,7 @@ function App() {
     sectionResultsList =
       sectionResults &&
       sectionResults.map((section) => {
-        return <li>{section}</li>;
+        return <button onClick={() => {changeParameter("section", section); }}>{section}</button>;
       });
   }
   return (
@@ -262,9 +268,10 @@ function App() {
             Report an error on GitHub
           </a>
         </p>
-        {/* <h2>Section Results</h2>
-        {sectionResultsList && <p>This feature is not complete!</p>}
-        <div className="section-results">{sectionResultsList}</div> */}
+        <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
+        <div className="search-results section-results">{sectionResultsList}</div>
+        <h2>Top Results</h2>
+        <div className="search-results">{resultsList}</div>
       </header>
 
       <section className="search-results">
@@ -295,6 +302,8 @@ function App() {
           </small>
         </p>
       </footer>
+      )}
+
     </div>
   );
 }
