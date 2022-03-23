@@ -108,7 +108,7 @@ function App() {
   // eslint-disable-next-line
   const [index, setIndex] = useState([]); // used for "table of contents". currently unused
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
-  const [searchParams, setSearchParams] = useState({ title: "" });
+  const [searchParams, setSearchParams] = useState({ searchTerm: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
   const [lightMode, setLightMode] = useState(true);
@@ -134,7 +134,6 @@ function App() {
         );
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
-        console.log(arr);
         setDataArray(arr);
         setIndex(sections);
       } catch (e) {
@@ -150,36 +149,39 @@ function App() {
   }, []);
 
   // fires when searchTerm changes
-  // THIS IS THE MAIN SEARCH FUNCTION CURRENTLY
+   // Finds most relevant title or author
+  // THIS IS THE MAIN SEARCH FUNCTION
   useEffect(() => {
     if (dataArray) {
-      // Finds most relevant titles
       const fuseOptions = {
-        useExtendedSearch: true,
-        findAllMatches: true,
-        shouldSort: true,
-        includeScore: true,
-        threshold: 0.2,
-        keys: ["title", "lang.code", "section"],
+        useExtendedSearch: true, // see fuse.js documentation
+        findAllMatches: true, //continue searching after first match
+        shouldSort: true, // sort by proximity score
+        includeScore: true, // includes score in results
+        threshold: 0.2, // threshold for fuzzy-search,
+        keys: ["author", "title", "lang.code", "section"],
       };
-
       let fuse = new Fuse(dataArray, fuseOptions);
-      let query = [];
+      let andQuery = []; // for filters that MUST be matched, like language
+      let orQuery = []; // filters where any may be matched, like author or title
       for (const [key, value] of Object.entries(searchParams)) {
         if (value === null || value === "") continue;
-        if (key === "lang.code") {
-          query.push({ "lang.code": `^${value}` });
-          continue;
+        if (key === "lang.code" || key === "section") {
+          andQuery.push({ [key]: `^${value}` });
         }
-        if (key === "section"){
-          query.push({"section": `^${value}`});
-          continue;
+        if(key === "searchTerm") {
+          orQuery.push({ "author": value});
+          orQuery.push({ "title": value});
         }
-        query.push({ [key]: value });
       }
+      // Nest the 'or' query inside the 'and' query
+      // Necessary step, a quirk with fuse.js
+      andQuery.push({$or: orQuery})
+      // Perform the search
       let result = fuse.search({
-        $and: query,
+        $and: andQuery
       });
+      // filter to top results
       result = result.slice(0, 40);
       setSearchResults(result);
 
@@ -200,7 +202,7 @@ function App() {
   if (error) {
     return <h1>Error: {error}</h1>;
   }
-  if (searchParams.title && searchResults.length !== 0) {
+  if (searchParams.searchTerm && searchResults.length !== 0) {
     resultsList =
       searchResults &&
       searchResults.map((entry) => {
