@@ -111,6 +111,7 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
+  const [showCodeLangFilter, setCodeLangFilter] = useState(false);
   const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
@@ -171,8 +172,8 @@ function App() {
           query.push({ "lang.code": `^${value}` });
           continue;
         }
-        if (key === "section"){
-          query.push({"section": `^${value}`});
+        if (key === "section") {
+          query.push({ section: `^${value}` });
           continue;
         }
         query.push({ [key]: value });
@@ -209,7 +210,15 @@ function App() {
     sectionResultsList =
       sectionResults &&
       sectionResults.map((section) => {
-        return <button onClick={() => {changeParameter("section", section); }}>{section}</button>;
+        return (
+          <button
+            onClick={() => {
+              changeParameter("section", section);
+            }}
+          >
+            {section}
+          </button>
+        );
       });
   }
   return (
@@ -263,12 +272,20 @@ function App() {
           </a>
         </p>
 
+        
         <div>
           <SearchBar changeParameter={changeParameter} />
+
+          {/* Filters */}
           <LangDropdown changeParameter={changeParameter} data={data} />
-          <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
-          {sectionResultsList && <h3>Suggestions based on your search</h3>}
-          <div className="search-results section-results">{sectionResultsList}</div>
+          <SectDropdown
+            className="sect-drop"
+            changeParameter={changeParameter}
+            data={data}
+            value={searchParams["section"] || "allSects"}
+          />
+          {/* {sectionResultsList && <h3>Suggestions based on your search</h3>}
+          <div className="search-results section-results">{sectionResultsList}</div> */}
         </div>
       </header>
 
@@ -278,6 +295,11 @@ function App() {
             <br />
             <h2>Search Results</h2>
             <ul>{resultsList}</ul>
+          </div>
+        ) : searchParams.title ? (
+          <div>
+            <br />
+            <h2>No results found.</h2>
           </div>
         ) : (
           <Default />
@@ -300,7 +322,6 @@ function App() {
           </small>
         </p>
       </footer>
-
     </div>
   );
 }

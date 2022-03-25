@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 
-function SectDropdown({ changeParameter, data, value}) {
+function SectDropdown({ changeParameter, data, value }) {
   const [sections, setSections] = useState([]);
+  const [selected, setSelected] = useState("");
   let options = null;
 
   const handleChange = (e) => {
     changeParameter("section", e.target.value);
+    setSelected(e.target.value);
   };
 
   useEffect(
@@ -14,35 +16,43 @@ function SectDropdown({ changeParameter, data, value}) {
       if (data) {
         let sectArray = [];
         data.children[0].children.forEach((document) => {
-            // console.log(document)
-          if (
-            Array.isArray(document.sections) &&
-            document.sections.length > 0
-          ); {
+          // console.log(document)
+          if (Array.isArray(document.sections) && document.sections.length > 0);
+          {
             //   console.log(document.sections.length);
             //   console.log(Array.isArray(document.sections));
             for (let i = 0; i < document.sections.length; i++) {
-                // console.log("h")
-                // console.log(document.sections[i]);
-                if(sectArray.indexOf(document.sections[i].section) == -1){
-                    sectArray.push(document.sections[i].section.trim());
-                }
-                // sectArray.push(document.sections[i].section);
+              // console.log("h")
+              // console.log(document.sections[i]);
+              if (sectArray.indexOf(document.sections[i].section) == -1) {
+                sectArray.push(document.sections[i].section.trim());
+              }
+              // sectArray.push(document.sections[i].section);
             }
           }
-        })
+        });
         sectArray.sort((a, b) => a.localeCompare(b));
         setSections(sectArray);
       }
     },
     [data]
   );
-// key={section} value={section}
+  // key={section} value={section}
   const createOption = (section) => {
     return (
-      <option className="sect-drop" key={section} value={section}>
-        {section}
-      </option>
+      <div>
+        <label>
+          <input
+            type="radio"
+            className="sect-select"
+            key={section}
+            value={section}
+            onChange={handleChange}
+            checked={section == selected}
+          />
+          {section}
+        </label>
+      </div>
     );
   };
 
@@ -53,12 +63,16 @@ function SectDropdown({ changeParameter, data, value}) {
     });
   // console.log(options);
   return (
-    <select value={value} className="sect-drop" onChange={handleChange} name="sections" id="sections">
-      <option key="allSects" value="">
-        Topics
-      </option>
-      {options}
-    </select>
+    <div>
+      <h3>Select Programming Language:</h3>
+      <form class="filters">
+        <label>
+          <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+          All Programming Languages
+        </label>
+        {options}
+      </form>
+    </div>
   );
 }
 

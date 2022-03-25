@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 
 function LangDropdown({ changeParameter, data }) {
   const [languages, setLanguages] = useState([]);
+  const [selected, setSelected] = useState("");
   let options = null;
 
   const handleChange = (e) => {
     changeParameter("lang.code", e.target.value);
+    setSelected(e.target.value);
   };
 
   useEffect(
@@ -14,13 +16,11 @@ function LangDropdown({ changeParameter, data }) {
       if (data) {
         let langArray = [];
         data.children[0].children.forEach((document) => {
-          if (
-            typeof document.language.name === "string" &&
-            document.language.name.length > 0
-          ) {
+          if (typeof document.language.name === "string" && document.language.name.length > 0) {
             //make sure the language is valid and not blank
             //console.log("LANGUAGE: " + document.language.name)
-            if (document.language.code !== "en-US") { // used to ensure only one English is listed
+            if (document.language.code !== "en-US") {
+              // used to ensure only one English is listed
               langArray.push(document.language);
             }
           }
@@ -34,9 +34,20 @@ function LangDropdown({ changeParameter, data }) {
 
   const createOption = (language) => {
     return (
-      <option class="lang" key={language.code} value={language.code}>
-        {language.name}
-      </option>
+      <div>
+        <label>
+          <input
+            type="radio"
+            className="lang"
+            key={language.code}
+            value={language.code}
+            onChange={handleChange}
+            checked={language.code == selected}
+          />
+          {language.name}
+          {/* {console.log(language)} */}
+        </label>
+      </div>
     );
   };
 
@@ -47,12 +58,16 @@ function LangDropdown({ changeParameter, data }) {
     });
   // console.log(options);
   return (
-    <select onChange={handleChange} name="languages" id="languages" class="languages">
-      <option key="allLangs" value="">
-        All Languages
-      </option>
-      {options}
-    </select>
+    <div>
+      <h3>Select Language:</h3>
+      <form class="filters">
+        <label>
+          <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+          All Languages
+        </label>
+        {options}
+      </form>
+    </div>
   );
 }
 

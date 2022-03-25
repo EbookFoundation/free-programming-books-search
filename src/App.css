@@ -294,3 +294,8 @@ footer {
   width: 10rem;
   align-self: center;
 }
+
+.filters {
+  max-height: 13em;
+  overflow: scroll;
+}
