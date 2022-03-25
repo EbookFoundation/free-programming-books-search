@@ -218,9 +218,8 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 							setCookie("lightMode",willBeDarkMode);
 							changeTheme(willBeDarkMode ? themes.light : themes.dark)
 							}} 
-							style={{width: "100px", height: "100px",display: "block",
-															  marginLeft: "auto",
-															  marginRight: "auto",
+							style={{width: "20px", height: "20px",display: "block",
+															  marginLeft: "auto"
 															  }}
 		/>)}
 		}
