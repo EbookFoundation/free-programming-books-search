@@ -1,15 +1,26 @@
+<<<<<<< HEAD
 import React, { useState, useEffect, createContext } from "react";
 import LangDropdown from "./components/LangDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
+=======
+import React, { useState, useEffect } from "react";
+>>>>>>> ae9e6661c93752d3fcc178ab811e19bdf7f73313
 import axios from "axios";
 import Fuse from "fuse.js";
 import { ThemeContext, themes, swapMode } from './darkMode';
 import { useCookies } from 'react-cookie';
 
-import SunImg from "./img/sun.png"
-import MoonImg from "./img/moon.png"
+import LangDropdown from "./components/LangDropdown";
+import SectDropdown from "./components/SectDropdown";
+import SearchBar from "./components/SearchBar";
+import SearchResult from "./components/SearchResult";
+import LightSwitch from "./components/LightSwitch";
+import Default from "./components/Default";
+
+import SunImg from "./img/sun.png";
+import MoonImg from "./img/moon.png";
 
 const fpb = null;
 
@@ -110,7 +121,11 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
+<<<<<<< HEAD
 const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
+=======
+  const [lightMode, setLightMode] = useState(true);
+>>>>>>> ae9e6661c93752d3fcc178ab811e19bdf7f73313
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -134,6 +149,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
         );
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
+        console.log(arr);
         setDataArray(arr);
         setIndex(sections);
       } catch (e) {
@@ -159,7 +175,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
         shouldSort: true,
         includeScore: true,
         threshold: 0.2,
-        keys: ["title", "lang.code"],
+        keys: ["title", "lang.code", "section"],
       };
 
       let fuse = new Fuse(dataArray, fuseOptions);
@@ -168,6 +184,10 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
         if (value === null || value === "") continue;
         if (key === "lang.code") {
           query.push({ "lang.code": `^${value}` });
+          continue;
+        }
+        if (key === "section"){
+          query.push({"section": `^${value}`});
           continue;
         }
         query.push({ [key]: value });
@@ -204,11 +224,18 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
     sectionResultsList =
       sectionResults &&
       sectionResults.map((section) => {
-        return <li>{section}</li>;
+        return <button onClick={() => {changeParameter("section", section); }}>{section}</button>;
       });
   }
   return (
-	<div className="frontPage" >
+    <div
+      className="wrapper"
+      // style={{
+      //   color: lightMode ? "black" : "white",
+      //   backgroundColor: lightMode ? "white" : "black",
+      // }}
+    >
+      <header className="header">
 		<ThemeContext.Consumer>
 		{ ({ changeTheme }) => {
 			let willBeDarkMode = (cookies.lightMode && cookies.lightMode.toLowerCase() !== "true") //whether or not we are currently light mode and will become dark mode
@@ -224,23 +251,76 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 		/>)}
 		}
 		</ThemeContext.Consumer>
+        <h1>
+          <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
+            free-programming-books
+          </a>
+        </h1>
 
-		 <h1>Free Programming Books</h1>
-		  <div>
-			<SearchBar changeParameter={changeParameter} />
-			<LangDropdown changeParameter={changeParameter} data={data} />
-		  </div>
-		  <h2>Section Results</h2>
-		  {sectionResultsList && (
-			<p>
-			  This feature is not complete! For now, use this to help reference the
-			  markdown documents on the main respository.
-			</p>
-		  )}
-		  <div className="search-results">{sectionResultsList}</div>
-		  <h2>Top Results</h2>
-		  <div className="search-results">{resultsList}</div>
-	</div>
+        <p>
+          <img
+            class="emoji"
+            title=":books:"
+            alt=":books:"
+            src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
+            height="20"
+            width="20"
+          />{" "}
+          Freely available programming books
+        </p>
+
+        <p class="view">
+          <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
+            View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
+          </a>
+        </p>
+        <p>
+          Does a link not work?
+          <br />
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank" rel="noreferrer">
+            Report an error on GitHub
+          </a>
+        </p>
+
+        <div>
+          <SearchBar changeParameter={changeParameter} />
+          <LangDropdown changeParameter={changeParameter} data={data} />
+          <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
+          {sectionResultsList && <h3>Suggestions based on your search</h3>}
+          <div className="search-results section-results">{sectionResultsList}</div>
+        </div>
+      </header>
+
+      <section className="search-results">
+        {resultsList ? (
+          <div>
+            <br />
+            <h2>Search Results</h2>
+            <ul>{resultsList}</ul>
+          </div>
+        ) : (
+          <Default />
+        )}
+      </section>
+
+      <footer>
+        <p>
+          This project is maintained by{" "}
+          <a href="https://github.com/EbookFoundation" target="_blank" rel="noreferrer">
+            EbookFoundation
+          </a>
+        </p>
+        <p>
+          <small>
+            Hosted on GitHub Pages — Theme by{" "}
+            <a href="https://github.com/orderedlist" target="_blank" rel="noreferrer">
+              orderedlist
+            </a>
+          </small>
+        </p>
+      </footer>
+
+    </div>
   );
 }
 
