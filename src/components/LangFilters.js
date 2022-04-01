@@ -70,8 +70,8 @@ function LangFilters({ changeParameter, data }) {
   return (
     <div className="langFilters">
       <div className="filterHeader">
-        <h3>Select Language</h3>
-        <button onClick={() => setShow(!showFilters)}>+</button>
+        <h3>Filter by Language</h3>
+        <button onClick={() => setShow(!showFilters)}>{showFilters? "-" : "+"}</button>
       </div>
       {showFilters ? filterList : ""}
     </div>
