@@ -1,12 +1,15 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import Fuse from "fuse.js";
-
+import React, { useState, useEffect, createContext } from "react";
+import LangDropdown from "./components/LangDropdown";
 import LangFilters from "./components/LangFilters";
 import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import LightSwitch from "./components/LightSwitch";
+import axios from "axios";
+import Fuse from "fuse.js";
+import { ThemeContext, themes, swapMode } from './darkMode';
+import { useCookies } from 'react-cookie';
+
 import Default from "./components/Default";
 
 import SunImg from "./img/sun.png";
@@ -111,6 +114,8 @@ function App() {
   const [searchParams, setSearchParams] = useState({ searchTerm: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
+const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
+
   const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
@@ -126,6 +131,7 @@ function App() {
 
   // fetches data the first time the page renders
   useEffect(() => {
+	swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode)
     async function fetchData() {
       try {
         setLoading(true);
@@ -287,8 +293,31 @@ function App() {
     //   });
   }
   return (
-    <div className="wrapper">
+
+    <div
+      className="wrapper"
+      // style={{
+      //   color: lightMode ? "black" : "white",
+      //   backgroundColor: lightMode ? "white" : "black",
+      // }}
+    >
+  		<ThemeContext.Consumer>
+		{ ({ changeTheme }) => {
+			let willBeDarkMode = (cookies.lightMode && cookies.lightMode.toLowerCase() !== "true") //whether or not we are currently light mode and will become dark mode
+			changeTheme(willBeDarkMode ? themes.light : themes.dark)
+			return (<img src={willBeDarkMode ? MoonImg : SunImg}
+			onClick = {()=>{
+							setCookie("lightMode",willBeDarkMode);
+							changeTheme(willBeDarkMode ? themes.light : themes.dark)
+							}} 
+							style={{width: "20px", height: "20px",display: "block",
+															  marginLeft: "auto"
+															  }}
+		/>)}
+		}
+		</ThemeContext.Consumer>
       <header className="header">
+
         <h1>
           <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
             free-programming-books
