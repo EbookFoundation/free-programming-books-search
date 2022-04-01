@@ -294,3 +294,26 @@ footer {
   width: 10rem;
   align-self: center;
 }
+
+.filters {
+  margin-top: -1em;
+  max-height: 13em;
+  overflow: scroll;
+  width: 18em;
+  overflow-x: hidden;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: left;
+}
+
+.filterHeader button {
+  margin-left: 1em;
+  width: 1.5em;
+  height: 1.7em;
+}
+
+.langFilters {
+  margin-top: 0.5em;
+}
