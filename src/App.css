@@ -299,3 +299,18 @@ footer {
   max-height: 13em;
   overflow: scroll;
 }
+
+.filterHeader {
+  display: flex;
+  justify-content: left;
+}
+
+.filterHeader button {
+  margin-left: 2em;
+  max-width: 2em;
+  max-height: 2em;
+}
+
+.langFilters {
+  margin-top: 0.5em;
+}

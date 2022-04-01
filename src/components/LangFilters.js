@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-function LangDropdown({ changeParameter, data }) {
+function LangFilters({ changeParameter, data }) {
   const [languages, setLanguages] = useState([]);
   const [selected, setSelected] = useState("");
+  const [showFilters, setShow] = useState(false);
   let options = null;
 
   const handleChange = (e) => {
@@ -14,12 +15,12 @@ function LangDropdown({ changeParameter, data }) {
     // run whenever data changes
     () => {
       if (data) {
-        let langArray = [];
+        let langArray = [{ code: "en", name: "English" }];
         data.children[0].children.forEach((document) => {
           if (typeof document.language.name === "string" && document.language.name.length > 0) {
             //make sure the language is valid and not blank
             //console.log("LANGUAGE: " + document.language.name)
-            if (document.language.code !== "en-US") {
+            if (document.language.code !== "en") {
               // used to ensure only one English is listed
               langArray.push(document.language);
             }
@@ -45,7 +46,6 @@ function LangDropdown({ changeParameter, data }) {
             checked={language.code == selected}
           />
           {language.name}
-          {/* {console.log(language)} */}
         </label>
       </div>
     );
@@ -56,19 +56,26 @@ function LangDropdown({ changeParameter, data }) {
     languages.map((language) => {
       return createOption(language);
     });
-  // console.log(options);
+
+  let filterList = (
+    <form class="filters">
+      <label>
+        <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+        All Languages
+      </label>
+      {options}
+    </form>
+  );
+
   return (
-    <div>
-      <h3>Select Language:</h3>
-      <form class="filters">
-        <label>
-          <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
-          All Languages
-        </label>
-        {options}
-      </form>
+    <div className="langFilters">
+      <div className="filterHeader">
+        <h3>Select Language</h3>
+        <button onClick={() => setShow(!showFilters)}>+</button>
+      </div>
+      {showFilters ? filterList : ""}
     </div>
   );
 }
 
-export default LangDropdown;
+export default LangFilters;

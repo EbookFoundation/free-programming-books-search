@@ -17,7 +17,7 @@ function SearchBar(props) {
         autoComplete="off"
         type="text"
         name="searchTerm"
-        placeholder="Enter Book Name"
+        placeholder="Search Book Name"
         className="searchterm"
         onChange={handleChange}
       />

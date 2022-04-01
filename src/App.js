@@ -111,7 +111,6 @@ function App() {
   const [searchParams, setSearchParams] = useState({ title: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
-  const [showCodeLangFilter, setCodeLangFilter] = useState(false);
   const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
@@ -202,17 +201,23 @@ function App() {
             }
           }
 
+          let id = entry.item.section;
+          
+          // Some ids are in HTML tags, so this will extract that id to form proper links
+          if (id.includes("<a")) {
+            let x = id.match(/"(.*?)"/)[0];
+            id = x ? x.replaceAll(/\"/g, "") : "FAIL";
+            section = id;
+          }
+          
           // List of id properties fixed with this line:
           // 1. Must be all lowercase
           // 2. Spaces are hyphens
-          // 3. Ampersands aren't allowed at all
-          let id = entry.item.section.toLowerCase().replaceAll(" ", "-").replace("&", "");
-
-          // C++ has some wacky behavior with it's id, so the fix is hardcoded
-          if (id.includes("cpp")) {
-            id = "cpp";
-            section = "C++";
-          }
+          // 3. Parentheses, ampersands, and slashes aren't allowed at all
+          id = id
+            .toLowerCase()
+            .replaceAll(" ", "-")
+            .replaceAll(/\(|\)|\&|\//g, "");
 
           // Creates a listing for the broader list of entries
           let listing = {
@@ -310,7 +315,6 @@ function App() {
 
         <div>
           <SearchBar changeParameter={changeParameter} />
-
           {/* Filters */}
           <LangFilters changeParameter={changeParameter} data={data} />
           {/* Keeping sections commented out just in case */}
