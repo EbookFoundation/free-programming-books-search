@@ -1,5 +1,4 @@
 import React, { useState, useEffect, createContext } from "react";
-import LangDropdown from "./components/LangDropdown";
 import LangFilters from "./components/LangFilters";
 import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
