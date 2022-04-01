@@ -301,11 +301,11 @@ footer {
 
 .dark-content {
   background-color: black;
-  color: white !important; 
+  color: white;
 }
 
 .dark-content *{
-	color: white !important;
+	color: white;
 }
 
 .frontPage {
