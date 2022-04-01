@@ -343,7 +343,7 @@ function App() {
             <h2>Search Results</h2>
             <ul>{resultsList}</ul>
           </div>
-        ) : searchParams.title ? (
+        ) : searchParams.searchTerm ? (
           <div>
             <br />
             <h2>No results found.</h2>
