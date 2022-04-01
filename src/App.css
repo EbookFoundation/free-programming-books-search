@@ -299,9 +299,9 @@ footer {
   box-sizing: border-box;
 }
 
-.white-content {
-  background-color: white;
-  color: black;
+.dark-content {
+  background-color: black;
+  color: white;
 }
 
 .frontPage {
