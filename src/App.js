@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Fuse from "fuse.js";
 
-import LangDropdown from "./components/LangDropdown";
+import LangFilters from "./components/LangFilters";
 import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
@@ -182,15 +182,66 @@ function App() {
         $and: query,
       });
       result = result.slice(0, 40);
-      setSearchResults(result);
 
-      let sResults = []; // section results
-      // Finds the most relevant sections
+      // Goes through the list of results
+      let relevantLists = [];
       result.forEach((entry) => {
-        let section = entry.item.section;
-        if (!sResults.includes(section)) sResults.push(section);
+        // Checks if a new entry has already been made with the given programming language and human language.
+        let obj = relevantLists.find(
+          (o) => o.item.section === entry.item.section && o.item.lang.code === entry.item.lang.code
+        );
+        if (!obj && entry.item.lang.code) {
+          let langCode = entry.item.lang.code;
+          let section = entry.item.section;
+          // English is split into the subjects and langs file. The parser flags which type of entry it is to use here
+          if (langCode === "en") {
+            if (entry.item.lang.isSubject) {
+              langCode = "subjects";
+            } else {
+              langCode = "langs";
+            }
+          }
+
+          // List of id properties fixed with this line:
+          // 1. Must be all lowercase
+          // 2. Spaces are hyphens
+          // 3. Ampersands aren't allowed at all
+          let id = entry.item.section.toLowerCase().replaceAll(" ", "-").replace("&", "");
+
+          // C++ has some wacky behavior with it's id, so the fix is hardcoded
+          if (id.includes("cpp")) {
+            id = "cpp";
+            section = "C++";
+          }
+
+          // Creates a listing for the broader list of entries
+          let listing = {
+            item: {
+              author: "",
+              lang: entry.item.lang,
+              section: entry.item.section,
+              title: `List of all ${section} resources in ${entry.item.lang.name}`,
+              url: `https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-${langCode}.html#${id}`,
+            },
+          };
+
+          relevantLists.push(listing);
+        }
       });
-      setSectionResults(sResults);
+      // Keep only the first 5 as more than that became cumbersome with broad searches
+      relevantLists = relevantLists.slice(0, 5);
+      result = relevantLists.concat(result);
+      setSearchResults(result);
+      console.log(result);
+
+      // No longer needed as the sections aren't being used
+      // let sResults = []; // section results
+      // // Finds the most relevant sections
+      // result.forEach((entry) => {
+      //   let section = entry.item.section;
+      //   if (!sResults.includes(section)) sResults.push(section);
+      // });
+      // setSectionResults(sResults);
     }
   }, [searchParams, dataArray]);
 
@@ -201,46 +252,31 @@ function App() {
   if (error) {
     return <h1>Error: {error}</h1>;
   }
+
   if (searchParams.title && searchResults.length !== 0) {
     resultsList =
       searchResults &&
       searchResults.map((entry) => {
         return <SearchResult data={entry.item} />;
       });
-    sectionResultsList =
-      sectionResults &&
-      sectionResults.map((section) => {
-        return (
-          <button
-            onClick={() => {
-              changeParameter("section", section);
-            }}
-          >
-            {section}
-          </button>
-        );
-      });
+    // Getting rid of the section results UI renders this irrelevant
+    // sectionResultsList =
+    //   sectionResults &&
+    //   sectionResults.map((section) => {
+    //     return (
+    //       <button
+    //         onClick={() => {
+    //           changeParameter("section", section);
+    //         }}
+    //       >
+    //         {section}
+    //       </button>
+    //     );
+    //   });
   }
   return (
-    <div
-      className="wrapper"
-      // style={{
-      //   color: lightMode ? "black" : "white",
-      //   backgroundColor: lightMode ? "white" : "black",
-      // }}
-    >
+    <div className="wrapper">
       <header className="header">
-        {/* <img
-          src={lightMode ? SunImg : MoonImg}
-          onClick={() => setLightMode(!lightMode)}
-          style={{
-            width: "100px",
-            height: "100px",
-            display: "block",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        /> */}
         <h1>
           <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
             free-programming-books
@@ -272,18 +308,18 @@ function App() {
           </a>
         </p>
 
-        
         <div>
           <SearchBar changeParameter={changeParameter} />
 
           {/* Filters */}
-          <LangDropdown changeParameter={changeParameter} data={data} />
-          <SectDropdown
+          <LangFilters changeParameter={changeParameter} data={data} />
+          {/* Keeping sections commented out just in case */}
+          {/* <SectDropdown
             className="sect-drop"
             changeParameter={changeParameter}
             data={data}
             value={searchParams["section"] || "allSects"}
-          />
+          /> */}
           {/* {sectionResultsList && <h3>Suggestions based on your search</h3>}
           <div className="search-results section-results">{sectionResultsList}</div> */}
         </div>
