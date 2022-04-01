@@ -161,12 +161,18 @@ function App() {
         threshold: 0.2, // threshold for fuzzy-search,
         keys: ["author", "title", "lang.code", "section"],
       };
+
+      // create new fuse given the array of books and the fuse options from above
       let fuse = new Fuse(dataArray, fuseOptions);
       let andQuery = []; // for filters that MUST be matched, like language
       let orQuery = []; // filters where any may be matched, like author or title
+
+      // for each search param
       for (const [key, value] of Object.entries(searchParams)) {
         if (value === null || value === "") continue;
         if (key === "lang.code" || key === "section") {
+          // the '^' means it must be an exact match at the beginning
+          // this is because lang.code and section are strict filters 
           andQuery.push({ [key]: `^${value}` });
         }
         if(key === "searchTerm") {
@@ -179,7 +185,7 @@ function App() {
       andQuery.push({$or: orQuery})
       // Perform the search
       let result = fuse.search({
-        $and: andQuery
+        $and: andQuery,
       });
       // filter to top results
       result = result.slice(0, 40);
