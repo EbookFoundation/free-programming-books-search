@@ -1,5 +1,6 @@
 import React, { useState, useEffect, createContext } from "react";
 import LangDropdown from "./components/LangDropdown";
+import LangFilters from "./components/LangFilters";
 import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
@@ -110,7 +111,7 @@ function App() {
   // eslint-disable-next-line
   const [index, setIndex] = useState([]); // used for "table of contents". currently unused
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
-  const [searchParams, setSearchParams] = useState({ title: "" });
+  const [searchParams, setSearchParams] = useState({ searchTerm: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [sectionResults, setSectionResults] = useState([]);
 const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
@@ -139,7 +140,6 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
         );
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
-        console.log(arr);
         setDataArray(arr);
         setIndex(sections);
       } catch (e) {
@@ -155,46 +155,112 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
   }, []);
 
   // fires when searchTerm changes
-  // THIS IS THE MAIN SEARCH FUNCTION CURRENTLY
+   // Finds most relevant title or author
+  // THIS IS THE MAIN SEARCH FUNCTION
   useEffect(() => {
     if (dataArray) {
-      // Finds most relevant titles
       const fuseOptions = {
-        useExtendedSearch: true,
-        findAllMatches: true,
-        shouldSort: true,
-        includeScore: true,
-        threshold: 0.2,
-        keys: ["title", "lang.code", "section"],
+        useExtendedSearch: true, // see fuse.js documentation
+        findAllMatches: true, //continue searching after first match
+        shouldSort: true, // sort by proximity score
+        includeScore: true, // includes score in results
+        threshold: 0.2, // threshold for fuzzy-search,
+        keys: ["author", "title", "lang.code", "section"],
       };
 
+      // create new fuse given the array of books and the fuse options from above
       let fuse = new Fuse(dataArray, fuseOptions);
-      let query = [];
+      let andQuery = []; // for filters that MUST be matched, like language
+      let orQuery = []; // filters where any may be matched, like author or title
+
+      // for each search param
       for (const [key, value] of Object.entries(searchParams)) {
         if (value === null || value === "") continue;
-        if (key === "lang.code") {
-          query.push({ "lang.code": `^${value}` });
-          continue;
+        if (key === "lang.code" || key === "section") {
+          // the '^' means it must be an exact match at the beginning
+          // this is because lang.code and section are strict filters 
+          andQuery.push({ [key]: `^${value}` });
         }
-        if (key === "section"){
-          query.push({"section": `^${value}`});
-          continue;
+        if(key === "searchTerm") {
+          orQuery.push({ "author": value});
+          orQuery.push({ "title": value});
         }
-        query.push({ [key]: value });
       }
+      // Nest the 'or' query inside the 'and' query
+      // Necessary step, a quirk with fuse.js
+      andQuery.push({$or: orQuery})
+      // Perform the search
       let result = fuse.search({
-        $and: query,
+        $and: andQuery,
       });
+      // filter to top results
       result = result.slice(0, 40);
-      setSearchResults(result);
 
-      let sResults = []; // section results
-      // Finds the most relevant sections
+      // Goes through the list of results
+      let relevantLists = [];
       result.forEach((entry) => {
-        let section = entry.item.section;
-        if (!sResults.includes(section)) sResults.push(section);
+        // Checks if a new entry has already been made with the given programming language and human language.
+        let obj = relevantLists.find(
+          (o) => o.item.section === entry.item.section && o.item.lang.code === entry.item.lang.code
+        );
+        if (!obj && entry.item.lang.code) {
+          let langCode = entry.item.lang.code;
+          let section = entry.item.subsection ? entry.item.subsection : entry.item.section;
+          // English is split into the subjects and langs file. The parser flags which type of entry it is to use here
+          if (langCode === "en") {
+            if (entry.item.lang.isSubject) {
+              langCode = "subjects";
+            } else {
+              langCode = "langs";
+            }
+          }
+
+          let id = section;
+          
+          // Some ids are in HTML tags, so this will extract that id to form proper links
+          if (id.includes("<a")) {
+            let x = id.match(/"(.*?)"/)[0];
+            id = x ? x.replaceAll(/\"/g, "") : "FAIL";
+            section = id;
+          }
+
+          // List of id properties fixed with this line:
+          // 1. Must be all lowercase
+          // 2. Spaces are hyphens
+          // 3. Parentheses, ampersands, and slashes aren't allowed at all
+          id = id
+            .toLowerCase()
+            .replaceAll(" ", "-")
+            .replaceAll(/\(|\)|\&|\/|\./g, "");
+
+          // Creates a listing for the broader list of entries
+          let listing = {
+            item: {
+              author: "",
+              lang: entry.item.lang,
+              section: entry.item.section,
+              title: `List of all ${section} resources in ${entry.item.lang.name}`,
+              url: `https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-${langCode}.html#${id}`,
+            },
+          };
+
+          relevantLists.push(listing);
+        }
       });
-      setSectionResults(sResults);
+      // Keep only the first 5 as more than that became cumbersome with broad searches
+      relevantLists = relevantLists.slice(0, 5);
+      result = relevantLists.concat(result);
+      setSearchResults(result);
+      // console.log(result);
+
+      // No longer needed as the sections aren't being used
+      // let sResults = []; // section results
+      // // Finds the most relevant sections
+      // result.forEach((entry) => {
+      //   let section = entry.item.section;
+      //   if (!sResults.includes(section)) sResults.push(section);
+      // });
+      // setSectionResults(sResults);
     }
   }, [searchParams, dataArray]);
 
@@ -205,17 +271,26 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
   if (error) {
     return <h1>Error: {error}</h1>;
   }
-  if (searchParams.title && searchResults.length !== 0) {
+  if (searchParams.searchTerm && searchResults.length !== 0) {
     resultsList =
       searchResults &&
       searchResults.map((entry) => {
         return <SearchResult data={entry.item} />;
       });
-    sectionResultsList =
-      sectionResults &&
-      sectionResults.map((section) => {
-        return <button onClick={() => {changeParameter("section", section); }}>{section}</button>;
-      });
+    // Getting rid of the section results UI renders this irrelevant
+    // sectionResultsList =
+    //   sectionResults &&
+    //   sectionResults.map((section) => {
+    //     return (
+    //       <button
+    //         onClick={() => {
+    //           changeParameter("section", section);
+    //         }}
+    //       >
+    //         {section}
+    //       </button>
+    //     );
+    //   });
   }
   return (
 
@@ -251,7 +326,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 
         <p>
           <img
-            class="emoji"
+            className="emoji"
             title=":books:"
             alt=":books:"
             src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
@@ -261,7 +336,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
           Freely available programming books
         </p>
 
-        <p class="view">
+        <p className="view">
           <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
             View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
           </a>
@@ -276,10 +351,17 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 
         <div>
           <SearchBar changeParameter={changeParameter} />
-          <LangDropdown changeParameter={changeParameter} data={data} />
-          <SectDropdown className="sect-drop" changeParameter={changeParameter} data={data} value={searchParams['section'] || "allSects"}/>
-          {sectionResultsList && <h3>Suggestions based on your search</h3>}
-          <div className="search-results section-results">{sectionResultsList}</div>
+          {/* Filters */}
+          <LangFilters changeParameter={changeParameter} data={data} />
+          {/* Keeping sections commented out just in case */}
+          {/* <SectDropdown
+            className="sect-drop"
+            changeParameter={changeParameter}
+            data={data}
+            value={searchParams["section"] || "allSects"}
+          /> */}
+          {/* {sectionResultsList && <h3>Suggestions based on your search</h3>}
+          <div className="search-results section-results">{sectionResultsList}</div> */}
         </div>
       </header>
 
@@ -289,6 +371,11 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
             <br />
             <h2>Search Results</h2>
             <ul>{resultsList}</ul>
+          </div>
+        ) : searchParams.searchTerm ? (
+          <div>
+            <br />
+            <h2>No results found.</h2>
           </div>
         ) : (
           <Default />
@@ -311,7 +398,6 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
           </small>
         </p>
       </footer>
-
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar(props) {
   const handleChange = (e) => {
-    props.changeParameter("title", e.target.value);
+    props.changeParameter("searchTerm", e.target.value);
   };
 
   return (
@@ -17,7 +17,7 @@ function SearchBar(props) {
         autoComplete="off"
         type="text"
         name="searchTerm"
-        placeholder="Enter Book Name"
+        placeholder="Search Book or Author"
         className="searchterm"
         onChange={handleChange}
       />
