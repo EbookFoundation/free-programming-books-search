@@ -296,8 +296,10 @@ footer {
 }
 
 .filters {
+  margin-top: -1em;
   max-height: 13em;
   overflow: scroll;
+  width: 15em;
 }
 
 .filterHeader {
