@@ -191,7 +191,7 @@ function App() {
         );
         if (!obj && entry.item.lang.code) {
           let langCode = entry.item.lang.code;
-          let section = entry.item.section;
+          let section = entry.item.subsection ? entry.item.subsection : entry.item.section;
           // English is split into the subjects and langs file. The parser flags which type of entry it is to use here
           if (langCode === "en") {
             if (entry.item.lang.isSubject) {
@@ -201,7 +201,7 @@ function App() {
             }
           }
 
-          let id = entry.item.section;
+          let id = section;
           
           // Some ids are in HTML tags, so this will extract that id to form proper links
           if (id.includes("<a")) {
@@ -209,7 +209,7 @@ function App() {
             id = x ? x.replaceAll(/\"/g, "") : "FAIL";
             section = id;
           }
-          
+
           // List of id properties fixed with this line:
           // 1. Must be all lowercase
           // 2. Spaces are hyphens
@@ -217,7 +217,7 @@ function App() {
           id = id
             .toLowerCase()
             .replaceAll(" ", "-")
-            .replaceAll(/\(|\)|\&|\//g, "");
+            .replaceAll(/\(|\)|\&|\/|\./g, "");
 
           // Creates a listing for the broader list of entries
           let listing = {
@@ -237,7 +237,7 @@ function App() {
       relevantLists = relevantLists.slice(0, 5);
       result = relevantLists.concat(result);
       setSearchResults(result);
-      console.log(result);
+      // console.log(result);
 
       // No longer needed as the sections aren't being used
       // let sResults = []; // section results
@@ -290,7 +290,7 @@ function App() {
 
         <p>
           <img
-            class="emoji"
+            className="emoji"
             title=":books:"
             alt=":books:"
             src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
@@ -300,7 +300,7 @@ function App() {
           Freely available programming books
         </p>
 
-        <p class="view">
+        <p className="view">
           <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
             View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
           </a>

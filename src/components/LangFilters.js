@@ -58,9 +58,9 @@ function LangFilters({ changeParameter, data }) {
     });
 
   let filterList = (
-    <form class="filters">
+    <form className="filters">
       <label>
-        <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+        <input type="radio" key="all" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
         All Languages
       </label>
       {options}
