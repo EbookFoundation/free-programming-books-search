@@ -3,79 +3,26 @@ import axios from "axios";
 import Fuse from "fuse.js";
 
 import LangFilters from "./components/LangFilters";
-import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
-import LightSwitch from "./components/LightSwitch";
 import Default from "./components/Default";
 
-import SunImg from "./img/sun.png";
-import MoonImg from "./img/moon.png";
 
-const fpb = null;
-
-// eslint-disable-next-line
-function makeBook(author, hLang, cLang, title, url) {
-  //returns a struct with basic book info (author, human language, computer language, book title, url)
-  return {
-    author: author,
-    hLang: hLang, //human language
-    cLang: cLang, //computer language
-    title: title,
-    url: url,
-  };
-}
-
-// eslint-disable-next-line
-function forEachBook(func, json) {
-  //Runs func on each section, entry, and book in json, which is a list of entries
-  if (typeof func !== "function") {
-    // eslint-disable-next-line
-    throw "ERROR in forEachBook: parameter not a fucntion";
-  }
-
-  for (const hLang in json) {
-    //for each human language
-    if (Array.isArray(hLang.sections)) {
-      //check if sections is an array
-      hLang.sections.forEach(
-        (
-          cLang //for each computer lanuage
-        ) => {
-          if (Array.isArray(cLang.entries)) {
-            //verify is entries is an array
-            cLang.entries.forEach(
-              (
-                book //for each book
-              ) => {
-                if (typeof book === "object") {
-                  //verify that book is an object
-                  func(json[hLang], cLang, book); //run the function
-                }
-              }
-            );
-          }
-        }
-      );
-    }
-  }
-}
-
-// Sorts search results by their score
-// eslint-disable-next-line
-function sortByScore(results) {
-  results.sort(function (a, b) {
-    return a.score - b.score;
-  });
-  return results;
-}
-
+// Converts json file into an array
+// Necessary to increase fuse.js search performance
 function jsonToArray(json) {
+  // list of all books
   let arr = [];
+  // list of all topics (sections)
   let sections = [];
+  // for each markdown document
   json.children[0].children.forEach((document) => {
+    // for each topic in the markdown
+    // these are typically h2 and h3 tags in the markdown
     document.sections.forEach((section) => {
+      // Add section to master list if it's not there
       if (!sections.includes(section.section)) sections.push(section.section);
+      // Add new entries that were under an h2 tag
       section.entries.forEach((entry) => {
         arr.push({
           author: entry.author,
@@ -85,6 +32,7 @@ function jsonToArray(json) {
           section: section.section,
         });
       });
+      // Add new entries that were under an h3 tag
       section.subsections.forEach((subsection) => {
         subsection.entries.forEach((entry) => {
           arr.push({
@@ -103,15 +51,20 @@ function jsonToArray(json) {
 }
 
 function App() {
-  const [data, setData] = useState(undefined); // keeps the state of the json
-  const [dataArray, setDataArray] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
-  // eslint-disable-next-line
-  const [index, setIndex] = useState([]); // used for "table of contents". currently unused
-  const [loading, setLoading] = useState(true); // Determines whether to show spinner
+  // keeps the state of the json
+  const [data, setData] = useState(undefined); 
+  // put all books into one array. uses more memory, but search is faster and less complex
+  const [dataArray, setDataArray] = useState([]);
+  // Keeps track if all resources are loaded
+  const [loading, setLoading] = useState(true);
+  // State keeping track of all search parameters
+  // use the changeParameter function to set, NOT setSearchParams
+  // changeParameter will retain the rest of the state
   const [searchParams, setSearchParams] = useState({ searchTerm: "" });
+  // array of all search results
   const [searchResults, setSearchResults] = useState([]);
+  // array of the topics the search results fall under
   const [sectionResults, setSectionResults] = useState([]);
-  const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -119,8 +72,9 @@ function App() {
   let resultsList = null; // the html string containing the search results
   let sectionResultsList = null;
 
+  // Used to change the search parameters state
+  // Heavily used in child components to set the state 
   const changeParameter = (param, value) => {
-    // Lets a child component set the value of the search term
     setSearchParams({ ...searchParams, [param]: value });
   };
 
@@ -135,13 +89,8 @@ function App() {
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
         setDataArray(arr);
-        setIndex(sections);
       } catch (e) {
-        // setError("Couldn't get data. Please try again later")
-        setData(fpb);
-        let { arr, sections } = jsonToArray(fpb);
-        setIndex(sections);
-        setDataArray(arr);
+        setError("Couldn't get data. Please try again later")
       }
       setLoading(false);
     }
@@ -158,6 +107,7 @@ function App() {
         findAllMatches: true, //continue searching after first match
         shouldSort: true, // sort by proximity score
         includeScore: true, // includes score in results
+        includeMatches: true,
         threshold: 0.2, // threshold for fuzzy-search,
         keys: ["author", "title", "lang.code", "section"],
       };
@@ -189,6 +139,7 @@ function App() {
       });
       // filter to top results
       result = result.slice(0, 40);
+      console.log(result)
 
       // Goes through the list of results
       let relevantLists = [];

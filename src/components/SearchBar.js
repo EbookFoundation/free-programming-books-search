@@ -1,6 +1,8 @@
 import React from "react";
 
 function SearchBar(props) {
+
+  // call function to change search parameters in the parent
   const handleChange = (e) => {
     props.changeParameter("searchTerm", e.target.value);
   };
