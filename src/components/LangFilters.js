@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function LangFilters({ changeParameter, data }) {
+function LangFilters({ changeParameter, data, langCode }) {
   const [languages, setLanguages] = useState([]);
   const [selected, setSelected] = useState("");
   const [showFilters, setShow] = useState(false);
@@ -10,6 +10,10 @@ function LangFilters({ changeParameter, data }) {
     changeParameter("lang.code", e.target.value);
     setSelected(e.target.value);
   };
+
+  useEffect(() => {
+    setSelected(langCode);
+  }, [langCode]);
 
   useEffect(
     // run whenever data changes
@@ -60,7 +64,14 @@ function LangFilters({ changeParameter, data }) {
   let filterList = (
     <form className="filters">
       <label>
-        <input type="radio" key="all" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+        <input
+          type="radio"
+          key="all"
+          className="sect-select"
+          value=""
+          onChange={handleChange}
+          checked={"" == selected}
+        />
         All Languages
       </label>
       {options}
@@ -71,7 +82,7 @@ function LangFilters({ changeParameter, data }) {
     <div className="langFilters">
       <div className="filterHeader">
         <h3>Filter by Language</h3>
-        <button onClick={() => setShow(!showFilters)}>{showFilters? "-" : "+"}</button>
+        <button onClick={() => setShow(!showFilters)}>{showFilters ? "-" : "+"}</button>
       </div>
       {showFilters ? filterList : ""}
     </div>

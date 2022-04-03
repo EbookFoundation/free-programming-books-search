@@ -31,7 +31,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 a {
@@ -339,7 +339,7 @@ a{
 }
 
 .result {
-  width: 30%;
+  /* width: 30%; */
   padding: 0.25em 0.5em;
 }
 
