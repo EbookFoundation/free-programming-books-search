@@ -22,7 +22,7 @@ function BookList({ langCode }) {
       setLoading(false);
     }
     fetchData();
-  }, []);
+  }, [langCode]);
 
   if (loading) {
     return <p>Loading...</p>;

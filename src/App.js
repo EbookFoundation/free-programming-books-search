@@ -51,10 +51,10 @@ function jsonToArray(json) {
 function App() {
   const [data, setData] = useState(undefined); // keeps the state of the json
   const [dataArray, setDataArray] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
-  // eslint-disable-next-line
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
   const [searchParams, setSearchParams] = useState({ searchTerm: "", "lang.code": ""});
   const [searchResults, setSearchResults] = useState([]);
+   // eslint-disable-next-line
   const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
   const [queries, setQueries] = useState({lang: "", subject: ""});
 
@@ -72,7 +72,7 @@ function App() {
   useEffect(() => {
     setQueries(queryString.parse(document.location.search));
     if (queries.lang) {
-      if (queries.lang == "langs" || queries.lang == "subjects") {
+      if (queries.lang === "langs" || queries.lang === "subjects") {
         changeParameter("lang.code", "en");
       } else {
         changeParameter("lang.code", queries.lang);
@@ -86,11 +86,12 @@ function App() {
           "https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json"
         );
         setData(result.data);
+         // eslint-disable-next-line
         let { arr, sections } = jsonToArray(result.data);
         setDataArray(arr);
       } catch (e) {
-        // setError("Couldn't get data. Please try again later")
         setData(fpb);
+         // eslint-disable-next-line
         let { arr, sections } = jsonToArray(fpb);
         setDataArray(arr);
       }
@@ -224,6 +225,7 @@ function App() {
           changeTheme(willBeDarkMode ? themes.light : themes.dark);
           return (
             <img
+              alt="Toggle light/dark mode"
               src={willBeDarkMode ? MoonImg : SunImg}
               onClick={() => {
                 setCookie("lightMode", willBeDarkMode);

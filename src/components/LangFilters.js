@@ -15,7 +15,7 @@ function LangFilters({ changeParameter, data, langCode }) {
   useEffect(() => {
     let queries = queryString.parse(document.location.search);
     if (queries.lang) {
-      if (queries.lang == "langs" || queries.lang == "subjects") {
+      if (queries.lang === "langs" || queries.lang === "subjects") {
         changeParameter("lang.code", "en");
         setSelected("en");
       } else {
@@ -23,7 +23,7 @@ function LangFilters({ changeParameter, data, langCode }) {
         setSelected(queries.lang);
       }
     }
-  }, []);
+  }, [changeParameter]);
 
   useEffect(
     // run whenever data changes
@@ -57,7 +57,7 @@ function LangFilters({ changeParameter, data, langCode }) {
             key={language.code}
             value={language.code}
             onChange={handleChange}
-            checked={language.code == selected}
+            checked={language.code === selected}
           />
           {language.name}
         </label>
@@ -80,7 +80,7 @@ function LangFilters({ changeParameter, data, langCode }) {
           className="sect-select"
           value=""
           onChange={handleChange}
-          checked={"" == selected}
+          checked={"" === selected}
         />
         All Languages
       </label>

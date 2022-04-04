@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 const queryString = require("query-string");
 
 function SearchBar(props) {
@@ -8,7 +8,7 @@ function SearchBar(props) {
       document.getElementById("searchBar").value = queries.search;
       props.changeParameter("searchTerm", queries.search);
     }
-  }, []);
+  }, [props]);
 
   const handleChange = (e) => {
     props.changeParameter("searchTerm", e.target.value);

@@ -24,7 +24,7 @@ function SectDropdown({ changeParameter, data, value }) {
             for (let i = 0; i < document.sections.length; i++) {
               // console.log("h")
               // console.log(document.sections[i]);
-              if (sectArray.indexOf(document.sections[i].section) == -1) {
+              if (sectArray.indexOf(document.sections[i].section) === -1) {
                 sectArray.push(document.sections[i].section.trim());
               }
               // sectArray.push(document.sections[i].section);
@@ -48,7 +48,7 @@ function SectDropdown({ changeParameter, data, value }) {
             key={section}
             value={section}
             onChange={handleChange}
-            checked={section == selected}
+            checked={section === selected}
           />
           {section}
         </label>
@@ -67,7 +67,7 @@ function SectDropdown({ changeParameter, data, value }) {
       <h3>Select Programming Language:</h3>
       <form class="filters">
         <label>
-          <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+          <input type="radio" className="sect-select" value="" onChange={handleChange} checked={"" === selected} />
           All Programming Languages
         </label>
         {options}

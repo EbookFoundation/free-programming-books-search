@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, createContext } from "react";
 
 //https://levelup.gitconnected.com/dark-mode-in-react-533faaee3c6e
 
