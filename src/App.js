@@ -55,12 +55,10 @@ function App() {
   const [dataArray, setDataArray] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
   // eslint-disable-next-line
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
-  const [searchParameters, setSearchParams] = useState({ searchTerm: "" });
+  const [searchParams, setSearchParams] = useState({ searchTerm: "", "lang.code": ""});
   const [searchResults, setSearchResults] = useState([]);
   const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
   const [queries, setQueries] = useState({lang: "", subject: ""});
-
-  const [lightMode, setLightMode] = useState(true);
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -69,13 +67,19 @@ function App() {
 
   const changeParameter = (param, value) => {
     // Lets a child component set the value of the search term
-    setSearchParams({ ...searchParameters, [param]: value });
+    setSearchParams({ ...searchParams, [param]: value });
   };
 
   // fetches data the first time the page renders
   useEffect(() => {
     setQueries(queryString.parse(document.location.search));
-    // console.log(queries);
+    if (queries.lang) {
+      if (queries.lang == "langs" || queries.lang == "subjects") {
+        changeParameter("lang.code", "en");
+      } else {
+        changeParameter("lang.code", queries.lang);
+      }
+    }
     swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
@@ -117,7 +121,7 @@ function App() {
       let orQuery = []; // filters where any may be matched, like author or title
 
       // for each search param
-      for (const [key, value] of Object.entries(searchParameters)) {
+      for (const [key, value] of Object.entries(searchParams)) {
         if (value === null || value === "") continue;
         if (key === "lang.code" || key === "section") {
           // the '^' means it must be an exact match at the beginning
@@ -183,7 +187,8 @@ function App() {
               lang: entry.item.lang,
               section: entry.item.section,
               title: `List of all ${section} resources in ${entry.item.lang.name}`,
-              url: `https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-${langCode}.html#${id}`,
+              url: `/free-programming-books-search?lang=${langCode}#${id}`,
+              samePage: true,
             },
           };
 
@@ -196,7 +201,7 @@ function App() {
       setSearchResults(result);
       // console.log(result);
     }
-  }, [searchParameters, dataArray]);
+  }, [searchParams, dataArray]);
 
   if (loading) {
     // if still fetching resource
@@ -205,7 +210,7 @@ function App() {
   if (error) {
     return <h1>Error: {error}</h1>;
   }
-  if (searchParameters.searchTerm && searchResults.length !== 0) {
+  if (searchParams.searchTerm && searchResults.length !== 0) {
     resultsList =
       searchResults &&
       searchResults.map((entry) => {
@@ -263,7 +268,7 @@ function App() {
 
         <div>
           <SearchBar changeParameter={changeParameter} />
-          <LangFilters changeParameter={changeParameter} data={data} langCode={searchParameters["lang.code"]} />
+          <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />
         </div>
       </header>
 
@@ -274,7 +279,7 @@ function App() {
             <h2>Search Results</h2>
             <ul>{resultsList}</ul>
           </div>
-        ) : searchParameters.searchTerm ? (
+        ) : searchParams.searchTerm ? (
           <div>
             <br />
             <h2>No results found.</h2>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function LangFilters({ changeParameter, data, langCode }) {
   const [languages, setLanguages] = useState([]);
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(langCode);
   const [showFilters, setShow] = useState(false);
   let options = null;
 
@@ -77,7 +77,7 @@ function LangFilters({ changeParameter, data, langCode }) {
       {options}
     </form>
   );
-
+  
   return (
     <div className="langFilters">
       <div className="filterHeader">

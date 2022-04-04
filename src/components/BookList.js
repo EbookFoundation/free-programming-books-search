@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import axios from "axios";
-import { useParams } from "react-router-dom";
-import rehypeSlug from 'rehype-slug'
-
-function BookList({changeParameter, langCode}) {
+import rehypeSlug from "rehype-slug";
+import rehypeRaw from "rehype-raw";
+function BookList({ langCode }) {
   let [markdown, setMarkdown] = useState(null);
   const [loading, setLoading] = useState(true);
 
-//   useEffect(() => {
-//     changeParameter('lang.code', langCode);
-//   }, [langCode]);
-    
 
   useEffect(() => {
     async function fetchData() {
@@ -22,17 +17,25 @@ function BookList({changeParameter, langCode}) {
         );
         setMarkdown(result.data);
       } catch (e) {
-        console.log("Couldn't get data. Please try again later")
+        console.log("Couldn't get data. Please try again later");
       }
       setLoading(false);
     }
     fetchData();
   }, []);
-  if(loading){
-      return <p>Loading...</p>
+  if (loading) {
+    return <p>Loading...</p>;
   }
-//   console.log(markdown);
-  return <section><ReactMarkdown children={markdown} rehypePlugins={[rehypeSlug]} skipHtml={true} /></section>;
+  //   console.log(markdown);
+  return (
+    <section>
+      <ReactMarkdown
+        children={markdown}
+        remarkRehypeOptions={{ allowDangerousHtml: true }}
+        rehypePlugins={[rehypeSlug, rehypeRaw]}
+      />
+    </section>
+  );
 }
 
 export default BookList;
