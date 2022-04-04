@@ -76,125 +76,125 @@ function Default() {
       <h3 id="books">Books</h3>
 
       <p>
-        <a href="/free-programming-books-search/books/langs/">English, By Programming Language</a>
+        <a href="/free-programming-books-search?lang=langs">English, By Programming Language</a>
       </p>
 
       <p>
-        <a href="/free-programming-books-search/books/subjects/">English, By Subject</a>
+        <a href="/free-programming-books-search?lang=subjects">English, By Subject</a>
       </p>
       <h4 id="other-languages">Other Languages</h4>
 
       <ul>
         <li>
-          <a href="/free-programming-books-search/books/ar/">Arabic / al arabiya / العربية</a>
+          <a href="/free-programming-books-search?lang=ar">Arabic / al arabiya / العربية</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/az/">Azerbaijani / Азәрбајҹан дили / آذربايجانجا ديلي</a>
+          <a href="/free-programming-books-search?lang=az">Azerbaijani / Азәрбајҹан дили / آذربايجانجا ديلي</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/bn/">Bengali / বাংলা</a>
+          <a href="/free-programming-books-search?lang=bn">Bengali / বাংলা</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/bg/">Bulgarian / български</a>
+          <a href="/free-programming-books-search?lang=bg">Bulgarian / български</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/my/">Burmese / မြန်မာဘာသာ</a>
+          <a href="/free-programming-books-search?lang=my">Burmese / မြန်မာဘာသာ</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/zh/">Chinese / 中文</a>
+          <a href="/free-programming-books-search?lang=zh">Chinese / 中文</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/cs/">Czech / čeština / český jazyk</a>
+          <a href="/free-programming-books-search?lang=cs">Czech / čeština / český jazyk</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/dk/">Danish / dansk</a>
+          <a href="/free-programming-books-search?lang=dk">Danish / dansk</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/nl/">Dutch / Nederlands</a>
+          <a href="/free-programming-books-search?lang=nl">Dutch / Nederlands</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/et/">Estonian / eesti keel</a>
+          <a href="/free-programming-books-search?lang=et">Estonian / eesti keel</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/fi/">Finnish / suomi / suomen kieli</a>
+          <a href="/free-programming-books-search?lang=fi">Finnish / suomi / suomen kieli</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/fr/">French / français</a>
+          <a href="/free-programming-books-search?lang=fr">French / français</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/de/">German / Deutsch</a>
+          <a href="/free-programming-books-search?lang=de">German / Deutsch</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/el/">Greek / ελληνικά</a>
+          <a href="/free-programming-books-search?lang=el">Greek / ελληνικά</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/he/">Hebrew / עברית</a>
+          <a href="/free-programming-books-search?lang=he">Hebrew / עברית</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/hi/">Hindi / हिन्दी</a>
+          <a href="/free-programming-books-search?lang=hi">Hindi / हिन्दी</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/hu/">Hungarian / magyar / magyar nyelv</a>
+          <a href="/free-programming-books-search?lang=hu">Hungarian / magyar / magyar nyelv</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/id/">Indonesian / Bahasa Indonesia</a>
+          <a href="/free-programming-books-search?lang=id">Indonesian / Bahasa Indonesia</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/it/">Italian / italiano</a>
+          <a href="/free-programming-books-search?lang=it">Italian / italiano</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/ja/">Japanese / 日本語</a>
+          <a href="/free-programming-books-search?lang=ja">Japanese / 日本語</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/ko/">Korean / 한국어 [韓國語]</a>
+          <a href="/free-programming-books-search?lang=ko">Korean / 한국어 [韓國語]</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/no/">Norwegian / Norsk</a>
+          <a href="/free-programming-books-search?lang=no">Norwegian / Norsk</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/fa_IR/">Persian / Farsi (Iran) / فارسى</a>
+          <a href="/free-programming-books-search?lang=fa_IR">Persian / Farsi (Iran) / فارسى</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/pl/">Polish / polski / język polski / polszczyzna</a>
+          <a href="/free-programming-books-search?lang=pl">Polish / polski / język polski / polszczyzna</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/pt_BR/">Portuguese (Brazil)</a>
+          <a href="/free-programming-books-search?lang=pt_BR">Portuguese (Brazil)</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/pt_PT/">Portuguese (Portugal)</a>
+          <a href="/free-programming-books-search?lang=pt_PT">Portuguese (Portugal)</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/ro/">Romanian (Romania) / limba română / român</a>
+          <a href="/free-programming-books-search?lang=ro">Romanian (Romania) / limba română / român</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/ru/">Russian / Русский язык</a>
+          <a href="/free-programming-books-search?lang=ru">Russian / Русский язык</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/sr/">Serbian / српски језик / srpski jezik</a>
+          <a href="/free-programming-books-search?lang=sr">Serbian / српски језик / srpski jezik</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/sk/">Slovak / slovenčina</a>
+          <a href="/free-programming-books-search?lang=sk">Slovak / slovenčina</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/es/">Spanish / español / castellano</a>
+          <a href="/free-programming-books-search?lang=es">Spanish / español / castellano</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/sv/">Swedish / Svenska</a>
+          <a href="/free-programming-books-search?lang=sv">Swedish / Svenska</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/ta/">Tamil / தமிழ்</a>
+          <a href="/free-programming-books-search?lang=ta">Tamil / தமிழ்</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/th/">Thai / ไทย</a>
+          <a href="/free-programming-books-search?lang=th">Thai / ไทย</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/tr/">Turkish / Türkçe</a>
+          <a href="/free-programming-books-search?lang=tr">Turkish / Türkçe</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/uk/">Ukrainian / Українська</a>
+          <a href="/free-programming-books-search?lang=uk">Ukrainian / Українська</a>
         </li>
         <li>
-          <a href="/free-programming-books-search/books/vi/">Vietnamese / Tiếng Việt</a>
+          <a href="/free-programming-books-search?lang=vi">Vietnamese / Tiếng Việt</a>
         </li>
       </ul>
 

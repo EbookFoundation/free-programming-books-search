@@ -10,6 +10,7 @@
     "axios": "^0.24.0",
     "fuse.js": "^6.4.6",
     "jQuery": "^1.7.4",
+    "query-string": "^7.1.1",
     "react": "^17.0.2",
     "react-cookie": "^4.1.1",
     "react-dom": "^17.0.2",

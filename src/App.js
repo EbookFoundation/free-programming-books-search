@@ -1,5 +1,4 @@
 import React, { useState, useEffect, createContext } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LangFilters from "./components/LangFilters";
 import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
@@ -15,6 +14,7 @@ import Default from "./components/Default";
 import SunImg from "./img/sun.png";
 import MoonImg from "./img/moon.png";
 import BookList from "./components/BookList";
+const queryString = require("query-string");
 
 const fpb = null;
 
@@ -54,11 +54,11 @@ function App() {
   const [data, setData] = useState(undefined); // keeps the state of the json
   const [dataArray, setDataArray] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
   // eslint-disable-next-line
-  const [index, setIndex] = useState([]); // used for "table of contents". currently unused
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
-  const [searchParams, setSearchParams] = useState({ searchTerm: "" });
+  const [searchParameters, setSearchParams] = useState({ searchTerm: "" });
   const [searchResults, setSearchResults] = useState([]);
   const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
+  const [queries, setQueries] = useState({lang: "", subject: ""});
 
   const [lightMode, setLightMode] = useState(true);
 
@@ -69,11 +69,13 @@ function App() {
 
   const changeParameter = (param, value) => {
     // Lets a child component set the value of the search term
-    setSearchParams({ ...searchParams, [param]: value });
+    setSearchParams({ ...searchParameters, [param]: value });
   };
 
   // fetches data the first time the page renders
   useEffect(() => {
+    setQueries(queryString.parse(document.location.search));
+    // console.log(queries);
     swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
@@ -84,12 +86,10 @@ function App() {
         setData(result.data);
         let { arr, sections } = jsonToArray(result.data);
         setDataArray(arr);
-        setIndex(sections);
       } catch (e) {
         // setError("Couldn't get data. Please try again later")
         setData(fpb);
         let { arr, sections } = jsonToArray(fpb);
-        setIndex(sections);
         setDataArray(arr);
       }
       setLoading(false);
@@ -117,7 +117,7 @@ function App() {
       let orQuery = []; // filters where any may be matched, like author or title
 
       // for each search param
-      for (const [key, value] of Object.entries(searchParams)) {
+      for (const [key, value] of Object.entries(searchParameters)) {
         if (value === null || value === "") continue;
         if (key === "lang.code" || key === "section") {
           // the '^' means it must be an exact match at the beginning
@@ -196,7 +196,7 @@ function App() {
       setSearchResults(result);
       // console.log(result);
     }
-  }, [searchParams, dataArray]);
+  }, [searchParameters, dataArray]);
 
   if (loading) {
     // if still fetching resource
@@ -205,114 +205,101 @@ function App() {
   if (error) {
     return <h1>Error: {error}</h1>;
   }
-  if (searchParams.searchTerm && searchResults.length !== 0) {
+  if (searchParameters.searchTerm && searchResults.length !== 0) {
     resultsList =
       searchResults &&
       searchResults.map((entry) => {
         return <SearchResult data={entry.item} />;
       });
   }
+
   return (
-    <BrowserRouter>
-      <div className="wrapper">
-        <ThemeContext.Consumer>
-          {({ changeTheme }) => {
-            let willBeDarkMode = cookies.lightMode && cookies.lightMode.toLowerCase() !== "true"; //whether or not we are currently light mode and will become dark mode
-            changeTheme(willBeDarkMode ? themes.light : themes.dark);
-            return (
-              <img
-                src={willBeDarkMode ? MoonImg : SunImg}
-                onClick={() => {
-                  setCookie("lightMode", willBeDarkMode);
-                  changeTheme(willBeDarkMode ? themes.light : themes.dark);
-                }}
-                style={{ width: "20px", height: "20px", display: "block", marginLeft: "auto" }}
-              />
-            );
-          }}
-        </ThemeContext.Consumer>
-        <header className="header">
-          <h1>
-            <a href="/free-programming-books-search/">
-              free-programming-books
-            </a>
-          </h1>
-
-          <p>
+    <div className="wrapper">
+      <ThemeContext.Consumer>
+        {({ changeTheme }) => {
+          let willBeDarkMode = cookies.lightMode && cookies.lightMode.toLowerCase() !== "true"; //whether or not we are currently light mode and will become dark mode
+          changeTheme(willBeDarkMode ? themes.light : themes.dark);
+          return (
             <img
-              className="emoji"
-              title=":books:"
-              alt=":books:"
-              src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
-              height="20"
-              width="20"
-            />{" "}
-            Freely available programming books
-          </p>
+              src={willBeDarkMode ? MoonImg : SunImg}
+              onClick={() => {
+                setCookie("lightMode", willBeDarkMode);
+                changeTheme(willBeDarkMode ? themes.light : themes.dark);
+              }}
+              style={{ width: "20px", height: "20px", display: "block", marginLeft: "auto" }}
+            />
+          );
+        }}
+      </ThemeContext.Consumer>
+      <header className="header">
+        <h1>
+          <a href="/free-programming-books-search/">free-programming-books</a>
+        </h1>
 
-          <p className="view">
-            <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
-              View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
-            </a>
-          </p>
-          <p>
-            Does a link not work?
-            <br />
-            <a
-              href="https://github.com/EbookFoundation/free-programming-books/issues/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Report an error on GitHub
-            </a>
-          </p>
+        <p>
+          <img
+            className="emoji"
+            title=":books:"
+            alt=":books:"
+            src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png"
+            height="20"
+            width="20"
+          />{" "}
+          Freely available programming books
+        </p>
 
+        <p className="view">
+          <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noreferrer">
+            View the Project on GitHub <small>EbookFoundation/free-programming-books</small>
+          </a>
+        </p>
+        <p>
+          Does a link not work?
+          <br />
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues/" target="_blank" rel="noreferrer">
+            Report an error on GitHub
+          </a>
+        </p>
+
+        <div>
+          <SearchBar changeParameter={changeParameter} />
+          <LangFilters changeParameter={changeParameter} data={data} langCode={searchParameters["lang.code"]} />
+        </div>
+      </header>
+
+      <section className="search-results">
+        {resultsList ? (
           <div>
-            <SearchBar changeParameter={changeParameter} />
-            <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />
+            <br />
+            <h2>Search Results</h2>
+            <ul>{resultsList}</ul>
           </div>
-        </header>
-
-        <section className="search-results">
-          {resultsList ? (
-            <div>
-              <br />
-              <h2>Search Results</h2>
-              <ul>{resultsList}</ul>
-            </div>
-          ) : searchParams.searchTerm ? (
-            <div>
-              <br />
-              <h2>No results found.</h2>
-            </div>
-          ) : (
-            <Routes>
-              <Route path="/free-programming-books-search" element={<Default />} />
-              <Route
-                path="/free-programming-books-search/books/:lang"
-                element={<BookList changeParameter={changeParameter} />}
-              />
-            </Routes>
-          )}
-        </section>
-        <footer>
-          <p>
-            This project is maintained by{" "}
-            <a href="https://github.com/EbookFoundation" target="_blank" rel="noreferrer">
-              EbookFoundation
+        ) : searchParameters.searchTerm ? (
+          <div>
+            <br />
+            <h2>No results found.</h2>
+          </div>
+        ) : (
+          (queries.lang) ? <BookList langCode={queries.lang}/> : <Default />
+        )}
+      </section>
+      <footer>
+        <p>
+          This project is maintained by{" "}
+          <a href="https://github.com/EbookFoundation" target="_blank" rel="noreferrer">
+            EbookFoundation
+          </a>
+        </p>
+        <p>
+          <small>
+            Hosted on GitHub Pages — Theme by{" "}
+            <a href="https://github.com/orderedlist" target="_blank" rel="noreferrer">
+              orderedlist
             </a>
-          </p>
-          <p>
-            <small>
-              Hosted on GitHub Pages — Theme by{" "}
-              <a href="https://github.com/orderedlist" target="_blank" rel="noreferrer">
-                orderedlist
-              </a>
-            </small>
-          </p>
-        </footer>
-      </div>
-    </BrowserRouter>
+          </small>
+        </p>
+      </footer>
+    </div>
   );
 }
 
