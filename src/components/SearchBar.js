@@ -1,6 +1,17 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+const queryString = require("query-string");
 
 function SearchBar(props) {
+  const [initSearch, setInitSearch] = useState("");
+
+  useEffect(() => {
+    let queries = queryString.parse(document.location.search);
+    if (queries.search) {
+      document.getElementById("searchBar").value = queries.search;
+      props.changeParameter("searchTerm", queries.search);
+    }
+  }, []);
+
   const handleChange = (e) => {
     props.changeParameter("searchTerm", e.target.value);
   };
@@ -14,10 +25,11 @@ function SearchBar(props) {
       className="searchbar"
     >
       <input
+        id="searchBar"
         autoComplete="off"
         type="text"
         name="searchTerm"
-        placeholder="Search Book or Author"
+        placeholder={"Search Book or Author"}
         className="searchterm"
         onChange={handleChange}
       />
