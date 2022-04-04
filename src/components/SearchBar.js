@@ -2,8 +2,6 @@ import React, {useEffect, useState} from "react";
 const queryString = require("query-string");
 
 function SearchBar(props) {
-  const [initSearch, setInitSearch] = useState("");
-
   useEffect(() => {
     let queries = queryString.parse(document.location.search);
     if (queries.search) {
