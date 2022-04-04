@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+const queryString = require("query-string");
 
 function LangFilters({ changeParameter, data, langCode }) {
   const [languages, setLanguages] = useState([]);
@@ -12,8 +13,17 @@ function LangFilters({ changeParameter, data, langCode }) {
   };
 
   useEffect(() => {
-    setSelected(langCode);
-  }, [langCode]);
+    let queries = queryString.parse(document.location.search);
+    if (queries.lang) {
+      if (queries.lang == "langs" || queries.lang == "subjects") {
+        changeParameter("lang.code", "en");
+        setSelected("en");
+      } else {
+        changeParameter("lang.code", queries.lang);
+        setSelected(queries.lang);
+      }
+    }
+  }, []);
 
   useEffect(
     // run whenever data changes
@@ -77,7 +87,7 @@ function LangFilters({ changeParameter, data, langCode }) {
       {options}
     </form>
   );
-  
+
   return (
     <div className="langFilters">
       <div className="filterHeader">

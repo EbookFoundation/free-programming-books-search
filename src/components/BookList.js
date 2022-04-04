@@ -3,10 +3,10 @@ import ReactMarkdown from "react-markdown";
 import axios from "axios";
 import rehypeSlug from "rehype-slug";
 import rehypeRaw from "rehype-raw";
+
 function BookList({ langCode }) {
   let [markdown, setMarkdown] = useState(null);
   const [loading, setLoading] = useState(true);
-
 
   useEffect(() => {
     async function fetchData() {
@@ -23,10 +23,11 @@ function BookList({ langCode }) {
     }
     fetchData();
   }, []);
+
   if (loading) {
     return <p>Loading...</p>;
   }
-  //   console.log(markdown);
+
   return (
     <section>
       <ReactMarkdown

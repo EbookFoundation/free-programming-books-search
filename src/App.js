@@ -1,9 +1,7 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect } from "react";
 import LangFilters from "./components/LangFilters";
-import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
-import LightSwitch from "./components/LightSwitch";
 import axios from "axios";
 import Fuse from "fuse.js";
 import { ThemeContext, themes, swapMode } from "./darkMode";
