@@ -299,14 +299,22 @@ footer {
   box-sizing: border-box;
 }
 
+
 .dark-content {
   background-color: black;
-  color: white;
 }
 
-.dark-content *{
-	color: white;
+.dark-content footer, .dark-content header,  .dark-content .search-results{
+	filter:invert(1);
 }
+
+
+.dark-content a{
+	filter: invert(1);
+	color: #58a0d3;
+}
+
+
 
 .frontPage {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
