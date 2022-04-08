@@ -82,7 +82,7 @@ function App() {
     swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
-        setLoading(true);
+        // setLoading(true);
         let result = await axios.get(
           "https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json"
         );
@@ -203,10 +203,10 @@ function App() {
     }
   }, [searchParams, dataArray]);
 
-  if (loading) {
-    // if still fetching resource
-    return <h1>Loading...</h1>;
-  }
+  // if (loading) {
+  //   // if still fetching resource
+  //   return <h1>Loading...</h1>;
+  // }
   if (error) {
     return <h1>Error: {error}</h1>;
   }
@@ -274,7 +274,9 @@ function App() {
       </header>
 
       <section className="search-results">
-        {resultsList ? (
+        {loading ? (
+          <p>Loading</p>
+        ) : resultsList ? (
           <div>
             <br />
             <h2>Search Results</h2>
