@@ -76,125 +76,323 @@ function Default() {
       <h3 id="books">Books</h3>
 
       <p>
-        <a href="/free-programming-books-search?lang=langs">English, By Programming Language</a>
+        <a href="/free-programming-books-search?sect=books&file=free-programming-books-langs&lang=langs">English, By Programming Language</a>
       </p>
 
       <p>
-        <a href="/free-programming-books-search?lang=subjects">English, By Subject</a>
+        <a href="/free-programming-books-search?sect=books&file=free-programming-books-subjects&lang=subjects">English, By Subject</a>
       </p>
       <h4 id="other-languages">Other Languages</h4>
 
       <ul>
         <li>
-          <a href="/free-programming-books-search?lang=ar">Arabic / al arabiya / العربية</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-ar&lang=ar">Arabic / al arabiya / العربية</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=az">Azerbaijani / Азәрбајҹан дили / آذربايجانجا ديلي</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-az&lang=az">Azerbaijani / Азәрбајҹан дили / آذربايجانجا ديلي</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=bn">Bengali / বাংলা</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-bn&lang=bn">Bengali / বাংলা</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=bg">Bulgarian / български</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-bg&lang=bg">Bulgarian / български</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=my">Burmese / မြန်မာဘာသာ</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-my&lang=my">Burmese / မြန်မာဘာသာ</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=zh">Chinese / 中文</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-zh&lang=zh">Chinese / 中文</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=cs">Czech / čeština / český jazyk</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-cs&lang=cs">Czech / čeština / český jazyk</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=dk">Danish / dansk</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-dk&lang=dk">Danish / dansk</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=nl">Dutch / Nederlands</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-nl&lang=nl">Dutch / Nederlands</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=et">Estonian / eesti keel</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-et&lang=et">Estonian / eesti keel</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=fi">Finnish / suomi / suomen kieli</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-fi&lang=fi">Finnish / suomi / suomen kieli</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=fr">French / français</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-fr&lang=fr">French / français</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=de">German / Deutsch</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-de&lang=de">German / Deutsch</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=el">Greek / ελληνικά</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-el&lang=el">Greek / ελληνικά</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=he">Hebrew / עברית</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-he&lang=he">Hebrew / עברית</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=hi">Hindi / हिन्दी</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-hi&lang=hi">Hindi / हिन्दी</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=hu">Hungarian / magyar / magyar nyelv</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-hu&lang=hu">Hungarian / magyar / magyar nyelv</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=id">Indonesian / Bahasa Indonesia</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-id&lang=id">Indonesian / Bahasa Indonesia</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=it">Italian / italiano</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-it&lang=it">Italian / italiano</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=ja">Japanese / 日本語</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-ja&lang=ja">Japanese / 日本語</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=ko">Korean / 한국어 [韓國語]</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-ko&lang=ko">Korean / 한국어 [韓國語]</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=no">Norwegian / Norsk</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-no&lang=no">Norwegian / Norsk</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=fa_IR">Persian / Farsi (Iran) / فارسى</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-fa_IR&lang=fa_IR">Persian / Farsi (Iran) / فارسى</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=pl">Polish / polski / język polski / polszczyzna</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-pl&lang=pl">Polish / polski / język polski / polszczyzna</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=pt_BR">Portuguese (Brazil)</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-pt_BR&lang=pt_BR">Portuguese (Brazil)</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=pt_PT">Portuguese (Portugal)</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-pt_PT&lang=pt_PT">Portuguese (Portugal)</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=ro">Romanian (Romania) / limba română / român</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-ro&lang=ro">Romanian (Romania) / limba română / român</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=ru">Russian / Русский язык</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-ru&lang=ru">Russian / Русский язык</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=sr">Serbian / српски језик / srpski jezik</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-sr&lang=sr">Serbian / српски језик / srpski jezik</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=sk">Slovak / slovenčina</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-sk&lang=sk">Slovak / slovenčina</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=es">Spanish / español / castellano</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-es&lang=es">Spanish / español / castellano</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=sv">Swedish / Svenska</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-sv&lang=sv">Swedish / Svenska</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=ta">Tamil / தமிழ்</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-ta&lang=ta">Tamil / தமிழ்</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=th">Thai / ไทย</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-th&lang=th">Thai / ไทย</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=tr">Turkish / Türkçe</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-tr&lang=tr">Turkish / Türkçe</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=uk">Ukrainian / Українська</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-uk&lang=uk">Ukrainian / Українська</a>
         </li>
         <li>
-          <a href="/free-programming-books-search?lang=vi">Vietnamese / Tiếng Việt</a>
+          <a href="/free-programming-books-search?sect=books&file=free-programming-books-vi&lang=vi">Vietnamese / Tiếng Việt</a>
+        </li>
+      </ul>
+
+      <h3 id="cheat-sheets">Cheat Sheets</h3>
+
+      <ul>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-cheatsheets">All Languages</a>
+        </li>
+      </ul>
+
+      <h3 id="free-online-courses">Free Online Courses</h3>
+
+      <ul>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-ar&lang=ar">Arabic / al arabiya / العربية</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-bn&lang=bn">Bengali / বাংলা</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-bg&lang=bg">Bulgarian / български</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-en&lang=en">English</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-fi&lang=fi">Finnish</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-fr&lang=fr">French / français</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-de&lang=de">German / Deutsch</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-el&lang=el">Greek / ελληνικά</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-he&lang=he">Hebrew / עברית</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-hi&lang=hi">Hindi / हिंदी</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-id&lang=id">Indonesian / Bahasa Indonesia</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-it&lang=it">Italian / italiano</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-ja&lang=ja">Japanese / 日本語</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-kk&lang=kk">Kazakh / қазақша</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-km&lang=km">Khmer / ភាសាខ្មែរ</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-ko&lang=ko">Korean / 한국어 [韓國語]</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-ml&lang=ml">Malayalam / മലയാളം</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-fa_IR&lang=fa_IR">Persian / Farsi (Iran) / فارسى</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-pl&lang=pl">
+            Polish / polski / język polski / polszczyzna
+          </a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-pt_BR&lang=pt_BR">Portuguese (Brazil)</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-pt_PT&lang=pt_PT">Portuguese (Portugal)</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-ru&lang=ru">Russian / Русский язык</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-si&lang=si">Sinhala / සිංහල</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-es&lang=es">Spanish / español / castellano</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-th&lang=th">Thai / ภาษาไทย</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-tr&lang=tr">Turkish / Türkçe</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-uk&lang=uk">Ukrainian / Українська</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=courses&file=free-courses-vi&lang=vi">Vietnamese / Tiếng Việt</a>
+        </li>
+      </ul>
+
+      <h3 id="interactive-programming-resources">Interactive Programming Resources</h3>
+
+      <ul>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-interactive-tutorials-zh&lang=zh">Chinese / 中文</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-interactive-tutorials-en&lang=en">English</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-interactive-tutorials-pt_BR&lang=pt_BR">
+            Portuguese (Brazil)
+          </a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-interactive-tutorials-ru&lang=ru">
+            Russian / Русский язык
+          </a>
+        </li>
+      </ul>
+
+      <h3 id="problem-sets-and-competitive-programming">Problem Sets and Competitive Programming</h3>
+
+      <ul>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=problem-sets-competitive-programming">Problem Sets</a>
+        </li>
+      </ul>
+
+      <h3 id="podcast---screencast">Podcast - Screencast</h3>
+
+      <p>Free Podcasts and Screencasts:</p>
+
+      <ul>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-ar">Arabic / al arabiya / العربية</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-cs">Czech / čeština / český jazyk</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-en">English</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-fi">Finnish / Suomi</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-fr">French / français</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-he">Hebrew / עברית</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-id">Indonesian / Bahasa Indonesia</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-fa_IR">
+            Persian / Farsi (Iran) / فارسى
+          </a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-pl">
+            Polish / polski / język polski / polszczyzna
+          </a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-pt_BR">Portuguese (Brazil)</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-pt_PT">Portuguese (Portugal)</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-ru">Russian / Русский язык</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-si">Sinhala / සිංහල</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-es">Spanish / español / castellano</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-sv">Swedish / Svenska</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=casts&file=free-podcasts-screencasts-tr">Turkish / Türkçe</a>
+        </li>
+      </ul>
+
+      <h3 id="programming-playgrounds">Programming Playgrounds</h3>
+
+      <ul>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-playgrounds-zh">Chinese / 中文</a>
+        </li>
+        <li>
+          <a href="/free-programming-books-search?sect=more&file=free-programming-playgrounds">English</a>
         </li>
       </ul>
 
@@ -210,20 +408,20 @@ function Default() {
           English
           <ul>
             <li>
-              <a href="/free-programming-books/docs/CODE_OF_CONDUCT.html">Code of Conduct</a>
+              <a href="/free-programming-books-search?sect=docs&file=CODE_OF_CONDUCT">Code of Conduct</a>
             </li>
             <li>
-              <a href="/free-programming-books/docs/CONTRIBUTING.html">Contributing</a>
+              <a href="/free-programming-books-search?sect=docs&file=CONTRIBUTING">Contributing</a>
             </li>
             <li>
-              <a href="/free-programming-books/docs/HOWTO.html">How-to</a>
+              <a href="/free-programming-books-search?sect=docs&file=HOWTO">How-to</a>
             </li>
           </ul>
         </li>
         <li>
           …{" "}
           <em>
-            <a href="/free-programming-books/docs/#translations">More languages</a>
+            <a href="/free-programming-books-search?sect=docs&file=README">More languages</a>
           </em>{" "}
           …
         </li>

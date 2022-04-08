@@ -52,11 +52,11 @@ function App() {
   const [data, setData] = useState(undefined); // keeps the state of the json
   const [dataArray, setDataArray] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
-  const [searchParams, setSearchParams] = useState({ searchTerm: "", "lang.code": ""});
+  const [searchParams, setSearchParams] = useState({ searchTerm: "", "lang.code": "" });
   const [searchResults, setSearchResults] = useState([]);
-   // eslint-disable-next-line
+  // eslint-disable-next-line
   const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
-  const [queries, setQueries] = useState({lang: "", subject: ""});
+  const [queries, setQueries] = useState({ lang: "", subject: "" });
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
@@ -78,6 +78,7 @@ function App() {
         changeParameter("lang.code", queries.lang);
       }
     }
+
     swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
@@ -86,12 +87,12 @@ function App() {
           "https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json"
         );
         setData(result.data);
-         // eslint-disable-next-line
+        // eslint-disable-next-line
         let { arr, sections } = jsonToArray(result.data);
         setDataArray(arr);
       } catch (e) {
         setData(fpb);
-         // eslint-disable-next-line
+        // eslint-disable-next-line
         let { arr, sections } = jsonToArray(fpb);
         setDataArray(arr);
       }
@@ -284,8 +285,10 @@ function App() {
             <br />
             <h2>No results found.</h2>
           </div>
+        ) : queries.file && queries.sect ? (
+          <BookList file={queries.file} sect={queries.sect} />
         ) : (
-          (queries.lang) ? <BookList langCode={queries.lang}/> : <Default />
+          <Default />
         )}
       </section>
       <footer>

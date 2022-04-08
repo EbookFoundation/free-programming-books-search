@@ -22,8 +22,11 @@ function LangFilters({ changeParameter, data, langCode }) {
         changeParameter("lang.code", queries.lang);
         setSelected(queries.lang);
       }
+    } else {
+      changeParameter("lang.code", "");
+      setSelected("")
     }
-  }, [changeParameter]);
+  }, []);
 
   useEffect(
     // run whenever data changes

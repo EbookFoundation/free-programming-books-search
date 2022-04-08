@@ -4,7 +4,7 @@ import axios from "axios";
 import rehypeSlug from "rehype-slug";
 import rehypeRaw from "rehype-raw";
 
-function BookList({ langCode }) {
+function BookList({ file, sect }) {
   let [markdown, setMarkdown] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -13,7 +13,7 @@ function BookList({ langCode }) {
       try {
         setLoading(true);
         let result = await axios.get(
-          `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/books/free-programming-books-${langCode}.md`
+          `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${sect}/${file}.md`
         );
         setMarkdown(result.data);
       } catch (e) {
@@ -22,7 +22,7 @@ function BookList({ langCode }) {
       setLoading(false);
     }
     fetchData();
-  }, [langCode]);
+  }, [file, sect]);
 
   if (loading) {
     return <p>Loading...</p>;
