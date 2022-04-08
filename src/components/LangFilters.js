@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+const queryString = require("query-string");
 
-function LangFilters({ changeParameter, data }) {
+function LangFilters({ changeParameter, data, langCode }) {
   const [languages, setLanguages] = useState([]);
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(langCode);
   const [showFilters, setShow] = useState(false);
   let options = null;
 
@@ -10,6 +11,22 @@ function LangFilters({ changeParameter, data }) {
     changeParameter("lang.code", e.target.value);
     setSelected(e.target.value);
   };
+
+  useEffect(() => {
+    let queries = queryString.parse(document.location.search);
+    if (queries.lang) {
+      if (queries.lang === "langs" || queries.lang === "subjects") {
+        changeParameter("lang.code", "en");
+        setSelected("en");
+      } else {
+        changeParameter("lang.code", queries.lang);
+        setSelected(queries.lang);
+      }
+    } else {
+      changeParameter("lang.code", "");
+      setSelected("")
+    }
+  }, []);
 
   useEffect(
     // run whenever data changes
@@ -43,7 +60,7 @@ function LangFilters({ changeParameter, data }) {
             key={language.code}
             value={language.code}
             onChange={handleChange}
-            checked={language.code == selected}
+            checked={language.code === selected}
           />
           {language.name}
         </label>
@@ -60,7 +77,14 @@ function LangFilters({ changeParameter, data }) {
   let filterList = (
     <form className="filters">
       <label>
-        <input type="radio" key="all" className="sect-select" value="" onChange={handleChange} checked={"" == selected} />
+        <input
+          type="radio"
+          key="all"
+          className="sect-select"
+          value=""
+          onChange={handleChange}
+          checked={"" === selected}
+        />
         All Languages
       </label>
       {options}
@@ -71,7 +95,7 @@ function LangFilters({ changeParameter, data }) {
     <div className="langFilters">
       <div className="filterHeader">
         <h3>Filter by Language</h3>
-        <button onClick={() => setShow(!showFilters)}>{showFilters? "-" : "+"}</button>
+        <button onClick={() => setShow(!showFilters)}>{showFilters ? "-" : "+"}</button>
       </div>
       {showFilters ? filterList : ""}
     </div>

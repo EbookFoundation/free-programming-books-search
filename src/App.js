@@ -1,75 +1,20 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, useEffect } from "react";
 import LangFilters from "./components/LangFilters";
-import SectDropdown from "./components/SectDropdown";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
 import axios from "axios";
 import Fuse from "fuse.js";
-import { ThemeContext, themes, swapMode } from './darkMode';
-import { useCookies } from 'react-cookie';
+import { ThemeContext, themes, swapMode } from "./darkMode";
+import { useCookies } from "react-cookie";
 
 import Default from "./components/Default";
 
 import SunImg from "./img/sun.png";
 import MoonImg from "./img/moon.png";
+import BookList from "./components/BookList";
+const queryString = require("query-string");
 
 const fpb = null;
-
-// eslint-disable-next-line
-function makeBook(author, hLang, cLang, title, url) {
-  //returns a struct with basic book info (author, human language, computer language, book title, url)
-  return {
-    author: author,
-    hLang: hLang, //human language
-    cLang: cLang, //computer language
-    title: title,
-    url: url,
-  };
-}
-
-// eslint-disable-next-line
-function forEachBook(func, json) {
-  //Runs func on each section, entry, and book in json, which is a list of entries
-  if (typeof func !== "function") {
-    // eslint-disable-next-line
-    throw "ERROR in forEachBook: parameter not a fucntion";
-  }
-
-  for (const hLang in json) {
-    //for each human language
-    if (Array.isArray(hLang.sections)) {
-      //check if sections is an array
-      hLang.sections.forEach(
-        (
-          cLang //for each computer lanuage
-        ) => {
-          if (Array.isArray(cLang.entries)) {
-            //verify is entries is an array
-            cLang.entries.forEach(
-              (
-                book //for each book
-              ) => {
-                if (typeof book === "object") {
-                  //verify that book is an object
-                  func(json[hLang], cLang, book); //run the function
-                }
-              }
-            );
-          }
-        }
-      );
-    }
-  }
-}
-
-// Sorts search results by their score
-// eslint-disable-next-line
-function sortByScore(results) {
-  results.sort(function (a, b) {
-    return a.score - b.score;
-  });
-  return results;
-}
 
 function jsonToArray(json) {
   let arr = [];
@@ -106,21 +51,17 @@ function jsonToArray(json) {
 function App() {
   const [data, setData] = useState(undefined); // keeps the state of the json
   const [dataArray, setDataArray] = useState([]); // put everything into one array. uses more memory, but search is faster and less complex
-  // eslint-disable-next-line
-  const [index, setIndex] = useState([]); // used for "table of contents". currently unused
   const [loading, setLoading] = useState(true); // Determines whether to show spinner
-  const [searchParams, setSearchParams] = useState({ searchTerm: "" });
+  const [searchParams, setSearchParams] = useState({ searchTerm: "", "lang.code": "" });
   const [searchResults, setSearchResults] = useState([]);
-  const [sectionResults, setSectionResults] = useState([]);
-const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
-
-  const [lightMode, setLightMode] = useState(true);
+  // eslint-disable-next-line
+  const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
+  const [queries, setQueries] = useState({ lang: "", subject: "" });
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
 
   let resultsList = null; // the html string containing the search results
-  let sectionResultsList = null;
 
   const changeParameter = (param, value) => {
     // Lets a child component set the value of the search term
@@ -129,7 +70,16 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 
   // fetches data the first time the page renders
   useEffect(() => {
-	swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode)
+    setQueries(queryString.parse(document.location.search));
+    if (queries.lang) {
+      if (queries.lang === "langs" || queries.lang === "subjects") {
+        changeParameter("lang.code", "en");
+      } else {
+        changeParameter("lang.code", queries.lang);
+      }
+    }
+
+    swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
         setLoading(true);
@@ -137,14 +87,13 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
           "https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json"
         );
         setData(result.data);
+        // eslint-disable-next-line
         let { arr, sections } = jsonToArray(result.data);
         setDataArray(arr);
-        setIndex(sections);
       } catch (e) {
-        // setError("Couldn't get data. Please try again later")
         setData(fpb);
+        // eslint-disable-next-line
         let { arr, sections } = jsonToArray(fpb);
-        setIndex(sections);
         setDataArray(arr);
       }
       setLoading(false);
@@ -153,7 +102,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
   }, []);
 
   // fires when searchTerm changes
-   // Finds most relevant title or author
+  // Finds most relevant title or author
   // THIS IS THE MAIN SEARCH FUNCTION
   useEffect(() => {
     if (dataArray) {
@@ -176,17 +125,17 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
         if (value === null || value === "") continue;
         if (key === "lang.code" || key === "section") {
           // the '^' means it must be an exact match at the beginning
-          // this is because lang.code and section are strict filters 
+          // this is because lang.code and section are strict filters
           andQuery.push({ [key]: `^${value}` });
         }
-        if(key === "searchTerm") {
-          orQuery.push({ "author": value});
-          orQuery.push({ "title": value});
+        if (key === "searchTerm") {
+          orQuery.push({ author: value });
+          orQuery.push({ title: value });
         }
       }
       // Nest the 'or' query inside the 'and' query
       // Necessary step, a quirk with fuse.js
-      andQuery.push({$or: orQuery})
+      andQuery.push({ $or: orQuery });
       // Perform the search
       let result = fuse.search({
         $and: andQuery,
@@ -214,7 +163,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
           }
 
           let id = section;
-          
+
           // Some ids are in HTML tags, so this will extract that id to form proper links
           if (id.includes("<a")) {
             let x = id.match(/"(.*?)"/)[0];
@@ -238,7 +187,8 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
               lang: entry.item.lang,
               section: entry.item.section,
               title: `List of all ${section} resources in ${entry.item.lang.name}`,
-              url: `https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-${langCode}.html#${id}`,
+              url: `/free-programming-books-search?lang=${langCode}#${id}`,
+              samePage: true,
             },
           };
 
@@ -250,15 +200,6 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
       result = relevantLists.concat(result);
       setSearchResults(result);
       // console.log(result);
-
-      // No longer needed as the sections aren't being used
-      // let sResults = []; // section results
-      // // Finds the most relevant sections
-      // result.forEach((entry) => {
-      //   let section = entry.item.section;
-      //   if (!sResults.includes(section)) sResults.push(section);
-      // });
-      // setSectionResults(sResults);
     }
   }, [searchParams, dataArray]);
 
@@ -275,51 +216,30 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
       searchResults.map((entry) => {
         return <SearchResult data={entry.item} />;
       });
-    // Getting rid of the section results UI renders this irrelevant
-    // sectionResultsList =
-    //   sectionResults &&
-    //   sectionResults.map((section) => {
-    //     return (
-    //       <button
-    //         onClick={() => {
-    //           changeParameter("section", section);
-    //         }}
-    //       >
-    //         {section}
-    //       </button>
-    //     );
-    //   });
   }
+
   return (
-
-    <div
-      className="wrapper"
-      // style={{
-      //   color: lightMode ? "black" : "white",
-      //   backgroundColor: lightMode ? "white" : "black",
-      // }}
-    >
-  		<ThemeContext.Consumer>
-		{ ({ changeTheme }) => {
-			let willBeDarkMode = (cookies.lightMode && cookies.lightMode.toLowerCase() !== "true") //whether or not we are currently light mode and will become dark mode
-			changeTheme(willBeDarkMode ? themes.light : themes.dark)
-			return (<img src={willBeDarkMode ? MoonImg : SunImg}
-			onClick = {()=>{
-							setCookie("lightMode",willBeDarkMode);
-							changeTheme(willBeDarkMode ? themes.light : themes.dark)
-							}} 
-							style={{width: "20px", height: "20px",display: "block",
-															  marginLeft: "auto"
-															  }}
-		/>)}
-		}
-		</ThemeContext.Consumer>
+    <div className="wrapper">
+      <ThemeContext.Consumer>
+        {({ changeTheme }) => {
+          let willBeDarkMode = cookies.lightMode && cookies.lightMode.toLowerCase() !== "true"; //whether or not we are currently light mode and will become dark mode
+          changeTheme(willBeDarkMode ? themes.light : themes.dark);
+          return (
+            <img
+              alt="Toggle light/dark mode"
+              src={willBeDarkMode ? MoonImg : SunImg}
+              onClick={() => {
+                setCookie("lightMode", willBeDarkMode);
+                changeTheme(willBeDarkMode ? themes.light : themes.dark);
+              }}
+              style={{ width: "20px", height: "20px", display: "block", marginLeft: "auto" }}
+            />
+          );
+        }}
+      </ThemeContext.Consumer>
       <header className="header">
-
         <h1>
-          <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
-            free-programming-books
-          </a>
+          <a href="/free-programming-books-search/">free-programming-books</a>
         </h1>
 
         <p>
@@ -349,17 +269,7 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
 
         <div>
           <SearchBar changeParameter={changeParameter} />
-          {/* Filters */}
-          <LangFilters changeParameter={changeParameter} data={data} />
-          {/* Keeping sections commented out just in case */}
-          {/* <SectDropdown
-            className="sect-drop"
-            changeParameter={changeParameter}
-            data={data}
-            value={searchParams["section"] || "allSects"}
-          /> */}
-          {/* {sectionResultsList && <h3>Suggestions based on your search</h3>}
-          <div className="search-results section-results">{sectionResultsList}</div> */}
+          <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />
         </div>
       </header>
 
@@ -375,11 +285,12 @@ const [cookies, setCookie, removeCookie] = useCookies(['lightMode']);
             <br />
             <h2>No results found.</h2>
           </div>
+        ) : queries.file && queries.sect ? (
+          <BookList file={queries.file} sect={queries.sect} />
         ) : (
           <Default />
         )}
       </section>
-
       <footer>
         <p>
           This project is maintained by{" "}
