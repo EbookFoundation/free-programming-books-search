@@ -268,8 +268,14 @@ function App() {
         </p>
 
         <div>
-          <SearchBar changeParameter={changeParameter} />
-          <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />
+          {loading ? (
+            <p />
+          ) : (
+            <div>
+              <SearchBar changeParameter={changeParameter} />{" "}
+              <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />{" "}
+            </div>
+          )}
         </div>
       </header>
 
