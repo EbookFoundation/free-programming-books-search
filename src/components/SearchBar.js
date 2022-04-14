@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
+const queryString = require("query-string");
 
 function SearchBar(props) {
+  useEffect(() => {
+    document.getElementById("searchBar").value = props.defaultTerm
+  }, []);
 
-  // call function to change search parameters in the parent
   const handleChange = (e) => {
     props.changeParameter("searchTerm", e.target.value);
   };
@@ -16,10 +19,11 @@ function SearchBar(props) {
       className="searchbar"
     >
       <input
+        id="searchBar"
         autoComplete="off"
         type="text"
         name="searchTerm"
-        placeholder="Search Book or Author"
+        placeholder={"Search Book or Author"}
         className="searchterm"
         onChange={handleChange}
       />

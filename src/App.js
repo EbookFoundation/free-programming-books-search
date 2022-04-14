@@ -1,15 +1,20 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
-import Fuse from "fuse.js";
-
 import LangFilters from "./components/LangFilters";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
+import axios from "axios";
+import Fuse from "fuse.js";
+import { ThemeContext, themes, swapMode } from "./darkMode";
+import { useCookies } from "react-cookie";
+
 import Default from "./components/Default";
 
+import SunImg from "./img/sun.png";
+import MoonImg from "./img/moon.png";
+import BookList from "./components/BookList";
+const queryString = require("query-string");
 
-// Converts json file into an array
-// Necessary to increase fuse.js search performance
+
 function jsonToArray(json) {
   // list of all books
   let arr = [];
@@ -60,17 +65,20 @@ function App() {
   // State keeping track of all search parameters
   // use the changeParameter function to set, NOT setSearchParams
   // changeParameter will retain the rest of the state
-  const [searchParams, setSearchParams] = useState({ searchTerm: "" });
+  let defaultSearch = queryString.parse(document.location.search).search || "";
+  const [searchParams, setSearchParams] = useState({ searchTerm: defaultSearch, "lang.code": "" });
   // array of all search results
   const [searchResults, setSearchResults] = useState([]);
   // array of the topics the search results fall under
   const [sectionResults, setSectionResults] = useState([]);
+  // eslint-disable-next-line
+  const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
+  const [queries, setQueries] = useState({ lang: "", subject: "" });
 
   // eslint-disable-next-line
   const [error, setError] = useState("");
 
   let resultsList = null; // the html string containing the search results
-  let sectionResultsList = null;
 
   // Used to change the search parameters state
   // Heavily used in child components to set the state 
@@ -80,13 +88,25 @@ function App() {
 
   // fetches data the first time the page renders
   useEffect(() => {
+    
+
+    swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
-        setLoading(true);
+        setQueries(queryString.parse(document.location.search));
+    if (queries.lang) {
+      if (queries.lang === "langs" || queries.lang === "subjects") {
+        changeParameter("lang.code", "en");
+      } else {
+        changeParameter("lang.code", queries.lang);
+      }
+    }
+        // setLoading(true);
         let result = await axios.get(
           "https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json"
         );
         setData(result.data);
+        // eslint-disable-next-line
         let { arr, sections } = jsonToArray(result.data);
         setDataArray(arr);
       } catch (e) {
@@ -98,7 +118,7 @@ function App() {
   }, []);
 
   // fires when searchTerm changes
-   // Finds most relevant title or author
+  // Finds most relevant title or author
   // THIS IS THE MAIN SEARCH FUNCTION
   useEffect(() => {
     if (dataArray) {
@@ -122,17 +142,17 @@ function App() {
         if (value === null || value === "") continue;
         if (key === "lang.code" || key === "section") {
           // the '^' means it must be an exact match at the beginning
-          // this is because lang.code and section are strict filters 
+          // this is because lang.code and section are strict filters
           andQuery.push({ [key]: `^${value}` });
         }
-        if(key === "searchTerm") {
-          orQuery.push({ "author": value});
-          orQuery.push({ "title": value});
+        if (key === "searchTerm") {
+          orQuery.push({ author: value });
+          orQuery.push({ title: value });
         }
       }
       // Nest the 'or' query inside the 'and' query
       // Necessary step, a quirk with fuse.js
-      andQuery.push({$or: orQuery})
+      andQuery.push({ $or: orQuery });
       // Perform the search
       let result = fuse.search({
         $and: andQuery,
@@ -161,7 +181,7 @@ function App() {
           }
 
           let id = section;
-          
+
           // Some ids are in HTML tags, so this will extract that id to form proper links
           if (id.includes("<a")) {
             let x = id.match(/"(.*?)"/)[0];
@@ -185,7 +205,8 @@ function App() {
               lang: entry.item.lang,
               section: entry.item.section,
               title: `List of all ${section} resources in ${entry.item.lang.name}`,
-              url: `https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-${langCode}.html#${id}`,
+              url: `/free-programming-books-search?lang=${langCode}#${id}`,
+              samePage: true,
             },
           };
 
@@ -197,22 +218,13 @@ function App() {
       result = relevantLists.concat(result);
       setSearchResults(result);
       // console.log(result);
-
-      // No longer needed as the sections aren't being used
-      // let sResults = []; // section results
-      // // Finds the most relevant sections
-      // result.forEach((entry) => {
-      //   let section = entry.item.section;
-      //   if (!sResults.includes(section)) sResults.push(section);
-      // });
-      // setSectionResults(sResults);
     }
   }, [searchParams, dataArray]);
 
-  if (loading) {
-    // if still fetching resource
-    return <h1>Loading...</h1>;
-  }
+  // if (loading) {
+  //   // if still fetching resource
+  //   return <h1>Loading...</h1>;
+  // }
   if (error) {
     return <h1>Error: {error}</h1>;
   }
@@ -222,28 +234,30 @@ function App() {
       searchResults.map((entry) => {
         return <SearchResult data={entry.item} />;
       });
-    // Getting rid of the section results UI renders this irrelevant
-    // sectionResultsList =
-    //   sectionResults &&
-    //   sectionResults.map((section) => {
-    //     return (
-    //       <button
-    //         onClick={() => {
-    //           changeParameter("section", section);
-    //         }}
-    //       >
-    //         {section}
-    //       </button>
-    //     );
-    //   });
   }
+
   return (
     <div className="wrapper">
+      <ThemeContext.Consumer>
+        {({ changeTheme }) => {
+          let willBeDarkMode = cookies.lightMode && cookies.lightMode.toLowerCase() !== "true"; //whether or not we are currently light mode and will become dark mode
+          changeTheme(willBeDarkMode ? themes.light : themes.dark);
+          return (
+            <img
+              alt="Toggle light/dark mode"
+              src={willBeDarkMode ? MoonImg : SunImg}
+              onClick={() => {
+                setCookie("lightMode", willBeDarkMode);
+                changeTheme(willBeDarkMode ? themes.light : themes.dark);
+              }}
+              style={{ width: "20px", height: "20px", display: "block", marginLeft: "auto" }}
+            />
+          );
+        }}
+      </ThemeContext.Consumer>
       <header className="header">
         <h1>
-          <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank" rel="noreferrer">
-            free-programming-books
-          </a>
+          <a href="/free-programming-books-search/">free-programming-books</a>
         </h1>
 
         <p>
@@ -272,23 +286,21 @@ function App() {
         </p>
 
         <div>
-          <SearchBar changeParameter={changeParameter} />
-          {/* Filters */}
-          <LangFilters changeParameter={changeParameter} data={data} />
-          {/* Keeping sections commented out just in case */}
-          {/* <SectDropdown
-            className="sect-drop"
-            changeParameter={changeParameter}
-            data={data}
-            value={searchParams["section"] || "allSects"}
-          /> */}
-          {/* {sectionResultsList && <h3>Suggestions based on your search</h3>}
-          <div className="search-results section-results">{sectionResultsList}</div> */}
+          {loading ? (
+            <p />
+          ) : (
+            <div>
+              <SearchBar changeParameter={changeParameter} defaultTerm={searchParams.searchTerm} />{" "}
+              <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />{" "}
+            </div>
+          )}
         </div>
       </header>
 
       <section className="search-results">
-        {resultsList ? (
+        {loading ? (
+          <p>Loading</p>
+        ) : resultsList ? (
           <div>
             <br />
             <h2>Search Results</h2>
@@ -299,11 +311,12 @@ function App() {
             <br />
             <h2>No results found.</h2>
           </div>
+        ) : queries.file && queries.sect ? (
+          <BookList file={queries.file} sect={queries.sect} />
         ) : (
           <Default />
         )}
       </section>
-
       <footer>
         <p>
           This project is maintained by{" "}

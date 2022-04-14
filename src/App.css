@@ -31,7 +31,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 a {
@@ -291,9 +291,62 @@ footer {
 
 .sect-drop {
   box-sizing: border-box;
-  width: 10rem;
-  align-self: center;
+  background-color: #222222;
+  color: white;
 }
+
+#root {
+  box-sizing: border-box;
+}
+
+
+.dark-content {
+  background-color: black;
+}
+
+.dark-content footer, .dark-content header,  .dark-content .search-results{
+	filter:invert(1);
+}
+
+
+.dark-content a{
+	filter: invert(1);
+	color: #58a0d3;
+}
+
+
+
+.frontPage {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  height: 100;
+  text-align: center;
+  justify-content: center;
+}
+
+.search-results {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  /* justify-content: normal ; */
+  align-content: flex-start;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.result {
+  /* width: 30%; */
+  padding: 0.25em 0.5em;
+}
+
 
 .filters {
   margin-top: -1em;
