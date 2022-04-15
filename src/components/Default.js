@@ -8,8 +8,14 @@ function Default() {
       <h1 id="list-of-free-learning-resources-in-many-languages">List of Free Learning Resources In Many Languages</h1>
 
       <div align="center">
-        <p><a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" /></a>
-        <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" /></a></p>
+        <p>
+          <a href="https://github.com/sindresorhus/awesome">
+            <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome" />
+          </a>
+          <a href="https://creativecommons.org/licenses/by/4.0/">
+            <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
+          </a>
+        </p>
       </div>
 
       <h2 id="intro">Intro</h2>
@@ -27,6 +33,29 @@ function Default() {
         one of <a href="https://octoverse.github.com/">GitHub’s most popular repositories</a>, with 221,000+ stars,
         6,900+ commits, 1,900+ contributors, and 47,100+ forks.
       </p>
+      <div align="center">
+        <p>
+          <a href="https://github.com/EbookFoundation/free-programming-books/network">
+            <img src="https://img.shields.io/github/forks/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=whitesmoke&amp;label=Forks" alt="GitHub repo forks"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/stargazers">
+              <img src="https://img.shields.io/github/stars/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=whitesmoke&amp;label=Stars" alt="GitHub repo stars"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/graphs/contributors">
+            <img src="https://img.shields.io/github/contributors-anon/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=whitesmoke&amp;label=Contributors" alt="GitHub repo contributors"/>
+          </a>
+          <br/>
+          <a href="https://github.com/sponsors/EbookFoundation">
+            <img src="https://img.shields.io/github/sponsors/EbookFoundation?style=flat&amp;logo=github&amp;logoColor=whitesmoke&amp;label=Sponsors" alt="GitHub org sponsors"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/watchers">
+            <img src="https://img.shields.io/github/watchers/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=whitesmoke&amp;label=Watchers" alt="GitHub repo watchers"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/archive/refs/heads/main.zip">
+            <img src="https://img.shields.io/github/repo-size/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=whitesmoke&amp;label=Repo%20Size" alt="GitHub repo size"/>
+          </a>
+        </p>
+      </div>
 
       <p>
         The <a href="https://ebookfoundation.org">Free Ebook Foundation</a> now administers the repo, a not-for-profit
@@ -39,11 +68,37 @@ function Default() {
 
       <p>
         Please read <a href="/free-programming-books/docs/CONTRIBUTING.html">CONTRIBUTING</a>. If you’re new to GitHub,{" "}
-        <a href="/free-programming-books/docs/HOWTO.html">welcome</a>! Remember to abide by our{" "}
+        <a href="/free-programming-books/docs/HOWTO.html">welcome</a>! Remember to abide by our adapted 
+        from <img src="https://img.shields.io/badge/Contributor%20Covenant-1.3-4baaaa.svg" alt="Contributor Covenant 1.3"></img>{" "}
         <a href="/free-programming-books/docs/CODE_OF_CONDUCT.html">Code of Conduct</a> too. (
         <a href="/free-programming-books/docs/#translations">translations</a> also available)
       </p>
-
+      <p>
+        Click on these badges to see how you might be able to help:
+      </p>
+      <div align="center">
+        <p>
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues">
+            <img src="https://img.shields.io/github/issues/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=red&amp;label=Issues" alt="GitHub repo Issues"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">
+            <img src="https://img.shields.io/github/issues/EbookFoundation/free-programming-books/good%20first%20issue?style=flat&amp;logo=github&amp;logoColor=green&amp;label=Good%20First%20issues" alt="GitHub repo Good Issues for newbies"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22">
+            <img src="https://img.shields.io/github/issues/EbookFoundation/free-programming-books/help%20wanted?style=flat&amp;logo=github&amp;logoColor=b545d1&amp;label=%22Help%20Wanted%22%20issues" alt="GitHub Help Wanted issues"/>
+          </a>  
+          <br/>
+          <a href="https://github.com/EbookFoundation/free-programming-books/pulls">
+            <img src="https://img.shields.io/github/issues-pr/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=orange&amp;label=PRs" alt="GitHub repo PRs"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/pulls?q=is%3Apr+is%3Amerged">
+            <img src="https://img.shields.io/github/issues-search/EbookFoundation/free-programming-books?style=flat&amp;logo=github&amp;logoColor=green&amp;label=Merged%20PRs&amp;query=is%3Amerged" alt="GitHub repo Merged PRs"/>
+          </a>&nbsp;
+          <a href="https://github.com/EbookFoundation/free-programming-books/pulls?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22">
+            <img src="https://img.shields.io/github/issues-pr/EbookFoundation/free-programming-books/help%20wanted?style=flat&amp;logo=github&amp;logoColor=b545d1&amp;label=%22Help%20Wanted%22%20PRs" alt="GitHub Help Wanted PRs"/>
+          </a>
+        </p>
+      </div>
       <h2 id="how-to-share">How to Share</h2>
 
       <ul>
