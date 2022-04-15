@@ -302,15 +302,18 @@ footer {
 
 .dark-content {
   background-color: black;
+  color: #D4CECD
 }
 
-.dark-content footer, .dark-content header,  .dark-content .search-results{
-	filter:invert(1);
+.dark-content h1, .dark-content h2, .dark-content h3, .dark-content h4, .dark-content h5, .dark-content h6 {
+	color: #DDDDDD !important;
 }
 
+.dark-content small{
+	color: #A29D9C
+}
 
 .dark-content a{
-	filter: invert(1);
 	color: #58a0d3;
 }
 
