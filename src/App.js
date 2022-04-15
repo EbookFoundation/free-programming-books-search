@@ -204,8 +204,8 @@ function App() {
               author: "",
               lang: entry.item.lang,
               section: entry.item.section,
-              title: `List of all ${section} resources in ${entry.item.lang.name}`,
-              url: `/free-programming-books-search?lang=${langCode}#${id}`,
+              title: `List of all ${section} books in ${entry.item.lang.name}`,
+              url: `/free-programming-books-search?sect=books&lang=${langCode}&file=free-programming-books-${langCode}#${section}`,
               samePage: true,
             },
           };
