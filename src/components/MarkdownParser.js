@@ -12,7 +12,7 @@ function MarkdownParser({ file, sect }) {
   useEffect(() => {
     async function fetchData() {
       try {
-        console.log({sect: sect, file: file});
+        // console.log({sect: sect, file: file});
         setLoading(true);
         let result = null;
         if (!sect && !file) { // Default to getting the README
@@ -21,11 +21,11 @@ function MarkdownParser({ file, sect }) {
           );
         } else if (!sect && file) { // Should only occur when getting a file in root directory
           result = await axios.get( 
-            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/LICENSE`
+            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${file}`
           );
         } else {
           result = await axios.get( // Both sect and file exist so construct a full URL
-            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${sect}/${file}.md`
+            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${sect}/${file}`
           );
         }
 
@@ -51,7 +51,7 @@ function MarkdownParser({ file, sect }) {
           rehypePlugins={[rehypeSlug, rehypeRaw]}
           components={{
             a({ node, inline, className, children, ...props }) {
-              if (props.href.startsWith("http")) {
+              if (props.href.startsWith("http") || props.href.charAt(0) === '#') {
                 return (
                   <a className={className} {...props}>
                     {children}
