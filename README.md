@@ -31,9 +31,9 @@ free-programming-books](https://ebookfoundation.github.io/free-programming-books
 
 ## Deployment
 1. First, make sure that you the local folder containing the files has a remote configured called "origin".
-1. If you aren't sure, navigate to the folder using Git (type "cd", then drag and drop folder in to Git command line.).
-2. Type `git init` 
-3. Type `git remote add origin <repo url>`,replacing <repo url> with the url of your github repository.
+	1. If you aren't sure, navigate to the folder using Git (type "cd", then drag and drop folder in to Git command line.).
+	2. Type `git init` 
+	3. Type `git remote add origin <repo url>`,replacing <repo url> with the url of your github repository.
 2. Now, run `npm run deploy`.
 3. This should deploy your code to "https:<username>.github.io/free-programming-books-search/"
 	
