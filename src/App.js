@@ -162,61 +162,61 @@ function App() {
       // console.log(result)
 
       // Goes through the list of results
-      let relevantLists = [];
-      result.forEach((entry) => {
-        // Checks if a new entry has already been made with the given programming language and human language.
-        let obj = relevantLists.find(
-          (o) => o.item.section === entry.item.section && o.item.lang.code === entry.item.lang.code
-        );
-        if (!obj && entry.item.lang.code) {
-          let langCode = entry.item.lang.code;
-          let section = entry.item.subsection ? entry.item.subsection : entry.item.section;
-          // English is split into the subjects and langs file. The parser flags which type of entry it is to use here
-          if (langCode === "en") {
-            if (entry.item.lang.isSubject) {
-              langCode = "subjects";
-            } else {
-              langCode = "langs";
-            }
-          }
+      // let relevantLists = [];
+      // result.forEach((entry) => {
+      //   // Checks if a new entry has already been made with the given programming language and human language.
+      //   let obj = relevantLists.find(
+      //     (o) => o.item.section === entry.item.section && o.item.lang.code === entry.item.lang.code
+      //   );
+      //   if (!obj && entry.item.lang.code) {
+      //     let langCode = entry.item.lang.code;
+      //     let section = entry.item.subsection ? entry.item.subsection : entry.item.section;
+      //     // English is split into the subjects and langs file. The parser flags which type of entry it is to use here
+      //     if (langCode === "en") {
+      //       if (entry.item.lang.isSubject) {
+      //         langCode = "subjects";
+      //       } else {
+      //         langCode = "langs";
+      //       }
+      //     }
 
-          // Consider moving function out of here
-          let id = section;
+      //     // Consider moving function out of here
+      //     let id = section;
 
-          // Some ids are in HTML tags, so this will extract that id to form proper links
-          if (id.includes("<a")) {
-            let x = id.match(/"(.*?)"/)[0];
-            id = x ? x.replaceAll(/\"/g, "") : "FAIL";
-            section = id;
-          }
+      //     // Some ids are in HTML tags, so this will extract that id to form proper links
+      //     if (id.includes("<a")) {
+      //       let x = id.match(/"(.*?)"/)[0];
+      //       id = x ? x.replaceAll(/\"/g, "") : "FAIL";
+      //       section = id;
+      //     }
 
-          // List of id properties fixed with this line:
-          // 1. Must be all lowercase
-          // 2. Spaces are hyphens
-          // 3. Parentheses, ampersands, and slashes aren't allowed at all
-          id = id
-            .toLowerCase()
-            .replaceAll(" ", "-")
-            .replaceAll(/\(|\)|\&|\/|\./g, "");
+      //     // List of id properties fixed with this line:
+      //     // 1. Must be all lowercase
+      //     // 2. Spaces are hyphens
+      //     // 3. Parentheses, ampersands, and slashes aren't allowed at all
+      //     id = id
+      //       .toLowerCase()
+      //       .replaceAll(" ", "-")
+      //       .replaceAll(/\(|\)|\&|\/|\./g, "");
 
-          // Creates a listing for the broader list of entries
-          let listing = {
-            item: {
-              author: "",
-              lang: entry.item.lang,
-              section: entry.item.section,
-              title: `List of all ${section} books in ${entry.item.lang.name}`,
-              url: `/free-programming-books-search?sect=books&lang=${langCode}&file=free-programming-books-${langCode}#${section}`,
-              samePage: true,
-            },
-          };
+      //     // Creates a listing for the broader list of entries
+      //     let listing = {
+      //       item: {
+      //         author: "",
+      //         lang: entry.item.lang,
+      //         section: entry.item.section,
+      //         title: `List of all ${section} books in ${entry.item.lang.name}`,
+      //         url: `/free-programming-books-search?sect=books&lang=${langCode}&file=free-programming-books-${langCode}#${section}`,
+      //         samePage: true,
+      //       },
+      //     };
 
-          relevantLists.push(listing);
-        }
-      });
-      // Keep only the first 5 as more than that became cumbersome with broad searches
-      relevantLists = relevantLists.slice(0, 5);
-      result = relevantLists.concat(result);
+      //     relevantLists.push(listing);
+      //   }
+      // });
+      // // Keep only the first 5 as more than that became cumbersome with broad searches
+      // relevantLists = relevantLists.slice(0, 5);
+      // result = relevantLists.concat(result);
       setSearchResults(result);
       // console.log(result);
     }
