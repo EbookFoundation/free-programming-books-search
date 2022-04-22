@@ -30,9 +30,9 @@ function ParsedLink({ children, sect, props }) {
   }, [props.href]);
 
   if (folder) {
-    return <a href={`/?&sect=${folder}&file=${file}`}>{children}</a>;
+    return <a href={`/free-programming-books-search/?&sect=${folder}&file=${file}`}>{children}</a>;
   } else {
-    return <a href={`/?file=${file}`}>{children}</a>;
+    return <a href={`/free-programming-books-search/?file=${file}`}>{children}</a>;
   }
 }
 
