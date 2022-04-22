@@ -270,8 +270,13 @@ footer {
   }
 }
 
+form {
+  visibility: hidden; 
+}
+
 .searchbar {
   padding-bottom: 0.3em;
+  visibility: visible;
 }
 
 .searchterm {
@@ -286,6 +291,7 @@ footer {
   border-radius: 0.3em;
   padding: 0.15em 0.15em 0.15em 0.15em;
   width: 15.4em;
+  visibility: visible;
 
 }
 
@@ -357,6 +363,7 @@ footer {
   overflow: scroll;
   width: 18em;
   overflow-x: hidden;
+  visibility: visible;
 }
 
 .filterHeader {
