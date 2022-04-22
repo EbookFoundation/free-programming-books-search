@@ -21,37 +21,39 @@ function jsonToArray(json) {
   // list of all topics (sections)
   let sections = [];
   // for each markdown document
-  json.children[0].children.forEach((document) => {
-    // for each topic in the markdown
-    // these are typically h2 and h3 tags in the markdown
-    document.sections.forEach((section) => {
-      // Add section to master list if it's not there
-      if (!sections.includes(section.section)) sections.push(section.section);
-      // Add new entries that were under an h2 tag
-      section.entries.forEach((entry) => {
-        arr.push({
-          author: entry.author,
-          title: entry.title,
-          url: entry.url,
-          lang: document.language,
-          section: section.section,
-        });
-      });
-      // Add new entries that were under an h3 tag
-      section.subsections.forEach((subsection) => {
-        subsection.entries.forEach((entry) => {
+  for (let i = 0; i < json.children.length; i++) {
+    json.children[i].children.forEach((document) => {
+      // for each topic in the markdown
+      // these are typically h2 and h3 tags in the markdown
+      document.sections.forEach((section) => {
+        // Add section to master list if it's not there
+        if (!sections.includes(section.section)) sections.push(section.section);
+        // Add new entries that were under an h2 tag
+        section.entries.forEach((entry) => {
           arr.push({
             author: entry.author,
             title: entry.title,
             url: entry.url,
             lang: document.language,
             section: section.section,
-            subsection: subsection.section,
+          });
+        });
+        // Add new entries that were under an h3 tag
+        section.subsections.forEach((subsection) => {
+          subsection.entries.forEach((entry) => {
+            arr.push({
+              author: entry.author,
+              title: entry.title,
+              url: entry.url,
+              lang: document.language,
+              section: section.section,
+              subsection: subsection.section,
+            });
           });
         });
       });
     });
-  });
+  }
   return { arr: arr, sections: sections };
 }
 
