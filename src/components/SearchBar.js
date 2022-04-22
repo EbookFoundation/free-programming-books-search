@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-const queryString = require("query-string");
 
 function SearchBar(props) {
   useEffect(() => {

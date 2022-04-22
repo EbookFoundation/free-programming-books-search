@@ -1,19 +1,17 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
+import Fuse from "fuse.js";
+import { useCookies } from "react-cookie";
+import queryString  from "query-string";
+
 import LangFilters from "./components/LangFilters";
 import SearchBar from "./components/SearchBar";
 import SearchResult from "./components/SearchResult";
-import axios from "axios";
-import Fuse from "fuse.js";
-import { ThemeContext, themes, swapMode } from "./darkMode";
-import { useCookies } from "react-cookie";
-
-import Default from "./components/Default";
+import MarkdownParser from "./components/MarkdownParser";
 
 import SunImg from "./img/sun.png";
 import MoonImg from "./img/moon.png";
-import MarkdownParser from "./components/MarkdownParser";
-const queryString = require("query-string");
-
+import { ThemeContext, themes, swapMode } from "./darkMode";
 
 function jsonToArray(json) {
   // list of all books
@@ -71,10 +69,7 @@ function App() {
   const [searchParams, setSearchParams] = useState({ searchTerm: defaultSearch, "lang.code": "" });
   // array of all search results
   const [searchResults, setSearchResults] = useState([]);
-  // array of the topics the search results fall under
-  const [sectionResults, setSectionResults] = useState([]);
-  // eslint-disable-next-line
-  const [cookies, setCookie, removeCookie] = useCookies(["lightMode"]);
+  const [cookies, setCookie, ] = useCookies(["lightMode"]);
   const [queries, setQueries] = useState({ lang: "", subject: "" });
 
   // eslint-disable-next-line

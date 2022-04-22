@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-const queryString = require("query-string");
+import queryString from "query-string";
 
 function LangFilters({ changeParameter, data, langCode }) {
   const [languages, setLanguages] = useState([]);

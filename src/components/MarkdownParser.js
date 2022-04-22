@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown";
 import axios from "axios";
+
+import ReactMarkdown from "react-markdown";
 import rehypeSlug from "rehype-slug";
 import rehypeRaw from "rehype-raw";
+
 import ParsedLink from "./ParsedLink";
 
 function MarkdownParser({ file, sect }) {
@@ -58,7 +60,7 @@ function MarkdownParser({ file, sect }) {
                   </a>
                 );
               }
-              return <ParsedLink node={node} children={children} className={className} sect={sect} props={props} />;
+              return <ParsedLink children={children} className={className} sect={sect} props={props} />;
             },
           }}
         />

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function ParsedLink({ node, children, className, sect, props }) {
+function ParsedLink({ children, sect, props }) {
   const [folder, setFolder] = useState(null);
   const [file, setFile] = useState(null);
 
@@ -9,7 +9,7 @@ function ParsedLink({ node, children, className, sect, props }) {
     // If there is only one entry then the folder is the root directory and the entry is the file
     let hrefSplit = props.href.split("/");
 
-    if (hrefSplit.length == 2) {
+    if (hrefSplit.length === 2) {
       // Case when the
       // Some docs reference back to the root directory which would give the folder ".."
       // When that happens, skip setting the folder as it should stay null.
