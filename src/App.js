@@ -11,7 +11,7 @@ import Default from "./components/Default";
 
 import SunImg from "./img/sun.png";
 import MoonImg from "./img/moon.png";
-import BookList from "./components/BookList";
+import MarkdownParser from "./components/MarkdownParser";
 const queryString = require("query-string");
 
 
@@ -87,9 +87,7 @@ function App() {
   };
 
   // fetches data the first time the page renders
-  useEffect(() => {
-    
-
+  useEffect(() => {  
     swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
@@ -159,7 +157,7 @@ function App() {
       });
       // filter to top results
       result = result.slice(0, 40);
-      console.log(result)
+      // console.log(result)
 
       // Goes through the list of results
       let relevantLists = [];
@@ -180,6 +178,7 @@ function App() {
             }
           }
 
+          // Consider moving function out of here
           let id = section;
 
           // Some ids are in HTML tags, so this will extract that id to form proper links
@@ -311,11 +310,9 @@ function App() {
             <br />
             <h2>No results found.</h2>
           </div>
-        ) : queries.file && queries.sect ? (
-          <BookList file={queries.file} sect={queries.sect} />
-        ) : (
-          <Default />
-        )}
+        ) : 
+          <MarkdownParser file={queries.file} sect={queries.sect} />
+        }
       </section>
       <footer>
         <p>
