@@ -35,7 +35,7 @@ MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 	1. If you aren't sure, navigate to the folder using Git (type "cd", then drag and drop folder in to Git command line.).
 	2. Type `git init` 
 	3. Type `git remote add origin <repo url>`,replacing <repo url> with the url of your github repository.
-2. Now, run 'npm install -g gh-pages'.
+2. Now, run `npm install -g gh-pages`.
 3. Run `npm run deploy`.
 4. This should deploy your code to "https:<username>.github.io/free-programming-books-search/"
 	
