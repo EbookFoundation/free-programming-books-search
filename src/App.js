@@ -101,7 +101,7 @@ function App() {
     }
         // setLoading(true);
         let result = await axios.get(
-          "https://raw.githubusercontent.com/FreeEbookFoundationBot/free-programming-books-json/main/fpb.json"
+          "https://raw.githubusercontent.com/EbookFoundation/free-programming-books-search/main/fpb.json"
         );
         setData(result.data);
         // eslint-disable-next-line
