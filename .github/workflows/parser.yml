@@ -1,0 +1,49 @@
+name: free-programming-books-parse
+
+on: 
+  workflow_dispatch:
+    inputs:
+      reason:
+        required: true
+        default: "update json files"
+  schedule:
+   - cron: '0 0 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout self
+      uses: actions/checkout@v2
+      with:
+        path: json
+    - name: Checkout programming books
+      uses: actions/checkout@v2
+      with:
+        repository: EbookFoundation/free-programming-books
+        path: fpb
+    - name: Checkout parser
+      uses: actions/checkout@v2
+      with:
+        repository: Senior-Design-2021-Ebook-Team/markdown-parser
+        path: parser
+
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14.x'
+    - run: npm install -g https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
+    - run: fpb-parse --output ./json/fpb.json
+    - name: Commit Changes
+      run: |
+        cd './json'
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git add -f 'fpb.json'
+        git commit -m "update fpb.json"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        directory: "./json"
