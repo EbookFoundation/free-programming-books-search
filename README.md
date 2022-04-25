@@ -50,9 +50,9 @@ MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 ## FAQ
  
 - What database are we using to store the books?
-	NONE! The books are stored in a json file which is downloaded locally.
+	- NONE! The books are stored in a json file which is downloaded locally.
 
 - I added a book but it's not showing up on search?
-	Give it some time. The parser is run once a day, so it may tak up to 24 hours for the search to reflect that.
+	- Give it some time. The parser is run once a day, so it may tak up to 24 hours for the search to reflect that.
 
 	
