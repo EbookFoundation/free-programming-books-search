@@ -13,6 +13,8 @@ free-programming-books](https://ebookfoundation.github.io/free-programming-books
 	- [NPM Installation](#npm-installation)
 	- [Running the Website](#running-the-website)
 - [Deployment](#deployment)
+- [How It All Works](#how-it-all-works)
+- [FAQ](#faq)
 
 ## Installation
 
@@ -28,7 +30,7 @@ free-programming-books](https://ebookfoundation.github.io/free-programming-books
 1. Make sure you have [Git](https://git-scm.com/downloads) installed. 
 2. Clone the repo from Github with Git.
 3. Navigate to the folder using command line. (easy way is to type "cd" and then drag and drop the folder into command line)
-4. Type `npm install -g`
+4. Type `npm install`
 5. Type `npm install react-scripts`
 6. Type `npm start`. At this point, the commnand prompt should start up the server, and a tab in your default browser should open up to localhost.
 
@@ -40,5 +42,20 @@ MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 	3. Type `git remote add origin <repo url>`,replacing <repo url> with the url of your github repository.
 2. Now, run `npm install -g gh-pages`.
 3. Run `npm run deploy`.
-4. This should deploy your code to "https:<username>.github.io/free-programming-books-search/"
+4. This should deploy your code to "https:yourusername.github.io/free-programming-books-search/"
+
+## How It All Works
+1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [
+free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a json file called fpb.json. 
+
+2. This Json is downloaded locally and searched locally when the actual search function is used. 
+
+## FAQ
+ 
+- What database are we using to store the books?
+	- NONE! The books are stored in a json file which is downloaded locally.
+
+- I added a book but it's not showing up on search?
+	- Give it some time. The parser is run once a day, so it may tak up to 24 hours for the search to reflect that.
+
 	
