@@ -17,17 +17,20 @@ function MarkdownParser({ file, sect }) {
         // console.log({sect: sect, file: file});
         setLoading(true);
         let result = null;
-        if (!sect && !file) { // Default to getting the README
-          result = await axios.get( 
-            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/README.md`
+        if (sect && file) {
+          // Both sect and file exist so construct the URL with both parameters
+          result = await axios.get(
+            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${sect}/${file}`
           );
-        } else if (!sect && file) { // Should only occur when getting a file in root directory
-          result = await axios.get( 
+        } else if (!sect && file) {
+          // Occurs when getting a file from the root directory
+          result = await axios.get(
             `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${file}`
           );
         } else {
-          result = await axios.get( // Both sect and file exist so construct a full URL
-            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/${sect}/${file}`
+          // Default to getting the README
+          result = await axios.get(
+            `https://raw.githubusercontent.com/EbookFoundation/free-programming-books/main/README.md`
           );
         }
 
@@ -44,36 +47,30 @@ function MarkdownParser({ file, sect }) {
     return <p>Loading...</p>;
   }
 
-  if (!sect || sect === "docs") {
-    return (
-      <section>
-        <ReactMarkdown
-          children={markdown}
-          remarkRehypeOptions={{ allowDangerousHtml: true }} // HTML is required for the all ids to be properly applied
-          rehypePlugins={[rehypeSlug, rehypeRaw]}
-          components={{
-            a({ node, inline, className, children, ...props }) {
-              if (props.href.startsWith("http") || props.href.charAt(0) === '#') {
-                return (
-                  <a className={className} {...props}>
-                    {children}
-                  </a>
-                );
-              }
-              return <ParsedLink children={children} className={className} sect={sect} props={props} />;
-            },
-          }}
-        />
-      </section>
-    );
+  if (!markdown) {
+    return <p>Error: Could not retrieve data.</p>;
   }
 
   return (
     <section>
       <ReactMarkdown
         children={markdown}
-        remarkRehypeOptions={{ allowDangerousHtml: true }} // HTML is required for the all ids to be properly applied
+        remarkRehypeOptions={{ allowDangerousHtml: true }} // HTML is required for the all ids to be targetable
         rehypePlugins={[rehypeSlug, rehypeRaw]}
+        components={{
+          // Replaces relative links in a markdown file with a parsed version of the link
+          // All other links are left untouched
+          a({ className, children, href, id}) {
+            if (href.startsWith("http") || href.charAt(0) === "#") {
+              return (
+                <a className={className} href={href} id={id}>
+                  {children}
+                </a>
+              );
+            }
+            return <ParsedLink children={children} className={className} sect={sect} href={href} id={id}/>;
+          },
+        }}
       />
     </section>
   );

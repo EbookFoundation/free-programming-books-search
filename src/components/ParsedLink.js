@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-function ParsedLink({ children, sect, props }) {
+function ParsedLink({ children, sect, href, id }) {
   const [folder, setFolder] = useState(null);
   const [file, setFile] = useState(null);
 
   useEffect(() => {
     // Splits the original link into the folder and file names
     // If there is only one entry then the folder is the root directory and the entry is the file
-    let hrefSplit = props.href.split("/");
+    let hrefSplit = href.split("/");
 
     if (hrefSplit.length === 2) {
-      // Case when the
       // Some docs reference back to the root directory which would give the folder ".."
       // When that happens, skip setting the folder as it should stay null.
       if (hrefSplit[0] !== "..") {
@@ -27,12 +26,14 @@ function ParsedLink({ children, sect, props }) {
         setFolder(null);
       }
     }
-  }, [props.href]);
+  }, [href]);
 
-  if (folder) {
-    return <a href={`/free-programming-books-search/?&sect=${folder}&file=${file}`}>{children}</a>;
-  } else {
-    return <a href={`/free-programming-books-search/?file=${file}`}>{children}</a>;
+  if (folder && file) {
+    return <a id={id} href={`/free-programming-books-search/?&sect=${folder}&file=${file}`}>{children}</a>;
+  } else if (file) {
+    return <a id={id} href={`/free-programming-books-search/?file=${file}`}>{children}</a>;
+  } else { // Go to the homepage when there's a bad relative URL
+    return <a id={id} href={`/free-programming-books-search/`}>{children}</a>
   }
 }
 
