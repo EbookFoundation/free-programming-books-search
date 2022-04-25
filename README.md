@@ -5,10 +5,13 @@ free-programming-books-search
 
 The 
 free-programming-books-search is a companion project of [
-free-programming-books](https://ebookfoundation.github.io/free-programming-books/). It allows users to search by book title or author and filter by language. 
+free-programming-books](https://ebookfoundation.github.io/free-programming-books/). It allows users to search by book title or author and filter by language. The search index is updated once per day, so changes made on [free-programming-books](https://ebookfoundation.github.io/free-programming-books/) may not be immediately reflected.
 
 ## Contents
+- [Contents](#contents)
 - [Installation](#installation)
+	- [NPM Installation](#npm-installation)
+	- [Running the Website](#running-the-website)
 - [Deployment](#deployment)
 
 ## Installation
