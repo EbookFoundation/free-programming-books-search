@@ -27,14 +27,14 @@ jobs:
     - name: Checkout parser
       uses: actions/checkout@v2
       with:
-        repository: Senior-Design-2021-Ebook-Team/markdown-parser
+        repository: EbookFoundation/free-programming-books-parser
         path: parser
 
     - name: Use Node.js
       uses: actions/setup-node@v1
       with:
         node-version: '14.x'
-    - run: npm install -g https://github.com/Senior-Design-2021-Ebook-Team/markdown-parser
+    - run: npm install -g https://github.com/EbookFoundation/free-programming-books-parser
     - run: fpb-parse --output ./json/fpb.json
     - name: Commit Changes
       run: |
