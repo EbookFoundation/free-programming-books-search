@@ -19881,6 +19881,20 @@
                      "subsections": []
                   },
                   {
+                     "section": "V",
+                     "entries": [
+                        {
+                           "url": "https://github.com/vlang/v/blob/HEAD/doc/docs.md",
+                           "title": "V Documentation",
+                           "author": "vlang.io",
+                           "notes": [
+                              "Markdown"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Verilog",
                      "entries": [
                         {
