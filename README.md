@@ -34,7 +34,7 @@ The free-programming-books-search is a companion project of [free-programming-bo
 3. Navigate to the folder using command line. A easy way is to type "cd" and then drag and drop the folder into command line.
 4. Type `npm install`.
 5. Type `npm install react-scripts`.
-6. Type `npm start`. At this point, the commnand prompt should start up the server, and a tab in your default browser should open up to localhost.
+6. Type `npm start`. At this point, the command prompt should start up the server, and a tab in your default browser should open up to localhost.
 
 ## Deployment
 
