@@ -19,7 +19,7 @@ The free-programming-books-search is a companion project of [free-programming-bo
 
 ### NPM Installation
 
-1. Make sure you have [Node.js](https://nodejs.org/en/) installed. If you already do, skip to [Running the Website](#running-the-website)
+1. Make sure you have [Node.js](https://nodejs.org/en/) installed. If you already do, skip to [Running the Website](#running-the-website).
 2. Otherwise, download the LTS installer from [Node.js](https://nodejs.org/en/) website.
 3. Follow the instructions of the installer, make sure npm is listed as a package to be installed.
 4. Click Install.
@@ -31,9 +31,9 @@ The free-programming-books-search is a companion project of [free-programming-bo
 
 1. Make sure you have [Git](https://git-scm.com/downloads) installed.
 2. Clone the repo from Github with Git.
-3. Navigate to the folder using command line. (easy way is to type "cd" and then drag and drop the folder into command line)
-4. Type `npm install`
-5. Type `npm install react-scripts`
+3. Navigate to the folder using command line. A easy way is to type "cd" and then drag and drop the folder into command line.
+4. Type `npm install`.
+5. Type `npm install react-scripts`.
 6. Type `npm start`. At this point, the commnand prompt should start up the server, and a tab in your default browser should open up to localhost.
 
 ## Deployment
@@ -42,11 +42,11 @@ MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 
 1. First, make sure that you the local folder containing the files has a remote configured called "origin".
 	1. If you aren't sure, navigate to the folder using Git (type "cd", then drag and drop folder in to Git command line.).
-	2. Type `git init`
-	3. Type `git remote add origin <repo url>`,replacing <repo url> with the url of your github repository.
+	2. Type `git init`.
+	3. Type `git remote add origin <repo url>`, replacing <repo url> with the url of your github repository.
 2. Now, run `npm install -g gh-pages`.
 3. Run `npm run deploy`.
-4. This should deploy your code to "https:yourusername.github.io/free-programming-books-search/"
+4. This should deploy your code to "https:yourusername.github.io/free-programming-books-search/".
 
 ## How It All Works
 
