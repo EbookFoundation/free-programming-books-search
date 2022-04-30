@@ -62,4 +62,3 @@ free-programming-books](https://ebookfoundation.github.io/free-programming-books
 
 - I added a book but it's not showing up on search?
 	- Give it some time. The parser is run once a day, so it may tak up to 24 hours for the search to reflect that.
-
