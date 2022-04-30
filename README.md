@@ -48,14 +48,14 @@ MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 ## How It All Works
 
 1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [
-free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a json file called `fpb.json`.
+free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a JSON file called `fpb.json`.
 
-2. This Json is downloaded locally and searched locally when the actual search function is used.
+2. This JSON is downloaded locally and searched locally when the actual search function is used.
 
 ## FAQ
 
 - What database are we using to store the books?
-	- NONE! The books are stored in a json file which is downloaded locally.
+	- NONE! The books are stored in a JSON file which is downloaded locally.
 
 - I added a book but it's not showing up on search?
 	- Give it some time. The parser is run once a day, so it may take up to 24 hours for the search to reflect that.
