@@ -39,6 +39,7 @@ The free-programming-books-search is a companion project of [free-programming-bo
 ## Deployment
 
 MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
+
 1. First, make sure that you the local folder containing the files has a remote configured called "origin".
 	1. If you aren't sure, navigate to the folder using Git (type "cd", then drag and drop folder in to Git command line.).
 	2. Type `git init`
