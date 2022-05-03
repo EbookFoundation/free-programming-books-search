@@ -34320,6 +34320,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAy0dU3C3_lNRTSTtqePEsI2",
                            "title": "Bootstrap 4‏",
                            "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAyvm7f--dc6XqkpfDcen_vQ",
+                           "title": "Bootstrap 5 Design 01 Bondi‏",
+                           "author": "Elzero Web School"
                         }
                      ],
                      "subsections": []
@@ -34338,6 +34343,11 @@
                   {
                      "section": "<a id=\"csharp\">",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY56xIDF6IX0hmZC6JYoGQkS",
+                           "title": "كورس Design Patternsبالعربي-ITI‏",
+                           "author": "Mobarmg"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLltZRmsFXWnIfLM0BKgJNZYVnvCDZNAh_",
                            "title": "C#‎‏",
@@ -34596,7 +34606,8 @@
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLF8OvnCBlEY0CRqKiYKwOtrH-75MGIuyM",
-                           "title": "GitHub - تعلم العمل المشترك على"
+                           "title": "GitHub - تعلم العمل المشترك على",
+                           "author": "TheNewBaghdad"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLfDx4cQoUNOYVfQs_NFNyykcqkaJ_plmK",
@@ -34611,13 +34622,23 @@
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLYyqC4bNbCIfMY5CoGmiWaPi9l86qaz5B",
-                           "title": "برمجة المواقع |\\ تعلم لغة الhtml من الصفر",
+                           "title": "برمجة المواقع | تعلم لغة الhtml من الصفر",
                            "author": "أكاديمية ترميز"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLYyqC4bNbCIdES52srHE6xTiIgvgMkBWu",
-                           "title": "برمجة المواقع |\\ سلسلة دروس لغة css",
+                           "title": "برمجة المواقع | سلسلة دروس لغة css",
                            "author": "أكاديمية ترميز"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY7e-LGHKT1LUrQOBZheSQLh",
+                           "title": "كورس CSS3 بالعربي-ITI‏",
+                           "author": "Mobarmg"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY76fLdWZt7T8FfVHpvu0zOm",
+                           "title": "كورس HTML5 بالعربي-ITI‏",
+                           "author": "Mobarmg"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLuXY3ddo_8nzxCiht69IlCe0_VeIuh4ty",
@@ -34706,6 +34727,11 @@
                            "author": "محمد شوشان"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLwAjM63H9bRuXIojpKDei4dVLRcvqP8V7",
+                           "title": "Java Tutorial for beginners- full course  -تعلم البرمجة- جافا",
+                           "author": "genial code"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLCInYL3l2AajYlZGzU_LVrHdoouf8W6ZN",
                            "title": "Learn JAVA Programming From Scratch In Arabic‏",
                            "author": "Adel Nasim"
@@ -34735,6 +34761,16 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY7wv9ZZkhH7lZELpz_fP81N",
+                           "title": "كورس Ajax بالعربي-ITI‏",
+                           "author": "Mobarmg"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY5nQxWH0HaNibR9UXKICWxz",
+                           "title": "كورس ES6 بالعربي-ITI‏",
+                           "author": "Mobarmg"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLL2zWZTDFZzgU2x6Kk6w0qx5piLgMODsm",
                            "title": "Arabic JavaScript‏",
                            "author": "KMR Script"
@@ -34743,6 +34779,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLL2zWZTDFZzilx_LJ_mCRDETtDOyBg0UT",
                            "title": "Arabic JavaScript ES6 الاصدار السادس من الجافاسكربت",
                            "author": "KMR Script"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQtNtS-WfRa_PU_wiKETaFk6nAVrNBg7l",
+                           "title": "Friday js‏",
+                           "author": "codeZone"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh",
@@ -34785,6 +34826,11 @@
                            "author": "Elzero Web School"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLQtNtS-WfRa8Y47rtUnKXewgaBsXD-9KT",
+                           "title": "Javascript Tips And Tricks [Arabic]‏",
+                           "author": "codeZone"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE",
                            "title": "Javascript Tutorial | كورس جافا سكريبت كامل",
                            "author": "Abdelrahman Gamal"
@@ -34798,6 +34844,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv",
                            "title": "Learn JavaScript in Arabic 2021‏",
                            "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQtNtS-WfRa9Dwu0xHfC0gALHCdia6L6w",
+                           "title": "SOLID Principles In Arabic‏",
+                           "author": "codeZone"
                         }
                      ],
                      "subsections": [
@@ -34820,6 +34871,11 @@
                            "section": "jQuery",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY5CmY-9Td8GhlLnq9GuJmpB",
+                                 "title": "كورس JQuery بالعربي-ITI‏",
+                                 "author": "Mobarmg"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAwXDFEEpc8TT6MFbDAC5XNB",
                                  "title": "Basic of jQuery‏",
                                  "author": "Elzero Web School"
@@ -34835,6 +34891,16 @@
                            "section": "NodeJS",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY6ZTH5cneI_S0Bzzj-4j082",
+                                 "title": "كورس MongoDB بالعربي-ITI‏",
+                                 "author": "Mobarmg"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY5S0IMTxqCb41fF8RDBQZ_w",
+                                 "title": "كورس NodeJS بالعربي -ITI‏",
+                                 "author": "Mobarmg"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLL2zWZTDFZzgxxD66mv95I8hC0pby5bdp",
                                  "title": "Arabic Dive into Node JS Development الغوص في النود جي اس",
                                  "author": "KMR Script"
@@ -34848,6 +34914,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLfDx4cQoUNOa3EiUpjO04DVxEE9Ox12ta",
                                  "title": "Learn NodeJS from zero to hero‏",
                                  "author": "Algorithm Academy"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLDQ11FgmbqQNFuGQTKbAIGEyOKWUGBs6i",
+                                 "title": "NodeJS - Build a Full E-Commerce RESTful APIs (بالعربي)",
+                                 "author": "Programming Solutions - Academy"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLkzDzmo9y3VG_pByjuxE7uuLYvmWgfBub",
@@ -34875,6 +34946,11 @@
                                  "author": "Emam Academy"
                               },
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY4KgXU42KUgbCpyluuEc4uk",
+                                 "title": "Pre NodeJS Course‏",
+                                 "author": "Mobarmg"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLGhZWewM_75ILwl15d0Cn-W_XHpnKbNHL",
                                  "title": "REST API Node.js‏",
                                  "author": "Emam Academy"
@@ -34895,6 +34971,11 @@
                            "section": "React.js",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLtFbQRDJ11kEjXWZmwkOV-vfXmrEEsuEW",
+                                 "title": "Learn React JS Tutorial || React دورة كاملة لتعلم الـ",
+                                 "author": "Unique Coderz Academy"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l",
                                  "title": "React.js‏",
                                  "author": "Algorithm Academy"
@@ -34908,6 +34989,41 @@
                                  "url": "https://www.youtube.com/playlist?list=PLfDx4cQoUNOYKXNTPUiZw8X7dDIgsSZln",
                                  "title": "React.js Todo App‏",
                                  "author": "Algorithm Academy"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFTiDCCVu_uCW0GXqyvhtbf8",
+                                 "title": "ReactJS - Advanced [تعلم رياكت ]",
+                                 "author": "kimz codes"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLDQ11FgmbqQPRui5VDCSQvYt2HOYiCVep",
+                                 "title": "ReactJs-Build Full E-Commerce From Scratch Redux (بالعربي)",
+                                 "author": "Programming Solutions - Academy"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFSaQIFNstRIrbm_fqb12Q59",
+                                 "title": "ReactJS Part 1 - Learn React Hooks by Project [تعلم الرياكت هوكس] [الجزء الاول]",
+                                 "author": "kimz codes"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFQa9YDF5pzB4JFbJovh3TN9",
+                                 "title": "ReactJS Part 2 - UseEffect & UseRef - working with API and Prev State [Arabic] [بالعربي][الجزء الثاني]",
+                                 "author": "kimz codes"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFTYdkjzqYBujf7UCVQyn_aq",
+                                 "title": "ReactJS Part 3 - Performance Optimization (react memo, use memo, use call back) [تعلم الرياكت] [الجزء الثالث]",
+                                 "author": "kimz codes"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFREfrBoSl8tjAPZOY6HNqZv",
+                                 "title": "Redux ToolKit 2021/2022 part 4 [شرح Redux toolkit] [تعلم Redux] [شرح Redux]",
+                                 "author": "kimz codes"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFQFvS469VXyCPO_py_kvVD5",
+                                 "title": "Redux ToolKit Project, Book Store project [تعلم Redux toolkit]",
+                                 "author": "kimz codes"
                               }
                            ]
                         },
@@ -34941,6 +35057,11 @@
                   {
                      "section": ".NET",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY4PrhxzVKb3lY6Ni9kgIMYH",
+                           "title": "كورس ASP.NET MVC بالعربي -ITI‏",
+                           "author": "Mobarmg"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLwj1YcMhLRN1ekZ78MzVWqpNyA5Lyb2nv",
                            "title": "Arabic C# .NET‏",
@@ -35001,6 +35122,11 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAxXTPncg0W4lhVS32LO_xtQ",
                            "title": "Learn Object Oriented PHP‏",
+                           "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAy41u35AqJUrI-H83DObUDq",
+                           "title": "PHP Bootcamp 2022‏",
                            "author": "Elzero Web School"
                         }
                      ],
@@ -35153,6 +35279,11 @@
                      "section": "TypeScript",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLQtNtS-WfRa-BC3yuZdzmAfVC7i5etLWb",
+                           "title": "typescript for angular developers [arabic tutorial]‏",
+                           "author": "codeZone"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLF8OvnCBlEY27rEmxg4F86iFljMXyCmk1",
                            "title": "TypeScript tutorial Arabic‏",
                            "author": "Hussein Al Rubaye‏",
@@ -35165,6 +35296,21 @@
                         {
                            "section": "Angular",
                            "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY7eOwGMlps70dTYs2TSsgj1",
+                                 "title": "كورس Angular 2 بالعربي",
+                                 "author": "Mobarmg"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY43XfnAm-IRuXwtkp0kzpdt",
+                                 "title": "كورس AngularJS بالعربي-ITI‏",
+                                 "author": "Mobarmg"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLQtNtS-WfRa8piCgv_buHpthEBXHaw0ss",
+                                 "title": "Angular 4+ [arabic tutorial]‏",
+                                 "author": "codeZone"
+                              },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLL2zWZTDFZzjSjy7yeJwpj2QkJd8NKo-O",
                                  "title": "Arabic Angular 7 from A to R احتراف الانجولار",
