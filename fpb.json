@@ -44952,6 +44952,16 @@
                "index": {},
                "sections": [
                   {
+                     "section": "<a id=\"0---mooc\">",
+                     "entries": [
+                        {
+                           "url": "https://www.freecodecamp.org/japanese",
+                           "title": "freeCodeCamp"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Scratch",
                      "entries": [
                         {
@@ -51549,6 +51559,69 @@
                         {
                            "url": "http://www.openvim.com/tutorial.html",
                            "title": "Interactive Vim Tutorial"
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
+                  "code": "ja",
+                  "name": "Japanese"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "HTML / CSS",
+                     "entries": [
+                        {
+                           "url": "https://www.freecodecamp.org/japanese/learn/responsive-web-design",
+                           "title": "レスポンシブウェブデザイン",
+                           "author": "freeCodeCamp"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "JavaScript",
+                     "entries": [
+                        {
+                           "url": "https://www.freecodecamp.org/japanese/learn/javascript-algorithms-and-data-structures",
+                           "title": "JavaScript のアルゴリズムとデータ構造",
+                           "author": "freeCodeCamp"
+                        }
+                     ],
+                     "subsections": [
+                        {
+                           "section": "React",
+                           "entries": [
+                              {
+                                 "url": "https://www.freecodecamp.org/japanese/learn/front-end-development-libraries",
+                                 "title": "フロントエンド開発ライブラリ",
+                                 "author": "freeCodeCamp"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "section": "Python",
+                     "entries": [
+                        {
+                           "url": "https://www.freecodecamp.org/japanese/learn/data-analysis-with-python",
+                           "title": "Python を用いたデータ分析",
+                           "author": "freeCodeCamp"
+                        },
+                        {
+                           "url": "https://www.freecodecamp.org/japanese/learn/scientific-computing-with-python",
+                           "title": "Python を用いた科学的コンピューティング",
+                           "author": "freeCodeCamp"
+                        },
+                        {
+                           "url": "https://freecodecamp.org//japanese/learn/machine-learning-with-python",
+                           "title": "Python を用いた機械学習",
+                           "author": "freeCodeCamp"
                         }
                      ],
                      "subsections": []
