@@ -16,6 +16,12 @@ free-programming-books](https://ebookfoundation.github.io/free-programming-books
 - [Deployment](#deployment)
 - [FAQ](#faq)
 
+## How It All Works
+1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [
+free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a json file called fpb.json. 
+
+2. This Json is downloaded locally and searched locally when the actual search function is used. 
+
 ## Installation
 
 ### NPM Installation
@@ -43,12 +49,6 @@ MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 2. Now, run `npm install -g gh-pages`.
 3. Run `npm run deploy`.
 4. This should deploy your code to "https:yourusername.github.io/free-programming-books-search/"
-
-## How It All Works
-1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [
-free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a json file called fpb.json. 
-
-2. This Json is downloaded locally and searched locally when the actual search function is used. 
 
 ## FAQ
  
