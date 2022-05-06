@@ -9,11 +9,11 @@ free-programming-books](https://ebookfoundation.github.io/free-programming-books
 
 ## Contents
 - [Contents](#contents)
+- [How It All Works](#how-it-all-works)
 - [Installation](#installation)
 	- [NPM Installation](#npm-installation)
 	- [Running the Website](#running-the-website)
 - [Deployment](#deployment)
-- [How It All Works](#how-it-all-works)
 - [FAQ](#faq)
 
 ## Installation
