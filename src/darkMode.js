@@ -1,20 +1,20 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { useState, createContext } from "react";
 
 //https://levelup.gitconnected.com/dark-mode-in-react-533faaee3c6e
 
 export const themes = {
   dark: "",
-  light: "white-content",
+  light: "dark-content",
 };
 
 export const swapMode = (theme) => {
     switch (theme) {
       case themes.light:
-        document.body.classList.add('white-content');
+        document.body.classList.add('dark-content');
         break;
       case themes.dark:
       default:
-        document.body.classList.remove('white-content');
+        document.body.classList.remove('dark-content');
         break;
     }
   }

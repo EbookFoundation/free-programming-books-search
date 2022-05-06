@@ -1,70 +1,61 @@
-# Free Programming Books Search
+# free-programming-books-search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The free-programming-books-search is a companion project of [free-programming-books](https://ebookfoundation.github.io/free-programming-books/). It allows users to search by book title or author and filter by language. The search index is updated once per day, so changes made on [free-programming-books](https://ebookfoundation.github.io/free-programming-books/) may not be immediately reflected.
 
-## Available Scripts
+## Contents
 
-In the project directory, you can run:
+- [Contents](#contents)
+- [Installation](#installation)
+	- [NPM Installation](#npm-installation)
+	- [Running the Website](#running-the-website)
+- [Deployment](#deployment)
+- [How It All Works](#how-it-all-works)
+- [FAQ](#faq)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### NPM Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Make sure you have [Node.js](https://nodejs.org/en/) installed. If you already do, skip to [Running the Website](#running-the-website).
+2. Otherwise, download the LTS installer from [Node.js](https://nodejs.org/en/) website.
+3. Follow the instructions of the installer, make sure npm is listed as a package to be installed.
+4. Click Install.
+5. Verify that Node.Js has been installed by going to command line and typing in `node`. It should show the current version.
+6. Close out of Node by either closing and reopening the command line or with <kbd>Ctrl + C</kbd>.
+7. Make sure to check out the [NPM website](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more info.
 
-### `npm test`
+### Running the Website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Make sure you have [Git](https://git-scm.com/downloads) installed.
+2. Clone the repo from Github with Git.
+3. Navigate to the folder using command line. A easy way is to type "`cd`" and then drag and drop the folder into command line.
+4. Type `npm install`.
+5. Type `npm install react-scripts`.
+6. Type `npm start`. At this point, the command prompt should start up the server, and a tab in your default browser should open up to localhost.
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. First, make sure that you the local folder containing the files has a remote configured called "`origin`".
+	1. If you aren't sure, navigate to the folder using Git (type "`cd`", then drag and drop folder in to Git command line).
+	2. Type `git init`.
+	3. Type `git remote add origin <repo url>`, replacing `<repo url>` with the url of your github repository.
+2. Now, run `npm install -g gh-pages`.
+3. Run `npm run deploy`.
+4. This should deploy your code to "`https://yourusername.github.io/free-programming-books-search/`".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How It All Works
 
-### `npm run eject`
+1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [
+free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books-parser](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a JSON file called `fpb.json`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. This JSON is downloaded locally and searched locally when the actual search function is used.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## FAQ
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- What database are we using to store the books?
+	- NONE! The books are stored in a JSON file which is downloaded locally.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- I added a book but it's not showing up on search?
+	- Give it some time. The parser is run once a day, so it may take up to 24 hours for the search to reflect that.

@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 function SearchBar(props) {
+  useEffect(() => {
+    document.getElementById("searchBar").value = props.defaultTerm
+  }, []);
+
   const handleChange = (e) => {
-    props.changeParameter("title", e.target.value);
+    props.changeParameter("searchTerm", e.target.value);
   };
 
   return (
@@ -11,12 +15,15 @@ function SearchBar(props) {
         e.preventDefault();
       }}
       name="searchBar"
+      className="searchbar"
     >
       <input
+        id="searchBar"
         autoComplete="off"
         type="text"
         name="searchTerm"
-        placeholder="Enter Book Name"
+        placeholder={"Search Book or Author"}
+        className="searchterm"
         onChange={handleChange}
       />
     </form>
