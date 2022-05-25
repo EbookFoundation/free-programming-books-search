@@ -13778,6 +13778,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.scaler.com/topics/java/",
+                           "title": "Java Tutorial",
+                           "author": "Scaler Topics"
+                        },
+                        {
                            "url": "https://riptutorial.com/Download/java-language.pdf",
                            "title": "Learning Java Language",
                            "author": "Compiled from StackOverflow Documentation",
@@ -17750,6 +17755,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.scaler.com/topics/python/",
+                           "title": "Python Tutorial",
+                           "author": "Scaler Topics"
+                        },
+                        {
                            "url": "http://scipy-lectures.github.io",
                            "title": "Scipy Lecture Notes"
                         },
@@ -19563,6 +19573,14 @@
                            ]
                         },
                         {
+                           "url": "https://smlfamily.github.io/Basis/index.html",
+                           "title": "The Standard ML Basis Library",
+                           "author": "Emden R. Gansner, John H. Reppy",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://mlton.org/References.attachments/Shipman02.pdf",
                            "title": "Unix System Programming with Standard ML",
                            "author": "Anthony L. Shipman",
@@ -19660,6 +19678,14 @@
                   {
                      "section": "Tcl",
                      "entries": [
+                        {
+                           "url": "https://philip.greenspun.com/tcl/",
+                           "title": "Tcl for Web Nerds",
+                           "author": "Hal Abelson, Philip Greenspun, and Lydia Sandon",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://en.wikibooks.org/wiki/Programming%3ATcl",
                            "title": "Tcl Programming",
@@ -25284,6 +25310,16 @@
                            "url": "https://mmstick.github.io/gtkrs-tutorials/",
                            "title": "Event-Driven GTK by Example — 2021 Edition",
                            "author": "Michael Murphy"
+                        },
+                        {
+                           "url": "https://aaronerhardt.github.io/relm4-book/book/",
+                           "title": "GUI development with Relm4",
+                           "author": "Aaron Erhardt"
+                        },
+                        {
+                           "url": "https://gtk-rs.org/gtk4-rs/stable/latest/book/",
+                           "title": "GUI development with Rust and GTK 4",
+                           "author": "Julian Hofer"
                         },
                         {
                            "url": "https://developer.gnome.org/gtkmm-tutorial/stable/",
