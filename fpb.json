@@ -22453,6 +22453,14 @@
                            "section": "Облачные вычисления",
                            "entries": [
                               {
+                                 "url": "https://ipsoftware.ru/books/cloud-k8s/",
+                                 "title": "Программирование Cloud Native. Микросервисы, Docker и Kubernetes",
+                                 "author": "Иван Портянкин",
+                                 "notes": [
+                                    "PDF, EPUB, MOBI"
+                                 ]
+                              },
+                              {
                                  "url": "http://www.microsoft.com/ru-ru/download/details.aspx?id=29263",
                                  "title": "Разработка мультитенантных приложений для облака, издание 3-е"
                               }
@@ -23048,6 +23056,19 @@
                                  "url": "https://coderlessons.com/tutorials/java-tekhnologii/uchis-spring-mvc/spring-mvc-tutorial",
                                  "title": "Spring MVC Tutorial",
                                  "author": "CoderLessons.com"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Swing UI",
+                           "entries": [
+                              {
+                                 "url": "https://ipsoftware.ru/books/swing_book_2/",
+                                 "title": "Java Swing: Эффектные пользовательские интерфейсы - Издание второе",
+                                 "author": "Иван Портянкин",
+                                 "notes": [
+                                    "PDF, EPUB"
+                                 ]
                               }
                            ]
                         }
