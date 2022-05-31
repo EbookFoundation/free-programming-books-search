@@ -11064,6 +11064,14 @@
                            "author": "Prakash Hegade"
                         },
                         {
+                           "url": "https://codeahoy.com/learn/cprogramming/toc/",
+                           "title": "Introduction to Programming and Data Structures in C",
+                           "author": "CodeAhoy",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://magpi.raspberrypi.com/books/essentials-c-v1",
                            "title": "Learn to Code With C - The MagPi Essentials",
                            "notes": [
