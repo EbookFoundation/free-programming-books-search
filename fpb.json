@@ -4572,9 +4572,17 @@
                      "section": "Chaîne de blocs / Blockchain",
                      "entries": [
                         {
-                           "url": "https://maitriser-ca.github.io/LivreMaitriserBitcoin/",
+                           "url": "https://bitcoin.maitriser.ca",
                            "title": "Maîtriser Bitcoin: Programmer la chaîne de blocs publique",
                            "author": "Andreas M. Antonopoulos, Serafim Dos Santos",
+                           "notes": [
+                              "asciidoc, html"
+                           ]
+                        },
+                        {
+                           "url": "https://ethereum.maitriser.ca",
+                           "title": "Maîtriser Ethereum: Développer des contrats intelligents et des DApps",
+                           "author": "Andreas M. Antonopoulos, Dr. Gavin Wood, Serafim Dos Santos",
                            "notes": [
                               "asciidoc, html"
                            ]
@@ -24592,6 +24600,14 @@
                            "url": "https://github.com/ethereumbook/ethereumbook",
                            "title": "Mastering Ethereum (2018), 1st Edition",
                            "author": "Andreas M. Antonopoulos, Gavin Wood",
+                           "notes": [
+                              "AsciiDoc"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/lnbook/lnbook",
+                           "title": "Mastering the Lightning Network",
+                           "author": "Andreas M. Antonopoulos, Olaoluwa Osuntokun, Rene Pickhardt",
                            "notes": [
                               "AsciiDoc"
                            ]
