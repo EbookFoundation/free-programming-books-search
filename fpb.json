@@ -11225,6 +11225,11 @@
                      "section": "<a id=\"csharp\">",
                      "entries": [
                         {
+                           "url": "https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/",
+                           "title": "Architect Modern Web Applications with ASP.NET Core and Azure",
+                           "author": "Steve \"ardalis\" Smith"
+                        },
+                        {
                            "url": "http://goalkicker.com/CSharpBook/",
                            "title": "C# Notes for Professionals",
                            "author": "Compiled from StackOverflow documentation",
@@ -11319,6 +11324,16 @@
                            ]
                         },
                         {
+                           "url": "https://docs.microsoft.com/en-us/dotnet/architecture/modernize-with-azure-containers/",
+                           "title": "Modernize existing .NET applications with Azure cloud and Windows Containers",
+                           "author": "Cesar de la Torre"
+                        },
+                        {
+                           "url": "https://docs.microsoft.com/en-us/dotnet/architecture/modernize-desktop",
+                           "title": "Modernizing Desktop Apps on Windows with .NET 6",
+                           "author": "Olia Gavrysh, Miguel Angel Castejón Dominguez"
+                        },
+                        {
                            "url": "http://www.charlespetzold.com/dotnet",
                            "title": ".NET Book Zero",
                            "author": "Charles Petzold",
@@ -11333,6 +11348,11 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://docs.microsoft.com/en-us/dotnet/architecture/porting-existing-aspnet-apps/",
+                           "title": "Porting Existing ASP.NET Apps to .NET 6",
+                           "author": "Steve \"ardalis\" Smith"
                         },
                         {
                            "url": "http://www.albahari.com/threading/",
