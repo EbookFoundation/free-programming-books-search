@@ -16604,6 +16604,14 @@
                      "section": "PHP",
                      "entries": [
                         {
+                           "url": "https://codeahoy.com/learn/php/toc/",
+                           "title": "An Introduction to the PHP Programming Language",
+                           "author": "CodeAhoy",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://github.com/jupeter/clean-code-php",
                            "title": "Clean Code PHP"
                         },
