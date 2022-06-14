@@ -662,9 +662,10 @@
                      "section": "Misc",
                      "entries": [
                         {
-                           "url": "https://sl3.app",
+                           "url": "https://web.archive.org/web/20201024204437/https://sl3.app",
                            "title": "SL3 Framework - Code For Brain",
-                           "author": "Stack Learners"
+                           "author": "Stack Learners",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://devsonket.com",
