@@ -18,7 +18,7 @@
                         {
                            "url": "https://www.ev-center.com/uploads/2/1/2/6/21261678/arduino.pdf",
                            "title": "احترف الأردوينو",
-                           "author": "Working Group",
+                           "author": "Working Group‏",
                            "notes": [
                               "PDF"
                            ]
@@ -26,7 +26,7 @@
                         {
                            "url": "https://simplyarduino.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D8%B1%D8%AF%D9%88%D9%8A%D9%86%D9%88-%D8%A8%D8%A8%D8%B3%D8%A7%D8%B7%D8%A9/",
                            "title": "اردوينو ببساطة",
-                           "author": "عبدالله علي عبدالله, Abdallah Ali Abdallah Elmasry",
+                           "author": "عبدالله علي عبدالله, Abdallah Ali Abdallah Elmasry‏",
                            "notes": [
                               "PDF"
                            ]
@@ -34,7 +34,7 @@
                         {
                            "url": "https://github.com/abdallah-ali-abdallah/Simply-AVR-Book",
                            "title": "AVR ببساطة: من تشغيل دايود ضوئي إلى أنظمة الوقت الحقيقي",
-                           "author": "عبدالله علي عبدالله, Abdallah Ali Abdallah Elmasry",
+                           "author": "عبدالله علي عبدالله, Abdallah Ali Abdallah Elmasry‏",
                            "notes": [
                               "ODT, PDF"
                            ]
@@ -48,7 +48,7 @@
                         {
                            "url": "https://academy.hsoub.com/files/17-%D9%85%D8%AF%D8%AE%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%88%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D8%A2%D9%84%D8%A9/",
                            "title": "مدخل إلى الذكاء الاصطناعي وتعلم الآلة",
-                           "author": "Mohamed Lahlah",
+                           "author": "Mohamed Lahlah‏",
                            "notes": [
                               "PDF"
                            ]
@@ -62,9 +62,9 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf",
                            "title": "كورس كامل بالعربى مع المهندس عيسى أبوشريف",
-                           "author": "Eissa AbuSherif",
+                           "author": "Eissa AbuSherif‏",
                            "notes": [
-                              "AWS Riyadh User Group"
+                              "YouTube"
                            ]
                         }
                      ],
@@ -76,9 +76,22 @@
                         {
                            "url": "https://www.mobarmijoun.com/2014/04/c_19.html",
                            "title": "سبيلك المختصر لتعلم لغة c#‎ - برمجة الواجهات",
-                           "author": "Khaled Al-Saadani",
+                           "author": "Khaled Al-Saadani‏",
                            "notes": [
-                              "Arab Coders Academy",
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "DB & DBMS",
+                     "entries": [
+                        {
+                           "url": "https://academy.hsoub.com/files/26-تصميم-قواعد-البيانات/",
+                           "title": "تصميم قواعد البيانات",
+                           "author": "Adrienne Watt & Nelson Eng، ترجمة أيمن طارق وعلا عباس",
+                           "notes": [
                               "PDF"
                            ]
                         }
@@ -91,7 +104,7 @@
                         {
                            "url": "https://academy.hsoub.com/files/14-التحريك-عبر-css/",
                            "title": "التحريك عبر CSS‏",
-                           "author": "Donovan Hutchinson, Mohamed Beghat",
+                           "author": "Donovan Hutchinson, Mohamed Beghat‏",
                            "notes": [
                               "PDF"
                            ]
@@ -99,7 +112,7 @@
                         {
                            "url": "https://academy.hsoub.com/files/13-نحو-فهم-أعمق-لتقنيات-html5/",
                            "title": "نحو فهم أعمق لتقنيات HTML5‏",
-                           "author": "Mark Pilgrim, Abdullatif Eymash",
+                           "author": "Mark Pilgrim, Abdullatif Eymash‏",
                            "notes": [
                               "PDF"
                            ]
@@ -113,7 +126,7 @@
                         {
                            "url": "https://alyassen.github.io/Brief-guide-to-programming-languages-v1.2.4.pdf",
                            "title": "مختصر دليل لغات البرمجة",
-                           "author": "Ali Al-Yassen",
+                           "author": "Ali Al-Yassen‏",
                            "notes": [
                               "PDF"
                            ]
@@ -140,13 +153,27 @@
                         {
                            "url": "https://rabahboudia.gitbooks.io/arabic-eloquent-js/",
                            "title": "Eloquent Javascript (Second Edition)‏",
-                           "author": "Marijn Haverbeke, Rabah Boudia",
+                           "author": "Marijn Haverbeke, Rabah Boudia‏",
                            "notes": [
                               "gitbook"
                            ]
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Vue.js",
+                           "entries": [
+                              {
+                                 "url": "https://academy.hsoub.com/files/22-أساسيات-إطار-العمل-vuejs/",
+                                 "title": "أساسيات إطار العمل Vue.js",
+                                 "author": "حسام برهان",
+                                 "notes": [
+                                    "PDF"
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Linux",
@@ -154,7 +181,7 @@
                         {
                            "url": "https://librebooks.org/gnu-linux-advanced-administration/",
                            "title": "الإدارة المتقدمة لجنو/لينكس ",
-                           "author": "Remo Suppi Boldrito, Josep Jorba Esteve, Abdel Rahim Ghaleb",
+                           "author": "Remo Suppi Boldrito, Josep Jorba Esteve, Abdel Rahim Ghaleb‏",
                            "notes": [
                               "PDF"
                            ]
@@ -162,7 +189,7 @@
                         {
                            "url": "https://www.simplyubuntu.com",
                            "title": "أوبنتو ببساطة",
-                           "author": "Ahmed AbouZaid",
+                           "author": "Ahmed AbouZaid‏",
                            "notes": [
                               "PDF"
                            ]
@@ -170,7 +197,7 @@
                         {
                            "url": "https://ar.debian-handbook.info",
                            "title": "دفتر مدير دبيان",
-                           "author": "Raphaël Hertzog, Roland Mas, MUHAMMET SAİT Muhammet Sait",
+                           "author": "Raphaël Hertzog, Roland Mas, MUHAMMET SAİT Muhammet Sait‏",
                            "notes": [
                               "PDF, HTML"
                            ]
@@ -178,7 +205,15 @@
                         {
                            "url": "https://academy.hsoub.com/files/10-دليل-إدارة-خواديم-أوبنتو/",
                            "title": "دليل إدارة خواديم أوبنتو 14.04",
-                           "author": "Ubuntu documentation team, Abdullatif Eymash",
+                           "author": "Ubuntu documentation team, Abdullatif Eymash‏",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://itwadi.com/node/2765",
+                           "title": "سطر أوامر لينكس",
+                           "author": "Willam E. Shotts, Jr، ترجمة عبد اللطيف ايمش",
                            "notes": [
                               "PDF"
                            ]
@@ -222,6 +257,14 @@
                         {
                            "url": "http://librebooks.org/intro-to-os-analysis-and-design/",
                            "title": "المقدمة في تحليل وتصميم أنظمة"
+                        },
+                        {
+                           "url": "https://academy.hsoub.com/files/24-أنظمة-التشغيل-للمبرمجين/",
+                           "title": "أنظمة التشغيل للمبرمجين",
+                           "author": "Allen B. Downey، ترجمة علا عباس",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -302,7 +345,7 @@
                         {
                            "url": "https://mohamedation.github.io/securing-wifi",
                            "title": "تأمين الشبكات اللاسلكية للمستخدم المنزلي",
-                           "author": "Mohamed Adel",
+                           "author": "Mohamed Adel‏",
                            "notes": [
                               "HTML"
                            ]
@@ -346,7 +389,19 @@
                            "entries": [
                               {
                                  "url": "https://academy.hsoub.com/files/18-%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A-%D8%A5%D9%84%D9%89-%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-postgresql/",
-                                 "title": "الدليل العملي إلى قواعد بيانات PostgreSQL"
+                                 "title": "الدليل العملي إلى قواعد بيانات PostgreSQL‏",
+                                 "author": "Craig Kerstiens، مصطفى عطا العايش",
+                                 "notes": [
+                                    "PDF"
+                                 ]
+                              },
+                              {
+                                 "url": "https://itwadi.com/PostgreSQL_Cookbook",
+                                 "title": "بوستجريسكل كتاب الوصفات",
+                                 "author": "Chitij Chauhan‏",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               }
                            ]
                         }
@@ -15739,6 +15794,15 @@
                      "section": "Lua",
                      "entries": [
                         {
+                           "url": "https://riptutorial.com/Download/lua.pdf",
+                           "title": "Learning Lua ebook",
+                           "author": "Rip Tutorial",
+                           "notes": [
+                              "Compiled from StackOverflow documentation",
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://www.lua.org/manual/5.3/",
                            "title": "Lua 5.3 Reference Manual"
                         },
@@ -24615,6 +24679,14 @@
                            "author": "Antonio Banda, Matthew Hamilton, Eileen Lowry, John Widdifield et al.",
                            "notes": [
                               "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line",
+                           "title": "Learning Bitcoin from the Command Line",
+                           "author": "Christopher Allen, Shannon Appelcline et al.",
+                           "notes": [
+                              "HTML"
                            ]
                         },
                         {
@@ -35785,6 +35857,16 @@
                                  "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVDHFj-ecFSU0SU-B0TuJRk9",
                                  "title": "Dive Into NodeJS",
                                  "author": "Stack Learner"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLHiZ4m8vCp9PHnOIT7gd30PCBoYCpGoQM",
+                                 "title": "Node.js Tutorial Bangla  Series for Beginners",
+                                 "author": "Learn With Sumit"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLHiZ4m8vCp9OmVWU2Qf9tZgKdyzoubOpj",
+                                 "title": "Raw Node JS Project in Bangla ( বাংলা ) - Uptime Monitoring API",
+                                 "author": "Learn With Sumit"
                               }
                            ]
                         },
@@ -35938,6 +36020,11 @@
                            "url": "https://youtube.com/playlist?list=PLHiZ4m8vCp9PgOOjdyNpc6AoBmKNrp_u3",
                            "title": "TypeScript Bangla ( বাংলা ) Tutorial Series",
                            "author": "Learn with Sumit - LWS - Bangladesh"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLgH5QX0i9K3rXq_1OgVmjaEJJ1akJQgPq",
+                           "title": "typescript full course in bangla",
+                           "author": "Anisul Islam"
                         }
                      ],
                      "subsections": []
