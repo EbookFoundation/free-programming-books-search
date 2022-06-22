@@ -3809,6 +3809,20 @@
                "index": {},
                "sections": [
                   {
+                     "section": "Algoritmid ja andmestruktuurid",
+                     "entries": [
+                        {
+                           "url": "https://dspace.ut.ee/bitstream/handle/10062/16872/9985567676.pdf",
+                           "title": "Algoritmid ja andmestruktuurid (2003, Kolmas, parandatud ja täiendatud trükk)",
+                           "author": "Jüri Kiho",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C",
                      "entries": [
                         {
@@ -3837,9 +3851,9 @@
                      "section": "Java",
                      "entries": [
                         {
-                           "url": "https://ained.ttu.ee/javadoc/index.html",
+                           "url": "https://javadoc.pages.taltech.ee",
                            "title": "Java õppematerjalid",
-                           "author": "TTÜ õppematerjalid"
+                           "author": "TalTech"
                         },
                         {
                            "url": "https://et.wikibooks.org/wiki/Programmeerimiskeel_Java",
@@ -3853,17 +3867,13 @@
                      "section": "JavaScript",
                      "entries": [
                         {
-                           "url": "http://puhang.tpt.edu.ee/raamatud/JavaScript_konspekt.pdf",
+                           "url": "https://web.archive.org/web/20200922201525/http://puhang.tpt.edu.ee/raamatud/JavaScript_konspekt.pdf",
                            "title": "JavaScript",
                            "author": "Jüri Puhang",
                            "notes": [
                               "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://lepo.it.da.ut.ee/~epuman/javascript.html",
-                           "title": "Javascript",
-                           "author": "Ella Puman, Tartu ÜLikooli õppematerjal"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": [
@@ -3871,9 +3881,9 @@
                            "section": "AngularJS",
                            "entries": [
                               {
-                                 "url": "http://www.cs.tlu.ee/teemad/get_file.php?id=400",
+                                 "url": "https://www.cs.tlu.ee/teemad/get_file.php?id=400",
                                  "title": "AngularJS raamistiku õppematerjal",
-                                 "author": "Tallinna Ülikooli, Sander Leetus",
+                                 "author": "Sander Leetus",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -3884,9 +3894,12 @@
                            "section": "Vue",
                            "entries": [
                               {
-                                 "url": "http://www.cs.tlu.ee/teemaderegister/get_file.php?id=715",
-                                 "title": "Vue",
-                                 "author": "Tallinna ülikooli õppematerjal"
+                                 "url": "https://www.cs.tlu.ee/teemaderegister/get_file.php?id=715",
+                                 "title": "Vue.js raamistiku õppematerjal",
+                                 "author": "Fred Korts",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               }
                            ]
                         }
@@ -3920,6 +3933,11 @@
                            "url": "https://et.wikibooks.org/wiki/Python",
                            "title": "Pythoni wikiraamat",
                            "author": "Wikiõpikud"
+                        },
+                        {
+                           "url": "https://pydoc.pages.taltech.ee",
+                           "title": "Pythoni õppematerjalid",
+                           "author": "TalTech"
                         }
                      ],
                      "subsections": []
@@ -3928,7 +3946,7 @@
                      "section": "R",
                      "entries": [
                         {
-                           "url": "https://andmeteadus.github.io/2015/rakendustarkvara_R/",
+                           "url": "https://andmeteadus.github.io/2015/rakendustarkvara_R",
                            "title": "Statistiline andmeteadus ja visualiseerimine R keele abil",
                            "author": "Mait Raag, Raivo Kolde"
                         }
@@ -3938,6 +3956,14 @@
                   {
                      "section": "SQL",
                      "entries": [
+                        {
+                           "url": "https://enos.itcollege.ee/~priit/1.%20Andmebaasid/1.%20Loengumaterjalid",
+                           "title": "Andmebaaside alused",
+                           "author": "Priit Raspel",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://comserv.cs.ut.ee/home/files/Ivanova_Informaatika_2017.pdf?study=ATILoputoo&reference=C408CC06DE4620A985CDF60C2678C97AE45017AB",
                            "title": "SQL päringute koostamine, analüüsimine  ja optimeerimine",
@@ -25908,6 +25934,14 @@
                            ]
                         },
                         {
+                           "url": "https://infinitedescent.xyz/dl/infdesc.pdf",
+                           "title": "An Infinite Descent into Pure Mathematics",
+                           "author": "Clive Newstead",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://www.trillia.com/moser-number.html",
                            "title": "An Introduction to the Theory of Numbers",
                            "author": "Leo Moser",
@@ -37216,6 +37250,14 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6yRaaP0WPkVR2FiAS7TTCT_n2mDhwISE",
+                           "title": "Free Dart Course",
+                           "author": "Vandad Nahavandipoor",
+                           "notes": [
+                              "YouTube"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -37588,11 +37630,6 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAi9X1uG6jZ30QGz7FZ55A27jPeY8EwkE",
                            "title": "IIEC RISE 1.0 Docker"
-                        },
-                        {
-                           "url": "https://www.katacoda.com/courses/container-runtimes",
-                           "title": "Learn Docker, Container Runtimes, Builders and Registries",
-                           "author": "Katacoda"
                         }
                      ],
                      "subsections": []
@@ -37605,6 +37642,14 @@
                            "title": "Flutter Crash Course",
                            "author": "Nick Manning",
                            "accessNotes": "account required"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6yRaaP0WPkUf-ff1OX99DVSL1cynLHxO",
+                           "title": "Flutter State Management Course",
+                           "author": "Vandad Nahavandipoor",
+                           "notes": [
+                              "YouTube"
+                           ]
                         },
                         {
                            "url": "https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
@@ -37620,6 +37665,14 @@
                            "author": "Mayuresh Wankhede",
                            "notes": [
                               "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6yRaaP0WPkVtoeNIGqILtRAgd3h2CNpT",
+                           "title": "Free Flutter Course",
+                           "author": "Vandad Nahavandipoor",
+                           "notes": [
+                              "YouTube"
                            ]
                         }
                      ],
