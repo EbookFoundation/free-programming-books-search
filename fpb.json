@@ -10628,6 +10628,10 @@
                            ]
                         },
                         {
+                           "url": "https://grain-lang.org/docs/",
+                           "title": "The Grain Docs"
+                        },
+                        {
                            "url": "https://github.com/3dgen/cppwasm-book/tree/master/en",
                            "title": "WebAssembly friendly programming with C/C++",
                            "author": "Ending, Chai Shushan, Yushih",
@@ -25025,6 +25029,14 @@
                   {
                      "section": "Computer Science",
                      "entries": [
+                        {
+                           "url": "https://dcic-world.org",
+                           "title": "A Data-Centric Introduction to Computing",
+                           "author": "Kathi Fisler, Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf",
                            "title": "Computational Thinking",
