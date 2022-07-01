@@ -35900,6 +35900,11 @@
                            "section": "Node.js",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/watch?v=ewBBT6Iph0M&list=PL_XxuZqN0xVD0op-QDEgyXFA4fRPChvkl",
+                                 "title": "Complete MERN Stack Course in Bangla",
+                                 "author": "Stack Learner"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVDHFj-ecFSU0SU-B0TuJRk9",
                                  "title": "Dive Into NodeJS",
                                  "author": "Stack Learner"
@@ -44685,13 +44690,6 @@
                   {
                      "section": "Database",
                      "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLgaOrAQwrg9JZs6dbDolNlShHFgpJSChj",
-                           "title": "Basi di dati",
-                           "notes": [
-                              "M. De Ghetto"
-                           ]
-                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAQopGWlIcyZ7CN1sefdnCusfoodLP931",
                            "title": "Basi di Dati",
