@@ -249,7 +249,7 @@ function App() {
           );
         }}
       </ThemeContext.Consumer>
-      <header className="header dark-content">
+      <header className="header">
         <h1>
           <a href="/free-programming-books-search/">free-programming-books</a>
         </h1>
