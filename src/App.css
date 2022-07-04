@@ -102,6 +102,7 @@ th {
 
 img {
   max-width:100%;
+  cursor: pointer;
 }
 
 header {
@@ -109,6 +110,8 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  background-color: white;
+  z-index: 10;
 }
 
 header ul {
@@ -375,8 +378,13 @@ form {
   margin-left: 1em;
   width: 1.5em;
   height: 1.7em;
+  cursor: pointer;
 }
 
 .langFilters {
   margin-top: 0.5em;
+}
+
+.filters input {
+  cursor: pointer;
 }

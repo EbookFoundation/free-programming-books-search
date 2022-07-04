@@ -11,10 +11,16 @@ export const swapMode = (theme) => {
     switch (theme) {
       case themes.light:
         document.body.classList.add('dark-content');
+        setTimeout(() => {
+          document.getElementsByClassName('header')[0].classList.add('dark-content');
+        }, 0);
         break;
       case themes.dark:
       default:
         document.body.classList.remove('dark-content');
+        setTimeout(() => {
+          document.getElementsByClassName('header')[0].classList.remove('dark-content');
+        }, 0);
         break;
     }
   }
