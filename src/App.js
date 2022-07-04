@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Fuse from "fuse.js";
+import { useCookies } from "react-cookie";
 import queryString  from "query-string";
 
 import LangFilters from "./components/LangFilters";
@@ -68,6 +69,7 @@ function App() {
   const [searchParams, setSearchParams] = useState({ searchTerm: defaultSearch, "lang.code": "" });
   // array of all search results
   const [searchResults, setSearchResults] = useState([]);
+  const [cookies, setCookie, ] = useCookies(["lightMode"]);
   const [queries, setQueries] = useState({ lang: "", subject: "" });
 
   // eslint-disable-next-line
@@ -83,6 +85,7 @@ function App() {
 
   // fetches data the first time the page renders
   useEffect(() => {  
+    swapMode(cookies.lightMode ? themes.lightMode : themes.darkMode);
     async function fetchData() {
       try {
         setQueries(queryString.parse(document.location.search));
@@ -233,8 +236,7 @@ function App() {
     <div className="wrapper">
       <ThemeContext.Consumer>
         {({ changeTheme }) => {
-          let willBeDarkMode = (window.matchMedia && 
-    window.matchMedia('(prefers-color-scheme: dark)').matches); //whether or not we are currently light mode and will become dark mode
+          let willBeDarkMode = cookies.lightMode && cookies.lightMode.toLowerCase() !== "true"; //whether or not we are currently light mode and will become dark mode
           changeTheme(willBeDarkMode ? themes.light : themes.dark);
           return (
             <img
