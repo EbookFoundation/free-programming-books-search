@@ -31147,15 +31147,9 @@
                      "section": "Android",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=roDz8mMvbIg&list=PLknSwrodgQ72X4sKpzf5vT8kY80HKcUSe",
-                           "title": "Android Complete Course",
-                           "notes": [
-                              "screencast"
-                           ]
-                        },
-                        {
                            "url": "http://androidbackstage.blogspot.com",
                            "title": "Android Developers Backstage",
+                           "author": "Chet Haase, Tor Norbye, Romain Guy, Nick Butcher, et al. Android Developers team",
                            "notes": [
                               "podcast"
                            ]
@@ -31163,6 +31157,7 @@
                         {
                            "url": "http://fragmentedpodcast.com",
                            "title": "Fragmented Podcast",
+                           "author": "Donn Felker, Kaushik Gopal",
                            "notes": [
                               "podcast"
                            ]
@@ -31170,19 +31165,29 @@
                         {
                            "url": "https://nowinandroid.libsyn.com",
                            "title": "Now in Android",
+                           "author": "Chet Haase, Dan Galpin, Manuel Vivo, Meghan Mehta, et al. Android Developers team",
                            "notes": [
                               "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLknSwrodgQ72X4sKpzf5vT8kY80HKcUSe",
+                           "title": "The complete Android Application Development Course - Work Great in 2020",
+                           "author": "Android Developer",
+                           "notes": [
+                              "screencast"
                            ]
                         }
                      ],
                      "subsections": []
                   },
                   {
-                     "section": "C#",
+                     "section": "<a id=\"c-sharp\">",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=2Ki58iQkot4&list=PLFgjYYTq6xyhtVK6VzLiFe3pmBu-XSNlX",
+                           "url": "https://www.youtube.com/playlist?list=PLFgjYYTq6xyhtVK6VzLiFe3pmBu-XSNlX",
                            "title": "Beginning C# with Unity",
+                           "author": "Brian Douglas Moakley, VegetarianZombie",
                            "notes": [
                               "screencast"
                            ]
@@ -31190,6 +31195,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLPV2KyIb3jR6ZkG8gZwJYSjnXxmfPAl51",
                            "title": "How to program in C# - Beginner Course | Brackeys",
+                           "author": "Asbjørn Thirslund",
                            "notes": [
                               "screencast"
                            ]
@@ -31201,8 +31207,9 @@
                      "section": "<a id=\"cpp\">",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
+                           "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
                            "title": "C++ Complete Course",
+                           "author": "Yan Chernikov",
                            "notes": [
                               "screencast"
                            ]
@@ -31210,13 +31217,15 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLTZbNwgO5ebo64D1k0DJQGX30X6iSTmRr",
                            "title": "C++ Programming Video Lectures",
+                           "author": "Saurabh School of Computing",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL5jc9xFGsL8G3y3ywuFSvOuNm3GjBwdkb",
-                           "title": "C++ STL",
+                           "title": "C++ Standard Library",
+                           "author": "Bo Qian",
                            "notes": [
                               "screencast"
                            ]
@@ -31224,6 +31233,7 @@
                         {
                            "url": "http://cppcast.com",
                            "title": "CppCast",
+                           "author": "Conor Hoekstra, Jason Turner, JeanHeyd Meneide, Matt Godbolt, Rob Irving",
                            "notes": [
                               "podcast"
                            ]
@@ -31245,6 +31255,7 @@
                         {
                            "url": "http://www.parens-of-the-dead.com",
                            "title": "Parens of the Dead",
+                           "author": "Magnar Sveen, Elisabeth Irgens",
                            "notes": [
                               "screencast"
                            ]
@@ -31256,8 +31267,9 @@
                      "section": "Common Lisp",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=xyXDE5gP2QI&list=PLCpux10P7KDKPb4eI5b_qSnQaY1ePGKGK",
+                           "url": "https://www.youtube.com/playlist?list=PLCpux10P7KDKPb4eI5b_qSnQaY1ePGKGK",
                            "title": "Common Lisp for Beginners",
+                           "author": "Neil Munro",
                            "notes": [
                               "screencast"
                            ]
@@ -31265,6 +31277,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL2VAYZE_4wRJi_vgpjsH75kMhN4KsuzR_",
                            "title": "Little Bits of Lisp",
+                           "author": "Cecilie Baggers",
                            "notes": [
                               "screencast"
                            ]
@@ -31278,6 +31291,7 @@
                         {
                            "url": "https://www.youtube.com/watch?v=yfoY53QXEnI",
                            "title": "CSS Crash Course For Absolute Beginners",
+                           "author": "Brad Traversy",
                            "notes": [
                               "screencast"
                            ]
@@ -31285,14 +31299,15 @@
                         {
                            "url": "https://css-tricks.com/video-screencasts/",
                            "title": "CSS-Tricks Screencasts",
+                           "author": "Chris Coyier",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
                            "url": "https://thecsspodcast.libsyn.com",
-                           "title": "The Css Podcast",
-                           "author": "Una Kravets and Adam Argyle",
+                           "title": "The CSS Podcast",
+                           "author": "Una Kravets, Adam Argyle",
                            "notes": [
                               "podcast"
                            ]
@@ -31304,22 +31319,25 @@
                      "section": "Data Science",
                      "entries": [
                         {
-                           "url": "https://www.datafuturology.com/episodes-1",
-                           "title": "Data Futurology",
+                           "url": "https://www.datafuturology.com/podcasts",
+                           "title": "Data Futurology - Leadership And Strategy in Artificial Intelligence, Machine Learning, Data Science",
+                           "author": "Felipe Flores",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://dataskeptic.com/episodes.php",
+                           "url": "https://dataskeptic.com/episodes",
                            "title": "Data Skeptic",
+                           "author": "Kyle Polich",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
                            "url": "http://datastori.es",
-                           "title": "Data Stories",
+                           "title": "Data Stories - a podcast on data+visualization",
+                           "author": "Enrico Bertini, Moritz Stefaner, Sandra Rendgen, Florian Wöhrl, Destry Sibley",
                            "notes": [
                               "podcast"
                            ]
@@ -31327,20 +31345,23 @@
                         {
                            "url": "https://www.datacamp.com/community/podcast",
                            "title": "DataFramed",
+                           "author": "Martijn Theuwissen, et al. Datacamp team",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.learningmachines101.com",
+                           "url": "https://www.learningmachines101.com",
                            "title": "Learning Machines 101",
+                           "author": "Richard M. Golden",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.lineardigressions.com",
+                           "url": "https://www.lineardigressions.com",
                            "title": "Linear Digressions",
+                           "author": "Katie, Ben",
                            "notes": [
                               "podcast"
                            ]
@@ -31348,6 +31369,7 @@
                         {
                            "url": "https://nssdeviations.com",
                            "title": "Not So Standard Deviations",
+                           "author": "Roger Peng, Hilary Parker",
                            "notes": [
                               "podcast"
                            ]
@@ -31355,6 +31377,7 @@
                         {
                            "url": "https://www.oreilly.com/topics/oreilly-data-show-podcast",
                            "title": "O'Reilly Data Show Podcast",
+                           "author": "Ben Lorica",
                            "notes": [
                               "podcast"
                            ]
@@ -31362,6 +31385,7 @@
                         {
                            "url": "http://partiallyderivative.com",
                            "title": "Partially Derivative",
+                           "author": "Chris Albon, Jonathon Morgan, Vidya Spandana",
                            "notes": [
                               "podcast"
                            ]
@@ -31374,8 +31398,9 @@
                            ]
                         },
                         {
-                           "url": "http://www.thetalkingmachines.com",
+                           "url": "https://www.thetalkingmachines.com",
                            "title": "Talking Machines",
+                           "author": "Katherine Gorman, Neil Lawrence",
                            "notes": [
                               "podcast"
                            ]
@@ -31383,7 +31408,7 @@
                         {
                            "url": "https://banana-data.buzzsprout.com",
                            "title": "The Banana Data Podcast",
-                           "author": "Triveni Gandhi and Christopher Peter Makris",
+                           "author": "Triveni Gandhi, Christopher Peter Makris, Corey Strausman",
                            "notes": [
                               "podcast"
                            ]
@@ -31405,7 +31430,7 @@
                         {
                            "url": "http://elixirsips.com",
                            "title": "Elixir Sips",
-                           "author": "Some free",
+                           "author": "Josh Adams",
                            "notes": [
                               "screencast"
                            ]
@@ -31413,6 +31438,7 @@
                         {
                            "url": "https://elixircasts.io",
                            "title": "ElixirCasts",
+                           "author": "Alekx",
                            "notes": [
                               "screencast"
                            ]
@@ -31420,6 +31446,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLE7tQUdRKcyakbmyFcmznq2iNtL80mCsT",
                            "title": "ElixirConf 2014",
+                           "author": "Confreaks",
                            "notes": [
                               "screencast"
                            ]
@@ -31427,6 +31454,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLWbHc_FXPo2jBXpr1IjyUgJ7hNS1eTf7H",
                            "title": "ElixirConf 2015",
+                           "author": "Erlang Solutions",
                            "notes": [
                               "screencast"
                            ]
@@ -31434,6 +31462,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLJbE2Yu2zumA-p21bEQB6nsYABAO-HtF2",
                            "title": "Intro to Elixir",
+                           "author": "Tensor Programming",
                            "notes": [
                               "screencast"
                            ]
@@ -31441,6 +31470,7 @@
                         {
                            "url": "https://thinkingelixir.com/the-podcast",
                            "title": "The Thinking Elixir Podcast",
+                           "author": "Mark Ericksen, David Bernheisel, Cade Ward",
                            "notes": [
                               "podcast"
                            ]
@@ -31454,6 +31484,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLWbHc_FXPo2h0sJW6X2RZDtT1ndw6KKpQ",
                            "title": "Erlang Factory SF Bay 2015",
+                           "author": "Erlang Solutions",
                            "notes": [
                               "screencast"
                            ]
@@ -31461,6 +31492,7 @@
                         {
                            "url": "http://www.infoq.com/presentations/joe-armstrong-erlang-qcon08",
                            "title": "Functions + Messages + Concurrency = Erlang",
+                           "author": "Joe Armstrong",
                            "notes": [
                               "screencast"
                            ]
@@ -31468,6 +31500,7 @@
                         {
                            "url": "https://www.youtube.com/watch?v=6sBL1kHoMoo",
                            "title": "Thinking like an Erlanger",
+                           "author": "Torben Hoffmann, Erlang Solutions",
                            "notes": [
                               "screencast"
                            ]
@@ -31481,30 +31514,33 @@
                         {
                            "url": "https://www.allthingsgit.com",
                            "title": "All Things Git",
-                           "author": "Edward Thomson and Martin Woodward",
+                           "author": "Edward Thomson, Martin Woodward",
                            "notes": [
                               "podcast"
-                           ]
-                        },
-                        {
-                           "url": "http://www.gitminutes.com",
-                           "title": "GitMinutes",
-                           "notes": [
-                              "podcast"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/watch?v=NPRUsCcZwJ4",
-                           "title": "Jhan Carlos Silva - Git and Github Tutorial",
-                           "notes": [
-                              "screencast"
                            ]
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV",
-                           "title": "The Coding Train - Git and GitHub for Poets",
+                           "title": "Git and GitHub for Poets",
+                           "author": "The Coding Train",
                            "notes": [
                               "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=NPRUsCcZwJ4",
+                           "title": "Git and Github Tutorial",
+                           "author": "Jhan Carlos Silva",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.gitminutes.com",
+                           "title": "GitMinutes",
+                           "author": "Thomas Ferris Nicolaisen",
+                           "notes": [
+                              "podcast"
                            ]
                         }
                      ],
@@ -31516,13 +31552,15 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL41psiCma00wgiTKkAZwJiwtLTdcyEyc4",
                            "title": "Build webapp without using a framework",
+                           "author": "Suraj Patil",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=SI-okTfauyw",
-                           "title": "Go An Introduction",
+                           "title": "Go: An Introduction",
+                           "author": "Shane Logsdon",
                            "notes": [
                               "screencast"
                            ]
@@ -31536,6 +31574,7 @@
                         {
                            "url": "https://www.leveluptutorials.com/tutorials/learning-gulp",
                            "title": "Learning Gulp",
+                           "author": "Scott Tolinski",
                            "notes": [
                               "screencast"
                            ]
@@ -31557,14 +31596,15 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLguYJK7ydFE4aS8fq4D6DqjF6qsysxTnx",
                            "title": "HaskellRank",
-                           "author": "Tsoding",
+                           "author": "Tsoding, Alexey Kutepov",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
-                           "url": "http://www.haskellcast.com",
+                           "url": "https://www.haskellcast.com",
                            "title": "The Haskell Cast",
+                           "author": "Chris Forno, Alp Mestanogullari, Rein Henrichs",
                            "notes": [
                               "podcast"
                            ]
@@ -31573,7 +31613,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "IDE / Editors",
+                     "section": "IDE and Editors",
                      "entries": [
                         {
                            "url": "https://emacscast.org",
@@ -31586,6 +31626,7 @@
                         {
                            "url": "http://emacsrocks.com",
                            "title": "Emacs Rocks!",
+                           "author": "Christian Johansen",
                            "notes": [
                               "screencast"
                            ]
@@ -31593,6 +31634,7 @@
                         {
                            "url": "http://vimcasts.org",
                            "title": "Free screencasts about the text editor Vim",
+                           "author": "Drew Neil",
                            "notes": [
                               "screencast"
                            ]
@@ -31608,6 +31650,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL-p5XmQHB_JSTaEPygu1DZjuFfb704Uv7",
                            "title": "vim Hacking",
+                           "author": "Luke Smith",
                            "notes": [
                               "screencast"
                            ]
@@ -31637,7 +31680,7 @@
                         {
                            "url": "https://inside.java/podcast",
                            "title": "Inside Java",
-                           "author": "Chad Arimura and David Delabassee",
+                           "author": "Chad Arimura, David Delabassee",
                            "notes": [
                               "podcast"
                            ]
@@ -31645,7 +31688,7 @@
                         {
                            "url": "https://www.javaoffheap.com",
                            "title": "Java OffHeap",
-                           "author": "Freddy Guime",
+                           "author": "Freddy Guime, Bob Paulin, Michael Minella, Josh Juneau, et al.",
                            "notes": [
                               "podcast"
                            ]
@@ -31653,7 +31696,7 @@
                         {
                            "url": "https://player.fm/series/java-pub-house",
                            "title": "Java Pub House",
-                           "author": "Freddy Guime and Bob Paulin",
+                           "author": "Freddy Guime, Bob Paulin",
                            "notes": [
                               "podcast"
                            ]
@@ -31667,7 +31710,7 @@
                         {
                            "url": "https://devmode.fm",
                            "title": "devMode.fm",
-                           "author": "Andrew Welch, Patrick Harrington, Jonathan Melville, Michael Rog et al.",
+                           "author": "Andrew Welch, Ryan Ire­lan, Patrick Harrington, Jonathan Melville, Michael Rog, Earl John­ston, Mar­i­on Newlevant, Lau­ren Dorman, Matt Stein, Jen­nifer Blumberg",
                            "notes": [
                               "podcast"
                            ]
@@ -31675,21 +31718,23 @@
                         {
                            "url": "https://fivejs.codeschool.com",
                            "title": "FiveJS",
+                           "author": "CodeSchool",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://frontendhappyhour.com",
+                           "url": "https://frontendhappyhour.com",
                            "title": "Front End Happy Hour",
+                           "author": "Ryan Burgess, Jem Young, Stacy London, Augustus Yuan, Mars Jullian, Shirley Wu",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "https://frontendfirst.fm",
+                           "url": "https://player.fm/series/frontend-first",
                            "title": "Frontend First",
-                           "author": "Sam Selikoff and Ryan Toronto",
+                           "author": "Sam Selikoff, Ryan Toronto",
                            "notes": [
                               "podcast"
                            ]
@@ -31697,13 +31742,15 @@
                         {
                            "url": "https://frontendfive.codeschool.com",
                            "title": "Frontend Five",
+                           "author": "CodeSchool",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "https://www.htmlallthethings.com",
+                           "url": "https://www.htmlallthethings.com/podcast",
                            "title": "HTML All The Things",
+                           "author": "Mike Karan, Matt Lawrence",
                            "notes": [
                               "podcast"
                            ]
@@ -31711,13 +31758,15 @@
                         {
                            "url": "https://javascriptair.com",
                            "title": "JavaScript Air",
+                           "author": "Kent C. Dodds, Dan Abramov, Matt Zabriskie, Pam Selle, Lin Clark, Brian Lonsdorf, Iheanyi Ekechukwu,, Tyler McGinnis, Kyle Simpson, et al.",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "https://devchat.tv/js-jabber",
+                           "url": "https://javascriptjabber.com",
                            "title": "JavaScript Jabber",
+                           "author": "Aimee Knight, AJ O'Neal, Charles Wood, Dan Shappir, Steve Edwards, et al.",
                            "notes": [
                               "podcast"
                            ]
@@ -31725,6 +31774,7 @@
                         {
                            "url": "https://changelog.com/jsparty",
                            "title": "JS Party",
+                           "author": "Jerod Santo, Nick Nisi, Amelia Wattenberger, Kevin Ball, Divya, Feross Aboukhadijeh, Amal Hussein, Christopher Hiller, Ali Spittel, et al.",
                            "notes": [
                               "podcast"
                            ]
@@ -31732,6 +31782,7 @@
                         {
                            "url": "https://www.thisdot.co/modern-web",
                            "title": "Modern Web",
+                           "author": "This Dot Labs",
                            "notes": [
                               "podcast"
                            ]
@@ -31739,6 +31790,7 @@
                         {
                            "url": "http://nodetuts.com",
                            "title": "Node Tuts - Node.JS Video Tutorials",
+                           "author": "YLD Ltd.",
                            "notes": [
                               "screencast"
                            ]
@@ -31746,6 +31798,7 @@
                         {
                            "url": "https://realtalkjavascript.simplecast.fm",
                            "title": "Real Talk JavaScript",
+                           "author": "John Papa, Ward Bell, Craig Shoemaker, Dan Wahlin",
                            "notes": [
                               "podcast"
                            ]
@@ -31753,13 +31806,15 @@
                         {
                            "url": "https://syntax.fm",
                            "title": "Syntax",
+                           "author": "Wes Bos, Scott Tolinski",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
                            "url": "http://javascriptshow.com",
-                           "title": "The Javascript Show",
+                           "title": "The JavaScript Show",
+                           "author": "Peter Cooper, Jason Seifer",
                            "notes": [
                               "podcast"
                            ]
@@ -31772,6 +31827,7 @@
                               {
                                  "url": "https://angularair.com",
                                  "title": "Angular Air",
+                                 "author": "Justin Schwartzenberger, Alyssa Nicoll, Mike Brocci, Bonnie Brennan, Austin McDaniel",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31779,6 +31835,7 @@
                               {
                                  "url": "https://anchor.fm/angular-master",
                                  "title": "Angular Master",
+                                 "author": "Dariusz Kalbarczyk",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31791,7 +31848,7 @@
                               {
                                  "url": "https://elm-radio.com",
                                  "title": "Elm Radio",
-                                 "author": "Dillon Kearns and Jeroen Engels",
+                                 "author": "Dillon Kearns, Jeroen Engels",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31799,6 +31856,7 @@
                               {
                                  "url": "https://elmtown.simplecast.com",
                                  "title": "Elm Town",
+                                 "author": "Kevin Yank, Ossi Hanhinen, Brian Hicks, Ben Brandt",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31811,6 +31869,7 @@
                               {
                                  "url": "https://emberweekend.com/episodes",
                                  "title": "Ember Weekend",
+                                 "author": "Chase McCarthy, Jonathan Jackson",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31818,84 +31877,7 @@
                               {
                                  "url": "https://embermap.com/podcast",
                                  "title": "The EmberMap Podcast",
-                                 "author": "Sam Selikoff and Ryan Toronto",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              }
-                           ]
-                        },
-                        {
-                           "section": "Machine Learning",
-                           "entries": [
-                              {
-                                 "url": "https://concerning.ai",
-                                 "title": "Concerning AI",
-                                 "author": "Brandon Sanders, Ted Sarvata",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "https://emerj.com/artificial-intelligence-podcast/",
-                                 "title": "Emerj: The AI in Business Podcast",
-                                 "author": "Daniel Faggella",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "https://emerj.com/ai-in-financial-services-podcast/",
-                                 "title": "Emerj: The AI in Financial Services Podcast",
-                                 "author": "Daniel Faggella",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "https://developer.ibm.com/podcasts/high-performance-computing-and-ai-podcast/",
-                                 "title": "High-performance computing and AI podcast",
-                                 "author": "IBM",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "http://www.learningmachines101.com",
-                                 "title": "Learning Machines 101",
-                                 "author": "Richard M. Golden",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "https://anchor.fm/david-nishimoto",
-                                 "title": "Machine learning",
-                                 "author": "David Nishimoto",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "http://www.thetalkingmachines.com",
-                                 "title": "Talking Machines",
-                                 "author": "Katherine Gorman, Neil Lawrence",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "https://blogs.nvidia.com/ai-podcast/",
-                                 "title": "The AI Podcast",
-                                 "author": "NVIDIA, Noah Kravitz",
-                                 "notes": [
-                                    "podcast"
-                                 ]
-                              },
-                              {
-                                 "url": "https://twimlai.com/shows/",
-                                 "title": "TWIML AI Podcast",
-                                 "author": "Sam Charrington",
+                                 "author": "Sam Selikoff, Ryan Toronto",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31916,6 +31898,7 @@
                               {
                                  "url": "https://player.fm/series/nodeup",
                                  "title": "Nodeup",
+                                 "author": "Dan Shaw, Stanley Stuart, Jordan Muir",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31923,6 +31906,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV",
                                  "title": "Twitter Bot Tutorial - Node.js and Processing",
+                                 "author": "The Coding Train",
                                  "notes": [
                                     "screencast"
                                  ]
@@ -31935,6 +31919,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA",
                                  "title": "Code! Programming with p5.js",
+                                 "author": "The Coding Train",
                                  "notes": [
                                     "screencast"
                                  ]
@@ -31945,16 +31930,17 @@
                            "section": "React.js",
                            "entries": [
                               {
-                                 "url": "https://kentcdodds.com/chats/04",
+                                 "url": "https://kentcdodds.com/chats",
                                  "title": "Chats with Kent C. Dodds",
-                                 "author": "Kent C Dodds",
+                                 "author": "Kent C. Dodds",
                                  "notes": [
                                     "podcast"
                                  ]
                               },
                               {
-                                 "url": "https://devchat.tv/react-native-radio",
-                                 "title": "React Native Podcast",
+                                 "url": "https://www.reactnativeradio.com/episodes",
+                                 "title": "React Native Radio",
+                                 "author": "Jamon Holmgren, Robin Heinze, Mazen Chami, Jon Major",
                                  "notes": [
                                     "podcast"
                                  ]
@@ -31962,29 +31948,30 @@
                               {
                                  "url": "https://reactpodcast.simplecast.fm",
                                  "title": "React Podcast",
+                                 "author": "Michael Chan",
                                  "notes": [
                                     "podcast"
                                  ]
                               },
                               {
-                                 "url": "https://devchat.tv/podcasts/react-round-up",
+                                 "url": "https://reactroundup.com/episodes",
                                  "title": "React Round Up",
-                                 "author": "DevChat.tv",
+                                 "author": "Carl Mungazi, Charles Max Wood, TJ VanToll, Paige Niedringhaus, Jack Herrington, et al.",
                                  "notes": [
                                     "podcast"
                                  ]
                               },
                               {
-                                 "url": "https://www.youtube.com/c/reactcasts",
+                                 "url": "https://www.youtube.com/channel/UCZkjWyyLvzWeoVWEpRemrDQ",
                                  "title": "ReactCasts",
-                                 "notes": [
-                                    "screencast"
-                                 ]
+                                 "author": "Cassio Zen",
+                                 "notes": [],
+                                 "manualReviewRequired": true
                               },
                               {
                                  "url": "https://www.callstack.com/podcast-react-native-show",
                                  "title": "The React Native Show",
-                                 "author": "Mike Grabowski et al.",
+                                 "author": "Mike Grabowski, Mike Chudziak, Satyajit Sahoo, Michał Pierzchała, et al.",
                                  "notes": [
                                     "screencast"
                                  ]
@@ -32007,6 +31994,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLpg00ti3ApRweIhdOI4VCFFStx4uXC__u",
                            "title": "Kotlin Beginners Tutorials",
+                           "author": "Peter Sommerhoff",
                            "notes": [
                               "screencast"
                            ]
@@ -32014,6 +32002,7 @@
                         {
                            "url": "http://talkingkotlin.com",
                            "title": "Talking Kotlin",
+                           "author": "Hadi Hariri, JetBrains community",
                            "notes": [
                               "podcast"
                            ]
@@ -32025,8 +32014,9 @@
                      "section": "Language Agnostic",
                      "entries": [
                         {
-                           "url": "http://devhell.info",
+                           "url": "https://devhell.info",
                            "title": "/dev/hell",
+                           "author": "Chris Hartjes, Ed Finkler",
                            "notes": [
                               "podcast"
                            ]
@@ -32034,6 +32024,7 @@
                         {
                            "url": "https://adspthepodcast.com",
                            "title": "ADSP: The Podcast",
+                           "author": "Bryce Adelstein Lelbach, Conor Hoekstra",
                            "notes": [
                               "podcast"
                            ]
@@ -32041,6 +32032,7 @@
                         {
                            "url": "https://arraycast.com",
                            "title": "Array Cast",
+                           "author": "Conor Hoekstra, Adám Brudzewsky, Richard Park, Rodrigo Girão Serrão, Stephen Taylor, Nick Psaris, Bob Therriault",
                            "notes": [
                               "podcast"
                            ]
@@ -32048,6 +32040,7 @@
                         {
                            "url": "https://www.arresteddevops.com",
                            "title": "Arrested DevOps",
+                           "author": "Bridget Kromhout, Jeff Smith, Jessica Kerr, Joe Laha, Matt Stratton, Trevor Hess",
                            "notes": [
                               "podcast"
                            ]
@@ -32055,26 +32048,30 @@
                         {
                            "url": "https://www.codenewbie.org/basecs",
                            "title": "baseCS",
+                           "author": "Vaidehi Joshi, Saron Yitbarek",
                            "notes": [],
                            "manualReviewRequired": true
                         },
                         {
                            "url": "https://soundcloud.com/between-screens",
                            "title": "Between | Screens Podcast",
+                           "author": "Ed Wassermann",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://bsdtalk.blogspot.com",
+                           "url": "https://bsdtalk.blogspot.com",
                            "title": "BSDTalk",
+                           "author": "Will Backman",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.codenewbie.org/podcast",
+                           "url": "https://www.codenewbie.org/podcast",
                            "title": "CodeNewbie",
+                           "author": "CodeNewbie Team",
                            "notes": [
                               "podcast"
                            ]
@@ -32082,13 +32079,15 @@
                         {
                            "url": "https://blog.codepen.io/radio/",
                            "title": "CodePen Radio",
+                           "author": "CodePen Team",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.codingblocks.net",
+                           "url": "https://www.codingblocks.net",
                            "title": "Coding Blocks",
+                           "author": "Michael Outlaw, Joe Zack, Allen Underwood",
                            "notes": [
                               "podcast"
                            ]
@@ -32096,13 +32095,15 @@
                         {
                            "url": "https://www.redhat.com/en/command-line-heroes",
                            "title": "Command Line Heroes",
+                           "author": "Saron Yitbarek, Red Hat",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://ctrlclickcast.com",
+                           "url": "https://ctrlclickcast.com",
                            "title": "CTRL+CLICK CAST",
+                           "author": "Lea Alcantara, Emily Lewis, Bright Umbrella",
                            "notes": [
                               "podcast"
                            ]
@@ -32110,13 +32111,15 @@
                         {
                            "url": "https://darknetdiaries.com",
                            "title": "Darknet Diaries",
+                           "author": "Jack Rhysider, Fiona Guy, Leah Hurvoloy, et al.",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://developeronfire.com",
+                           "url": "https://developeronfire.com",
                            "title": "Developer On Fire",
+                           "author": "Dave Rael",
                            "notes": [
                               "podcast"
                            ]
@@ -32124,13 +32127,15 @@
                         {
                            "url": "https://developertea.com",
                            "title": "Developer Tea",
+                           "author": "Jonathan Cutrell",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.developershangout.io",
+                           "url": "https://www.developershangout.io",
                            "title": "DevelopersHangout",
+                           "author": "Eric J Silva",
                            "notes": [
                               "podcast"
                            ]
@@ -32145,6 +32150,7 @@
                         {
                            "url": "https://twit.tv/shows/floss-weekly",
                            "title": "FLOSS WEEKLY",
+                           "author": "Doc Searls, Aaron Newcomb, Dan Lynch, Simon Phipps, Jonathan Bennett, Shawn Powers, Katherine Druckman",
                            "notes": [
                               "podcast"
                            ]
@@ -32152,13 +32158,15 @@
                         {
                            "url": "https://frontside.io/podcast/",
                            "title": "Frontside the Podcast",
+                           "author": "Charles Lowell, Taras Mankovski",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.fullstackradio.com",
+                           "url": "https://www.fullstackradio.com",
                            "title": "Full Stack Radio",
+                           "author": "Adam Wathan",
                            "notes": [
                               "podcast"
                            ]
@@ -32166,6 +32174,7 @@
                         {
                            "url": "https://www.functionalgeekery.com",
                            "title": "Functional Geekery",
+                           "author": "Steven Proctor",
                            "notes": [
                               "podcast"
                            ]
@@ -32173,6 +32182,7 @@
                         {
                            "url": "https://garbage.jcs.org",
                            "title": "Garbage",
+                           "author": "Brandon Mercer, Joshua Stein",
                            "notes": [
                               "podcast"
                            ]
@@ -32180,6 +32190,7 @@
                         {
                            "url": "https://anchor.fm/hackerculture",
                            "title": "Hacker Culture",
+                           "author": "Jaron Swab",
                            "notes": [
                               "podcast"
                            ]
@@ -32195,6 +32206,7 @@
                         {
                            "url": "http://www.computer.org/web/computingnow/oncomputing",
                            "title": "IEEE Software's \"On Computing\" with Grady Booch",
+                           "author": "Grady Booch",
                            "notes": [
                               "podcast"
                            ]
@@ -32210,20 +32222,23 @@
                         {
                            "url": "https://www.ladybug.dev",
                            "title": "Ladybug Podcast",
+                           "author": "Kelly Vaughn, Ali Spittel, Emma Bostian, Sidney Buckner",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://learntocodewith.me/podcast/",
+                           "url": "https://learntocodewith.me/podcast/",
                            "title": "Learn to Code with Me",
+                           "author": "Laurence Bradford",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://looselycoupled.info",
+                           "url": "https://looselycoupled.info",
                            "title": "Loosely Coupled",
+                           "author": "Jeff Carouth, Matt Frost",
                            "notes": [
                               "podcast"
                            ]
@@ -32231,27 +32246,31 @@
                         {
                            "url": "https://www.dotnetrocks.com",
                            "title": ".NET Rocks!",
+                           "author": "Carl Franklin, Richard Campbell",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://opensourcesystempodcast.vf.io",
+                           "url": "https://opensourcesystempodcast.vf.io",
                            "title": "Open Source System Podcast",
+                           "author": "Vlad Filippov, Kyle Robinson Young, Tim Branyen, Darcy Clarke, Mike Taylor, Alex Sexton, Jason Etcovitch",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.programmingthrowdown.com",
+                           "url": "https://www.programmingthrowdown.com",
                            "title": "Programming Throwdown",
+                           "author": "Jason Gauci, Patrick Wheeler",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://reactive.audio",
+                           "url": "https://reactive.audio",
                            "title": "Reactive",
+                           "author": "Kahlil Lechelt, Raquel Vélez, Henning Glatter-Götz",
                            "notes": [
                               "podcast"
                            ]
@@ -32259,13 +32278,15 @@
                         {
                            "url": "https://www.grc.com/securitynow.htm",
                            "title": "Security Now",
+                           "author": "Steve Gibson, Leo Laporte",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://shoptalkshow.com",
+                           "url": "https://shoptalkshow.com",
                            "title": "Shop Talk Show",
+                           "author": "Dave Rupert, Chris Coyier",
                            "notes": [
                               "podcast"
                            ]
@@ -32273,6 +32294,7 @@
                         {
                            "url": "https://podcast.smashingmagazine.com",
                            "title": "Smashing podcast",
+                           "author": "Drew McLellan, Smashing Magazine Team",
                            "notes": [
                               "podcast"
                            ]
@@ -32280,34 +32302,39 @@
                         {
                            "url": "https://softskills.audio",
                            "title": "Soft Skills Engineering Podcast",
+                           "author": "Dave Smith, Jamison Dance",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://softwareengineeringdaily.com",
+                           "url": "https://softwareengineeringdaily.com",
                            "title": "Software Engineering Daily",
+                           "author": "Jeff Meyerson, Alex DeBrie, Lee Atchison, Jocelyn Byrne Houle, Mike Bifulco, Sean Falconer, et al.",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.se-radio.net",
+                           "url": "https://www.se-radio.net",
                            "title": "Software Engineering Radio",
+                           "author": "Robert Blumen, Jeff Doolittle, Felienne Hermans, Gavin Henry, Jeremy Jung, Nikhil Krishna, Priyanka Raghavan, Kanchan Shringi, Philip Winston",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://podcast.sysca.st",
+                           "url": "https://podcast.sysca.st",
                            "title": "Syscast Podcast",
+                           "author": "Mattias Geniar",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.talkingcode.com",
+                           "url": "https://www.talkingcode.com",
                            "title": "Talking Code",
+                           "author": "Josh Smith, Venkat Dinavahi",
                            "notes": [
                               "podcast"
                            ]
@@ -32315,13 +32342,15 @@
                         {
                            "url": "https://testingpodcast.com/category/testing-in-the-pub/",
                            "title": "Testing In The Pub",
+                           "author": "Stephen Janaway, Dan Ashby",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://5by5.tv/bigwebshow",
+                           "url": "https://bigwebshow.fireside.fm",
                            "title": "The Big Web Show",
+                           "author": "Jeffrey Zeldman",
                            "notes": [
                               "podcast"
                            ]
@@ -32329,27 +32358,31 @@
                         {
                            "url": "https://changelog.com/podcast/",
                            "title": "The Changelog Podcast",
+                           "author": "Adam Stacoviak, Jerod Santo",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.thecloudcast.net",
+                           "url": "https://www.thecloudcast.net",
                            "title": "The Cloudcast",
+                           "author": "Aaron Delp, Brian Gracely",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://blog.cognitect.com/cognicast",
+                           "url": "https://blog.cognitect.com/cognicast",
                            "title": "The Cognicast",
+                           "author": "The Cognitect Team",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://creativecodingpodcast.com",
+                           "url": "https://creativecodingpodcast.com",
                            "title": "The Creative Coding Podcast",
+                           "author": "Seb Lee-Delisle, Iain Lobb",
                            "notes": [
                               "podcast"
                            ]
@@ -32357,6 +32390,7 @@
                         {
                            "url": "https://cynicaldeveloper.com/podcast",
                            "title": "The Cynical Developer: Weekly Technology and Software Developer Podcast",
+                           "author": "James Studdart",
                            "notes": [
                               "podcast"
                            ]
@@ -32364,13 +32398,15 @@
                         {
                            "url": "https://player.fm/series/series-1402172",
                            "title": "The Debug Log",
+                           "author": "Andrew, Obinna, Zack, Ryan, Eduardo",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://hanselminutes.com",
+                           "url": "https://hanselminutes.com",
                            "title": "The Hanselminutes podcast",
+                           "author": "Scott Hanselman",
                            "notes": [
                               "podcast"
                            ]
@@ -32378,6 +32414,7 @@
                         {
                            "url": "https://pathtoperf.com",
                            "title": "The Path to Performance",
+                           "author": "Katie Kovalcin, Tim Kadlec",
                            "notes": [
                               "podcast"
                            ]
@@ -32385,6 +32422,7 @@
                         {
                            "url": "https://soundcloud.com/john-esposito-23072673",
                            "title": "The Podcast from DZone.com: \"For Developers, by Developers\"",
+                           "author": "John Esposito",
                            "notes": [
                               "podcast"
                            ]
@@ -32392,6 +32430,7 @@
                         {
                            "url": "http://www.computer.org/web/computingnow/silverbullet",
                            "title": "The Silver Bullet Security Podcast with Gary McGraw",
+                           "author": "Gary McGraw",
                            "notes": [
                               "podcast"
                            ]
@@ -32399,20 +32438,23 @@
                         {
                            "url": "https://stackoverflow.blog/podcast/",
                            "title": "The Stack Overflow Podcast",
+                           "author": "The Stack Overflow team",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://5by5.tv/webahead",
+                           "url": "https://5by5.tv/webahead",
                            "title": "The Web Ahead",
+                           "author": "Jen Simmons",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://thewebplatform.libsyn.com",
+                           "url": "https://thewebplatform.libsyn.com",
                            "title": "The Web Platform",
+                           "author": "Erik Isaksen, Justin Ribeiro, Danny Blue, Amal Hussein, Leon Revill, et al.",
                            "notes": [
                               "podcast"
                            ]
@@ -32420,13 +32462,15 @@
                         {
                            "url": "https://anchor.fm/tanaypratap",
                            "title": "Thinking with Tanay",
+                           "author": "Tanay Pratap",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://thisdeveloperslife.com",
+                           "url": "https://thisdeveloperslife.com",
                            "title": "This Developer's Life",
+                           "author": "Rob Conery, Scott Hanselman",
                            "notes": [
                               "podcast"
                            ]
@@ -32439,8 +32483,9 @@
                            ]
                         },
                         {
-                           "url": "http://threedevsandamaybe.com",
+                           "url": "https://threedevsandamaybe.com",
                            "title": "Three Devs and a Maybe",
+                           "author": "Michael Budd, Fraser Hart, Lewis Cains, Edd Mann",
                            "notes": [
                               "podcast"
                            ]
@@ -32448,6 +32493,7 @@
                         {
                            "url": "https://spec.fm/podcasts/toolsday",
                            "title": "Toolsday",
+                           "author": "Una Kravets, Chris Dhanaraj",
                            "notes": [
                               "podcast"
                            ]
@@ -32455,6 +32501,7 @@
                         {
                            "url": "https://podtail.com/es/podcast/ttl-podcast/",
                            "title": "TTL Podcast",
+                           "author": "Rebecca Murphey",
                            "notes": [
                               "podcast"
                            ]
@@ -32467,8 +32514,87 @@
                            ]
                         },
                         {
-                           "url": "https://podcasts.apple.com/us/podcast/women-in-tech-with-ariana/id1338917627",
+                           "url": "https://www.wallwaytech.com/podcast",
                            "title": "Women in TECH with Ariana",
+                           "author": "Ariana The Techie",
+                           "notes": [
+                              "podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Machine Learning",
+                     "entries": [
+                        {
+                           "url": "https://concerning.ai",
+                           "title": "Concerning AI",
+                           "author": "Brandon Sanders, Ted Sarvata",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://emerj.com/artificial-intelligence-podcast/",
+                           "title": "Emerj: The AI in Business Podcast",
+                           "author": "Daniel Faggella",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://emerj.com/ai-in-financial-services-podcast/",
+                           "title": "Emerj: The AI in Financial Services Podcast",
+                           "author": "Daniel Faggella",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://developer.ibm.com/podcasts/high-performance-computing-and-ai-podcast/",
+                           "title": "High-performance computing and AI podcast",
+                           "author": "IBM",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "http://www.learningmachines101.com",
+                           "title": "Learning Machines 101",
+                           "author": "Richard M. Golden",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://anchor.fm/david-nishimoto",
+                           "title": "Machine learning",
+                           "author": "David Nishimoto",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "http://www.thetalkingmachines.com",
+                           "title": "Talking Machines",
+                           "author": "Katherine Gorman, Neil Lawrence",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://blogs.nvidia.com/ai-podcast/",
+                           "title": "The AI Podcast",
+                           "author": "NVIDIA, Noah Kravitz",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://twimlai.com/shows/",
+                           "title": "TWIML AI Podcast",
+                           "author": "Sam Charrington",
                            "notes": [
                               "podcast"
                            ]
@@ -32480,15 +32606,17 @@
                      "section": "PHP",
                      "entries": [
                         {
-                           "url": "http://podcast.laravel-news.com",
+                           "url": "https://podcast.laravel-news.com",
                            "title": "Laravel News Podcast",
+                           "author": "Jacob Bennett, Michael Dyrynda, Eric L. Barnes",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://magetalk.com",
+                           "url": "https://magetalk.com",
                            "title": "MageTalk - A Magento Podcast",
+                           "author": "Phillip Jackson, Kalen Jordan",
                            "notes": [
                               "podcast"
                            ]
@@ -32496,6 +32624,7 @@
                         {
                            "url": "https://www.phppodcasts.com",
                            "title": "PHP Podcasts",
+                           "author": "Jacob Bennett, Michael Dyrynda, Joel Clermont, Aaron Saray, Eric Van Johnson, John Congdon, Tom Rideout, Derick Rethans",
                            "notes": [
                               "podcast"
                            ]
@@ -32503,13 +32632,15 @@
                         {
                            "url": "https://www.phproundtable.com",
                            "title": "PHP Roundtable",
+                           "author": "Sammy Kaye Powers",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://phptownhall.com",
+                           "url": "https://phptownhall.com",
                            "title": "PHP Town Hall",
+                           "author": "Ben Edmunds, Matt Trask",
                            "notes": [
                               "podcast"
                            ]
@@ -32517,6 +32648,7 @@
                         {
                            "url": "http://www.soundofsymfony.com",
                            "title": "Sound of Symfony",
+                           "author": "Magnus Nordlander, Tobias Nyholm",
                            "notes": [
                               "podcast"
                            ]
@@ -32524,6 +32656,7 @@
                         {
                            "url": "https://voicesoftheelephpant.com",
                            "title": "Voices of the ElePHPant",
+                           "author": "Cal Evans, Khayrattee Wasseem",
                            "notes": [
                               "podcast"
                            ]
@@ -32537,6 +32670,7 @@
                         {
                            "url": "https://www.pgcasts.com",
                            "title": "PG Casts",
+                           "author": "Jack Christensen, Josh Branchaud, Jake Worth, Vidal Ekechukwu, Dorian Karter, Mary Lee, et al. Hashrocket team",
                            "notes": [
                               "screencast"
                            ]
@@ -32544,7 +32678,7 @@
                         {
                            "url": "https://player.fm/series/scaling-postgres",
                            "title": "Scaling Postgres",
-                           "author": "Ruby Tree Software Inc and Creston Jamison",
+                           "author": "Ruby Tree Software Inc, Creston Jamison",
                            "notes": [
                               "podcast"
                            ]
@@ -32557,7 +32691,8 @@
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PL41psiCma00wwvtQyLFMFpzWxUYmSZwZy",
-                           "title": "Build applications in Python the antitextbook",
+                           "title": "Build applications in Python - The antitextbook",
+                           "author": "Multiversity",
                            "notes": [
                               "screencast"
                            ]
@@ -32565,14 +32700,15 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL_qGav8csvade05RSAYtnxvCfQKTJcZR4",
                            "title": "Codecasts",
-                           "author": "Daniel Feldroy",
+                           "author": "Daniel Roy Greenfeld",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
-                           "url": "http://code.tutsplus.com/articles/diving-into-django--net-2969",
+                           "url": "https://code.tutsplus.com/articles/diving-into-django--net-2969",
                            "title": "Diving into Django",
+                           "author": "Jeff Hui",
                            "notes": [
                               "screencast"
                            ]
@@ -32580,13 +32716,15 @@
                         {
                            "url": "https://soundcloud.com/import-this",
                            "title": "Import this",
+                           "author": "Kenneth Reitz",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://podcastinit.com",
+                           "url": "https://podcastinit.com",
                            "title": "Podcast.",
+                           "author": "Tobias Macey",
                            "notes": [
                               "podcast"
                            ]
@@ -32594,6 +32732,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDc_owjTbIY4rbgXOFkUYOUB",
                            "title": "Practical Flask Web Development Tutorials",
+                           "author": "Harrison Kinsley",
                            "notes": [
                               "screencast"
                            ]
@@ -32601,13 +32740,7 @@
                         {
                            "url": "https://pythonbytes.fm",
                            "title": "Python Bytes",
-                           "notes": [
-                              "podcast"
-                           ]
-                        },
-                        {
-                           "url": "http://pythontesting.net/test-podcast",
-                           "title": "Python Test Podcast",
+                           "author": "Michael Kennedy, Brian Okken",
                            "notes": [
                               "podcast"
                            ]
@@ -32615,13 +32748,15 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLP8GkvaIxJP3ignHY_Dq7bFsvwzAcqZ1i",
                            "title": "Python Tips",
+                           "author": "Christopher Bailey",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
-                           "url": "http://talkpython.fm",
+                           "url": "https://talkpython.fm",
                            "title": "Talk Python To Me - A podcast on Python and related technologies",
+                           "author": "Michael Kennedy",
                            "notes": [
                               "podcast"
                            ]
@@ -32629,6 +32764,15 @@
                         {
                            "url": "https://www.teachingpython.fm",
                            "title": "Teaching Python",
+                           "author": "Kelly Paredes, Sean Tibor",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://testandcode.com",
+                           "title": "Test & Code in Python",
+                           "author": "Brian Okken",
                            "notes": [
                               "podcast"
                            ]
@@ -32644,6 +32788,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAjkwJocj7vlc_mFU-4wXJq",
                            "title": "TheNewBoston - Pygame (Python Game Development) Playlist",
+                           "author": "Bucky Roberts",
                            "notes": [
                               "screencast"
                            ]
@@ -32651,6 +32796,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_",
                            "title": "TheNewBoston - Python 3.4 Programming Tutorials",
+                           "author": "Bucky Roberts",
                            "notes": [
                               "screencast"
                            ]
@@ -32658,6 +32804,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d",
                            "title": "TheNewBoston - Python GUI with Tkinter Playlist",
+                           "author": "Bucky Roberts",
                            "notes": [
                               "screencast"
                            ]
@@ -32665,13 +32812,15 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLEA1FEF17E1E5C0DA",
                            "title": "TheNewBoston - Python Programming Tutorials - 2.x",
+                           "author": "Bucky Roberts",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
-                           "url": "http://youtu.be/3DccH9AMwFQ?list=PLEsfXFp6DpzRgedo9IzmcpXYoSeDg29Tx",
+                           "url": "https://www.youtube.com/playlist?list=PLEsfXFp6DpzRgedo9IzmcpXYoSeDg29Tx",
                            "title": "Try Django Tutorial",
+                           "author": "Justin Mitchel, CodingEntrepreneurs",
                            "notes": [
                               "screencast"
                            ]
@@ -32683,22 +32832,17 @@
                      "section": "Ruby",
                      "entries": [
                         {
-                           "url": "http://5by5.tv/rubyonrails",
-                           "title": "5by5 - Ruby on Rails Podcast",
-                           "notes": [
-                              "podcast"
-                           ]
-                        },
-                        {
                            "url": "https://www.codewithjason.com/rails-with-jason-podcast/",
                            "title": "Code with Jason",
+                           "author": "Jason Swett",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "https://www.driftingruby.com",
+                           "url": "https://www.driftingruby.com/episodes?free=true&pro=false",
                            "title": "Drifting Ruby",
+                           "author": "Dave Kimura",
                            "notes": [
                               "screencast"
                            ]
@@ -32706,35 +32850,39 @@
                         {
                            "url": "http://railscasts.com",
                            "title": "Railscasts",
+                           "author": "Ryan Bates",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
-                           "url": "https://5by5.tv/rubyonrails",
-                           "title": "Ruby on Rails Podcast",
-                           "author": "Brittany Martin",
-                           "notes": [
-                              "podcast"
-                           ]
-                        },
-                        {
-                           "url": "https://devchat.tv/ruby-rogues/",
+                           "url": "https://topenddevs.com/podcasts/ruby-rogues/",
                            "title": "Ruby Rogues",
+                           "author": "Charles Max Wood, Dave Kimura, Valentino Stoll, Luke Stutters, John Epperson, Sam Livingston-Gray, Avdi Grimm, Aaron Patterson, James Edward Gray, Katrina Owen",
                            "notes": [
                               "podcast"
                            ]
                         },
                         {
-                           "url": "http://www.rubytapas.com/episodes?filter=free",
+                           "url": "https://www.rubytapas.com/category/episodes/",
                            "title": "Ruby Tapas | Free Screencasts",
+                           "author": "Avdi Grimm",
                            "notes": [
                               "screencast"
                            ]
                         },
                         {
-                           "url": "http://bikeshed.fm",
+                           "url": "https://www.bikeshed.fm",
                            "title": "The Bike Shed",
+                           "author": "Chris Toomey, Steph Viccari",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.therubyonrailspodcast.com",
+                           "title": "The Ruby on Rails Podcast",
+                           "author": "Brittany Martin, Brian Mariani, Jemma Issroff, Nick Schwaderer",
                            "notes": [
                               "podcast"
                            ]
@@ -32742,6 +32890,7 @@
                         {
                            "url": "http://rubyshow.com",
                            "title": "The Ruby Show",
+                           "author": "Peter Cooper, Jason Seifer",
                            "notes": [
                               "podcast"
                            ]
@@ -32755,6 +32904,7 @@
                         {
                            "url": "http://www.newrustacean.com",
                            "title": "New Rustacean",
+                           "author": "Chris Krycho",
                            "notes": [
                               "podcast"
                            ]
@@ -32762,6 +32912,7 @@
                         {
                            "url": "https://soundcloud.com/posix4e",
                            "title": "Rusty Radio",
+                           "author": "Alex Newman",
                            "notes": [
                               "podcast"
                            ]
@@ -32769,6 +32920,7 @@
                         {
                            "url": "https://rustacean-station.org",
                            "title": "The Rustacean Station Podcast",
+                           "author": "Allen Wyma, Tim McNamara, Sean Chen, et al.",
                            "notes": [
                               "podcast"
                            ]
@@ -51943,6 +52095,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "Облачные вычисления",
+                     "entries": [
+                        {
+                           "url": "https://docs.microsoft.com/ru-ru/learn/certifications/azure-fundamentals/",
+                           "title": "Microsoft Certified: Azure Fundamentals",
+                           "author": "Microsoft"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Git",
                      "entries": [
                         {
@@ -51957,11 +52120,33 @@
                      "subsections": []
                   },
                   {
+                     "section": "Go",
+                     "entries": [
+                        {
+                           "url": "https://docs.microsoft.com/ru-ru/learn/paths/go-first-steps/",
+                           "title": "Выполните первые шаги с помощью Go",
+                           "author": "Microsoft"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Python",
                      "entries": [
                         {
                            "url": "https://pythontutor.ru",
                            "title": "Pythontutor"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Solidity",
+                     "entries": [
+                        {
+                           "url": "https://cryptozombies.io/ru",
+                           "title": "CryptoZombies.io",
+                           "author": "Ethereum DApps"
                         }
                      ],
                      "subsections": []
