@@ -32986,6 +32986,14 @@
                            ]
                         },
                         {
+                           "url": "https://anchor.fm/drupalizate",
+                           "title": "Drupalízate",
+                           "author": "Robert Menetray",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
                            "url": "https://anchor.fm/carlosazaustre",
                            "title": "Hablando.js",
                            "author": "Carlos Azaustre",
@@ -33254,6 +33262,14 @@
                            "url": "https://mixx.io/podcasts",
                            "title": "Mixx.io",
                            "author": "Álex Barredo, Matías S. Zavia",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://podcast.carlosble.com",
+                           "title": "Ni cero, ni uno - Habilidades esenciales en un mundo tecnológico",
+                           "author": "Carlos Blé Jurado",
                            "notes": [
                               "podcast"
                            ]
