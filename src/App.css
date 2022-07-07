@@ -179,6 +179,12 @@ section {
   padding-bottom:50px;
 }
 
+section > section {
+  width:auto;
+  float:none;
+  padding-bottom:0;
+}
+
 small {
   font-size:11px;
 }
