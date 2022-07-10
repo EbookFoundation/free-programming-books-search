@@ -12,6 +12,9 @@
 # testing
 /coverage
 
+# production
+/build
+
 ##########
 # MACOS
 ##########
