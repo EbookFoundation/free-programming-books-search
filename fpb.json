@@ -44744,25 +44744,19 @@
                      "section": "Algoritmi e Strutture Dati",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=opHFKVuDiYM&list=PLjTV6y5YWc5HNnLyXkzUe9IlkG2n6guxU",
+                           "url": "https://www.youtube.com/playlist?list=PLjTV6y5YWc5HNnLyXkzUe9IlkG2n6guxU",
                            "title": "AlgoMOOC - Algoritmi quotidiani",
                            "author": "A. Bogliolo"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLUFFnpJdi99nqESTPaxlPMOF7yEEb8_sS",
                            "title": "Algoritmi e Programmazione (C)",
-                           "author": "P. Camurati",
-                           "notes": [
-                              "Politecnico di Torino"
-                           ]
+                           "author": "P. Camurati e G. Cabodi, Politecnico di Torino"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLO4y9a8lTpK2TViOKbk-NjDBvL4RXDwYY",
                            "title": "Algoritmi e Strutture Dati",
-                           "author": "R. Grossi",
-                           "notes": [
-                              "Università di Pisa"
-                           ]
+                           "author": "R. Grossi, Università di Pisa"
                         }
                      ],
                      "subsections": []
@@ -44771,20 +44765,14 @@
                      "section": "Architettura degli Elaboratori",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLjTV6y5YWc5H2fefaz78qCeSKWj-k_-pY",
-                           "title": "Architettura degli Elaboratori",
-                           "author": "A. Bogliolo",
-                           "notes": [
-                              "Università di Urbino"
-                           ]
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PLhEwqlL10MqMYYiR5NqMblyyQr1ss-b8q",
                            "title": "Architettura degli Elaboratori",
-                           "author": "A. Sperduti",
-                           "notes": [
-                              "Università di Padova"
-                           ]
+                           "author": "A. Sperduti, Università di Padova"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLjTV6y5YWc5H2fefaz78qCeSKWj-k_-pY",
+                           "title": "CArcMOOC - Computer Architecture UniurbIT",
+                           "author": "A. Bogliolo, Università di Urbino"
                         }
                      ],
                      "subsections": []
@@ -44805,18 +44793,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLO4y9a8lTpK2ugwPRLN_1oOrlzX9Zc9It",
                            "title": "Corso di programmazione in C",
-                           "author": "R. Rizzi",
-                           "notes": [
-                              "Università di Verona"
-                           ]
-                        },
-                        {
-                           "url": "https://staff.polito.it/claudio.fornaro/CorsoC/",
-                           "title": "Corso di programmazione in C (Standard C89/C90)",
-                           "author": "C. Fornaro",
-                           "notes": [
-                              "Politecnico di Torino"
-                           ]
+                           "author": "R. Rizzi, Università di Verona"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL83Ordjpzm5oUl7tFEjc4iirkPBiv7FxR",
@@ -44830,7 +44807,7 @@
                      "section": "<a id=\"csharp\">",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=aSgikNnGEKM&list=PLktbfd3yXeH8yQpHM3O468k8l-aTC6Hl6",
+                           "url": "https://www.youtube.com/playlist?list=PLktbfd3yXeH8yQpHM3O468k8l-aTC6Hl6",
                            "title": "Programmazione ad oggetti in C#",
                            "author": "G. Pellegrini Parisi"
                         }
@@ -44843,16 +44820,12 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJfZpJD7uFxAXglkiHSEhktG",
                            "title": "C++ 11",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdH4GVwL_3QeJjPcz3DHE2t",
                            "title": "C++ libreria QT - playlist 1",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -44863,9 +44836,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAQopGWlIcyZ7CN1sefdnCusfoodLP931",
                            "title": "Basi di Dati",
-                           "notes": [
-                              "T. Catarci"
-                           ]
+                           "author": "T. Catarci, Università La Sapienza di Roma"
                         }
                      ],
                      "subsections": [
@@ -44875,9 +44846,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLE555DB6188C967AC",
                                  "title": "Corso SQL",
-                                 "notes": [
-                                    "F. Camuso"
-                                 ]
+                                 "author": "F. Camuso"
                               }
                            ]
                         }
@@ -44887,11 +44856,9 @@
                      "section": "Delphi",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=JxE1nUqriV0&list=PLF75FB30719A09FA2",
+                           "url": "https://www.youtube.com/playlist?list=PLF75FB30719A09FA2",
                            "title": "Videocorso Delphi/Lazarus",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -44902,9 +44869,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLCbSCJEIR6CpDJw4MawjHlgbsP3IG376e",
                            "title": "Docker - EmmeCiLab",
-                           "notes": [
-                              "M. Cicolella"
-                           ]
+                           "author": "Mauro Cicolella"
                         }
                      ],
                      "subsections": []
@@ -44918,36 +44883,17 @@
                            "entries": [
                               {
                                  "url": "https://www.youtube.com/playlist?list=PL9_01HM23dGEDNNfR6BtlDWD8DDoAcLOT",
-                                 "title": "Arduino Cookbook - Corso di Arduino in 150 video",
-                                 "notes": [
-                                    "P. Aliverti"
-                                 ]
+                                 "title": "Arduino Cookbook - Corso di Arduino (400+ video)",
+                                 "author": "P. Aliverti"
                               },
                               {
-                                 "url": "https://www.youtube.com/watch?v=WuqS4C4u42E&list=PLA27EZBY5vePO9T6YP3rH8LTTdylz69VE",
+                                 "url": "https://www.youtube.com/playlist?list=PLA27EZBY5vePO9T6YP3rH8LTTdylz69VE",
                                  "title": "Corso Arduino 2014",
-                                 "notes": [
-                                    "POuLpolimi Politecnico di Milano"
-                                 ]
+                                 "author": "POuL Politecnico di Milano"
                               }
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "Erlang",
-                     "entries": [
-                        {
-                           "url": "http://www.khaldi.it/art/erlang/erl01/E01.html",
-                           "title": "Erlang/OTP",
-                           "author": "Jilani KHALDI"
-                        },
-                        {
-                           "url": "https://riptutorial.com/it/erlang",
-                           "title": "Iniziare con Erlang Language"
-                        }
-                     ],
-                     "subsections": []
                   },
                   {
                      "section": "Generale",
@@ -44955,26 +44901,17 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLhEwqlL10MqNz1pA7R5jnB_gsMIhDOe5X",
                            "title": "Automi e Linguaggi Formali",
-                           "author": "Bresolin e Filè",
-                           "notes": [
-                              "Università di Padova"
-                           ]
+                           "author": "Bresolin e Filè, Università di Padova"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLUL1bzfXcbX3g2cIcTFdmvj5yawQtUOxJ",
                            "title": "Fondamenti di Informatica",
-                           "author": "C. De Stefano",
-                           "notes": [
-                              "Università di Cassino e del Lazio Meridionale"
-                           ]
+                           "author": "C. De Stefano, Università di Cassino e del Lazio Meridionale"
                         },
                         {
                            "url": "https://didattica.polito.it/pls/portal30/sviluppo.videolezioni.vis?cor=232",
                            "title": "Informatica",
-                           "author": "M. Mezzalama",
-                           "notes": [
-                              "Politecnico di Torino"
-                           ]
+                           "author": "M. Mezzalama, Politecnico di Torino"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLG31HS6yEI8dv6TUmv9w0W6YmEAQm0P2q",
@@ -44984,25 +44921,17 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAQopGWlIcyalkb2baN9mnotsdBm5Vbkc",
                            "title": "Informatica I - Modelli dell'Informatica",
-                           "author": "A. Marchetti Spaccamela",
-                           "notes": [
-                              "Università La Sapienza Università di Roma"
-                           ]
+                           "author": "A. Marchetti Spaccamela, Università La Sapienza di Roma"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAQopGWlIcybT12h7fjVvlGAeSqOKDnTA",
                            "title": "Sistemi di Calcolo",
-                           "author": "C. Demetrescu",
-                           "notes": [
-                              "Università La Sapienza di Roma"
-                           ]
+                           "author": "C. Demetrescu, Università La Sapienza di Roma"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJeGo5g4Esi7tm6kHPRivkvb",
                            "title": "Teoria dell'informazione",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -45011,22 +44940,6 @@
                      "section": "Java",
                      "entries": [
                         {
-                           "url": "http://www.vitoantoniobevilacqua.it/wiki/index.php?title=Pagina_principale#Dispense_di_Algoritmi_e_Strutture_Dati_in_Java",
-                           "title": "Algoritmi e Strutture Dati Java",
-                           "author": "V. Bevilacqua",
-                           "notes": [
-                              "Politecnico di Bari"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL2zaZp2LZxlv2XxmLm4dGP1tHfMjj7-kN",
-                           "title": "Api Rest vs GraphQL: La mini-serie per gli impazienti",
-                           "author": "",
-                           "notes": [
-                              "D. Balinzo"
-                           ]
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PLCbSCJEIR6CqgCLyVzqp49xOm8A5YDTKA",
                            "title": "Corso di Java Spring Framework",
                            "author": "Mauro Cicolella"
@@ -45034,30 +44947,22 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLCbSCJEIR6Cq-ac90TGvJ8Wo8TtyZ4nhu",
                            "title": "Design Patterns in Java",
-                           "notes": [
-                              "M. Cicolella"
-                           ]
+                           "author": "Mauro Cicolella"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLCbSCJEIR6CpGchit9OCI6fX_qVYs78d_",
                            "title": "Esercitazioni di Spring Boot",
-                           "notes": [
-                              "M. Cicolella"
-                           ]
+                           "author": "Mauro Cicolella"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLjGYWJ4Dcy-erfReHXB9Ush0cREGSmyIe",
                            "title": "Java EE",
-                           "notes": [
-                              "S. Zorba"
-                           ]
+                           "author": "Sonia Zorba"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLUFFnpJdi99kewGZIHpCDgarZER_-J1am",
                            "title": "Programmazione a Oggetti (Java)",
-                           "notes": [
-                              "M. Torchiano"
-                           ]
+                           "author": "M. Torchiano, Politecnico di Torino"
                         }
                      ],
                      "subsections": []
@@ -45068,34 +44973,17 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLFLSwyN4GsWmcBvMr5tzsJy9TI8DbfWC5",
                            "title": "Corso base di Javascript",
-                           "notes": [
-                              "S. Tocci"
-                           ]
+                           "author": "S. Tocci"
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=JUBhi8O3wn0&list=PLG5caACNVwzpIhlLACNZd6BvABWv_Ti4I",
-                           "title": "Corso di JavaScript (base)",
-                           "otherLinks": [
-                              {
-                                 "title": "Lacerba.io",
-                                 "url": "https://lacerba.io"
-                              }
-                           ]
+                           "url": "https://www.youtube.com/playlist?list=PLG5caACNVwzpIhlLACNZd6BvABWv_Ti4I",
+                           "title": "Corso di JavaScript",
+                           "author": "Lacerba"
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=dDekOIgzxPA&list=PL0qAPtx8YtJceyk5_NpNvLbbkrmfX9kkw",
+                           "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJceyk5_NpNvLbbkrmfX9kkw",
                            "title": "Corso Javascript (ES6)",
-                           "notes": [
-                              "F. Camuso"
-                           ]
-                        },
-                        {
-                           "url": "https://www.nodeacademy.it",
-                           "title": "Introduzione a NodeJS",
-                           "author": "Alberto Olla",
-                           "notes": [
-                              "email address *requested*, not required"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -45106,20 +44994,23 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLa-sizbCyh93c0nSPAb8k5ZZeOq4SBIl9",
                            "title": "Machine Learning in italiano col Pollo Watzlawick",
-                           "notes": [
-                              "P. Savastano"
-                           ]
+                           "author": "P. Savastano"
                         }
                      ],
                      "subsections": []
                   },
                   {
-                     "section": "Miscellaneous",
+                     "section": "Misto",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL2zaZp2LZxlv2XxmLm4dGP1tHfMjj7-kN",
+                           "title": "Api Rest vs GraphQL: La mini-serie per gli impazienti",
+                           "author": "D. Balinzo"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLCbSCJEIR6CrVT003ytijkO6kUrCT9VIT",
                            "title": "Programmazione Basic Commodore 64",
-                           "author": "M. Cicolella"
+                           "author": "Mauro Cicolella"
                         }
                      ],
                      "subsections": []
@@ -45130,9 +45021,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJftaLnIroe7q9udsc9_qg6x",
                            "title": "DART & FLUTTER (per il mobile)",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -45143,9 +45032,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLkbnRIR2azkIXO-ndOz7qBvVC38_wbOW8",
                            "title": "Advanced Networking 2016",
-                           "notes": [
-                              "Hacklab Cosenza"
-                           ]
+                           "author": "Hacklab Cosenza"
                         }
                      ],
                      "subsections": []
@@ -45154,19 +45041,14 @@
                      "section": "Pascal",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=DYy2IbteC2U&list=PLO4y9a8lTpK1DS45Wljy0l5rMtVNIesRJ",
+                           "url": "https://www.youtube.com/playlist?list=PLO4y9a8lTpK1DS45Wljy0l5rMtVNIesRJ",
                            "title": "Corso di programmazione in Pascal",
-                           "author": "R. Rizzi",
-                           "notes": [
-                              "Università di Verona"
-                           ]
+                           "author": "R. Rizzi, Università di Verona"
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=C1ttJju1RKc&list=PLC98ABC853EAEFD7F",
+                           "url": "https://www.youtube.com/playlist?list=PLC98ABC853EAEFD7F",
                            "title": "Videocorso Pascal (Turbo e FPC)",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -45177,16 +45059,12 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veOa-dbNIetJvyrAuoVy4zDD",
                            "title": "Corso Python 2016",
-                           "notes": [
-                              "POuLpolimi Politecnico di Milano"
-                           ]
+                           "author": "POuL Politecnico di Milano"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdbiBCoj4j6x_Ai6Vu9j5r9",
                            "title": "Corso rapido Python per principianti e per esempi",
-                           "notes": [
-                              "F. Camuso"
-                           ]
+                           "author": "F. Camuso"
                         }
                      ],
                      "subsections": []
@@ -45197,34 +45075,17 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLFPNVUgYSJN3szCCDYzDoai2ueDxZpCcb",
                            "title": "Corso di C per sistemi Embedded",
-                           "author": "Davide Ferrero",
-                           "notes": [
-                              "Deid Lab"
-                           ]
+                           "author": "Davide Ferrero, Deid Lab"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLhEwqlL10MqN2eB3b4avX_DU3FK0EOYFa",
                            "title": "Programmazione",
-                           "author": "G. Filè",
-                           "notes": [
-                              "Università di Padova"
-                           ]
-                        },
-                        {
-                           "url": "http://latemar.science.unitn.it/segue/index.php?&site=2008Programmazione2&section=86&action=site",
-                           "title": "Programmazione 2 (Java/C++)",
-                           "author": "M. Ronchetti",
-                           "notes": [
-                              "Università di Trento"
-                           ]
+                           "author": "G. Filè, Università di Padova"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAQopGWlIcybv3YLRHGS4yZR00X3RvSBm",
                            "title": "Tecniche di Programmazione (C/C++)",
-                           "author": "L. Iocchi D. Nardi e A. Pretto",
-                           "notes": [
-                              "Università La Sapienza di Roma"
-                           ]
+                           "author": "L. Iocchi, D. Nardi e A. Pretto, Università La Sapienza di Roma"
                         }
                      ],
                      "subsections": []
@@ -45233,11 +45094,9 @@
                      "section": "Ruby",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=IQFY6HaXkfM&list=PLA27EZBY5veNwghiX1buwSBziKV765N2t",
+                           "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veNwghiX1buwSBziKV765N2t",
                            "title": "Corso Ruby 2013",
-                           "notes": [
-                              "POuLpolimi Politecnico di Milano"
-                           ]
+                           "author": "POuL Politecnico di Milano"
                         }
                      ],
                      "subsections": []
@@ -45248,10 +45107,7 @@
                         {
                            "url": "https://didattica.polito.it/pls/portal30/sviluppo.videolezioni.vis?cor=233",
                            "title": "Sistemi Informativi Aziendali",
-                           "author": "F. Corno",
-                           "notes": [
-                              "Politecnico di Torino"
-                           ]
+                           "author": "F. Corno, Politecnico di Torino"
                         }
                      ],
                      "subsections": []
@@ -45264,22 +45120,14 @@
                            "section": "Linux",
                            "entries": [
                               {
-                                 "url": "https://www.youtube.com/playlist?list=PL4L8OWDC99_d46jXlR02dCWzTwNISywwU",
-                                 "title": "Certificazione Linux LPI"
-                              },
-                              {
-                                 "url": "https://www.youtube.com/watch?v=lRbkk_NT6nk&list=PLA27EZBY5veMZYKkqS2sQNPJSCGI1QniD",
+                                 "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veMZYKkqS2sQNPJSCGI1QniD",
                                  "title": "Corsi GNU/Linux Avanzati 2017",
-                                 "notes": [
-                                    "POuLpolimi Politecnico di Milano"
-                                 ]
+                                 "author": "POuL Politecnico di Milano"
                               },
                               {
-                                 "url": "https://www.youtube.com/watch?v=SsNiFtDRxRM&list=PLA27EZBY5veNNqkeuFwjJFWserz6QLzS_",
+                                 "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veNNqkeuFwjJFWserz6QLzS_",
                                  "title": "Corsi GNU/Linux Base 2017",
-                                 "notes": [
-                                    "POuLpolimi Politecnico di Milano"
-                                 ]
+                                 "author": "POuL Politecnico di Milano"
                               }
                            ]
                         }
@@ -45291,9 +45139,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLgaOrAQwrg9J04dWnY-FF4SXUFt-TEQkE",
                            "title": "Visual Studio 2019",
-                           "notes": [
-                              "Mario De Ghetto"
-                           ]
+                           "author": "Mario De Ghetto"
                         }
                      ],
                      "subsections": [
@@ -45303,9 +45149,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veN02RzEr6Ecm7KcjWadthBh",
                                  "title": "Corso Git 2017",
-                                 "notes": [
-                                    "POuLpolimi Politecnico di Milano"
-                                 ]
+                                 "author": "POuL Politecnico di Milano"
                               }
                            ]
                         },
@@ -45315,9 +45159,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLjGYWJ4Dcy-f71M9YyNSk4RpLE5jobe7y",
                                  "title": "Tutorial su Maven",
-                                 "notes": [
-                                    "S. Zorba"
-                                 ]
+                                 "author": "Sonia Zorba"
                               }
                            ]
                         }
@@ -45328,19 +45170,13 @@
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLUFFnpJdi99kXjntQ0LNPnLbRLjKzmQaC",
-                           "title": "Interfacce grafiche (HTML/CSS/Bootstrap)",
-                           "author": "A. Bottino",
-                           "notes": [
-                              "Politecnico di Torino"
-                           ]
+                           "title": "Computer grafica 2017/2018",
+                           "author": "A. Bottino, Politecnico di Torino"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLE0AA1735F10543A6",
                            "title": "Progettazione di applicazioni Web",
-                           "author": "F. Corno e S. Di Carlo",
-                           "notes": [
-                              "Politecnico di Torino"
-                           ]
+                           "author": "F. Corno e S. Di Carlo, Politecnico di Torino"
                         }
                      ],
                      "subsections": [
@@ -45350,9 +45186,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdUH44fvkzVxy9waP23I_bE",
                                  "title": "Vue 2.x (corso base)",
-                                 "notes": [
-                                    "F. Camuso"
-                                 ]
+                                 "author": "F. Camuso"
                               }
                            ]
                         }
@@ -45362,25 +45196,19 @@
                      "section": "Workshop",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=7AJzR94ACZs&list=PLA27EZBY5veNgfDUNft5kju0QAvLPPw2j",
-                           "title": "Workshop 3D Printing 2015",
-                           "notes": [
-                              "POuLpolimi Politecnico di Milano"
-                           ]
+                           "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veNgfDUNft5kju0QAvLPPw2j",
+                           "title": "3D Printing Workshop 2015",
+                           "author": "POuL Politecnico di Milano"
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=FVzt6TX0CiY&list=PLA27EZBY5veNyyBiZxkjFE2KwAIKLkITL",
+                           "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veNyyBiZxkjFE2KwAIKLkITL",
                            "title": "Workshop Calcolo Numerico 2014",
-                           "notes": [
-                              "POuLpolimi Politecnico di Milano"
-                           ]
+                           "author": "Alessandro Barenghi, POuL Politecnico di Milano"
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=lz6uKGmrQoU&list=PLA27EZBY5veOFh1PdRdf7dc3DdBg-XctF",
+                           "url": "https://www.youtube.com/playlist?list=PLA27EZBY5veOFh1PdRdf7dc3DdBg-XctF",
                            "title": "Workshop Python 2014",
-                           "notes": [
-                              "POuLpolimi Politecnico di Milano"
-                           ]
+                           "author": "Stefano Sanfilippo, POuL Politecnico di Milano"
                         }
                      ],
                      "subsections": []
