@@ -13,10 +13,10 @@ The free-programming-books-search is a companion project of [free-programming-bo
 - [FAQ](#faq)
 
 ## How It All Works
-1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [
-free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a json file called fpb.json. 
 
-2. This Json is downloaded locally and searched locally when the actual search function is used. 
+1. THERE IS NO DATABASE INVOLVED. Rather, the books are stored in a markdown on [free-programming-books](https://ebookfoundation.github.io/free-programming-books/) and is parsed daily by [free-programming-books-parser](https://github.com/EbookFoundation/free-programming-books-parser). The books and all info pertaining to them are stored in a JSON file called `fpb.json`.
+
+2. This JSON is downloaded locally and searched locally when the actual search function is used.
 
 ## Installation
 
