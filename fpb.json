@@ -1205,6 +1205,91 @@
             },
             {
                "language": {
+                  "code": "da",
+                  "name": "Danish"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://web.archive.org/web/20190701062226/http://artcreationforever.com/bgnet.html",
+                           "title": "Beej's Guide til Netvarksprogrammierung",
+                           "author": "Brian \"Beej Jorgensen\" Hall, Art of Science",
+                           "notes": [
+                              "HTML"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "http://people.cs.aau.dk/~normark/c-prog-06/pdf/all.pdf",
+                           "title": "Programmering i C",
+                           "author": "Kurt Nørmark",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "<a id=\"csharp\">",
+                     "entries": [
+                        {
+                           "url": "http://people.cs.aau.dk/~normark/oop-csharp/pdf/all.pdf",
+                           "title": "Object-oriented Programming in C#",
+                           "author": "Kurt Nørmark",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "<a id=\"cpp\">",
+                     "entries": [
+                        {
+                           "url": "http://people.cs.aau.dk/~normark/ap/index.html",
+                           "title": "Notes about C++",
+                           "author": "Kurt Nørmark",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Java",
+                     "entries": [
+                        {
+                           "url": "http://javabog.dk",
+                           "title": "Objektorienteret programmering i Java",
+                           "author": "Jacob Nordfalk"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Pascal",
+                     "entries": [
+                        {
+                           "url": "http://people.cs.aau.dk/~normark/all-basis-97.pdf",
+                           "title": "Programmering i Pascal",
+                           "author": "Kurt Nørmark",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
                   "code": "de",
                   "name": "German"
                },
@@ -1974,88 +2059,6 @@
                            "title": "Visual Basic 2008",
                            "notes": [
                               "Online"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  }
-               ]
-            },
-            {
-               "language": {},
-               "index": {},
-               "sections": [
-                  {
-                     "section": "C",
-                     "entries": [
-                        {
-                           "url": "https://web.archive.org/web/20190701062226/http://artcreationforever.com/bgnet.html",
-                           "title": "Beej's Guide til Netvarksprogrammierung",
-                           "author": "Brian \"Beej Jorgensen\" Hall, Art of Science",
-                           "notes": [
-                              "HTML"
-                           ],
-                           "accessNotes": ":card_file_box: archived"
-                        },
-                        {
-                           "url": "http://people.cs.aau.dk/~normark/c-prog-06/pdf/all.pdf",
-                           "title": "Programmering i C",
-                           "author": "Kurt Nørmark",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "<a id=\"csharp\">",
-                     "entries": [
-                        {
-                           "url": "http://people.cs.aau.dk/~normark/oop-csharp/pdf/all.pdf",
-                           "title": "Object-oriented Programming in C#",
-                           "author": "Kurt Nørmark",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "<a id=\"cpp\">",
-                     "entries": [
-                        {
-                           "url": "http://people.cs.aau.dk/~normark/ap/index.html",
-                           "title": "Notes about C++",
-                           "author": "Kurt Nørmark",
-                           "notes": [
-                              "HTML"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Java",
-                     "entries": [
-                        {
-                           "url": "http://javabog.dk",
-                           "title": "Objektorienteret programmering i Java",
-                           "author": "Jacob Nordfalk"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Pascal",
-                     "entries": [
-                        {
-                           "url": "http://people.cs.aau.dk/~normark/all-basis-97.pdf",
-                           "title": "Programmering i Pascal",
-                           "author": "Kurt Nørmark",
-                           "notes": [
-                              "PDF"
                            ]
                         }
                      ],
