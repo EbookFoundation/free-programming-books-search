@@ -18030,6 +18030,14 @@
                            ]
                         },
                         {
+                           "url": "http://tinypythonprojects.com/Tiny_Python_Projects.pdf",
+                           "title": "Tiny Python Projects",
+                           "author": "Ken Youens-Clark",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://web2py.com/book",
                            "title": "Web2py: Complete Reference Manual, 6th Edition (pre-release)",
                            "notes": [
@@ -25108,6 +25116,14 @@
                            "url": "http://www.computervisionmodels.com",
                            "title": "Computer Vision: Models, Learning, and Inference",
                            "author": "Simon J.D. Prince"
+                        },
+                        {
+                           "url": "http://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book.pdf",
+                           "title": "DALLE-E 2 prompt book",
+                           "author": "Dallery.Gallery, Guy Parson",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://programmingcomputervision.com",
