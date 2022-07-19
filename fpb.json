@@ -6401,6 +6401,16 @@
                            ]
                         },
                         {
+                           "section": "Sistemi di controllo versione",
+                           "entries": [
+                              {
+                                 "url": "https://svnbook.red-bean.com/index.it.html",
+                                 "title": "Controllo di Versione con Subversion",
+                                 "author": "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato"
+                              }
+                           ]
+                        },
+                        {
                            "section": "Storia dell'informatica",
                            "entries": [
                               {
@@ -12724,166 +12734,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Git",
-                     "entries": [
-                        {
-                           "url": "https://danielmiessler.com/study/git/",
-                           "title": "A git Primer",
-                           "author": "Daniel Miessler"
-                        },
-                        {
-                           "url": "http://marklodato.github.io/visual-git-guide/index-en.html",
-                           "title": "A Visual Git Reference",
-                           "author": "Mark Lodato"
-                        },
-                        {
-                           "url": "http://blog.anvard.org/conversational-git/",
-                           "title": "Conversational Git"
-                        },
-                        {
-                           "url": "http://rogerdudler.github.io/git-guide/",
-                           "title": "git - the simple guide"
-                        },
-                        {
-                           "url": "https://git.seveas.net/about.html",
-                           "title": "Git cookbook",
-                           "author": "Dennis Kaarsemaker",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "http://eagain.net/articles/git-for-computer-scientists/",
-                           "title": "Git for Computer Scientists"
-                        },
-                        {
-                           "url": "https://jwiegley.github.io/git-from-the-bottom-up/",
-                           "title": "Git From The Bottom Up",
-                           "author": "J. Wiegley"
-                        },
-                        {
-                           "url": "http://gitimmersion.com",
-                           "title": "Git Immersion"
-                        },
-                        {
-                           "url": "http://cbx33.github.io/gitt/index.html",
-                           "title": "Git In The Trenches"
-                        },
-                        {
-                           "url": "https://github.com/pluralsight/git-internals-pdf/raw/master/drafts/peepcode-git.pdf",
-                           "title": "Git internals",
-                           "author": "Scott Chacon",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/",
-                           "title": "Git Magic"
-                        },
-                        {
-                           "url": "http://goalkicker.com/GitBook",
-                           "title": "Git Notes for Professionals",
-                           "author": "Compiled from StackOverflow Documentation",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://www.oreilly.com/library/view/git-pocket-guide/9781449327507",
-                           "title": "Git Pocket Guide",
-                           "author": "Richard E. Silverman"
-                        },
-                        {
-                           "url": "https://web.archive.org/web/20170602211147/http://gitref.org/",
-                           "title": "Git Reference"
-                        },
-                        {
-                           "url": "https://www.syncfusion.com/resources/techportal/ebooks/git",
-                           "title": "Git Succinctly, Syncfusion",
-                           "notes": [
-                              "PDF, Kindle",
-                              "email address *requested*, not required"
-                           ]
-                        },
-                        {
-                           "url": "https://www.tutorialspoint.com/git/",
-                           "title": "Git Tutorial",
-                           "author": "Tutorials Point",
-                           "notes": [
-                              "HTML, PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
-                           "title": "Git-Tutorial For-Beginners",
-                           "author": "HubSpot Product Team"
-                        },
-                        {
-                           "url": "https://web.archive.org/web/20210910133251/http://documentup.com/skwp/git-workflows-book",
-                           "title": "Git Workflows",
-                           "author": "Yan Pritzker",
-                           "accessNotes": ":card_file_box: archived"
-                        },
-                        {
-                           "url": "https://happygitwithr.com",
-                           "title": "Happy Git and GitHub for the useR",
-                           "author": "Jenny Bryan"
-                        },
-                        {
-                           "url": "https://github.com/eonist/How-to-collaborate-on-github",
-                           "title": "How to Collaborate on GitHub: A mini book about collaborating on GitHub",
-                           "author": "André J"
-                        },
-                        {
-                           "url": "https://launchschool.com/books/git",
-                           "title": "Introduction to Git and Github",
-                           "author": "Launch School"
-                        },
-                        {
-                           "url": "http://cse.unl.edu/~cbourke/gitTutorial.pdf",
-                           "title": "Introduction to Git and Github - Tutorial",
-                           "author": "Dr. Chris Bourke",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://github.com/bobbyiliev/introduction-to-git-and-github-ebook",
-                           "title": "Introduction to Git and GitHub eBook",
-                           "author": "Bobby Iliev",
-                           "notes": [
-                              "Markdown, PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://www.git-tower.com/learn/git/ebook/command-line/introduction",
-                           "title": "Learn Git - Learn Version Control with Git",
-                           "author": "Tobias Günther"
-                        },
-                        {
-                           "url": "http://git-scm.com/book/en/v2",
-                           "title": "Pro Git",
-                           "author": "Scott Chacon"
-                        },
-                        {
-                           "url": "https://leanpub.com/progitreedited/read",
-                           "title": "Pro Git Reedited",
-                           "author": "Jon Forrest"
-                        },
-                        {
-                           "url": "https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index",
-                           "title": "Ry's Git Tutorial",
-                           "author": "Ryan Hodson"
-                        },
-                        {
-                           "url": "http://think-like-a-git.net",
-                           "title": "Think Like (a) Git: A Guide for the Perplexed"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Go",
                      "entries": [
                         {
@@ -16039,25 +15889,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Mercurial",
-                     "entries": [
-                        {
-                           "url": "https://hginit.github.io",
-                           "title": "Hg Init: a Mercurial Tutorial",
-                           "author": "Joel Spolsky"
-                        },
-                        {
-                           "url": "http://hgbook.red-bean.com",
-                           "title": "Mercurial: The Definitive Guide"
-                        },
-                        {
-                           "url": "https://book.mercurial-scm.org",
-                           "title": "Mercurial: The Definitive Guide 2nd edition"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Mercury",
                      "entries": [
                         {
@@ -18847,6 +18678,14 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/wasmflow/node-to-rust/raw/HEAD/from-javascript-to-rust.pdf",
+                           "title": "From JavaScript to Rust ebook",
+                           "author": "Jarrod Overson",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://rustc-dev-guide.rust-lang.org",
                            "title": "Guide to Rustc Development"
                         },
@@ -19733,23 +19572,6 @@
                            "notes": [
                               "PDF"
                            ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Subversion",
-                     "entries": [
-                        {
-                           "url": "http://ptgmedia.pearsoncmg.com/images/0131855182/downloads/Nagel_book.pdf",
-                           "title": "Subversion Version Control",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://svnbook.red-bean.com",
-                           "title": "Version Control with Subversion"
                         }
                      ],
                      "subsections": []
@@ -27671,11 +27493,11 @@
                            "author": "Bernhard Mueller et al."
                         },
                         {
-                           "url": "https://www.owasp.org/images/1/19/OTGv4.pdf",
-                           "title": "OWASP Testing Guide 4.0",
-                           "notes": [
-                              "PDF"
-                           ]
+                           "url": "https://owasp.org/www-project-web-security-testing-guide/v42/",
+                           "title": "OWASP Testing Guide 4.2",
+                           "author": "The OWASP® Foundation",
+                           "notes": [],
+                           "manualReviewRequired": true
                         },
                         {
                            "url": "http://www.troyhunt.com/2011/12/free-ebook-owasp-top-10-for-net.html",
@@ -28094,6 +27916,203 @@
                               "2nd Edition",
                               "PDF, HTML"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "<a id=\"version-control-systems\">",
+                     "entries": [
+                        {
+                           "url": "https://danielmiessler.com/study/git/",
+                           "title": "A git Primer",
+                           "author": "Daniel Miessler"
+                        },
+                        {
+                           "url": "http://marklodato.github.io/visual-git-guide/index-en.html",
+                           "title": "A Visual Git Reference",
+                           "author": "Mark Lodato"
+                        },
+                        {
+                           "url": "http://blog.anvard.org/conversational-git/",
+                           "title": "Conversational Git",
+                           "author": "Alan Hohn"
+                        },
+                        {
+                           "url": "http://rogerdudler.github.io/git-guide/",
+                           "title": "git - the simple guide",
+                           "author": "Roger Dudler"
+                        },
+                        {
+                           "url": "https://git.seveas.net/about.html",
+                           "title": "Git cookbook",
+                           "author": "Dennis Kaarsemaker",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "http://eagain.net/articles/git-for-computer-scientists/",
+                           "title": "Git for Computer Scientists",
+                           "author": "Tommi Virtanen"
+                        },
+                        {
+                           "url": "https://jwiegley.github.io/git-from-the-bottom-up/",
+                           "title": "Git From The Bottom Up",
+                           "author": "J. Wiegley"
+                        },
+                        {
+                           "url": "http://gitimmersion.com",
+                           "title": "Git Immersion"
+                        },
+                        {
+                           "url": "http://cbx33.github.io/gitt/index.html",
+                           "title": "Git In The Trenches",
+                           "author": "Peter Savage"
+                        },
+                        {
+                           "url": "https://github.com/pluralsight/git-internals-pdf/raw/master/drafts/peepcode-git.pdf",
+                           "title": "Git internals",
+                           "author": "Scott Chacon",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/",
+                           "title": "Git Magic",
+                           "author": "Ben Lynn, et al."
+                        },
+                        {
+                           "url": "http://goalkicker.com/GitBook",
+                           "title": "Git Notes for Professionals",
+                           "author": "Compiled from StackOverflow Documentation",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.oreilly.com/library/view/git-pocket-guide/9781449327507",
+                           "title": "Git Pocket Guide",
+                           "author": "Richard E. Silverman"
+                        },
+                        {
+                           "url": "https://web.archive.org/web/20170602211147/http://gitref.org/",
+                           "title": "Git Reference",
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "https://www.syncfusion.com/resources/techportal/ebooks/git",
+                           "title": "Git Succinctly, Syncfusion",
+                           "author": "Ryan Hodson",
+                           "notes": [
+                              "PDF, Kindle",
+                              "email address *requested*, not required"
+                           ]
+                        },
+                        {
+                           "url": "https://www.tutorialspoint.com/git/",
+                           "title": "Git Tutorial",
+                           "author": "Tutorials Point",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
+                           "title": "Git-Tutorial For-Beginners",
+                           "author": "HubSpot Product Team"
+                        },
+                        {
+                           "url": "https://web.archive.org/web/20210910133251/http://documentup.com/skwp/git-workflows-book",
+                           "title": "Git Workflows",
+                           "author": "Yan Pritzker",
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "https://happygitwithr.com",
+                           "title": "Happy Git and GitHub for the useR",
+                           "author": "Jenny Bryan"
+                        },
+                        {
+                           "url": "https://hginit.github.io",
+                           "title": "Hg Init: a Mercurial Tutorial",
+                           "author": "Joel Spolsky"
+                        },
+                        {
+                           "url": "https://github.com/eonist/How-to-collaborate-on-github",
+                           "title": "How to Collaborate on GitHub: A mini book about collaborating on GitHub",
+                           "author": "André J"
+                        },
+                        {
+                           "url": "https://launchschool.com/books/git",
+                           "title": "Introduction to Git and Github",
+                           "author": "Launch School"
+                        },
+                        {
+                           "url": "http://cse.unl.edu/~cbourke/gitTutorial.pdf",
+                           "title": "Introduction to Git and Github - Tutorial",
+                           "author": "Dr. Chris Bourke",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/bobbyiliev/introduction-to-git-and-github-ebook",
+                           "title": "Introduction to Git and GitHub eBook",
+                           "author": "Bobby Iliev",
+                           "notes": [
+                              "Markdown, PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://www.git-tower.com/learn/git/ebook/command-line/introduction",
+                           "title": "Learn Git - Learn Version Control with Git",
+                           "author": "Tobias Günther"
+                        },
+                        {
+                           "url": "http://hgbook.red-bean.com",
+                           "title": "Mercurial: The Definitive Guide",
+                           "author": "Bryan O'Sullivan"
+                        },
+                        {
+                           "url": "https://book.mercurial-scm.org",
+                           "title": "Mercurial: The Definitive Guide 2nd edition",
+                           "author": "Bryan O'Sullivan"
+                        },
+                        {
+                           "url": "http://git-scm.com/book/en/v2",
+                           "title": "Pro Git",
+                           "author": "Scott Chacon"
+                        },
+                        {
+                           "url": "https://leanpub.com/progitreedited/read",
+                           "title": "Pro Git Reedited",
+                           "author": "Jon Forrest"
+                        },
+                        {
+                           "url": "https://web.archive.org/web/20161121145226/http://rypress.com:80/tutorials/git/index",
+                           "title": "Ry's Git Tutorial",
+                           "author": "Ryan Hodson",
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "http://ptgmedia.pearsoncmg.com/images/0131855182/downloads/Nagel_book.pdf",
+                           "title": "Subversion Version Control",
+                           "author": "William Nagel",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://think-like-a-git.net",
+                           "title": "Think Like (a) Git: A Guide for the Perplexed",
+                           "author": "Sam Livingston-Gray"
+                        },
+                        {
+                           "url": "https://svnbook.red-bean.com/index.en.html",
+                           "title": "Version Control with Subversion",
+                           "author": "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato"
                         }
                      ],
                      "subsections": []
@@ -34713,6 +34732,11 @@
                      "section": "Assembly",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLi0-RQZxQ8Fmwopq43StX61igOvXbFMQv",
+                           "title": "Microprocessor 8086 & Assembly Language Course‏",
+                           "author": "Sherif Ezzat"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLMm8EjqH1EFVodghdDWaAuHkHqj-nJ0bN",
                            "title": "x86 Assembly Language - لغة التجميع",
                            "author": "Ahmed Sallam"
@@ -34723,6 +34747,11 @@
                   {
                      "section": "Bootstrap",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLknwEmKsW8OscL9GvjxwL7RYbcwwdIitk",
+                           "title": "كورس بوتستراب كامل للمبتدئين | bootstrap 2021 tutorial for beginners‏",
+                           "author": "Abdelrahman Gamal"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw24EjNUp_88S1VeaNK8Cts",
                            "title": "Bootstrap 3 In Arabic‏",
@@ -35173,6 +35202,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE",
+                           "title": "كورس جافا سكريبت كامل | Javascript Tutorial‏",
+                           "author": "Abdelrahman Gamal"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY7wv9ZZkhH7lZELpz_fP81N",
                            "title": "كورس Ajax بالعربي-ITI‏",
                            "author": "Mobarmg"
@@ -35301,6 +35335,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAz0_Ujf9ZB9KceUzzSVYDci",
                                  "title": "jQuery - Practical Examples and Create Apps‏",
                                  "author": "Elzero Web School"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLHIfW1KZRIfll3ObMFi02Ry7oRU3MJVRG",
+                                 "title": "JQuery In Arabic - Web Development‏",
+                                 "author": "Hassouna Academy"
                               }
                            ]
                         },
@@ -35531,6 +35570,11 @@
                   {
                      "section": "PHP",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAxdiBh6J62wOzEnvC4CNuFU",
+                           "title": "تصميم و برمجة موقع eCommerce by PHP‏",
+                           "author": "Elzero Web School"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM",
                            "title": "Arabic PHP‏",
@@ -35964,6 +36008,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3",
                            "title": "HTML Complete Course in Bangla 2021(Beginner to Advanced)",
                            "author": "Anisul Islam"
+                        },
+                        {
+                           "url": "https://w3programmers.com/bangla/html-basics/",
+                           "title": "HTML Tutorial in Bangla",
+                           "author": "w3programmers"
                         }
                      ],
                      "subsections": [
@@ -50164,6 +50213,14 @@
                            "author": "Jan Krüger",
                            "notes": [
                               "PDF, SVG"
+                           ]
+                        },
+                        {
+                           "url": "https://programmingwithmosh.com/wp-content/uploads/2020/09/Git-Cheat-Sheet.pdf",
+                           "title": "Git Cheat Sheet",
+                           "author": "Moshfegh Hamedani",
+                           "notes": [
+                              "PDF"
                            ]
                         },
                         {
