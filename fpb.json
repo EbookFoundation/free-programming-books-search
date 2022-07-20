@@ -14128,6 +14128,14 @@
                            ]
                         },
                         {
+                           "url": "https://frontendmasters.com/guides/javascript-enlightenment/",
+                           "title": "JavaScript (ES2015+) Enlightenment",
+                           "author": "Cody Lindley",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://leanpub.com/javascript-allonge/read",
                            "title": "JavaScript Allongé",
                            "author": "Reginald Braithwaite",
@@ -14147,14 +14155,6 @@
                            "url": "https://tcorral.github.io/javascript-challenges-book/",
                            "title": "JavaScript Challenges Book",
                            "author": "Tomás Corral Casas",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "http://www.javascriptenlightenment.com",
-                           "title": "JavaScript Enlightenment",
-                           "author": "Cody Lindley",
                            "notes": [
                               "HTML"
                            ]
@@ -14995,7 +14995,11 @@
                               },
                               {
                                  "url": "https://www.reactenlightenment.com",
-                                 "title": "React Enlightenment"
+                                 "title": "React Enlightenment",
+                                 "author": "Cody Lindley",
+                                 "notes": [
+                                    "HTML"
+                                 ]
                               },
                               {
                                  "url": "https://developmentarc.gitbooks.io/react-indepth/content/",
@@ -26558,6 +26562,38 @@
                            "author": "Karl Seguin",
                            "notes": [
                               "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://frontendmasters.com/guides/front-end-handbook/2016/",
+                           "title": "Front-End Developer Handbook 2016",
+                           "author": "Cody Lindley",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://frontendmasters.com/guides/front-end-handbook/2017/",
+                           "title": "Front-End Developer Handbook 2017",
+                           "author": "Cody Lindley",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://frontendmasters.com/guides/front-end-handbook/2018/",
+                           "title": "Front-End Developer Handbook 2018",
+                           "author": "Cody Lindley",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://frontendmasters.com/guides/front-end-handbook/2019/",
+                           "title": "Front-End Developer Handbook 2019",
+                           "author": "Cody Lindley",
+                           "notes": [
+                              "HTML"
                            ]
                         },
                         {
@@ -40160,6 +40196,14 @@
                         {
                            "section": "Flask",
                            "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLCC34OHNcOtolz2Vd9ZSeSXWc8Bq23yEz",
+                                 "title": "Flask Fridays",
+                                 "author": "Codemy.com",
+                                 "notes": [
+                                    "YouTube"
+                                 ]
+                              },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH",
                                  "title": "Flask Tutorials",
