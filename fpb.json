@@ -9888,8 +9888,9 @@
                      "section": "Linux",
                      "entries": [
                         {
-                           "url": "https://thebook.io/006718/",
-                           "title": "리눅스 서버를 다루는 기술"
+                           "url": "https://web.archive.org/web/20220107111504/https://thebook.io/006718/",
+                           "title": "리눅스 서버를 다루는 기술",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://sites.google.com/site/gnomekr/home/learning_gnome",
@@ -21037,11 +21038,11 @@
                                  ]
                               },
                               {
-                                 "url": "https://vimbook.gitbook.io/vimbook",
+                                 "url": "https://cassiobotaro.dev/vimbook/",
                                  "title": "Vimbook",
                                  "author": "Cássio Botaro",
                                  "notes": [
-                                    "gitbook"
+                                    "HTML"
                                  ]
                               }
                            ]
@@ -21244,7 +21245,7 @@
                            ]
                         },
                         {
-                           "url": "http://webserver2.tecgraf.puc-rio.br/~manuel/Download/Programacao%20Orientada%20a%20Objetos%20em%20C++.pdf",
+                           "url": "https://web.archive.org/web/20190124233626/http://webserver2.tecgraf.puc-rio.br/~manuel/Download/Programacao%20Orientada%20a%20Objetos%20em%20C++.pdf",
                            "title": "Programação Orientada a Objetos em C++",
                            "notes": [
                               "PDF"
@@ -21687,7 +21688,7 @@
                            "section": "Meteor",
                            "entries": [
                               {
-                                 "url": "http://udgwebdev.com/meteor/",
+                                 "url": "https://udgwebdev.github.io/meteor/",
                                  "title": "Tudo sobre Meteor"
                               }
                            ]
@@ -21707,7 +21708,7 @@
                                  "accessNotes": "necessário conta no Leanpub ou e-mail válido"
                               },
                               {
-                                 "url": "http://udgwebdev.com/nodejs/",
+                                 "url": "https://udgwebdev.github.io/nodejs/",
                                  "title": "Node.js para Leigos"
                               },
                               {
@@ -21740,10 +21741,6 @@
                               {
                                  "url": "https://br.vuejs.org/v2/guide/",
                                  "title": "Documentação pt-BR"
-                              },
-                              {
-                                 "url": "http://www.vuejs-brasil.com.br",
-                                 "title": "Vue.js Brasil - Artigos em Português sobre Vue.js"
                               },
                               {
                                  "url": "https://leanpub.com/livro-vue",
@@ -21873,17 +21870,7 @@
                            ]
                         }
                      ],
-                     "subsections": [
-                        {
-                           "section": "Symfony",
-                           "entries": [
-                              {
-                                 "url": "https://symfony.com/doc/5.0/the-fast-track/pt_BR/index.html",
-                                 "title": "Symfony 5: A Trilha Rápida"
-                              }
-                           ]
-                        }
-                     ]
+                     "subsections": []
                   },
                   {
                      "section": "Python",
@@ -38478,12 +38465,22 @@
                            "author": "Sean Allen"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1Z-lZaaun3A3mV9PbEfHANI",
+                           "title": "SwiftUI Tutorials for Beginners",
+                           "author": "CodeWithChris"
+                        },
+                        {
                            "url": "https://www.udemy.com/course/the-complete-ios-10-developer-course/",
                            "title": "The Complete Swift iOS Developer - Create Real Apps in Swift",
                            "author": "Grant Klimaytys",
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZLLvLwuW8AP3n-A3nsRn9P",
+                           "title": "Unit Testing in iOS",
+                           "author": "CodeWithChris"
                         }
                      ],
                      "subsections": []
@@ -40177,6 +40174,14 @@
                                  ]
                               },
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLCC34OHNcOtqW9BJmgQPPzUpJ8hl49AGy",
+                                 "title": "Django Wedensdays",
+                                 "author": "Codemy.com",
+                                 "notes": [
+                                    "YouTube"
+                                 ]
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PL-J2q3Ga50oOpni_xS2PPUe4mf9lM96dD",
                                  "title": "Python Django Tutorial 2018 for Beginners",
                                  "author": "Clever Programmer"
@@ -40603,6 +40608,11 @@
                                  "notes": [
                                     "YouTube"
                                  ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=AAu8bjj6-UI",
+                                 "title": "Angular Tutorial for Beginners - Web Framework with Typescript Course",
+                                 "author": "Slobodan Gajic, freeCodeCamp"
                               },
                               {
                                  "url": "https://www.udemy.com/course/angular-5/",
@@ -43186,6 +43196,11 @@
                         {
                            "section": "Next.js",
                            "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG",
+                                 "title": "Next.js Tutorials for Beginners in Hindi",
+                                 "author": "CodeWithHarry"
+                              },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp2rDbpfKAeUi9f8qZMS7_cv",
                                  "title": "NextJS Tutorial In Hindi",
