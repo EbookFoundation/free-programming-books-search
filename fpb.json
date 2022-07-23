@@ -11475,6 +11475,15 @@
                      "section": "<a id=\"cpp\">",
                      "entries": [
                         {
+                           "url": "https://github.com/HappyCerberus/book-cpp-algorithms",
+                           "title": "A Complete Guide to Standard C++ Algorithms",
+                           "author": "Šimon Tóth",
+                           "notes": [
+                              "PDF, LaTeX",
+                              ":construction: *in process*"
+                           ]
+                        },
+                        {
                            "url": "https://fbb-git.gitlab.io/cppannotations/",
                            "title": "C++ Annotations",
                            "author": "Frank B. Brokken",
@@ -13347,6 +13356,14 @@
                            "url": "https://svgpocketguide.com",
                            "title": "Pocket Guide to Writing SVG",
                            "author": "Joni Trythall"
+                        },
+                        {
+                           "url": "https://practicalseries.com/1001-webdevelopment/",
+                           "title": "Practical Series: A website template",
+                           "author": "Michael Gledhill",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html",
