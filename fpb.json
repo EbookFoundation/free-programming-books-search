@@ -4118,8 +4118,9 @@
                            "section": "Symfony",
                            "entries": [
                               {
-                                 "url": "https://symfony.com/doc/current/the-fast-track/fa/index.html",
-                                 "title": "سیمفونی ۵: سریع‌ترین مسیر"
+                                 "url": "https://web.archive.org/web/20210122133755/https://symfony.com/doc/current/the-fast-track/fa/index.html",
+                                 "title": "سیمفونی ۵: سریع‌ترین مسیر",
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         }
@@ -4570,9 +4571,12 @@
                      "section": "Assembleur",
                      "entries": [
                         {
-                           "url": "http://drpaulcarter.com/pcasm/",
+                           "url": "https://pacman128.github.io/pcasm/",
                            "title": "PC Assembly Language",
-                           "author": "Paul A. Carter"
+                           "author": "Paul A. Carter",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://beginners.re/RE4B-FR.pdf",
@@ -4827,9 +4831,10 @@
                                  "author": "Vincent Lozano"
                               },
                               {
-                                 "url": "http://geekographie.maieul.net/95",
+                                 "url": "https://web.archive.org/web/20220121031527/geekographie.maieul.net/95",
                                  "title": "(Xe)LaTeX appliqué aux sciences humaines",
-                                 "author": "Maïeul Rouquette"
+                                 "author": "Maïeul Rouquette",
+                                 "accessNotes": ":card_file_box: archived"
                               },
                               {
                                  "url": "https://framabook.org/koma-script/",
@@ -4928,9 +4933,10 @@
                      "section": "Mathématiques",
                      "entries": [
                         {
-                           "url": "http://sagebook.gforge.inria.fr",
+                           "url": "https://web.archive.org/web/20210715234128/http://sagebook.gforge.inria.fr/",
                            "title": "Calcul mathématique avec Sage",
-                           "author": "Paul Zimmermann et al."
+                           "author": "Paul Zimmermann et al.",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -4986,12 +4992,13 @@
                            "author": "Guillaume Rossolini"
                         },
                         {
-                           "url": "http://www.lincoste.com/ebooks/pdf/informatique/programmer_php.pdf",
+                           "url": "https://web.archive.org/web/20220327155108/lincoste.com/ebooks/pdf/informatique/programmer_php.pdf",
                            "title": "Programmer en PHP",
                            "author": "Julien Gaulmin",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": [
@@ -5040,14 +5047,6 @@
                            "url": "https://python-guide-fr.readthedocs.io/fr/latest/",
                            "title": "Le guide de l’auto-stoppeur pour Python!",
                            "author": "Kenneth Reitz"
-                        },
-                        {
-                           "url": "http://www.lincoste.com/ebooks/pdf/informatique/python.pdf",
-                           "title": "Python",
-                           "author": "Guido Van Rossum",
-                           "notes": [
-                              "PDF"
-                           ]
                         },
                         {
                            "url": "https://perso.limsi.fr/pointal/python:courspython3",
@@ -5110,9 +5109,10 @@
                            "section": "Ruby on Rails",
                            "entries": [
                               {
-                                 "url": "http://french.railstutorial.org/chapters/beginning",
+                                 "url": "https://web.archive.org/web/20210801160026/french.railstutorial.org/chapters/beginning",
                                  "title": "Tutoriel Ruby on Rails : Apprendre Rails par l'exemple",
-                                 "author": "Michael Hartl"
+                                 "author": "Michael Hartl",
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         }
@@ -36003,6 +36003,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-",
+                           "title": "Git & GitHub complete course Bangla (Beginner to Advanced)",
+                           "author": "Anisul Islam"
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=4KdGgGsIDeA",
                            "title": "Git and Github in One Video (Theory + Practical) | A 2 Z in Bangla",
                            "author": "SHAJ.T3CH"
@@ -37916,6 +37921,16 @@
                            "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
                            "title": "Docker Tutorial for Beginners",
                            "author": "FreeCodeCamp"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+                           "title": "Docker Tutorial for Beginners [FULL COURSE in 3 Hours]",
+                           "author": "TechWorld with Nana"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=p28piYY_wv8",
+                           "title": "Docker Tutorial for Beginners | Full Course [2021]",
+                           "author": "Amigoscode"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOHUKuqGuiWLQoJ-LD25KxI5",
@@ -42404,8 +42419,8 @@
                      "section": "Algorithmes",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLrSOXFDHBtfGy7xYmf5LlNr8f-niDkf7_",
-                           "title": "Cours d'Algorithmie",
+                           "url": "https://www.youtube.com/playlist?list=PLrSOXFDHBtfE0AkOm795c2qpLQJNiEBbZ",
+                           "title": "Algorithmie - Cours",
                            "author": "Formation Video"
                         }
                      ],
@@ -46863,9 +46878,33 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLRpTFz5_57cvCYRhHUui2Bis-5Ybh78TS",
+                           "title": "Curso Arquitetura no Flutter - 2022",
+                           "author": "Deivid Willyan",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLlBnICoI-g-d-J57QIz6Tx5xtUDGQdBFB",
                            "title": "Curso COMPLETO de Flutter",
                            "author": "Flutterando",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLRpTFz5_57cvo0CHf-AnojOvpznz8YO7S",
+                           "title": "Curso Flutter Básico [NV1] - 2022",
+                           "author": "Deivid Willyan",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLRpTFz5_57cvYvKja5Ex92aQ_HNADo4Oh",
+                           "title": "Curso Flutter Intermediário [NV2] - 2022",
+                           "author": "Deivid Willyan",
                            "notes": [
                               "YouTube"
                            ]
