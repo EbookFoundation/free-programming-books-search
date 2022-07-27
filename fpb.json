@@ -16434,6 +16434,70 @@
                      "subsections": []
                   },
                   {
+                     "section": "Pascal",
+                     "entries": [
+                        {
+                           "url": "https://www.freepascal.org/docs-html/ref/ref.html",
+                           "title": "Free Pascal Reference guide"
+                        },
+                        {
+                           "url": "https://castle-engine.io/modern_pascal_introduction.html",
+                           "title": "Modern Object Pascal Introduction for Programmers",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://docs.oracle.com/cd/E19957-01/802-5762/802-5762.pdf",
+                           "title": "Pascal Language Reference",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://public.support.unisys.com/aseries/docs/clearpath-mcp-17.0/pdf/86000080-103.pdf",
+                           "title": "Pascal Programming Reference Manual",
+                           "author": "Unisys",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://ksvi.mff.cuni.cz/~dingle/2017/pascal_reference.html",
+                           "title": "Pascal Quick Reference"
+                        },
+                        {
+                           "url": "http://bitsavers.org/pdf/borland/turbo_pascal/Turbo_Pascal_Version_5.0_Reference_Guide_1989.pdf",
+                           "title": "Turbo Pascal Reference Guide (1989)",
+                           "author": "Borland International",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://www.dcs.gla.ac.uk/~wpc/reports/compilers/compilerindex/vp-ver2.html",
+                           "title": "Vector Pascal, an Array Language",
+                           "author": "Paul Cockshott, Greg Michaelson"
+                        },
+                        {
+                           "url": "https://www.researchgate.net/publication/220177664_Vector_Pascal_reference_manual",
+                           "title": "Vector Pascal Reference Manual",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://vmssoftware.com/docs/VSI_PASCAL_REF.pdf",
+                           "title": "VSI Pascal for OpenVMS Reference Manual",
+                           "author": "VMS Software",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Perl",
                      "entries": [
                         {
@@ -39027,6 +39091,12 @@
                                  ]
                               },
                               {
+                                 "url": "https://heynode.com",
+                                 "title": "Data brokering with Node.js: Process data at the speed of technology",
+                                 "author": "Osio Labs Inc.",
+                                 "accessNotes": "signup requested, not required"
+                              },
+                              {
                                  "url": "https://www.youtube.com/watch?v=L72fhGm1tfE",
                                  "title": "Express JS Crash Course",
                                  "author": "Brad Traversy, Traversy Media",
@@ -49712,6 +49782,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLeS7aZkL6GOvCz3GiOtvtDXChJRuebb7S",
                            "title": "Học redux cơ bản 2020",
                            "author": "Easy Frontend"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLncHg6Kn2JT6E38Z3kit9Hnif1xC_9VqI",
+                           "title": "Khóa Học Fullstack SERN (SQL, Express.js, React.js, Node.js) Web Developer",
+                           "author": "Hỏi Dân IT"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLJ5qtRQovuEOoKffoCBzTfvzMTTORnoyp",
