@@ -22515,7 +22515,7 @@
                                  "author": "John Harrison"
                               },
                               {
-                                 "url": "http://fprog.ru",
+                                 "url": "https://www.fprog.ru",
                                  "title": "Практика функционального программирования",
                                  "author": "журнал"
                               }
@@ -22527,7 +22527,10 @@
                               {
                                  "url": "http://networksciencebook.com",
                                  "title": "Наука о Сетях",
-                                 "author": "Альберто Лазло-Барабаси"
+                                 "author": "Альберто Лазло-Барабаси",
+                                 "notes": [
+                                    ":construction: *in process*"
+                                 ]
                               },
                               {
                                  "url": "https://github.com/vlet/http2-explained/blob/master/http2.ru.pdf?raw=true",
@@ -22837,8 +22840,9 @@
                            "title": "Эффективный Go"
                         },
                         {
-                           "url": "https://gobyexample.ru",
-                           "title": "Go в примерах"
+                           "url": "https://web.archive.org/web/20210727024101/https://gobyexample.ru",
+                           "title": "Go в примерах",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://pahanini.gitbooks.io/golang-for-php-developers/content/",
@@ -23340,19 +23344,16 @@
                      "section": "Lisp",
                      "entries": [
                         {
-                           "url": "http://lisper.ru/wiki/Cookbook",
-                           "title": "Common Lisp Cookbook (перевод)"
-                        },
-                        {
                            "url": "https://github.com/ilammy/lisp",
                            "title": "Lisp In Small Pieces (translation)"
                         },
                         {
-                           "url": "http://lisper.ru/pcl/",
+                           "url": "https://web.archive.org/web/20220130051228/http://lisper.ru/pcl/",
                            "title": "Practical Common Lisp (перевод)",
                            "notes": [
-                              "PDF"
-                           ]
+                              "HTML"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -23573,8 +23574,9 @@
                      "section": "Python",
                      "entries": [
                         {
-                           "url": "http://ru.diveintopython.net/toc.html",
-                           "title": "Вглубь языка Python"
+                           "url": "https://web.archive.org/web/20170630204729/ru.diveintopython.net/toc.html",
+                           "title": "Вглубь языка Python",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://dfedorov.spb.ru/python3",
@@ -23756,8 +23758,10 @@
                                  "title": "Ruby on Rails по-русски"
                               },
                               {
-                                 "url": "http://railstutorial.ru/chapters/4_0/beginning",
-                                 "title": "Ruby on Rails Tutorial. Изучение Rails на Примерах"
+                                 "url": "https://web.archive.org/web/20181124010958/railstutorial.ru/chapters/4_0/beginning",
+                                 "title": "Ruby on Rails Tutorial. Изучение Rails на Примерах",
+                                 "author": "Майкл Хартл",
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         }
@@ -33451,6 +33455,14 @@
                            "notes": [
                               "podcast"
                            ]
+                        },
+                        {
+                           "url": "https://webificando.com",
+                           "title": "Webificando - El podcast de side projects",
+                           "author": "Abel Fernandez, Robert Menetray",
+                           "notes": [
+                              "podcast"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -34772,6 +34784,11 @@
                      "section": "Algorithms & Data Structures",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY6KH-8c9F-lMWn-r02hyoV_",
+                           "title": "Algorithms - Full Coures In Arabic‏",
+                           "author": "Hard-Code"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL1DUmTEdeA6JlommmGP5wicYLxX5PVCQt",
                            "title": "C++ Data Structures - تراكيب البيانات",
                            "author": "محمد الدسوقي"
@@ -34808,6 +34825,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY4UQq4vXgGPwGLVX1Y5faaS",
                            "title": "Data Structure‏",
                            "author": "Hard Code"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLS-MrzRLZtmdIHJ-Osvv_sJO1Msc4VM_7",
+                           "title": "Data Structure : JavaScript (leetcode problem solving)‏",
+                           "author": "Shadow Coding"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLsGJzJ8SQXTcsXRVviurGei0lf_t_I4D8",
@@ -34933,6 +34955,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLPt2dINI2MIbMba7tpx3qvmgOsDlpITwG",
                            "title": "C++ Object-Oriented Design and Programming‏",
                            "author": "Arabic Competitive Programming"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY74yb5ZrRg1Cmil46KxLUDC",
+                           "title": "C++ Programming | Arabic Course‏",
+                           "author": "Hard-Code"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLv3VqjyehAoSSzkyHmWk89hPgcVwTNouG",
@@ -35229,6 +35256,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAz9sluuyOWPifXvySgrGma8",
                            "title": "Sass - Create a website‏",
                            "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLLWuK602vNiXqkUqcoKrVjCyOrZh7Tw0e",
+                           "title": "Yonisfy CS94's | Web Programming with JavaScript‏",
+                           "author": "Mohammed Elzanaty"
                         }
                      ],
                      "subsections": []
@@ -35300,10 +35332,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLYyqC4bNbCIeLEjcSPO61bsGPKEvYceb0",
                            "title": "سلسلة دروس جافا سكريبت",
-                           "author": "أكاديمية ترميز",
-                           "notes": [
-                              ":construction: *in process*"
-                           ]
+                           "author": "أكاديمية ترميز"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE",
@@ -35331,9 +35360,29 @@
                            "author": "KMR Script"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLLWuK602vNiU-kIpNuw5Z7HRbV4pBaHlL",
+                           "title": "Complete Intro to Javascript‏",
+                           "author": "Mohammed Elzanaty"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLS-MrzRLZtmduTfp_bReagQKg7I-GVr-5",
+                           "title": "Design Patterns | javascript | [Arabic]‏",
+                           "author": "Shadow Coding"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLLWuK602vNiVnYxkrT7qbFSictc9nJeiX",
+                           "title": "ECMAScript 6 Tutorial In Arabic‏",
+                           "author": "Mohammed Elzanaty"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLQtNtS-WfRa_PU_wiKETaFk6nAVrNBg7l",
                            "title": "Friday js‏",
                            "author": "codeZone"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLS-MrzRLZtmflgWiToSs6jNwYaFK7FnWM",
+                           "title": "HTML | CSS | JavaScript | Project‏",
+                           "author": "Shadow Coding"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw6p0z0Ek0OjPzeXoqlFlCh",
@@ -35407,7 +35456,7 @@
                            "entries": [
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAxyli7mXgNBhkRB-zgSHvL8",
-                                 "title": "Automatic Your Work With Gulpjs",
+                                 "title": "Automatic Your Work With Gulpjs‏",
                                  "author": "Elzero Web School"
                               },
                               {
@@ -35464,6 +35513,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLL2zWZTDFZzgxxD66mv95I8hC0pby5bdp",
                                  "title": "Arabic Dive into Node JS Development الغوص في النود جي اس",
                                  "author": "KMR Script"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLLWuK602vNiVLQ4rAylfIkqp3rkN0TuPD",
+                                 "title": "JWT Authentication using Node, Express, Typescript, Jasmine & Postgres‏",
+                                 "author": "Mohammed Elzanaty"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLGhZWewM_75LQf3KvHo6HHSclmDyDazl7",
@@ -35536,6 +35590,11 @@
                                  "author": "Unique Coderz Academy"
                               },
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLMYF6NkLrdN9YuSgcD3TvNowTbMrI_hh8",
+                                 "title": "React JS A JavaScript library دورة",
+                                 "author": "Muhammed Essa"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l",
                                  "title": "React.js‏",
                                  "author": "Algorithm Academy"
@@ -35574,6 +35633,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFTYdkjzqYBujf7UCVQyn_aq",
                                  "title": "ReactJS Part 3 - Performance Optimization (react memo, use memo, use call back) [تعلم الرياكت] [الجزء الثالث]",
                                  "author": "kimz codes"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLLWuK602vNiUmNPrv9szscXzENArzQHAe",
+                                 "title": "ReactJS with zanaty‏",
+                                 "author": "Mohammed Elzanaty"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLejc1JbD4ZFREfrBoSl8tjAPZOY6HNqZv",
@@ -35683,6 +35747,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzH72MTPuAAaYfReraNlQgM",
                            "title": "Arabic PHP‏",
                            "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?app=desktop&list=PLdYYj2XLw5BnpInmR103TyVwFd_CLI6IS",
+                           "title": "Design Patterns in PHP Arabic شرح بالعربي",
+                           "author": "Ramy Hakam"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAxXTPncg0W4lhVS32LO_xtQ",
@@ -35821,6 +35890,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLpbZuj8hP-I6F-Zj1Ay8nQ1rMnmFnlK2f",
                            "title": "Declarative Programming",
                            "author": "درة الاكواد لابن حماد"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?app=desktop&list=PLrwRNJX9gLs3oQyBoXtYimY7M5aSF0_oC",
+                           "title": "Software Design Patterns",
+                           "author": "محمد يحيى"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLnqAlQ9hFYdflFSS4NigVB7aSoYPNwHTL",
@@ -39017,14 +39091,6 @@
                         {
                            "section": "Electron",
                            "entries": [
-                              {
-                                 "url": "https://youtube.com/playlist?list=PLtWy6rdN1yBntIyLeNo-fCVR6AaK7vdyl",
-                                 "title": "Electron Js - Build real desktop apps",
-                                 "author": "Vishwas Gopinath, How To Code",
-                                 "notes": [
-                                    "YouTube"
-                                 ]
-                              },
                               {
                                  "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW",
                                  "title": "Electron js Tutorials",
