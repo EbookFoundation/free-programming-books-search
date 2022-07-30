@@ -99,7 +99,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML/CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://academy.hsoub.com/files/14-التحريك-عبر-css/",
@@ -437,18 +437,12 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://ilkaddimlar.com/ders/css",
                            "title": "CSS"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "HTML",
-                     "entries": [
+                        },
                         {
                            "url": "http://ilkaddimlar.com/ders/html",
                            "title": "HTML"
@@ -849,7 +843,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://knihy.nic.cz/#HTML5",
@@ -1539,7 +1533,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML & CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://www.peterkropff.de/site/css/css.htm",
@@ -2773,7 +2767,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML & CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://fmontes.gumroad.com/l/99tips",
@@ -4041,7 +4035,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://fa.learnlayout.com",
@@ -4691,16 +4685,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "http://fr.learnlayout.com",
-                           "title": "Apprendre les mises en page CSS"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Fortran",
                      "entries": [
                         {
@@ -4798,6 +4782,16 @@
                         {
                            "url": "http://lyah.haskell.fr",
                            "title": "Apprendre Haskell vous fera le plus grand bien !"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "http://fr.learnlayout.com",
+                           "title": "Apprendre les mises en page CSS"
                         }
                      ],
                      "subsections": []
@@ -5471,7 +5465,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://weblabor.hu/cikkek/cssalapjai1",
@@ -5963,7 +5957,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://www.ariona.net/ebook-belajar-html-dan-css/",
@@ -6608,19 +6602,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "http://www.aiutamici.com/PortalWeb/eBook/ebook/Alessandro_Stella-Programmare_per_il_web.pdf",
-                           "title": "Guida Completa sviluppo lato Client",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Database",
                      "entries": [
                         {
@@ -6752,7 +6733,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://canoro.altervista.org/guide/html/GuidaHTML22.pdf",
@@ -9820,7 +9801,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML5",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://fromyou.tistory.com/581",
@@ -13163,7 +13144,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://learn.shayhowe.com/html-css/",
@@ -20772,27 +20753,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "http://www.kurshtml.edu.pl/css/index.html",
-                           "title": "Kaskadowe Arkusze Stylów",
-                           "author": "Sławomir Kokłowski"
-                        },
-                        {
-                           "url": "https://webref.pl/arena/css/css_index.html",
-                           "title": "Kurs CSS",
-                           "author": "Arkadiusz Michalski"
-                        },
-                        {
-                           "url": "https://ferrante.pl/books/html/",
-                           "title": "Moja pierwsza strona internetowa w HTML5 i CSS3",
-                           "author": "Damian Wielgosik"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Haskell",
                      "entries": [
                         {
@@ -20804,12 +20764,22 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://www.kurshtml.edu.pl/html/zielony.html",
                            "title": "HTML dla zielonych",
                            "author": "Sławomir Kokłowski"
+                        },
+                        {
+                           "url": "http://www.kurshtml.edu.pl/css/index.html",
+                           "title": "Kaskadowe Arkusze Stylów",
+                           "author": "Sławomir Kokłowski"
+                        },
+                        {
+                           "url": "https://webref.pl/arena/css/css_index.html",
+                           "title": "Kurs CSS",
+                           "author": "Arkadiusz Michalski"
                         },
                         {
                            "url": "http://www.kurshtml.edu.pl",
@@ -21529,7 +21499,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://www.telecom.uff.br/pet/petws/downloads/apostilas/HTML.pdf",
@@ -22228,16 +22198,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "http://pt-pt.learnlayout.com",
-                           "title": "Aprenda o layout de CSS"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Haskell",
                      "entries": [
                         {
@@ -22247,6 +22207,16 @@
                            "notes": [
                               "PDF"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "http://pt-pt.learnlayout.com",
+                           "title": "Aprenda o layout de CSS"
                         }
                      ],
                      "subsections": []
@@ -22337,7 +22307,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://tutorialehtml.com/ro/introducere-in-html/",
@@ -22899,7 +22869,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://metanit.com/web/html5",
@@ -28352,20 +28322,6 @@
                "index": {},
                "sections": [
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "http://www.kaniyam.com/download/learn-css-in-tamil.pdf",
-                           "title": "எளிய தமிழில் CSS",
-                           "author": "Kaniyam Foundation",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Database",
                      "entries": [
                         {
@@ -28376,8 +28332,16 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
+                        {
+                           "url": "http://www.kaniyam.com/download/learn-css-in-tamil.pdf",
+                           "title": "எளிய தமிழில் CSS",
+                           "author": "Kaniyam Foundation",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
                         {
                            "url": "http://www.kaniyam.com/learn-css-in-tamil-ebook/",
                            "title": "எளிய தமிழில் CSS"
@@ -28629,17 +28593,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "http://sercaneraslan.com/css/",
-                           "title": "CSS Giriş",
-                           "author": "Sercan Eraslan"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "D",
                      "entries": [
                         {
@@ -28704,15 +28657,20 @@
                      "subsections": []
                   },
                   {
-                     "section": "Html",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
+                           "url": "http://sercaneraslan.com/css/",
+                           "title": "CSS Giriş",
+                           "author": "Sercan Eraslan"
+                        },
+                        {
                            "url": "http://www.htmldersleri.org",
-                           "title": "Html'e Giriş"
+                           "title": "HTML'e Giriş"
                         },
                         {
                            "url": "https://www.github.com/paufsc/journey-to-html",
-                           "title": "Html'e Yolculuk"
+                           "title": "HTML'e Yolculuk"
                         }
                      ],
                      "subsections": []
@@ -28820,9 +28778,10 @@
                      "section": "Matlab",
                      "entries": [
                         {
-                           "url": "https://www.ismailari.com/blog/matlab-programlamaya-giris",
+                           "url": "https://web.archive.org/web/20210727221605/https://ismailari.com/blog/matlab-programlamaya-giris/",
                            "title": "Matlab Programlamaya Giris",
-                           "author": "İsmail Arı"
+                           "author": "İsmail Arı",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -28867,13 +28826,15 @@
                      "section": "Django",
                      "entries": [
                         {
-                           "url": "https://www.pythondersleri.com/p/django-egitim-serisi.html",
+                           "url": "https://web.archive.org/web/20210302105925/https://www.pythondersleri.com/p/django-egitim-serisi.html",
                            "title": "Django",
-                           "author": "Python Dersleri"
+                           "author": "Python Dersleri",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
-                           "url": "https://gokmengorgen.net/django-notes",
-                           "title": "Django Egitimi"
+                           "url": "https://web.archive.org/web/20210802025720/https://gokmengorgen.net/django-notes/",
+                           "title": "Django Egitimi",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://tutorial.djangogirls.org/tr",
@@ -28988,7 +28949,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [],
                      "subsections": [
                         {
@@ -30050,7 +30011,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://alloyteam.github.io/CodeGuide/",
@@ -31428,36 +31389,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/watch?v=yfoY53QXEnI",
-                           "title": "CSS Crash Course For Absolute Beginners",
-                           "author": "Brad Traversy",
-                           "notes": [
-                              "screencast"
-                           ]
-                        },
-                        {
-                           "url": "https://css-tricks.com/video-screencasts/",
-                           "title": "CSS-Tricks Screencasts",
-                           "author": "Chris Coyier",
-                           "notes": [
-                              "screencast"
-                           ]
-                        },
-                        {
-                           "url": "https://thecsspodcast.libsyn.com",
-                           "title": "The CSS Podcast",
-                           "author": "Una Kravets, Adam Argyle",
-                           "notes": [
-                              "podcast"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Data Science",
                      "entries": [
                         {
@@ -31747,6 +31678,36 @@
                            "url": "https://www.haskellcast.com",
                            "title": "The Haskell Cast",
                            "author": "Chris Forno, Alp Mestanogullari, Rein Henrichs",
+                           "notes": [
+                              "podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=yfoY53QXEnI",
+                           "title": "CSS Crash Course For Absolute Beginners",
+                           "author": "Brad Traversy",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://css-tricks.com/video-screencasts/",
+                           "title": "CSS-Tricks Screencasts",
+                           "author": "Chris Coyier",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://thecsspodcast.libsyn.com",
+                           "title": "The CSS Podcast",
+                           "author": "Una Kravets, Adam Argyle",
                            "notes": [
                               "podcast"
                            ]
@@ -33802,7 +33763,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o",
@@ -35190,7 +35151,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLYyqC4bNbCIfMY5CoGmiWaPi9l86qaz5B",
@@ -38415,7 +38376,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://bento.io/topic/css",
@@ -42659,7 +42620,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://www.pierre-giraud.com/html-css-apprendre-coder-cours/",
@@ -44027,7 +43988,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://alwaysngoding.com/belajar-css/teori",
@@ -45574,7 +45535,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML/CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://bilgen.academy/course/view.php?id=510",
@@ -46573,7 +46534,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://www.kurshtmlcss.pl/kurs-css",
@@ -46586,13 +46547,7 @@
                            "url": "https://www.youtube.com/playlist?list=PLOYHgt8dIdow6b2Qm3aTJbKT2BPo5iybv",
                            "title": "Kurs CSS. Wygląd strony www - kaskadowe arkusze stylów - Pasja informatyki (VIDEO)",
                            "author": "Mirosław Zelent, Damian Stelmach"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "HTML",
-                     "entries": [
+                        },
                         {
                            "url": "http://www.kurshtmlcss.pl/kurs-html",
                            "title": "Kurs HTML",
@@ -46915,28 +46870,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "https://www.udemy.com/introducao-a-linguagem-css/",
-                           "title": "Introdução à linguagem CSS",
-                           "author": "Diego Mariano",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n",
-                           "title": "Novo curso HTML5 e CSS3: 100% atual",
-                           "author": "Gustavo Guanabara",
-                           "notes": [
-                              "Curso em Vídeo"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Dart",
                      "entries": [
                         {
@@ -47153,8 +47086,16 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
+                        {
+                           "url": "https://www.udemy.com/introducao-a-linguagem-css/",
+                           "title": "Introdução à linguagem CSS",
+                           "author": "Diego Mariano",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
                         {
                            "url": "https://www.udemy.com/introducao-a-linguagem-html/",
                            "title": "Introdução à Linguagem HTML",
@@ -48310,19 +48251,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "https://ru.code-basics.com/languages/css",
-                           "title": "CSS для начинающих",
-                           "notes": [
-                              "BEG"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Dart",
                      "entries": [
                         {
@@ -48391,8 +48319,15 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
+                        {
+                           "url": "https://ru.code-basics.com/languages/css",
+                           "title": "CSS для начинающих",
+                           "notes": [
+                              "BEG"
+                           ]
+                        },
                         {
                            "url": "https://ru.code-basics.com/languages/html",
                            "title": "HTML для начинающих",
@@ -48875,7 +48810,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PLWAgeLqk4SjDlN6nHs91rECgx4PbzfoZh",
@@ -49140,7 +49075,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PLGrTHqyRDvx5ZUs7h8mfGACFpnVipTNkA",
@@ -49543,21 +49478,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "https://www.codehub.com.vn/CSS-Co-Ban",
-                           "title": "CSS Cơ Bản"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4",
-                           "title": "CSS Cơ Bản",
-                           "author": "Thạch Phạm"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Cấu trúc dữ liệu và Giải thuật",
                      "entries": [
                         {
@@ -49608,8 +49528,17 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML",
+                     "section": "HTML and CSS",
                      "entries": [
+                        {
+                           "url": "https://www.codehub.com.vn/CSS-Co-Ban",
+                           "title": "CSS Cơ Bản"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLl4nkmb3a8w1cnIhegAj5_mE8w_mbYvY4",
+                           "title": "CSS Cơ Bản",
+                           "author": "Thạch Phạm"
+                        },
                         {
                            "url": "https://www.codehub.com.vn/HTML-Co-Ban",
                            "title": "HTML Cơ Bản"
@@ -50514,7 +50443,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://htmlcheatsheet.com/css/",
@@ -51500,7 +51429,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "http://flukeout.github.io",
@@ -52181,7 +52110,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "HTML / CSS",
+                     "section": "HTML and CSS",
                      "entries": [
                         {
                            "url": "https://www.freecodecamp.org/japanese/learn/responsive-web-design",
@@ -52511,32 +52440,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "CSS",
-                     "entries": [
-                        {
-                           "url": "https://codepen.io",
-                           "title": "CodePen"
-                        },
-                        {
-                           "url": "https://cssdeck.com",
-                           "title": "CSSdeck"
-                        },
-                        {
-                           "url": "https://dabblet.com",
-                           "title": "Dabblet"
-                        },
-                        {
-                           "url": "https://the-echoplex.net/flexyboxes/",
-                           "title": "Flexy Boxes"
-                        },
-                        {
-                           "url": "https://code.sololearn.com/web#css",
-                           "title": "SoloLearn"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Dart",
                      "entries": [
                         {
@@ -52628,6 +52531,32 @@
                         {
                            "url": "https://www.tryhaskell.org",
                            "title": "Try Haskell"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://codepen.io",
+                           "title": "CodePen"
+                        },
+                        {
+                           "url": "https://cssdeck.com",
+                           "title": "CSSdeck"
+                        },
+                        {
+                           "url": "https://dabblet.com",
+                           "title": "Dabblet"
+                        },
+                        {
+                           "url": "https://the-echoplex.net/flexyboxes/",
+                           "title": "Flexy Boxes"
+                        },
+                        {
+                           "url": "https://code.sololearn.com/web#css",
+                           "title": "SoloLearn"
                         }
                      ],
                      "subsections": []
