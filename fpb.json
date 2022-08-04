@@ -20228,6 +20228,43 @@
             },
             {
                "language": {
+                  "code": "lv",
+                  "name": "Latvian"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "<a id=\"cpp\">",
+                     "entries": [
+                        {
+                           "url": "http://home.lu.lv/~janiszu/courses/eprg/eprg.all.pdf",
+                           "title": "Programmēšana un C++",
+                           "author": "Jānis Zuters",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Python",
+                     "entries": [
+                        {
+                           "url": "http://home.lu.lv/~janiszu/courses/python/python3.pdf",
+                           "title": "Programmēšanas pamati ar valodu Python",
+                           "author": "Jānis Zuters",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
                   "code": "my",
                   "name": "Burmese"
                },
@@ -27632,6 +27669,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.codesimplicity.com/book.pdf",
+                           "title": "Code Simplicity: The Fundamentals of Software",
+                           "author": "Max Kanat-Alexander",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://www.dataorienteddesign.com/dodmain/dodmain.html",
                            "title": "Data-Oriented Design"
                         },
@@ -31209,6 +31254,30 @@
                   {
                      "section": "Miscellaneous",
                      "entries": [
+                        {
+                           "url": "http://www.askdeveloper.com",
+                           "title": "AskDeveloper Podcast",
+                           "author": "Mohamed Elsherif",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://essamcafe.com",
+                           "title": "Essam Cafe - قهوة عصام",
+                           "author": "Ahmed Essam",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://nakerah.net/podcast",
+                           "title": "Nakerah Podcast",
+                           "author": "Nakerah Network",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
                         {
                            "url": "https://nullplus.plus",
                            "title": "null++: بالعربي",
@@ -51171,6 +51240,11 @@
                      "section": "C",
                      "entries": [
                         {
+                           "url": "https://www.scaler.com/topics/c/",
+                           "title": "C Tutorial",
+                           "author": "Scaler Topics"
+                        },
+                        {
                            "url": "http://www.learn-c.org",
                            "title": "Learn C",
                            "author": "Learn-C"
@@ -51216,6 +51290,11 @@
                            "url": "https://www.w3schools.com/cpp",
                            "title": "C++ Tutorial",
                            "author": "W3Schools"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/cpp/",
+                           "title": "C++ Tutorial",
+                           "author": "Scaler Topics"
                         },
                         {
                            "url": "https://github.com/torbjoernk/CppKoans",
@@ -51476,6 +51555,11 @@
                            "author": "W3Schools"
                         },
                         {
+                           "url": "https://www.scaler.com/topics/html/",
+                           "title": "HTML Tutorial",
+                           "author": "Scaler Topics"
+                        },
+                        {
                            "url": "https://knightsoftheflexboxtable.com",
                            "title": "Knights of the Flexbox Table"
                         },
@@ -51545,6 +51629,11 @@
                            "author": "W3Schools"
                         },
                         {
+                           "url": "https://www.scaler.com/topics/java/",
+                           "title": "Java Tutorial",
+                           "author": "Scaler Topics"
+                        },
+                        {
                            "url": "http://www.learnjavaonline.org",
                            "title": "Learn Java"
                         },
@@ -51591,6 +51680,11 @@
                            "url": "https://www.w3schools.com/js",
                            "title": "JavaScript Tutorial",
                            "author": "W3Schools"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/javascript/",
+                           "title": "JavaScript Tutorial",
+                           "author": "Scaler Topics"
                         },
                         {
                            "url": "https://github.com/sethvincent/javascripting",
@@ -51761,6 +51855,11 @@
                                  "notes": [
                                     ":construction: *in process*"
                                  ]
+                              },
+                              {
+                                 "url": "https://www.scaler.com/topics/operating-system/",
+                                 "title": "Operating System Tutorial",
+                                 "author": "Scaler Topics"
                               },
                               {
                                  "url": "https://exposnitc.github.io",
@@ -51946,6 +52045,11 @@
                            "author": "W3Schools"
                         },
                         {
+                           "url": "https://www.scaler.com/topics/python/",
+                           "title": "Python Tutorial",
+                           "author": "Scaler Topics"
+                        },
+                        {
                            "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
                            "title": "Scientific Computing with Python Certification",
                            "author": "freeCodeCamp"
@@ -52082,6 +52186,11 @@
                            "url": "https://www.w3schools.com/sql",
                            "title": "SQL Tutorial",
                            "author": "W3Schools"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/sql/",
+                           "title": "SQL Tutorial",
+                           "author": "Scaler Topics"
                         },
                         {
                            "url": "http://sqlbolt.com",
