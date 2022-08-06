@@ -4128,7 +4128,21 @@
                            "title": "کتاب آزاد آموزش پایتون"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Django",
+                           "entries": [
+                              {
+                                 "url": "https://github.com/mthri/dfp-persian",
+                                 "title": "کتاب جنگو برای حرفه ای ها"
+                              },
+                              {
+                                 "url": "https://github.com/ftg-iran/dfa-persian",
+                                 "title": "کتاب جنگو برای API"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "R",
