@@ -57,20 +57,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "AWS",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf",
-                           "title": "كورس كامل بالعربى مع المهندس عيسى أبوشريف",
-                           "author": "Eissa AbuSherif‏",
-                           "notes": [
-                              "YouTube"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "<a id=\"csharp\">",
                      "entries": [
                         {
@@ -34915,6 +34901,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "AWS",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLOoZRfEtk6kWSM_l9xMjDh-_MJXl03-pf",
+                           "title": "كورس كامل بالعربى مع المهندس عيسى أبوشريف",
+                           "author": "Eissa AbuSherif"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Bootstrap",
                      "entries": [
                         {
@@ -35151,6 +35148,37 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "Deep Learning",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5WyBLsw6yJYWIiFJ1OmmRyK",
+                           "title": "14 الكورس الأول : التعلم العميق و الشبكات العصبية",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5VAuf-d71pu2vGZDgGZnZMw",
+                           "title": "15 الكورس الثاني : تطوير الشبكات العميقة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XhL1i0vvBi39LA_ChPzyWw",
+                           "title": "16 الكورس الثالث : هيكلية مشاريع تعلم الآلة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XHyhWNs-jxFtfERv4NlZmm",
+                           "title": "17 الكورس الرابع : الشبكات العصبية الملتفة CNN",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5WTcrGAWlZUL9sOGYgSsON_",
+                           "title": "18 الكورس الخامس : الشبكات العصبية المتكررة RNN",
+                           "author": "Hesham Asem"
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": "Flutter",
@@ -35721,6 +35749,123 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "Machine Learning",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5Vf1RAHyBo4tRzT8lEavPhR",
+                           "title": "01 machine learning تعليم الآلة , القسم الأول : مقدمة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5UJE2PbY7UU4SHi7UpV1mXo",
+                           "title": "02 تعليم الآلة , القسم الثاني : التوقع Machine learning , Regression",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5UM-FWfQeF1_YhMMa12Eg3s",
+                           "title": "03 تعليم الآلة , القسم الثالث : بايثون Machine learning , Python",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5Uq7PkI_PWOm_DLC2CFvSzU",
+                           "title": "04 القسم الرابع : التصنيف Classification & Logistic Regression",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5UX-Yi32r925nsgW-3GrnSa",
+                           "title": "05 القسم الخامس : الشبكات العصبية Neural Network",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5U98PPtkc34sg7EEGC34WRs",
+                           "title": "06 القسم السادس : نظام الدعم الآلي SVM",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5VEygzpmG1GZgI8l1xwPDBP",
+                           "title": "07 القسم السابع : التعليم بدون إشراف Unsupervised ML",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5UnONA8-ENhR0NE04mIllqB",
+                           "title": "08 القسم الثامن : مواضيع هامة في تعليم الآلة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XJKEXITqCNQN8209q3qlrL",
+                           "title": "09 القسم التاسع : تكنيكات حديثة في تعليم الآلة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5X_9JeJh1xeciAbkijvc09k",
+                           "title": "10 القسم العاشر : مكتبة سايكيتليرن Sklearn Library",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5VbuU2T0gS_mFhCpKmLxvCP",
+                           "title": "11 القسم الحادي عشر : تنسر فلو و كيراس TensorFlow & Keras",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XA13ZqfacovmyOLjYwwhMt",
+                           "title": "12 القسم الثاني عشر : تطبيقات عملية من كاجل و جيتهاب Kaggle & Github",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5VdA0sd-nLM0LMzhfivfwmu",
+                           "title": "13 ML Helper Tutorials برنامج المساعد في تعليم الآلة",
+                           "author": "Hesham Asem"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Natural Language Programming",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XpTaCGcWlSx-hy8JcIxsU7",
+                           "title": "21 NLP-01 مقدمة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5VFSRQLI7skbH8UPEdfCFBg",
+                           "title": "22 NLP-02 أساسيات المعالجة اللغوية الطبيعية",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5WYpWu6Y8T3firJLflZ3Ufi",
+                           "title": "23 NLP-03 أدوات المعالجة اللغوية الطبيعية",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5W7brQxe9RHNpHSeUTuz-V_",
+                           "title": "24 NLP-04 المعالجة البسيطة للنصوص",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5W7QQ3mKJ1kldXpN3Vquzbc",
+                           "title": "25 NLP-05 المعالجة المتقدمة للنصوص",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5UsyOPThnWFKUzSkrQwQHJ0",
+                           "title": "26 NLP-06 تجميع البيانات",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XZCwISqNQPFFns9bnx2wUG",
+                           "title": "27 NLP-07 الشبكات العصبية المتكررة",
+                           "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XHsUtAUid97yRi011KSDBZ",
+                           "title": "28 NLP-08 تكنيكات حديثة في المعالجة اللغوية الطبيعية",
+                           "author": "Hesham Asem"
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": ".NET",
