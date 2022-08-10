@@ -29152,10 +29152,6 @@
                      "section": "编辑器",
                      "entries": [
                         {
-                           "url": "http://learnvimscriptthehardway.onefloweroneworld.com",
-                           "title": "笨方法学Vimscript 中译本"
-                        },
-                        {
                            "url": "https://github.com/yangyangwithgnu/use_vim_as_ide",
                            "title": "所需即所获：像 IDE 一样使用 vim"
                         },
@@ -29264,8 +29260,9 @@
                            "title": "uCore Lab: Operating System Course in Tsinghua University"
                         },
                         {
-                           "url": "http://cb.vu/unixtoolbox_zh_CN.xhtml",
-                           "title": "UNIX TOOLBOX"
+                           "url": "https://web.archive.org/web/20210812021003/cb.vu/unixtoolbox_zh_CN.xhtml",
+                           "title": "UNIX TOOLBOX",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -29319,8 +29316,9 @@
                            "title": "ElasticSearch 权威指南"
                         },
                         {
-                           "url": "http://es.xiaoleilu.com",
-                           "title": "Elasticsearch 权威指南（中文版）"
+                           "url": "https://web.archive.org/web/20200415002735/https://es.xiaoleilu.com/",
+                           "title": "Elasticsearch 权威指南（中文版）",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://kibana.logstash.es",
@@ -29459,7 +29457,7 @@
                            "title": "Joel谈软件"
                         },
                         {
-                           "url": "https://github.com/fool2fish/selenium-doc",
+                           "url": "https://einverne.gitbook.io/selenium-doc/",
                            "title": "selenium 中文文档"
                         }
                      ],
@@ -29686,10 +29684,6 @@
                      "section": "Android",
                      "entries": [
                         {
-                           "url": "http://www.apkbus.com/design/index.html",
-                           "title": "Android Design(中文版)"
-                        },
-                        {
                            "url": "https://github.com/CharonChui/AndroidNote",
                            "title": "Android Note(开发过程中积累的知识点)"
                         },
@@ -29735,20 +29729,18 @@
                            "title": "新概念 C 语言教程"
                         },
                         {
-                           "url": "https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-ME5zR-03ZEHgp2kv7bW%2F-MF9EIY-s19_w19_Unae%2F-MF9F-HCs1nLOkY1mLVi%2FBeej-cn-20140429.zip?alt=media&token=de27f96b-2aed-4c97-8879-649638c7559f",
+                           "url": "https://beej-zhtw-gitbook.netdpi.net",
                            "title": "Beej's Guide to Network Programming 簡體中文版",
-                           "author": "Brian \"Beej Jorgensen\" Hall, 廖亚伦译",
-                           "notes": [
-                              "PDF"
-                           ]
+                           "author": "Brian \"Beej Jorgensen\" Hall, 廖亚伦译"
                         },
                         {
                            "url": "http://c-faq-chn.sourceforge.net/ccfaq/ccfaq.html",
                            "title": "C 语言常见问题集"
                         },
                         {
-                           "url": "http://docs.linuxtone.org/ebooks/C&CPP/c/",
-                           "title": "Linux C 编程一站式学习"
+                           "url": "https://web.archive.org/web/20210514225440/http://docs.linuxtone.org/ebooks/C&CPP/c/",
+                           "title": "Linux C 编程一站式学习",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -29775,8 +29767,9 @@
                            "title": "100个gdb小技巧"
                         },
                         {
-                           "url": "http://www.nowamagic.net/librarys/books/contents/c",
-                           "title": "简单易懂的C魔法"
+                           "url": "https://web.archive.org/web/20210413213859/http://www.nowamagic.net/librarys/books/contents/c",
+                           "title": "简单易懂的C魔法",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.ituring.com.cn/book/1203",
@@ -29858,8 +29851,9 @@
                      "section": "Dart",
                      "entries": [
                         {
-                           "url": "http://dart.lidian.info/wiki/Language_Tour",
-                           "title": "Dart 语言导览"
+                           "url": "https://web.archive.org/web/20200415002731/dart.lidian.info/wiki/Language_Tour",
+                           "title": "Dart 语言导览",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -29882,7 +29876,7 @@
                      "section": "Elixir",
                      "entries": [
                         {
-                           "url": "https://elixirschool.com/cn/",
+                           "url": "https://elixirschool.com/zh-hans",
                            "title": "Elixir 编程语言教程",
                            "notes": [
                               "Elixir School"
@@ -29933,10 +29927,6 @@
                            "url": "https://tiancaiamao.gitbooks.io/go-internals/content/zh",
                            "title": "深入解析 Go",
                            "author": "tiancaiamao"
-                        },
-                        {
-                           "url": "http://go.ctolib.com/docs/read/magical-go-c-index.html",
-                           "title": "神奇的 Go 语言"
                         },
                         {
                            "url": "http://mikespook.com/learning-go/",
@@ -30017,8 +30007,9 @@
                            "title": "Network programming with Go 中文翻译版本"
                         },
                         {
-                           "url": "http://gorevel.cn/docs/manual/index.html",
-                           "title": "Revel 框架手册"
+                           "url": "https://web.archive.org/web/20190610030938/https://gorevel.cn/docs/manual/index.html",
+                           "title": "Revel 框架手册",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://github.com/kevingo/the-little-go-book",
@@ -30142,7 +30133,7 @@
                      "section": "Java",
                      "entries": [
                         {
-                           "url": "https://github.com/alibaba/p3c/blob/master/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E5%B5%A9%E5%B1%B1%E7%89%88%EF%BC%89.pdf",
+                           "url": "https://raw.githubusercontent.com/alibaba/p3c/HEAD/Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C(%E9%BB%84%E5%B1%B1%E7%89%88).pdf",
                            "title": "阿里巴巴 Java 开发手册",
                            "notes": [
                               "PDF"
@@ -30271,8 +30262,9 @@
                            "author": "阮一峰"
                         },
                         {
-                           "url": "http://bq69.com/blog/articles/script/868/google-javascript-style-guide.html",
-                           "title": "Google JavaScript 代码风格指南"
+                           "url": "https://web.archive.org/web/20200415002735/bq69.com/blog/articles/script/868/google-javascript-style-guide.html",
+                           "title": "Google JavaScript 代码风格指南",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://javascript.ruanyifeng.com",
@@ -30369,8 +30361,9 @@
                                  "title": "Backbone.js入门教程第二版"
                               },
                               {
-                                 "url": "http://www.css88.com/doc/backbone/",
-                                 "title": "Backbone.js中文文档"
+                                 "url": "https://web.archive.org/web/20200916085144/https://www.html.cn/doc/backbone/",
+                                 "title": "Backbone.js中文文档",
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         },
@@ -30421,20 +30414,12 @@
                            ]
                         },
                         {
-                           "section": "impress.js",
-                           "entries": [
-                              {
-                                 "url": "https://github.com/kokdemo/impress.js-tutorial-in-Chinese",
-                                 "title": "impress.js的中文教程"
-                              }
-                           ]
-                        },
-                        {
                            "section": "jQuery",
                            "entries": [
                               {
-                                 "url": "http://www.nowamagic.net/librarys/books/contents/jquery",
-                                 "title": "简单易懂的JQuery魔法"
+                                 "url": "https://web.archive.org/web/20201127045453/http://www.nowamagic.net/librarys/books/contents/jquery",
+                                 "title": "简单易懂的JQuery魔法",
+                                 "accessNotes": ":card_file_box: archived"
                               },
                               {
                                  "url": "http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html",
@@ -30461,10 +30446,6 @@
                               {
                                  "url": "http://javascript.ruanyifeng.com/nodejs/express.html",
                                  "title": "Express框架"
-                              },
-                              {
-                                 "url": "http://nodejs.ctolib.com/docs/sfile/jstraining/engineering.html",
-                                 "title": "JavaScript全栈工程师培训材料"
                               },
                               {
                                  "url": "https://github.com/guo-yu/koa-guide",
@@ -30555,8 +30536,9 @@
                            "section": "Zepto.js",
                            "entries": [
                               {
-                                 "url": "http://css88.com/doc/zeptojs_api",
-                                 "title": "Zepto.js 中文文档"
+                                 "url": "https://web.archive.org/web/20210303025214/https://www.css88.com/doc/zeptojs_api/",
+                                 "title": "Zepto.js 中文文档",
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         }
@@ -30604,7 +30586,7 @@
                      "section": "Lua",
                      "entries": [
                         {
-                           "url": "http://www.w3cschool.cc/manual/lua53doc/contents.html",
+                           "url": "https://www.runoob.com/manual/lua53doc/",
                            "title": "Lua 5.3 参考手册"
                         }
                      ],
@@ -30698,16 +30680,18 @@
                            "title": "深入理解 PHP 内核"
                         },
                         {
-                           "url": "https://codeigniter.org.tw/userguide3",
-                           "title": "CodeIgniter 使用手冊"
+                           "url": "https://web.archive.org/web/20210624143822/https://codeigniter.org.tw/userguide3/",
+                           "title": "CodeIgniter 使用手冊",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://docs.phpcomposer.com",
                            "title": "Composer中文文档"
                         },
                         {
-                           "url": "http://www.myleftstudio.com",
-                           "title": "Phalcon7中文文档"
+                           "url": "https://web.archive.org/web/20220330065727/myleftstudio.com/",
+                           "title": "Phalcon7中文文档",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://wulijun.github.io/php-the-right-way/",
@@ -30756,8 +30740,9 @@
                                  "title": "Symfony 2 实例教程"
                               },
                               {
-                                 "url": "https://symfony.com/doc/current/the-fast-track/zh_CN/index.html",
-                                 "title": "Symfony 5 快速开发"
+                                 "url": "https://web.archive.org/web/20210812222957/symfony.com/doc/current/the-fast-track/zh_CN/index.html",
+                                 "title": "Symfony 5 快速开发",
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         }
@@ -30793,13 +30778,14 @@
                      "section": "Python",
                      "entries": [
                         {
-                           "url": "https://bop.molun.net",
+                           "url": "https://web.archive.org/web/20200822010330/https://bop.mol.uno/",
                            "title": "简明 Python 教程",
                            "author": "Swaroop C H、沈洁元",
                            "notes": [
                               "翻译",
                               "翻译"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.cnblogs.com/derek1184405959/p/8579428.html",
@@ -30812,14 +30798,6 @@
                         {
                            "url": "https://github.com/jiechic/diveintopython3",
                            "title": "深入 Python 3"
-                        },
-                        {
-                           "url": "https://www.ctolib.com/docs/sfile/think-python-2e/0.html",
-                           "title": "像计算机科学家一样思考Python",
-                           "author": "Allen B. Downey、大胖哥",
-                           "notes": [
-                              "翻译"
-                           ]
                         },
                         {
                            "url": "http://www.osgeo.cn/matplotlib/",
@@ -30875,9 +30853,10 @@
                            "author": "eastlakeside"
                         },
                         {
-                           "url": "http://funhacks.net/explore-python",
+                           "url": "https://web.archive.org/web/20191217091745/http://funhacks.net/explore-python/",
                            "title": "Python之旅",
-                           "author": "Ethan"
+                           "author": "Ethan",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.osgeo.cn/tornado/",
@@ -30946,11 +30925,12 @@
                            ]
                         },
                         {
-                           "url": "http://yanping.me/shiny-tutorial/",
+                           "url": "https://web.archive.org/web/20200220023703/yanping.me/shiny-tutorial/",
                            "title": "用 R 构建 Shiny 应用程序",
                            "notes": [
                               "《Building 'Shiny' Applications with R》中文版"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://cran.r-project.org/doc/contrib/Ding-R-intro_cn.pdf",
@@ -30993,7 +30973,7 @@
                            "title": "Ruby on Rails 实战圣经"
                         },
                         {
-                           "url": "http://guides.ruby-china.org",
+                           "url": "https://ruby-china.github.io/rails-guides/",
                            "title": "Ruby on Rails 指南"
                         },
                         {
