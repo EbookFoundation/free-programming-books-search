@@ -166,7 +166,7 @@
                      "entries": [
                         {
                            "url": "https://librebooks.org/gnu-linux-advanced-administration/",
-                           "title": "الإدارة المتقدمة لجنو/لينكس ",
+                           "title": "الإدارة المتقدمة لجنو/لينكس",
                            "author": "Remo Suppi Boldrito, Josep Jorba Esteve, Abdel Rahim Ghaleb‏",
                            "notes": [
                               "PDF"
@@ -2137,7 +2137,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://www.ebooks4greeks.gr/html5-javascript",
@@ -4659,7 +4659,7 @@
                            "title": "Maîtriser Bitcoin: Programmer la chaîne de blocs publique",
                            "author": "Andreas M. Antonopoulos, Serafim Dos Santos",
                            "notes": [
-                              "asciidoc, html"
+                              "asciidoc, HTML"
                            ]
                         },
                         {
@@ -4667,7 +4667,7 @@
                            "title": "Maîtriser Ethereum: Développer des contrats intelligents et des DApps",
                            "author": "Andreas M. Antonopoulos, Dr. Gavin Wood, Serafim Dos Santos",
                            "notes": [
-                              "asciidoc, html"
+                              "asciidoc, HTML"
                            ]
                         }
                      ],
@@ -6856,7 +6856,7 @@
                      "entries": [
                         {
                            "url": "https://www.grimaldi.napoli.it/pdf/manuale_unite_224_2_html_1000213680.pdf",
-                           "title": "Corso completo Javascript",
+                           "title": "Corso completo JavaScript",
                            "author": "",
                            "otherLinks": [
                               {
@@ -6885,7 +6885,7 @@
                         },
                         {
                            "url": "https://www.html.it/guide/guida-javascript-di-base/",
-                           "title": "Guida Javascript",
+                           "title": "Guida JavaScript",
                            "author": "Andrea Chiarelli, Davide Brognoli, Alberto Bottarini, Ilario Valdelli",
                            "notes": [
                               "HTML"
@@ -13604,7 +13604,7 @@
                            "url": "http://www.jsoftware.com/books/pdf/mftl.zip",
                            "title": "Math for the Layman by Kenneth E Iverson",
                            "notes": [
-                              "zipped html+images"
+                              "zipped HTML+images"
                            ]
                         }
                      ],
@@ -15640,7 +15640,7 @@
                            "title": "Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp",
                            "author": "Peter Norvig",
                            "notes": [
-                              "PDF, epub, markdown"
+                              "PDF, EPUB, Markdown"
                            ]
                         },
                         {
@@ -17827,7 +17827,7 @@
                         },
                         {
                            "url": "http://www.obeythetestinggoat.com/pages/book.html",
-                           "title": "Test-Driven Web Development with Python: Obey the Testing Goat! using Django, Selenium and Javascript",
+                           "title": "Test-Driven Web Development with Python: Obey the Testing Goat! using Django, Selenium and JavaScript",
                            "author": "Harry J.W. Percival",
                            "notes": [
                               "HTML"
@@ -28491,7 +28491,8 @@
                      "entries": [
                         {
                            "url": "https://medium.com/odds-team/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-go-%E0%B9%81%E0%B8%9A%E0%B8%9A-step-by-step-%E0%B8%88%E0%B8%B2%E0%B8%81-course-pre-ultimate-go-by-p-yod-%E0%B8%95%E0%B8%AD%E0%B8%99-1-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-%E0%B9%81%E0%B8%A5%E0%B8%B0-d9ac7913e9a4",
-                           "title": "ภาษา Go ตอน 1 ติดตั้ง และ Run Hello World"
+                           "title": "ภาษา Go ตอน 1 ติดตั้ง และ Run Hello World",
+                           "author": "Chaiyarin Niamsuwan"
                         }
                      ],
                      "subsections": []
@@ -30236,7 +30237,7 @@
                         },
                         {
                            "url": "https://github.com/getify/You-Dont-Know-JS/tree/1ed-zh-CN",
-                           "title": "你不知道的Javascript"
+                           "title": "你不知道的JavaScript"
                         },
                         {
                            "url": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html",
@@ -30287,7 +30288,7 @@
                         },
                         {
                            "url": "https://web.archive.org/web/20170112164945/http://typeof.net/s/jsmech/",
-                           "title": "Javascript 原理"
+                           "title": "JavaScript 原理"
                         },
                         {
                            "url": "http://liubin.github.io/promises-book/",
@@ -30295,7 +30296,7 @@
                         },
                         {
                            "url": "http://pij.robinqu.me",
-                           "title": "Javascript编程指南",
+                           "title": "JavaScript编程指南",
                            "notes": [],
                            "manualReviewRequired": true
                         },
@@ -31334,7 +31335,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"c-sharp\">",
+                     "section": "<a id=\"csharp\">",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLFgjYYTq6xyhtVK6VzLiFe3pmBu-XSNlX",
@@ -36807,7 +36808,7 @@
                      "entries": [
                         {
                            "url": "https://docs.microsoft.com/de-de/learn/paths/build-javascript-applications-typescript/",
-                           "title": "Erstellen von Javascript-Anwendung mithilfe von TypeScript",
+                           "title": "Erstellen von JavaScript-Anwendungen mithilfe von TypeScript",
                            "author": "Microsoft"
                         },
                         {
@@ -38221,7 +38222,7 @@
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7",
-                           "title": "Docker Tutorial for Beginners ",
+                           "title": "Docker Tutorial for Beginners",
                            "author": "Thenewboston"
                         },
                         {
@@ -39029,7 +39030,7 @@
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84",
-                           "title": "Functional Programming in Javascript",
+                           "title": "Functional Programming in JavaScript",
                            "author": "Mattias Petter Johansson «Fun Fun Function»",
                            "notes": [
                               "YouTube"
@@ -39046,7 +39047,7 @@
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLgBH1CvjOA62PBFIDq55-S6Beivje30A2",
-                           "title": "Javascript Array Methods",
+                           "title": "JavaScript Array Methods",
                            "author": "Florin Pop",
                            "notes": [
                               "YouTube"
@@ -39054,7 +39055,7 @@
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLgBH1CvjOA63ROz8Wqd7RDD0qpvGXF8x5",
-                           "title": "Javascript Coding Challenges",
+                           "title": "JavaScript Coding Challenges",
                            "author": "Florin Pop",
                            "notes": [
                               "YouTube"
@@ -39075,7 +39076,7 @@
                         },
                         {
                            "url": "https://www.udemy.com/course/javascript-essentials-mini-course/",
-                           "title": "Javascript Mini Course 2020",
+                           "title": "JavaScript Mini Course 2020",
                            "author": "Kalob Taulien",
                            "notes": [
                               "Udemy"
@@ -41651,7 +41652,7 @@
                      "entries": [
                         {
                            "url": "https://aprendejavascript.org",
-                           "title": "Aprende Javascript",
+                           "title": "Aprende JavaScript",
                            "author": "Jonathan MirCha"
                         },
                         {
@@ -41906,7 +41907,7 @@
                         },
                         {
                            "url": "https://argentinaprograma.com",
-                           "title": "Curso gratuito de Javascript",
+                           "title": "Curso gratuito de JavaScript",
                            "author": "Fabricio Sodano",
                            "notes": [
                               "Argentina Programa"
@@ -42602,7 +42603,7 @@
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLdUn5H7OTUk1WYCrDJpNGpJ2GFWd7yZaw",
-                           "title": " آموزش توسعه وب با فریم‌ورک فلسک",
+                           "title": "آموزش توسعه وب با فریم‌ورک فلسک",
                            "author": "Alireza Ayinmehr"
                         }
                      ],
@@ -42905,7 +42906,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://www.pierre-giraud.com/javascript-apprendre-coder-cours/",
@@ -42929,7 +42930,7 @@
                         },
                         {
                            "url": "https://fr.javascript.info",
-                           "title": "Tutoriel de javascript moderne",
+                           "title": "Le Tutoriel JavaScript Moderne",
                            "author": "javascript.info"
                         },
                         {
@@ -43503,7 +43504,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL",
@@ -43862,7 +43863,7 @@
                         },
                         {
                            "url": "https://kodedasar.com/belajar-cpp/",
-                           "title": "Belajar Bahasa Pemrograman C++ Lengkap dari Awal untuk Pemula ",
+                           "title": "Belajar Bahasa Pemrograman C++ Lengkap dari Awal untuk Pemula",
                            "author": "DAMASDEV"
                         },
                         {
@@ -45756,7 +45757,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://bilgen.academy/course/view.php?id=506",
@@ -45844,11 +45845,11 @@
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PLWrsrLN26mWZiRcn4O-cphCw-AyoWumhq",
-                           "title": "មេរៀន Javascript Speak khmer",
+                           "title": "មេរៀន JavaScript Speak khmer",
                            "author": "រៀនIT"
                         }
                      ],
@@ -46545,7 +46546,7 @@
                         },
                         {
                            "url": "https://www.opentutorials.org/course/3085",
-                           "title": "Web2-javascript",
+                           "title": "Web2-JavaScript",
                            "notes": [
                               "생활코딩"
                            ]
@@ -46612,7 +46613,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/watch?v=3mjwtu4_0uk",
@@ -47003,7 +47004,7 @@
                            "title": "Programação Moderna em C",
                            "author": "Papo Binário",
                            "notes": [
-                              "Youtube"
+                              "YouTube"
                            ]
                         }
                      ],
@@ -47718,7 +47719,7 @@
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn",
-                           "title": "Criando APIs com NodeJs ",
+                           "title": "Criando APIs com NodeJs",
                            "author": "Balta.io",
                            "notes": [
                               "YouTube"
@@ -51809,7 +51810,7 @@
                         },
                         {
                            "url": "https://www.codecademy.com/learn/javascript",
-                           "title": "Javascript interactive tutorial on CodeCademy"
+                           "title": "JavaScript interactive tutorial on CodeCademy"
                         },
                         {
                            "url": "http://www.codermania.com/javascript/lesson/1a/hello-world",
