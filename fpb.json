@@ -36383,6 +36383,16 @@
                                  "author": "Anisul Islam"
                               }
                            ]
+                        },
+                        {
+                           "section": "Tailwind",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLHiZ4m8vCp9P23SqlHL0QAqiwS_oCofV2",
+                                 "title": "Tailwind CSS Bangla Tutorial Series",
+                                 "author": "Learn with Sumit"
+                              }
+                           ]
                         }
                      ]
                   },
@@ -36539,6 +36549,26 @@
                                  ]
                               }
                            ]
+                        },
+                        {
+                           "section": "Svelte",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVDJOOYnZxK-fbKxjxFHfc-H",
+                                 "title": "Svelte 3: The Game Changer (Bangla Crash Course)",
+                                 "author": "Stack Learner"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Vue",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=iIvN7upsLoA",
+                                 "title": "Introduction to Vue.js in Bangla বাংলা  with a full Project - Vue Crash Course",
+                                 "author": "Learn with Sumit"
+                              }
+                           ]
                         }
                      ]
                   },
@@ -36645,23 +36675,12 @@
                      "subsections": []
                   },
                   {
-                     "section": "Svelte",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVDJOOYnZxK-fbKxjxFHfc-H",
-                           "title": "Svelte 3: The Game Changer (Bangla Crash Course)",
-                           "author": "Stack Learner"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "TypeScript",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PLHiZ4m8vCp9PgOOjdyNpc6AoBmKNrp_u3",
                            "title": "TypeScript Bangla ( বাংলা ) Tutorial Series",
-                           "author": "Learn with Sumit - LWS - Bangladesh"
+                           "author": "Learn with Sumit"
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLgH5QX0i9K3rXq_1OgVmjaEJJ1akJQgPq",
