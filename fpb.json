@@ -39336,6 +39336,11 @@
                               {
                                  "url": "https://masteringnextjs.com",
                                  "title": "Mastering Next.js"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH",
+                                 "title": "Next.js Tutorial for Beginners",
+                                 "author": "Codevolution"
                               }
                            ]
                         },
@@ -40037,6 +40042,11 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL_RGaFnxSHWpqRBcStwV0NwMA3nXMh5GC",
                            "title": "Perl Tutorial"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL1h5a0eaDD3rTG1U7w9wmff6ZAKDN3b16",
+                           "title": "Perl Tutorial: Basics to Advanced",
+                           "author": "VLSI Academy"
                         }
                      ],
                      "subsections": []
@@ -46711,6 +46721,11 @@
                            "url": "https://youtube.com/playlist?list=PLY-ecO2csVHdLhAO6TERaMJXP8aqyWVt-",
                            "title": "Git Tutorial Malayalam | Best Malayalam Git Tutorial | Date With Git",
                            "author": "Brototype Malayalam"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nsAlTIl6FcEubM2CtHW7zTC",
+                           "title": "git malayalam tutorial github",
+                           "author": "Debug Media"
                         }
                      ],
                      "subsections": []
@@ -46724,9 +46739,19 @@
                            "author": "Yes Tech Media"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4ntbMZdiSS0nFXo49KZCCcdw",
+                           "title": "css malayalam tutorial",
+                           "author": "Debug Media"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PL1JrLEBAapUVyMVQp6SmpytH1HPeCiNPH",
                            "title": "HTML Tutorial Malayalam Full",
                            "author": "Yes Tech Media"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nupwUNXQs2Dn0za5a8ijVPH",
+                           "title": "html malayalam tutorial",
+                           "author": "Debug Media"
                         }
                      ],
                      "subsections": [
@@ -46800,6 +46825,11 @@
                                  "url": "https://youtube.com/playlist?list=PL1JrLEBAapUX44d5zzl0hf7vX7caSCidT",
                                  "title": "React JS - Malayalam Tutorial - by Yes Tech Media",
                                  "author": "Yes Tech Media"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nuKJ3bJSP-LcchabWJtPtE8",
+                                 "title": "React js malayalam tutorial",
+                                 "author": "Debug Media"
                               }
                            ]
                         }
