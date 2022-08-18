@@ -36746,6 +36746,33 @@
                      "subsections": []
                   },
                   {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLuBK_vNnGp8ANspdZh_aRAa1InIhFlgm_",
+                           "title": "CSS lernen",
+                           "author": "NEW - Vadim"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLnlqg5o1zhnhVI3t1iTE2oO4QSGpu7EMx",
+                           "title": "HTML Tutorial Deutsch",
+                           "author": "Markus Reichl"
+                        }
+                     ],
+                     "subsections": [
+                        {
+                           "section": "Bootstrap",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLiH_qbTmMNfhcZazOxjK9hFdtRfq_NLld",
+                                 "title": "Bootstrap 4 Tutorial (Deutsch)",
+                                 "author": "Matthias Dangl"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
                      "section": "Java",
                      "entries": [
                         {
@@ -49364,6 +49391,22 @@
                            "url": "https://www.youtube.com/playlist?list=PLoTScYm9O0GGsV1ZAyP4m_iyAbflQrKrX",
                            "title": "สอน git และ github เบื้องต้น",
                            "author": "prasertcbs"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLtfWtWKHvrn8GxLV6Sws3cAZgmvUynxwz",
+                           "title": "คอร์สเรียนภาษา CSS",
+                           "author": "BARCODE"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLxN7ZT-opr0KPGJPlh6DhZrz0z031ZObQ",
+                           "title": "ภาษา HTML",
+                           "author": "nana สาระ"
                         }
                      ],
                      "subsections": []
