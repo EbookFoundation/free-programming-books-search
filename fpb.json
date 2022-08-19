@@ -37563,83 +37563,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Bootstrap",
-                     "entries": [
-                        {
-                           "url": "https://www.udemy.com/course/bootstrap-4",
-                           "title": "Bootstrap 4 Quick Start: Code Modern Responsive Websites",
-                           "author": "Brad Hussey",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR",
-                           "title": "Bootstrap 5 Tutorial for Beginners",
-                           "author": "The Net Ninja"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V",
-                           "title": "Bootstrap tutorial for beginners",
-                           "author": "kudvenkat"
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/bootstrap-4-tutorials",
-                           "title": "Complete Bootstrap 4 course - build 3 projects",
-                           "author": "Igneus Technologies",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/watch?v=ZfRn9VJzdGA",
-                           "title": "Complete Bootstrap Crash Course | Bootstrap 4 Tutorial",
-                           "author": "Julio Codes"
-                        },
-                        {
-                           "url": "https://www.classcentral.com/course/edx-introduction-to-bootstrap-a-tutorial-3338",
-                           "title": "Introduction to Bootstrap - A Tutorial",
-                           "author": "Microsoft via edX",
-                           "notes": [
-                              "Class Central"
-                           ]
-                        },
-                        {
-                           "url": "https://scrimba.com/learn/bootstrap4",
-                           "title": "Learn Bootstrap 4 for free",
-                           "author": "Neil Rowe",
-                           "notes": [
-                              "Scrimba"
-                           ]
-                        },
-                        {
-                           "url": "https://www.freecodecamp.org/news/want-to-learn-bootstrap-4-heres-our-free-10-part-course-happy-easter-35c004dc45a4/",
-                           "title": "Learn Bootstrap 4 in this free 10-part course",
-                           "author": "Per Harald Borgen",
-                           "notes": [
-                              "Freecodecamp"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/watch?v=iJKCj8uAHz8",
-                           "title": "Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course",
-                           "author": "Patrick Muriungi, freeCodeCamp",
-                           "notes": [
-                              "YouTube"
-                           ]
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/responsive-website-design",
-                           "title": "Rapid website design with Bootstrap",
-                           "author": "Laurence Svekis",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "C",
                      "entries": [
                         {
@@ -38828,7 +38751,84 @@
                            "author": "Wesbos"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Bootstrap",
+                           "entries": [
+                              {
+                                 "url": "https://www.udemy.com/course/bootstrap-4",
+                                 "title": "Bootstrap 4 Quick Start: Code Modern Responsive Websites",
+                                 "author": "Brad Hussey",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR",
+                                 "title": "Bootstrap 5 Tutorial for Beginners",
+                                 "author": "The Net Ninja"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V",
+                                 "title": "Bootstrap tutorial for beginners",
+                                 "author": "kudvenkat"
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/bootstrap-4-tutorials",
+                                 "title": "Complete Bootstrap 4 course - build 3 projects",
+                                 "author": "Igneus Technologies",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=ZfRn9VJzdGA",
+                                 "title": "Complete Bootstrap Crash Course | Bootstrap 4 Tutorial",
+                                 "author": "Julio Codes"
+                              },
+                              {
+                                 "url": "https://www.classcentral.com/course/edx-introduction-to-bootstrap-a-tutorial-3338",
+                                 "title": "Introduction to Bootstrap - A Tutorial",
+                                 "author": "Microsoft via edX",
+                                 "notes": [
+                                    "Class Central"
+                                 ]
+                              },
+                              {
+                                 "url": "https://scrimba.com/learn/bootstrap4",
+                                 "title": "Learn Bootstrap 4 for free",
+                                 "author": "Neil Rowe",
+                                 "notes": [
+                                    "Scrimba"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.freecodecamp.org/news/want-to-learn-bootstrap-4-heres-our-free-10-part-course-happy-easter-35c004dc45a4/",
+                                 "title": "Learn Bootstrap 4 in this free 10-part course",
+                                 "author": "Per Harald Borgen",
+                                 "notes": [
+                                    "Freecodecamp"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=iJKCj8uAHz8",
+                                 "title": "Learn Bootstrap 5 and SASS by Building a Portfolio Website - Full Course",
+                                 "author": "Patrick Muriungi, freeCodeCamp",
+                                 "notes": [
+                                    "YouTube"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/responsive-website-design",
+                                 "title": "Rapid website design with Bootstrap",
+                                 "author": "Laurence Svekis",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "iOS",
@@ -43304,6 +43304,27 @@
                      "subsections": []
                   },
                   {
+                     "section": "Bash and Shell",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLzOLSdbK1deOKmOiiv-o4wn7xUj6ZYzrM",
+                           "title": "Bash Basic Commands",
+                           "author": "Noob Coders"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLzOLSdbK1deNuVMOw0EkKGSsES-rPeONe",
+                           "title": "Bash Shell Scripting (NOOB)",
+                           "author": "Noob Coders"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL9A0tISr5Ow5nZSY8-ICNAyXHJKesl_XL",
+                           "title": "shell scripting complete tutorial in hindi",
+                           "author": "Cybersploit"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C",
                      "entries": [
                         {
@@ -43330,7 +43351,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "C++",
+                     "section": "<a id=\"cpp\">",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
@@ -43472,6 +43493,27 @@
                      "subsections": []
                   },
                   {
+                     "section": "Flutter",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLlFwzkUNmr94BF0KH7BYPL7DsZjhJRdTm",
+                           "title": "Complete Flutter Tutorial In Hindi By Desi Programmer",
+                           "author": "Desi Programmer"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLB97yPrFwo5g-XcPlfSXSOeeby23jVAcp",
+                           "title": "Flutter 3 tutorial in Hindi",
+                           "author": "CODERS NEVER QUIT"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLMkkZSS5OjPIwDyHHKVex6zr008U1-sWM",
+                           "title": "Flutter Tutorial For Beginners in Hindi",
+                           "author": "Geeks Rank"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Git and GitHub",
                      "entries": [
                         {
@@ -43511,7 +43553,43 @@
                            "author": "CodeWithHarry"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Bootstrap",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLjVLYmrlmjGciJ5_Ze6jDIfJpEeMYtsSe",
+                                 "title": "Bootstrap 3 Tutorial",
+                                 "author": "WsCube Tech"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLgPJX9sVy92wc38jA6JtvkA4l1xmJcKKH",
+                                 "title": "Bootstrap Tutorial for Beginners(Hindi)",
+                                 "author": "CS Geeks"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLdPwRNmUlk0k91-qAXTHFqMScNEuo8E5d",
+                                 "title": "Bootstrap Tutorial In Hindi",
+                                 "author": "CODE4EDUCATION"
+                              },
+                              {
+                                 "url": "https://youtube.com/watch?v=vpAJ0s5S2t0",
+                                 "title": "Bootstrap Tutorial In Hindi",
+                                 "author": "CodeWithHarry"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PL7akPJI4biSIQmT7fSHWoMRaNUcRbXHFN",
+                                 "title": "Bootstrap tutorial in Hindi | Best Course",
+                                 "author": "CodinGyaan"
+                              },
+                              {
+                                 "url": "https://youtube.com/watch?v=QE5oQh63gGE",
+                                 "title": "Bootstrap Tutorial in Hindi With 2 Projects for Beginners | Complete Bootstrap 5 Tutorial in Hindi",
+                                 "author": "Tech Gun"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Java",
@@ -43601,6 +43679,29 @@
                      ],
                      "subsections": [
                         {
+                           "section": "jQuery",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PL-6FWL4WVVWXmWe_HnPG0rBQmmJfGsTKS",
+                                 "title": "jQuery Tutorial for beginners in Hindi 2020",
+                                 "author": "CSEtutorials"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLvQjNLQMdagPRDnMQPMs5-vQL_IyAB0St",
+                                 "title": "jQuery Tutorial in Hindi",
+                                 "author": "Teaching Web"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLwGdqUZWnOp0X4dVwSsEd6dV49TLLCooI",
+                                 "title": "jQuery Tutorials in Hindi 2018",
+                                 "author": "Vinod Bahadur Thapa",
+                                 "notes": [
+                                    "Thapa Technical"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
                            "section": "Next.js",
                            "entries": [
                               {
@@ -43611,6 +43712,19 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp2rDbpfKAeUi9f8qZMS7_cv",
                                  "title": "NextJS Tutorial In Hindi",
+                                 "author": "Vinod Bahadur Thapa",
+                                 "notes": [
+                                    "Thapa Technical"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Node.js",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8",
+                                 "title": "NodeJS Tutorial in Hindi 2020",
                                  "author": "Vinod Bahadur Thapa",
                                  "notes": [
                                     "Thapa Technical"
