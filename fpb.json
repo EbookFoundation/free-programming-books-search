@@ -51316,6 +51316,14 @@
                            "url": "https://kubernetes.io/docs/reference/kubectl/cheatsheet/",
                            "title": "Handy Cheat Sheet for Kubernetes Beginners",
                            "author": "Kubernetes Documentation: kubectl Cheat Sheet"
+                        },
+                        {
+                           "url": "https://spacelift.io/blog/kubernetes-cheat-sheet",
+                           "title": "Kubernetes Cheat Sheet – 15 Kubectl Commands & Objects",
+                           "author": "Spacelift",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
