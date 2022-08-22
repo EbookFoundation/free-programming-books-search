@@ -46584,7 +46584,28 @@
                            "title": "Python 입문자용 초급"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Django",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG",
+                                 "title": "Python Django Web Framework",
+                                 "author": "생활코딩"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Flask",
+                           "entries": [
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLuHgQVnccGMClNOIuT3b3M4YZjxmult2y",
+                                 "title": "Python Flask Web Framework",
+                                 "author": "생활코딩"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Raspberry Pi",
