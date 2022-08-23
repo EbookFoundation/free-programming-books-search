@@ -2767,6 +2767,7 @@
                         {
                            "url": "http://librosweb.es/libro/css_avanzado",
                            "title": "CSS avanzado",
+                           "author": "Javier Eguíluz",
                            "notes": [
                               "HTML"
                            ],
@@ -2852,6 +2853,7 @@
                         {
                            "url": "https://ia601504.us.archive.org/21/items/DesarrollandoConJava8Poker/DesarrollandoConJava8Poker.pdf",
                            "title": "Desarrollando con Java 8: Poker",
+                           "author": "David Pérez Cabrera",
                            "notes": [
                               "PDF"
                            ]
@@ -8857,7 +8859,8 @@
                         },
                         {
                            "url": "https://fn7.hatenadiary.org/entry/20100203/1265207098",
-                           "title": "Objective-C 最速基礎文法マスター"
+                           "title": "Objective-C 最速基礎文法マスター",
+                           "author": "id:fn7"
                         }
                      ],
                      "subsections": []
@@ -18156,7 +18159,8 @@
                         },
                         {
                            "url": "https://cran.r-project.org/doc/manuals/R-intro.html",
-                           "title": "An Introduction to R"
+                           "title": "An Introduction to R",
+                           "author": "David M. Smith and William N. Venables"
                         },
                         {
                            "url": "https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf",
@@ -22335,6 +22339,7 @@
                         {
                            "url": "https://web.archive.org/web/20180710112954/http://weknowyourdreams.com/beej.html",
                            "title": "Ghidul Beej pentru Programarea in Retea - Folosind socket de internet",
+                           "author": "Brian \"Beej Jorgensen\" Hall, Dragos Moroianu",
                            "notes": [
                               "HTML"
                            ],
@@ -24732,6 +24737,7 @@
                         {
                            "url": "https://www.distributed-systems.net/index.php/books/ds3/",
                            "title": "Distributed Systems 3rd edition",
+                           "author": "Maarten van Steen, Andrew S. Tanenbaum",
                            "accessNotes": "email address required"
                         },
                         {
@@ -38352,6 +38358,7 @@
                         {
                            "url": "https://learn.unity.com/course/unity-beginner-fundamentals",
                            "title": "Unity Beginner Fundamentals",
+                           "author": "Pluralsight Company",
                            "notes": [
                               "Unity Learn"
                            ]
@@ -39958,7 +39965,8 @@
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLGED90Y_uL1KLpdRmVtwfpNoYCWU9RPkK",
-                           "title": "Introduction to Matlab in English"
+                           "title": "Introduction to Matlab in English",
+                           "author": "Mohammed Mohammed"
                         },
                         {
                            "url": "https://matlabacademy.mathworks.com",
@@ -40799,9 +40807,7 @@
                         {
                            "url": "https://www.hacker101.com/videos",
                            "title": "Ethical Hacking",
-                           "notes": [
-                              "Hacker101"
-                           ]
+                           "author": "Hacker101"
                         },
                         {
                            "url": "https://www.udacity.com/course/intro-to-information-security--ud459",
@@ -40824,8 +40830,9 @@
                         {
                            "url": "https://academy.ehacking.net/p/cyber-security-training-hacking-course",
                            "title": "The Complete Cyber Security & Hacking Course",
+                           "author": "INSEC-TECHS",
                            "notes": [
-                              "Insec Techs- EH Academy"
+                              "EH Academy"
                            ]
                         },
                         {
@@ -49446,6 +49453,7 @@
                         {
                            "url": "https://youtube.com/playlist?list=PLYmyc7wRFoQjxkHAzHh1UIdU7ZdjTQvQt",
                            "title": "JavaScript Tutorial in Sinhala",
+                           "author": "BestJobsLK",
                            "notes": [
                               "YouTube"
                            ]
@@ -49466,6 +49474,144 @@
                            ]
                         }
                      ]
+                  }
+               ]
+            },
+            {
+               "language": {
+                  "code": "ta",
+                  "name": "Tamil"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "Android",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PL4unWLKFsZfcGBja19mrwodNm6AyzZk2B",
+                           "title": "Android In Tamil 2019",
+                           "author": "Tutor Joe's Stanley"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Bash and Shell",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLgWpUXNR_WCeWiXmsYf5HUe7E4I29zTJr",
+                           "title": "Bash scripting in Tamil",
+                           "author": "Payilagam"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLBQXOA5OR76rq-sU8mNsUmj2Z9kQXz7oD",
+                           "title": "C Tutorial in Tamil",
+                           "author": "Tamil Pro Techniques"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLmjuBlzAWCzxTdRxTtMSj1NFe_GvFlvFw",
+                           "title": "Fundamentals of C programming in Tamil",
+                           "author": "Collectiva Knowledge Academy"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "<a id=\"cpp\">",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLWbtDrDnmTHBPD-Dt5BJi7iP11x6UvgU0",
+                           "title": "C++ Programming in Tamil",
+                           "author": "CS in Tamil"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PL73Obo20O_7gGv4cLEOoqTF8_m8rPKyQh",
+                           "title": "CSS in Tamil",
+                           "author": "CyberDude Networks Pvt. Ltd."
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL73Obo20O_7gcXt0cfQA14jey8zavtKAq",
+                           "title": "HTML Course in Tamil",
+                           "author": "CyberDude Networks Pvt. Ltd."
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLpYn3LR7eQI2trAr1z1lmvYGAQfsbllY5",
+                           "title": "Learn HTML in Tamil | HTML Tutorials in Tamil | Beginner to Advanced",
+                           "author": "Tamil Developer"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Java",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLYM2_EX_xVvVXm005Gt5unmqW6GGMjHxa",
+                           "title": "Learn Java in Tamil",
+                           "author": "Logic First Tamil"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "JavaScript",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLpYn3LR7eQI3hjh129Bkqkw7onut28hTK",
+                           "title": "Javascript Full Course in Tamil - in Depth Javascript Tutorials in Tamil",
+                           "author": "Tamil Developer"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa",
+                           "title": "JavaScript in Tamil",
+                           "author": "CyberDude Networks Pvt. Ltd."
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "PHP",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PL4unWLKFsZfcq_D-sEy0pR4Sl_yipy6Jt",
+                           "title": "PHP for beginners In Tamil",
+                           "author": "Tutor Joe's Stanley"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL4unWLKFsZfdrMitLmm8N-idlYQkSCvT9",
+                           "title": "PHP Tutorial In Tamil",
+                           "author": "Tutor Joe's Stanley"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Python",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLA2UBjeRwle3OLO3qmXTbmCvuTlqhHRVb",
+                           "title": "Python in Tamil for Beginners",
+                           "author": "GURUKULA"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLIFRUdRwOM0_hcLruKbsHWnU5P2uLBgsp",
+                           "title": "Python Tutorial in Tamil",
+                           "author": "SANTRA TECHSPOT"
+                        }
+                     ],
+                     "subsections": []
                   }
                ]
             },
@@ -51950,7 +52096,8 @@
                         },
                         {
                            "url": "https://www.kdnuggets.com/2021/05/essential-linear-algebra-data-science-machine-learning.html",
-                           "title": "Essential Linear Algebra for Data Science and Machine Learning"
+                           "title": "Essential Linear Algebra for Data Science and Machine Learning",
+                           "author": "KDnuggets"
                         },
                         {
                            "url": "https://www.kdnuggets.com/2021/06/top-10-data-science-projects-beginners.html",
