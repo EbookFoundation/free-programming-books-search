@@ -18145,6 +18145,15 @@
                               "HTML, PDF, ePub",
                               ":construction: *in process*"
                            ]
+                        },
+                        {
+                           "url": "https://www.qt.io/product/qt6/qml-book/preface-preface",
+                           "title": "Qt6 Book",
+                           "author": "Johan Thelin, Jürgen Bocklage-Ryannel, Cyril Lorquet",
+                           "notes": [
+                              "HTML, PDF",
+                              ":construction: *in process*"
+                           ]
                         }
                      ],
                      "subsections": []
