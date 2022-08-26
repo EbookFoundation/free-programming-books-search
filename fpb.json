@@ -2631,20 +2631,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Coffeescript",
-                     "entries": [
-                        {
-                           "url": "https://leanpub.com/coffeescript",
-                           "title": "Coffeescript, un pequeño gran libro",
-                           "author": "Javi Jiménez",
-                           "notes": [
-                              "Leanpub cuenta requerida"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Ensamblador",
                      "entries": [
                         {
@@ -3107,26 +3093,11 @@
                            "section": "React",
                            "entries": [
                               {
-                                 "url": "https://leanpub.com/react-redux",
+                                 "url": "https://leanpub.com/react-redux/read",
                                  "title": "Desarrollo de Aplicaciones Web con React.js y Redux.js",
                                  "author": "Sergio Xalambrí",
                                  "notes": [
-                                    "PDF, EPUB, MOBI; Leanpub cuenta requerida"
-                                 ]
-                              },
-                              {
-                                 "url": "https://leanpub.com/descubre-react",
-                                 "title": "Descubre React",
-                                 "author": "Javi Jiménez",
-                                 "notes": [
-                                    "HTML, PDF, EPUB, MOBI; Leanpub cuenta requerida"
-                                 ]
-                              },
-                              {
-                                 "url": "https://leanpub.com/the-road-to-learn-react-spanish",
-                                 "title": "El Camino para Aprender React",
-                                 "notes": [
-                                    "PDF, EPUB, MOBI; Leanpub cuenta requerida"
+                                    "HTML"
                                  ]
                               },
                               {
@@ -3679,19 +3650,6 @@
                            "title": "Control de versiones con Subversion",
                            "notes": [
                               "HTML"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "SVG",
-                     "entries": [
-                        {
-                           "url": "https://leanpub.com/scalable/",
-                           "title": "Scalable. Un libro sobre SVG",
-                           "notes": [
-                              "Leanpub cuenta requerida"
                            ]
                         }
                      ],
@@ -5835,11 +5793,6 @@
                            "url": "https://github.com/kelasterbuka/CPP_dasar-dasar-programming",
                            "title": "Belajar C++ Dasar Bahasa Indonesia",
                            "author": "Kelas Terbuka"
-                        },
-                        {
-                           "url": "https://leanpub.com/koding-cpp-qt",
-                           "title": "Koding C++ Dengan Qt",
-                           "accessNotes": "Membutuhkan akun Leanpub atau email yang valid"
                         }
                      ],
                      "subsections": []
@@ -5921,10 +5874,6 @@
                            "title": "Belajar Git untuk Pemula"
                         },
                         {
-                           "url": "https://leanpub.com/kontrol-versi-git",
-                           "title": "Kontrol Versi dengan Git"
-                        },
-                        {
                            "url": "https://git-scm.com/book/id/v2",
                            "title": "Pro Git 2nd Edition"
                         }
@@ -5968,11 +5917,6 @@
                         {
                            "url": "https://www.malasngoding.com/download-ebook-belajar-html-dan-css-dasar-gratis/",
                            "title": "Ebook Belajar HTML Dan CSS Dasar"
-                        },
-                        {
-                           "url": "https://leanpub.com/html-css--buat-webistemu-sendiri",
-                           "title": "HTML & CSS: Buat Websitemu Sendiri ",
-                           "accessNotes": "Membutuhkan akun Leanpub atau email yang valid"
                         },
                         {
                            "url": "https://www.petanikode.com/tutorial/css/",
@@ -6094,8 +6038,11 @@
                      "section": "Pemrograman Fungsional",
                      "entries": [
                         {
-                           "url": "https://leanpub.com/fpmortals-id",
-                           "title": "Pemrograman Fungsional untuk Rakyat Jelata dengan Scalaz"
+                           "url": "https://leanpub.com/fpmortals-id/read",
+                           "title": "Pemrograman Fungsional untuk Rakyat Jelata dengan Scalaz",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -6260,13 +6207,7 @@
                   },
                   {
                      "section": "TypeScript",
-                     "entries": [
-                        {
-                           "url": "https://leanpub.com/belajar-typescript",
-                           "title": "Belajar TypeScript",
-                           "accessNotes": "Membutuhkan akun Leanpub atau email yang valid"
-                        }
-                     ],
+                     "entries": [],
                      "subsections": [
                         {
                            "section": "Angular",
@@ -11351,12 +11292,6 @@
                            ]
                         },
                         {
-                           "url": "https://leanpub.com/cstips",
-                           "title": "C# Tips",
-                           "author": "Jason Roberts",
-                           "accessNotes": "Leanpub account or valid email requested"
-                        },
-                        {
                            "url": "https://developer.xamarin.com/guides/xamarin-forms/creating-mobile-apps-xamarin-forms/",
                            "title": "Creating Mobile Apps with Xamarin.Forms C#",
                            "author": "Charles Petzold"
@@ -11880,8 +11815,7 @@
                         {
                            "url": "https://leanpub.com/coffeescript-ristretto/read",
                            "title": "CoffeeScript Ristretto",
-                           "author": "Reginald Braithwaite",
-                           "accessNotes": "Leanpub account or valid email requested"
+                           "author": "Reginald Braithwaite"
                         },
                         {
                            "url": "https://alchaplinsky.github.io/hard-rock-coffeescript/",
@@ -12386,17 +12320,6 @@
                            "notes": [
                               "HTML"
                            ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "ESP8266",
-                     "entries": [
-                        {
-                           "url": "https://leanpub.com/ESP8266_ESP32",
-                           "title": "Kolban's book on the ESP32 & ESP8266",
-                           "accessNotes": "Leanpub account or valid email requested"
                         }
                      ],
                      "subsections": []
@@ -13432,18 +13355,6 @@
                      ]
                   },
                   {
-                     "section": "Idris",
-                     "entries": [
-                        {
-                           "url": "https://leanpub.com/gidti",
-                           "title": "Gentle Introduction to Dependent Types with Idris",
-                           "author": "Boro Sitnikovski",
-                           "accessNotes": "Leanpub account or valid email requested"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Icon",
                      "entries": [
                         {
@@ -13915,12 +13826,6 @@
                            "section": "Java Reporting",
                            "entries": [
                               {
-                                 "url": "https://leanpub.com/itext_pdfabc",
-                                 "title": "The ABC of PDF with iText: PDF Syntax essentials",
-                                 "author": "Bruno Lowagie",
-                                 "accessNotes": "Leanpub account or valid email requested"
-                              },
-                              {
                                  "url": "http://jasperreports.sourceforge.net/JasperReports-Ultimate-Guide-3.pdf",
                                  "title": "The JasperReports Ultimate Guide, Third Edition",
                                  "notes": [
@@ -14307,14 +14212,6 @@
                            ]
                         },
                         {
-                           "url": "https://leanpub.com/marionetteexpose",
-                           "title": "Marionette Exposé: Learn to write modular Javascript applications using Backbone Marionette and RequireJS/AMD",
-                           "author": "Jack Killilea",
-                           "notes": [
-                              "HTML, PDF, EPUB, MOBI; Leanpub account or valid email requested"
-                           ]
-                        },
-                        {
                            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
                            "title": "Mozilla Developer Network's JavaScript Guide",
                            "author": "Mozilla Developer Network contributors",
@@ -14539,8 +14436,9 @@
                                  "url": "https://angularjs-emberjs-compare.bguiz.com",
                                  "title": "AngularJS vs EmberJs",
                                  "author": "Brendan Graetz",
-                                 "notes": [],
-                                 "manualReviewRequired": true
+                                 "notes": [
+                                    "HTML"
+                                 ]
                               },
                               {
                                  "url": "http://ngokevin.com/blog/angular-1/",
@@ -14560,28 +14458,11 @@
                            ]
                         },
                         {
-                           "section": "Aurelia",
-                           "entries": [
-                              {
-                                 "url": "https://leanpub.com/beginning-of-aurelia",
-                                 "title": "Beginning Aurelia",
-                                 "author": "behzad",
-                                 "accessNotes": "Leanpub account or valid email requested"
-                              }
-                           ]
-                        },
-                        {
                            "section": "Backbone.js",
                            "entries": [
                               {
                                  "url": "http://pragmatic-backbone.com",
                                  "title": "A pragmatic guide to Backbone.js apps"
-                              },
-                              {
-                                 "url": "https://leanpub.com/backbonetutorials",
-                                 "title": "Backbone Tutorials: Beginner, Intermediate and Advanced",
-                                 "author": "Thomas Davis",
-                                 "accessNotes": "Leanpub account or valid email requested"
                               },
                               {
                                  "url": "https://cdnjs.com/libraries/backbone.js/tutorials/",
@@ -14716,8 +14597,9 @@
                                  "url": "https://angularjs-emberjs-compare.bguiz.com",
                                  "title": "AngularJs vs EmberJs",
                                  "author": "Brendan Graetz",
-                                 "notes": [],
-                                 "manualReviewRequired": true
+                                 "notes": [
+                                    "HTML"
+                                 ]
                               },
                               {
                                  "url": "https://github.com/DockYard/styleguides/blob/master/engineering/ember.md",
@@ -14899,15 +14781,6 @@
                                  "title": "Mixu's Node Book"
                               },
                               {
-                                 "url": "https://leanpub.com/modulepatterns",
-                                 "title": "Module Patterns",
-                                 "author": "Pedro Teixeira",
-                                 "notes": [
-                                    "HTML, PDF, EPUB, Kindle"
-                                 ],
-                                 "accessNotes": "Leanpub account or valid email requested"
-                              },
-                              {
                                  "url": "https://nodejs.org/en/docs/",
                                  "title": "Node Documentation"
                               },
@@ -15039,11 +14912,6 @@
                            "section": "React Native",
                            "entries": [
                               {
-                                 "url": "https://leanpub.com/programming-react-native",
-                                 "title": "Programming React Native",
-                                 "accessNotes": "Leanpub account or valid email requested"
-                              },
-                              {
                                  "url": "http://browniefed.com/react-native-animation-book/",
                                  "title": "React Native Animation Book"
                               },
@@ -15085,10 +14953,12 @@
                                  "title": "SoundCloud Application in React + Redux"
                               },
                               {
-                                 "url": "https://leanpub.com/redux-book",
+                                 "url": "https://leanpub.com/redux-book/read",
                                  "title": "The Complete Redux Book",
                                  "author": "Boris Dinkevich and Ilya Gelman",
-                                 "accessNotes": "Leanpub account or valid email requested"
+                                 "notes": [
+                                    "HTML"
+                                 ]
                               }
                            ]
                         },
@@ -15601,15 +15471,6 @@
                            "author": "D. Hoyte"
                         },
                         {
-                           "url": "https://leanpub.com/lispweb",
-                           "title": "Lisp for the Web",
-                           "author": "Adam Tornhill",
-                           "notes": [
-                              "PDF, EPUB, MOBI"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
-                        },
-                        {
                            "url": "https://leanpub.com/lisphackers/read",
                            "title": "Lisp Hackers: Interviews with 100x More Productive Programmers",
                            "author": "Vsevolod Dyomkin"
@@ -15625,13 +15486,12 @@
                            "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
-                           "url": "https://leanpub.com/lovinglisp",
+                           "url": "https://leanpub.com/lovinglisp/read",
                            "title": "Loving Common Lisp, or the Savvy Programmer's Secret Weapon",
                            "author": "Mark Watson",
                            "notes": [
-                              "PDF, EPUB, MOBI"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://www.paulgraham.com/onlisp.html",
@@ -16749,11 +16609,6 @@
                                  ]
                               },
                               {
-                                 "url": "https://leanpub.com/laravel-5",
-                                 "title": "Laravel 5.x Official Documentation. Synced Daily",
-                                 "accessNotes": "Leanpub account or valid email requested"
-                              },
-                              {
                                  "url": "http://www.laravelbestpractices.com",
                                  "title": "Laravel Best Practices"
                               },
@@ -16771,12 +16626,6 @@
                                  "url": "https://daylerees.com/codesmart/",
                                  "title": "Laravel: Code Smart",
                                  "author": "Dayle Rees"
-                              },
-                              {
-                                 "url": "https://leanpub.com/laravelcollectionsunraveled",
-                                 "title": "Laravel Collections Unraveled",
-                                 "author": "Jeffrey Madsen",
-                                 "accessNotes": "Leanpub account or valid email requested"
                               }
                            ]
                         },
@@ -16879,40 +16728,36 @@
                      "section": "PowerShell",
                      "entries": [
                         {
-                           "url": "https://leanpub.com/aunixpersonsguidetopowershell",
+                           "url": "https://leanpub.com/aunixpersonsguidetopowershell/read",
                            "title": "A Unix Person's Guide to PowerShell",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/creatinghtmlreportsinwindowspowershell",
+                           "url": "https://leanpub.com/creatinghtmlreportsinwindowspowershell/read",
                            "title": "Creating HTML Reports in PowerShell",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/devopstheopsperspective",
+                           "url": "https://leanpub.com/devopstheopsperspective/read",
                            "title": "DevOps: The Ops Perspective",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/ditchexcelmakinghistoricalandtrendreportsinpowershell",
+                           "url": "https://leanpub.com/ditchexcelmakinghistoricalandtrendreportsinpowershell/read",
                            "title": "Ditch Excel: Making Historical & Trend Reports in PowerShell",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://ravichaganti.com/ebooks/AlaymansguidetoPowerShell2remotingv2.pdf",
@@ -16967,76 +16812,60 @@
                            ]
                         },
                         {
-                           "url": "https://leanpub.com/powershelltips",
-                           "title": "PowerShell Tips to Write By",
-                           "author": "Adam Bertram",
-                           "accessNotes": "Leanpub account or valid email requested",
-                           "notes": [
-                              ":construction: *in process*"
-                           ]
-                        },
-                        {
-                           "url": "https://leanpub.com/secretsofpowershellremoting",
+                           "url": "https://leanpub.com/secretsofpowershellremoting/read",
                            "title": "Secrets of PowerShell Remoting",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/thebigbookofpowershellerrorhandling",
+                           "url": "https://leanpub.com/thebigbookofpowershellerrorhandling/read",
                            "title": "The Big Book of PowerShell Error Handling",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/thebigbookofpowershellgotchas",
+                           "url": "https://leanpub.com/thebigbookofpowershellgotchas/read",
                            "title": "The Big Book of PowerShell Gotchas",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/themonadmanifestoannotated",
+                           "url": "https://leanpub.com/themonadmanifestoannotated/read",
                            "title": "The Monad Manifesto - Annotated",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/windowspowershellnetworkingguide",
+                           "url": "https://leanpub.com/windowspowershellnetworkingguide/read",
                            "title": "The PowerShell + DevOps Global Summit Manual for Summiteers",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/whypowershell",
+                           "url": "https://leanpub.com/whypowershell/read",
                            "title": "Why PowerShell?",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://leanpub.com/windowspowershellnetworkingguide",
+                           "url": "https://leanpub.com/windowspowershellnetworkingguide/read",
                            "title": "Windows PowerShell Networking Guide",
                            "author": "The DevOps Collective, Inc.",
                            "notes": [
-                              "PDF, ePub, MOBI, HTML"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -17422,13 +17251,12 @@
                            ]
                         },
                         {
-                           "url": "https://leanpub.com/insidethepythonvirtualmachine",
+                           "url": "https://leanpub.com/insidethepythonvirtualmachine/read",
                            "title": "Inside The Python Virtual Machine",
                            "author": "Obi Ike-Nwosu",
                            "notes": [
-                              "HTML, PDF, EPUB, Kindle"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://book.pythontips.com/en/latest/",
@@ -18195,21 +18023,9 @@
                            "author": "Rafael A. Irizarry"
                         },
                         {
-                           "url": "https://leanpub.com/dataanalysisforthelifesciences",
-                           "title": "Data Analysis for the Life Sciences",
-                           "author": "Rafael A Irizarry, Michael I Love",
-                           "accessNotes": "Leanpub account or valid email requested"
-                        },
-                        {
                            "url": "https://csgillespie.github.io/efficientR/",
                            "title": "Efficient R programming",
                            "author": "Colin Gillespie, Robin Lovelace"
-                        },
-                        {
-                           "url": "https://leanpub.com/exdata",
-                           "title": "Exploratory Data Analysis with R",
-                           "author": "Roger D. Peng",
-                           "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
                            "url": "https://otexts.com/fpp3/",
@@ -18288,12 +18104,6 @@
                            "url": "https://en.wikibooks.org/wiki/R_Programming",
                            "title": "R Programming",
                            "author": "Wikibooks"
-                        },
-                        {
-                           "url": "https://leanpub.com/rprogramming",
-                           "title": "R Programming for Data Science",
-                           "author": "Roger D. Peng",
-                           "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
                            "url": "https://www.syncfusion.com/resources/techportal/ebooks/rsuccinctly",
@@ -18662,15 +18472,6 @@
                                  "url": "https://leanpub.com/combinators/read",
                                  "title": "Kestrels, Quirky Birds, and Hopeless Egocentricity",
                                  "author": "Reg Braithwaite"
-                              },
-                              {
-                                 "url": "https://leanpub.com/learnrubyonrails",
-                                 "title": "Learn Ruby on Rails: Book One",
-                                 "author": "Daniel Kehoe",
-                                 "notes": [
-                                    "PDF, EPUB"
-                                 ],
-                                 "accessNotes": "Leanpub account or valid email requested"
                               },
                               {
                                  "url": "https://web.archive.org/web/20190319201525/http://objectsonrails.com/",
@@ -20042,12 +19843,6 @@
                            "author": "Steve Losh"
                         },
                         {
-                           "url": "https://leanpub.com/VimLikeAPro",
-                           "title": "Use Vim Like A Pro",
-                           "author": "Tim Ottinger",
-                           "accessNotes": "Leanpub account or valid email requested"
-                        },
-                        {
                            "url": "http://www.truth.sk/vim/vimbook-OPL.pdf",
                            "title": "Vi Improved -- Vim",
                            "author": "Steve Oualline",
@@ -21381,12 +21176,6 @@
                            "url": "https://livro.descomplicandodocker.com.br",
                            "title": "Descomplicando o Docker",
                            "author": "Jeferson Fernando"
-                        },
-                        {
-                           "url": "https://leanpub.com/dockerparadesenvolvedores",
-                           "title": "Docker para desenvolvedores",
-                           "author": "Rafael Gomes",
-                           "accessNotes": "necessário conta no Leanpub ou e-mail válido"
                         }
                      ],
                      "subsections": []
@@ -21447,12 +21236,6 @@
                               {
                                  "url": "https://ci.mrprompt.com.br",
                                  "title": "CI - Integração Contínua Sem Desculpa"
-                              },
-                              {
-                                 "url": "https://leanpub.com/deployemprodparadevs",
-                                 "title": "Deploy em produção para desenvolvedores",
-                                 "author": "Rafael Gomes",
-                                 "accessNotes": "necessário conta no Leanpub ou e-mail válido"
                               },
                               {
                                  "url": "https://engsoftmoderna.info",
@@ -21571,15 +21354,6 @@
                         {
                            "url": "http://pt-br.learnlayout.com",
                            "title": "Estruturando o HTML com CSS"
-                        },
-                        {
-                           "url": "https://leanpub.com/warau",
-                           "title": "Websites Atendendo a Requisitos de Acessibilidade e Usabilidade",
-                           "author": "Leonelo Dell Anhol Almeida, Maria Cecília Calani Baranauskas, Vagner Figueredo de Santana",
-                           "notes": [
-                              "PDF"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
                         }
                      ],
                      "subsections": []
@@ -21657,8 +21431,11 @@
                            "title": "Guia JavaScript"
                         },
                         {
-                           "url": "https://leanpub.com/guiarapidofirefoxos",
-                           "title": "Guia Rápido de Desenvolvimento para Firefox OS"
+                           "url": "https://leanpub.com/guiarapidofirefoxos/read",
+                           "title": "Guia Rápido de Desenvolvimento para Firefox OS",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://jstherightway.org/pt-br/",
@@ -21803,10 +21580,12 @@
                                  "author": "Caio Ribeiro Pereira"
                               },
                               {
-                                 "url": "https://leanpub.com/construindo-apis-testaveis-com-nodejs/",
+                                 "url": "https://leanpub.com/construindo-apis-testaveis-com-nodejs/read",
                                  "title": "Construindo APIs testáveis com Node.js",
                                  "author": "Waldemar Neto",
-                                 "accessNotes": "necessário conta no Leanpub ou e-mail válido"
+                                 "notes": [
+                                    "HTML"
+                                 ]
                               },
                               {
                                  "url": "https://udgwebdev.github.io/nodejs/",
@@ -21824,11 +21603,6 @@
                               {
                                  "url": "http://tableless.com.br/react-javascript-reativo/",
                                  "title": "React: JavaScript reativo"
-                              },
-                              {
-                                 "url": "https://leanpub.com/the-road-to-learn-react-portuguese",
-                                 "title": "The Road to Learn React",
-                                 "accessNotes": "necessário conta no Leanpub ou e-mail válido"
                               }
                            ]
                         },
@@ -23272,15 +23046,6 @@
                               {
                                  "url": "https://learn-reactjs.ru/home",
                                  "title": "Перевод документации"
-                              },
-                              {
-                                 "url": "https://leanpub.com/the-road-to-learn-react-russian",
-                                 "title": "Путь к изучению React",
-                                 "author": "Алексей Пыльцын",
-                                 "notes": [
-                                    "PDF, ePub, MOBI"
-                                 ],
-                                 "accessNotes": "Требуется аккаунт на Leanpub или действительный адрес электронной почты"
                               },
                               {
                                  "url": "https://metanit.com/web/react",
@@ -25006,15 +24771,6 @@
                               "HTML, PDF, EPUB, Kindle"
                            ],
                            "accessNotes": "Leanpub account or valid email requested"
-                        },
-                        {
-                           "url": "https://leanpub.com/firstyearincode",
-                           "title": "Your First Year in Code",
-                           "author": "Isaac Lyman",
-                           "notes": [
-                              "HTML, PDF, EPUB, Kindle"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
                         }
                      ],
                      "subsections": []
@@ -25200,12 +24956,6 @@
                            "url": "https://docs.google.com/file/d/0B6iefdnF22XQeVZDSkxjZ0Z5VUE/edit?pli=1",
                            "title": "Introduction to Data Science",
                            "author": "Jeffrey Stanton"
-                        },
-                        {
-                           "url": "https://leanpub.com/datasciencebook",
-                           "title": "Introduction to Data Science",
-                           "author": "Rafael A Irizarry",
-                           "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
                            "url": "http://infolab.stanford.edu/~ullman/mmds/book.pdf",
@@ -26455,15 +26205,6 @@
                            "author": "Leon Q. Brin"
                         },
                         {
-                           "url": "https://leanpub.com/datastyle",
-                           "title": "The Elements of Data Analytic Style",
-                           "author": "Jeff Leek",
-                           "notes": [
-                              "HTML, PDF, EPUB, Kindle"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
-                        },
-                        {
                            "url": "https://builds.openlogicproject.org/open-logic-complete.pdf",
                            "title": "The Open Logic Text",
                            "author": "Open Logic Project",
@@ -26547,11 +26288,6 @@
                         {
                            "url": "https://www.oreilly.com/radar/2016-software-development-salary-survey-report/",
                            "title": "2016 Software Development Salary Survey"
-                        },
-                        {
-                           "url": "https://leanpub.com/97-Things-Every-Programmer-Should-Know-Extended",
-                           "title": "97 Things Every Programmer Should Know - Extended",
-                           "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
                            "url": "http://ocaml-book.com/s/popbook.pdf",
@@ -26801,9 +26537,11 @@
                            "author": "Bret Victor"
                         },
                         {
-                           "url": "https://leanpub.com/mobiledevelopersguide",
+                           "url": "https://leanpub.com/mobiledevelopersguide/read",
                            "title": "Mobile Developer's Guide to the Galaxy",
-                           "accessNotes": "Leanpub account or valid email requested"
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://www.wisdom.weizmann.ac.il/~harel/reactive_systems.html",
@@ -27506,12 +27244,6 @@
                            "url": "http://www.codeproject.com/Articles/9099/The-Minute-Regex-Tutorial",
                            "title": "The 30 Minute Regex Tutorial",
                            "author": "Jim Hollenhorst"
-                        },
-                        {
-                           "url": "https://leanpub.com/bastards-regexes",
-                           "title": "The Bastards Book of Regular Expressions: Finding Patterns in Everyday Text",
-                           "author": "Dan Nguyen",
-                           "accessNotes": "Leanpub account or valid email requested"
                         }
                      ],
                      "subsections": []
@@ -27653,13 +27385,12 @@
                      "section": "Software Architecture",
                      "entries": [
                         {
-                           "url": "https://leanpub.com/aprimerondesignpatterns",
+                           "url": "https://leanpub.com/aprimerondesignpatterns/read",
                            "title": "A Primer on Design Patterns",
                            "author": "Rahul Batra",
                            "notes": [
-                              "HTML, PDF, EPUB, Kindle"
-                           ],
-                           "accessNotes": "Leanpub account or valid email requested"
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://launchschool.com/books/agile_planning",
@@ -27712,13 +27443,6 @@
                            "author": "Eric Evans"
                         },
                         {
-                           "url": "https://dddeurope.com/15years/",
-                           "title": "Domain-Driven Design: The First 15 Years. Essays from the DDD community",
-                           "author": "Domain-Driven Design Europe",
-                           "notes": [],
-                           "manualReviewRequired": true
-                        },
-                        {
                            "url": "http://dslbook.org",
                            "title": "DSL Engineering: Designing, Implementing and Using Domain-Specific Languages",
                            "author": "Markus Voelter"
@@ -27748,12 +27472,6 @@
                         {
                            "url": "http://www.infoq.com/minibooks/kanban-scrum-minibook",
                            "title": "Kanban and Scrum - making the most of both"
-                        },
-                        {
-                           "url": "https://leanpub.com/kanbanforskeptics",
-                           "title": "Kanban for skeptics",
-                           "author": "Nick Oostvogels",
-                           "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
                            "url": "http://web.archive.org/web/20210205164251/https://www.oreilly.com/programming/free/files/microservices-antipatterns-and-pitfalls.pdf",
@@ -28021,12 +27739,20 @@
                            ]
                         },
                         {
-                           "url": "https://mitpress.mit.edu/sicp/",
-                           "title": "Structure and Interpretation of Computer Programs"
+                           "url": "https://web.mit.edu/6.001/6.037/sicp.pdf",
+                           "title": "Structure and Interpretation of Computer Programs",
+                           "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
-                           "url": "http://sarabander.github.io/sicp/html/index.xhtml",
-                           "title": "Structure and Interpretation of Computer Programs"
+                           "url": "https://sarabander.github.io/sicp/html/index.xhtml",
+                           "title": "Structure and Interpretation of Computer Programs",
+                           "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://self.gutenberg.org/wplbn0002828847-the-black-art-of-programming-by-mcilroy-mark.aspx?",
@@ -28853,16 +28579,6 @@
                         {
                            "url": "https://sahin.gitbook.io/asp-net-core-el-kitab",
                            "title": "ASP.NET Core El Kitabı"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "PHP",
-                     "entries": [
-                        {
-                           "url": "https://www.leanpub.com/laravel4-tr",
-                           "title": "PHP - Laravel 4 Türkçe Dokumantasyon"
                         }
                      ],
                      "subsections": []
