@@ -3834,7 +3834,7 @@
                            ]
                         },
                         {
-                           "section": "Vue",
+                           "section": "Vue.js",
                            "entries": [
                               {
                                  "url": "https://www.cs.tlu.ee/teemaderegister/get_file.php?id=715",
@@ -5982,7 +5982,22 @@
                            "accessNotes": "Dalam Proses"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Vue.js",
+                           "entries": [
+                              {
+                                 "url": "https://variancode.com/belajar-vue-js/",
+                                 "title": "Belajar Vue.js",
+                                 "author": "Varian Hermianto"
+                              },
+                              {
+                                 "url": "https://github.com/vuejs-id/docs",
+                                 "title": "Dokumentasi Vue Bahasa Indonesia"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "MySQL",
@@ -6244,21 +6259,6 @@
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "Vue",
-                     "entries": [
-                        {
-                           "url": "https://variancode.com/belajar-vue-js/",
-                           "title": "Belajar Vue.js",
-                           "author": "Varian Hermianto"
-                        },
-                        {
-                           "url": "https://github.com/vuejs-id/docs",
-                           "title": "Dokumentasi Vue Bahasa Indonesia"
-                        }
-                     ],
-                     "subsections": []
                   }
                ]
             },
@@ -16002,6 +16002,23 @@
                            "url": "https://www.syncfusion.com/ebooks/visual-studio-2019-succinctly",
                            "title": "Visual Studio 2019 Succinctly",
                            "author": "Alessandro Del Sole"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "NewSQL",
+                     "entries": [
+                        {
+                           "url": "https://docs.pingcap.com/tidb/stable",
+                           "title": "TiDB Introduction",
+                           "author": "PingCAP",
+                           "otherLinks": [
+                              {
+                                 "title": "PDF",
+                                 "url": "https://download.pingcap.org/tidb-stable-en-manual.pdf"
+                              }
+                           ]
                         }
                      ],
                      "subsections": []
@@ -36292,7 +36309,7 @@
                            ]
                         },
                         {
-                           "section": "Vue",
+                           "section": "Vue.js",
                            "entries": [
                               {
                                  "url": "https://www.youtube.com/watch?v=iIvN7upsLoA",
@@ -44478,7 +44495,7 @@
                            ]
                         },
                         {
-                           "section": "Vue",
+                           "section": "Vue.js",
                            "entries": [
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLCZlgfAG0GXCFeOD_wBc9GrYF9pA8loLQ",
@@ -45371,7 +45388,18 @@
                            "author": "F. Camuso"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Vue.js",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdUH44fvkzVxy9waP23I_bE",
+                                 "title": "Vue 2.x (corso base)",
+                                 "author": "F. Camuso"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Machine Learning",
@@ -45564,18 +45592,7 @@
                            "author": "F. Corno e S. Di Carlo, Politecnico di Torino"
                         }
                      ],
-                     "subsections": [
-                        {
-                           "section": "Vue",
-                           "entries": [
-                              {
-                                 "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdUH44fvkzVxy9waP23I_bE",
-                                 "title": "Vue 2.x (corso base)",
-                                 "author": "F. Camuso"
-                              }
-                           ]
-                        }
-                     ]
+                     "subsections": []
                   },
                   {
                      "section": "Workshop",
@@ -46960,7 +46977,7 @@
                      ],
                      "subsections": [
                         {
-                           "section": "Vue",
+                           "section": "Vue.js",
                            "entries": [
                               {
                                  "url": "https://frontandback.pl/tags/kurs-vue-w-praktyce/",
@@ -47673,7 +47690,45 @@
                            "author": "Codecasts"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Vue.js",
+                           "entries": [
+                              {
+                                 "url": "https://www.udemy.com/course/aplicacao-desktop-com-javascript-electron-js-e-vue-js/",
+                                 "title": "Aplicação Desktop com JavaScript, Electron JS e Vue JS",
+                                 "author": "Leonardo Moura Leitao, Cod3r",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://igorhalfeld.teachable.com/p/treinamento-completo-e-gratuito-de-vue-js-3-do-iniciante-ao-avancado",
+                                 "title": "Curso completo e gratuito de Vue.js 3 do iniciante ao avançado",
+                                 "author": "Igor Halfeld, Vue.js Brasil",
+                                 "notes": [
+                                    "Teachable"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/introducao-ao-vue-js/",
+                                 "title": "Introdução ao Vue JS",
+                                 "author": "Rafael Rend",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://evolutio.io/curso/minicurso_vuejs",
+                                 "title": "Minicurso: Vue.js - O basicão",
+                                 "author": "Tony Lâmpada",
+                                 "notes": [
+                                    "Evolutio"
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Jekyll",
@@ -48365,44 +48420,6 @@
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "Vue.js",
-                     "entries": [
-                        {
-                           "url": "https://www.udemy.com/course/aplicacao-desktop-com-javascript-electron-js-e-vue-js/",
-                           "title": "Aplicação Desktop com JavaScript, Electron JS e Vue JS",
-                           "author": "Leonardo Moura Leitao, Cod3r",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://igorhalfeld.teachable.com/p/treinamento-completo-e-gratuito-de-vue-js-3-do-iniciante-ao-avancado",
-                           "title": "Curso completo e gratuito de Vue.js 3 do iniciante ao avançado",
-                           "author": "Igor Halfeld, Vue.js Brasil",
-                           "notes": [
-                              "Teachable"
-                           ]
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/introducao-ao-vue-js/",
-                           "title": "Introdução ao Vue JS",
-                           "author": "Rafael Rend",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://evolutio.io/curso/minicurso_vuejs",
-                           "title": "Minicurso: Vue.js - O basicão",
-                           "author": "Tony Lâmpada",
-                           "notes": [
-                              "Evolutio"
-                           ]
-                        }
-                     ],
-                     "subsections": []
                   },
                   {
                      "section": "WordPress",
@@ -50112,6 +50129,29 @@
                                  "author": "TEDU"
                               }
                            ]
+                        },
+                        {
+                           "section": "Vue.js",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=j97QtHf0CHY",
+                                 "title": "Học Vue js trong một video duy nhất",
+                                 "author": "Lập trình viên TV",
+                                 "notes": [
+                                    "Bùi Văn Nguyện"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLv6GftO355AtDjStqeyXvhA1oRLuhvJWf",
+                                 "title": "Lập trình VueJS",
+                                 "author": "ZendVN - Học Lập Trình Online"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLU4OBh9yHE95G_Y1cUVY-5Mc9P-rQBY3F",
+                                 "title": "Vue JS cơ bản",
+                                 "author": "RHP Team"
+                              }
+                           ]
                         }
                      ]
                   },
@@ -50476,30 +50516,6 @@
                            "url": "https://www.youtube.com/playlist?list=PLl-dkipSQUGcQQgvh9j8a75Sz4zx9vWo8",
                            "title": "Lập Trình Game 2D Trên Unity3D",
                            "author": "U DEV"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Vue",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/watch?v=j97QtHf0CHY",
-                           "title": "Học Vue js trong một video duy nhất",
-                           "author": "Lập trình viên TV",
-                           "notes": [
-                              "Bùi Văn Nguyện"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLv6GftO355AtDjStqeyXvhA1oRLuhvJWf",
-                           "title": "Lập trình VueJS",
-                           "author": "ZendVN - Học Lập Trình Online"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLU4OBh9yHE95G_Y1cUVY-5Mc9P-rQBY3F",
-                           "title": "Vue JS cơ bản",
-                           "author": "RHP Team"
                         }
                      ],
                      "subsections": []
