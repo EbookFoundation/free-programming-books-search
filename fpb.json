@@ -39623,6 +39623,14 @@
                            "title": "Machine Learning Recipes with Josh Gordon"
                         },
                         {
+                           "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+                           "title": "Machine Learning Specialization",
+                           "author": "Andrew Ng, Eddy Shyu, Aarti Bagul, Geoff Ladwig",
+                           "notes": [
+                              "Coursera"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw",
                            "title": "Machine Learning Tutorial Python | Machine Learning For Beginners",
                            "author": "Dhaval Patel"
