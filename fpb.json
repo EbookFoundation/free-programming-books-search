@@ -6000,6 +6000,17 @@
                      ]
                   },
                   {
+                     "section": "Machine Learning",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL2O3HdJI4voHNEv59SdXKRQVRZAFmwN9E",
+                           "title": "Tutorial Belajar Machine Learning Dasar | Python Scikit-Learn",
+                           "author": "Indonesia Belajar"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "MySQL",
                      "entries": [
                         {
@@ -33738,7 +33749,7 @@
                      "section": "PHP",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=F7KzJ7e6EAc&list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k",
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k",
                            "title": "Curso em Vídeo - PHP Iniciante",
                            "author": "Gustavo Guanabara",
                            "notes": [
@@ -33746,7 +33757,7 @@
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x",
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x",
                            "title": "Curso em Vídeo - PHP Orientado a Objetos",
                            "author": "Gustavo Guanabara",
                            "notes": [
@@ -33767,7 +33778,7 @@
                      "section": "Python",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6",
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6",
                            "title": "Curso em Vídeo - Python Mundo 1",
                            "author": "Gustavo Guanabara",
                            "notes": [
@@ -33775,7 +33786,7 @@
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye",
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye",
                            "title": "Curso em Vídeo - Python Mundo 2",
                            "author": "Gustavo Guanabara",
                            "notes": [
@@ -33783,7 +33794,7 @@
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH",
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH",
                            "title": "Curso em Vídeo - Python Mundo 3",
                            "author": "Gustavo Guanabara",
                            "notes": [
@@ -47449,6 +47460,38 @@
                      "section": "HTML and CSS",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n",
+                           "title": "Curso completo e atual de HTML5 e CSS3 - Módulo 1 de 5",
+                           "author": "Gustavo Guanabara",
+                           "notes": [
+                              "Curso em Vídeo"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s",
+                           "title": "Curso completo e atual de HTML5 e CSS3 - Módulo 2 de 5",
+                           "author": "Gustavo Guanabara",
+                           "notes": [
+                              "Curso em Vídeo"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ",
+                           "title": "Curso completo e atual de HTML5 e CSS3 - Módulo 3 de 5",
+                           "author": "Gustavo Guanabara",
+                           "notes": [
+                              "Curso em Vídeo"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT",
+                           "title": "Curso completo e atual de HTML5 e CSS3 - Módulo 4 de 5",
+                           "author": "Gustavo Guanabara",
+                           "notes": [
+                              "Curso em Vídeo"
+                           ]
+                        },
+                        {
                            "url": "https://www.udemy.com/introducao-a-linguagem-css/",
                            "title": "Introdução à linguagem CSS",
                            "author": "Diego Mariano",
@@ -47462,14 +47505,6 @@
                            "author": "Diego Mariano",
                            "notes": [
                               "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n",
-                           "title": "Novo curso HTML5 e CSS3: 100% atual",
-                           "author": "Gustavo Guanabara",
-                           "notes": [
-                              "Curso em Vídeo"
                            ]
                         }
                      ],
@@ -48128,7 +48163,7 @@
                            "author": "Cássio Botaro et al."
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&pbjreload=102",
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH",
                            "title": "Estruturas compostas em Python",
                            "author": "Gustavo Guanabara",
                            "notes": [
@@ -50848,6 +50883,14 @@
                            ]
                         },
                         {
+                           "url": "https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/",
+                           "title": "Docker Security Best Practices & Cheat Sheet",
+                           "author": "Thomas Segura, GitGuardian",
+                           "notes": [
+                              "online, PDF"
+                           ]
+                        },
+                        {
                            "url": "https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html",
                            "title": "Docker Security Cheat Sheet",
                            "author": "OWASP Cheat Sheet Series"
@@ -50891,6 +50934,14 @@
                      "section": "Git",
                      "entries": [
                         {
+                           "url": "https://blog.gitguardian.com/8-easy-steps-to-set-up-multiple-git-accounts/",
+                           "title": "8 Easy Steps to Set Up Multiple GitHub Accounts [cheat sheet included]",
+                           "author": "Thomas Segura, GitGuardian",
+                           "notes": [
+                              "online, PDF"
+                           ]
+                        },
+                        {
                            "url": "https://education.github.com/git-cheat-sheet-education.pdf",
                            "title": "Git Cheat Sheet",
                            "author": "GitHub",
@@ -50926,6 +50977,14 @@
                            "url": "https://training.github.com/downloads/pl/github-git-cheat-sheet/",
                            "title": "Git ściąga (pl)",
                            "author": "GitHub"
+                        },
+                        {
+                           "url": "https://blog.gitguardian.com/github-actions-security-cheat-sheet/",
+                           "title": "GitHub Actions Security Best Practices [cheat sheet included]",
+                           "author": "Thomas Segura, GitGuardian, C.J. May",
+                           "notes": [
+                              "online, PDF"
+                           ]
                         },
                         {
                            "url": "https://github.com/tiimgreen/github-cheat-sheet",
