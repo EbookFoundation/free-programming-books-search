@@ -28670,6 +28670,11 @@
                            "author": "Emrah Er"
                         },
                         {
+                           "url": "http://tr.r4ds.hadley.nz",
+                           "title": "R for Data Science",
+                           "author": "Garrett Grolemund, Hadley Wickham,"
+                        },
+                        {
                            "url": "http://inet-tr.org.tr/inetconf19/sunum/16.pdf",
                            "title": "R ile Programlamaya Giriş ve Uygulamalar (2014)",
                            "author": "Mustafa Gökçe Baydoğan, Berk Orbay, Uzay Çetin",
