@@ -180,7 +180,6 @@ section {
 }
 
 section > section {
-  width:auto;
   float:none;
   padding-bottom:0;
 }
@@ -218,7 +217,7 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding-right:0;
   }
 
   section {
@@ -233,6 +232,7 @@ footer {
     border-width:0;
     padding:0;
     margin:0;
+    width:100%;
   }
 
   header a small {
@@ -287,7 +287,7 @@ footer {
 }
 
 form {
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .searchbar {
