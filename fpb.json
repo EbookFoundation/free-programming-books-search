@@ -57,7 +57,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#‎",
                      "entries": [
                         {
                            "url": "https://www.mobarmijoun.com/2014/04/c_19.html",
@@ -497,7 +497,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://csharp-book.softuni.bg",
@@ -518,7 +518,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://cpp-book.softuni.bg",
@@ -754,7 +754,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://www.cs.vsb.cz/behalek/vyuka/pcsharp/text.pdf",
@@ -775,7 +775,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://akela.mendelu.cz/~xvencal2/CPP/opora.pdf",
@@ -1214,7 +1214,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://people.cs.aau.dk/~normark/oop-csharp/pdf/all.pdf",
@@ -1228,7 +1228,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://people.cs.aau.dk/~normark/ap/index.html",
@@ -1387,7 +1387,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://www.highscore.de/csharp/einfuehrung",
@@ -1405,7 +1405,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://dieboostcppbibliotheken.de",
@@ -2068,7 +2068,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://www.ebooks4greeks.gr/2011.Download_free-ebooks/Pliroforikis/glossa_programmatismoy_C++__eBooks4Greeks.gr.pdf",
@@ -2604,7 +2604,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://web.archive.org/web/20100701020037/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/avanzado/cppavan.pdf",
@@ -2651,19 +2651,6 @@
                            "url": "https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_Erlang",
                            "title": "Programación en Erlang",
                            "author": "WikiLibros"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Emacs",
-                     "entries": [
-                        {
-                           "url": "http://savannah.nongnu.org/git/?group=elisp-es",
-                           "title": "Una Introducción a Emacs Lisp en Español",
-                           "notes": [
-                              "HTML"
-                           ]
                         }
                      ],
                      "subsections": []
@@ -3158,6 +3145,19 @@
                                  "title": "PDF, ePub, Mobi",
                                  "url": "https://debian-handbook.info/get/now/"
                               }
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Lisp",
+                     "entries": [
+                        {
+                           "url": "http://savannah.nongnu.org/git/?group=elisp-es",
+                           "title": "Una Introducción a Emacs Lisp en Español",
+                           "notes": [
+                              "HTML"
                            ]
                         }
                      ],
@@ -3777,7 +3777,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://digiarhiiv.ut.ee/Ained/Doc/VFailid/CSharp_ja_VS.pdf",
@@ -4198,7 +4198,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://jyx.jyu.fi/bitstream/handle/123456789/47417/978-951-39-4859-7.pdf",
@@ -4212,7 +4212,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://fi.wikibooks.org/wiki/C%2B%2B",
@@ -4432,6 +4432,16 @@
                               {
                                  "url": "https://prologin.org",
                                  "title": "Prologin"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "IDE and editors",
+                           "entries": [
+                              {
+                                 "url": "http://yannesposito.com/Scratch/fr/blog/Learn-Vim-Progressively/",
+                                 "title": "Learn Vim Progressively",
+                                 "author": "Yann Esposito"
                               }
                            ]
                         },
@@ -5165,16 +5175,6 @@
                         }
                      ],
                      "subsections": []
-                  },
-                  {
-                     "section": "Vim",
-                     "entries": [
-                        {
-                           "url": "http://yannesposito.com/Scratch/fr/blog/Learn-Vim-Progressively/",
-                           "title": "Learn Vim Progressively"
-                        }
-                     ],
-                     "subsections": []
                   }
                ]
             },
@@ -5229,7 +5229,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://meyda.education.gov.il/files/free%20books/%D7%9E%D7%91%D7%95%D7%90%20%D7%9C%D7%AA%D7%9B%D7%A0%D7%95%D7%AA%20%D7%91%D7%A1%D7%91%D7%99%D7%91%D7%AA%20%D7%94%D7%90%D7%99%D7%A0%D7%98%D7%A8%D7%A0%D7%98%20090216.pdf",
@@ -5274,7 +5274,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://ehindistudy.com/2020/12/01/cpp-notes-in-hindi/",
@@ -5407,7 +5407,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://www.ms.sapientia.ro/~manyi/teaching/c++/cpp.pdf",
@@ -5543,7 +5543,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "LISP",
+                     "section": "Lisp",
                      "entries": [
                         {
                            "url": "http://mek.oszk.hu/07200/07258/index.phtml",
@@ -5773,7 +5773,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://mahirkoding.id/ebook-pemrograman-berorientasi-objek-c-pdf/",
@@ -5783,7 +5783,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://github.com/kelasterbuka/CPP_dasar-dasar-programming",
@@ -5834,16 +5834,6 @@
                         {
                            "url": "http://mfikri.com/artikel/tutorial-codeigniter4",
                            "title": "Tutorial CodeIgniter 4"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Emacs",
-                     "entries": [
-                        {
-                           "url": "https://github.com/kholidfu/emacs_doc",
-                           "title": "Dokumentasi Emacs Bahasa Indonesia"
                         }
                      ],
                      "subsections": []
@@ -5930,6 +5920,17 @@
                            "notes": [
                               "Petani Kode"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "IDE and editors",
+                     "entries": [
+                        {
+                           "url": "https://github.com/kholidfu/emacs_doc",
+                           "title": "Dokumentasi Emacs Bahasa Indonesia",
+                           "author": "Kholid Fuadi"
                         }
                      ],
                      "subsections": []
@@ -6515,7 +6516,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://antoniopelleriti.it/wp-content/uploads/2019/04/ABCsharp-guida-alla-programmazione-in-csharp.pdf",
@@ -6529,7 +6530,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://didatticait.altervista.org/programmazione/CPP/CPP-dispense/CORSO_C.pdf",
@@ -7217,6 +7218,29 @@
                      "section": "0 - 言語非依存",
                      "entries": [],
                      "subsections": [
+                        {
+                           "section": "IDE and editors",
+                           "entries": [
+                              {
+                                 "url": "https://nanasi.jp/code.html",
+                                 "title": "Vim スクリプトリファレンス",
+                                 "author": "小見拓"
+                              },
+                              {
+                                 "url": "https://thinca.hatenablog.com/entry/20100201/1265009821",
+                                 "title": "Vim スクリプト基礎文法最速マスター",
+                                 "author": "id:thinca"
+                              },
+                              {
+                                 "url": "https://vim-jp.org/vimdoc-ja/usr_41.html",
+                                 "title": "Vim スクリプト書法",
+                                 "author": "Bram Moolenaar, vimdoc-ja プロジェクト",
+                                 "notes": [
+                                    "翻訳"
+                                 ]
+                              }
+                           ]
+                        },
                         {
                            "section": "アクセシビリティ",
                            "entries": [
@@ -7924,7 +7948,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://ezoeryou.github.io/cpp-book/C++11-Syntax-and-Feature.xhtml",
@@ -8037,43 +8061,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Common Lisp",
-                     "entries": [
-                        {
-                           "url": "http://www.nct9.ne.jp/m_hiroi/xyzzy_lisp.html#abclisp",
-                           "title": "Common Lisp 入門",
-                           "author": "広井誠"
-                        },
-                        {
-                           "url": "https://lisphub.jp/doc/google-common-lisp-style-guide/lispguide.xml",
-                           "title": "Google Common Lisp スタイルガイド 日本語訳",
-                           "author": "Robert Brown, François-René Rideau, TOYOZUMIKouichi 他",
-                           "notes": [
-                              "翻訳"
-                           ]
-                        },
-                        {
-                           "url": "https://web.archive.org/web/20060526095202/http://home.soka.ac.jp/~unemi/LispProlog",
-                           "title": "LISP and PROLOG",
-                           "author": "畝見達夫"
-                        },
-                        {
-                           "url": "http://www.asahi-net.or.jp/~kc7k-nd",
-                           "title": "On Lisp (草稿)",
-                           "author": "Paul Graham, 野田開",
-                           "notes": [
-                              "翻訳"
-                           ]
-                        },
-                        {
-                           "url": "http://lambda.bugyo.tk/cdr/mwl",
-                           "title": "マンガで分かるLisp(Manga Guide to Lisp)",
-                           "author": "λ組"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Coq",
                      "entries": [
                         {
@@ -8110,21 +8097,6 @@
                            "url": "https://qiita.com/niku/items/729ece76d78057b58271",
                            "title": "Elixir 基礎文法最速マスター",
                            "author": "niku"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Emacs Lisp",
-                     "entries": [
-                        {
-                           "url": "https://d.hatena.ne.jp/rubikitch/20100201/elispsyntax",
-                           "title": "Emacs Lisp基礎文法最速マスター",
-                           "author": "るびきち"
-                        },
-                        {
-                           "url": "http://www.fan.gr.jp/~ring/doc/elisp_20/elisp.html",
-                           "title": "GNU Emacs Lispリファレンスマニュアル"
                         }
                      ],
                      "subsections": []
@@ -8662,6 +8634,52 @@
                            "notes": [
                               "翻訳"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Lisp",
+                     "entries": [
+                        {
+                           "url": "http://www.nct9.ne.jp/m_hiroi/xyzzy_lisp.html#abclisp",
+                           "title": "Common Lisp 入門",
+                           "author": "広井誠"
+                        },
+                        {
+                           "url": "https://d.hatena.ne.jp/rubikitch/20100201/elispsyntax",
+                           "title": "Emacs Lisp基礎文法最速マスター",
+                           "author": "るびきち"
+                        },
+                        {
+                           "url": "http://www.fan.gr.jp/~ring/doc/elisp_20/elisp.html",
+                           "title": "GNU Emacs Lispリファレンスマニュアル"
+                        },
+                        {
+                           "url": "https://lisphub.jp/doc/google-common-lisp-style-guide/lispguide.xml",
+                           "title": "Google Common Lisp スタイルガイド 日本語訳",
+                           "author": "Robert Brown, François-René Rideau, TOYOZUMIKouichi 他",
+                           "notes": [
+                              "翻訳"
+                           ]
+                        },
+                        {
+                           "url": "https://web.archive.org/web/20060526095202/http://home.soka.ac.jp/~unemi/LispProlog",
+                           "title": "LISP and PROLOG",
+                           "author": "畝見達夫"
+                        },
+                        {
+                           "url": "http://www.asahi-net.or.jp/~kc7k-nd",
+                           "title": "On Lisp (草稿)",
+                           "author": "Paul Graham, 野田開",
+                           "notes": [
+                              "翻訳"
+                           ]
+                        },
+                        {
+                           "url": "http://lambda.bugyo.tk/cdr/mwl",
+                           "title": "マンガで分かるLisp(Manga Guide to Lisp)",
+                           "author": "λ組"
                         }
                      ],
                      "subsections": []
@@ -9578,30 +9596,6 @@
                         }
                      ],
                      "subsections": []
-                  },
-                  {
-                     "section": "Vim",
-                     "entries": [
-                        {
-                           "url": "https://nanasi.jp/code.html",
-                           "title": "Vim スクリプトリファレンス",
-                           "author": "小見拓"
-                        },
-                        {
-                           "url": "https://thinca.hatenablog.com/entry/20100201/1265009821",
-                           "title": "Vim スクリプト基礎文法最速マスター",
-                           "author": "id:thinca"
-                        },
-                        {
-                           "url": "https://vim-jp.org/vimdoc-ja/usr_41.html",
-                           "title": "Vim スクリプト書法",
-                           "author": "Bram Moolenaar, vimdoc-ja プロジェクト",
-                           "notes": [
-                              "翻訳"
-                           ]
-                        }
-                     ],
-                     "subsections": []
                   }
                ]
             },
@@ -9670,7 +9664,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://github.com/kev0960/ModooCode/raw/master/book/cpp/main.pdf",
@@ -11198,11 +11192,6 @@
                            "accessNotes": "email address requested"
                         },
                         {
-                           "url": "http://www.finseth.com/craft/",
-                           "title": "The Craft of Text Editing or A Cookbook for an Emacs",
-                           "author": "Craig A. Finseth"
-                        },
-                        {
                            "url": "https://web.archive.org/web/20181230041359/http://www.open-std.org/jtc1/sc22/wg14/www/abq/c17_updated_proposed_fdis.pdf",
                            "title": "The Current C Programming Language Standard – ISO/IEC 9899:2018 (C17/C18), Draft",
                            "author": "Open Standards Org - www.open-std.org",
@@ -11253,7 +11242,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/",
@@ -11397,7 +11386,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://github.com/HappyCerberus/book-cpp-algorithms",
@@ -12187,31 +12176,6 @@
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "Emacs",
-                     "entries": [
-                        {
-                           "url": "https://www.gnu.org/software/emacs/manual/eintr.html",
-                           "title": "An Introduction to Programming in Emacs Lisp"
-                        },
-                        {
-                           "url": "https://www.finseth.com/craft/",
-                           "title": "Emacs for the Modern World",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "http://www.gnu.org/software/emacs/manual/elisp.html",
-                           "title": "GNU Emacs Lisp Reference Manual"
-                        },
-                        {
-                           "url": "https://www.gnu.org/software/emacs/manual/emacs.html",
-                           "title": "GNU Emacs Manual"
-                        }
-                     ],
-                     "subsections": []
                   },
                   {
                      "section": "Embedded Systems",
@@ -15547,7 +15511,34 @@
                            ]
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Emacs Lisp",
+                           "entries": [
+                              {
+                                 "url": "https://www.gnu.org/software/emacs/manual/eintr.html",
+                                 "title": "An Introduction to Programming in Emacs Lisp"
+                              },
+                              {
+                                 "url": "http://www.gnu.org/software/emacs/manual/elisp.html",
+                                 "title": "GNU Emacs Lisp Reference Manual"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "PicoLisp",
+                           "entries": [
+                              {
+                                 "url": "https://github.com/tj64/picolisp-by-example",
+                                 "title": "PicoLisp by Example"
+                              },
+                              {
+                                 "url": "https://github.com/tj64/picolisp-works",
+                                 "title": "PicoLisp Works"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Livecode",
@@ -16014,18 +16005,6 @@
                            "notes": [
                               "PDF"
                            ]
-                        },
-                        {
-                           "url": "http://www.infoq.com/minibooks/vsnettt",
-                           "title": "Visual Studio .NET Tips and Tricks",
-                           "notes": [
-                              "VS 2003-2005 only"
-                           ]
-                        },
-                        {
-                           "url": "https://www.syncfusion.com/ebooks/visual-studio-2019-succinctly",
-                           "title": "Visual Studio 2019 Succinctly",
-                           "author": "Alessandro Del Sole"
                         }
                      ],
                      "subsections": []
@@ -16708,20 +16687,6 @@
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "PicoLisp",
-                     "entries": [
-                        {
-                           "url": "https://github.com/tj64/picolisp-by-example",
-                           "title": "PicoLisp by Example"
-                        },
-                        {
-                           "url": "https://github.com/tj64/picolisp-works",
-                           "title": "PicoLisp Works"
-                        }
-                     ],
-                     "subsections": []
                   },
                   {
                      "section": "PostgreSQL",
@@ -19849,64 +19814,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Vim",
-                     "entries": [
-                        {
-                           "url": "http://www.swaroopch.com/notes/vim/",
-                           "title": "A Byte of Vim"
-                        },
-                        {
-                           "url": "https://github.com/iggredible/Learn-Vim",
-                           "title": "Learn Vim (the Smart Way)",
-                           "notes": [
-                              "HTML",
-                              ":construction: *in process*"
-                           ]
-                        },
-                        {
-                           "url": "https://danielmiessler.com/study/vim/",
-                           "title": "Learn Vim For the Last Time",
-                           "author": "Daniel Miessler"
-                        },
-                        {
-                           "url": "http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/",
-                           "title": "Learn Vim Progressively"
-                        },
-                        {
-                           "url": "http://learnvimscriptthehardway.stevelosh.com",
-                           "title": "Learn Vimscript the Hard Way",
-                           "author": "Steve Losh"
-                        },
-                        {
-                           "url": "http://www.truth.sk/vim/vimbook-OPL.pdf",
-                           "title": "Vi Improved -- Vim",
-                           "author": "Steve Oualline",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://github.com/mhinz/vim-galore#readme",
-                           "title": "VIM-GALORE - All things Vim!",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "https://web.archive.org/web/20130302172911/http://vim.runpaint.org/vim-recipes.pdf",
-                           "title": "Vim Recipes",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://vimregex.com",
-                           "title": "Vim Regular Expressions 101"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Visual Basic",
                      "entries": [
                         {
@@ -20077,7 +19984,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://home.lu.lv/~janiszu/courses/eprg/eprg.all.pdf",
@@ -20287,7 +20194,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://nl.wikibooks.org/wiki/Programmeren_in_C_Sharp",
@@ -20556,7 +20463,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://kurs.aspnetmvc.pl/Csharp",
@@ -20588,7 +20495,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://pl.wikibooks.org/wiki/C++",
@@ -20617,17 +20524,6 @@
                            "url": "http://xion.org.pl/productions/texts/coding/megatutorial/",
                            "title": "Megatutorial \"Od zera do gier kodera\"",
                            "author": "Karol Kuczmarski"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Common Lisp",
-                     "entries": [
-                        {
-                           "url": "http://jcubic.pl/lisp_tutorial.php",
-                           "title": "Kurs programowania w języku Common Lisp",
-                           "author": "Jakub Jankiewicz"
                         }
                      ],
                      "subsections": []
@@ -20753,6 +20649,17 @@
                            "url": "http://www.ctan.org/tex-archive/info/lshort/polish",
                            "title": "Nie za krótkie wprowadzeniedo systemu LATEX 2ε",
                            "author": "Janusz Goldasz, Ryszard Ku­biak, To­masz Przech­lewski"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Lisp",
+                     "entries": [
+                        {
+                           "url": "http://jcubic.pl/lisp_tutorial.php",
+                           "title": "Kurs programowania w języku Common Lisp",
+                           "author": "Jakub Jankiewicz"
                         }
                      ],
                      "subsections": []
@@ -20942,17 +20849,7 @@
                      "entries": [],
                      "subsections": [
                         {
-                           "section": "IDE / Editores",
-                           "entries": [
-                              {
-                                 "url": "https://github.com/bylearn/VS-Code-Produtividade-Infinita",
-                                 "title": "Visual Studio Code: Produtividade infinita",
-                                 "author": "Felipe Cabrera Ribeiro dos Santos"
-                              }
-                           ]
-                        },
-                        {
-                           "section": "Vim",
+                           "section": "IDE and editors",
                            "entries": [
                               {
                                  "url": "https://code.google.com/p/vimbook",
@@ -20975,6 +20872,11 @@
                                  "notes": [
                                     "HTML"
                                  ]
+                              },
+                              {
+                                 "url": "https://github.com/bylearn/VS-Code-Produtividade-Infinita",
+                                 "title": "Visual Studio Code: Produtividade infinita",
+                                 "author": "Felipe Cabrera Ribeiro dos Santos"
                               }
                            ]
                         },
@@ -21147,7 +21049,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.caelum.com.br/apostila-csharp-orientacao-objetos/",
@@ -21158,7 +21060,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://www.ime.usp.br/~slago/slago-C++.pdf",
@@ -21711,7 +21613,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "LISP",
+                     "section": "Lisp",
                      "entries": [
                         {
                            "url": "http://www.dca.fee.unicamp.br/courses/EA072/lisp9596/Lisp9596.html",
@@ -22399,6 +22301,24 @@
                                  "title": "Архитектура приложений с открытым исходным кодом"
                               }
                            ]
+                        },
+                        {
+                           "section": "IDE and editors",
+                           "entries": [
+                              {
+                                 "url": "http://www.opennet.ru/docs/RUS/vim_cookbook",
+                                 "title": "Поваренная Книга Vim",
+                                 "author": "Steve Oualline"
+                              },
+                              {
+                                 "url": "http://rus-linux.net/MyLDP/BOOKS/Vim/prosto-o-vim.pdf",
+                                 "title": "Просто о Vim",
+                                 "author": "Swaroop",
+                                 "notes": [
+                                    "PDF"
+                                 ]
+                              }
+                           ]
                         }
                      ]
                   },
@@ -22503,7 +22423,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://metanit.com/sharp/patterns",
@@ -22533,7 +22453,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://lib.ru/CPPHB/cpptut.txt_with-big-pictures.html",
@@ -23841,24 +23761,6 @@
                   {
                      "section": "Unix",
                      "entries": [],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Vim",
-                     "entries": [
-                        {
-                           "url": "http://www.opennet.ru/docs/RUS/vim_cookbook",
-                           "title": "Поваренная Книга Vim",
-                           "author": "Steve Oualline"
-                        },
-                        {
-                           "url": "http://rus-linux.net/MyLDP/BOOKS/Vim/prosto-o-vim.pdf",
-                           "title": "Просто о Vim",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
                      "subsections": []
                   }
                ]
@@ -25252,6 +25154,105 @@
                            "url": "https://www.webstyleguide.com/wsg3/index.html",
                            "title": "Web Style Guide Online",
                            "author": "Patrick J. Lynch, Sarah Horton"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "IDE and editors",
+                     "entries": [
+                        {
+                           "url": "http://www.swaroopch.com/notes/vim/",
+                           "title": "A Byte of Vim",
+                           "author": "Swaroop",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.gnu.org/software/emacs/manual/emacs.html",
+                           "title": "GNU Emacs Manual",
+                           "author": "Free Software Foundation Inc.",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/iggredible/Learn-Vim",
+                           "title": "Learn Vim (the Smart Way)",
+                           "author": "Igor Irianto",
+                           "notes": [
+                              "HTML",
+                              ":construction: *in process*"
+                           ]
+                        },
+                        {
+                           "url": "https://danielmiessler.com/study/vim/",
+                           "title": "Learn Vim For the Last Time",
+                           "author": "Daniel Miessler"
+                        },
+                        {
+                           "url": "http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/",
+                           "title": "Learn Vim Progressively",
+                           "author": "Yann Esposito"
+                        },
+                        {
+                           "url": "http://learnvimscriptthehardway.stevelosh.com",
+                           "title": "Learn Vimscript the Hard Way",
+                           "author": "Steve Losh"
+                        },
+                        {
+                           "url": "http://www.finseth.com/craft/",
+                           "title": "The Craft of Text Editing or A Cookbook for an Emacs",
+                           "author": "Craig A. Finseth",
+                           "notes": [
+                              "HTML, PDF, ePUB, Kindle, PostScript, LaTeX"
+                           ]
+                        },
+                        {
+                           "url": "http://www.truth.sk/vim/vimbook-OPL.pdf",
+                           "title": "Vi Improved -- Vim",
+                           "author": "Steve Oualline",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/mhinz/vim-galore#readme",
+                           "title": "VIM-GALORE - All things Vim!",
+                           "author": "Marco Hinz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://web.archive.org/web/20130302172911/http://vim.runpaint.org/vim-recipes.pdf",
+                           "title": "Vim Recipes",
+                           "author": "Run Paint Run Run, Run Paint Press",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://vimregex.com",
+                           "title": "Vim Regular Expressions 101",
+                           "author": "Oleg Raisky"
+                        },
+                        {
+                           "url": "http://www.infoq.com/minibooks/vsnettt",
+                           "title": "Visual Studio .NET Tips and Tricks",
+                           "author": "Minh T. Nguyen",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.syncfusion.com/ebooks/visual-studio-2019-succinctly",
+                           "title": "Visual Studio 2019 Succinctly",
+                           "author": "Alessandro Del Sole",
+                           "notes": [
+                              "online, PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -27821,7 +27822,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"version-control-systems\">",
+                     "section": "Version Control Systems",
                      "entries": [
                         {
                            "url": "https://danielmiessler.com/study/git/",
@@ -28099,7 +28100,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://sv.wikibooks.org/wiki/Programmera_spel_i_C%2B%2B_f%C3%B6r_nyb%C3%B6rjare",
@@ -28405,7 +28406,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.yusufsezer.com.tr/cpp-dersleri/",
@@ -28882,7 +28883,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"golang\">",
+                     "section": "Go",
                      "entries": [
                         {
                            "url": "https://github.com/nainglinaung/the-little-go-book",
@@ -28917,24 +28918,6 @@
                         {
                            "url": "http://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1",
                            "title": "每个程序员都应该了解的内存知识 (第一部分)"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "编辑器",
-                     "entries": [
-                        {
-                           "url": "https://github.com/yangyangwithgnu/use_vim_as_ide",
-                           "title": "所需即所获：像 IDE 一样使用 vim"
-                        },
-                        {
-                           "url": "http://exvim.github.io/docs-zh/intro/",
-                           "title": "exvim--vim 改良成IDE项目"
-                        },
-                        {
-                           "url": "https://github.com/vimcn/vimcdoc",
-                           "title": "Vim中文文档"
                         }
                      ],
                      "subsections": []
@@ -29323,11 +29306,31 @@
                      "subsections": []
                   },
                   {
-                     "section": "IDE",
+                     "section": "IDE and editors",
                      "entries": [
                         {
+                           "url": "http://www.study-area.org/tips/vim/index.html",
+                           "title": "大家來學 VIM",
+                           "author": "Edward Lee"
+                        },
+                        {
+                           "url": "https://github.com/yangyangwithgnu/use_vim_as_ide",
+                           "title": "所需即所获：像 IDE 一样使用 vim",
+                           "author": "yangyangwithgnu"
+                        },
+                        {
+                           "url": "http://exvim.github.io/docs-zh/intro/",
+                           "title": "exvim--vim 改良成IDE项目"
+                        },
+                        {
                            "url": "https://github.com/judasn/IntelliJ-IDEA-Tutorial",
-                           "title": "IntelliJ IDEA 简体中文专题教程"
+                           "title": "IntelliJ IDEA 简体中文专题教程",
+                           "author": "Judas.n"
+                        },
+                        {
+                           "url": "https://github.com/vimcn/vimcdoc",
+                           "title": "Vim中文文档",
+                           "author": "Vim 中文计划, Yian Willis"
                         }
                      ],
                      "subsections": []
@@ -29519,7 +29522,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://book.douban.com/subject/24827879/",
@@ -29529,7 +29532,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://github.com/hellogcc/100-gcc-tips/blob/master/src/index.md",
@@ -30339,7 +30342,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "LISP",
+                     "section": "Lisp",
                      "entries": [
                         {
                            "url": "http://acl.readthedocs.org/en/latest/",
@@ -30961,16 +30964,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Vim",
-                     "entries": [
-                        {
-                           "url": "http://www.study-area.org/tips/vim/index.html",
-                           "title": "大家來學 VIM"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Visual Prolog",
                      "entries": [
                         {
@@ -31102,7 +31095,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLFgjYYTq6xyhtVK6VzLiFe3pmBu-XSNlX",
@@ -31124,7 +31117,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
@@ -31176,28 +31169,6 @@
                            "url": "http://www.parens-of-the-dead.com",
                            "title": "Parens of the Dead",
                            "author": "Magnar Sveen, Elisabeth Irgens",
-                           "notes": [
-                              "screencast"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Common Lisp",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLCpux10P7KDKPb4eI5b_qSnQaY1ePGKGK",
-                           "title": "Common Lisp for Beginners",
-                           "author": "Neil Munro",
-                           "notes": [
-                              "screencast"
-                           ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL2VAYZE_4wRJi_vgpjsH75kMhN4KsuzR_",
-                           "title": "Little Bits of Lisp",
-                           "author": "Cecilie Baggers",
                            "notes": [
                               "screencast"
                            ]
@@ -31533,7 +31504,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "IDE and Editors",
+                     "section": "IDE and editors",
                      "entries": [
                         {
                            "url": "https://emacscast.org",
@@ -32439,6 +32410,28 @@
                            "author": "Ariana The Techie",
                            "notes": [
                               "podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Lisp",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLCpux10P7KDKPb4eI5b_qSnQaY1ePGKGK",
+                           "title": "Common Lisp for Beginners",
+                           "author": "Neil Munro",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL2VAYZE_4wRJi_vgpjsH75kMhN4KsuzR_",
+                           "title": "Little Bits of Lisp",
+                           "author": "Cecilie Baggers",
+                           "notes": [
+                              "screencast"
                            ]
                         }
                      ],
@@ -34697,7 +34690,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#‎",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLzCpl3aBwaY56xIDF6IX0hmZC6JYoGQkS",
@@ -34728,7 +34721,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++‎",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLPt2dINI2MIbwnEoeHZnUHeUHjTd8x4F3",
@@ -36008,7 +36001,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PL_g-DE60bXDBpjMPUWGbmCLHnQDIIcw-6",
@@ -36029,7 +36022,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3q0ZKeXtF--CZ0PdH1sSbYL",
@@ -36164,7 +36157,7 @@
                      ]
                   },
                   {
-                     "section": "IDE and Editors",
+                     "section": "IDE and editors",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVB_lroSm_xvTqvVBCpR4PQE",
@@ -36480,7 +36473,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLStQc0GqppuVs05kWvLBoHcWCULX3ueIM",
@@ -37349,7 +37342,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://channel9.msdn.com/Series/CSharp-101",
@@ -37392,7 +37385,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.udacity.com/course/c-for-programmers--ud210",
@@ -42494,7 +42487,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://tim.jyu.fi/view/kurssit/tie/ohj1/moniste/Ohjelmointi-1",
@@ -42626,7 +42619,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLrSOXFDHBtfGBHAMEg9Om9nF_7R7h5mO7",
@@ -42637,7 +42630,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/",
@@ -42936,7 +42929,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://campus.gov.il/course/course-v1-basmach-pc264/",
@@ -43117,7 +43110,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
@@ -43839,7 +43832,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLuGFxya63u253zhOzhxanaSBNJ_UiIhUb",
@@ -45218,7 +45211,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLktbfd3yXeH8yQpHM3O468k8l-aTC6Hl6",
@@ -45229,7 +45222,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJfZpJD7uFxAXglkiHSEhktG",
@@ -45642,7 +45635,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"0---mooc\">",
+                     "section": "0 - 大規模公開オンライン講座(MOOC)",
                      "entries": [
                         {
                            "url": "https://www.freecodecamp.org/japanese",
@@ -45960,7 +45953,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PL4PkN2EXiuVF3Xl0HNVMdY-_kMM3oyBds",
@@ -46610,7 +46603,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PL1JrLEBAapUXVcHV3rO-g-N4gBHcBe2c-",
@@ -46873,7 +46866,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLk5dbESAmUZh1cLITav0ZmDEqRujsPa93",
@@ -46883,7 +46876,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLE84826ABF088F7E8",
@@ -47171,7 +47164,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.udemy.com/webservice-correios/",
@@ -47225,7 +47218,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40",
@@ -47509,7 +47502,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "IDE",
+                     "section": "IDE and editors",
                      "entries": [
                         {
                            "url": "https://www.udemy.com/course/domine-o-sublime-text/",
@@ -48550,7 +48543,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"design-architecture\">",
+                     "section": "Дизайн и Aрхитектура",
                      "entries": [
                         {
                            "url": "https://ota-solid.now.sh",
@@ -48564,7 +48557,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://stepik.org/course/363",
@@ -49306,7 +49299,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PLWbtDrDnmTHBPD-Dt5BJi7iP11x6UvgU0",
@@ -49417,7 +49410,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "http://marcuscode.com/lang/csharp",
@@ -49428,7 +49421,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "http://marcuscode.com/lang/cpp",
@@ -49654,7 +49647,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "IDE / Editors",
+                     "section": "IDE and editors",
                      "entries": [
                         {
                            "url": "https://youtube.com/playlist?list=PLGrTHqyRDvx72uHNQ6aZXxa1pSKViqIhE",
@@ -49765,7 +49758,7 @@
                "index": {},
                "sections": [
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://stepik.org/course/67114",
@@ -49961,7 +49954,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK",
@@ -50716,7 +50709,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://simplecheatsheet.com/tag/c-cheat-sheet-1/",
@@ -50730,7 +50723,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.codewithharry.com/blogpost/cpp-cheatsheet",
@@ -51073,7 +51066,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"ide--editores\">",
+                     "section": "IDE and editors",
                      "entries": [
                         {
                            "url": "https://aurelio.net/curso/material/vim-ref.html",
@@ -51763,7 +51756,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://www.tutlane.com/tutorial/csharp",
@@ -51794,7 +51787,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://www.w3schools.com/cpp",
@@ -52098,6 +52091,17 @@
                            "url": "https://www.freecodecamp.org/learn/responsive-web-design/",
                            "title": "Responsive Web Design Certification",
                            "author": "freeCodeCamp"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "IDE and editors",
+                     "entries": [
+                        {
+                           "url": "http://www.openvim.com/tutorial.html",
+                           "title": "Interactive Vim Tutorial",
+                           "author": "Henrik Huttunen"
                         }
                      ],
                      "subsections": [
@@ -52709,16 +52713,6 @@
                         }
                      ],
                      "subsections": []
-                  },
-                  {
-                     "section": "Vim",
-                     "entries": [
-                        {
-                           "url": "http://www.openvim.com/tutorial.html",
-                           "title": "Interactive Vim Tutorial"
-                        }
-                     ],
-                     "subsections": []
                   }
                ]
             },
@@ -52978,7 +52972,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"c\">",
+                     "section": "C",
                      "entries": [
                         {
                            "url": "https://www.interviewbit.com/online-c-compiler/",
@@ -53000,7 +52994,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"csharp\">",
+                     "section": "C#",
                      "entries": [
                         {
                            "url": "https://code.sololearn.com/csharp",
@@ -53010,7 +53004,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"cpp\">",
+                     "section": "C++",
                      "entries": [
                         {
                            "url": "https://ide.codingminutes.com",
@@ -53315,7 +53309,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "<a id=\"dotnet\">",
+                     "section": ".NET",
                      "entries": [
                         {
                            "url": "https://dotnetfiddle.net",
