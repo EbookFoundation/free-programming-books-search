@@ -218,7 +218,7 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding-right:0;
   }
 
   section {
@@ -287,7 +287,7 @@ footer {
 }
 
 form {
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .searchbar {
