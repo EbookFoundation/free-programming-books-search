@@ -35,6 +35,17 @@
       "react-app/jest"
     ]
   },
+  "jest": {
+    "moduleNameMapper": {
+      "react-markdown": "<rootDir>/node_modules/react-markdown/react-markdown.min.js"
+    },
+    "testMatch": [
+      "**/*.test.js"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -48,6 +59,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "babel-jest": "26.6.0",
+    "gh-pages": "^3.2.3",
+    "react-test-renderer": "^17.0.2"
   }
 }
