@@ -2,7 +2,7 @@
    "type": "root",
    "children": [
       {
-         "type": "fpb",
+         "type": "books",
          "index": {},
          "children": [
             {
@@ -9725,8 +9725,16 @@
                            "title": "가장 빨리 만나는 Go 언어"
                         },
                         {
+                           "url": "https://gosudaweb.gitbooks.io/effective-go-in-korean/content/",
+                           "title": "효과적인 Go 프로그래밍"
+                        },
+                        {
                            "url": "http://www.codingnuri.com/golang-book/index.html",
                            "title": "AN INTRODUCTION TO PROGRAMMING IN GO 한글 번역"
+                        },
+                        {
+                           "url": "https://github.com/golang-kr/golang-doc/wiki",
+                           "title": "Go 문서 한글 번역"
                         },
                         {
                            "url": "https://thebook.io/006806/",
@@ -9738,6 +9746,10 @@
                            "author": "Karl Seguin,",
                            "notes": [],
                            "manualReviewRequired": true
+                        },
+                        {
+                           "url": "https://github.com/ultimate-go-korean/translation",
+                           "title": "The Ultimate Go Study Guide 한글 번역"
                         }
                      ],
                      "subsections": []
@@ -30982,7 +30994,7 @@
          ]
       },
       {
-         "type": "fpb",
+         "type": "casts",
          "index": {},
          "children": [
             {
@@ -34541,7 +34553,7 @@
          ]
       },
       {
-         "type": "fpb",
+         "type": "courses",
          "index": {},
          "children": [
             {
@@ -37128,8 +37140,9 @@
                            ]
                         },
                         {
-                           "url": "https://agi.mit.edu",
-                           "title": "MIT 6.S099: Artificial General Intelligence"
+                           "url": "https://deeplearning.mit.edu",
+                           "title": "MIT Deep Learning and Artificial Intelligence Lectures",
+                           "author": "Lex Fridman, et al."
                         },
                         {
                            "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/",
@@ -42222,6 +42235,16 @@
                                  "url": "https://www.youtube.com/playlist?list=PL3Y-E4YSE4wZpWH8CXwPBI1F13KhkIDEx",
                                  "title": "ری اکت جی اس ۲۰۲۰",
                                  "author": "Amir Azimi"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Vue.js",
+                           "entries": [
+                              {
+                                 "url": "https://sariasan.com/featured/vue-free-full-lessons",
+                                 "title": "آموزش Vue.js از صفر تا صد با 8 درس رایگان",
+                                 "author": "میلاد حیدری"
                               }
                            ]
                         }
@@ -50600,7 +50623,7 @@
          ]
       },
       {
-         "type": "fpb",
+         "type": "more",
          "index": {},
          "children": [
             {
