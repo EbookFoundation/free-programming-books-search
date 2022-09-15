@@ -26,7 +26,7 @@ function LangFilters({ changeParameter, data, langCode }) {
       changeParameter("lang.code", "");
       setSelected("")
     }
-  }, []);
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(
     // run whenever data changes

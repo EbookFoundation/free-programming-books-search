@@ -26,7 +26,7 @@ function ParsedLink({ children, sect, href, id }) {
         setFolder(null);
       }
     }
-  }, [href]);
+  }, [href, sect]);
 
   if (folder && file) {
     return <a id={id} href={`/free-programming-books-search/?&sect=${folder}&file=${file}`}>{children}</a>;
