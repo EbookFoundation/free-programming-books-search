@@ -138,7 +138,6 @@ jobs:
           name: build
           path: build
       - name: Deploy to GitHub Pages
-        if: ${{ github.event_name == 'push' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ github.token }}
@@ -146,4 +145,6 @@ jobs:
           branch: gh-pages
           # The folder the action should deploy.
           folder: build
+          # Test git push mode??
+          dry-run: ${{ github.event_name == 'pull_request' }}
 
