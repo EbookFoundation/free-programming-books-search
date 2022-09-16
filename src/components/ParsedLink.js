@@ -30,7 +30,7 @@ function ParsedLink({ children, sect, href, id }) {
   }, [href]);
 
   if (folder && file) {
-    return <a id={id} href={`${appContextPath}?&sect=${folder}&file=${file}`}>{children}</a>;
+    return <a id={id} href={`${appContextPath}?sect=${folder}&file=${file}`}>{children}</a>;
   } else if (file) {
     return <a id={id} href={`${appContextPath}?file=${file}`}>{children}</a>;
   } else { // Go to the homepage when there's a bad relative URL
