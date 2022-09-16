@@ -44,7 +44,9 @@
     ],
     "transform": {
       "^.+\\.(js|jsx)$": "babel-jest"
-    }
+    },
+    "transformIgnorePatterns": [
+    ]
   },
   "browserslist": {
     "production": [

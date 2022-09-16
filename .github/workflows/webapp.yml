@@ -89,8 +89,6 @@ jobs:
           name: build
           path: build
       - name: Run tests
-        # TODO: Enable again after fix Jest test environment
-        if: ${{ false }}
         run: npm test
 
 
