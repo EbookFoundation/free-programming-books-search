@@ -276,19 +276,6 @@
                      ]
                   },
                   {
-                     "section": "Programming in Scratch",
-                     "entries": [
-                        {
-                           "url": "http://www.ev-center.com/uploads/2/1/2/6/21261678/scratch.pdf",
-                           "title": "كتاب احترف سكراتش",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Python",
                      "entries": [
                         {
@@ -321,6 +308,19 @@
                         {
                            "url": "http://librebooks.org/intro-to-ruby/",
                            "title": "مقدمة في روبي"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Scratch",
+                     "entries": [
+                        {
+                           "url": "http://www.ev-center.com/uploads/2/1/2/6/21261678/scratch.pdf",
+                           "title": "كتاب احترف سكراتش",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -16974,7 +16974,7 @@
                            "author": "Peter Flach"
                         },
                         {
-                           "url": "https://mitpress.mit.edu/books/art-prolog-second-edition",
+                           "url": "https://mitpress.mit.edu/9780262691635/the-art-of-prolog/",
                            "title": "The Art of Prolog, Second Edition",
                            "author": "Leon S. Sterling, Ehud Y. Shapiro",
                            "notes": [
