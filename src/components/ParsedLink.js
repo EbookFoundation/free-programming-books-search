@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function ParsedLink({ children, sect, href, id }) {
-  const appContextPath = "/free-programming-books-search/";
+  const appContextPath = process.env.PUBLIC_URL + "/";
   const [folder, setFolder] = useState(null);
   const [file, setFile] = useState(null);
 

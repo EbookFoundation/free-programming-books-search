@@ -56,7 +56,7 @@ function jsonToArray(json) {
 }
 
 function App() {
-  const appContextPath = "/free-programming-books-search/";
+  const appContextPath = process.env.PUBLIC_URL + "/";
   // keeps the state of the json
   const [data, setData] = useState(undefined); 
   // put all books into one array. uses more memory, but search is faster and less complex
