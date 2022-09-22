@@ -820,7 +820,7 @@
                         {
                            "url": "https://knihy.nic.cz/#ProGit",
                            "title": "Pro Git",
-                           "author": "Scott Chacon",
+                           "author": "Scott Chacon,",
                            "notes": [
                               "PDF, EPUB, MOBI"
                            ]
@@ -1454,6 +1454,7 @@
                         {
                            "url": "http://gitbu.ch",
                            "title": "Das Git-Buch",
+                           "author": "Valentin Haenel, Julius Plenz",
                            "notes": [
                               "PDF, EPUB"
                            ]
@@ -1461,16 +1462,17 @@
                         {
                            "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de",
                            "title": "Git Magic",
+                           "author": "Ben Lynn,",
                            "notes": [
-                              "Online"
+                              "HTML, PDF"
                            ]
                         },
                         {
-                           "url": "https://git-scm.com/book/de/current",
+                           "url": "https://git-scm.com/book/de/",
                            "title": "Pro Git",
-                           "author": "Scott Chacon, Ben Straub",
+                           "author": "Scott Chacon, Ben Straub,",
                            "notes": [
-                              "Online, PDF, EPUB"
+                              "HTML, PDF, EPUB, Kindle"
                            ]
                         }
                      ],
@@ -2660,26 +2662,32 @@
                      "entries": [
                         {
                            "url": "https://esparta.github.io/gitimmersion-spanish",
-                           "title": "Git Immersión en Español"
+                           "title": "Git Immersión en Español",
+                           "author": "Jim Weirich,"
                         },
                         {
-                           "url": "http://rogerdudler.github.io/git-guide",
+                           "url": "https://rogerdudler.github.io/git-guide/index.es.html",
                            "title": "Git. La guía simple",
+                           "author": "Roger Dudler,",
                            "notes": [
                               "HTML"
                            ]
                         },
                         {
                            "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/es",
-                           "title": "Gitmagic"
+                           "title": "Gitmagic",
+                           "author": "Ben Lynn,",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
                         },
                         {
                            "url": "http://git-scm.com/book/es/",
-                           "title": "Pro Git"
-                        },
-                        {
-                           "url": "http://git-scm.com/book/es/v2",
-                           "title": "Pro Git v2"
+                           "title": "Pro Git",
+                           "author": "Scott Chacon, Ben Straub,",
+                           "notes": [
+                              "HTML, PDF, EPUB"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -3648,6 +3656,7 @@
                         {
                            "url": "http://svnbook.red-bean.com/nightly/es/index.html",
                            "title": "Control de versiones con Subversion",
+                           "author": "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato",
                            "notes": [
                               "HTML"
                            ]
@@ -3956,7 +3965,13 @@
                   },
                   {
                      "section": "شبکه",
-                     "entries": [],
+                     "entries": [
+                        {
+                           "url": "http://networksciencebook.com",
+                           "title": "علم شبکه",
+                           "author": "آلبرت لازلو باراباسی"
+                        }
+                     ],
                      "subsections": []
                   },
                   {
@@ -4678,12 +4693,18 @@
                         {
                            "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/fr/",
                            "title": "Git Magic",
-                           "author": "Alexandre Garel, Paul Gaborit, Nicolas Deram"
+                           "author": "Ben Lynn,",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
                         },
                         {
-                           "url": "http://www.git-scm.com/book/fr/v2",
+                           "url": "http://www.git-scm.com/book/fr/",
                            "title": "Pro Git",
-                           "author": "Scott Chacon, Ben Straub"
+                           "author": "Scott Chacon, Ben Straub",
+                           "notes": [
+                              "HTML, PDF, EPUB"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -5857,11 +5878,19 @@
                      "entries": [
                         {
                            "url": "https://github.com/petanikode/belajar-git",
-                           "title": "Belajar Git untuk Pemula"
+                           "title": "Belajar Git untuk Pemula",
+                           "author": "Ahmad Muhardian, Petani Kode",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://git-scm.com/book/id/v2",
-                           "title": "Pro Git 2nd Edition"
+                           "url": "https://git-scm.com/book/id/",
+                           "title": "Pro Git 2nd Edition",
+                           "author": "Scott Chacon, Ben Straub",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -6350,7 +6379,18 @@
                               {
                                  "url": "https://svnbook.red-bean.com/index.it.html",
                                  "title": "Controllo di Versione con Subversion",
-                                 "author": "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato"
+                                 "author": "Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato",
+                                 "notes": [
+                                    "HTML, PDF"
+                                 ]
+                              },
+                              {
+                                 "url": "https://git-scm.com/book/it",
+                                 "title": "Pro Git",
+                                 "author": "Scott Chacon, Ben Straub",
+                                 "notes": [
+                                    "HTML, PDF, EPUB"
+                                 ]
                               }
                            ]
                         },
@@ -6585,19 +6625,6 @@
                         }
                      ],
                      "subsections": [
-                        {
-                           "section": "Git",
-                           "entries": [
-                              {
-                                 "url": "https://git-scm.com/book/it",
-                                 "title": "Pro Git",
-                                 "author": "Scott Chacon, Ben Straub",
-                                 "notes": [
-                                    "HTML, PDF, EPUB"
-                                 ]
-                              }
-                           ]
-                        },
                         {
                            "section": "NoSQL",
                            "entries": [
@@ -8126,9 +8153,9 @@
                         {
                            "url": "https://rogerdudler.github.io/git-guide/index.ja.html",
                            "title": "git - 簡単ガイド",
-                           "author": "Roger Dudler, @nacho4d",
+                           "author": "Roger Dudler,",
                            "notes": [
-                              "翻訳"
+                              "HTML"
                            ]
                         },
                         {
@@ -8139,18 +8166,16 @@
                         {
                            "url": "https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ja.md",
                            "title": "GitHubカンニング・ペーパー",
-                           "author": "Tim Green, marocchino",
+                           "author": "Tim Green,",
                            "notes": [
-                              "翻訳"
+                              "HTML"
                            ]
                         },
                         {
                            "url": "http://git-scm.com/book/ja/",
                            "title": "Pro Git",
-                           "author": "Scott Chacon, 高木正弘 他",
-                           "notes": [
-                              "翻訳"
-                           ],
+                           "author": "Scott Chacon,",
+                           "notes": [],
                            "manualReviewRequired": true
                         },
                         {
@@ -8171,10 +8196,7 @@
                         {
                            "url": "https://marklodato.github.io/visual-git-guide/index-ja.html",
                            "title": "図解 Git",
-                           "author": "Mark Lodato, Kazu Yamamoto",
-                           "notes": [
-                              "翻訳"
-                           ]
+                           "author": "Mark Lodato,"
                         }
                      ],
                      "subsections": []
@@ -9699,20 +9721,32 @@
                      "subsections": []
                   },
                   {
-                     "section": "GIT",
+                     "section": "Git",
                      "entries": [
                         {
                            "url": "https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.ko.md",
-                           "title": "깃허브 치트 시트"
+                           "title": "깃허브 치트 시트",
+                           "author": "Tim Green,",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "http://rogerdudler.github.io/git-guide/index.ko.html",
-                           "title": "Git - 간편 안내서"
+                           "url": "https://rogerdudler.github.io/git-guide/index.ko.html",
+                           "title": "Git - 간편 안내서",
+                           "author": "Roger Dudler,",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://git-scm.com/book/ko/v2",
+                           "url": "https://git-scm.com/book/ko/",
                            "title": "Pro Git 한글 번역",
-                           "author": "최신 버전"
+                           "author": "Scott Chacon, Ben Straub,",
+                           "notes": [
+                              "HTML, PDF, EPUB"
+                           ],
+                           "accessNotes": "최신 버전"
                         }
                      ],
                      "subsections": []
@@ -20334,10 +20368,6 @@
                            "author": "Mariusz Żurawek"
                         },
                         {
-                           "url": "http://git-scm.com/book/pl/",
-                           "title": "Pro Git"
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PLOYHgt8dIdoxOp0wtNk9Sle5WUsBZc6kq",
                            "title": "Programowanie webowe E14"
                         },
@@ -20350,11 +20380,6 @@
                            ]
                         },
                         {
-                           "url": "https://pl.wikibooks.org/wiki/Subversion",
-                           "title": "SVN",
-                           "author": "Wikibooks"
-                        },
-                        {
                            "url": "https://www.mimuw.edu.pl/~idziaszek/algonotes/looking-for-a-challenge-2-pl.pdf",
                            "title": "W poszukiwaniu wyzwań 2",
                            "author": "Zadania z AMPPZ 2011–2014",
@@ -20363,7 +20388,26 @@
                            ]
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Version Control Systems",
+                           "entries": [
+                              {
+                                 "url": "https://git-scm.com/book/pl/",
+                                 "title": "Pro Git",
+                                 "author": "Scott Chacon, Ben Straub, et al.",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
+                                 "url": "https://pl.wikibooks.org/wiki/Subversion",
+                                 "title": "SVN",
+                                 "author": "Wikibooks"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Android",
@@ -21233,21 +21277,33 @@
                      "section": "Git",
                      "entries": [
                         {
-                           "url": "http://rogerdudler.github.io/git-guide/index.pt_BR.html",
-                           "title": "Git - guia prático"
+                           "url": "https://rogerdudler.github.io/git-guide/index.pt_BR.html",
+                           "title": "Git - guia prático",
+                           "author": "Roger Dudler",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/pt_br/",
-                           "title": "Git Magic"
+                           "title": "Git Magic",
+                           "author": "Ben Lynn,",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
                         },
                         {
                            "url": "https://github.com/ltiaunesp/Git-Minicurso",
                            "title": "Minicurso - Controle de Versão usando o Git",
-                           "author": "LTIA UNESP"
+                           "author": "LTIA UNESP, Marcelo Augusto Cordeiro"
                         },
                         {
                            "url": "http://git-scm.com/book/pt-br/",
-                           "title": "Pro Git"
+                           "title": "Pro Git",
+                           "author": "Scott Chacon, Ben Straub, et al.",
+                           "notes": [
+                              "HTML, PDF, EPUB"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -22572,20 +22628,34 @@
                         {
                            "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru",
                            "title": "Волшебство Git",
-                           "author": "Ben Lynn"
+                           "author": "Ben Lynn,",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "http://rogerdudler.github.io/git-guide/index.ru.html",
-                           "title": "Простое руководство по работе с Git"
+                           "url": "https://rogerdudler.github.io/git-guide/index.ru.html",
+                           "title": "Простое руководство по работе с Git",
+                           "author": "Roger Dudler,",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "http://proselyte.net/tutorials/git",
+                           "url": "https://proselyte.net/tutorials/git",
                            "title": "Руководство по Git",
-                           "author": "Евгений Сулейманов"
+                           "author": "Евгений Сулейманов",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "http://git-scm.com/book/ru/v2",
-                           "title": "Pro Git"
+                           "url": "http://git-scm.com/book/ru/",
+                           "title": "Pro Git",
+                           "author": "Scott Chacon, Ben Straub, et al.",
+                           "notes": [
+                              "HTML, PDF, EPUB, Kindle"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -23777,7 +23847,61 @@
                   },
                   {
                      "section": "Unix",
-                     "entries": [],
+                     "entries": [
+                        {
+                           "url": "http://lib.ru/BACH",
+                           "title": "Архитектура операционной системы Unix",
+                           "author": "Maurice J. Bach,"
+                        },
+                        {
+                           "url": "http://lib.ru/unixhelp",
+                           "title": "Введение в системное администрирование UNIX",
+                           "author": "Мошков Максим Евгеньевич"
+                        },
+                        {
+                           "url": "http://www.opennet.ru/docs/RUS/lki",
+                           "title": "Внутреннее устройство Ядра Linux 2.4",
+                           "author": "Tigran Aivazian"
+                        },
+                        {
+                           "url": "http://man-pages-ru.sourceforge.net",
+                           "title": "Перевод Linux kernel and C library."
+                        },
+                        {
+                           "url": "http://www.opennet.ru/docs/RUS/zlp",
+                           "title": "Программирование в Linux с нуля",
+                           "author": "Nikolay N. Ivanov"
+                        },
+                        {
+                           "url": "http://www.opennet.ru/docs/RUS/Lpg",
+                           "title": "Руководство программиста для Linux",
+                           "author": "Sven Goldt, Matt Welsh"
+                        },
+                        {
+                           "url": "http://www.opennet.ru/docs/RUS/lpg",
+                           "title": "Энциклопедия программиста Linux",
+                           "author": "Алексей Паутов"
+                        },
+                        {
+                           "url": "http://www.opennet.ru/docs/RUS/lkmpg",
+                           "title": "Энциклопедия разработчика модулей ядра Linux",
+                           "author": "Ori Pomerantz"
+                        },
+                        {
+                           "url": "http://rus-linux.net/nlib.php?name=/MyLDP/BOOKS/BLFS-ru/blfs-ru-index.html",
+                           "title": "Beyond Linux From Scratch (version 2011-12-30)",
+                           "author": "The BLFS Development Team,"
+                        },
+                        {
+                           "url": "http://rus-linux.net/nlib.php?name=/MyLDP/BOOKS/LFS-BOOK-6.8-ru/lfs-6.8-ru-index.html",
+                           "title": "Linux From Scratch (version 6.8)"
+                        },
+                        {
+                           "url": "http://www.opennet.ru/docs/RUS/lkmpg26",
+                           "title": "The Linux Kernel Module Programming Guide",
+                           "author": "Peter Jay Salzman, Michael Burian, Ori Pomerantz"
+                        }
+                     ],
                      "subsections": []
                   }
                ]
@@ -27859,7 +27983,10 @@
                         {
                            "url": "http://rogerdudler.github.io/git-guide/",
                            "title": "git - the simple guide",
-                           "author": "Roger Dudler"
+                           "author": "Roger Dudler",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://git.seveas.net/about.html",
@@ -27881,7 +28008,11 @@
                         },
                         {
                            "url": "http://gitimmersion.com",
-                           "title": "Git Immersion"
+                           "title": "Git Immersion",
+                           "author": "Jim Weirich",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://cbx33.github.io/gitt/index.html",
@@ -27899,7 +28030,10 @@
                         {
                            "url": "http://www-cs-students.stanford.edu/~blynn/gitmagic/",
                            "title": "Git Magic",
-                           "author": "Ben Lynn, et al."
+                           "author": "Ben Lynn, et al.",
+                           "notes": [
+                              "HTML, PDF, EPUB"
+                           ]
                         },
                         {
                            "url": "http://goalkicker.com/GitBook",
@@ -27917,6 +28051,7 @@
                         {
                            "url": "https://web.archive.org/web/20170602211147/http://gitref.org/",
                            "title": "Git Reference",
+                           "author": "The GitHub team",
                            "accessNotes": ":card_file_box: archived"
                         },
                         {
@@ -27999,9 +28134,12 @@
                            "author": "Bryan O'Sullivan"
                         },
                         {
-                           "url": "http://git-scm.com/book/en/v2",
+                           "url": "http://git-scm.com/book/en/",
                            "title": "Pro Git",
-                           "author": "Scott Chacon"
+                           "author": "Scott Chacon, Ben Straub",
+                           "notes": [
+                              "HTML, PDF, EPUB, Kindle"
+                           ]
                         },
                         {
                            "url": "https://leanpub.com/progitreedited/read",
@@ -28461,14 +28599,20 @@
                      "section": "Git",
                      "entries": [
                         {
-                           "url": "https://www.rogerdudler.github.io/git-guide/index.tr.html",
+                           "url": "https://rogerdudler.github.io/git-guide/index.tr.html",
                            "title": "git - basit rehber",
-                           "author": "Roger Dudler"
+                           "author": "Roger Dudler",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
-                           "url": "https://www.gitbook.com/book/aliozgur/git101/details",
+                           "url": "https://aliozgur.gitbooks.io/git101/",
                            "title": "Git 101",
-                           "author": "Ali Özgür"
+                           "author": "Ali Özgür",
+                           "notes": [
+                              "GitBook"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -29491,6 +29635,24 @@
                         {
                            "url": "http://hukai.me/android-training-course-in-chinese/index.html",
                            "title": "Google Android官方培训课程中文版"
+                        },
+                        {
+                           "url": "https://wcc723.gitbooks.io/google_design_translate/content/style-icons.html",
+                           "title": "Google Material Design 正體中文版",
+                           "author": "Tillonter, 陳世能, Sean Chen, et al."
+                        },
+                        {
+                           "url": "https://github.com/1sters/material_design_zh",
+                           "title": "Google Material Design 中文协同翻译",
+                           "author": "1sters 极客实验室, 四勾 4J, IceskYsl, et al."
+                        },
+                        {
+                           "url": "http://wiki.jikexueyuan.com/project/material-design/",
+                           "title": "Material Design 中文版"
+                        },
+                        {
+                           "url": "https://github.com/FX-Max/Point-of-Android",
+                           "title": "Point-of-Android"
                         }
                      ],
                      "subsections": []
@@ -32653,7 +32815,7 @@
                         },
                         {
                            "url": "https://podcastinit.com",
-                           "title": "Podcast.",
+                           "title": "Podcast.__init__",
                            "author": "Tobias Macey",
                            "notes": [
                               "podcast"
@@ -48105,6 +48267,14 @@
                      "section": "Lua",
                      "entries": [
                         {
+                           "url": "https://youtube.com/playlist?list=PLa4jh645PxpfOYT5bNkim9yoevX8dCYpt",
+                           "title": "Curso de Programação Lua",
+                           "author": "Techiesse",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLqYboeh3Jru55Yq4J08zsBoOwwwjUtZNA",
                            "title": "Introdução a Programação com Lua",
                            "author": "Alfred R. Baudisch",
@@ -48550,14 +48720,6 @@
                            "author": "Canal Geek Dev",
                            "notes": [
                               "YouTube"
-                           ]
-                        },
-                        {
-                           "url": "https://app.rocketseat.com.br/node/curso-react-native",
-                           "title": "Curso do React Native implementando CRUD",
-                           "author": "",
-                           "notes": [
-                              "Rocketseat"
                            ]
                         }
                      ],
@@ -51481,6 +51643,14 @@
                                  "url": "https://www.codecademy.com/learn/react-101/modules/react-101-jsx-u/cheatsheet",
                                  "title": "React Cheatsheet",
                                  "author": "Codecademy",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
+                                 "url": "https://upmostly.com/ultimate-reactjs-cheat-sheet",
+                                 "title": "Ultimate React.js Cheat Sheet",
+                                 "author": "Upmostly.com",
                                  "notes": [
                                     "HTML"
                                  ]
