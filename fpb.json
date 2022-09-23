@@ -18663,7 +18663,11 @@
                         },
                         {
                            "url": "http://doc.rust-lang.org/book",
-                           "title": "The Rust Programming Language"
+                           "title": "The Rust Programming Language",
+                           "author": "Steve Klabnik, Carol Nichols, et al.",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://rust-lang.github.io/rfcs",
@@ -21913,6 +21917,20 @@
                         {
                            "url": "http://why.carlosbrando.com",
                            "title": "O (comovente) guia de Ruby do Why"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Rust",
+                     "entries": [
+                        {
+                           "url": "https://rust-br.github.io/rust-book-pt-br/title-page.html",
+                           "title": "A Linguagem de Programação Rust",
+                           "author": "Steve Klabnik, Carol Nichols,",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
