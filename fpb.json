@@ -2252,8 +2252,9 @@
                            "author": "Javier García Escobedo"
                         },
                         {
-                           "url": "https://github.com/DpdC/gitbook-biblioteca-impresionante-en-espanol#gitbook---biblioteca-de-libros-en-español--",
+                           "url": "https://github.com/rosepac/gitbook-biblioteca-impresionante-en-espanol#gitbook---gu%C3%ADas-creadas-en-gitbook-en-espa%C3%B1ol",
                            "title": "Gitbook - Libros útiles en español",
+                           "author": "Pablo Alvarez Corredera",
                            "notes": [
                               "GitHub"
                            ]
@@ -2261,7 +2262,7 @@
                         {
                            "url": "http://elvex.ugr.es",
                            "title": "Múltiples Cursos y Enlaces de Tecnología Informática",
-                           "author": "Fernando Berzal"
+                           "author": "Fernando Berzal Galiano"
                         },
                         {
                            "url": "https://openlibra.com/es/collection",
@@ -2284,6 +2285,7 @@
                               {
                                  "url": "http://www.eduteka.org/pdfdir/AlgoritmosProgramacion.pdf",
                                  "title": "Algoritmos y Programación (Guía para docentes)",
+                                 "author": "Juan Carlos López García",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2299,6 +2301,7 @@
                               {
                                  "url": "https://openlibra.com/en/book/download/apuntes-de-algoritmos-y-estructuras-de-datos",
                                  "title": "Apuntes de Algoritmos y Estructuras de Datos",
+                                 "author": "Alejandro Santos",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2314,6 +2317,7 @@
                               {
                                  "url": "https://informatica.uv.es/docencia/fguia/TI/Libro/Libro_Fundamentos_Inform_Program.htm",
                                  "title": "Fundamentos de Informática y Programación",
+                                 "author": "Gregorio Martín Quetglás, Francisco Toledo Lobo, Vicente Cerverón Lleó",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -2351,6 +2355,7 @@
                               {
                                  "url": "http://rua.ua.es/dspace/bitstream/10045/2990/1/ApuntesBD1.pdf",
                                  "title": "Apuntes de Base de Datos 1",
+                                 "author": "Eva Gómez Ballester, Patricio Martínez Barco, Paloma Moreda Pozo, Armando Suárez Cueto, Andrés Montoyo Guijarro, Estela Saquete Boro",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2358,7 +2363,7 @@
                               {
                                  "url": "http://www.uoc.edu/masters/oficiales/img/913.pdf",
                                  "title": "Base de Datos (2005)",
-                                 "author": "Mercedes Marqués",
+                                 "author": "Rafael Camps Paré, Luis Alberto Casillas Santillán, Dolors Costal Costa, Marc Gibert Ginestà, Carme Martín Escofet, Oscar Pérez Mora",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2382,6 +2387,7 @@
                               {
                                  "url": "https://openlibra.com/es/book/download/diseno-conceptual-de-bases-de-datos",
                                  "title": "Diseño Conceptual de Bases de Datos",
+                                 "author": "Jorge Sánchez",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2438,6 +2444,7 @@
                               {
                                  "url": "https://web.archive.org/web/20150824055042/http://www.wolnm.org/apa/articulos/Ingenieria_Software.pdf",
                                  "title": "Ingeniería de Software: Una Guía para Crear Sistemas de Información",
+                                 "author": "Alejandro Peña Ayala",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2445,6 +2452,7 @@
                               {
                                  "url": "https://web.archive.org/web/20140209204645/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-agile.pdf",
                                  "title": "Scrum & Extreme Programming (para programadores)",
+                                 "author": "Eugenia Bahit",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2452,7 +2460,7 @@
                               {
                                  "url": "https://scrumlevel.com/files/scrumlevel.pdf",
                                  "title": "Scrum Level",
-                                 "author": "Scrum Manager",
+                                 "author": "Juan Palacio, Scrum Manager",
                                  "notes": [
                                     "PDF"
                                  ],
@@ -2466,7 +2474,7 @@
                               {
                                  "url": "https://scrummanager.net/files/scrum_master.pdf",
                                  "title": "Scrum Master - Temario troncal 1",
-                                 "author": "Scrum Manager",
+                                 "author": "Marta Palacio, Scrum Manager",
                                  "notes": [
                                     "PDF"
                                  ],
@@ -2480,6 +2488,7 @@
                               {
                                  "url": "http://www.proyectalis.com/wp-content/uploads/2008/02/scrum-y-xp-desde-las-trincheras.pdf",
                                  "title": "Scrum y XP desde las trincheras",
+                                 "author": "Henrik Kniberg,",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2492,6 +2501,7 @@
                               {
                                  "url": "http://97cosas.com/programador/",
                                  "title": "97 cosas que todo programador debería saber",
+                                 "author": "Kevlin Henney,",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -2499,6 +2509,7 @@
                               {
                                  "url": "https://github.com/brunocascio/docker-espanol#docker",
                                  "title": "Docker",
+                                 "author": "Bruno Cascio",
                                  "notes": [
                                     "GitHub"
                                  ]
@@ -2506,6 +2517,7 @@
                               {
                                  "url": "http://emanchado.github.io/camino-mejor-programador/downloads/camino_2013-01-19_0688b6e.html",
                                  "title": "El camino a un mejor programador",
+                                 "author": "Esteban Manchado Velázquez, Joaquín Caraballo Moreno, Yeray Darias Camacho",
                                  "notes": [
                                     "HTML"
                                  ],
@@ -2517,8 +2529,9 @@
                                  ]
                               },
                               {
-                                 "url": "https://www.rediris.es/tecniris/archie/doc//TECNIRIS47-1b.pdf",
+                                 "url": "https://www.rediris.es/tecniris/archie/doc/TECNIRIS47-1b.pdf",
                                  "title": "Introducción a Docker",
+                                 "author": "Benito Cuesta, Salvador González",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2534,6 +2547,7 @@
                               {
                                  "url": "http://libros.metabiblioteca.org/bitstream/001/271/8/Programacion_Videojuegos_SDL.pdf",
                                  "title": "Programación de videojuegos SDL",
+                                 "author": "Alberto García Serrano",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2546,7 +2560,7 @@
                               {
                                  "url": "http://sistop.org/pdf/sistemas_operativos.pdf",
                                  "title": "Fundamentos de Sistemas Operativos",
-                                 "author": "Gunnar Wolf, et al.",
+                                 "author": "Gunnar Wolf, Esteban Ruiz, Federico Bergero, Erwin Meza, et al.",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2554,7 +2568,7 @@
                               {
                                  "url": "http://sistop.gwolf.org/html/biblio/Sistemas_Operativos_-_Luis_La_Red_Martinez.pdf",
                                  "title": "Sistemas Operativos",
-                                 "author": "Dr. David Luis la Red",
+                                 "author": "Dr. David Luis la Red Martinez",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -2597,6 +2611,7 @@
                         {
                            "url": "http://repositori.uji.es/xmlui/bitstream/handle/10234/24306/s29.pdf",
                            "title": "Introducción a la programación con C",
+                           "author": "Andrés Marzal, Isabel Gracia",
                            "notes": [
                               "PDF",
                               "descarga directa"
@@ -2611,6 +2626,7 @@
                         {
                            "url": "https://web.archive.org/web/20100701020037/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/avanzado/cppavan.pdf",
                            "title": "Aprenda C++ avanzado como si estuviera en primero",
+                           "author": "Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola, Iñigo Lazcano",
                            "notes": [
                               "PDF"
                            ]
@@ -2618,6 +2634,7 @@
                         {
                            "url": "https://web.archive.org/web/20100701020025/http://www.tecnun.es/asignaturas/Informat1/AyudaInf/aprendainf/cpp/basico/cppbasico.pdf",
                            "title": "Aprenda C++ básico como si estuviera en primero",
+                           "author": "Paul Bustamante, Iker Aguinaga, Miguel Aybar, Luis Olaizola, Iñigo Lazcano",
                            "notes": [
                               "PDF"
                            ]
@@ -2625,6 +2642,7 @@
                         {
                            "url": "http://antares.sip.ucm.es/cpareja/libroCPP/",
                            "title": "Ejercicios de programación creativos y recreativos en C++",
+                           "author": "Luis Llana, Carlos Gregorio, Raquel Martínez, Pedro Palao, Cristóbal Pareja",
                            "notes": [
                               "HTML"
                            ]
@@ -2726,6 +2744,7 @@
                         {
                            "url": "http://www.cs.us.es/~jalonso/publicaciones/Piensa_en_Haskell.pdf",
                            "title": "Piensa en Haskell (ejercicios de programación funcional)",
+                           "author": "José A. Alonso Jiménez, Mª José Hidalgo Doblado",
                            "notes": [
                               "PDF"
                            ]
@@ -2748,7 +2767,7 @@
                         {
                            "url": "http://librosweb.es/libro/css_avanzado",
                            "title": "CSS avanzado",
-                           "author": "Javier Eguíluz",
+                           "author": "Javier Eguíluz Pérez",
                            "notes": [
                               "HTML"
                            ],
@@ -2762,6 +2781,7 @@
                         {
                            "url": "https://openlibra.com/es/book/download/css3-y-javascript-avanzado",
                            "title": "CSS3 y JavaScript avanzado",
+                           "author": "Jordi Collell Puig",
                            "notes": [
                               "PDF"
                            ]
@@ -2769,6 +2789,7 @@
                         {
                            "url": "http://interfacesweb.github.io/unidades/",
                            "title": "Diseño de Interfaces Web",
+                           "author": "Pedro Prieto",
                            "notes": [
                               "HTML"
                            ]
@@ -2776,14 +2797,15 @@
                         {
                            "url": "https://freeditorial.com/es/books/el-gran-libro-del-diseno-web",
                            "title": "El gran libro del diseño web",
-                           "author": "Rither Cobeña C [",
+                           "author": "Rither Cobeña C",
                            "notes": [
-                              "PDF, EPUB"
+                              "HTML, PDF, EPUB, Kindle"
                            ]
                         },
                         {
                            "url": "http://es.learnlayout.com",
                            "title": "Estructura con CSS",
+                           "author": "Greg Smith, Isaac Durazo,",
                            "notes": [
                               "HTML"
                            ]
@@ -2791,7 +2813,7 @@
                         {
                            "url": "https://openlibra.com/es/book/download/guia-completa-de-css3",
                            "title": "Guía Completa de CSS3",
-                           "author": "Antonio Navajas",
+                           "author": "Antonio Navajas Ojeda",
                            "notes": [
                               "PDF"
                            ]
@@ -2807,7 +2829,7 @@
                         {
                            "url": "http://librosweb.es/libro/css/",
                            "title": "Introducción a CSS",
-                           "author": "Javier Eguíluz",
+                           "author": "Javier Eguíluz Pérez",
                            "notes": [
                               "HTML"
                            ],
@@ -2827,6 +2849,7 @@
                         {
                            "url": "https://openlibra.com/es/book/download/aprendiendo-java-y-poo",
                            "title": "Aprendiendo Java y POO (2008)",
+                           "author": "Gustavo Guillermo Pérez",
                            "notes": [
                               "PDF"
                            ]
@@ -2842,6 +2865,7 @@
                         {
                            "url": "http://www3.uji.es/~belfern/libroJava.pdf",
                            "title": "Desarrollo de proyectos informáticos con Java",
+                           "author": "Óscar Belmonte Fernández, Carlos Granell Canut, María del Carmen Erdozain Navarro, et al.",
                            "notes": [
                               "PDF"
                            ]
@@ -2849,7 +2873,7 @@
                         {
                            "url": "https://www.arkaitzgarro.com/java/",
                            "title": "Ejercicios de Programación en Java",
-                           "author": "F.M. Pérez Montes",
+                           "author": "Arkaitz Garro, Javier Eguíluz Pérez, A. García-Beltrán, J.M. Arranz",
                            "notes": [
                               "PDF"
                            ]
@@ -2872,19 +2896,16 @@
                         {
                            "url": "https://picodotdev.github.io/blog-bitix/assets/custom/PlugInTapestry.pdf",
                            "title": "PlugIn Apache Tapestry: desarrollo de aplicaciones y páginas web",
+                           "author": "picodotdev",
                            "notes": [
                               "PDF"
                            ],
-                           "otherLinks": [
-                              {
-                                 "title": "ePub, Mobi, HTML",
-                                 "url": "https://picodotdev.github.io/blog-bitix/2014/02/libro-sobre-desarrollo-de-aplicaciones-con-apache-tapestry/"
-                              }
-                           ]
+                           "manualReviewRequired": true
                         },
                         {
                            "url": "https://openlibra.com/es/book/download/practicas-de-java",
                            "title": "Prácticas de Java (2009)",
+                           "author": "Gorka Prieto Agujeta, et al.",
                            "notes": [
                               "PDF"
                            ]
@@ -2906,6 +2927,7 @@
                         {
                            "url": "http://elvex.ugr.es/decsai/java/",
                            "title": "Programación en Java",
+                           "author": "Fernando Berzal Galiano",
                            "notes": [
                               "HTML"
                            ]
@@ -2913,6 +2935,7 @@
                         {
                            "url": "http://static1.1.sqspcdn.com/static/f/923743/14770633/1416082087870/JavaEE.pdf",
                            "title": "Tutorial básico de Java EE",
+                           "author": "Abraham Otero",
                            "notes": [
                               "PDF"
                            ]
@@ -2934,6 +2957,7 @@
                         {
                            "url": "https://es.javascript.info",
                            "title": "El Tutorial de JavaScript Moderno",
+                           "author": "Ilya Kantor, Elizabeth Portilla, joaquinelio, Ezequiel Castellanos, et al.",
                            "notes": [
                               "HTML"
                            ]
@@ -2948,6 +2972,7 @@
                         {
                            "url": "http://librosweb.es/libro/ajax",
                            "title": "Introducción a AJAX",
+                           "author": "Javier Eguíluz Pérez",
                            "notes": [
                               "HTML"
                            ],
@@ -2961,6 +2986,7 @@
                         {
                            "url": "http://librosweb.es/libro/javascript",
                            "title": "Introducción a JavaScript",
+                           "author": "Javier Eguíluz Pérez",
                            "notes": [
                               "HTML"
                            ],
@@ -2974,6 +3000,7 @@
                         {
                            "url": "http://bonsaiden.github.io/JavaScript-Garden/es",
                            "title": "Jardín de JavaScript",
+                           "author": "Ivo Wetzel,",
                            "notes": [
                               "HTML"
                            ]
@@ -2981,6 +3008,7 @@
                         {
                            "url": "https://leanpub.com/javascript-inspirate",
                            "title": "JavaScript, ¡Inspírate!",
+                           "author": "Ulises Gascón González",
                            "notes": [
                               "Leanpub cuenta requerida"
                            ]
@@ -2988,6 +3016,7 @@
                         {
                            "url": "https://jsparagatos.com",
                            "title": "JavaScript Para Gatos",
+                           "author": "Maxwell Ogden,",
                            "notes": [
                               "HTML"
                            ]
@@ -3016,8 +3045,7 @@
                                  "title": "AngularJS",
                                  "author": "Elad Rodriguez",
                                  "notes": [
-                                    "HTML",
-                                    "Gitbook"
+                                    "HTML"
                                  ]
                               },
                               {
@@ -3044,6 +3072,7 @@
                               {
                                  "url": "http://gcoch.github.io/D3-tutorial/index.html",
                                  "title": "Tutorial de D3",
+                                 "author": "Scott Murray,",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -3056,6 +3085,7 @@
                               {
                                  "url": "https://librosweb.es/libro/fundamentos_jquery",
                                  "title": "Fundamentos de jQuery",
+                                 "author": "Rebecca Murphey,",
                                  "notes": [
                                     "HTML"
                                  ],
@@ -3069,8 +3099,9 @@
                               {
                                  "url": "http://mundosica.github.io/tutorial_hispano_jQuery/",
                                  "title": "Manual de jQuery",
+                                 "author": "MundoSICA, et al.",
                                  "notes": [
-                                    "HTML"
+                                    "HTML, PDF"
                                  ]
                               }
                            ]
@@ -3080,7 +3111,11 @@
                            "entries": [
                               {
                                  "url": "http://nodejskoans.com",
-                                 "title": "Introducción a Node.js a través de Koans"
+                                 "title": "Introducción a Node.js a través de Koans",
+                                 "author": "Arturo Muñoz de la Torre",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               }
                            ]
                         },
@@ -3090,7 +3125,7 @@
                               {
                                  "url": "https://leanpub.com/react-redux/read",
                                  "title": "Desarrollo de Aplicaciones Web con React.js y Redux.js",
-                                 "author": "Sergio Xalambrí",
+                                 "author": "Sergio Daniel Xalambrí",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -3113,6 +3148,7 @@
                         {
                            "url": "http://osl.ugr.es/CTAN/info/lshort/spanish/lshort-a4.pdf",
                            "title": "La introducción no-tan-corta a LaTeX 2ε",
+                           "author": "Tobias Oetiker, Hubert Partl, Irene Hyna, Elisabeth Schlegl,",
                            "notes": [
                               "PDF"
                            ]
@@ -3133,6 +3169,7 @@
                         {
                            "url": "https://web.archive.org/web/20150307181233/http://library.originalhacker.org:80/biblioteca/articulo/ver/123",
                            "title": "BASH Scripting Avanzado: Utilizando Declare para definición de tipo",
+                           "author": "Eugenia Bahit",
                            "notes": [
                               "descarga directa"
                            ]
@@ -3145,14 +3182,9 @@
                         {
                            "url": "https://debian-handbook.info/browse/es-ES/stable/",
                            "title": "El Manual del Administrador de Debian",
+                           "author": "Raphaël Hertzog, Roland Mas",
                            "notes": [
                               "HTML"
-                           ],
-                           "otherLinks": [
-                              {
-                                 "title": "PDF, ePub, Mobi",
-                                 "url": "https://debian-handbook.info/get/now/"
-                              }
                            ]
                         }
                      ],
@@ -3188,6 +3220,7 @@
                         {
                            "url": "http://dis.um.es/~bmoros/privado/bibliografia/LibroCsharp.pdf",
                            "title": "El lenguaje de programación C#",
+                           "author": "José Antonio González Seco",
                            "notes": [
                               "PDF"
                            ]
@@ -3195,6 +3228,7 @@
                         {
                            "url": "https://blogs.msdn.microsoft.com/cesardelatorre/2010/03/11/nuestro-nuevo-libro-guia-de-arquitectura-n-capas-ddd-net-4-0-y-aplicacion-ejemplo-en-disponibles-para-download-en-msdn-y-codeplex",
                            "title": "Guía de Arquitectura N-capas Orientadas al Dominio",
+                           "author": "Cesar De la Torre",
                            "notes": [
                               "HTML"
                            ]
@@ -3211,16 +3245,17 @@
                            "entries": [
                               {
                                  "url": "https://github.com/uokesita/the-little-mongodb-book",
-                                 "title": "El pequeño libro MongoDB"
+                                 "title": "El pequeño libro MongoDB",
+                                 "author": "Karl Seguin,"
                               },
                               {
                                  "url": "https://dpdc.gitbooks.io/mongodb-en-espanol-tomo-1/content",
                                  "title": "MongoDB en español: T1, El principio",
-                                 "author": "Yohan Graterol",
+                                 "author": "Yohan D. Graterol",
                                  "notes": [
-                                    "Gitbook",
-                                    ":construction: *en proceso*"
-                                 ]
+                                    "HTML"
+                                 ],
+                                 "accessNotes": ":construction: en proceso"
                               }
                            ]
                         },
@@ -3253,6 +3288,7 @@
                         {
                            "url": "https://web.archive.org/web/20140209203630/http://www.cursosdeprogramacionadistancia.com/static/pdf/material-sin-personalizar-php.pdf",
                            "title": "Manual de estudio introductorio al lenguaje PHP procedural",
+                           "author": "Eugenia Bahit",
                            "notes": [
                               "PDF"
                            ]
@@ -3260,6 +3296,7 @@
                         {
                            "url": "https://styde.net/php-y-programacion-orientada-a-objetos/",
                            "title": "PHP y Programación orientada a objetos",
+                           "author": "Duilio Palacios",
                            "notes": [
                               "HTML"
                            ]
@@ -3275,6 +3312,7 @@
                         {
                            "url": "http://rua.ua.es/dspace/bitstream/10045/13176/9/04-ajaxphp.pdf",
                            "title": "Programación web avanzada: Ajax y Google Maps",
+                           "author": "Sergio Luján Mora, Universidad de Colima",
                            "notes": [
                               "PDF"
                            ]
@@ -3282,6 +3320,7 @@
                         {
                            "url": "http://librosweb.es/libro/silex",
                            "title": "Silex, el manual oficial",
+                           "author": "Igor Wiedler,",
                            "notes": [
                               "HTML"
                            ]
@@ -3289,6 +3328,7 @@
                         {
                            "url": "http://librosweb.es/libro/symfony_1_4",
                            "title": "Symfony 1.4, la guía definitiva",
+                           "author": "Fabien Potencier, François Zaninotto,",
                            "notes": [
                               "HTML"
                            ],
@@ -3302,6 +3342,7 @@
                         {
                            "url": "http://librosweb.es/libro/symfony_2_4/",
                            "title": "Symfony 2.4, el libro oficial",
+                           "author": "Fabien Potencier, Ryan Weaver,",
                            "notes": [
                               "HTML"
                            ],
@@ -3331,6 +3372,7 @@
                         {
                            "url": "http://es.tldp.org/Tutoriales/PERL/tutoperl-print.pdf",
                            "title": "Tutorial Perl",
+                           "author": "Juan Julián Merelo Guervós",
                            "notes": [
                               "PDF"
                            ]
@@ -3345,6 +3387,7 @@
                         {
                            "url": "http://perlenespanol.com/tutoriales/",
                            "title": "Tutoriales de Perl",
+                           "author": "Uriel Lizama",
                            "notes": [
                               "HTML"
                            ]
@@ -3358,6 +3401,7 @@
                         {
                            "url": "https://uzluisf.gitlab.io/piensaperl6/",
                            "title": "Piensa en Perl 6",
+                           "author": "Laurent Rosenfeld, Allen B. Downey,",
                            "notes": [
                               "PDF"
                            ]
@@ -3371,6 +3415,7 @@
                         {
                            "url": "https://argentinaenpython.com/quiero-aprender-python/aprenda-a-pensar-como-un-programador-con-python.pdf",
                            "title": "Aprenda a pensar como un programador (con Python)",
+                           "author": "Allen Downey, Jeffrey Elkner, Chris Meyers,",
                            "notes": [
                               "PDF"
                            ]
@@ -3400,6 +3445,7 @@
                         {
                            "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/inmersionenpython3/inmersionEnPython3.0.11.pdf",
                            "title": "Inmersión en Python 3",
+                           "author": "Mark Pilgrim,",
                            "notes": [
                               "PDF",
                               "descarga directa"
@@ -3408,6 +3454,7 @@
                         {
                            "url": "http://repositori.uji.es/xmlui/bitstream/handle/10234/24305/s23.pdf",
                            "title": "Introducción a la programación con Python",
+                           "author": "Andrés Marzal, Isabel Gracia",
                            "notes": [
                               "PDF"
                            ]
@@ -3415,6 +3462,7 @@
                         {
                            "url": "http://opentechschool.github.io/python-beginners/es_CL/",
                            "title": "Introducción a Programando con Python",
+                           "author": "OpenTechSchool, et al.",
                            "notes": [
                               "HTML"
                            ]
@@ -3422,6 +3470,7 @@
                         {
                            "url": "https://github.com/mgaitan/curso-python-cientifico#curso-de-python-para-ciencias-e-ingenierías",
                            "title": "Python para ciencia e ingeniería",
+                           "author": "Martín Gaitán",
                            "notes": [
                               "GitHub"
                            ]
@@ -3429,6 +3478,7 @@
                         {
                            "url": "http://librosweb.es/libro/python",
                            "title": "Python para principiantes",
+                           "author": "Eugenia Bahit",
                            "notes": [
                               "HTML"
                            ],
@@ -3442,6 +3492,7 @@
                         {
                            "url": "https://launchpadlibrarian.net/18980633/Python%20para%20todos.pdf",
                            "title": "Python para todos",
+                           "author": "Raúl González Duque",
                            "notes": [
                               "PDF"
                            ]
@@ -3475,6 +3526,7 @@
                               {
                                  "url": "http://www.web2py.com/books/default/chapter/41",
                                  "title": "Web2py - Manual de Referencia Completo, 5a Edición",
+                                 "author": "Massimo Di Pierro,",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -3489,13 +3541,15 @@
                         {
                            "url": "http://rubysur.org/aprende.a.programar",
                            "title": "Aprende a programar con Ruby",
+                           "author": "RubySur",
                            "notes": [
-                              "Gitbook"
+                              "HTML"
                            ]
                         },
                         {
                            "url": "https://github.com/alemohamad/ruby-style-guide/blob/master/README-esLA.md#preludio",
                            "title": "La Guía de Estilos de Ruby",
+                           "author": "Ale Mohamad",
                            "notes": [
                               "GitHub"
                            ]
@@ -3510,6 +3564,7 @@
                         {
                            "url": "http://rubytutorial.wikidot.com/introduccion",
                            "title": "Ruby tutorial o cómo pasar un buen rato programando",
+                           "author": "Andrés Suárez García",
                            "notes": [
                               "HTML"
                            ]
@@ -3522,8 +3577,9 @@
                               {
                                  "url": "http://rubysur.org/introduccion.a.rails/",
                                  "title": "Introducción a Rails",
+                                 "author": "RubySur",
                                  "notes": [
-                                    "Gitbook"
+                                    "HTML"
                                  ]
                               }
                            ]
@@ -3536,6 +3592,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/Risk-Cartas-sobre-Estadistica.pdf",
                            "title": "Cartas sobre Estadística de la Revista Argentina de Bioingeniería",
+                           "author": "Marcelo R. Risk",
                            "notes": [
                               "PDF"
                            ]
@@ -3543,6 +3600,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/Rivera-Tutorial_Sweave.pdf",
                            "title": "Generación automática de reportes con R y LaTeX",
+                           "author": "Mario Alfonso Morales Rivera",
                            "notes": [
                               "PDF"
                            ]
@@ -3550,6 +3608,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/grafi3.pdf",
                            "title": "Gráficos Estadísticos con R",
+                           "author": "Juan Carlos Correa, Nelfi González",
                            "notes": [
                               "PDF"
                            ]
@@ -3557,6 +3616,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf",
                            "title": "Introducción a R",
+                           "author": "R Development Core Team,",
                            "notes": [
                               "PDF"
                            ]
@@ -3564,6 +3624,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/curso-R.Diaz-Uriarte.pdf",
                            "title": "Introducción al uso y programación del sistema estadístico R",
+                           "author": "Ramón Díaz-Uriarte",
                            "notes": [
                               "PDF"
                            ]
@@ -3571,6 +3632,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/Saez-Castillo-RRCmdrv21.pdf",
                            "title": "Métodos Estadísticos con R y R Commander",
+                           "author": "Antonio José Sáez Castillo",
                            "notes": [
                               "PDF"
                            ]
@@ -3578,6 +3640,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/Optimizacion_Matematica_con_R_Volumen_I.pdf",
                            "title": "Optimización Matemática con R: Volúmen I",
+                           "author": "Enrique Gabriel Baquela, Andrés Redchuk",
                            "notes": [
                               "PDF"
                            ]
@@ -3585,6 +3648,7 @@
                         {
                            "url": "http://cran.r-project.org/doc/contrib/rdebuts_es.pdf",
                            "title": "R para Principiantes",
+                           "author": "Michel Schinz, Philipp Haller,",
                            "notes": [
                               "PDF"
                            ]
@@ -3598,6 +3662,7 @@
                         {
                            "url": "http://www.scala-lang.org/docu/files/ScalaTutorial-es_ES.pdf",
                            "title": "Manual de Scala para programadores Java",
+                           "author": "Emmanuel Paradis,",
                            "notes": [
                               "PDF"
                            ]
@@ -3605,7 +3670,8 @@
                         {
                            "url": "https://github.com/ErunamoJAZZ/ScalaByExample-es",
                            "title": "Scala con Ejemplos",
-                           "accessNotes": ":construction: En proceso"
+                           "author": "Martin Odersky,",
+                           "accessNotes": ":construction: en proceso"
                         }
                      ],
                      "subsections": []
@@ -3616,13 +3682,15 @@
                         {
                            "url": "https://github.com/programamos/GuiaScratch",
                            "title": "Informática Creativa",
+                           "author": "Karen Brennan, Christan Balch, Michelle Chung,",
                            "notes": [
                               "PDF"
                            ]
                         },
                         {
-                           "url": "https://lsi.vc.ehu.es/pablogn/docencia/FdI/Scratch/Aprenda%20a%20programar%20con%20Scratch%20en%20un%20par%20de%20tardes.pdf",
+                           "url": "http://lsi.vc.ehu.es/pablogn/docencia/FdI/Scratch/Aprenda%20a%20programar%20con%20Scratch%20en%20un%20par%20de%20tardes.pdf",
                            "title": "Manual de Scratch 2",
+                           "author": "Pablo González Nalda",
                            "notes": [
                               "PDF"
                            ]
@@ -3636,6 +3704,7 @@
                         {
                            "url": "http://jorgesanchez.net/manuales/sql/intro-sql-sql2016.html",
                            "title": "Manual de SQL",
+                           "author": "Jorge Sanchez Asenjo",
                            "notes": [
                               "HTML"
                            ]
@@ -3670,7 +3739,7 @@
                         {
                            "url": "https://riptutorial.com/Download/typescript-es.pdf",
                            "title": "Aprendizaje TypeScript",
-                           "author": "riptutorial",
+                           "author": "Compiled from StackOverflow Documentation",
                            "notes": [
                               "PDF"
                            ]
@@ -3680,8 +3749,7 @@
                            "title": "Introduccion a TypeScript",
                            "author": "Emmanuel Valverde Ramos",
                            "notes": [
-                              "HTML",
-                              "GitBook"
+                              "HTML"
                            ]
                         },
                         {
@@ -3689,8 +3757,7 @@
                            "title": "TypeScript Deep Dive",
                            "author": "Basarat Ali Syed,",
                            "notes": [
-                              "HTML",
-                              "GitBook"
+                              "HTML"
                            ]
                         },
                         {
@@ -3711,8 +3778,7 @@
                                  "title": "Angular 2",
                                  "author": "Raúl López",
                                  "notes": [
-                                    "HTML",
-                                    "Gitbook"
+                                    "HTML"
                                  ]
                               },
                               {
@@ -3720,14 +3786,13 @@
                                  "title": "Aprendiendo Angular",
                                  "author": "Vanessa Aristizabal",
                                  "notes": [
-                                    "HTML",
-                                    "Gitbook"
+                                    "HTML"
                                  ]
                               },
                               {
                                  "url": "https://riptutorial.com/Download/angular-es.pdf",
                                  "title": "Aprendizaje Angular",
-                                 "author": "riptutorial",
+                                 "author": "Compiled from StackOverflow Documentation",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -3735,7 +3800,7 @@
                               {
                                  "url": "https://riptutorial.com/Download/angular-2-es.pdf",
                                  "title": "Aprendizaje Angular 2",
-                                 "author": "riptutorial",
+                                 "author": "Compiled from StackOverflow Documentation",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -11741,7 +11806,7 @@
                            ],
                            "otherLinks": [
                               {
-                                 "title": "(:card_file_box: ",
+                                 "title": ":card_file_box: _unglued_",
                                  "url": "https://unglue.it/work/489419/"
                               }
                            ]
@@ -14938,6 +15003,30 @@
                               {
                                  "url": "https://reactjs.org/tutorial/tutorial.html",
                                  "title": "React Tutorial"
+                              },
+                              {
+                                 "title": "React Tutorial by Josh Finnie"
+                              },
+                              {
+                                 "url": "https://reactjs.net/getting-started/aspnetcore.html",
+                                 "title": "React with ASP.NET Core Tutorial"
+                              },
+                              {
+                                 "url": "https://codegeekz.com/react-js-tutorial/",
+                                 "title": "React.js Tutorial: Now is Your Time to Try It, Right in Your Browser"
+                              },
+                              {
+                                 "url": "http://survivejs.com",
+                                 "title": "SurviveJS - Webpack and React"
+                              },
+                              {
+                                 "url": "https://flaviocopes.com/page/react-handbook/",
+                                 "title": "The React Beginner's Handbook",
+                                 "author": "Flavio Copes",
+                                 "notes": [
+                                    "PDF, EPUB, Kindle"
+                                 ],
+                                 "accessNotes": "email address requested"
                               }
                            ]
                         },
@@ -29677,7 +29766,18 @@
                   },
                   {
                      "section": "Assembly",
-                     "entries": [],
+                     "entries": [
+                        {
+                           "title": "逆向工程权威指南 《Reverse Engineering for Beginners》 - Dennis Yurichev, Antiy Labs, Archer"
+                        },
+                        {
+                           "url": "https://github.com/3dgen/cppwasm-book/tree/master/zh",
+                           "title": "C/C++面向WebAssembly编程",
+                           "author": "Ending, Chai Shushan",
+                           "notes": [],
+                           "manualReviewRequired": true
+                        }
+                     ],
                      "subsections": []
                   },
                   {
@@ -31619,6 +31719,49 @@
                            "url": "https://www.youtube.com/watch?v=SI-okTfauyw",
                            "title": "Go: An Introduction",
                            "author": "Shane Logsdon",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "title": "Go and AngularJS - Jake Coffman (screencast)"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=CF9S4QZuV30",
+                           "title": "Go Programming Tutorial",
+                           "author": "Derek Banas",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://changelog.com/gotime",
+                           "title": "Go Time",
+                           "author": "Mat Ryer, John Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, Mark Bates, Carmen Andoh, et al. The Changelog team",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://golangshow.com",
+                           "title": "GolangShow",
+                           "author": "Elena Grahovac, Alexey Palazhchenko, Andrew Pogrebnoy, Alexander Morozov, Artem Andreenko",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=yG-UaBJXZ80",
+                           "title": "Hacking with Andrew and Brad: an HTTP/2 client",
+                           "author": "Andrew Gerrand, Brad Fitzpatrick",
+                           "notes": [
+                              "screencast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=1rZ-JorHJEY",
+                           "title": "Hacking with Andrew and Brad: tip.golang.org",
+                           "author": "Andrew Gerrand, Brad Fitzpatrick",
                            "notes": [
                               "screencast"
                            ]
