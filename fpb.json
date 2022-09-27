@@ -8123,10 +8123,6 @@
                      "section": "CoffeeScript",
                      "entries": [
                         {
-                           "url": "http://memo.sappari.org/coffeescript/coffeescript-langref",
-                           "title": "CoffeeScript 言語リファレンス"
-                        },
-                        {
                            "url": "https://blog.bokuweb.me/entry/2015/01/06/190240",
                            "title": "CoffeeScript基礎文法最速マスター",
                            "author": "id:bokuweb"
@@ -27035,6 +27031,15 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://www.satchell.net/ipstacks/",
+                           "title": "Linux IP Stacks Commentary",
+                           "author": "Stephen Satchell, H. B. J. Clifford",
+                           "notes": [
+                              "HTML"
+                           ],
+                           "accessNotes": ":construction: in process"
                         },
                         {
                            "url": "http://networksciencebook.com",
