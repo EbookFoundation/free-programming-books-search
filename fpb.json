@@ -50340,12 +50340,21 @@
                "index": {},
                "sections": [
                   {
+                     "section": "Уровни",
+                     "entries": [],
+                     "subsections": []
+                  },
+                  {
                      "section": "C++",
                      "entries": [
                         {
                            "url": "https://stepik.org/course/67114",
                            "title": "Мова програмування C++",
-                           "author": "Stepik"
+                           "author": "Александр Руденко",
+                           "notes": [
+                              "Stepik",
+                              "BEG"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -50367,6 +50376,15 @@
                            "url": "http://www.vitaliypodoba.com/tutorials/python2-beginners-course/",
                            "title": "Python 2: Курс Молодого Бійця",
                            "author": "Віталій Подоба"
+                        },
+                        {
+                           "url": "https://stepik.org/course/101696",
+                           "title": "Мова програмування Python",
+                           "author": "Александр Руденко",
+                           "notes": [
+                              "Stepik",
+                              "BEG"
+                           ]
                         },
                         {
                            "url": "https://courses.prometheus.org.ua/courses/KPI/Programming101/2015_T1/about",
