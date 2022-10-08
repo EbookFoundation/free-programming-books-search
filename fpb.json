@@ -287,8 +287,9 @@
                      "section": "Operating Systems",
                      "entries": [
                         {
-                           "url": "http://librebooks.org/intro-to-os-analysis-and-design/",
-                           "title": "المقدمة في تحليل وتصميم أنظمة"
+                           "url": "https://librebooks.org/intro-to-os-analysis-and-design/",
+                           "title": "المقدمة في تحليل وتصميم أنظمة",
+                           "author": "Ahmed Lexis"
                         },
                         {
                            "url": "https://academy.hsoub.com/files/24-أنظمة-التشغيل-للمبرمجين/",
@@ -305,8 +306,9 @@
                      "section": "PHP",
                      "entries": [
                         {
-                           "url": "http://librebooks.org/learn-programming-with-php/",
-                           "title": "تعلم البرمجة بلغة PHP"
+                           "url": "https://librebooks.org/learn-programming-with-php/",
+                           "title": "تعلم البرمجة بلغة PHP",
+                           "author": "Ahmed Abu Al-Saud , Abdul Latif Amish"
                         }
                      ],
                      "subsections": []
@@ -332,8 +334,12 @@
                            ]
                         },
                         {
-                           "url": "http://librebooks.org/simply-raspberry-pi/",
-                           "title": "راسبيري باي السهل"
+                           "url": "https://librebooks.org/simply-raspberry-pi/",
+                           "title": "راسبيري باي السهل",
+                           "author": "Abdullah Ali Abdullah",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -342,8 +348,12 @@
                      "section": "Ruby",
                      "entries": [
                         {
-                           "url": "http://librebooks.org/intro-to-ruby/",
-                           "title": "مقدمة في روبي"
+                           "url": "https://librebooks.org/intro-to-ruby/",
+                           "title": "مقدمة في روبي",
+                           "author": "Ahmed Youssef",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -360,7 +370,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.ev-center.com/uploads/2/1/2/6/21261678/scratch.pdf",
+                           "url": "https://www.ev-center.com/uploads/2/1/2/6/21261678/scratch.pdf",
                            "title": "كتاب احترف سكراتش",
                            "notes": [
                               "PDF"
@@ -381,16 +391,21 @@
                            ]
                         },
                         {
-                           "url": "http://librebooks.org/physical-hacking-techniques/",
-                           "title": "تقنيات الاختراق المادي"
+                           "url": "https://librebooks.org/physical-hacking-techniques/",
+                           "title": "تقنيات الاختراق المادي",
+                           "author": "Abdullah Ali Abdullah",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://academy.hsoub.com/files/20-%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A/",
                            "title": "دليل الأمان الرقمي"
                         },
                         {
-                           "url": "http://librebooks.org/security-in-a-box/",
-                           "title": "عُدَّة الأمان الرقمي"
+                           "url": "https://librebooks.org/security-in-a-box/",
+                           "title": "عُدَّة الأمان الرقمي",
+                           "author": "working group"
                         }
                      ],
                      "subsections": []
@@ -399,8 +414,9 @@
                      "section": "SEO",
                      "entries": [
                         {
-                           "url": "http://librebooks.org/search-engine-optimization-seo-starter-guide-ar/",
-                           "title": "تحسين محركات البحث SEO - دليل المبتدئين"
+                           "url": "https://librebooks.org/search-engine-optimization-seo-starter-guide-ar/",
+                           "title": "تحسين محركات البحث SEO - دليل المبتدئين",
+                           "author": "The Google"
                         }
                      ],
                      "subsections": []
@@ -3081,6 +3097,14 @@
                            ]
                         },
                         {
+                           "url": "https://codekommissar.github.io/JavaScript-Elocuente",
+                           "title": "Eloquent JavaScript 3ra edición",
+                           "author": "Marijn Haverbeke",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide",
                            "title": "Guía de JavaScript 'Mozilla'",
                            "notes": [
@@ -3552,6 +3576,13 @@
                            "author": "Sergio Delgado Quintero",
                            "notes": [
                               "HTML, PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://openlibra.com/en/book/download/aprendiendo-a-programar-en-python-con-mi-computador",
+                           "title": "Aprendiendo a Programar en Python con mi Computador",
+                           "notes": [
+                              "PDF"
                            ]
                         },
                         {
@@ -6184,7 +6215,7 @@
                            ]
                         },
                         {
-                           "url": "https://raw.githubusercontent.com/teten777/free-ebook-springboot-basic/master/Memulai%20Java%20Enterprise%20dengan%20Spring%20Boot.pdf",
+                           "url": "https://raw.githubusercontent.com/teten-nugraha/free-ebook-springboot-basic/master/Memulai%20Java%20Enterprise%20dengan%20Spring%20Boot.pdf",
                            "title": "Memulai Java Enterprise dengan Spring Boot",
                            "author": "Teten Nugraha",
                            "notes": [
@@ -6484,7 +6515,16 @@
                   },
                   {
                      "section": "TypeScript",
-                     "entries": [],
+                     "entries": [
+                        {
+                           "url": "https://code.tutsplus.com/id/tutorials/typescript-for-beginners-getting-started--cms-29329",
+                           "title": "TypeScript untuk Pemula, Bagian 1: Memulai",
+                           "author": "Tutsplus",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
                      "subsections": [
                         {
                            "section": "Angular",
@@ -20205,6 +20245,13 @@
                            "title": "TypeScript for C# Programmers"
                         },
                         {
+                           "url": "https://goalkicker.com/TypeScriptBook2/",
+                           "title": "TypeScript Notes for Professionals",
+                           "author": "Compiled from StackOverflow documentation",
+                           "notes": [],
+                           "manualReviewRequired": true
+                        },
+                        {
                            "url": "https://www.syncfusion.com/resources/techportal/ebooks/typescript",
                            "title": "TypeScript Succinctly, Syncfusion",
                            "notes": [
@@ -21376,6 +21423,14 @@
                      "section": "SQL",
                      "entries": [
                         {
+                           "url": "https://mst.mimuw.edu.pl/wyklady/bad/wyklad.pdf",
+                           "title": "Bazy danych",
+                           "author": "Zbigniew Jurkiewicz",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://www.sqlpedia.pl/kurs-sql",
                            "title": "Kurs SQL",
                            "author": "Jakub Kasprzak"
@@ -21719,6 +21774,14 @@
                            "author": "Roger S. Pressman, Bruce R. Maxim",
                            "notes": [
                               "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://engsoftmoderna.info",
+                           "title": "Engenharia de Software Moderna",
+                           "author": "Marco Tulio Valente",
+                           "notes": [
+                              "HTML"
                            ]
                         }
                      ],
@@ -26486,6 +26549,30 @@
                            ]
                         },
                         {
+                           "url": "https://openstax.org/details/books/calculus-volume-1",
+                           "title": "Calculus Volume 1",
+                           "author": "Edwin Herman, Gilbert Strang",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://openstax.org/details/books/calculus-volume-2",
+                           "title": "Calculus Volume 2",
+                           "author": "Edwin Herman, Gilbert Strang",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://openstax.org/details/books/calculus-volume-3",
+                           "title": "Calculus Volume 3",
+                           "author": "Edwin Herman, Gilbert Strang",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://mitpress.ublish.com/ereader/77/?preview#page/Cover",
                            "title": "Category Theory for the Sciences",
                            "author": "David I. Spivak"
@@ -27537,6 +27624,10 @@
                            "accessNotes": ":construction: in process"
                         },
                         {
+                           "url": "https://mininet.org/walkthrough/",
+                           "title": "Mininet Walkthrough"
+                        },
+                        {
                            "url": "http://networksciencebook.com",
                            "title": "Network Science",
                            "author": "Albert-Laszló Barabási"
@@ -28386,6 +28477,10 @@
                            "url": "https://github.com/grzesiek-galezowski/tdd-ebook",
                            "title": "Test Driven Development, Extensive Tutorial",
                            "author": "Grzegorz Gałęzowski"
+                        },
+                        {
+                           "url": "https://refactoring.guru/design-patterns/catalog",
+                           "title": "The Catalog of Design Patterns"
                         },
                         {
                            "url": "https://landing.google.com/sre/workbook/toc/",
@@ -38669,6 +38764,11 @@
                            ]
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLbMVogVj5nJSFZoiF6RDqyz_m6Srjx_MY",
+                           "title": "Artificial Intelligence Search Methods For Problem Solving",
+                           "author": "nptelhrd"
+                        },
+                        {
                            "url": "https://cs50.harvard.edu/ai/",
                            "title": "CS50’s Introduction to Artificial Intelligence with Python",
                            "author": "Brian Yu, David J. Malan",
@@ -38791,6 +38891,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=e7BufAVwDiM",
+                           "title": "Bash Scripting Full Course 3 Hours",
+                           "author": "Linuxhint"
                         },
                         {
                            "url": "https://bento.io/topic/shell",
@@ -39363,6 +39468,11 @@
                            "author": "Krish Naik"
                         },
                         {
+                           "url": "https://cognitiveclass.ai/courses/data-science-methodology-2",
+                           "title": "Data Science Methodology",
+                           "author": "CognitiveClass.ai"
+                        },
+                        {
                            "url": "https://www.kaggle.com/learn/data-visualization",
                            "title": "Data Visualization",
                            "author": "Alexis Cook",
@@ -39796,6 +39906,11 @@
                      "section": "Flutter",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC",
+                           "title": "Flutter & Firebase App Build",
+                           "author": "The Net Ninja"
+                        },
+                        {
                            "url": "https://fluttercrashcourse.com/courses/basics/lessons/materialapp-scaffold-appbar-text",
                            "title": "Flutter Crash Course",
                            "author": "Nick Manning",
@@ -39824,6 +39939,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+                           "title": "Flutter Tutorial for Beginners",
+                           "author": "The Net Ninja"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL6yRaaP0WPkVtoeNIGqILtRAgd3h2CNpT",
@@ -39855,6 +39975,14 @@
                            "author": "David J. Malan",
                            "notes": [
                               "Harvard OpenCourseWare"
+                           ]
+                        },
+                        {
+                           "url": "https://cs50.harvard.edu/games/",
+                           "title": "CS50’s Introduction to Game Development",
+                           "author": "Colton Ogden",
+                           "notes": [
+                              "Harvard OpenCourseWare and edX"
                            ]
                         },
                         {
@@ -41151,6 +41279,11 @@
                                  "author": "WebDevSimplified"
                               },
                               {
+                                 "url": "https://www.patterns.dev/book/",
+                                 "title": "React Patterns for web apps",
+                                 "author": "Lydia Hallie, Addy Osmani"
+                              },
+                              {
                                  "url": "https://www.youtube.com/watch?v=59IXY5IDrBA",
                                  "title": "React Router 6 – Tutorial for Beginners",
                                  "author": "John Smilga",
@@ -41585,6 +41718,16 @@
                            "accessNotes": "account required"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PL7T06JEc5PF5Vuz1U7lEEaFPOExDbKVEh",
+                           "title": "Machine Learning",
+                           "author": "Nerd's Lesson"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN",
+                           "title": "Machine Learning — Andrew Ng, Stanford University",
+                           "author": "Andrew Ng"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal",
                            "title": "Machine Learning Recipes with Josh Gordon"
                         },
@@ -41595,6 +41738,11 @@
                            "notes": [
                               "Coursera"
                            ]
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn",
+                           "title": "Machine Learning Tutorial in Python",
+                           "author": "edureka!"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw",
@@ -43008,6 +43156,11 @@
                            "author": "University of Helsinki, Houston Inc., Terveystalo, Elisa, K-ryhmä, Unity Technologies, Konecranes"
                         },
                         {
+                           "url": "https://www.w3.org/WAI/WCAG21/quickref/",
+                           "title": "How to Meet Web Content Accessibility Guidelines (Quick Reference)",
+                           "author": "W3C Web Accessibility Initiative"
+                        },
+                        {
                            "url": "https://education.launchcode.org/intro-to-professional-web-dev/",
                            "title": "Introduction to Professional Web Development in JavaScript",
                            "author": "Chris Bay, Jim Flores, Blake Mills, Sally Steuterman, Paul Matthews, Carly Langlois",
@@ -43565,6 +43718,11 @@
                            "notes": [
                               "Píldoras Informáticas"
                            ]
+                        },
+                        {
+                           "url": "https://codigofacilito.com/cursos/javascript",
+                           "title": "Curso de JavaScript Gratis",
+                           "author": "Código Facilito"
                         },
                         {
                            "url": "https://edutin.com/curso-de-python-4276",
@@ -45422,8 +45580,13 @@
                      "section": "Databases",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV",
+                           "title": "3.1 DBMS In Hindi (Complete Playlist)",
+                           "author": "Knowledge Gate"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
-                           "title": "DBMS (Database Management system) Complete Playlist",
+                           "title": "DBMS (Database Management System) Complete Playlist",
                            "author": "Gate Smashers"
                         },
                         {
@@ -45437,11 +45600,6 @@
                   {
                      "section": "DevOps",
                      "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak",
-                           "title": "DevOps Bootcamp",
-                           "author": "Kunal Kushwaha"
-                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLQbQOmlGYH3sxlq9ugoq1ipNFP7tus5Gd",
                            "title": "DevOps Training Videos in Hindi",
@@ -45817,6 +45975,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLUVqY59GNZQNTlOnGne0G7DXnmi7CeOtc",
                                  "title": "ReactJS Tutorials for Beginners In Hindi",
                                  "author": "Pradeep Maurya"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PL8kfZyp--gEXs4YsSLtB3KqDtdOFHMjWZ",
+                                 "title": "ReactNative Tutorials for Begginers",
+                                 "author": "Programming with Mash"
                               }
                            ]
                         },
@@ -47473,6 +47636,14 @@
                      "section": "Python",
                      "entries": [
                         {
+                           "url": "https://www.udemy.com/course/belajar-bahasa-pemrograman-python-dasar/",
+                           "title": "Belajar Bahasa Pemrograman Python Dasar",
+                           "author": "Cahyo Adhi",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL-CtdCApEFH_HY6bL3JER8WJOxz1nb3_H",
                            "title": "Belajar Pemrograman Python untuk Pemula",
                            "author": "Eko Kurniawan Khannedy, Programmer Zaman Now",
@@ -47694,7 +47865,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJeqmBWbE1Rbac2QWHoPCjR2",
                            "title": "Corso Java - Android",
-                           "author": "F. Camuso",
+                           "author": "Fabrizio Camuso",
                            "notes": [
                               "YouTube"
                            ]
@@ -47708,7 +47879,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLjTV6y5YWc5HNnLyXkzUe9IlkG2n6guxU",
                            "title": "AlgoMOOC - Algoritmi quotidiani",
-                           "author": "A. Bogliolo"
+                           "author": "Alessandro Bogliolo"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLUFFnpJdi99nqESTPaxlPMOF7yEEb8_sS",
@@ -47734,7 +47905,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLjTV6y5YWc5H2fefaz78qCeSKWj-k_-pY",
                            "title": "CArcMOOC - Computer Architecture UniurbIT",
-                           "author": "A. Bogliolo, Università di Urbino"
+                           "author": "Alessandro Bogliolo, Università di Urbino"
                         }
                      ],
                      "subsections": []
@@ -47782,12 +47953,12 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJfZpJD7uFxAXglkiHSEhktG",
                            "title": "C++ 11",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdH4GVwL_3QeJjPcz3DHE2t",
                            "title": "C++ libreria QT - playlist 1",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": []
@@ -47803,7 +47974,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJcJPSV4sOfhLtPbtQ-yycFH",
                            "title": "Corso progettazione database",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": [
@@ -47813,7 +47984,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLE555DB6188C967AC",
                                  "title": "Corso SQL",
-                                 "author": "F. Camuso"
+                                 "author": "Fabrizio Camuso"
                               }
                            ]
                         }
@@ -47825,7 +47996,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLF75FB30719A09FA2",
                            "title": "Videocorso Delphi/Lazarus",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": []
@@ -47851,7 +48022,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PL9_01HM23dGEDNNfR6BtlDWD8DDoAcLOT",
                                  "title": "Arduino Cookbook - Corso di Arduino (400+ video)",
-                                 "author": "P. Aliverti"
+                                 "author": "Paolo Aliverti"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLA27EZBY5vePO9T6YP3rH8LTTdylz69VE",
@@ -47883,7 +48054,7 @@
                         {
                            "url": "https://didattica.polito.it/pls/portal30/sviluppo.videolezioni.vis?cor=232",
                            "title": "Informatica",
-                           "author": "M. Mezzalama, Politecnico di Torino"
+                           "author": "Marco Mezzalama, Politecnico di Torino"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLG31HS6yEI8dv6TUmv9w0W6YmEAQm0P2q",
@@ -47903,7 +48074,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJeGo5g4Esi7tm6kHPRivkvb",
                            "title": "Teoria dell'informazione",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": []
@@ -47945,7 +48116,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLFLSwyN4GsWmcBvMr5tzsJy9TI8DbfWC5",
                            "title": "Corso base di Javascript",
-                           "author": "S. Tocci"
+                           "author": "Simona Tocci"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLG5caACNVwzpIhlLACNZd6BvABWv_Ti4I",
@@ -47955,7 +48126,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJceyk5_NpNvLbbkrmfX9kkw",
                            "title": "Corso Javascript (ES6)",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLP5MAKLy8lP9FUx06-avV66mS8LXz7_Bb",
@@ -47970,7 +48141,7 @@
                               {
                                  "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdUH44fvkzVxy9waP23I_bE",
                                  "title": "Vue 2.x (corso base)",
-                                 "author": "F. Camuso"
+                                 "author": "Fabrizio Camuso"
                               }
                            ]
                         }
@@ -47982,7 +48153,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLa-sizbCyh93c0nSPAb8k5ZZeOq4SBIl9",
                            "title": "Machine Learning in italiano col Pollo Watzlawick",
-                           "author": "P. Savastano"
+                           "author": "Piero Savastano"
                         }
                      ],
                      "subsections": []
@@ -47993,7 +48164,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL2zaZp2LZxlv2XxmLm4dGP1tHfMjj7-kN",
                            "title": "Api Rest vs GraphQL: La mini-serie per gli impazienti",
-                           "author": "D. Balinzo"
+                           "author": "Dario Balinzo"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLCbSCJEIR6CrVT003ytijkO6kUrCT9VIT",
@@ -48009,7 +48180,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJftaLnIroe7q9udsc9_qg6x",
                            "title": "DART & FLUTTER (per il mobile)",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": []
@@ -48036,7 +48207,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLC98ABC853EAEFD7F",
                            "title": "Videocorso Pascal (Turbo e FPC)",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": []
@@ -48052,7 +48223,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdbiBCoj4j6x_Ai6Vu9j5r9",
                            "title": "Corso rapido Python per principianti e per esempi",
-                           "author": "F. Camuso"
+                           "author": "Fabrizio Camuso"
                         }
                      ],
                      "subsections": []
@@ -48095,7 +48266,7 @@
                         {
                            "url": "https://didattica.polito.it/pls/portal30/sviluppo.videolezioni.vis?cor=233",
                            "title": "Sistemi Informativi Aziendali",
-                           "author": "F. Corno, Politecnico di Torino"
+                           "author": "Fulvio Corno, Politecnico di Torino"
                         }
                      ],
                      "subsections": []
@@ -48164,7 +48335,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLE0AA1735F10543A6",
                            "title": "Progettazione di applicazioni Web",
-                           "author": "F. Corno, S. Di Carlo, Politecnico di Torino"
+                           "author": "Fulvio Corno, S. Di Carlo, Politecnico di Torino"
                         }
                      ],
                      "subsections": []
@@ -52086,6 +52257,22 @@
                      "subsections": []
                   },
                   {
+                     "section": "Machine Learning",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-9thAeyB2mRFYvvW8AWxXX",
+                           "title": "Introduction to Machine Learning(Tamil)",
+                           "author": "IIT Madras NPTEL"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLJtSFa-YIedYu2QfQaHJJBLT096RxtMHD",
+                           "title": "Machine Learning in Tamil",
+                           "author": "Majaa Matrix"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "PHP",
                      "entries": [
                         {
@@ -52645,6 +52832,11 @@
                            "url": "https://tedu.com.vn/khoa-hoc/lap-trinh-aspnet-core-tu-co-ban-den-nang-cao-33.html",
                            "title": "Lập trình ASP.NET Core từ căn bản đến nâng cao",
                            "author": "TEDU"
+                        },
+                        {
+                           "url": "https://tedu.com.vn/khoa-hoc/lap-trinh-du-an-website-ban-hang-aspnet-mvc-4-1.html",
+                           "title": "Lập trình dự án Website bán hàng ASP.NET MVC 4",
+                           "author": "TEDU"
                         }
                      ],
                      "subsections": []
@@ -52655,6 +52847,17 @@
                         {
                            "url": "https://nguyenvanhieu.vn/hoc-bash-shell-co-ban",
                            "title": "Khóa học Bash Shell cơ bản cho người mới"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Blazor",
+                     "entries": [
+                        {
+                           "url": "https://tedu.com.vn/khoa-hoc/xay-dung-ung-dung-mobile-voi-flutter-can-ban-31.html",
+                           "title": "Blazor căn bản",
+                           "author": "TEDU"
                         }
                      ],
                      "subsections": []
@@ -52789,6 +52992,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "Flutter",
+                     "entries": [
+                        {
+                           "url": "https://tedu.com.vn/khoa-hoc/xay-dung-ung-dung-mobile-voi-flutter-can-ban-31.html",
+                           "title": "Flutter căn bản",
+                           "author": "TEDU"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Git",
                      "entries": [
                         {
@@ -52800,6 +53014,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLkY6Xj8Sg8-viFVtaVps_h_Emi2wQyE7q",
                            "title": "Git - from Zero to Hero",
                            "author": "CodersX"
+                        },
+                        {
+                           "url": "https://tedu.com.vn/khoa-hoc/quan-ly-source-code-trong-du-an-voi-git-8.html",
+                           "title": "Quản lý source code trong dự án với GIT",
+                           "author": "TEDU"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=1JuYQgpbrW0",
@@ -52837,6 +53056,16 @@
                            "author": "Thạch Phạm"
                         },
                         {
+                           "url": "https://www.codehub.com.vn/Hoc-HTML",
+                           "title": "Học HTML",
+                           "author": "Codehub"
+                        },
+                        {
+                           "url": "https://www.codehub.com.vn/HTML",
+                           "title": "HTML",
+                           "author": "Codehub"
+                        },
+                        {
                            "url": "https://www.codehub.com.vn/HTML-Co-Ban",
                            "title": "HTML Cơ Bản",
                            "author": "Codehub"
@@ -52845,6 +53074,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLl4nkmb3a8w135_M4YRPzYD9_6tERz3ce",
                            "title": "HTML Cơ Bản",
                            "author": "Thạch Phạm"
+                        },
+                        {
+                           "url": "https://www.codehub.com.vn/Tu-Hoc-Thiet-Ke-Website-voi-HTML-va-CSS",
+                           "title": "Tự Học Thiết Kế Website với HTML và CSS",
+                           "author": "Codehub"
                         }
                      ],
                      "subsections": []
@@ -52861,6 +53095,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL33lvabfss1yRgFCgFXjtYaGAuDJjjH-j",
                            "title": "Khóa học lập trình JavaFX",
                            "author": "Kteam"
+                        },
+                        {
+                           "url": "https://tedu.com.vn/video/bai-1-gioi-thieu-tong-quan-ve-java-520.html",
+                           "title": "Lập trình Java căn bản",
+                           "author": "TEDU"
                         }
                      ],
                      "subsections": []
@@ -52882,6 +53121,11 @@
                            "url": "https://www.codehub.com.vn/JavaScript-Co-Ban",
                            "title": "JavaScript Cơ Bản",
                            "author": "Codehub"
+                        },
+                        {
+                           "url": "https://www.codehub.com.vn/Tu-Hoc-Thiet-Ke-Website-voi-HTML-CSS-va-JavaScript/Tao-Hieu-Ung-Accordion",
+                           "title": "Tự Học Thiết Kế Website với HTML, CSS và JavaScript",
+                           "author": "Codehub"
                         }
                      ],
                      "subsections": [
@@ -52889,8 +53133,18 @@
                            "section": "AngularJS",
                            "entries": [
                               {
+                                 "url": "https://tedu.com.vn/khoa-hoc/angularjs-cho-nguoi-moi-bat-dau-5.html",
+                                 "title": "AngularJS cho người mới bắt đầu",
+                                 "author": "TEDU"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLRhlTlpDUWsw70vZAkJgALJ1yhgYsqDGx",
                                  "title": "AngularJS Cơ Bản",
+                                 "author": "TEDU"
+                              },
+                              {
+                                 "url": "https://tedu.com.vn/khoa-hoc/lam-du-an-thuc-te-voi-webapi-angularjs-va-entity-framework-code-first-7.html",
+                                 "title": "Làm dự án với WebAPI, AngularJS và EF Code First",
                                  "author": "TEDU"
                               }
                            ]
@@ -52905,7 +53159,7 @@
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLRhlTlpDUWsyAGY7FDGSndEhOD3F2Ruhm",
-                                 "title": "jQuery Cơ bản",
+                                 "title": "Lập trình jQuery từ cơ bản đến nâng cao",
                                  "author": "TEDU"
                               }
                            ]
@@ -53021,6 +53275,16 @@
                      "section": "PHP",
                      "entries": [
                         {
+                           "url": "https://www.codehub.com.vn/PHP",
+                           "title": "Học PHP qua các hàm thông dụng",
+                           "author": "Codehub"
+                        },
+                        {
+                           "url": "https://www.codehub.com.vn/Lap-Trinh-Website-Voi-PHP-va-MySQL",
+                           "title": "Lập Trình Website Với PHP và MySQL",
+                           "author": "Codehub"
+                        },
+                        {
                            "url": "https://www.codehub.com.vn/PHP-Co-Ban",
                            "title": "PHP Cơ Bản",
                            "author": "Codehub"
@@ -53101,6 +53365,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLJ5qtRQovuEOoKffoCBzTfvzMTTORnoyp",
                            "title": "Khóa Học Lập Trình React.js - Redux",
                            "author": "nghiepuit"
+                        },
+                        {
+                           "url": "https://tedu.com.vn/khoa-hoc/khoa-hoc-reactjs-can-ban-25.html",
+                           "title": "Khoá học ReactJS căn bản",
+                           "author": "TEDU"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLzrVYRai0riQFEN586LOz3eMv2Rgy6WXS",
@@ -53237,6 +53506,11 @@
                            "section": "Angular",
                            "entries": [
                               {
+                                 "url": "https://tedu.com.vn/khoa-hoc/khoa-hoc-angular-2-can-ban-10.html",
+                                 "title": "Angular 2 căn bản",
+                                 "author": "TEDU"
+                              },
+                              {
                                  "url": "https://tedu.com.vn/khoa-hoc/khoa-hoc-angular2-can-ban-10.html",
                                  "title": "Angular 2 Cơ Bản",
                                  "author": "TEDU"
@@ -53245,6 +53519,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLzrVYRai0riTA1m7Dasg8eraBr6R9nFgC",
                                  "title": "Angular 4 Cơ Bản",
                                  "author": "Khoa Phạm"
+                              },
+                              {
+                                 "url": "https://tedu.com.vn/khoa-hoc/lam-du-an-thuc-te-voi-angular-2-web-api-13.html",
+                                 "title": "Làm dự án thực tế với Angular 2+ Web API",
+                                 "author": "TEDU"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLkY6Xj8Sg8-uBQaBU8wMLo2CrFkE-9VIZ",
@@ -53499,6 +53778,14 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://wtpc.github.io/clases/2018/mpicheatsheet.pdf",
+                           "title": "MPI Cheat Sheet",
+                           "author": "SC Education",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -53511,6 +53798,44 @@
                            "title": "Clojure Cheatsheet",
                            "notes": [
                               "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Dart",
+                     "entries": [
+                        {
+                           "url": "https://quickref.me/dart",
+                           "title": "Dart Cheatsheet",
+                           "author": "Quickref.me",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://dart.dev/codelabs/dart-cheatsheet",
+                           "title": "Dart Cheatsheet",
+                           "author": "Codelabs",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://simplecheatsheet.com/tag/dart-cheat-sheet/#site-header",
+                           "title": "Dart Cheatsheet",
+                           "author": "Simplecheatsheet.com",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://koenig-media.raywenderlich.com/uploads/2019/08/RW-Dart-Cheatsheet-1.0.2.pdf",
+                           "title": "Dart Quick Reference",
+                           "author": "Koenig-media.raywenderlich.com",
+                           "notes": [
+                              "PDF"
                            ]
                         }
                      ],
@@ -53799,6 +54124,14 @@
                      "section": "HTML and CSS",
                      "entries": [
                         {
+                           "url": "https://learn-the-web.algonquindesign.ca/topics/accessibility-cheat-sheet/",
+                           "title": "Accessibility CheatSheet",
+                           "author": "Algonquin Design",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://htmlcheatsheet.com/css/",
                            "title": "CSS CheatSheet",
                            "notes": [
@@ -53855,6 +54188,14 @@
                            "url": "https://devhints.io/sass",
                            "title": "SCSS CheatSheet",
                            "author": "devhints, Rico Santa Cruz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://learn-the-web.algonquindesign.ca/topics/seo-cheat-sheet/",
+                           "title": "SEO CheatSheet",
+                           "author": "Algonquin Design",
                            "notes": [
                               "HTML"
                            ]
