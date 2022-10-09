@@ -6184,6 +6184,14 @@
                                  "author": "Diki Alfarabi Hadi"
                               },
                               {
+                                 "url": "https://www.niagahoster.co.id/blog/tutorial-bootstrap-5/",
+                                 "title": "Bootstrap 5 : Pengertian, Fitur, Keunggulan dan Cara Menggunakannya",
+                                 "author": "Niagahoster",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
                                  "url": "https://www.bewoksatukosong.com/2019/02/tutorial-bootstrap-4-bahasa-indonesia.html",
                                  "title": "Daftar Tutorial Bootstrap 4 Bahasa Indonesia",
                                  "author": "Gerald Cahya Prambudi"
@@ -6271,6 +6279,16 @@
                                  "title": "Dokumentasi Vue Bahasa Indonesia"
                               }
                            ]
+                        },
+                        {
+                           "section": "React.js",
+                           "entries": [
+                              {
+                                 "url": "https://mfikri.com/artikel/reactjs-pemula",
+                                 "title": "Tutorial React JS Untuk Pemula (React Hooks)",
+                                 "author": "Mfikri"
+                              }
+                           ]
                         }
                      ]
                   },
@@ -6321,6 +6339,14 @@
                            "title": "Node.js Handbook: Berbahasa Indonesia",
                            "author": "Bona Tua",
                            "accessNotes": "Membutuhkan akun Google Play Books atau email yang valid"
+                        },
+                        {
+                           "url": "https://mfikri.com/artikel/tutorial-nodejs",
+                           "title": "Tutorial Node js untuk pemula Full Tutorial",
+                           "author": "Mfikri",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -6495,6 +6521,14 @@
                            "url": "https://masputih.com/2021/05/ebook-gratis-reactjs-untuk-pemula",
                            "title": "React JS Untuk Pemula",
                            "accessNotes": "Membutuhkan akun Leanpub atau email yang valid"
+                        },
+                        {
+                           "url": "https://mfikri.com/artikel/reactjs-pemula",
+                           "title": "Tutorial React JS Untuk Pemula (React Hooks)",
+                           "author": "Mfikri",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -10067,6 +10101,16 @@
                                  "url": "http://nodejs.sideeffect.kr/docs/",
                                  "title": "Node.js API 한글 번역",
                                  "author": "outsideris"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "React",
+                           "entries": [
+                              {
+                                 "url": "https://thebook.io/080203",
+                                 "title": "리액트를 다루는 기술 [개정판]",
+                                 "author": "김민준"
                               }
                            ]
                         },
@@ -34713,8 +34757,15 @@
                            ]
                         },
                         {
-                           "url": "http://datascienceacademy.com.br/blog/podcast-dsa/",
+                           "url": "https://blog.dsacademy.com.br/podcast-dsa-2/",
                            "title": "Data Science Academy",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://rss.podomatic.net/rss/intervalodeconfianca.podomatic.com/rss2.xml",
+                           "title": "Intervalo de Confiança",
                            "notes": [
                               "podcast"
                            ]
@@ -38430,6 +38481,14 @@
                            ]
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d",
+                           "title": "Data Structures and Algorithms in Java Full Course",
+                           "author": "Dinesh Varyani",
+                           "notes": [
+                              "YouTube playlist"
+                           ]
+                        },
+                        {
                            "url": "https://www.coursera.org/specializations/data-structures-algorithms",
                            "title": "Data Structures and Algorithms Specialization",
                            "author": "UC San Diego, HSE University"
@@ -38586,6 +38645,11 @@
                            "notes": [
                               "Udacity"
                            ]
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLlxmoA0rQ-Lw5k_QCqVl3rsoJOnb_00UV",
+                           "title": "Android with kotlin",
+                           "author": "Smartherd"
                         },
                         {
                            "url": "https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905",
@@ -41483,6 +41547,20 @@
                      ]
                   },
                   {
+                     "section": "Julia",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLP8iPy9hna6SCcFv3FvY_qjAmtTsNYHQE",
+                           "title": "Julia Tutorials (Basic)",
+                           "author": "The Julia Programming Language",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Kotlin",
                      "entries": [
                         {
@@ -42366,6 +42444,14 @@
                            ]
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV",
+                           "title": "Python GUI's With TKinter",
+                           "author": "Codemy.com",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
                            "url": "https://www.udemy.com/course/learn-python-in-80-minutes/",
                            "title": "Python in 80 minutes",
                            "author": "Muhammed Ali Dilek",
@@ -42956,6 +43042,11 @@
                            "section": "Angular",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PL8p2I9GklV47eNpoo4Fr6fkags72a8F0v",
+                                 "title": "Angular 12 / 13 tutorial",
+                                 "author": "Code Step By Step"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLjsBk8SIQEi-RqkglLcn19TaeeopcuDXV",
                                  "title": "Angular 12 Course",
                                  "author": "Slobodan Gajic"
@@ -43111,6 +43202,11 @@
                            "notes": [
                               "edX Harvard CS50"
                            ]
+                        },
+                        {
+                           "url": "https://www.w3.org/WAI/tips/developing/",
+                           "title": "Developing for Web Accessibility",
+                           "author": "World Wide Web Consortium Web Accessibility Initiative"
                         },
                         {
                            "url": "https://github.com/realpython/discover-flask",
@@ -46293,6 +46389,11 @@
                      "section": "System Design",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLi81x6d2Os_8Sa8HifiFruWK6wmgG3Wrg",
+                           "title": "System Analysis and Design",
+                           "author": "Gursimran Singh Dhillon"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
                            "title": "System Design",
                            "author": "Gaurav Sen"
@@ -46343,11 +46444,6 @@
                   {
                      "section": "Android",
                      "entries": [
-                        {
-                           "url": "https://www.dicoding.com/academies/129",
-                           "title": "Belajar Android Jetpack Pro",
-                           "author": "Dicoding, membutuhkan registrasi"
-                        },
                         {
                            "url": "https://www.malasngoding.com/category/android-studio/",
                            "title": "Belajar Android Studio",
@@ -48954,7 +49050,13 @@
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLBXuLgInP-5m_vn9ycXHRl7hlsd1huqmS",
-                           "title": "머신러닝/딥러닝 입문"
+                           "title": "머신러닝/딥러닝 입문 youtube playlist",
+                           "author": "윤인성"
+                        },
+                        {
+                           "url": "https://hunkim.github.io/ml/",
+                           "title": "모두를 위한 머신러닝/딥러닝 강의",
+                           "author": "Sung Kim"
                         },
                         {
                            "url": "https://tutorials.pytorch.kr",
@@ -48965,8 +49067,16 @@
                            ]
                         },
                         {
+                           "url": "https://www.boostcourse.org/ai214",
+                           "title": "파이토치로 시작하는 딥러닝 기초",
+                           "author": "boostcourse"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLRx0vPvlEmdAbnmLH9yh03cw9UQU_o7PO",
-                           "title": "Python tensorflow & 머신러닝 기초 강좌"
+                           "title": "Python tensorflow & 머신러닝 기초 강좌",
+                           "notes": [
+                              "동빈나"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -52199,6 +52309,16 @@
                      "subsections": []
                   },
                   {
+                     "section": "Data Structures and Algorithms",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PL_UqaR55i1797oG0BL0wtxdPpa_NYNFLz",
+                           "title": "தமிழில் Data Structures and Algorithms"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "HTML and CSS",
                      "entries": [
                         {
@@ -53722,6 +53842,14 @@
                      "section": "C",
                      "entries": [
                         {
+                           "url": "https://www.codewithharry.com/blogpost/c-cheatsheet/",
+                           "title": "C Language Cheat Sheet",
+                           "author": "CodeWithHarry",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://users.ece.utexas.edu/~adnan/c-refcard.pdf",
                            "title": "C Reference Card (ANSI)",
                            "notes": [
@@ -53783,6 +53911,13 @@
                            "url": "https://wtpc.github.io/clases/2018/mpicheatsheet.pdf",
                            "title": "MPI Cheat Sheet",
                            "author": "SC Education",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.openmp.org/wp-content/uploads/OpenMP-4.0-C.pdf",
+                           "title": "OpenMP 4.0 API C/C++ Syntax Quick Reference Card",
                            "notes": [
                               "PDF"
                            ]
@@ -53851,6 +53986,32 @@
                            "notes": [
                               "PDF"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Data Structures and Algorithms",
+                     "entries": [
+                        {
+                           "url": "https://algs4.cs.princeton.edu/cheatsheet/",
+                           "title": "Algorithms and Data Structures Cheatsheet"
+                        },
+                        {
+                           "url": "https://algodaily.com/lessons/an-executable-data-structures-cheat-sheet",
+                           "title": "An Executable Data Structures Cheat Sheet for Interviews"
+                        },
+                        {
+                           "url": "https://algodaily.com/lessons/big-o-notation-cheat-sheet",
+                           "title": "Big O Notation Cheat Sheet"
+                        },
+                        {
+                           "url": "https://cheatography.com/burcuco/cheat-sheets/data-structures-and-algorithms/",
+                           "title": "Data Structures and Algorithms Cheat Sheet - Cheatography"
+                        },
+                        {
+                           "url": "https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/",
+                           "title": "Data structures and algorithms study cheatsheets for coding interviews"
                         }
                      ],
                      "subsections": []
@@ -54139,6 +54300,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.codewithharry.com/blogpost/css-cheatsheet/",
+                           "title": "CSS Cheatsheet",
+                           "author": "CodeWithHarry",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
                            "title": "CSS Flexbox Cheatsheet",
                            "author": "Chris Coyier",
@@ -54185,6 +54354,14 @@
                            "manualReviewRequired": true
                         },
                         {
+                           "url": "https://www.codewithharry.com/blogpost/html-cheatsheet/",
+                           "title": "HTML Cheatsheet",
+                           "author": "CodeWithHarry",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://devhints.io/sass",
                            "title": "SCSS CheatSheet",
                            "author": "devhints, Rico Santa Cruz",
@@ -54206,6 +54383,11 @@
                   {
                      "section": "IDE and editors",
                      "entries": [
+                        {
+                           "url": "https://cheatography.com/tag/eclipse/",
+                           "title": "Eclipse Cheat sheet",
+                           "author": "Cheatography"
+                        },
                         {
                            "url": "https://aurelio.net/curso/material/vim-ref.html",
                            "title": "Editor VI - Guia de Referência (pt)",
@@ -54635,6 +54817,14 @@
                      "section": "PHP",
                      "entries": [
                         {
+                           "url": "https://www.codewithharry.com/blogpost/php-cheatsheet/",
+                           "title": "PHP Cheat Sheet",
+                           "author": "CodeWithHarry",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://websitesetup.org/php-cheat-sheet/",
                            "title": "PHP Cheat Sheet",
                            "author": "Nick Schäferhoff, WebsiteSetup",
@@ -54926,6 +55116,17 @@
                            "notes": [
                               "HTML"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "SpringBoot",
+                     "entries": [
+                        {
+                           "url": "https://www.jrebel.com/blog/spring-annotations-cheat-sheet",
+                           "title": "Spring Boot Cheatsheet",
+                           "author": "JRebel"
                         }
                      ],
                      "subsections": []
