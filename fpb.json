@@ -6746,6 +6746,7 @@
                         {
                            "url": "http://www.html.it/guide/guida-android/",
                            "title": "Guida Android",
+                           "author": "Giuseppe Maggi, Marco Lecce, Vito Gentile",
                            "notes": [
                               "HTML"
                            ]
@@ -6785,7 +6786,8 @@
                      "entries": [
                         {
                            "url": "http://www.dmi.unict.it/diraimondo/web/wp-content/uploads/classes/so/mirror-stuff/abs-guide.pdf",
-                           "title": "Guida avanzata per la bash",
+                           "title": "Guida avanzata di scripting Bash",
+                           "author": "Mendel Cooper",
                            "notes": [
                               "PDF"
                            ]
@@ -6919,6 +6921,7 @@
                         {
                            "url": "http://www.html.it/guide/progettare-database-nosql/?cref=system",
                            "title": "Progettare database NoSQL: la guida",
+                           "author": "Giuseppe Maggi",
                            "notes": [
                               "HTML"
                            ]
@@ -14444,6 +14447,11 @@
                            ]
                         },
                         {
+                           "url": "https://frontendmasters.com/guides/javascript-enlightenment/",
+                           "title": "DOM Enlightenment",
+                           "author": "Cody Linley"
+                        },
+                        {
                            "url": "http://eloquentjavascript.net",
                            "title": "Eloquent JavaScript 3rd edition",
                            "author": "Marijn Haverbeke",
@@ -18679,6 +18687,11 @@
                            "author": "Danielle Navarro"
                         },
                         {
+                           "url": "https://bookdown.org/rdpeng/RProgDA/",
+                           "title": "Mastering Software Development in R",
+                           "author": "Roger D. Peng, Sean Kross, and Brooke Anderson"
+                        },
+                        {
                            "url": "https://ismayc.github.io/moderndiver-book/",
                            "title": "ModernDive",
                            "author": "Chester Ismay, Albert Y. Kim"
@@ -18732,6 +18745,11 @@
                            "url": "https://en.wikibooks.org/wiki/R_Programming",
                            "title": "R Programming",
                            "author": "Wikibooks"
+                        },
+                        {
+                           "url": "https://bookdown.org/rdpeng/rprogdatascience/",
+                           "title": "R Programming for Data Science",
+                           "author": "Roger D. Peng"
                         },
                         {
                            "url": "https://www.syncfusion.com/resources/techportal/ebooks/rsuccinctly",
@@ -19126,6 +19144,11 @@
                                  "url": "https://leanpub.com/combinators/read",
                                  "title": "Kestrels, Quirky Birds, and Hopeless Egocentricity",
                                  "author": "Reg Braithwaite"
+                              },
+                              {
+                                 "url": "https://learn-rails.com/content/learnrails1",
+                                 "title": "Learn Ruby on Rails: Book One",
+                                 "author": "Daniel Kehoe"
                               },
                               {
                                  "url": "https://web.archive.org/web/20190319201525/http://objectsonrails.com/",
@@ -21708,10 +21731,6 @@
                            "author": "livro adotado na UFPB."
                         },
                         {
-                           "url": "http://www.ime.usp.br/~elo/IntroducaoComputacao/",
-                           "title": "Introdução em Computação - C"
-                        },
-                        {
                            "url": "https://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/",
                            "title": "Linguagem C - Notas de Aula",
                            "author": "Carmem Hara, Wagner Zola",
@@ -22152,10 +22171,6 @@
                               {
                                  "url": "http://blog.fernandomantoan.com/serie-backbone-js-parte-1-introducao/",
                                  "title": "Série Backbone.js (blog.fernandomantoan.com)"
-                              },
-                              {
-                                 "url": "http://www.devfuria.com.br/javascript/backbone/",
-                                 "title": "Série Backbone.js (devfuria.com.br)"
                               }
                            ]
                         },
@@ -26802,6 +26817,15 @@
                            "url": "https://milneopentextbooks.org/how-we-got-from-there-to-here-a-story-of-real-analysis/",
                            "title": "How We Got from There to Here: A Story of Real Analysis",
                            "author": "Robert Rogers, Eugene Boman"
+                        },
+                        {
+                           "url": "https://openintro-ims.netlify.app",
+                           "title": "Introduction to Modern Statistics",
+                           "author": "Mine Çetinkaya-Rundel, Johanna Hardin",
+                           "notes": [
+                              "HTML, PDF",
+                              "email address required for PDF"
+                           ]
                         },
                         {
                            "url": "https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html",
@@ -33169,6 +33193,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLdpsE-GEhYVn_81kDPo1mwE73UgYCeMLu",
+                           "title": "Clean Code Lessons by Robert C. Martin",
+                           "author": "Robert C. Martin"
+                        },
+                        {
                            "url": "https://www.codenewbie.org/podcast",
                            "title": "CodeNewbie",
                            "author": "CodeNewbie Team",
@@ -38384,6 +38413,11 @@
                            "author": "Erik Demaine"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLv9sD0fPjvSHqIOLTIvHJWjkdH0IdzmXT",
+                           "title": "Advanced Data Structures",
+                           "author": "Uzair Javed Akhtar"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL6EF0274BD849A7D5",
                            "title": "Algorithm Design and Implementation"
                         },
@@ -39679,6 +39713,15 @@
                            "section": "SQL",
                            "entries": [
                               {
+                                 "url": "https://university.cockroachlabs.com/courses/course-v1:crl+getting-started-with-sql-for-app-devs+self-paced/about",
+                                 "title": "Getting Started with SQL for Application Developers",
+                                 "author": "Wade Waldron",
+                                 "notes": [
+                                    "Cockroach Labs Inc."
+                                 ],
+                                 "accessNotes": "email address required"
+                              },
+                              {
                                  "url": "https://www.edx.org/course/introduction-to-database-queries",
                                  "title": "Introduction to Database Queries",
                                  "author": "Aspen Olmsted",
@@ -39693,6 +39736,15 @@
                                  "notes": [
                                     "Udemy"
                                  ]
+                              },
+                              {
+                                 "url": "https://university.cockroachlabs.com/courses/course-v1:crl+intro-to-distributed-sql-and-cockroachdb+self-paced/about",
+                                 "title": "Introduction to Distributed SQL and CockroachDB",
+                                 "author": "Lauren Hirata Singh and Will Cross",
+                                 "notes": [
+                                    "Cockroach Labs Inc."
+                                 ],
+                                 "accessNotes": "email address required"
                               },
                               {
                                  "url": "https://popsql.com/learn-sql",
@@ -39871,6 +39923,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
                            "title": "Digital Electronics",
                            "author": "Neso Academy"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLWPirh4EWFpHk70zwYoHu87uVsCC8E2S-",
+                           "title": "Digital Electronics for GATE",
+                           "author": "Tutorials Point India Ltd."
                         }
                      ],
                      "subsections": []
@@ -40401,6 +40458,14 @@
                            "title": "Build a Personal Website with Dash"
                         },
                         {
+                           "url": "https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript",
+                           "title": "Build a Quiz App with HTML, CSS, and JavaScript",
+                           "author": "James Quick",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.bloc.io/tutorials/webflow-tutorial-design-responsive-sites-with-webflow",
                            "title": "Build a responsive website with Webflow"
                         },
@@ -40757,6 +40822,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL6oD2syjfW7COL__RNrWl4S97vNcqh3mO",
+                           "title": "Java Persistence API (JPA) Complete Tutorial",
+                           "author": "Giuseppe Scaramuzzino"
+                        },
+                        {
                            "url": "https://testautomationu.applitools.com/java-programming-course/",
                            "title": "Java Programming",
                            "author": "Angie Jones",
@@ -40799,6 +40869,14 @@
                            "url": "https://youtube.com/playlist?list=PLZPZq0r_RZOMhCAyywfnYLlrjiVOkdAI1",
                            "title": "Java tutorial for beginners",
                            "author": "Bro Code",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK",
+                           "title": "Java Tutorial For Beginners",
+                           "author": "Telusko",
                            "notes": [
                               "YouTube"
                            ]
@@ -40975,6 +41053,14 @@
                            "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET",
                            "title": "JavaScript Tutorial for Beginners",
                            "author": "The Net Ninja"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4",
+                           "title": "JavaScript Tutorial for Beginners",
+                           "author": "Telusko",
+                           "notes": [
+                              "YouTube"
+                           ]
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
@@ -41313,6 +41399,14 @@
                                  ]
                               },
                               {
+                                 "url": "https://scrimba.com/learn/learnreact",
+                                 "title": "Learn React for Free",
+                                 "author": "Bob Ziroll",
+                                 "notes": [
+                                    "scrimba"
+                                 ]
+                              },
+                              {
                                  "url": "https://progate.com/languages/react",
                                  "title": "React",
                                  "notes": [
@@ -41455,6 +41549,11 @@
                                  "notes": [
                                     "email address *requested*"
                                  ]
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3",
+                                 "title": "Redux Toolkit Tutorial",
+                                 "author": "Codevolution"
                               }
                            ]
                         },
@@ -41549,6 +41648,14 @@
                   {
                      "section": "Julia",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLsH4hc788Z1f1e61DN3EV9AhDlpbhhanw",
+                           "title": "GeoStats.jl Tutorials",
+                           "author": "Julio Hoffimann",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLP8iPy9hna6SCcFv3FvY_qjAmtTsNYHQE",
                            "title": "Julia Tutorials (Basic)",
@@ -42074,6 +42181,14 @@
                            "author": "Coder's Tape",
                            "notes": [
                               "2019"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=MYyJ4PuL4pY",
+                           "title": "Laravel From Scratch 2022 | 4+ Hour Course",
+                           "author": "Traversy Media",
+                           "notes": [
+                              "YouTube"
                            ]
                         },
                         {
@@ -46933,6 +47048,11 @@
                            "author": "Sandhika Galih, Web Programming UNPAS"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h",
+                           "title": "Belajar TAILWINDCSS",
+                           "author": "Web Programming UNPAS"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLFIM0718LjIUBrbm6Gdh6k7ZUvPIAZm7p",
                            "title": "CSS Dasar",
                            "author": "Web Programming UNPAS"
@@ -47460,6 +47580,14 @@
                            "url": "https://www.dicoding.com/academies/177",
                            "title": "Belajar Dasar Visualisasi Data",
                            "author": "Dicoding, membutuhkan registrasi"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=WH1SduDRL_Y&t=2s",
+                           "title": "Belajar Machine Learning Dari Awal Buat Yang Ga Jago Matematika",
+                           "author": "array id",
+                           "notes": [
+                              "Youtube"
+                           ]
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLGn1wRmlR3Ms7wr2zgtcC4LaE_NHQAEjx",
@@ -51346,6 +51474,14 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLXoSGejyuQGqJEEyo2fY3SA-QCKlF2rxO",
+                           "title": "Curso Shell GNU",
+                           "author": "debxp",
+                           "notes": [
+                              "YouTube"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -54226,6 +54362,14 @@
                            ]
                         },
                         {
+                           "url": "https://reyhanhamidi.medium.com/buku-saku-git-cheatsheet-git-bahasa-indonesia-3af42e42156e",
+                           "title": "Git Cheat Sheet (id)",
+                           "author": "Reyhan Alhafizal",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://training.github.com/downloads/pl/github-git-cheat-sheet/",
                            "title": "Git ściąga (pl)",
                            "author": "GitHub",
@@ -55964,6 +56108,11 @@
                            "title": "MongoDB Koans"
                         },
                         {
+                           "url": "https://www.w3schools.com/mongodb",
+                           "title": "MongoDB Tutorial",
+                           "author": "W3Schools"
+                        },
+                        {
                            "url": "http://try.redis.io",
                            "title": "Try Redis"
                         }
@@ -56554,6 +56703,10 @@
                   {
                      "section": "C++",
                      "entries": [
+                        {
+                           "url": "https://ide.codingblocks.com",
+                           "title": "Coding Blocks"
+                        },
                         {
                            "url": "https://ide.codingminutes.com",
                            "title": "Coding Minutes"
@@ -57370,6 +57523,10 @@
                            "title": "Microcorruption"
                         },
                         {
+                           "url": "https://my.newtonschool.co/contest/all",
+                           "title": "Newton School"
+                        },
+                        {
                            "url": "https://oj.uz",
                            "title": "oj.uz"
                         },
@@ -57388,6 +57545,10 @@
                         {
                            "url": "https://toph.co",
                            "title": "Toph"
+                        },
+                        {
+                           "url": "https://usaco.guide",
+                           "title": "USACO.guide"
                         }
                      ],
                      "subsections": []
@@ -57572,6 +57733,10 @@
                         {
                            "url": "https://cses.fi/problemset/",
                            "title": "CSES Problem Set"
+                        },
+                        {
+                           "url": "https://a2oj.herokuapp.com",
+                           "title": "Dynamic A2OJ Ladder"
                         },
                         {
                            "url": "https://edabit.com",
