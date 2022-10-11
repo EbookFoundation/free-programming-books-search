@@ -10467,6 +10467,10 @@
                      "section": "ABAP",
                      "entries": [
                         {
+                           "url": "https://aws.amazon.com/sap/docs/",
+                           "title": "SAP AWS Technical Documentation"
+                        },
+                        {
                            "url": "https://github.com/SAP/styleguides/blob/master/clean-abap/CleanABAP.md",
                            "title": "SAP Code Style Guides - Clean ABAP"
                         }
@@ -13975,6 +13979,14 @@
                            "url": "http://www.mat.uniroma2.it/~picard/SMC/didattica/materiali_did/Java/Java_3D/Java_3D_Programming.pdf",
                            "title": "3D Programming in Java",
                            "author": "Daniel Selman",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://people.cs.vt.edu/shaffer/Book/Java3e20100119.pdf",
+                           "title": "A Practical Introduction to Data Structures and Algorithm Analysis Third Edition (Java Version)",
+                           "author": "Clifford A. Shaffer",
                            "notes": [
                               "PDF"
                            ]
@@ -25971,7 +25983,7 @@
                            "author": "Marti A. Hearst"
                         },
                         {
-                           "url": "https://people.gnome.org/~swilmet/glib-gtk-dev-platform.pdf",
+                           "url": "https://informatique-libre.be/swilmet/glib-gtk-book/glib-gtk-dev-platform.pdf",
                            "title": "The GLib/GTK+ Development Platform",
                            "author": "Sébastien Wilmet",
                            "notes": [
@@ -28001,7 +28013,7 @@
                            "author": "Victor Eijkhout"
                         },
                         {
-                           "url": "https://computing.llnl.gov/tutorials/parallel_comp/",
+                           "url": "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
                            "title": "Introduction to Parallel Computing",
                            "author": "Blaise Barney"
                         },
@@ -34349,6 +34361,14 @@
                            "url": "https://compilando.audio",
                            "title": "Compilando Podcast",
                            "author": "Paco Estrada",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.mangocast.net",
+                           "title": "Mangocast",
+                           "author": "Lucho Benitez, Pablo Santa Cruz, Miguel Balsevich, Luis Corvalán, Rolando Natalizia",
                            "notes": [
                               "podcast"
                            ]
@@ -51520,6 +51540,11 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/glaucia86/curso-typescript-zero-to-hero",
+                           "title": "Typescript - Zero to Hero",
+                           "author": "Glaucia Lemos"
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=0mYq5LrQN1s",
                            "title": "TypeScript, o início, de forma prática",
                            "author": "Rocketseat, Diego Fernandes",
@@ -52524,6 +52549,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLJtSFa-YIedYu2QfQaHJJBLT096RxtMHD",
                            "title": "Machine Learning in Tamil",
                            "author": "Majaa Matrix"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL5itdT07Pm8wxRaPWljPntnBmnOs4ExDM",
+                           "title": "Machine Learning in Tamil",
+                           "author": "Nithya Duraisamy"
                         }
                      ],
                      "subsections": []
@@ -55597,6 +55627,11 @@
                         {
                            "url": "https://learngitbranching.js.org",
                            "title": "Learn Git Branching"
+                        },
+                        {
+                           "url": "https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc",
+                           "title": "Learn git concepts, not commands",
+                           "author": "Nico Riedmann, Dev.to"
                         },
                         {
                            "url": "https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud",
