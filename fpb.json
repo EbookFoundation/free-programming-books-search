@@ -2204,14 +2204,6 @@
                            "notes": [
                               "PDF"
                            ]
-                        },
-                        {
-                           "url": "https://repository.kallipos.gr/bitstream/11419/6443/1/00_master_document-KOY.pdf",
-                           "title": "Προγραμματισμός με τη γλώσσα C++",
-                           "author": "Θεόδωρος Αλεβίζος",
-                           "notes": [
-                              "PDF"
-                           ]
                         }
                      ],
                      "subsections": []
@@ -3080,11 +3072,11 @@
                            ]
                         },
                         {
-                           "url": "https://codekommissar.github.io/JavaScript-Elocuente",
-                           "title": "Eloquent JavaScript 3ra edición",
-                           "author": "Marijn Haverbeke",
+                           "url": "https://eloquentjs-es.thedojo.mx",
+                           "title": "Eloquent JavaScript",
+                           "author": "Marijn Haverbeke,",
                            "notes": [
-                              "HTML"
+                              "HTML, PDF, EPUB, MOBI"
                            ]
                         },
                         {
@@ -3266,7 +3258,7 @@
                               {
                                  "url": "https://es.survivejs.com",
                                  "title": "SurviveJS - React de aprendiz a maestro",
-                                 "author": "Juho Vepsäläinen",
+                                 "author": "Juho Vepsäläinen,",
                                  "notes": [
                                     "HTML, PDF"
                                  ]
@@ -3292,13 +3284,6 @@
                   {
                      "section": "Linux",
                      "entries": [
-                        {
-                           "url": "http://xinfo.sourceforge.net/documentos/bash-scripting/bash-script-2.0.html",
-                           "title": "Bases de la Programación en Bash",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
                         {
                            "url": "https://web.archive.org/web/20150307181233/http://library.originalhacker.org:80/biblioteca/articulo/ver/123",
                            "title": "BASH Scripting Avanzado: Utilizando Declare para definición de tipo",
@@ -5224,7 +5209,7 @@
                            "url": "https://self-learning.info.ucl.ac.be/index/info1-exercises",
                            "title": "Introduction à la programmation",
                            "notes": [
-                              "Inscription gratuite sur le site. Pour réaliser les exercices sur INGInious.org, créez-vous un compte gratuitement et lier ensuite votre compte self-learning à votre compte INGInious. "
+                              "Inscription gratuite sur le site. Pour réaliser les exercices sur INGInious.org, créez-vous un compte gratuitement et liez ensuite votre compte self-learning à votre compte INGInious. "
                            ]
                         },
                         {
@@ -5285,7 +5270,7 @@
                         },
                         {
                            "url": "https://www.ruby-lang.org/fr/documentation/ruby-from-other-languages/",
-                           "title": "Venir à Ruby après un autre language"
+                           "title": "Venir à Ruby après un autre langage"
                         }
                      ],
                      "subsections": [
@@ -5995,6 +5980,11 @@
                            "notes": [
                               ":construction: *in process*"
                            ]
+                        },
+                        {
+                           "url": "https://www.duniailkom.com/tutorial-belajar-bahasa-pemrograman-c-bagi-pemula/",
+                           "title": "Tutorial Belajar Bahasa Pemrograman C Untuk Pemula",
+                           "author": "Duniailkom"
                         }
                      ],
                      "subsections": []
@@ -6075,6 +6065,14 @@
                            "notes": [
                               "HTML"
                            ]
+                        },
+                        {
+                           "url": "https://utter.academy/uploads/lesson_files/2f0c5c74e9488d4c9c734e4264e5869e.pdf",
+                           "title": "Flutter dan Flutlab",
+                           "author": "Utter academy",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -6136,10 +6134,6 @@
                   {
                      "section": "HTML and CSS",
                      "entries": [
-                        {
-                           "url": "http://www.ariona.net/ebook-belajar-html-dan-css/",
-                           "title": "Belajar HTML dan CSS"
-                        },
                         {
                            "url": "https://www.malasngoding.com/download-ebook-belajar-html-dan-css-dasar-gratis/",
                            "title": "Ebook Belajar HTML Dan CSS Dasar"
@@ -6475,13 +6469,6 @@
                            "title": "Dasar Pengenalan Pemrograman Python",
                            "author": "Rolly Maulana AwanggaRayhan",
                            "accessNotes": "Membutuhkan akun Google Play Books atau email yang valid"
-                        },
-                        {
-                           "url": "http://rab.co.id/files/python/bukupython2.pdf.gz",
-                           "title": "Database PostgreSQL, Pemrograman Python, dan SMS Gateway",
-                           "notes": [
-                              "PDF"
-                           ]
                         },
                         {
                            "url": "https://developers.google.com/machine-learning/crash-course?hl=id",
@@ -9190,7 +9177,7 @@
                            "author": "新原雅司"
                         },
                         {
-                           "url": "https://prev.net-newbie.com/support/pdf2/",
+                           "url": "https://net-newbie.com/prev/support/pdf2/",
                            "title": "PHP4徹底攻略改訂版"
                         },
                         {
@@ -11488,13 +11475,13 @@
                            ]
                         },
                         {
-                           "url": "https://web.archive.org/web/20211006163041/http://pdvpmtasgaon.edu.in/uploads/dptcomputer/Let%20us%20c%20-%20yashwantkanetkar.pdf",
+                           "url": "https://archive.org/download/let-us-c/LET%20US%20C.pdf",
                            "title": "Let us C",
                            "author": "Yashavant Kanetkar",
                            "notes": [
                               "PDF"
                            ],
-                           "accessNotes": ":card_file_box: archived"
+                           "accessNotes": ":card_file_box: latest 14th edition"
                         },
                         {
                            "url": "https://ben.klemens.org/pdfs/gsl_stats.pdf",
@@ -22600,6 +22587,31 @@
                            ]
                         },
                         {
+                           "url": "https://blauaraujo.com/downloads/shell-pattern-matching.pdf",
+                           "title": "Casamento de Padrões no Shell do GNU/Linux",
+                           "author": "Blau Araújo",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://blauaraujo.com/downloads/cipb-guia.pdf",
+                           "title": "Curso Intensivo de Programação do Bash - Guia de Estudos",
+                           "author": "Blau Araújo",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://blauaraujo.com/downloads/curso-shell-gnu.pdf",
+                           "title": "Curso Shell GNU",
+                           "author": "Blau Araújo",
+                           "notes": [
+                              "PDF",
+                              ":construction: *in process*"
+                           ]
+                        },
+                        {
                            "url": "http://aurelio.net/shell/apostila-introducao-shell.pdf",
                            "title": "Introdução ao Shell Script",
                            "author": "Aurelio Marinho Jargas",
@@ -22610,6 +22622,14 @@
                         {
                            "url": "https://www.telecom.uff.br/pet/petws/downloads/apostilas/LINUX.pdf",
                            "title": "Pequena introdução ao linux e ao Shell Script",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://blauaraujo.com/downloads/pmpgb.pdf",
+                           "title": "Pequeno Manual do Programador GNU/Bash",
+                           "author": "Blau Araújo",
                            "notes": [
                               "PDF"
                            ]
@@ -25386,9 +25406,12 @@
                            "author": "Torben Mogensen"
                         },
                         {
-                           "url": "http://www.holub.com/software/compiler.design.in.c.html",
+                           "url": "https://holub.com/goodies/compiler/compilerDesignInC.pdf",
                            "title": "Compiler Design in C (1990)",
-                           "author": "Allen Holub, Prentice Hall"
+                           "author": "Allen Holub, Prentice Hall",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://elvis.rowan.edu/~bergmann/books/Compiler_Design/c_cpp/Text/C_CppEd.pdf",
@@ -25420,7 +25443,7 @@
                            "author": "F.R.A. Hopgood, Macdonald"
                         },
                         {
-                           "url": "http://www.craftinginterpreters.com",
+                           "url": "http://www.craftinginterpreters.com/contents.html",
                            "title": "Crafting Interpreters",
                            "author": "Bob Nystrom",
                            "notes": [
@@ -29635,11 +29658,6 @@
                      "section": "Python",
                      "entries": [
                         {
-                           "url": "https://www.ofenerci.github.io/thinkcspy-tr",
-                           "title": "Bilgisayar Bilimcisi Gibi Düşünmek-Python3 ile Öğrenme",
-                           "author": "Peter Wentworth, Jeffrey Elkner, Allen B. Downey ve Chris Meyers"
-                        },
-                        {
                            "url": "https://python-istihza.yazbel.com",
                            "title": "Python Programlama Dili",
                            "author": "YazBel Yazılım Belgelendirme Projesi - Python 3"
@@ -29786,21 +29804,6 @@
                         }
                      ],
                      "subsections": []
-                  },
-                  {
-                     "section": "HTML and CSS",
-                     "entries": [],
-                     "subsections": [
-                        {
-                           "section": "Bootstrap",
-                           "entries": [
-                              {
-                                 "url": "http://twbs.docs.org.ua",
-                                 "title": "Ознайомлення Bootstrap 3.3.2"
-                              }
-                           ]
-                        }
-                     ]
                   },
                   {
                      "section": "Java",
@@ -30908,10 +30911,6 @@
                            "title": "Google Objective-C Style Guide 中文版"
                         },
                         {
-                           "url": "http://isux.tencent.com/ios-human-interface-guidelines-ui-design-basics-ios7.html",
-                           "title": "iOS7人机界面指南"
-                        },
-                        {
                            "url": "https://github.com/qinjx/30min_guides/blob/master/ios.md",
                            "title": "iOS开发60分钟入门"
                         },
@@ -31091,13 +31090,6 @@
                            "title": "JavaScript编程指南",
                            "notes": [],
                            "manualReviewRequired": true
-                        },
-                        {
-                           "url": "http://icodeit.org/jsccp/",
-                           "title": "JavaScript核心概念及实践",
-                           "notes": [
-                              "PDF"
-                           ]
                         }
                      ],
                      "subsections": [
@@ -31294,10 +31286,6 @@
                                  "title": "React-Bits 中文文档"
                               },
                               {
-                                 "url": "http://wiki.jikexueyuan.com/project/react-native/",
-                                 "title": "React Native 中文文档(含最新Android内容)"
-                              },
-                              {
                                  "url": "https://github.com/fakefish/react-webpack-cookbook",
                                  "title": "React webpack-cookbook"
                               },
@@ -31314,10 +31302,6 @@
                         {
                            "section": "Vue.js",
                            "entries": [
-                              {
-                                 "url": "https://cn.vuejs.org/v2/guide/",
-                                 "title": "Vue.js中文文档"
-                              },
                               {
                                  "url": "https://vue3.chengpeiquan.com",
                                  "title": "Vue3.0学习教程与实战案例",
@@ -31350,10 +31334,6 @@
                         {
                            "url": "http://ctan.org/pkg/lshort-zh-cn",
                            "title": "一份不太简短的 LaTeX2ε 介绍"
-                        },
-                        {
-                           "url": "http://www.dralpha.com/zh/tech/tech.htm",
-                           "title": "LaTeX 笔记"
                         }
                      ],
                      "subsections": []
@@ -34706,6 +34686,14 @@
                "language": {
                   "code": "id",
                   "name": "Indonesian"
+               },
+               "index": {},
+               "sections": []
+            },
+            {
+               "language": {
+                  "code": "nl",
+                  "name": "Dutch, Flemish"
                },
                "index": {},
                "sections": []
@@ -39104,6 +39092,11 @@
                            ]
                         },
                         {
+                           "url": "https://cognitiveclass.ai/courses/blockchain-iot-node-red-food-network",
+                           "title": "Build an IoT Blockchain Network for a Supply Chain",
+                           "author": "CognitiveClass.ai"
+                        },
+                        {
                            "url": "https://www.udemy.com/course/your-first-decentralized-app/",
                            "title": "Build and Deploy Your First Decentralized App with Etherem",
                            "author": "Gary Simon",
@@ -39165,6 +39158,11 @@
                            "notes": [
                               "freeCodeCamp"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S",
+                           "title": "Programming in C",
+                           "author": "Jenny's lectures CS/IT NET&JRF"
                         },
                         {
                            "url": "https://www.coursera.org/learn/arduino-platform",
@@ -40925,6 +40923,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.udemy.com/course/java-programming-basics/",
+                           "title": "Java Programming Basics",
+                           "author": "Charles Mulic",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.coursera.org/learn/java-programming",
                            "title": "Java Programming: Solving Problems with Software",
                            "notes": [
@@ -41126,14 +41132,6 @@
                            "author": "The Net Ninja"
                         },
                         {
-                           "url": "https://youtube.com/playlist?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4",
-                           "title": "JavaScript Tutorial for Beginners",
-                           "author": "Telusko",
-                           "notes": [
-                              "YouTube"
-                           ]
-                        },
-                        {
                            "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
                            "title": "JavaScript Tutorial for beginners",
                            "author": "Moshfegh Hamedani",
@@ -41147,6 +41145,14 @@
                            "author": "Moshfegh Hamedani",
                            "notes": [
                               "Programming with Mosh"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4",
+                           "title": "Javascript tutorials for beginners",
+                           "author": "Telusko",
+                           "notes": [
+                              "Youtube"
                            ]
                         },
                         {
@@ -41685,8 +41691,21 @@
                                  "title": "JavaScript Testing Fundamentals"
                               },
                               {
+                                 "url": "https://laracasts.com/series/learn-vue-3-step-by-step",
+                                 "title": "Learn Vue 3 step by step",
+                                 "author": "Jeffrey Way"
+                              },
+                              {
                                  "url": "https://vueschool.io/courses/nuxtjs-fundamentals",
                                  "title": "Nuxt.js Fundamentals"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwgeQIfSDtEGVvvSEPDkL_1f",
+                                 "title": "Vue JS 3 Tutorial for Beginners",
+                                 "author": "Vishwas Gopinath",
+                                 "notes": [
+                                    "Codevolution"
+                                 ]
                               },
                               {
                                  "url": "https://vueschool.io/courses/vue-router-for-everyone",
@@ -41845,6 +41864,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://ryanstutorials.net/linuxtutorial",
+                           "title": "Linux Tutorial for Beginners - Learn Linux and the Bash Command Line",
+                           "author": "Ryan Chadwick"
                         },
                         {
                            "url": "https://www.udemy.com/course/linux-tutorials/",
@@ -42659,6 +42683,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.udemy.com/course/object-oriented-python-programming/",
+                           "title": "Python OOP : Object Oriented Programming in Python",
+                           "author": "Deepali Srivastava",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc",
                            "title": "Python OOP Tutorials - Working with Classes",
                            "author": "Corey Schafer"
@@ -42944,6 +42976,14 @@
                            "url": "https://www.learnhowtoprogram.com/ruby",
                            "title": "Learn how to program: Ruby",
                            "author": "Epicodus Inc."
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/learn-rails",
+                           "title": "Learn Rails: Quickly Code, Style and Launch 4 Web Apps",
+                           "author": "Adam Eubanks",
+                           "notes": [
+                              "Udemy"
+                           ]
                         },
                         {
                            "url": "https://www.learnrubyonline.org",
@@ -43435,10 +43475,6 @@
                            "notes": [
                               "Udemy"
                            ]
-                        },
-                        {
-                           "url": "https://www.freecodecamp.org",
-                           "title": "Free Code Camp"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0vfts4VzfNgUUEtEjxDVfh4iocVR3qIb",
@@ -45897,6 +45933,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV",
                            "title": "3.1 DBMS In Hindi (Complete Playlist)",
                            "author": "Knowledge Gate"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc",
+                           "title": "DBMS (Database Management System)",
+                           "author": "Jenny's lectures CS/IT NET&JRF"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
@@ -51194,6 +51235,22 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp",
+                           "title": "Serie API NodeJS",
+                           "author": "Diego Fernandes",
+                           "notes": [
+                              "Rocketseat"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=2G_mWfG0DZE&list=PL85ITvJ7FLoh7QBmTVzuNYvZaYPYwDmei",
+                           "title": "Testes no NodeJS aplicando TDD com Jest",
+                           "author": "Diego Fernandes",
+                           "notes": [
+                              "Rocketseat"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -54162,6 +54219,14 @@
                            "notes": [
                               "HTML"
                            ]
+                        },
+                        {
+                           "url": "https://www.thecodingguys.net/resources/cs-cheat-sheet.pdf",
+                           "title": "C# Cheat Sheet",
+                           "author": "THECODINGGUYS",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -54813,6 +54878,14 @@
                            "notes": [
                               "HTML"
                            ]
+                        },
+                        {
+                           "url": "https://introcs.cs.princeton.edu/java/11cheatsheet/",
+                           "title": "Java Programming Cheatsheet",
+                           "author": "Robert Sedgewick and Kevin Wayne",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -54988,6 +55061,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.mirantis.com/blog/kubernetes-cheat-sheet/",
+                           "title": "Kubernetes Cheat Sheet",
+                           "author": "Nick Chase",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://spacelift.io/blog/kubernetes-cheat-sheet",
                            "title": "Kubernetes Cheat Sheet – 15 Kubectl Commands & Objects",
                            "author": "Spacelift",
@@ -55041,6 +55122,14 @@
                            "url": "https://www.mathworks.com/content/dam/mathworks/fact-sheet/matlab-basic-functions-reference.pdf",
                            "title": "MATLAB Basic Functions Reference Sheet",
                            "author": "MathWorks",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://sites.nd.edu/gfu/files/2019/07/cheatsheet.pdf",
+                           "title": "Matlab Cheat Sheet",
+                           "author": "Thor Nielsen",
                            "notes": [
                               "PDF"
                            ]
@@ -55313,6 +55402,14 @@
                            "notes": [
                               "HTML site with PDF links"
                            ]
+                        },
+                        {
+                           "url": "https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf",
+                           "title": "Base R Cheatsheet",
+                           "author": "Mhairi McNeill",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -55370,6 +55467,14 @@
                            "url": "https://www.codeconquest.com/wp-content/uploads/Ruby-Cheat-Sheet-by-CodeConquestDOTcom.pdf",
                            "title": "Ruby Cheat Sheet",
                            "author": "CodeConquest.com",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://rubymonstas.ch/materials/canonical/session05/session5-ruby-cheat-sheet.pdf",
+                           "title": "Ruby monstas Ruby cheat sheet",
+                           "author": "rubymonstas.ch",
                            "notes": [
                               "PDF"
                            ]
@@ -55478,6 +55583,14 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://data36.com/wp-content/uploads/2018/12/sql-cheat-sheet-for-data-scientists-by-tomi-mester.pdf",
+                           "title": "SQL Cheat Sheet by Tomi Mester",
+                           "author": "Tomi Mester",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -55510,6 +55623,28 @@
                               "PDF"
                            ],
                            "accessNotes": ":card_file_box: archived"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Unit testing",
+                     "entries": [
+                        {
+                           "url": "https://devhints.io/jest",
+                           "title": "Jest CheatSheet",
+                           "author": "devhints, Rico Santa Cruz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://www.guru99.com/unit-testing-guide.html",
+                           "title": "What is Unit testing",
+                           "author": "Thomas Hamilton",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -55739,6 +55874,11 @@
                            "title": "Data Science Foundations",
                            "author": "IBM SkillBuild",
                            "accessNotes": "email address required"
+                        },
+                        {
+                           "url": "https://www.w3schools.com/datascience/default.asp",
+                           "title": "Data Science Tutorial",
+                           "author": "W3Schools"
                         },
                         {
                            "url": "https://www.kdnuggets.com/2021/05/essential-linear-algebra-data-science-machine-learning.html",
@@ -57153,6 +57293,10 @@
                            "title": "JSFiddle"
                         },
                         {
+                           "url": "https://onecompiler.com/javascript",
+                           "title": "OneCompiler"
+                        },
+                        {
                            "url": "https://plnkr.co",
                            "title": "Plunker"
                         },
@@ -57307,8 +57451,16 @@
                            "title": "Programiz.com"
                         },
                         {
+                           "url": "https://pynative.com/online-python-code-editor-to-execute-python-code/",
+                           "title": "Pynative.com"
+                        },
+                        {
                            "url": "https://trinket.io/python",
                            "title": "Python Trinket"
+                        },
+                        {
+                           "url": "https://pythontutor.com",
+                           "title": "Python Tutor"
                         },
                         {
                            "url": "https://www.python.org/shell",
