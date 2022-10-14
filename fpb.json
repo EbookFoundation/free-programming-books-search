@@ -13146,6 +13146,16 @@
                            "author": "Maximilien Andile"
                         },
                         {
+                           "url": "https://leanpub.com/productiongo/read",
+                           "title": "Production Go",
+                           "author": "Herman Schaaf and Shawn Smith",
+                           "notes": [
+                              "EPUB, HTML, PDF",
+                              ":construction: *in process*"
+                           ],
+                           "accessNotes": "Leanpub account or valid email requested for EPUB or PDF"
+                        },
+                        {
                            "url": "http://tour.golang.org",
                            "title": "The Go Tutorial"
                         },
@@ -14626,6 +14636,14 @@
                            ]
                         },
                         {
+                           "url": "https://en.wikibooks.org/wiki/JavaScript",
+                           "title": "JavaScript Wikibook",
+                           "author": "Wikibooks",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
+                        },
+                        {
                            "url": "http://jqfundamentals.com",
                            "title": "jQuery Fundamentals",
                            "author": "Bocoup",
@@ -14766,17 +14784,17 @@
                            "accessNotes": "email address requested"
                         },
                         {
-                           "url": "http://javascript.info",
-                           "title": "The JavaScript Tutorial",
+                           "url": "https://github.com/bpesquet/thejsway",
+                           "title": "The JavaScript Way",
+                           "author": "Baptiste Pesquet"
+                        },
+                        {
+                           "url": "https://javascript.info",
+                           "title": "The Modern JavaScript Tutorial",
                            "author": "Ilya Kantor",
                            "notes": [
                               "HTML"
                            ]
-                        },
-                        {
-                           "url": "https://github.com/bpesquet/thejsway",
-                           "title": "The JavaScript Way",
-                           "author": "Baptiste Pesquet"
                         },
                         {
                            "url": "https://www.oreilly.com/programming/free/native-javascript-apis.csp",
@@ -17246,6 +17264,14 @@
                                  "url": "https://daylerees.com/codesmart/",
                                  "title": "Laravel: Code Smart",
                                  "author": "Dayle Rees"
+                              },
+                              {
+                                 "url": "https://github.com/bobbyiliev/laravel-tips-and-tricks-ebook",
+                                 "title": "Laravel Tips and Tricks",
+                                 "author": "Bobby Iliev",
+                                 "notes": [
+                                    "Markdown, PDF"
+                                 ]
                               }
                            ]
                         },
@@ -17807,8 +17833,13 @@
                            "author": "David Mertz"
                         },
                         {
+                           "url": "https://clauswilke.com/dataviz/",
+                           "title": "Fundamentals of Data Visualization",
+                           "author": "Claus O. Wilke"
+                        },
+                        {
                            "url": "https://web.archive.org/web/20191005170430/http://python.cs.southern.edu/pythonbook/pythonbook.pdf",
-                           "title": "Fundamentals of  Python Programming",
+                           "title": "Fundamentals of Python Programming",
                            "author": "Richard L. Halterman",
                            "notes": [
                               "PDF",
@@ -18593,6 +18624,19 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "Q#",
+                     "entries": [
+                        {
+                           "url": "https://learn.microsoft.com/en-us/azure/quantum/user-guide",
+                           "title": "The Q# quantum programming language user guide",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": "QML",
@@ -19817,6 +19861,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.programming-books.io/essential/sql",
+                           "title": "Essential SQL",
+                           "author": "Krzysztof Kowalczyk and  Stack Overflow Documentation project",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://github.com/bobbyiliev/introduction-to-sql",
                            "title": "Introduction to SQL",
                            "author": "Bobby Iliev",
@@ -20318,6 +20370,14 @@
                         {
                            "url": "http://www.infoq.com/minibooks/typescript-c-sharp-programmers",
                            "title": "TypeScript for C# Programmers"
+                        },
+                        {
+                           "url": "https://www.typescriptlang.org/assets/typescript-handbook.pdf",
+                           "title": "TypeScript Handbook",
+                           "author": "Microsoft",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://goalkicker.com/TypeScriptBook2/",
@@ -21482,6 +21542,20 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "R",
+                     "entries": [
+                        {
+                           "url": "https://cran.r-project.org/doc/contrib/Biecek-R-basics.pdf",
+                           "title": "Przewodnik po pakiecie R",
+                           "author": "Przemysław Biecek",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": "Ruby",
@@ -22849,17 +22923,7 @@
                            "title": "PHP"
                         }
                      ],
-                     "subsections": [
-                        {
-                           "section": "Symfony",
-                           "entries": [
-                              {
-                                 "url": "https://symfony.com/doc/current/the-fast-track/ro/index.html",
-                                 "title": "Symfony 5: Curs rapid"
-                              }
-                           ]
-                        }
-                     ]
+                     "subsections": []
                   },
                   {
                      "section": "Scratch",
@@ -22884,22 +22948,9 @@
                      "section": "0 - Language Agnostic",
                      "entries": [
                         {
-                           "url": "https://younglinux.info/blender.php",
-                           "title": "3D-моделирование в Blender",
-                           "author": "C. Шапошникова"
-                        },
-                        {
                            "url": "https://mkurnosov.net/docs/dsa-book-2020.pdf",
                            "title": "Введение в методы машинной обработки данных",
                            "author": "Курносов М.Г.",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://padabum.com/x.php?id=35055",
-                           "title": "Занимательное программирование. Самоучитель",
-                           "author": "Мозговой М.В.",
                            "notes": [
                               "PDF"
                            ]
@@ -23082,13 +23133,6 @@
                         {
                            "url": "http://av-assembler.ru/asm/afd/assembler-for-dummy.htm",
                            "title": "Ассемблер для чайников"
-                        },
-                        {
-                           "url": "http://www.mcst.ru/doc/book_121130.pdf",
-                           "title": "Микропроцессоры и вычислительные комплексы семейства \"Эльбрус\"",
-                           "notes": [
-                              "PDF"
-                           ]
                         },
                         {
                            "url": "http://www.stolyarov.info/books/pdf/nasm_unix.pdf",
@@ -23763,7 +23807,7 @@
                            "section": "React",
                            "entries": [
                               {
-                                 "url": "https://learn-reactjs.ru/home",
+                                 "url": "https://ru.reactjs.org/docs/getting-started.html",
                                  "title": "Перевод документации"
                               },
                               {
@@ -23790,7 +23834,7 @@
                            "section": "Vue.js",
                            "entries": [
                               {
-                                 "url": "https://ru.vuejs.org",
+                                 "url": "https://v3.ru.vuejs.org",
                                  "title": "Перевод документации"
                               },
                               {
@@ -24280,11 +24324,11 @@
                            "title": "Растономикон"
                         },
                         {
-                           "url": "http://rurust.github.io/rust_book_ru",
+                           "url": "https://doc.rust-lang.ru/book/",
                            "title": "Язык программирования Rust"
                         },
                         {
-                           "url": "https://rurust.github.io/rust-by-example-ru",
+                           "url": "https://doc.rust-lang.ru/stable/rust-by-example/index.html",
                            "title": "Rust на примерах"
                         },
                         {
@@ -24473,10 +24517,6 @@
                            "title": "Документация и туториалы"
                         },
                         {
-                           "url": "https://swift.org/documentation",
-                           "title": "Documentation"
-                        },
-                        {
                            "url": "https://coderlessons.com/tutorials/kompiuternoe-programmirovanie/nauchites-programmirovaniiu-swift/swift-tutorial",
                            "title": "Swift Tutorial",
                            "author": "CoderLessons.com"
@@ -24488,9 +24528,9 @@
                      "section": "TypeScript",
                      "entries": [
                         {
-                           "url": "http://typescript-lang.ru/docs/",
-                           "title": "Перевод официальной документации Typescript",
-                           "author": "George Kiselev"
+                           "url": "https://typescript-handbook.ru",
+                           "title": "Карманная книга по TypeScript",
+                           "author": "Igor Agapov"
                         },
                         {
                            "url": "https://metanit.com/web/typescript",
@@ -24948,6 +24988,14 @@
                            "author": "Larry LIU Xinyu"
                         },
                         {
+                           "url": "https://www.programming-books.io/essential/algorithms",
+                           "title": "Essential Algorithms",
+                           "author": "Krzysztof Kowalczyk and  Stack Overflow Documentation project",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://infolab.stanford.edu/~ullman/focs.html",
                            "title": "Foundations of Computer Science",
                            "author": "Al Aho, Jeff Ullman"
@@ -25102,6 +25150,14 @@
                            "author": "David L. Poole, Alan K. Mackworth @ Cambridge University Press",
                            "notes": [
                               "HTML, Slides"
+                           ]
+                        },
+                        {
+                           "url": "https://www.ibm.com/downloads/cas/OJ6WX73V",
+                           "title": "Getting Started with Artificial Intelligence , 2nd Edition",
+                           "author": "Tom Markiewicz, Josh Zheng",
+                           "notes": [
+                              "PDF"
                            ]
                         },
                         {
@@ -29772,15 +29828,6 @@
                "index": {},
                "sections": [
                   {
-                     "section": "C and C++",
-                     "entries": [
-                        {
-                           "title": "[С/C++ Теорія та практика](https://shron1.chtyvo.org.ua/Voitenko_Volodymyr C_Cpp_Teoriia_ta_praktyka.pdf) - Володимир Войтенко"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "ClojureScript",
                      "entries": [
                         {
@@ -30566,6 +30613,14 @@
                            "url": "https://web.archive.org/web/20210413213859/http://www.nowamagic.net/librarys/books/contents/c",
                            "title": "简单易懂的C魔法",
                            "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "https://hackmd.io/@Luminous-Coder/CppTutorial-zh-tw",
+                           "title": "現代 C++ 101",
+                           "author": "Luminous-Coder",
+                           "notes": [
+                              ":construction: *in process*"
+                           ]
                         },
                         {
                            "url": "http://www.ituring.com.cn/book/1203",
@@ -33263,6 +33318,14 @@
                            "url": "https://www.developershangout.io",
                            "title": "DevelopersHangout",
                            "author": "Eric J Silva",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://dnc.show",
+                           "title": "Does Not Compute",
+                           "author": "Sean Washington, Rockwell Schrock",
                            "notes": [
                               "podcast"
                            ]
@@ -38353,6 +38416,10 @@
                      "section": "0 - MOOC",
                      "entries": [
                         {
+                           "url": "https://www.classcentral.com",
+                           "title": "class central"
+                        },
+                        {
                            "url": "https://www.codecademy.com",
                            "title": "Codecademy"
                         },
@@ -38531,6 +38598,14 @@
                            "author": "Dinesh Varyani",
                            "notes": [
                               "YouTube playlist"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+                           "title": "Data Structures and Algorithms in Python Full Course for Beginners",
+                           "author": "Aakash N S",
+                           "notes": [
+                              "freeCodeCamp"
                            ]
                         },
                         {
@@ -38773,6 +38848,13 @@
                            "author": "Johan Jurrius, ProgramMe Programming",
                            "notes": [
                               "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=aS__9RbCyHg",
+                           "title": "Learn Android in 9 Hours",
+                           "notes": [
+                              "Edureka"
                            ]
                         },
                         {
@@ -39301,6 +39383,10 @@
                      "section": "Clojure",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/watch?v=zFPiPBIkAcQ",
+                           "title": "Clojure language Tutorial - for Beginners"
+                        },
+                        {
                            "url": "http://mooc.fi/courses/2014/clojure/",
                            "title": "Functional Programming with Clojure"
                         }
@@ -39325,22 +39411,47 @@
                            "author": "Edureka!"
                         },
                         {
-                           "url": "https://cognitiveclass.ai/courses/ibm-cloud-essentials",
-                           "title": "IBM Cloud Essentials V3",
-                           "author": "CognitiveClass.ai"
-                        },
-                        {
                            "url": "https://cognitiveclass.ai/courses/introduction-to-cloud",
                            "title": "Introduction to Cloud",
                            "author": "CognitiveClass.ai"
-                        },
-                        {
-                           "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
-                           "title": "Microsoft Certified: Azure Fundamentals",
-                           "author": "Microsoft"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "AWS",
+                           "entries": [
+                              {
+                                 "url": "https://trailhead.salesforce.com/content/learn/modules/aws-cloud",
+                                 "title": "Cloud Computing Basics with AWS",
+                                 "author": "Trailhead",
+                                 "notes": [
+                                    "Salesforce",
+                                    "email address *required*"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Azure",
+                           "entries": [
+                              {
+                                 "url": "https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/",
+                                 "title": "Microsoft Certified: Azure Fundamentals",
+                                 "author": "Microsoft"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "IBM",
+                           "entries": [
+                              {
+                                 "url": "https://cognitiveclass.ai/courses/ibm-cloud-essentials",
+                                 "title": "IBM Cloud Essentials V3",
+                                 "author": "CognitiveClass.ai"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Compilers",
@@ -39994,6 +40105,11 @@
                            "url": "https://cognitiveclass.ai/courses/docker-essentials",
                            "title": "Docker Essentials",
                            "author": "CognitiveClass.ai"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+                           "title": "Docker Tutorial for Beginners",
+                           "author": "Programming with Mosh!"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7",
@@ -43042,6 +43158,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLLqEtX6ql2EyPAZ1M2_C0GgVd4A-_L4_5",
                            "title": "Rust Tutorial",
                            "author": "Doug Milford"
+                        },
+                        {
+                           "url": "https://learn.microsoft.com/en-us/training/paths/rust-first-steps/",
+                           "title": "Take your first steps with Rust",
+                           "author": "Microsoft.com"
                         }
                      ],
                      "subsections": []
@@ -45617,7 +45738,12 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHGhOHV-nwb0HR5US5GFKFI",
                            "title": "Artificial Intelligence (Complete Playlist)",
-                           "author": "Gate Smashers,"
+                           "author": "Gate Smashers"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnYsdt0Dh9KkD9WFEi7nVgbe",
+                           "title": "Artificial Intelligence Lectures Hindi",
+                           "author": "Easy Engineering Classes"
                         }
                      ],
                      "subsections": []
@@ -45996,6 +46122,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+                           "title": "Flutter Tutorial for Beginners",
+                           "author": "The Net Ninja"
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLMkkZSS5OjPIwDyHHKVex6zr008U1-sWM",
@@ -50530,6 +50661,25 @@
                      "subsections": []
                   },
                   {
+                     "section": "Elixir",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLydk1OOOmzo8VBeU334j4R4WvSByRNpXR",
+                           "title": "Curso de Elixir",
+                           "author": "ELLY ACADEMY",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLv3nyCBtlWP8I9rknIrfcJWrO05yEzknD",
+                           "title": "Curso de Elixir Alquimia",
+                           "author": "Alquimia Stone"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Flutter",
                      "entries": [
                         {
@@ -50675,6 +50825,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLYItvall0TqKaY6qObQMlZ45Bo94xq9Ym",
+                           "title": "Desenvolvimento Orientado a Tipos",
+                           "author": "UFABC"
                         }
                      ],
                      "subsections": []
@@ -52779,6 +52934,99 @@
             },
             {
                "language": {
+                  "code": "te",
+                  "name": "Telugu"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-n8Iz-_3MuNsJFzr0UlGUu",
+                           "title": "C Language Tutorials",
+                           "author": "Telugu Computer World",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C++",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm9keJjsA95jKa4EUVLd7mQP",
+                           "title": "C++ Language Tutorials",
+                           "author": "Telugu Computer World",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Java",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2Lyt9-2hhRj37otchec1OJL",
+                           "title": "Full Java Tutorials in Telugu - Telugu Web Guru",
+                           "author": "",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Javascript",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2KqDjTuU_qHr-tI_CHOkIsN",
+                           "title": "Full Java Script Tutorials in Telugu - Telugu Web Guru",
+                           "author": "telugu web guru",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Python",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR",
+                           "title": "Python in Telugu - Step by Step Tutorials",
+                           "author": "Telugu Computer World",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "R",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLXx2-0oYp1LO9H8ciGQaTr6SN80dteTlc",
+                           "title": "R Programming Language Training Videos In telugu - R ట్రైనింగ్ వీడియోస్ ఇన్ తెలుగు R programming ట్రైనింగ్ వీడియోస్ ఇన్ తెలుగు",
+                           "author": "VLR Training",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
                   "code": "th",
                   "name": "Thai"
                },
@@ -54636,7 +54884,7 @@
                      "section": "GraphQL",
                      "entries": [
                         {
-                           "url": "[https://devhints.io/go](https://devhints.io/graphql)",
+                           "url": "https://devhints.io/graphql",
                            "title": "GraphQL Cheatsheet",
                            "author": "devhints, Rico Santa Cruz",
                            "notes": [
@@ -56402,6 +56650,22 @@
                         {
                            "url": "https://github.com/google/lisp-koans",
                            "title": "Lisp Koans"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Markdown",
+                     "entries": [
+                        {
+                           "url": "https://commonmark.org/help/tutorial",
+                           "title": "Markdown Tutorial",
+                           "author": "CommonMark"
+                        },
+                        {
+                           "url": "https://www.markdowntutorial.com",
+                           "title": "Markdown Tutorial",
+                           "author": "Markdown Tutorial"
                         }
                      ],
                      "subsections": []
