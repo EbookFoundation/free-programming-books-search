@@ -11194,6 +11194,15 @@
                            ]
                         },
                         {
+                           "url": "https://archive.org/download/B-001-002-839/LinuxShellScriptingWithBash-Sams.pdf",
+                           "title": "Linux Shell Scripting With Bash",
+                           "author": "Ken O. Burtch",
+                           "notes": [
+                              "PDF"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
                            "url": "http://slackbook.org",
                            "title": "Slackbook (2005)",
                            "author": "Alan Hicks, Chris Lumens, David Cantrell, Logan Johnson",
@@ -15506,6 +15515,11 @@
                            "section": "Svelte",
                            "entries": [
                               {
+                                 "url": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started",
+                                 "title": "Getting started with Svelte",
+                                 "author": "MDN Web Docs"
+                              },
+                              {
                                  "url": "https://svelte.dev/tutorial/basics",
                                  "title": "Svelte Tutorial",
                                  "author": "Svelte.dev"
@@ -18071,6 +18085,15 @@
                            "author": "Sundeep Agarwal"
                         },
                         {
+                           "url": "https://archive.org/download/python-books/Apress.Pro.Python.Advanced.Coding.Techniques.And.Tools.Jun.2010.ISBN.1430227575.pdf",
+                           "title": "Pro Python Advanced coding techniques and tools",
+                           "author": "Marty Alchin",
+                           "notes": [
+                              "PDF"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
                            "url": "https://runestone.academy/runestone/books/published/pythonds3/index.html",
                            "title": "Problem Solving with Algorithms and Data Structures using Python",
                            "author": "Bradley N. Miller, David L. Ranum",
@@ -19001,6 +19024,14 @@
                         {
                            "url": "https://www.codecademy.com/learn/ruby",
                            "title": "CodeCademy Ruby"
+                        },
+                        {
+                           "url": "https://launchschool.com/books/core_ruby_tools",
+                           "title": "Core Ruby Tools",
+                           "author": "Launch School",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://leanpub.com/developing-games-with-ruby/read",
@@ -25158,6 +25189,14 @@
                            "author": "Tom Markiewicz, Josh Zheng",
                            "notes": [
                               "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.cs.mcgill.ca/~wlh/grl_book/",
+                           "title": "Graph Representational Learning Book",
+                           "author": "William L. Hamilton",
+                           "notes": [
+                              "HTML, PDF"
                            ]
                         },
                         {
@@ -35923,6 +35962,35 @@
             },
             {
                "language": {
+                  "code": "uk",
+                  "name": "Ukrainian"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "Новини та розробка",
+                     "entries": [
+                        {
+                           "url": "https://soundcloud.com/doupodcast",
+                           "title": "DOU Podcast",
+                           "notes": [
+                              "Podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://podcasts.apple.com/ua/podcast/%D0%BF%D0%BE%D1%82%D0%B5%D1%81%D1%82%D0%B8%D0%BC-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B4%D1%96/id1528104095",
+                           "title": "Потестим в проді",
+                           "notes": [
+                              "Podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
                   "code": "zh",
                   "name": "Chinese"
                },
@@ -37765,6 +37833,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVDDw5eyzuRDXBzgdnW7UpDF",
                            "title": "Git Bangla Tutorial Complete",
                            "author": "Stack Learner"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLoR56CteKZnC0lBlHdnVnq0J3yDhgbi9w",
+                           "title": "গিট পরিচিতি",
+                           "author": "Learn with Hasin Hayder"
                         }
                      ],
                      "subsections": []
@@ -37849,6 +37922,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVB_lroSm_xvTqvVBCpR4PQE",
                            "title": "VSCode Complete Tutorial Series | VSCode টিউটোরিয়াল সিরিজ",
                            "author": "Stack Learner"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLoR56CteKZnBmefc8NTiG8GOHlU1vN3-F",
+                           "title": "VSCode Power Tips",
+                           "author": "Learn with Hasin Hayder"
                         }
                      ],
                      "subsections": []
@@ -38874,6 +38952,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLQkwcJG4YTCTimTCpEL5FZgaWdIZQuB7m",
+                           "title": "Pokédex App with Jetpack Compose",
+                           "author": "Phillipp Lackner"
+                        },
+                        {
                            "url": "https://www.coursera.org/course/mobilecloudprogram",
                            "title": "Programming Cloud Services for Android Handheld Systems"
                         },
@@ -39305,6 +39388,14 @@
                            "url": "https://www.youtube.com/watch?v=f64tZ90Dntg",
                            "title": "Domain-Driven Refactoring - Jimmy Bogard - NDC London 2022",
                            "author": "Jimmy Bogard"
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/understandingc/",
+                           "title": "Fundamentals of Programming: Understanding C#",
+                           "author": "Jesse Dietrichson",
+                           "notes": [
+                              "Udemy"
+                           ]
                         },
                         {
                            "url": "https://www.learnhowtoprogram.com/c-and-net",
@@ -39786,6 +39877,11 @@
                   {
                      "section": "Databases",
                      "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf",
+                           "title": "CMU Intro to Database Systems",
+                           "author": "CMU Database Group"
+                        },
                         {
                            "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-830-database-systems-fall-2010/",
                            "title": "Database Systems",
@@ -40594,6 +40690,11 @@
                      "section": "Haskell",
                      "entries": [
                         {
+                           "url": "http://www.cs.nott.ac.uk/~pszgmh/afp.html",
+                           "title": "Advanced Functional Programming in Haskell",
+                           "author": "Graham Hutton"
+                        },
+                        {
                            "url": "http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals",
                            "title": "C9 : Functional Programming Fundamentals",
                            "author": "Erik Meijer"
@@ -40612,6 +40713,11 @@
                            "url": "https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0",
                            "title": "edX: Introduction to Functional Programming",
                            "author": "Erik Meijer"
+                        },
+                        {
+                           "url": "http://www.cs.nott.ac.uk/~pszgmh/pgp.html",
+                           "title": "Functional Programming in Haskell",
+                           "author": "Graham Hutton"
                         },
                         {
                            "url": "https://videoag.fsmpi.rwth-aachen.de/?course=12ss-funkprog",
@@ -41470,6 +41576,11 @@
                            "section": "Next.js",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PL6QREj8te1P7gixBDSU8JLvQndTEEX3c3",
+                                 "title": "Master Next JS by Building Real Projects",
+                                 "author": "JavaScript Mastery"
+                              },
+                              {
                                  "url": "https://masteringnextjs.com",
                                  "title": "Mastering Next.js"
                               },
@@ -41548,6 +41659,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU",
                                  "title": "Node.js Crash Course Tutorial",
                                  "author": "The Net Ninja"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
+                                 "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
+                                 "author": "Dave Gray"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7occsESx2X1E2R2Uw5wCoeG",
@@ -43246,6 +43362,32 @@
                      "subsections": []
                   },
                   {
+                     "section": "Software Engineering",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=jX3v3N6oN5M",
+                           "title": "Cypress In 3 Hours",
+                           "author": "LambdaTest"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLL34mf651faORDOyJrk0E6k9FM-wKgfPV",
+                           "title": "Robot Framework Tutorial",
+                           "author": "Software Testing Mentor"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=FRn5J31eAMw",
+                           "title": "Selenium Full Course- Learn Selenium in 12 Hours",
+                           "author": "Edureka"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLL34mf651faPB-LyEP0-a7Avp_RHO0Lsm",
+                           "title": "Selenium WebDriver Tutorial",
+                           "author": "Software Testing Mentor"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Solidity",
                      "entries": [
                         {
@@ -43330,6 +43472,54 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "Terraform",
+                     "entries": [
+                        {
+                           "url": "https://www.udemy.com/course/terraform-aws",
+                           "title": "terraform + AWS",
+                           "author": "Rohit Abraham",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/terraform-gcp",
+                           "title": "Terraform + GCP",
+                           "author": "Rohit Abraham",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/terraform-101",
+                           "title": "Terraform 101",
+                           "author": "Jacob Jones",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/terraform-on-azure-basic-tutorial",
+                           "title": "Terraform on Azure - Basic Tutorial",
+                           "author": "Rahul Sawant",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLuJTeEt6HH9fUj7oRRLT0g1ttVl--Fv1T",
+                           "title": "Terraform tutorial for beginners Videos in English by Techworld with Murali",
+                           "author": "Murali"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL2qzCKTbjutKff_ns750TFESQc44nlULv",
+                           "title": "Terraform Tutorials",
+                           "author": "Narendra"
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": "Theory",
@@ -45725,6 +45915,11 @@
                      "section": "Angular",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL8p2I9GklV45--5t7_N4lveUI6Y31vQ6C",
+                           "title": "Angular 12 - 13 tutorial in Hindi",
+                           "author": "Code Step By Step"
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=0LhBvp8qpro&list=PLu0W_9lII9ahKZ42vg2w9ERPmShYbYAB7&index=21",
                            "title": "Learn Angular in one video (Hindi)",
                            "author": "Code With Harry"
@@ -46108,6 +46303,11 @@
                            "author": "CODERS NEVER QUIT"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E",
+                           "title": "Flutter Complete Tutorial in Hindi",
+                           "author": "WsCube Tech"
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=Wdx8vwN_nWI",
                            "title": "Flutter Essential Course",
                            "author": "freecodecamp",
@@ -46323,6 +46523,11 @@
                            "author": "Harshit Vashisth"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf",
+                           "title": "JavaScript Introduction Tutorial in Hindi / Urdu",
+                           "author": "Yahoo Baba"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4",
                            "title": "JavaScript Tutorial for Beginners",
                            "author": "Telusko"
@@ -46473,6 +46678,11 @@
                            "section": "Vue.js",
                            "entries": [
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PL8p2I9GklV45qwTH-mdzllUuFRJO-euYn",
+                                 "title": "Vue js tutorial in Hindi",
+                                 "author": "Code Step By Step"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLbGui_ZYuhih5ItBhn2cTncaS24_Kgeui",
                                  "title": "Vue JS Tutorials in Hindi",
                                  "author": "Rajesh Kumar, Geeky Shows"
@@ -46484,6 +46694,11 @@
                   {
                      "section": "Kotlin",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLRKyZvuMYSIMW3-rSOGCkPlO1z_IYJy3G",
+                           "title": "Kotlin Beginner Tutorials Hindi | Complete Series",
+                           "author": "Cheezy Code"
+                        },
                         {
                            "url": "https://www.youtube.com/watch?v=uoP4JKHgzDE",
                            "title": "Kotlin Programming Complete in one Video (Hindi)",
@@ -46518,6 +46733,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLYwpaL_SFmcBhOEPwf5cFwqo5B-cP9G4P",
+                           "title": "Machine Learning",
+                           "author": "5 Minutes Engineering"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=IoZGSQ07e8g",
@@ -46570,6 +46790,11 @@
                         {
                            "url": "https://youtube.com/playlist?list=PLwGdqUZWnOp1P9xSsJg7g3AY0CUjs-WOa",
                            "title": "Mongo DB full course for beginners"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQDioScEMUhkcqbgJ4ap2k4zg3sT_-Bbc",
+                           "title": "MongoDB Tutorial in Hindi 2022",
+                           "author": "Programming Experience"
                         }
                      ],
                      "subsections": []
@@ -52694,6 +52919,14 @@
                                  "notes": [
                                     "YouTube"
                                  ]
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLtoqJbwHBeHzAooLCGOzYVE9mkAeCnT9y",
+                                 "title": "REACT | MERN CRUD App in Sinhala",
+                                 "author": "Haritha Weerathunga",
+                                 "notes": [
+                                    "YouTube"
+                                 ]
                               }
                            ]
                         }
@@ -55026,6 +55259,14 @@
                            ]
                         },
                         {
+                           "url": "http://datacamp-community-prod.s3.amazonaws.com/21fdc814-3f08-4aa9-90fa-247eedefd655",
+                           "title": "Jupyter Notebook Cheat sheet",
+                           "author": "Datacamp",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://aurelio.net/vim/vim-avancado.txt",
                            "title": "Vim Avançado (pt)",
                            "author": "Aurelio Marinho Jargas",
@@ -55185,6 +55426,13 @@
                            "section": "jQuery",
                            "entries": [
                               {
+                                 "url": "https://websitesetup.org/wp-content/uploads/2017/01/wsu-jquery-cheat-sheet.pdf",
+                                 "title": "Beginner's essential jQuery Cheat Sheet",
+                                 "notes": [
+                                    "PDF"
+                                 ]
+                              },
+                              {
                                  "url": "https://htmlcheatsheet.com/jquery/",
                                  "title": "jQuery CheatSheet",
                                  "notes": [
@@ -55208,6 +55456,14 @@
                         {
                            "section": "Next.js",
                            "entries": [
+                              {
+                                 "url": "https://gourav.io/blog/nextjs-cheatsheet",
+                                 "title": "Next.js Cheatsheet - handy snippets and tips",
+                                 "author": "Gourav Goyal",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
                               {
                                  "url": "https://thevalleyofcode.pages.dev/next-handbook.pdf",
                                  "title": "Ultimate Next.js Handbook",
@@ -55238,6 +55494,14 @@
                                  "url": "https://www.codecademy.com/learn/react-101/modules/react-101-jsx-u/cheatsheet",
                                  "title": "React Cheatsheet",
                                  "author": "Codecademy",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
+                                 "url": "https://devhints.io/react",
+                                 "title": "React.js Cheatsheet",
+                                 "author": "Devhints.io",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -55876,12 +56140,50 @@
                      "subsections": []
                   },
                   {
+                     "section": "Terraform",
+                     "entries": [
+                        {
+                           "url": "https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet",
+                           "title": "Terraform Cheatsheet",
+                           "author": "Eric Pulsifer",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Unit testing",
                      "entries": [
+                        {
+                           "url": "https://devhints.io/chai",
+                           "title": "Chai CheatSheet",
+                           "author": "devhints, Rico Santa Cruz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://devhints.io/enzyme",
+                           "title": "Enzyme CheatSheet",
+                           "author": "devhints, Rico Santa Cruz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://devhints.io/jest",
                            "title": "Jest CheatSheet",
                            "author": "devhints, Rico Santa Cruz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://testing-library.com/docs/react-testing-library/cheatsheet/",
+                           "title": "React Testing Library CheatSheet",
+                           "author": "Kent C. Dodds, et al.",
                            "notes": [
                               "HTML"
                            ]
@@ -56362,6 +56664,11 @@
                                  "url": "https://www.freecodecamp.org/learn/front-end-libraries/bootstrap",
                                  "title": "Front End Development Libraries Certification: Bootstrap",
                                  "author": "freeCodeCamp"
+                              },
+                              {
+                                 "url": "https://getbootstrap.com/docs",
+                                 "title": "Get started with Bootstrap",
+                                 "author": "Bootstrap"
                               }
                            ]
                         }
