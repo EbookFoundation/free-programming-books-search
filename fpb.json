@@ -18259,7 +18259,7 @@
                            ]
                         },
                         {
-                           "url": "http://safehammad.com/downloads/python-idioms-2014-01-16.pdf",
+                           "url": "https://bennuttall.com/files/python-idioms-2014-01-16.pdf",
                            "title": "Python Idioms",
                            "notes": [
                               "PDF"
@@ -19278,10 +19278,6 @@
                            "section": "Ruby on Rails",
                            "entries": [
                               {
-                                 "url": "https://github.com/bbatsov/rails-style-guide",
-                                 "title": "A community-driven Rails style guide"
-                              },
-                              {
                                  "url": "https://github.com/madeindjs/api_on_rails",
                                  "title": "Api on Rails 6",
                                  "author": "Alexandre Rousseau"
@@ -19314,6 +19310,11 @@
                               {
                                  "url": "http://guides.railsgirls.com",
                                  "title": "Rails Girls Guides"
+                              },
+                              {
+                                 "url": "https://rails.rubystyle.guide",
+                                 "title": "Rails Style Guide",
+                                 "author": "Bozhidar Batsov"
                               },
                               {
                                  "url": "https://books.goalkicker.com/RubyBook/",
@@ -20887,6 +20888,14 @@
                      "subsections": []
                   }
                ]
+            },
+            {
+               "language": {
+                  "code": "mi",
+                  "name": "Maori"
+               },
+               "index": {},
+               "sections": []
             },
             {
                "language": {
@@ -25845,6 +25854,83 @@
                      "subsections": []
                   },
                   {
+                     "section": "Data Science",
+                     "entries": [
+                        {
+                           "url": "http://guidetodatamining.com",
+                           "title": "A Programmer's Guide to Data Mining",
+                           "author": "Ron Zacharski",
+                           "notes": [
+                              "Draft"
+                           ]
+                        },
+                        {
+                           "url": "http://www.oreilly.com/data/free/data-jujitsu.csp",
+                           "title": "Data Jujitsu: The Art of Turning Data into Product",
+                           "notes": [
+                              "email address *requested*, not required"
+                           ]
+                        },
+                        {
+                           "url": "https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R",
+                           "title": "Data Mining Algorithms In R",
+                           "author": "Wikibooks"
+                        },
+                        {
+                           "url": "https://allendowney.github.io/ElementsOfDataScience/README.html",
+                           "title": "Elements of Data Science",
+                           "author": "Allen B. Downey"
+                        },
+                        {
+                           "url": "https://clauswilke.com/dataviz/",
+                           "title": "Fundamentals of Data Visualization",
+                           "author": "Claus O. Wilke",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "http://arxiv.org/pdf/1206.1754v2.pdf",
+                           "title": "Internet Advertising: An Interplay among Advertisers, Online Publishers, Ad Exchanges and Web Users",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://docs.google.com/file/d/0B6iefdnF22XQeVZDSkxjZ0Z5VUE/edit?pli=1",
+                           "title": "Introduction to Data Science",
+                           "author": "Jeffrey Stanton"
+                        },
+                        {
+                           "url": "http://infolab.stanford.edu/~ullman/mmds/book.pdf",
+                           "title": "Mining of Massive Datasets",
+                           "author": "Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://schoolofdata.org/handbook/",
+                           "title": "School of Data Handbook"
+                        },
+                        {
+                           "url": "https://leanpub.com/LittleInferenceBook/read",
+                           "title": "Statistical inference for data science",
+                           "author": "Brian Caffo"
+                        },
+                        {
+                           "url": "https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/",
+                           "title": "The Ultimate Guide to 12 Dimensionality Reduction Techniques (with Python codes)",
+                           "author": "Pulkit Sharma"
+                        },
+                        {
+                           "url": "http://www.intechopen.com/books/theory-and-applications-for-advanced-text-mining",
+                           "title": "Theory and Applications for Advanced Text Mining"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Database",
                      "entries": [
                         {
@@ -25903,75 +25989,6 @@
                         {
                            "url": "http://web.cecs.pdx.edu/~maier/TheoryBook/TRD.html",
                            "title": "The Theory of Relational Databases"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Datamining",
-                     "entries": [
-                        {
-                           "url": "http://guidetodatamining.com",
-                           "title": "A Programmer's Guide to Data Mining",
-                           "author": "Ron Zacharski",
-                           "notes": [
-                              "Draft"
-                           ]
-                        },
-                        {
-                           "url": "http://www.oreilly.com/data/free/data-jujitsu.csp",
-                           "title": "Data Jujitsu: The Art of Turning Data into Product",
-                           "notes": [
-                              "email address *requested*, not required"
-                           ]
-                        },
-                        {
-                           "url": "https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R",
-                           "title": "Data Mining Algorithms In R",
-                           "author": "Wikibooks"
-                        },
-                        {
-                           "url": "https://allendowney.github.io/ElementsOfDataScience/README.html",
-                           "title": "Elements of Data Science",
-                           "author": "Allen B. Downey"
-                        },
-                        {
-                           "url": "http://arxiv.org/pdf/1206.1754v2.pdf",
-                           "title": "Internet Advertising: An Interplay among Advertisers, Online Publishers, Ad Exchanges and Web Users",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://docs.google.com/file/d/0B6iefdnF22XQeVZDSkxjZ0Z5VUE/edit?pli=1",
-                           "title": "Introduction to Data Science",
-                           "author": "Jeffrey Stanton"
-                        },
-                        {
-                           "url": "http://infolab.stanford.edu/~ullman/mmds/book.pdf",
-                           "title": "Mining of Massive Datasets",
-                           "author": "Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://schoolofdata.org/handbook/",
-                           "title": "School of Data Handbook"
-                        },
-                        {
-                           "url": "https://leanpub.com/LittleInferenceBook/read",
-                           "title": "Statistical inference for data science",
-                           "author": "Brian Caffo"
-                        },
-                        {
-                           "url": "https://www.analyticsvidhya.com/blog/2018/08/dimensionality-reduction-techniques-python/",
-                           "title": "The Ultimate Guide to 12 Dimensionality Reduction Techniques (with Python codes)",
-                           "author": "Pulkit Sharma"
-                        },
-                        {
-                           "url": "http://www.intechopen.com/books/theory-and-applications-for-advanced-text-mining",
-                           "title": "Theory and Applications for Advanced Text Mining"
                         }
                      ],
                      "subsections": []
@@ -34353,6 +34370,20 @@
                         }
                      ],
                      "subsections": []
+                  },
+                  {
+                     "section": "Swift",
+                     "entries": [
+                        {
+                           "url": "https://www.swiftbysundell.com/podcast/",
+                           "title": "Swift by Sundell",
+                           "author": "John Sundell",
+                           "notes": [
+                              "podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
                   }
                ]
             },
@@ -38890,6 +38921,11 @@
                            "author": "WilliamFiset"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn",
+                           "title": "Graph Series by Striver | C++ | Java | Interview Centric | Algorithms | Problems",
+                           "author": "take U forward"
+                        },
+                        {
                            "url": "https://courses.edx.org/courses/course-v1:IITBombayX+CS213.1x+1T2017/course/",
                            "title": "IIT Bombay Foundation of Data Structures (CS213.1x)"
                         },
@@ -38960,6 +38996,11 @@
                         {
                            "url": "https://online.stanford.edu/courses/soe-ycs0001-algorithms-design-and-analysis-part-2",
                            "title": "Stanford University Algorithms: Design and Analysis, Part 2"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk",
+                           "title": "Trees by Striver | C++ | Java | Placements | Binary Trees and Traversals | Problems",
+                           "author": "take U forward"
                         }
                      ],
                      "subsections": []
@@ -43435,6 +43476,11 @@
                            "author": "Corey Schafer"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB",
+                           "title": "Python Tutorials",
+                           "author": "freeCodeCamp.org"
+                        },
+                        {
                            "url": "https://www.sololearn.com/Course/Python/",
                            "title": "SoloLearn"
                         },
@@ -43656,6 +43702,14 @@
                            "url": "https://www.udemy.com/course/restful-api-with-ruby-on-rails-5/",
                            "title": "RESTful API with Ruby On Rails 5",
                            "author": "Udemy"
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/ruby-on-rails-a-beginners-guide-free",
+                           "title": "Ruby on Rails a Beginners Guide",
+                           "author": "Stephen Chesnowitz",
+                           "notes": [
+                              "Udemy"
+                           ]
                         },
                         {
                            "url": "https://www.w3resource.com/ruby/",
@@ -46324,6 +46378,11 @@
                            "author": "Aditya Verma"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLqf9emQRQrnKA_EeveiXQj_uP25w8_5qL",
+                           "title": "Dynamic Programming Workshop",
+                           "author": "Vivek Gupta"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiEmjuIVDrwR9h5i9TT2CEU_",
                            "title": "Generic Trees - Level 1",
                            "author": "Pepcoding"
@@ -46691,11 +46750,6 @@
                            "author": "Saurabh Shukla"
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLsFNQxKNzefJU-Sj__mljvrmJHZVKWbEm",
-                           "title": "All Sorting algorithms and Programs | Hindi",
-                           "author": "Saurabh Shukla"
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
                            "title": "C++ Full Course | C++ Tutorial | Data Structures & Algorithms",
                            "author": "Apna College"
@@ -46706,7 +46760,7 @@
                            "author": "ScoreShala"
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLsFNQxKNzefK_DAUwnQwBizOmcY7aDLoY",
+                           "url": "https://www.youtube.com/playlist?list=PLsFNQxKNzefJU-Sj__mljvrmJHZVKWbEm",
                            "title": "Data Structure Programs | Hindi",
                            "author": "Saurabh Shukla"
                         },
@@ -46724,16 +46778,6 @@
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go",
-                           "title": "Dynamic Programming Playlist",
-                           "author": "Aditya Verma"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLqf9emQRQrnKA_EeveiXQj_uP25w8_5qL",
-                           "title": "Dynamic Programming Workshop",
-                           "author": "Vivek Gupta"
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiHOV7lm2uSw4ZiVsIRsGS6r",
                            "title": "Functions and Arrays - Level 1",
                            "author": "Pepcoding"
@@ -46742,11 +46786,6 @@
                            "url": "https://www.youtube.com/playlist?list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-",
                            "title": "Graph Data Structure & Algorithms Full Course In Hindi",
                            "author": "Hello World"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn",
-                           "title": "Graph Series by Striver | C++ | Java | Interview Centric | Algorithms | Problems",
-                           "author": "take U forward"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s",
@@ -46770,11 +46809,6 @@
                            "url": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd",
                            "title": "Stack Playlist | Interview Questions | Coding | Tutorials | Data Structures",
                            "author": "Aditya Verma"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk",
-                           "title": "Trees by Striver | C++ | Java | Placements | Binary Trees and Traversals | Problems",
-                           "author": "take U forward"
                         }
                      ],
                      "subsections": []
@@ -47449,6 +47483,11 @@
                            "url": "https://youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX",
                            "title": "NLP Tutorial Playlist Python",
                            "author": "Code Basics"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLPIwNooIb9vimsumdWeKF3BRzs9tJ-_gy",
+                           "title": "Playlist to Natural Language Processing [ Hindi ]",
+                           "author": "Perfect Computer Engineer"
                         }
                      ],
                      "subsections": []
@@ -51468,6 +51507,14 @@
                      "section": "C++",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLesCEcYj003QTw6OhCOFb1Fdl8Uiqyrqo",
+                           "title": "Curso C++",
+                           "author": "Cláudio Rogério Carvalho Filho",
+                           "notes": [
+                              "eXcript"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40",
                            "title": "Curso de C++ - A linguagem de programação fundamental para quem quer ser um programador",
                            "author": "Canal Fessor Bruno",
@@ -54310,6 +54357,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLqG356ExoxZXEW9h1uTWCwqLLTJ_bO5Be",
                            "title": "Komple React, Redux ve Hooks Dersleri",
                            "author": "Engin Demiroğ"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLIHume2cwmHeydP0GkOzSxJHT1ph1BrWj",
+                           "title": "React Dersleri",
+                           "author": "Mustafa Murat Coşkun"
                         }
                      ],
                      "subsections": []
@@ -55851,6 +55903,14 @@
                      "section": "GraphQL",
                      "entries": [
                         {
+                           "url": "https://simplecheatsheet.com/tag/graphql-cheat-sheet",
+                           "title": "GraphQL Cheat Sheet",
+                           "author": "Simple Cheat Sheet",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://devhints.io/graphql",
                            "title": "GraphQL Cheatsheet",
                            "author": "devhints, Rico Santa Cruz",
@@ -56340,6 +56400,28 @@
                            "url": "http://www.globalnerdy.com/wordpress/wp-content/uploads/2015/03/SwiftCSharpPoster.pdf",
                            "title": "Swift and C# Quick Reference - Language Equivalents and Code Examples",
                            "author": "Globalnerdy",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Machine Learning",
+                     "entries": [
+                        {
+                           "url": "https://www.datacamp.com/cheat-sheet/machine-learning-cheat-sheet",
+                           "title": "Machine Learning Cheat Sheet",
+                           "author": "DataCamp Team",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://sgfin.github.io/files/cheatsheets/cs229_2018_cheatsheet.pdf",
+                           "title": "Super VIP Cheatsheet: Machine Learning",
+                           "author": "Afshine Amidi and Shervine Amidi",
                            "notes": [
                               "PDF"
                            ]
@@ -56945,6 +57027,14 @@
                   {
                      "section": "Terraform",
                      "entries": [
+                        {
+                           "url": "https://www.techbeatly.com/terraform-cheat-sheet",
+                           "title": "Terraform Cheat Sheet",
+                           "author": "Gineesh Madapparambath",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet",
                            "title": "Terraform Cheatsheet",
