@@ -2263,6 +2263,20 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://repository.kallipos.gr/bitstream/11419/6232/2/%CE%9A%CE%95%CE%A6%CE%91%CE%9B%CE%91%CE%99%CE%9F%2015.pdf",
+                           "title": "Γλώσσα προγραμματισμού Java",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://repository.kallipos.gr/bitstream/11419/6261/2/02_chapter_14.pdf",
+                           "title": "Διασύνδεση με JAVA Εφαρμογές",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -2287,6 +2301,13 @@
                         {
                            "url": "https://archive.org/details/AByteOfPythonEl",
                            "title": "Ένα byte της Python"
+                        },
+                        {
+                           "url": "https://repository.kallipos.gr/bitstream/11419/1708/3/85_Magoutis.pdf",
+                           "title": "Εισαγωγή στον αντικειμενοστραφή προγραμματισμό με Python",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -2310,6 +2331,20 @@
                         {
                            "url": "https://www.ebooks4greeks.gr/eisagwgh-sthn-sql-ergasthriakes-askhseis-se-mysql5-7",
                            "title": "Εισαγωγή στην SQL: Εργαστηριακές Ασκήσεις σε MySQL5.7"
+                        },
+                        {
+                           "url": "https://repository.kallipos.gr/bitstream/11419/276/3/00_master_symeonidis%2028-10-2015.pdf",
+                           "title": "Βάσεις, Αποθήκες και Εξόρυξη Δεδομένων με τον SQL Server",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://repository.kallipos.gr/bitstream/11419/6248/2/02_chapter_1.pdf",
+                           "title": "Εισαγωγή στα Συστήματα Διαχείρισης Σχεσιακών ΒΔ / MySQL 5.7",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -2720,19 +2755,6 @@
                            "url": "http://ns2.elhacker.net/timofonica/manuales/Manual_Programacion_Android_v2.0.pdf",
                            "title": "Manual de Programación Android v.2.0",
                            "author": "Salvador Gómez Oliver",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "C",
-                     "entries": [
-                        {
-                           "url": "http://www.alcancelibre.org/filemgmt_data/files/programaciongnulinux.pdf",
-                           "title": "GNU/Linux: Programación de Sistemas",
                            "notes": [
                               "PDF"
                            ]
@@ -9508,22 +9530,6 @@
                            "url": "http://minato.sip21c.org/msb/medstatbook.pdf",
                            "title": "Rによる保健医療データ解析演習",
                            "author": "中澤港",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://nuss.nagoya-u.ac.jp/index.php/s/kN6ZxsyReNzRPlM",
-                           "title": "統計解析ソフトRのスクリプト集",
-                           "author": "石井秀宗",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://cse.naro.affrc.go.jp/takezawa/r-tips.pdf",
-                           "title": "統計解析フリーソフトRの備忘録",
-                           "author": "竹澤邦夫",
                            "notes": [
                               "PDF"
                            ]
@@ -17826,11 +17832,12 @@
                            ]
                         },
                         {
-                           "url": "https://www.pycabook.com",
-                           "title": "Clean Architectures in Python",
+                           "url": "https://www.thedigitalcatbooks.com/pycabook-introduction/",
+                           "title": "Clean Architectures in Python - A practical approach to better software design (2022)",
                            "author": "Leonardo Giordani",
                            "notes": [
-                              "3.x"
+                              "3.x",
+                              "PDF"
                            ]
                         },
                         {
@@ -17895,11 +17902,6 @@
                            "url": "https://www.oreilly.com/ideas/functional-programming-in-python",
                            "title": "Functional Programming in Python",
                            "author": "David Mertz"
-                        },
-                        {
-                           "url": "https://clauswilke.com/dataviz/",
-                           "title": "Fundamentals of Data Visualization",
-                           "author": "Claus O. Wilke"
                         },
                         {
                            "url": "https://web.archive.org/web/20191005170430/http://python.cs.southern.edu/pythonbook/pythonbook.pdf",
@@ -19300,6 +19302,11 @@
                               {
                                  "url": "https://learn-rails.com/content/learnrails1",
                                  "title": "Learn Ruby on Rails: Book One",
+                                 "author": "Daniel Kehoe"
+                              },
+                              {
+                                 "url": "https://learn-rails.com/content/learnrails2",
+                                 "title": "Learn Ruby on Rails: Book Two",
                                  "author": "Daniel Kehoe"
                               },
                               {
@@ -25890,6 +25897,14 @@
                            ]
                         },
                         {
+                           "url": "https://handsondataviz.org",
+                           "title": "Hands-On Data Visualization",
+                           "author": "Jack Dougherty, Ilya Ilyankou",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://arxiv.org/pdf/1206.1754v2.pdf",
                            "title": "Internet Advertising: An Interplay among Advertisers, Online Publishers, Ad Exchanges and Web Users",
                            "notes": [
@@ -26332,6 +26347,14 @@
                         {
                            "url": "http://www.csee.umbc.edu/csee/research/cadip/readings/IR.report.120600.book.pdf",
                            "title": "Information Retrieval: A Survey",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://mitmecsept.files.wordpress.com/2018/05/stefan-bc3bcttcher-charles-l-a-clarke-gordon-v-cormack-information-retrieval-implementing-and-evaluating-search-engines-2010-mit.pdf",
+                           "title": "Information Retrieval: Implementing and Evaluating Search Engines",
+                           "author": "Stefan Böttcher, Charles L. A. Clarke, Gordon V. Cormack",
                            "notes": [
                               "PDF"
                            ]
@@ -27409,6 +27432,11 @@
                            "url": "https://freecontent.manning.com/free-ebook-exploring-math-for-programmers-and-data-scientists/",
                            "title": "Exploring Math for Programmers and Data Scientists",
                            "author": "Paul Orland"
+                        },
+                        {
+                           "url": "https://github.com/liuxinyu95/unplugged",
+                           "title": "Isomorphism -- Mathematics of Programming",
+                           "author": "Larry LIU Xinyu"
                         },
                         {
                            "url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
@@ -40397,6 +40425,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLgNJO2hghbmhUeJuv7PyVYgzhlgt2TcSr",
+                           "title": "Full Stack Computer Vision Tutorial with Tensorflow, Python, Tensorflow.JS with React.JS",
+                           "author": "Nicholas Renotte"
+                        },
+                        {
                            "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
                            "title": "Intro to Deep Learning",
                            "author": "Ryan Holbrook"
@@ -40450,9 +40483,19 @@
                      "section": "DevOps",
                      "entries": [
                         {
+                           "url": "https://explore.skillbuilder.aws/learn/public/learning_plan/view/85/devops-engineering-learning-plan?la=sec&sec=lp",
+                           "title": "AWS DevOps Engineer Learning Plan",
+                           "author": "AWS"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak",
                            "title": "DevOps Bootcamp",
                            "author": "Kunal Kushwaha"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLVHgQku8Z934suC9LSE6vaAKjOH_MfRbE",
+                           "title": "DevOps Tutorial for Beginners",
+                           "author": "Intellipaat"
                         },
                         {
                            "url": "https://www.udacity.com/course/intro-to-devops--ud611",
@@ -44418,6 +44461,17 @@
                "index": {},
                "sections": [
                   {
+                     "section": "ABAP",
+                     "entries": [
+                        {
+                           "url": "https://www.udemy.com/course/sap-abap-iniciacion-a-la-programacion/",
+                           "title": "SAP ABAP Programación Iniciación",
+                           "author": "Logali Group"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Android",
                      "entries": [
                         {
@@ -45116,6 +45170,11 @@
                            "title": "Aplicaciones Web Avanzadas (2014)"
                         },
                         {
+                           "url": "https://open-bootcamp.com/cursos/angular",
+                           "title": "Bootcamp Angular gratis",
+                           "author": "Open Bootcamp"
+                        },
+                        {
                            "url": "https://www.pildorasinformaticas.es/course/css-avanzado-desde-0",
                            "title": "CSS Básico a Avanzado",
                            "author": "Juan Díaz",
@@ -45447,6 +45506,14 @@
                            "title": "Como crear y administrar un curso en MOODLE - TecNMx",
                            "notes": [
                               "TecNMx"
+                           ]
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/vscode-mejora-tu-velocidad-para-codificar/",
+                           "title": "Visual Studio Code: Mejora tu velocidad para codificar",
+                           "author": "Fernando Herrera",
+                           "notes": [
+                              "udemy"
                            ]
                         }
                      ],
@@ -46465,6 +46532,11 @@
                            "author": "Code Step By Step"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL_qizAfcpJ-N2mRgfQxnDgsv20daqwlfN",
+                           "title": "Angular 13 Tutorial in Hindi",
+                           "author": "Sahosoft Solutions"
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=0LhBvp8qpro&list=PLu0W_9lII9ahKZ42vg2w9ERPmShYbYAB7&index=21",
                            "title": "Learn Angular in one video (Hindi)",
                            "author": "Code With Harry"
@@ -46535,6 +46607,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLRlT7xBRpp9MiMN25XJjUVz01rGFQohq2",
+                           "title": "Blockchain Full Course in Hindi",
+                           "author": "Innovate India"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiG6_thChXWzolj9BEG-Y0gh",
@@ -46680,6 +46757,11 @@
                            "author": "Hello World"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PL-Jc9J83PIiGkI_pL8l67OVvbpnwf-5yO",
+                           "title": "Range Queries - Level 3",
+                           "author": "Pepcoding"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PL-Jc9J83PIiEoZSwjEZT3TvpKG16FntFL",
                            "title": "Text Processing - Level 3",
                            "author": "Pepcoding"
@@ -46697,6 +46779,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL-JvKqQx2Ate5DWhppx-MUOtGNA4S3spT",
+                           "title": "Compiler Design Tutorial In Hindi",
+                           "author": "University Academy"
                         }
                      ],
                      "subsections": []
@@ -46788,6 +46875,11 @@
                            "author": "Hello World"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PL_z_8CaSLPWdtY9W22VjnPxG30CXNZpI9",
+                           "title": "Heap Playlist Interview Questions Coding Tutorials Data Structures",
+                           "author": "Aditya Verma"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLKKfKV1b9e8ps6dD3QA5KFfHdiWj9cB1s",
                            "title": "Java + Data Structures + Algorithms",
                            "author": "Apni Kaksha"
@@ -46820,6 +46912,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV",
                            "title": "3.1 DBMS In Hindi (Complete Playlist)",
                            "author": "Knowledge Gate"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn",
+                           "title": "Database Management System ( DBMS )",
+                           "author": "Education 4u"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc",
@@ -47553,6 +47650,11 @@
                            "author": "Rajesh Kumar, Geeky Shows"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLmGElG-9wxc_Hp_bqKH0-cpeboH1_sQg7",
+                           "title": "PHP Tutorial for beginners in Hindi",
+                           "author": "ScoreShala"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs",
                            "title": "PHP Tutorial in Hindi / Urdu",
                            "author": "Yahoo Baba"
@@ -47627,6 +47729,11 @@
                                  "author": "Rajesh Kumar, Geeky Shows"
                               },
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PLKkAfNrxxRKqYLB9bCqMXrvoYd13WVxOq",
+                                 "title": "Django in Hindi",
+                                 "author": "Effcon Technology"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLbGui_ZYuhijTKyrlu-0g5GcP9nUp_HlN",
                                  "title": "Django REST Framework (Hindi)",
                                  "author": "Rajesh Kumar, Geeky Shows"
@@ -47655,6 +47762,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLkPmSWtWNIyQ-_mlHIQho9nCnxdbvnQIl",
                                  "title": "[Hindi] Flask Tutorial For Beginners 2020",
                                  "author": "Knowledge Shelf"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLy-CGmBdq2VGQGbhmSQEOD3Ty-Fp19pGC",
+                                 "title": "Flask (Python) In Hindi",
+                                 "author": "HindiSiksha"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agAiWp6Y41ueUKx1VcTRxmf",
@@ -49675,6 +49787,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJdbiBCoj4j6x_Ai6Vu9j5r9",
                            "title": "Corso rapido Python per principianti e per esempi",
                            "author": "Fabrizio Camuso"
+                        },
+                        {
+                           "url": "https://www.programmareinpython.it/video-corso-python-base/",
+                           "title": "Le Basi di Python - Corso Completo",
+                           "author": "Michele Saba"
                         }
                      ],
                      "subsections": []
@@ -54005,6 +54122,14 @@
                      "section": "Python",
                      "entries": [
                         {
+                           "url": "https://www.udemy.com/course/programming-for-kids-in-telugu",
+                           "title": "Free Programming Fundamentals Tutorial - programming బిగినర్స్ ప్రోగ్రామింగ్ in telugu తెలుగు python - Udemy",
+                           "author": "Saarvani R",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR",
                            "title": "Python in Telugu - Step by Step Tutorials",
                            "author": "Telugu Computer World",
@@ -54332,6 +54457,11 @@
                            "author": "Engin Demiroğ"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLIHume2cwmHctrHFHADb0slNyn95x2M4I",
+                           "title": "Java Programlama",
+                           "author": "Mustafa Murat Coşkun"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLqG356ExoxZUuVYKLuiQLnref7Y4ims87",
                            "title": "Yazılım Geliştirici Yetiştirme Kampı",
                            "author": "Engin Demiroğ"
@@ -54342,6 +54472,11 @@
                   {
                      "section": "Python",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLWctyKyPphPiul3WbHkniANLqSheBVP3O",
+                           "title": "Python Dersleri",
+                           "author": "Erol Mesutgün"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLK6Whnd55IH5i1klkNSBDasIaO77l-Bm9",
                            "title": "Sıfırdan İleri Seviye Profesyonel Python Yazılım Geliştiricisi Olma Kursu (2021)",
@@ -55902,6 +56037,14 @@
                   {
                      "section": "GraphQL",
                      "entries": [
+                        {
+                           "url": "https://licor.me/post/graphql",
+                           "title": "GraphQL Cheat Sheet",
+                           "author": "Chuanrong Li",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://simplecheatsheet.com/tag/graphql-cheat-sheet",
                            "title": "GraphQL Cheat Sheet",
