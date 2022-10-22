@@ -791,6 +791,10 @@
                            "accessNotes": ":card_file_box: archived"
                         },
                         {
+                           "url": "https://imtiaz-hossain-emu.gitbook.io/system-design/",
+                           "title": "কেমনে করে সিস্টেম ডিজাইন?"
+                        },
+                        {
                            "url": "https://devsonket.com",
                            "title": "ডেভসংকেত: বাংলা চিটশিটের ভান্ডার",
                            "author": "Devsonket Team"
@@ -1456,14 +1460,6 @@
                            "author": "Jürgen Wolf",
                            "notes": [
                               "Online"
-                           ]
-                        },
-                        {
-                           "url": "http://www.tobscore.com/socket-programmierung-in-c",
-                           "title": "Socket Programmierung in C",
-                           "author": "Brian \"Beej Jorgensen\" Hall, Übersetzt von Tobias Kerst",
-                           "notes": [
-                              "HTML"
                            ]
                         },
                         {
@@ -10615,22 +10611,6 @@
                      "section": "APL",
                      "entries": [
                         {
-                           "url": "http://robertson.uk.net/Files/APL1&2.pdf",
-                           "title": "A Practical Introduction to APL1 & APL2",
-                           "author": "Graeme Donald Robertson",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://robertson.uk.net/Files/APL3&4.pdf",
-                           "title": "A Practical Introduction to APL3 & APL4",
-                           "author": "Graeme Donald Robertson",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
                            "url": "https://ia801009.us.archive.org/28/items/apl-2-at-a-glance-brown-pakin-polivka/APL2_at_a_Glance_-_Brown_Pakin_Polivka.pdf",
                            "title": "APL2 at a glance",
                            "author": "James A. Brown, Sandra Pakin, Raymond P. Polivka - 1988",
@@ -15413,6 +15393,11 @@
                                  "title": "Hacking with React"
                               },
                               {
+                                 "url": "https://handsonreact.com/docs/",
+                                 "title": "Hands on React",
+                                 "author": "Craig Mckeachie"
+                              },
+                              {
                                  "url": "https://www.digitalocean.com/community/books/how-to-code-in-react-js-ebook",
                                  "title": "How To Code in React.js",
                                  "author": "Joe Morgan"
@@ -18345,6 +18330,14 @@
                            ]
                         },
                         {
+                           "url": "https://inventwithpython.com/PythonProgrammingExercisesGentlyExplained.pdf",
+                           "title": "Python Programming Exercises, Gently Explained",
+                           "author": "Al Sweigart",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://www.tutorialspoint.com/python/",
                            "title": "Python Tutorial",
                            "author": "Tutorials Point",
@@ -18448,6 +18441,15 @@
                               "PDF, EPUB, Kindle"
                            ],
                            "accessNotes": "email address requested"
+                        },
+                        {
+                           "url": "https://inventwithpython.com/recursion/",
+                           "title": "The Recursive Book of Recursion",
+                           "author": "Al Swigart",
+                           "notes": [
+                              "HTML",
+                              "3.x"
+                           ]
                         },
                         {
                            "url": "https://web.archive.org/web/20200626001242/http://effbot.org/librarybook/",
@@ -22249,19 +22251,6 @@
                      "section": "Java",
                      "entries": [
                         {
-                           "url": "https://github.com/davidbuzatto/Livro-Desenvolvimento-de-Aplica-es-Web-em-Java/releases",
-                           "title": "Desenvolvimento de Aplicações Web em Java e Outras Tecnologias",
-                           "author": "David Buzatto",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://www.gitbook.com/book/rafaelsakurai/desenvolvimento-distribuido",
-                           "title": "Desenvolvimento Distribuído com JavaEE",
-                           "author": "Rafael Guimarães Sakurai"
-                        },
-                        {
                            "url": "https://leanpub.com/imergindo-jvm",
                            "title": "Imergindo na JVM",
                            "author": "Otavio Santana",
@@ -25922,6 +25911,15 @@
                            "author": "Jure Leskovec, Anand Rajaraman, Jeffrey D. Ullman",
                            "notes": [
                               "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.isibang.ac.in/~athreya/psweur/index.html#usage",
+                           "title": "Probability and Statistics with Examples using R",
+                           "author": "Siva Athreya, Deepayan Sarkar, Steve Tanner",
+                           "notes": [
+                              "HTML",
+                              ":construction: *in process*"
                            ]
                         },
                         {
@@ -37988,6 +37986,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVC2-nXUrvpcQEz3FgCSIQHT",
                            "title": "Dart All You Need To Know",
                            "author": "Stack Learner"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLbC4KRSNcMnpQarCowZvUJOf4VhiJllX5",
+                           "title": "Dart Bangla Tutorial",
+                           "author": "Learn Hunter"
                         }
                      ],
                      "subsections": []
@@ -38088,6 +38091,11 @@
                            "author": "Stack Learner"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLm64fbD5Onxvj4aifOC8P8U8inUqWzdSH",
+                           "title": "CSS Bangla Tutorial",
+                           "author": "Moshiur"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3",
                            "title": "HTML Complete Course in Bangla 2021(Beginner to Advanced)",
                            "author": "Anisul Islam"
@@ -38096,6 +38104,11 @@
                            "url": "https://w3programmers.com/bangla/html-basics/",
                            "title": "HTML Tutorial in Bangla",
                            "author": "w3programmers"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLm64fbD5OnxuObyOVSxcM0TUcBLDF2w64",
+                           "title": "HTML Bangla Tutorial",
+                           "author": "Moshiur"
                         }
                      ],
                      "subsections": [
@@ -38111,6 +38124,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG",
                                  "title": "Bootstrap 5 and 4 Bangla Tutorials",
                                  "author": "Anisul Islam"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLm64fbD5OnxuWrqDWyObVkH_Y5R6Wg1wg",
+                                 "title": "Bootstrap Bangla Tutorial With Projects",
+                                 "author": "Moshiur"
                               }
                            ]
                         },
@@ -38244,6 +38262,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3pSJG9Hwjnykd0hLGEsW4DB",
                                  "title": "jQuery Bangla Series for Beginners",
                                  "author": "Anisul Islam"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLm64fbD5Onxtpvq--EAMfAHcn8h8_t3iw",
+                                 "title": "jQuery Bangla Tutorial",
+                                 "author": "Moshiur"
                               }
                            ]
                         },
@@ -38404,6 +38427,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL_XxuZqN0xVCFLIrGA1GaxacvPTDQcsMV",
                            "title": "PHP All You Need To Know",
                            "author": "Stack Learner"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLbC4KRSNcMnqBfSoiU5TG7FF4FQmCpoSp",
+                           "title": "php bangla tutorial for beginners | php8 bangla tutorial",
+                           "author": "Learn Hunter"
                         }
                      ],
                      "subsections": []
@@ -38512,6 +38540,27 @@
                            "url": "https://youtube.com/playlist?list=PLgH5QX0i9K3rXq_1OgVmjaEJJ1akJQgPq",
                            "title": "typescript full course in bangla",
                            "author": "Anisul Islam"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "WordPress",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLm64fbD5Onxti7DiUkX3UX3P2tuiEw30E",
+                           "title": "WordPress Bangla Tutorial",
+                           "author": "Moshiur"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLbC4KRSNcMno7NzhTgGhoZtRjLiHUo8m4",
+                           "title": "WordPress Customization Bangla Tutorial",
+                           "author": "Learn Hunter"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLeCz-UdZ0uzQVPdQN-mWnz8896BdYMqAf",
+                           "title": "Wordpress Bangla Tutorial Course for beginner to advanced level",
+                           "author": "Freelancer Mannan"
                         }
                      ],
                      "subsections": []
@@ -40566,6 +40615,16 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLsgnv1SN76ILtD3TnVtXpX1hmwjyY9OuT",
+                           "title": "CHEF Tutorial",
+                           "author": "Online Tutorials"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLKK5zTDXqzFM53J6-rikDrqbbY0Pu-9SP",
+                           "title": "Learning Chef",
+                           "author": "Nathen Harvey"
                         }
                      ],
                      "subsections": []
@@ -40916,6 +40975,15 @@
                            "url": "https://www.youtube.com/watch?v=apGV9Kg7ics",
                            "title": "Complete Git and GitHub Tutorial",
                            "author": "Kunal Kushwaha"
+                        },
+                        {
+                           "url": "https://learn.gitkraken.com/courses/git-foundations",
+                           "title": "Foundations of Git - Certification Course",
+                           "author": "Axosoft",
+                           "notes": [
+                              "GitKraken"
+                           ],
+                           "accessNotes": "account or email address required"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLFBirL3MAv29Vy_L7MmV2QaZLvAadFPHR",
@@ -42180,6 +42248,11 @@
                                  "notes": [
                                     "scrimba"
                                  ]
+                              },
+                              {
+                                 "url": "https://www.codecademy.com/learn/react-101",
+                                 "title": "Learn ReactJS",
+                                 "author": "Codecademy"
                               },
                               {
                                  "url": "https://progate.com/languages/react",
@@ -43862,6 +43935,11 @@
                            "notes": [
                               "Udacity"
                            ]
+                        },
+                        {
+                           "url": "https://github.com/RPISEC/MBE",
+                           "title": "Modern Binary Exploitation",
+                           "author": "RPISEC"
                         },
                         {
                            "url": "https://www.coursera.org/course/crypto",
@@ -54038,6 +54116,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "Solidity",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLl2NTvGeqw2ZRNLU25-yodXK86EXWV6on",
+                           "title": "Solidity tutorial for complete beginners",
+                           "author": "Ork"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "SQL",
                      "entries": [
                         {
@@ -54481,6 +54570,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLK6Whnd55IH5i1klkNSBDasIaO77l-Bm9",
                            "title": "Sıfırdan İleri Seviye Profesyonel Python Yazılım Geliştiricisi Olma Kursu (2021)",
                            "author": "Mert Mekatronik"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL3kMAPso9YQ1Ls-5uTTIWWMkJoF_vyj5J",
+                           "title": "Yeni Başlayanlar İçin Sıfırdan Python Dersleri",
+                           "author": "Python'a Giriş"
                         }
                      ],
                      "subsections": []
@@ -57036,6 +57130,28 @@
                      "subsections": []
                   },
                   {
+                     "section": "Scala",
+                     "entries": [
+                        {
+                           "url": "https://warisradji.com/Scala-CheatSheet",
+                           "title": "Scala Cheat Sheet",
+                           "author": "Waris RADJI",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://alvinalexander.com/downloads/scala/Scala-Cheat-Sheet-devdaily.pdf",
+                           "title": "Scala Cheatsheet",
+                           "author": "Alvin Alexander",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Shell Scripting",
                      "entries": [
                         {
@@ -57591,6 +57707,16 @@
                         {
                            "url": "http://tour.golang.org",
                            "title": "The Go Tutorial"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "GraphQL",
+                     "entries": [
+                        {
+                           "url": "https://www.apollographql.com/tutorials/",
+                           "title": "Apollo Odyssey"
                         }
                      ],
                      "subsections": []
