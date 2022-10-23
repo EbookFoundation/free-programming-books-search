@@ -7535,8 +7535,8 @@
                      "section": "Visual Basic",
                      "entries": [
                         {
-                           "url": "http://www.webalice.it/kindofapple/corsovb.pdf",
-                           "title": "Corso Visual Basic",
+                           "url": "https://vbscuola.it/VB2010/A_Scuola_con_VB2010.pdf",
+                           "title": "A Scuola con VB2010",
                            "notes": [
                               "PDF"
                            ]
@@ -10674,6 +10674,14 @@
                   {
                      "section": "Arduino",
                      "entries": [
+                        {
+                           "url": "https://www.eitkw.com/wp-content/uploads/2020/03/Arduino_Projects_Book.pdf",
+                           "title": "Ardiuno Projects Book",
+                           "author": "Scott Fitzgerald and Michael Shiloh",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
                         {
                            "url": "https://arduino-doc.readthedocs.io/en/latest/",
                            "title": "Arduino-docs : A beginner's guide",
@@ -14558,6 +14566,11 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+                           "title": "JavaScript For Beginners",
+                           "author": "Microsoft"
+                        },
+                        {
                            "url": "http://jsforcats.com",
                            "title": "JavaScript For Cats",
                            "author": "Maxwell Ogden",
@@ -16269,6 +16282,14 @@
                   {
                      "section": "MATLAB",
                      "entries": [
+                        {
+                           "url": "http://math.loyola.edu/~loberbro/matlab/Beginners_guide_to_MATLAB.pdf",
+                           "title": "A Beginner’s Guide to Matlab",
+                           "author": "Christos Xenophontos",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
                         {
                            "url": "http://www.science.smith.edu/~jcardell/Courses/EGR326/Intro-to-MATLAB.pdf",
                            "title": "An Interactive Introduction to MATLAB",
@@ -18792,6 +18813,11 @@
                            "url": "https://rafalab.github.io/dsbook/",
                            "title": "Data Analysis and Prediction Algorithms with R",
                            "author": "Rafael A. Irizarry"
+                        },
+                        {
+                           "url": "https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R",
+                           "title": "Data Mining Algorithms In R",
+                           "author": "Wikibooks"
                         },
                         {
                            "url": "https://csgillespie.github.io/efficientR/",
@@ -26546,6 +26572,11 @@
                         {
                            "url": "http://www.intechopen.com/books/machine_learning",
                            "title": "Machine Learning"
+                        },
+                        {
+                           "url": "https://github.com/Microsoft/ML-For-Beginners",
+                           "title": "Machine Learning for Beginners",
+                           "author": "Microsoft"
                         },
                         {
                            "url": "https://moa.cms.waikato.ac.nz/book-html/",
@@ -38434,7 +38465,18 @@
                            "author": "Learn Hunter"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Laravel",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLbC4KRSNcMnoQONzuNtFlhEzegTYadoBY",
+                                 "title": "Restapi Bangla tutorial | Laravel & Lumen Api development",
+                                 "author": "Learn Hunter"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Programming paradigms",
@@ -38489,7 +38531,18 @@
                            "author": "Zulkarnine Mahmud"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Django",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLbC4KRSNcMnqUp_v1nxbQaoImTN3kWS_V",
+                                 "title": "Django Bangla Tutorial",
+                                 "author": "Learn Hunter"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Scratch",
@@ -39874,6 +39927,11 @@
                         {
                            "section": "Azure",
                            "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=10PbGbTUSAg",
+                                 "title": "Azure Administrator Certification",
+                                 "author": "freeCodeCamp"
+                              },
                               {
                                  "url": "https://youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM",
                                  "title": "Microsoft Azure Fundamentals",
@@ -46873,6 +46931,11 @@
                            "url": "https://youtube.com/playlist?list=PLYwpaL_SFmcAtxMe7ahYC4ZYjQHun_b-T",
                            "title": "Computer Graphics",
                            "author": "5 Minutes Engineering"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnaTVCcd954N14bVOOgYh-2V",
+                           "title": "Computer Graphics and Multimedia (CGMM) Lectures in Hindi",
+                           "author": "Easy Engineering Classes"
                         }
                      ],
                      "subsections": []
@@ -50583,14 +50646,6 @@
                            "notes": [
                               "금오공대 최태영"
                            ]
-                        },
-                        {
-                           "url": "https://jihooyim1.gitbooks.io/linuxbasic/content",
-                           "title": "Linux Kernel Basic",
-                           "author": "Jihoo Yim",
-                           "notes": [
-                              "gitbook"
-                           ]
                         }
                      ],
                      "subsections": []
@@ -54180,6 +54235,36 @@
                      "subsections": []
                   },
                   {
+                     "section": "Flutter",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLv_sM9ZH4RUXoDYMCpMwHNHz875lzTRcH",
+                           "title": "Dart & Flutter Tutorials in Telugu",
+                           "author": "Kotha Abhishek",
+                           "notes": [
+                              "Chintu Tutorials"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=TvSK-451TcA",
+                           "title": "Dart Tutorial for Flutter in Telugu",
+                           "author": "Sai Gopi",
+                           "notes": [
+                              "Sai Gopi"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLbVPygGblyBwT55MkWTpFeBJdyymx1MIV",
+                           "title": "Flutter Andorid App Beginner Tutorials Telugu",
+                           "author": "Vamshee",
+                           "notes": [
+                              "codewithvamshee"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Java",
                      "entries": [
                         {
@@ -54530,6 +54615,11 @@
                            "author": "Murat Eliçalişkan"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLdYLIhwDacdFC-Yrz7hscxwmOpuhnMigs",
+                           "title": "JavaScript Dersleri",
+                           "author": "Mustafa Filiz"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLGrTHqyRDvx6PqKkqSPwph57HNN4RWgR2",
                            "title": "JavaScript Eğitim Serisi",
                            "author": "Hakan Yalçınkaya | Kodluyoruz"
@@ -54570,6 +54660,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLK6Whnd55IH5i1klkNSBDasIaO77l-Bm9",
                            "title": "Sıfırdan İleri Seviye Profesyonel Python Yazılım Geliştiricisi Olma Kursu (2021)",
                            "author": "Mert Mekatronik"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL-Hkw4CrSVq9Y_RP7Q9Kn-bgZvVdl1cBy",
+                           "title": "Yeni Başlayanlar İçin Python Dersleri 2019",
+                           "author": "Arin Yazilim"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL3kMAPso9YQ1Ls-5uTTIWWMkJoF_vyj5J",
@@ -54977,6 +55072,11 @@
                   {
                      "section": "Go",
                      "entries": [
+                        {
+                           "url": "https://github.com/zalopay-oss/go-advanced",
+                           "title": "Go Language Advanced Programming",
+                           "author": "Zalopay"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLVDJsRQrTUz5icsxSfKdymhghOtLNFn-k",
                            "title": "Lập trình Golang",
@@ -55610,6 +55710,52 @@
                },
                "index": {},
                "sections": [
+                  {
+                     "section": "Ansible",
+                     "entries": [
+                        {
+                           "url": "https://intellipaat.com/blog/tutorial/devops-tutorial/ansible-basic-cheat-sheet",
+                           "title": "Ansible Basic Cheat Sheet",
+                           "author": "Intellipaat",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://sites.google.com/site/mrxpalmeiras/ansible/ansible-cheat-sheet",
+                           "title": "Ansible Cheat Sheet",
+                           "author": "Mrxpalmeiras",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://medium.com/edureka/ansible-cheat-sheet-guide-5fe615ad65c0",
+                           "title": "Ansible Cheat Sheet — A DevOps Quick Start Guide",
+                           "author": "edureka",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://opensource.com/article/20/11/ansible-cheat-sheet",
+                           "title": "Automate your tasks with this Ansible cheat sheet",
+                           "author": "Opensource",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://www.digitalocean.com/community/cheatsheets/how-to-use-ansible-cheat-sheet-guide",
+                           "title": "How to Use Ansible: A Reference Guide",
+                           "author": "DigitalOcean",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
                   {
                      "section": "APL",
                      "entries": [
@@ -59361,8 +59507,8 @@
                      "section": "Scala",
                      "entries": [
                         {
-                           "url": "https://scalafiddle.io",
-                           "title": "ScalaFiddle.io"
+                           "url": "https://www.jdoodle.com/compile-scala-online",
+                           "title": "JDoodle"
                         },
                         {
                            "url": "https://scastie.scala-lang.org",
@@ -59407,6 +59553,10 @@
                         {
                            "url": "http://sqlfiddle.com",
                            "title": "SQLFiddle"
+                        },
+                        {
+                           "url": "https://sqliteonline.com",
+                           "title": "SQLite Online"
                         }
                      ],
                      "subsections": []
