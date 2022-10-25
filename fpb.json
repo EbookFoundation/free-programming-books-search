@@ -35235,7 +35235,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.cocoaheads.com.br/podcasts",
+                           "url": "https://podcasts-brasileiros.com/podcast/cocoaheads-brasil",
                            "title": "CocoaHeads",
                            "notes": [
                               "podcast"
@@ -38614,6 +38614,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLeCz-UdZ0uzQVPdQN-mWnz8896BdYMqAf",
                            "title": "Wordpress Bangla Tutorial Course for beginner to advanced level",
                            "author": "Freelancer Mannan"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLSNRR4BKcowD6A-U_ll9ayJWqOEz3XD8l",
+                           "title": "WordPress Theme Development Tutorial Bangla ",
+                           "author": "Procoder BD"
                         }
                      ],
                      "subsections": []
