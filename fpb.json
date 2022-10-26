@@ -6660,7 +6660,8 @@
                               },
                               {
                                  "url": "http://minimalprocedure.pragmas.org/writings/programmazione_funzionale/programmazione_funzionale.html",
-                                 "title": "Programmazione Funzionale"
+                                 "title": "Programmazione Funzionale",
+                                 "author": "Massimo Maria Ghisalberti"
                               }
                            ]
                         },
@@ -9110,22 +9111,6 @@
                            "url": "https://marycore.jp/prog/objective-c/basic-syntax",
                            "title": "Objective-C 2.0 基礎文法最速マスター",
                            "author": "@_marycore"
-                        },
-                        {
-                           "url": "https://developer.apple.com/jp/devcenter/ios/library/documentation/ProgrammingWithObjectiveC.pdf",
-                           "title": "Objective-C によるプログラミング",
-                           "author": "Apple Developer",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://developer.apple.com/jp/devcenter/ios/library/documentation/CocoaEncyclopedia.pdf",
-                           "title": "Objective-C プログラミングの概念",
-                           "author": "Apple Developer",
-                           "notes": [
-                              "PDF"
-                           ]
                         },
                         {
                            "url": "https://developer.apple.com/jp/documentation/ProgrammingWithObjectiveC.pdf",
@@ -12035,6 +12020,16 @@
                               "PDF"
                            ],
                            "accessNotes": ":construction: in process"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Carbon",
+                     "entries": [
+                        {
+                           "url": "https://documentation-service.arm.com/static/5ed10fa8ca06a95ce53f8dc5",
+                           "title": "Carbon Compiler User Manual"
                         }
                      ],
                      "subsections": []
@@ -22676,6 +22671,14 @@
                            "title": "O tutorial de Python"
                         },
                         {
+                           "url": "https://www.dcc.ufrj.br/~fabiom/mab225/PensandoTkinter.pdf",
+                           "title": "Pensando Tkinter",
+                           "author": "Steven Ferg",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://penseallen.github.io/PensePython2e",
                            "title": "Pense em Python"
                         },
@@ -23201,6 +23204,11 @@
                                  "url": "https://www.fprog.ru",
                                  "title": "Практика функционального программирования",
                                  "author": "журнал"
+                              },
+                              {
+                                 "url": "https://github.com/bespoyasov/refactor-like-a-superhero-online-book/blob/main/manuscript-ru/README.md",
+                                 "title": "Рефакторинг на максималках",
+                                 "author": "Александр Беспоясов"
                               }
                            ]
                         },
@@ -28832,6 +28840,11 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/bespoyasov/refactor-like-a-superhero-online-book/blob/main/manuscript-en/README.md",
+                           "title": "Refactor Like a Superhero",
+                           "author": "Alex Bespoyasov"
+                        },
+                        {
                            "url": "http://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2",
                            "title": "Scrum and XP from the Trenches"
                         },
@@ -29508,7 +29521,7 @@
                         {
                            "url": "https://freetamilebooks.com/ebooks/learn-selenium-in-tamil/",
                            "title": "எளிய தமிழில் Selenium",
-                           "author": "Nithya Durai",
+                           "author": "து.நித்யா",
                            "notes": [
                               "PDF"
                            ]
@@ -29631,6 +29644,17 @@
                            "url": "http://it.e-tech.ac.th/poohdevil/JavaConcepts/",
                            "title": "Java Programming Concept",
                            "author": "Rungrote Phonkam"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "PHP",
+                     "entries": [
+                        {
+                           "url": "http://marcuscode.com/lang/php",
+                           "title": "พื้นฐานภาษา PHP",
+                           "author": "MarcusCode"
                         }
                      ],
                      "subsections": []
@@ -34630,6 +34654,14 @@
                            ]
                         },
                         {
+                           "url": "https://open.spotify.com/show/0jrfxcnCrD7N9tlA0BGJp5",
+                           "title": "DevTalles",
+                           "author": "Fernando Herrera",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLZVwXPbHD1KMsiA7ahRSbIwS3QMsQ0SbL",
                            "title": "Domain-Driven Design",
                            "author": "Codely.TV",
@@ -38287,6 +38319,26 @@
                      ],
                      "subsections": [
                         {
+                           "section": "Angular",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLbC4KRSNcMnr2ZFQne_jotsiX9hGwLJHG",
+                                 "title": "Angularjs bangla tutorial basic",
+                                 "author": "Learn Hunter"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLZURtcoL43SUpJj_n_yGoqM4RMqQoBbst",
+                                 "title": "AngularJS bangla tutorial",
+                                 "author": "tutplus24"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLEfqpT48xB4H2gOHDzs2dm_ZmoECuTHtR",
+                                 "title": "Angular 12 Easy Tutorial in Bangla",
+                                 "author": "web-man"
+                              }
+                           ]
+                        },
+                        {
                            "section": "jQuery",
                            "entries": [
                               {
@@ -38298,6 +38350,16 @@
                                  "url": "https://www.youtube.com/playlist?list=PLm64fbD5Onxtpvq--EAMfAHcn8h8_t3iw",
                                  "title": "jQuery Bangla Tutorial",
                                  "author": "Moshiur"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Next.js",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLQvUYGXiwrskS_C3MOeW0rOVB5Ny2MCR2",
+                                 "title": "next js bangla(বাংলা) tutorial",
+                                 "author": "Faazle Rabbi"
                               }
                            ]
                         },
@@ -38541,8 +38603,29 @@
                                  "author": "Learn Hunter"
                               }
                            ]
+                        },
+                        {
+                           "section": "Flask",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL5WWFMzXof5hA8cLzEoim7BEkHcmddbOK",
+                                 "title": "Flask Web Development with python (Bangla)",
+                                 "author": "Naimul Hawk"
+                              }
+                           ]
                         }
                      ]
+                  },
+                  {
+                     "section": "Linux",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLKdU0fuY4OFfxTxJduexCuF7nRp5ioOgw",
+                           "title": "Ubuntu Linux Bangla Tutorial 2021",
+                           "author": "STUDY MART"
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": "Scratch",
@@ -38572,6 +38655,17 @@
                            "url": "https://www.youtube.com/playlist?list=PLMTKJq4uuKqXVg7S7XujEsONl9ZVT4X0p",
                            "title": "Linux Shell Scripting Tutorial",
                            "author": "Atiq Hasan Zubu"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Swift",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLO3_9DDlL5oQtl1_DmfAC6lAC2IoHx31K",
+                           "title": "Swift Programming Tutorial",
+                           "author": "FHT Bangla"
                         }
                      ],
                      "subsections": []
@@ -38646,6 +38740,11 @@
                   {
                      "section": "C",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=BSaF8KxnoLY",
+                           "title": "C Tutorial Deutsch | Lerne C in 90 Minuten",
+                           "author": "Programmieren lernen"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLNmsVeXQZj7q4shI4L__SRpetWff9BjLZ",
                            "title": "C Tutorials Deutsch",
@@ -39689,6 +39788,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.udemy.com/course/c-programming-2019-master-the-basics/",
+                           "title": "C Programming 2021: Master The Basics!",
+                           "author": "Ali Badran",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL98qAXLA6aftD9ZlnjpLhdQAOFI8xIB6e",
                            "title": "C Programming for Beginners",
                            "author": "Programiz"
@@ -39877,6 +39984,11 @@
                         {
                            "url": "http://mooc.fi/courses/2014/clojure/",
                            "title": "Functional Programming with Clojure"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLI-mrGTUXmHXeKhy6UGdDxIKwM8L4MTbq",
+                           "title": "Poetry of Programming - Clojure for Beginners",
+                           "author": "Attila EGRI-NAGY"
                         }
                      ],
                      "subsections": []
@@ -41855,6 +41967,11 @@
                            ]
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLUG_f-krxzVrRCOjGFwOuYj3QarVfPWXK",
+                           "title": "Creative Coding for Complete Beginners",
+                           "author": "Algorithmic Art"
+                        },
+                        {
                            "url": "https://egghead.io/courses/cycle-js-fundamentals",
                            "title": "Cycle.js Fundamentals",
                            "author": "André Staltz"
@@ -43311,6 +43428,11 @@
                            "notes": [
                               "Coursera"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=PXMJ6FS7llk",
+                           "title": "Automate with Python - Full course for Beginners",
+                           "author": "FreeCodeCamp"
                         },
                         {
                            "url": "https://bento.io/topic/python",
@@ -46763,6 +46885,11 @@
                            "author": "Innovate India"
                         },
                         {
+                           "url": "https://www.youtube.com/watch?v=RkYVVC2vXho",
+                           "title": "Complete Blockchain Development Course for Beginners in Hindi",
+                           "author": "web3Mantra"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiG6_thChXWzolj9BEG-Y0gh",
                            "title": "Solidity ^0.8 | Blockchain | In Hindi",
                            "author": "Pepcoding",
@@ -47159,6 +47286,22 @@
                            "url": "https://www.youtube.com/playlist?list=PLz7ymP4HzwSH3vAnhDWLkO2TLbwGeigl7",
                            "title": "Flutter Widgets in Hindi",
                            "author": "Ahirlog"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Game Development",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=Wg9J5kiX0wY",
+                           "title": "Complete Course on Python Game Development",
+                           "author": "Techonical Infotech Pvt. Ltd."
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLBh8phtAyHPUY9fqgs1w6aHJALJ3_fMSc",
+                           "title": "Game Development Course",
+                           "author": "Farhan Aqeel"
                         }
                      ],
                      "subsections": []
@@ -47709,6 +47852,22 @@
                            "url": "https://www.youtube.com/playlist?list=PLU6SqdYcYsfLRq3tu-g_hvkHDcorrtcBK",
                            "title": "Statistics And Probability",
                            "author": "Gajendra Purohit"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Matlab",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=iS5J4TlLSEM",
+                           "title": "Matlab Complete Course",
+                           "author": "Armughan Ali"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfdIlwG649bdzVHM4iLbD_H",
+                           "title": "MATLAB Complete Tutorial in Hindi",
+                           "author": "WsCube Tech"
                         }
                      ],
                      "subsections": []
@@ -53102,6 +53261,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLJ0AcghBBWShgIH122uw7H9T9-NIaFpP-",
+                           "title": "Curso de Swift - Programação",
+                           "author": "Tiago Aguiar"
                         }
                      ],
                      "subsections": []
@@ -53178,6 +53342,11 @@
                            "notes": [
                               "Curso em Vídeo"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLltHgIJnfTsAnyA8KPXC6ohTYzGEreVEa",
+                           "title": "Curso de WordPress 2022 Grátis e Completo",
+                           "author": "CursoB Cursos Online"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2",
@@ -54614,6 +54783,11 @@
                            "notes": [
                               "Çev. Ali Yazıcı - Haluk Ar"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLR_3k5Bkz0SBA9PoV6DrxpghD7pqPScGJ",
+                           "title": "Algoritmaları Anlamak",
+                           "author": "Fatih Özkaynak"
                         }
                      ],
                      "subsections": []
