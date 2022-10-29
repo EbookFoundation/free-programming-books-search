@@ -2993,6 +2993,11 @@
                            ]
                         },
                         {
+                           "url": "https://danielme.com/curso-jakarta-ee-indice/",
+                           "title": "Curso Jakarta EE 9",
+                           "author": "Daniel Medina"
+                        },
+                        {
                            "url": "https://ia601504.us.archive.org/21/items/DesarrollandoConJava8Poker/DesarrollandoConJava8Poker.pdf",
                            "title": "Desarrollando con Java 8: Poker",
                            "author": "David Pérez Cabrera",
@@ -12251,6 +12256,14 @@
                            "title": "Learn CF in a Week"
                         },
                         {
+                           "url": "https://modern-cfml.ortusbooks.com",
+                           "title": "Learn Modern ColdFusion <CFML> in 100+ Minutes",
+                           "author": "Luis Majano",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://riptutorial.com/Download/coldfusion.pdf",
                            "title": "Learning coldfusion",
                            "author": "Compiled from StackOverflow documentation",
@@ -15384,6 +15397,14 @@
                            "section": "React",
                            "entries": [
                               {
+                                 "url": "https://www.newline.co/fullstack-react/assets/media/sGEMe/MNzue/30-days-of-react-ebook-fullstackio.pdf",
+                                 "title": "30 days of React: An introduction to React in 30 bite-size morsels",
+                                 "author": "Ari Lerner",
+                                 "notes": [
+                                    "PDF"
+                                 ]
+                              },
+                              {
                                  "url": "https://airbnb.io/javascript/react/",
                                  "title": "Airbnb React/JSX Style Guide",
                                  "author": "Airbnb"
@@ -17813,6 +17834,13 @@
                            ]
                         },
                         {
+                           "url": "https://resources.montecarlodata.com/c/ebook-building-data-products?x=gEwOdf",
+                           "title": "Building Data Products: The Ultimate Guide",
+                           "notes": [
+                              "HTML, EPUB"
+                           ]
+                        },
+                        {
                            "url": "https://slott56.github.io/building-skills-oo-design-book/build/html/",
                            "title": "Building Skills in Object-Oriented Design, V4",
                            "author": "Steven F. Lott",
@@ -18592,6 +18620,14 @@
                                  "notes": [
                                     "PDF",
                                     "3.2"
+                                 ]
+                              },
+                              {
+                                 "url": "https://buildmedia.readthedocs.org/media/pdf/django/4.0.x/django.pdf",
+                                 "title": "Django Official Documentation",
+                                 "notes": [
+                                    "PDF",
+                                    "4.0"
                                  ]
                               },
                               {
@@ -41768,6 +41804,13 @@
                            "author": "MIT Open Learning Library"
                         },
                         {
+                           "url": "https://javatodev.com/building-microservices-with-spring-boot-free-course-with-practical-project/",
+                           "title": "Building Microservices With Spring Boot – Free Course With Practical Project",
+                           "notes": [
+                              "javatodev"
+                           ]
+                        },
+                        {
                            "url": "http://chortle.ccsu.edu/CS151/cs151java.html",
                            "title": "Central Connecticut State University, Introduction to CS Using Java"
                         },
@@ -41951,6 +41994,14 @@
                            "author": "Somnath Musib",
                            "notes": [
                               "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://sagecode.net/java/index.html",
+                           "title": "What is Java?",
+                           "author": "Elucian Moise",
+                           "notes": [
+                              "Sage-Code"
                            ]
                         }
                      ],
@@ -43116,6 +43167,11 @@
                            "notes": [
                               "coursera"
                            ]
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLEo-jHOqGNyUWoCSD3l3V-FjX9PnHvx5n",
+                           "title": "Image Processing Using Matlab",
+                           "author": "Rashi Agarwal"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLGED90Y_uL1KLpdRmVtwfpNoYCWU9RPkK",
@@ -47836,6 +47892,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLPbgcxheSpE0aBsefANDYe2X_-tyJbBMr",
                            "title": "Machine Learning in Hindi",
                            "author": "Codebasics Hindi"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLfP3JxW-T70Hh7j17_NLzjZ8CejSPx40V",
+                           "title": "Machine Learning Tutorial using Python in Hindi 2022",
+                           "author": "Indian AI Production"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9ai6fAMHp-acBmJONT7Y4BSG",
@@ -52999,6 +53060,22 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye",
+                           "title": "Curso de Python 3 - Mundo 2: Estruturas de Controle",
+                           "author": "Gustavo Guanabara",
+                           "notes": [
+                              "Curso em Vídeo"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH",
+                           "title": "Curso de Python 3 - Mundo 3: Estruturas Compostas",
+                           "author": "Gustavo Guanabara",
+                           "notes": [
+                              "Curso em Vídeo"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0",
                            "title": "Curso em vídeo - Python",
                            "author": "Gustavo Guanabara, Joao Pedro Araujo",
@@ -53023,9 +53100,9 @@
                            ]
                         },
                         {
-                           "url": "https://github.com/cassiobotaro/do_zero_a_implantacao",
-                           "title": "Do zero à implantação utilizando Python",
-                           "author": "Cássio Botaro, et al."
+                           "url": "https://cassiobotaro.dev/do_zero_a_implantacao/",
+                           "title": "Do zero à implantação",
+                           "author": "Cássio Botaro"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH",
