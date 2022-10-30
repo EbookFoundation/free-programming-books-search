@@ -2592,6 +2592,19 @@
                            ]
                         },
                         {
+                           "section": "Inteligencia Artificial",
+                           "entries": [
+                              {
+                                 "url": "https://iaarbook.github.io",
+                                 "title": "Libro online de IAAR",
+                                 "author": "Raúl E. López Briega, IAAR",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
                            "section": "Metodologías de desarrollo de software",
                            "entries": [
                               {
@@ -2791,6 +2804,14 @@
                   {
                      "section": "Ensamblador",
                      "entries": [
+                        {
+                           "url": "http://redeya.bytemaniacos.com/electronica/cursos/aesoft.htm",
+                           "title": "Curso ASM de 80x86 por AESOFT",
+                           "author": "Francisco Jesus Riquelme",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
                         {
                            "url": "https://pacman128.github.io/static/pcasm-book-spanish.pdf",
                            "title": "Lenguaje Ensamblador para PC",
@@ -17883,6 +17904,14 @@
                            ]
                         },
                         {
+                           "url": "https://inferentialthinking.com/chapters/intro.html",
+                           "title": "Computational and Inferential Thinking",
+                           "author": "Ani Adhikari, John DeNero, David Wagner",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://inventwithpython.com/cracking/",
                            "title": "Cracking Codes with Python",
                            "author": "Al Sweigart",
@@ -22344,6 +22373,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.dca.fee.unicamp.br/cursos/PooJava/Aulas/poojava.pdf",
+                           "title": "Programação Orientada a Objetos: Uma Abordagem com Java",
+                           "author": "Ivan Luiz Marques Ricarte",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://s3.amazonaws.com/algaworks-assets/ebooks/algaworks-livro-programacao-para-iniciantes-v1.1.pdf",
                            "title": "Programação para iniciantes",
                            "notes": [
@@ -23216,6 +23253,19 @@
                         }
                      ],
                      "subsections": [
+                        {
+                           "section": "Архитектура приложений",
+                           "entries": [
+                              {
+                                 "url": "https://twirl.github.io/The-API-Book/index.ru.html",
+                                 "title": "The API",
+                                 "author": "Сергей Константинов",
+                                 "notes": [
+                                    "HTML, PDF, EPUB"
+                                 ]
+                              }
+                           ]
+                        },
                         {
                            "section": "Облачные вычисления",
                            "entries": [
@@ -27508,6 +27558,12 @@
                            "url": "https://archive.org/details/bstj27-4-623",
                            "title": "A Mathematical Theory of Communication",
                            "author": "Claude E.Shannon"
+                        },
+                        {
+                           "url": "https://archive.org/details/in.ernet.dli.2015.141538/",
+                           "title": "Combinatorial Problems And Exercises (1979)",
+                           "author": "L. Lovasz",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://cglab.ca/~michiel/DiscreteStructures/",
@@ -35026,6 +35082,19 @@
                "index": {},
                "sections": [
                   {
+                     "section": "Cloud computing",
+                     "entries": [
+                        {
+                           "url": "https://aws.amazon.com/fr/blogs/france/podcasts",
+                           "title": "Le podcast AWS en français",
+                           "notes": [
+                              "podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Java",
                      "entries": [
                         {
@@ -35044,6 +35113,20 @@
                         {
                            "url": "https://artisandeveloppeur.fr/podcast",
                            "title": "Artisan Developpeur",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://podcast.ausha.co/axopen",
+                           "title": "AXOPEN",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://code-garage.fr/podcast-code-garage",
+                           "title": "Code-Garage",
                            "notes": [
                               "podcast"
                            ]
@@ -35079,6 +35162,13 @@
                         {
                            "url": "https://www.nolimitsecu.fr",
                            "title": "NoLimitSecu",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://podcast.ausha.co/poddev",
+                           "title": "Programmez!",
                            "notes": [
                               "podcast"
                            ]
@@ -35855,6 +35945,10 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak",
                            "title": "Плейлист видео по Java для новичков"
+                        },
+                        {
+                           "url": "https://soundcloud.com/javaswag",
+                           "title": "javaswag"
                         }
                      ],
                      "subsections": [
@@ -38032,6 +38126,11 @@
                            "author": "Anisul Islam"
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLdl6zXgLsy3zwNjSMiYlOZOr20sykTfgo",
+                           "title": "C Programming Bangla Tutorial",
+                           "author": "Bangla Coding Tutor"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3oTxQhx2kejYmQn6qtRULCD",
                            "title": "Pattern Printing in C",
                            "author": "Anisul Islam"
@@ -39105,6 +39204,11 @@
                            "author": "CodeHelp - by Babbar"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLD9781AC5EBC9FA16",
+                           "title": "Computer Sc - Programming and Data Structure",
+                           "author": "P.P. Chakraborty"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLLvKknWU7N4y_eGpQdg1Y-hORO7cxtoLU",
                            "title": "Data Structure and Algorithm",
                            "author": "Lalit Vashistha"
@@ -39139,6 +39243,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU",
                            "title": "Data Structures and Algorithms",
                            "author": "Jenny's lectures CS/IT NET&JRF"
+                        },
+                        {
+                           "url": "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/?no-filter=true",
+                           "title": "Data Structures and Algorithms",
+                           "author": "Tech Dev Guide by Google"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=BBpAmxU_NQo",
@@ -40245,6 +40354,29 @@
                         {
                            "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/",
                            "title": "MIT's Mathematics for Computer Science"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Cryptography",
+                     "entries": [
+                        {
+                           "url": "https://open.ruhr-uni-bochum.de/en/lernangebot/introduction-cryptography",
+                           "title": "Introduction to Cryptography",
+                           "notes": [
+                              "Christof Paar"
+                           ]
+                        },
+                        {
+                           "url": "https://www.coursera.org/course/crypto",
+                           "title": "Stanford Cryptography I",
+                           "author": "Dan Boneh"
+                        },
+                        {
+                           "url": "https://www.coursera.org/course/crypto2",
+                           "title": "Stanford Cryptography II",
+                           "author": "Dan Boneh"
                         }
                      ],
                      "subsections": []
@@ -42684,6 +42816,16 @@
                            ]
                         },
                         {
+                           "section": "Three.js",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=YK1Sw_hnm58",
+                                 "title": "Three.js Tutorial Crash Course",
+                                 "author": "Chris Courses"
+                              }
+                           ]
+                        },
+                        {
                            "section": "Vue.js",
                            "entries": [
                               {
@@ -44209,16 +44351,6 @@
                            "author": "RPISEC"
                         },
                         {
-                           "url": "https://www.coursera.org/course/crypto",
-                           "title": "Stanford Cryptography I",
-                           "author": "Dan Boneh"
-                        },
-                        {
-                           "url": "https://www.coursera.org/course/crypto2",
-                           "title": "Stanford Cryptography II",
-                           "author": "Dan Boneh"
-                        },
-                        {
                            "url": "https://academy.ehacking.net/p/cyber-security-training-hacking-course",
                            "title": "The Complete Cyber Security & Hacking Course",
                            "author": "INSEC-TECHS",
@@ -44743,6 +44875,22 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t",
                            "title": "Python Web Scraping & Crawling using Scrapy"
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/react-fundamentals-the-complete-guide-for-beginners/",
+                           "title": "React Fundamentals - The Complete Guide For Beginners",
+                           "author": "Kerim Abdelmouiz",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/the-new-graphql-apollo-course-2020",
+                           "title": "The GraphQL Apollo (with ReactJS, NodeJS and MongoDB)",
+                           "author": "Mohd. Raqif Warsi",
+                           "notes": [
+                              "Udemy"
+                           ]
                         },
                         {
                            "url": "http://www.theodinproject.com",
@@ -48572,6 +48720,11 @@
                            "author": "Dicoding, membutuhkan registrasi"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL7jdfftn7HKup1bG852c13H6nxpJpmZzP",
+                           "title": "Fast Track Flutter Beginner",
+                           "author": "Kuldii Project"
+                        },
+                        {
                            "url": "https://buildwithangga.com/kelas/flutter-developer-basic-state-management",
                            "title": "Flutter Developer: Basic State Management",
                            "author": "Tasya Agnes",
@@ -51967,6 +52120,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLqJK4Oyr5WSjjEQCKkX6oXFORZX7ro3DA",
+                           "title": "Curso de Programação C Completo",
+                           "author": "Programe seu futuro"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLIfZMtpPYFP5qaS2RFQxcNVkmJLGQwyKE",
                            "title": "Programação Moderna em C",
                            "author": "Papo Binário",
@@ -52067,6 +52225,11 @@
                   {
                      "section": "Dart",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLAqdhPoZdJtBnMfZtpExJlFTuuXE0TabS",
+                           "title": "Curso Dart",
+                           "author": "Luis Claudio Leite Pereira"
+                        },
                         {
                            "url": "https://www.udemy.com/curso-de-dart-lang-completo/",
                            "title": "Curso de Dart Lang",
@@ -54440,6 +54603,11 @@
                            "author": "Tutor Joe's Stanley"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLmjuBlzAWCzz8Timg5RP6c-JMemYWRXvV",
+                           "title": "PHP in Tamil",
+                           "author": "Collectiva Knowledge Academy"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PL4unWLKFsZfdrMitLmm8N-idlYQkSCvT9",
                            "title": "PHP Tutorial In Tamil",
                            "author": "Tutor Joe's Stanley"
@@ -54454,6 +54622,11 @@
                            "url": "https://youtube.com/playlist?list=PLA2UBjeRwle3OLO3qmXTbmCvuTlqhHRVb",
                            "title": "Python in Tamil for Beginners",
                            "author": "GURUKULA"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLWbtDrDnmTHBdEnUKuLNdH2-zKSDD8OA4",
+                           "title": "Python Programming in Tami",
+                           "author": "CS in Tamil"
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLIFRUdRwOM0_hcLruKbsHWnU5P2uLBgsp",
@@ -54883,6 +55056,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLR_3k5Bkz0SBA9PoV6DrxpghD7pqPScGJ",
                            "title": "Algoritmaları Anlamak",
                            "author": "Fatih Özkaynak"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLKnjBHu2xXNNiJdlhiEl_RMkK0PbJ1_DB",
+                           "title": "On Derste Algoritma ve Programlama",
+                           "author": "Murat Yücedağ"
                         }
                      ],
                      "subsections": []
