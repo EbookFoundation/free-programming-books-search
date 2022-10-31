@@ -11635,6 +11635,14 @@
                            "author": "Steve \"ardalis\" Smith"
                         },
                         {
+                           "url": "https://www.syncfusion.com/succinctly-free-ebooks/c-sharp-features-succinctly",
+                           "title": "C# Features Succinctly",
+                           "author": "Dirk Strauss",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://goalkicker.com/CSharpBook/",
                            "title": "C# Notes for Professionals",
                            "author": "Compiled from StackOverflow documentation",
@@ -14536,6 +14544,14 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/getify/Functional-Light-JS",
+                           "title": "Functional-Light JavaScript",
+                           "author": "Kyle Simpson",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://google.github.io/styleguide/javascriptguide.xml",
                            "title": "Google JavaScript Style Guide",
                            "author": "Aaron Whyte, Bob Jervis, Dan Pupius, Erik Arvidsson, Fritz Schneider, Robby Walker",
@@ -14935,6 +14951,14 @@
                                  "url": "http://www.ng-newsletter.com.s3-website-us-east-1.amazonaws.com/posts/angular-for-the-jquery-developer.html",
                                  "title": "Angular for the jQuery developer",
                                  "author": "ng-newsletter, Ari Lerner, David Wu, Nate Murray",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.syncfusion.com/succinctly-free-ebooks/angular-testing-succinctly",
+                                 "title": "Angular Testing Succinctly",
+                                 "author": "Joseph D. Booth",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -19898,11 +19922,26 @@
                      "entries": [
                         {
                            "url": "http://scratched.gse.harvard.edu/guide/download.html",
-                           "title": "An Introductory Computing Curriculum Using Scratch"
+                           "title": "An Introductory Computing Curriculum Using Scratch",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://magpi.raspberrypi.com/books/book-of-scratch",
+                           "title": "Code Club Book of Scratch",
+                           "author": "Rik Cross, Tracy Gardner",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://stwww1.weizmann.ac.il/scratch/scratch_en/",
-                           "title": "Computer Science Concepts in Scratch"
+                           "title": "Computer Science Concepts in Scratch",
+                           "author": "Michal Armoni, Moti Ben-Ari",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://magpi.raspberrypi.com/books/essentials-scratch-v1",
@@ -19915,7 +19954,10 @@
                         {
                            "url": "https://inventwithscratch.com/book/",
                            "title": "Scratch Programming Playground",
-                           "author": "Al Sweigart"
+                           "author": "Al Sweigart",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -20894,10 +20936,6 @@
                            "notes": [
                               "PDF"
                            ]
-                        },
-                        {
-                           "url": "http://channel9.msdn.com/Series/Windows-Phone-8-1-Development-for-Absolute-Beginners",
-                           "title": "Windows Phone 8.1 Development for Absolute Beginners"
                         },
                         {
                            "url": "http://www.robmiles.com/c-yellow-book/",
@@ -26027,6 +26065,14 @@
                            ]
                         },
                         {
+                           "url": "https://book-wright-ma.github.io/Book-WM-20210422.pdf",
+                           "title": "High-Dimensional Data Analysis with Low-Dimensional Models: Principles, Computation, and Applications",
+                           "author": "John Wright, Yi Ma",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://arxiv.org/pdf/1206.1754v2.pdf",
                            "title": "Internet Advertising: An Interplay among Advertisers, Online Publishers, Ad Exchanges and Web Users",
                            "notes": [
@@ -26702,6 +26748,11 @@
                            "url": "http://www1.maths.leeds.ac.uk/~charles/statlog/",
                            "title": "Machine Learning, Neural and Statistical Classification",
                            "author": "D. Michie, D.J. Spiegelhalter, C.C. Taylor"
+                        },
+                        {
+                           "url": "https://themlsbook.com/read",
+                           "title": "Machine Learning Simplified",
+                           "author": "Andrew Wolf"
                         },
                         {
                            "url": "https://www.tutorialspoint.com/machine_learning_with_python/",
@@ -28582,6 +28633,14 @@
                            "author": "Ciaran Hughes, Joshua Isaacson, Anastasia Perry, Ranbel F. Sun, Jessica Turner",
                            "notes": [
                               "HTML, PDF, EPUB"
+                           ]
+                        },
+                        {
+                           "url": "https://arxiv.org/abs/1410.7188",
+                           "title": "The Functional Analysis of Quantum Information Theory",
+                           "author": "Ved Prakash Gupta, Prabha Mandayam, V. S. Sunder",
+                           "notes": [
+                              "PDF"
                            ]
                         }
                      ],
@@ -35779,6 +35838,13 @@
                            ]
                         },
                         {
+                           "url": "https://libolibo.ru/zapuskzavtra",
+                           "title": "Запуск завтра",
+                           "notes": [
+                              "Podcast"
+                           ]
+                        },
+                        {
                            "url": "https://kdicast.com",
                            "title": "Как делают игры",
                            "notes": [
@@ -39095,6 +39161,10 @@
                            "title": "Datacamp"
                         },
                         {
+                           "url": "https://devdocs.io",
+                           "title": "DevDocs"
+                        },
+                        {
                            "url": "https://www.edx.org",
                            "title": "edX"
                         },
@@ -41157,6 +41227,11 @@
                            "author": "The Net Ninja"
                         },
                         {
+                           "url": "https://www.solutelabs.com/blog/flutter-tutorial-for-beginners-step-by-step-guide",
+                           "title": "Flutter Tutorial for Beginners",
+                           "author": "Solute Labs"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PL4cUxeGkcC9gP1qg8yj-Jokef29VRCLt1",
                            "title": "Free Flutter Animations Course",
                            "author": "The Net Ninja"
@@ -41956,6 +42031,11 @@
                         {
                            "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/",
                            "title": "Introduction to Java"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+                           "title": "Introduction to Java + DSA",
+                           "author": "Kunal Kushwaha"
                         },
                         {
                            "url": "https://www.udemy.com/course/java-design-patterns-tutorial",
@@ -43041,6 +43121,11 @@
                      "section": "Linux",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLAi9X1uG6jZ2b1mUmrUcc_aEoc8tfss8e",
+                           "title": "IIEC RISE 1.0 RHCSA8 and Python3",
+                           "author": "Vimal Daga"
+                        },
+                        {
                            "url": "https://www.edx.org/course/introduction-to-linux/",
                            "title": "Introduction To Linux",
                            "author": "The Linux Foundation",
@@ -43389,6 +43474,19 @@
                   {
                      "section": "Networking",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=qiQR5rTSshw",
+                           "title": "Computer Networking Course",
+                           "author": "Brian Farrell",
+                           "notes": [
+                              "FreeCodeCamp.org"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+                           "title": "Computer Networking Full Course",
+                           "author": "Kunal Kushwaha"
+                        },
                         {
                            "url": "https://media.pearsoncmg.com/ph/streaming/esm/tanenbaum5e_videonotes/tanenbaum_videoNotes.html",
                            "title": "Computer Networks 5e",
@@ -43951,6 +44049,11 @@
                            "notes": [
                               "Geeks for Geeks"
                            ]
+                        },
+                        {
+                           "url": "https://programming-22.mooc.fi",
+                           "title": "Python Programming MOOC 2022",
+                           "author": "University of Helsinki"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL_RGaFnxSHWpX_byHyTEj9hecPngl2DqR",
@@ -44565,6 +44668,11 @@
                            "title": "Automata Theory"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLLvKknWU7N4zvTGcw9N2_7eZSTTkryb0U",
+                           "title": "Formal Languages & Automata Theory",
+                           "author": "Lalit Vashistha"
+                        },
+                        {
                            "url": "https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313",
                            "title": "Intro to Theoretical Computer Science",
                            "notes": [
@@ -44929,6 +45037,18 @@
                            "notes": [
                               "University of Waterloo"
                            ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Windows Phone",
+                     "entries": [
+                        {
+                           "url": "https://web.archive.org/web/20150213035325/http://channel9.msdn.com/Series/Windows-Phone-8-1-Development-for-Absolute-Beginners",
+                           "title": "Windows Phone 8.1 Development for Absolute Beginners",
+                           "author": "Bob Tabor, Matthias Shapiro, Larry Lieberman",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -47734,6 +47854,14 @@
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk",
                            "title": "Java Foundation Course | Hindi",
                            "author": "Pepcoding"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7pyuXTES7ZqncOI_X0mgKgK",
+                           "title": "Java Live Community Class",
+                           "author": "Navin Reddy",
+                           "notes": [
+                              "Telusko"
+                           ]
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLiOa6ike4WAHljIOitb3vR0nXQgneUedR",
@@ -53393,6 +53521,22 @@
                      "subsections": []
                   },
                   {
+                     "section": "R",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLzWDDw1w8cTS4i_B49WOWtjngjcMqTruG",
+                           "title": "Curso de R com R Studio",
+                           "author": "Escola de Inteligência Artificial"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf",
+                           "title": "Curso R para Iniciantes",
+                           "author": "Didática Tech"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Raspberry Pi",
                      "entries": [
                         {
@@ -57112,6 +57256,14 @@
                            "notes": [
                               "HTML"
                            ]
+                        },
+                        {
+                           "url": "https://www.joshwcomeau.com/operator-lookup/",
+                           "title": "Operator Lookup",
+                           "author": "Josh W. Comeau",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": [
@@ -57656,6 +57808,19 @@
                                  "url": "https://www.codewithharry.com/blogpost/flask-cheatsheet/",
                                  "title": "Flask Cheatsheet",
                                  "author": "Code with Harry",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Numpy Pandas",
+                           "entries": [
+                              {
+                                 "url": "https://www.kaggle.com/code/lavanyashukla01/pandas-numpy-python-cheatsheet",
+                                 "title": "Pandas, Numpy, Python Cheatsheet",
+                                 "author": "Kaggle",
                                  "notes": [
                                     "HTML"
                                  ]
@@ -59496,6 +59661,16 @@
                      "subsections": []
                   },
                   {
+                     "section": "ColdFusion",
+                     "entries": [
+                        {
+                           "url": "https://trycf.com",
+                           "title": "TryCF"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Crystal",
                      "entries": [
                         {
@@ -59678,6 +59853,10 @@
                      "section": "JavaScript",
                      "entries": [
                         {
+                           "url": "https://codehs.com/explore/sandbox/javascript",
+                           "title": "CodeHS"
+                        },
+                        {
                            "url": "https://codepen.io",
                            "title": "CodePen"
                         },
@@ -59714,6 +59893,10 @@
                         {
                            "url": "https://onecompiler.com/javascript",
                            "title": "OneCompiler"
+                        },
+                        {
+                           "url": "https://playcode.io/javascript",
+                           "title": "PlayCode"
                         },
                         {
                            "url": "https://plnkr.co",
