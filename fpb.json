@@ -294,7 +294,7 @@
                         {
                            "url": "https://academy.hsoub.com/files/24-أنظمة-التشغيل-للمبرمجين/",
                            "title": "أنظمة التشغيل للمبرمجين",
-                           "author": "Allen B. Downey، ترجمة علا عباس",
+                           "author": "Allen B. Downey ,ترجمة علا عباس",
                            "notes": [
                               "PDF"
                            ]
@@ -3384,6 +3384,20 @@
                      ]
                   },
                   {
+                     "section": "Kotlin",
+                     "entries": [
+                        {
+                           "url": "https://cursokotlin.com/curso-programacion-kotlin-android/",
+                           "title": "Curso programación Android en Kotlin",
+                           "author": "AristiDevs",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "LaTeX",
                      "entries": [
                         {
@@ -5609,6 +5623,27 @@
                "index": {},
                "sections": [
                   {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://www.sbistudy.com/c-language-notes-in-hindi/",
+                           "title": "C language Notes by sbistudy.com| Hindi",
+                           "author": "Shivom Classes"
+                        },
+                        {
+                           "url": "https://masterprogramming.in/learn-c-language-tutorial-in-hindi/",
+                           "title": "C Tutorial by Masterprogramming.in | Hindi",
+                           "author": "Jeetu Sahu"
+                        },
+                        {
+                           "url": "https://programming-tutorial-hindi.blogspot.com/p/index.html",
+                           "title": "C Tutorial/Notes | Hindi",
+                           "author": "Hridayesh Kumar Gupta"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C++",
                      "entries": [
                         {
@@ -5636,12 +5671,87 @@
                      "subsections": []
                   },
                   {
+                     "section": "Java",
+                     "entries": [
+                        {
+                           "url": "https://www.learnhindituts.com/java",
+                           "title": "Java | Hindi",
+                           "author": "LearnHindiTuts.com"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Linux",
+                     "entries": [
+                        {
+                           "url": "https://ehindistudy.com/2022/06/24/linux-commands-hindi/",
+                           "title": "Linux Commands | Hindi",
+                           "author": "Vinay Bhatt"
+                        },
+                        {
+                           "url": "https://ehindistudy.com/2022/03/31/linux-hindi/",
+                           "title": "Linux Explained | Hindi",
+                           "author": "Yugal Joshi"
+                        },
+                        {
+                           "url": "https://hindime.net/linux-kya-hai-hindi/",
+                           "title": "Linux Guide | Hindi",
+                           "author": "Hindime.net"
+                        },
+                        {
+                           "url": "https://csestudies.com/linux-in-hindi/",
+                           "title": "Linux in Hindi | Hindi",
+                           "author": "CSEStudies.com"
+                        },
+                        {
+                           "url": "https://ia800305.us.archive.org/27/items/LinuxPocketGuideInHindi/LinuxPocketGuideInHindi.pdf",
+                           "title": "Linux Pocket Guide | Hindi",
+                           "author": "Ravishankar Shrivastav",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Networking",
                      "entries": [
                         {
                            "url": "https://www.aicte-india.org/sites/default/files/HINDI_BOOKS/BOOK%203.pdf",
                            "title": " डाटा कयनकेशन एंड कंयटर नेटवक ",
                            "author": "ई.हरश दाधीच, ई.वकास माथर",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Php",
+                     "entries": [
+                        {
+                           "url": "https://www.learnhindituts.com/php",
+                           "title": "Php | Hindi",
+                           "author": "LearnHindiTuts.com"
+                        },
+                        {
+                           "url": "http://tutorialsroot.com/php/index.html",
+                           "title": "Php Hindi Tutorial | Hindi",
+                           "author": "TutorialsRoot.com"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Python",
+                     "entries": [
+                        {
+                           "url": "https://drive.google.com/file/d/1cnJ6Uksso2UXwC5OHBAGk3miMzSveBvr/view",
+                           "title": "Python Notes PDF by ehindistudy.com | Hindi",
+                           "author": "Yugal Joshi",
                            "notes": [
                               "PDF"
                            ]
@@ -6235,6 +6345,14 @@
                            ]
                         },
                         {
+                           "url": "https://tutorial-git.readthedocs.io/_/downloads/id/latest/pdf/",
+                           "title": "Tutorial Belajar Git dan GitHub untuk Pemula",
+                           "author": "Hendy Irawan -",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=fQbTeNX1mvM",
                            "title": "Tutorial Git Dasar",
                            "author": "Programmer Zaman Now"
@@ -6520,6 +6638,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.malasngoding.com/belajar-php-dasar-pengenalan-dan-kegunaan-php/",
+                           "title": "Belajar PHP Dasar",
+                           "author": "Malasngoding"
+                        },
+                        {
                            "url": "https://www.slideshare.net/HasanudinHS/ebook-i-membuat-bot-telegram-dengan-php",
                            "title": "Membuat Bot Telegram dengan PHP",
                            "author": "Hasanudin H Syafaat",
@@ -6566,6 +6689,11 @@
                         {
                            "url": "http://id.phptherightway.com/#site-header/",
                            "title": "PHP: The Right Way Bahasa Indonesia"
+                        },
+                        {
+                           "url": "https://www.duniailkom.com/tutorial-belajar-php-dasar-untuk-pemula/",
+                           "title": "Tutorial Belajar PHP Dasar Untuk Pemula",
+                           "author": "Duniailkom"
                         },
                         {
                            "url": "http://www.ilmuwebsite.com/ebook-php-free-download",
@@ -6641,12 +6769,9 @@
                            "accessNotes": "Membutuhkan akun Leanpub atau email yang valid"
                         },
                         {
-                           "url": "https://mfikri.com/artikel/reactjs-pemula",
-                           "title": "Tutorial React JS Untuk Pemula (React Hooks)",
-                           "author": "Mfikri",
-                           "notes": [
-                              "HTML"
-                           ]
+                           "url": "https://medium.com/codeacademia/tutorial-redux-bagian-i-membuat-todo-list-c26a979d0a1f",
+                           "title": "React Redux Tutorial Untuk Pemula",
+                           "author": "Yudi Krisnandi"
                         }
                      ],
                      "subsections": []
@@ -10053,8 +10178,8 @@
                      "section": "Docker",
                      "entries": [
                         {
-                           "url": "http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book",
-                           "title": "가장 빨리 만나는 Docker"
+                           "url": "http://www.pyrasis.com/jHLsAlwaysUpToDateDocker",
+                           "title": "이재홍의 언제나 최신 Docker"
                         }
                      ],
                      "subsections": []
@@ -12548,6 +12673,14 @@
                            "url": "https://bookdown.org/kokkodis/book/",
                            "title": "Data Management for Analytics and Applications (2021)",
                            "author": "Marios Kokkodis"
+                        },
+                        {
+                           "url": "https://mrcet.com/downloads/digital_notes/ECE/III%20Year/DATABASE%20MANAGEMENT%20SYSTEMS.pdf",
+                           "title": "Database Management System",
+                           "author": "Malla Reddy College of Engineering and Technology",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://www.lincoste.com/ebooks/english/pdf/computers/database_management_systems.pdf",
@@ -15523,6 +15656,14 @@
                                  "author": "Azat Mardan"
                               },
                               {
+                                 "url": "https://exploringjs.com/nodejs-shell-scripting/index.html",
+                                 "title": "Shell scripting with Node.js",
+                                 "author": "Axel Rauschmayer",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
                                  "url": "http://nodebeginner.org",
                                  "title": "The Node Beginner Book"
                               },
@@ -15656,6 +15797,14 @@
                               {
                                  "url": "https://codegeekz.com/react-js-tutorial/",
                                  "title": "React.js Tutorial: Now is Your Time to Try It, Right in Your Browser"
+                              },
+                              {
+                                 "url": "https://www.tutorialspoint.com/redux/",
+                                 "title": "Redux Tutorial",
+                                 "author": "Tutorial Point",
+                                 "notes": [
+                                    "HTML, PDF"
+                                 ]
                               },
                               {
                                  "url": "http://survivejs.com",
@@ -16739,6 +16888,15 @@
                            "url": "https://neo4j.com/graph-databases-for-dummies/",
                            "title": "Graph Databases For Dummies",
                            "author": "Dr. Jim Webber, Rik Van Bruggen",
+                           "notes": [
+                              "PDF"
+                           ],
+                           "accessNotes": "email requested"
+                        },
+                        {
+                           "url": "https://neo4j.com/knowledge-graphs-data-in-context-for-responsive-businesses/",
+                           "title": "Knowledge Graphs: Data in Context for Responsive Businesses",
+                           "author": "Jesús Barrasa, Amy E. Hodler, Jim Webber",
                            "notes": [
                               "PDF"
                            ],
@@ -19820,15 +19978,6 @@
                            ]
                         },
                         {
-                           "url": "http://underscore.io/books/advanced-scala/",
-                           "title": "Advanced Scala with Cats",
-                           "author": "Noel Welsh, Dave Gurnell",
-                           "notes": [
-                              "PDF, HTML, EPUB",
-                              "email address *requested*, not required"
-                           ]
-                        },
-                        {
                            "url": "https://web.archive.org/web/20190629103826/http://naildrivin5.com/scalatour/",
                            "title": "Another tour of Scala",
                            "author": "David Copeland"
@@ -19965,6 +20114,14 @@
                            "author": "Tutorials Point",
                            "notes": [
                               "HTML, PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.scalawithcats.com",
+                           "title": "Scala with Cats 2",
+                           "author": "Noel Welsh, Dave Gurnell",
+                           "notes": [
+                              "PDF, HTML, EPUB"
                            ]
                         },
                         {
@@ -25721,6 +25878,14 @@
                            ]
                         },
                         {
+                           "url": "https://courses.cs.washington.edu/courses/csep590/06au/projects/history-ai.pdf",
+                           "title": "The History of Artificial Intelligence",
+                           "author": "Chris Smith, Brian McGuire, Ting Huang, Gary Yang",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://ai.stanford.edu/~nilsson/QAI/qai.pdf",
                            "title": "The Quest for Artificial Intelligence: A History of Ideas and Achievements",
                            "author": "Nils J. Nilsson",
@@ -26126,21 +26291,19 @@
                            ]
                         },
                         {
-                           "url": "https://bitbucket.org/chrisbourke/computersciencei/src",
-                           "title": "Computer Science I - Draft",
-                           "author": "Dr. Chris Bourke",
+                           "url": "https://cse.unl.edu/~cbourke/ComputerScienceOne.pdf",
+                           "title": "Computer Science I",
+                           "author": "Chris Bourke",
                            "notes": [
-                              "PDF",
-                              ":construction: *in process*"
+                              "PDF"
                            ]
                         },
                         {
-                           "url": "http://cse.unl.edu/~cbourke/ComputerScienceTwo.pdf",
-                           "title": "Computer Science II - Draft",
-                           "author": "Dr. Chris Bourke",
+                           "url": "https://cse.unl.edu/~cbourke/ComputerScienceTwo.pdf",
+                           "title": "Computer Science II",
+                           "author": "Chris Bourke",
                            "notes": [
-                              "PDF",
-                              ":construction: *in process*"
+                              "PDF"
                            ]
                         },
                         {
@@ -26175,6 +26338,14 @@
                            "url": "http://szeliski.org/Book/",
                            "title": "Computer Vision: Algorithms and Applications",
                            "author": "Richard Szeliski"
+                        },
+                        {
+                           "url": "http://vision.stanford.edu/teaching/cs131_fall1718/files/cs131-class-notes.pdf",
+                           "title": "Computer Vision: Foundations and Applications",
+                           "author": "Ranjay Krishna",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://www.computervisionmodels.com",
@@ -26394,6 +26565,14 @@
                            "url": "http://public.dhe.ibm.com/software/dw/db2/express-c/wiki/Database_fundamentals.pdf",
                            "title": "Database Fundamentals",
                            "author": "Neeraj Sharma et al.",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://pages.cs.wisc.edu/~dbbook/openAccess/thirdEdition/solutions/ans3ed-oddonly.pdf",
+                           "title": "Database Management Systems Solutions Manual Third Edition",
+                           "author": "Raghu Ramakrishnan, Johannes Gehrke, Jeff Derstadt, Scott Selikof, and Lin Zhu",
                            "notes": [
                               "PDF"
                            ]
@@ -28439,6 +28618,20 @@
                         {
                            "url": "http://zguide.zeromq.org/page%3Aall",
                            "title": "ZeroMQ Guide"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Object Oriented Programming",
+                     "entries": [
+                        {
+                           "url": "https://www.cl.cam.ac.uk/teaching/0910/OOProg/OOP.pdf",
+                           "title": "Object Oriented Programming",
+                           "author": "Robert Harle",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -30600,6 +30793,14 @@
                            "url": "https://uk.wikibooks.org/wiki/Пориньте_у_Python_3",
                            "title": "Пориньте у Python 3",
                            "author": "Марк Пілігрим"
+                        },
+                        {
+                           "url": "http://docs.linux.org.ua/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/Python/%D0%9F%D1%96%D0%B4%D1%80%D1%83%D1%87%D0%BD%D0%B8%D0%BA_%D0%BC%D0%BE%D0%B2%D0%B8_Python/",
+                           "title": "Підручник мови Python",
+                           "author": "Ґвідо ван Россум",
+                           "notes": [
+                              "Guido van Rossum"
+                           ]
                         }
                      ],
                      "subsections": [
@@ -32202,10 +32403,6 @@
                   {
                      "section": "PHP",
                      "entries": [
-                        {
-                           "url": "http://www.php-internals.com/book/",
-                           "title": "深入理解 PHP 内核"
-                        },
                         {
                            "url": "https://web.archive.org/web/20210624143822/https://codeigniter.org.tw/userguide3/",
                            "title": "CodeIgniter 使用手冊",
@@ -40595,7 +40792,8 @@
                         },
                         {
                            "url": "https://www.edx.org/course/compilers",
-                           "title": "Stanford's Compilers"
+                           "title": "Stanford's Compilers",
+                           "author": "Alex Aiken"
                         }
                      ],
                      "subsections": []
@@ -41155,6 +41353,11 @@
                            ]
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO",
+                           "title": "Deep Learning With Tensorflow 2.0 and Keras",
+                           "author": "codebasics"
+                        },
+                        {
                            "url": "https://cs330.stanford.edu",
                            "title": "Deep Multi-Task and Meta Learning",
                            "author": "Chelsea Finn",
@@ -41355,6 +41558,11 @@
                   {
                      "section": "Docker",
                      "entries": [
+                        {
+                           "url": "https://www.udemy.com/course/deploying-containerized-applications-technical-overview",
+                           "title": "Deploying Containerized Applications Technical Overview",
+                           "author": "Red Hat"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK",
                            "title": "Docker",
@@ -47583,6 +47791,11 @@
                            "author": "CodeWithHarry"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL6Fr59UplGvL7q7P3Hg6nYzS45gld-CCI",
+                           "title": "Android Development With KOTLIN | Android App Development Course In Hindi",
+                           "author": "Zain Farhan"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLhLbJ9UoJCvu4ktQMUJJq-D_6-Eoz8lOk",
                            "title": "App Development Course For School Students | Certified Course By Coding Blocks Junior",
                            "author": "Coding Blocks Junior"
@@ -48027,6 +48240,11 @@
                      "section": "DevOps",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLYEK_dHOjwtODYB46wFuc34muw9Gl5X5x",
+                           "title": "DevOps Training Tutorials For Beginners in Hindi",
+                           "author": "Linux Wale Guruji"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLQbQOmlGYH3sxlq9ugoq1ipNFP7tus5Gd",
                            "title": "DevOps Training Videos in Hindi",
                            "author": "edureka! Hindi"
@@ -48184,6 +48402,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLhLbJ9UoJCvsCXqP9yAOZpzXHhWkLBXdw",
                            "title": "Free Web Development Course For School Students (Grade 5 - 10) | Certified Course By Coding Blocks Junior | Learn HTML, CSS, Javascript",
                            "author": "Coding Blocks Junior"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=Eu7G0jV0ImY",
+                           "title": "Front End Development Tutorial | Complete HTML and CSS Tutorial for Beginners (9 Hours)",
+                           "author": "WsCube Tech"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiHU9RkY9sfh3G64-bd0ptvC",
@@ -48998,6 +49221,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2",
                            "title": "Software Engineering",
                            "author": "Gate Smashers"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLV8vIYTIdSnat3WCO9jfehtZyjnxb74wm",
+                           "title": "Software Engineering Lectures",
+                           "author": "Easy Engineering Classes"
                         }
                      ],
                      "subsections": []
@@ -52421,6 +52649,46 @@
                                  "author": "EverydayKarma 🇳🇵"
                               }
                            ]
+                        },
+                        {
+                           "section": "Flutter",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=N0cDdu32IaA&list=PL2OJkQtHPRicxyldFGNJRRG4WwNe0Kjqe&index=1",
+                                 "title": "Flutter Complete Tutorial In Nepali",
+                                 "author": "Technology Channel"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "SQL",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=Lt52pYaoSR8&list=PL2OJkQtHPRicxyldFGNJRRG4WwNe0Kjqe&index=2",
+                                 "title": "SQL Full Course In Nepali",
+                                 "author": "Technology Channel"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "C",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=7WH8C48UNDU&list=PL2OJkQtHPRicxyldFGNJRRG4WwNe0Kjqe&index=3",
+                                 "title": "C Programming Full Course In Nepali",
+                                 "author": "Technology Channel"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "WordPress",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL2OJkQtHPRie2xyBApANdVp_LUz4v7xIG",
+                                 "title": "WordPress Complete Tutorial In Nepali",
+                                 "author": "Technology Channel"
+                              }
+                           ]
                         }
                      ]
                   }
@@ -53118,6 +53386,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLHPgIIn9ls6-1l7h8RUClMKPHi4NoKeQF",
+                           "title": "Go 101 (Curso)",
+                           "author": "Tiago Temporin"
                         }
                      ],
                      "subsections": []
@@ -53250,6 +53523,11 @@
                   {
                      "section": "Ionic",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLsngLoGbAagFEG-jwlpPhGsLzMSQ0tadP",
+                           "title": "Curso IONIC 6 🚀 - De 0 a PRO",
+                           "author": "Randy Varela"
+                        },
                         {
                            "url": "https://www.udemy.com/ionic-3-e-webcomponents-com-stenciljs/",
                            "title": "Desenvolvimento com Ionic 3 + WebComponents com StencilJS",
@@ -53509,6 +53787,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLlGFv5gh9fBIJ8SEaQ_AKon-uenAlUbjE",
+                           "title": "Curso de Kotlin - Básico",
+                           "author": "Rapadura Dev"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn",
@@ -55081,6 +55364,14 @@
                      "section": "Java",
                      "entries": [
                         {
+                           "url": "https://youtube.com/playlist?list=PLqeCu_1ZdDl63h6YR3QsxcGOB7yDS7i3b",
+                           "title": "Object Oriented Programming ",
+                           "author": "LankaDroid Programming Kuppiya",
+                           "notes": [
+                              "YouTube"
+                           ]
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLA3ZeQncjeVu9VHevp2SmPCQ9muVO3fEB",
                            "title": "Sinhala Java Netbeans Lessons",
                            "author": "Chanux Bro",
@@ -55126,6 +55417,17 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "C#",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLvvtf05eMZ2CXD2JdZgSBgyl13ODqHOkO",
+                           "title": "C# Full Course in Sinhala",
+                           "author": "Fiqri Ismail"
+                        }
+                     ],
+                     "subsections": []
                   }
                ]
             },
@@ -55521,6 +55823,13 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2JgeekeyLRQcwZsfLNbW8zQ",
+                           "title": "Object oriented programming with python- Telugu Web Guru",
+                           "notes": [
+                              "You Tube"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -55652,6 +55961,11 @@
                                  "author": "pracertcbs"
                               },
                               {
+                                 "url": "https://www.youtube.com/watch?v=mDezAkh5gcE",
+                                 "title": "สอน Nodejs เบื้องต้น",
+                                 "author": "Kong Ruksiam"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLEE74DyIkwEkWkVWy3TbjrTICVF_eUdyc",
                                  "title": "สอน Nodejs เบื้องต้น สำหรับผู้เริ่มต้นศึกษา Nodejs",
                                  "author": "Kong Ruksiam"
@@ -55694,6 +56008,17 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "Kotlin",
+                     "entries": [
+                        {
+                           "url": "https://www.skooldio.com/courses/getting-started-with-kotlin",
+                           "title": "Getting started with Kotlin",
+                           "author": "Somkiat Kijwongwattana"
+                        }
+                     ],
+                     "subsections": []
                   },
                   {
                      "section": "Python",
@@ -55786,6 +56111,17 @@
                            "url": "https://www.youtube.com/playlist?list=PLKnjBHu2xXNNiJdlhiEl_RMkK0PbJ1_DB",
                            "title": "On Derste Algoritma ve Programlama",
                            "author": "Murat Yücedağ"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C#",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLi1BmHvgBkxIYweLR52cRJnit4AEEugn4",
+                           "title": "C# Dersleri | Visual Studio 2022 ile C# Programlama | C# Giriş",
+                           "author": "Yazılım Teknolojileri Akademisi"
                         }
                      ],
                      "subsections": []
@@ -58279,6 +58615,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.kaggle.com/code/lavanyashukla01/pandas-numpy-python-cheatsheet",
+                           "title": "Numpy Pandas Cheat Sheet",
+                           "author": "Kaggle",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://github.com/matplotlib/cheatsheets",
                            "title": "Official Matplotlib cheat sheets",
                            "author": "Matplotlib.org",
@@ -58464,6 +58808,22 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf",
+                           "title": "Colors in R",
+                           "author": "Ying Wei",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf",
+                           "title": "R color cheatsheet",
+                           "author": "Melanie Frazier",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -58606,6 +58966,14 @@
                            ]
                         },
                         {
+                           "url": "https://devhints.io/cron",
+                           "title": "Cron Cheatsheet",
+                           "author": "DevHints, Rico Santa Cruz",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://devhints.io/fish-shell",
                            "title": "Fish Shell cheatsheet",
                            "author": "DevHints, Rico Santa Cruz",
@@ -58734,6 +59102,20 @@
                            "url": "https://acloudguru.com/blog/engineering/the-ultimate-terraform-cheatsheet",
                            "title": "Terraform Cheatsheet",
                            "author": "Eric Pulsifer",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "TypeScript",
+                     "entries": [
+                        {
+                           "url": "https://rmolinamir.github.io/typescript-cheatsheet/",
+                           "title": "TypeScript Cheat Sheet",
+                           "author": "Robert Molina",
                            "notes": [
                               "HTML"
                            ]
@@ -59038,6 +59420,14 @@
                            "url": "https://www.kdnuggets.com/2021/05/essential-linear-algebra-data-science-machine-learning.html",
                            "title": "Essential Linear Algebra for Data Science and Machine Learning",
                            "author": "KDnuggets"
+                        },
+                        {
+                           "url": "https://textbooks.math.gatech.edu/ila/",
+                           "title": "Interactive Linear Algebra",
+                           "author": "Dan Margalit, Joseph Rabinoff",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
                         },
                         {
                            "url": "https://www.kdnuggets.com/2021/06/top-10-data-science-projects-beginners.html",
@@ -60577,6 +60967,16 @@
                      "subsections": []
                   },
                   {
+                     "section": "Multiple Languages",
+                     "entries": [
+                        {
+                           "url": "https://www.codechef.com/ide",
+                           "title": "CodeChef"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": ".NET",
                      "entries": [
                         {
@@ -60931,6 +61331,10 @@
                         {
                            "url": "https://stackblitz.com/fork/typescript",
                            "title": "StackBlitz"
+                        },
+                        {
+                           "url": "https://www.typescriptlang.org/play",
+                           "title": "TypeScript: TS Playground"
                         }
                      ],
                      "subsections": [
@@ -61120,6 +61524,10 @@
                         {
                            "url": "https://oj.uz",
                            "title": "oj.uz"
+                        },
+                        {
+                           "url": "https://sigmageek.com",
+                           "title": "Sigmageek"
                         },
                         {
                            "url": "http://www.spoj.com/contests",
