@@ -6746,6 +6746,11 @@
                            "author": "Rizqi Maulana"
                         },
                         {
+                           "url": "https://www.petanikode.com/tutorial/python/",
+                           "title": "Tutorial Dasar Pemrograman Python",
+                           "author": "Petani Kode, Ahmad Muhardian"
+                        },
+                        {
                            "url": "https://docs.python.org/id/3.8/tutorial/",
                            "title": "Tutorial Python"
                         },
@@ -39645,6 +39650,10 @@
                            "title": "Khan Academy"
                         },
                         {
+                           "url": "https://learnweb3.io",
+                           "title": "LearnWeb3 DAO | Become a Web3 Developer for Free"
+                        },
+                        {
                            "url": "http://ocw.mit.edu",
                            "title": "MIT OCW"
                         },
@@ -45696,6 +45705,20 @@
                      "subsections": []
                   },
                   {
+                     "section": "Web3",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=gyMwXuJrbJQ",
+                           "title": "Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course",
+                           "author": "Patrick Collins",
+                           "notes": [
+                              "freeCodeCamp"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Windows Phone",
                      "entries": [
                         {
@@ -47820,6 +47843,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL_qizAfcpJ-N2mRgfQxnDgsv20daqwlfN",
                            "title": "Angular 13 Tutorial in Hindi",
                            "author": "Sahosoft Solutions"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLLhsXdvz0qjL1HVD2jAtlvoDmS5qj0OvA",
+                           "title": "Angular 6/7/8 Series (In Hindi)",
+                           "author": "UX Trendz"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=0LhBvp8qpro&list=PLu0W_9lII9ahKZ42vg2w9ERPmShYbYAB7&index=21",
@@ -50357,6 +50385,11 @@
                      "section": "Microservices",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs",
+                           "title": "Belajar Microservices untuk Pemula",
+                           "author": "Programmer Zaman Now"
+                        },
+                        {
                            "url": "https://buildwithangga.com/kelas/microservice-architecture-web-development?thumbnail=nk4neM2UyG.49&main_leads=browse",
                            "title": "Microservice Architecture Web Development",
                            "author": "BuildWithAngga"
@@ -50600,6 +50633,11 @@
                      "section": "Python",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLl-Zj2iuqlwviXEWkyT08NbK54kpa5cvu",
+                           "title": "#LiveSeminggu (Python Dasar)",
+                           "author": "NgodingPython"
+                        },
+                        {
                            "url": "https://www.udemy.com/course/belajar-bahasa-pemrograman-python-dasar/",
                            "title": "Belajar Bahasa Pemrograman Python Dasar",
                            "author": "Cahyo Adhi",
@@ -50614,6 +50652,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://sekolahkoding.com/track/belajar-python-bahasa-indonesia",
+                           "title": "Belajar python bahasa Indonesia",
+                           "author": "Sekolah Koding"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLZS-MHyEIRo7cgStrKAMhgnOT66z2qKz1",
@@ -50636,14 +50679,20 @@
                            "author": "NgodingPython"
                         },
                         {
+                           "url": "https://codesaya.com/python/",
+                           "title": "Python",
+                           "author": "CodeSaya"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLT2AwM1dOOUe27iCPe68Z0qwwDeNyJawN",
+                           "title": "Python (dasar)",
+                           "author": "beecoder id",
+                           "accessNotes": "Dalam Proses"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL2O3HdJI4voGdD_9xhVCTBoDTDNHpajm5",
                            "title": "Tutorial Belajar Python Pandas",
                            "author": "Indonesia Belajar"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLCZlgfAG0GXDc9Wcsi2fUn0pAr41GDL6m",
-                           "title": "Tutorial Python Bahasa Indonesia",
-                           "author": "Sekolah Koding"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=rWC2iFlN3TM",
