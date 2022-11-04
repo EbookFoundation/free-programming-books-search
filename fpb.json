@@ -4779,7 +4779,7 @@
                            ]
                         },
                         {
-                           "section": "IDE and editors",
+                           "section": "IDE et éditeurs de texte",
                            "entries": [
                               {
                                  "url": "http://yannesposito.com/Scratch/fr/blog/Learn-Vim-Progressively/",
@@ -4833,7 +4833,7 @@
                            ]
                         },
                         {
-                           "section": "Pédagogie pour enfants et adolescents",
+                           "section": "Pédagogie pour les enfants et adolescents",
                            "entries": [
                               {
                                  "url": "https://pixees.fr/?cat=612",
@@ -5570,6 +5570,20 @@
                         {
                            "url": "https://data.cyber.org.il/assembly/assembly_book.pdf",
                            "title": "ארגון המחשב ושפת סף",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://moked.education.gov.il/MafmarFiles/C_LangIG_3Version.pdf",
+                           "title": "ספר לימוד שפה עילית (שפת C)",
+                           "author": "מרק טסליצקי",
                            "notes": [
                               "PDF"
                            ]
@@ -22465,6 +22479,14 @@
                            "url": "https://www.caelum.com.br/apostila-csharp-orientacao-objetos/",
                            "title": "C# e Orientação a Objetos",
                            "author": "Caelum"
+                        },
+                        {
+                           "url": "https://livrocsharp.com.br/wp-content/uploads/dae-uploads/CSharpIniciantes.pdf",
+                           "title": "C# para Iniciantes",
+                           "author": "André Carlucci, Carlos dos Santos, Claudenir Andrade, Rafael Almeida, Ray Carneiro, Renato Haddad",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -30450,6 +30472,17 @@
                            "url": "https://guvenlik.oyd.org.tr",
                            "title": "Özgür Yazılım Derneği Güvenlik Rehberi",
                            "author": "Filiz Akin, et al."
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Haskell",
+                     "entries": [
+                        {
+                           "url": "https://github.com/joom/zor-yoldan-haskell",
+                           "title": "Zor Yoldan Haskell",
+                           "author": "Yann Esposito,"
                         }
                      ],
                      "subsections": []
@@ -39774,6 +39807,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLzgPDYo_3xukPJdH6hVQ6Iic7KiJuoA-l",
+                           "title": "Data Structures | Python",
+                           "author": "Amulya's Academy"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H",
                            "title": "Data Structures and Algorithms",
                            "author": "CS Dojo"
@@ -40761,6 +40799,11 @@
                         {
                            "section": "IBM",
                            "entries": [
+                              {
+                                 "url": "https://cognitiveclass.ai/courses/ibm-cloud-essentials",
+                                 "title": "Getting started with IBM Cloud",
+                                 "author": "Horea Porutiu, Steve Martinelli"
+                              },
                               {
                                  "url": "https://cognitiveclass.ai/courses/ibm-cloud-essentials",
                                  "title": "IBM Cloud Essentials V3",
@@ -41774,11 +41817,16 @@
                         },
                         {
                            "url": "https://cs50.harvard.edu/games/",
-                           "title": "CS50’s Introduction to Game Development",
+                           "title": "CS50's Introduction to Game Development",
                            "author": "Colton Ogden",
                            "notes": [
                               "Harvard OpenCourseWare and edX"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLhQjrBD2T383Vx9-4vJYFsJbvZ_D17Qzh",
+                           "title": "CS50's Introduction to Game Development 2018",
+                           "author": "David J. Malan"
                         },
                         {
                            "url": "https://coursera.org/share/20c8b45e02110782aff633467f979c81",
@@ -43369,6 +43417,11 @@
                                  "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3",
                                  "title": "Redux Toolkit Tutorial",
                                  "author": "Codevolution"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=poQXNp9ItL4",
+                                 "title": "Redux Tutorial- Learn Redux from Scratch",
+                                 "author": "Mosh Hamedani"
                               }
                            ]
                         },
@@ -43505,6 +43558,14 @@
                            ]
                         },
                         {
+                           "url": "https://juliaacademy.com/p/introduction-to-dataframes-jl",
+                           "title": "Introduction to DataFrames.jl",
+                           "author": "Bogumił Kamiński",
+                           "notes": [
+                              "JuliaAcademy"
+                           ]
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLP8iPy9hna6SCcFv3FvY_qjAmtTsNYHQE",
                            "title": "Julia Tutorials (Basic)",
                            "author": "The Julia Programming Language",
@@ -43605,6 +43666,14 @@
                            "author": "KubeAcademy",
                            "notes": [
                               "VMware"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=d6WC5n9G_sM",
+                           "title": "Kubernetes Course",
+                           "author": "Bogdan Stashchuk",
+                           "notes": [
+                              "FreeCoodeCamp"
                            ]
                         },
                         {
@@ -44899,10 +44968,6 @@
                         {
                            "url": "https://www.w3resource.com/ruby/",
                            "title": "Ruby Tutorial"
-                        },
-                        {
-                           "url": "https://rubymonk.com",
-                           "title": "RubyMonk - Interactive Ruby tutorials"
                         }
                      ],
                      "subsections": []
@@ -45212,6 +45277,14 @@
                            "author": "Hacking With Swift"
                         },
                         {
+                           "url": "https://www.udemy.com/course/build-great-ios-apps-with-swift/",
+                           "title": "Build Great IOS Apps (Swift)",
+                           "author": "Hamad Fouad",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
                            "url": "https://www.udacity.com/course/data-structures-and-algorithms-in-swift--ud1011",
                            "title": "Data Structures and Algorithms in Swift",
                            "author": "Udacity"
@@ -45223,6 +45296,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=KCgYDCKqato",
+                           "title": "iOS Development Course - Use Swift 5 and UIKit to Build a Netflix Clone",
+                           "author": "freeCodeCamp.org"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZqzYnpIuQAn2rcjhOtbqGX",
@@ -45245,6 +45323,14 @@
                         {
                            "url": "https://www.bloc.io/swiftris-build-your-first-ios-game-with-swift",
                            "title": "Swiftris - Build an iOS Tetris app from scratch"
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/what-is-swift-ui-part-1/",
+                           "title": "What Is Swift UI? Easy Steps Building Your first SwiftUI app",
+                           "author": "Matthew Harding",
+                           "notes": [
+                              "Udemy"
+                           ]
                         }
                      ],
                      "subsections": [
@@ -45309,6 +45395,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=YcJ9IeukJL8",
+                           "title": "Terraform Tutorial for Beginners",
+                           "author": "KodeKloud"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLuJTeEt6HH9fUj7oRRLT0g1ttVl--Fv1T",
@@ -53367,6 +53458,11 @@
                      "section": "Git",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe",
+                           "title": "Curso de Git",
+                           "author": "Bóson Treinamentos"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA",
                            "title": "Curso de Git e GitHub: grátis, prático e sem usar comandos no terminal",
                            "author": "Gustavo Guanabara",
@@ -54438,6 +54534,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_",
+                           "title": "Curso React Native (aprendiz)",
+                           "author": "One Bit Code"
                         }
                      ],
                      "subsections": []
@@ -56167,6 +56268,11 @@
                   {
                      "section": "C#",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLURN6mxdcwL960S-bRuf1F6K09yzNjgcn",
+                           "title": "C# Başlangıç ve İleri Düzey Eğitimi | Console Dersleri | Form Dersleri",
+                           "author": "Enes Bayram"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLi1BmHvgBkxIYweLR52cRJnit4AEEugn4",
                            "title": "C# Dersleri | Visual Studio 2022 ile C# Programlama | C# Giriş",
@@ -58793,6 +58899,14 @@
                         {
                            "section": "Flask",
                            "entries": [
+                              {
+                                 "url": "https://codeinsightacademy.com/blog/python/flask-cheat-sheet",
+                                 "title": "Flask Cheat Sheet",
+                                 "author": "Code Insight Academy",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
                               {
                                  "url": "https://www.codewithharry.com/blogpost/flask-cheatsheet/",
                                  "title": "Flask Cheatsheet",
