@@ -6519,6 +6519,16 @@
                      ],
                      "subsections": [
                         {
+                           "section": "Next.js",
+                           "entries": [
+                              {
+                                 "url": "https://santrikoding.com/kategori/next-js",
+                                 "title": "Tutorial Next Js",
+                                 "author": "SantriKoding.com"
+                              }
+                           ]
+                        },
+                        {
                            "section": "Vue.js",
                            "entries": [
                               {
@@ -7130,8 +7140,9 @@
                      "section": "C++",
                      "entries": [
                         {
-                           "url": "http://didatticait.altervista.org/programmazione/CPP/CPP-dispense/CORSO_C.pdf",
-                           "title": "Corso C++ standard",
+                           "url": "https://www.dmi.unipg.it/~baioletti/didattica/materiale/dispense-progr1-c++.pdf",
+                           "title": "Dispense del corso di Programmazione I con Laboratorio",
+                           "author": "Marco Baioletti",
                            "notes": [
                               "PDF"
                            ]
@@ -10487,6 +10498,11 @@
                            "author": "박응용"
                         },
                         {
+                           "url": "https://pyrasis.com/python.html",
+                           "title": "파이썬 코딩 도장",
+                           "author": "남재윤"
+                        },
+                        {
                            "url": "https://wikidocs.net/book/5148",
                            "title": "파이썬 헤엄치기",
                            "author": "해달 프로그래밍"
@@ -13448,6 +13464,10 @@
                            "notes": [
                               "PDF, EPUB"
                            ]
+                        },
+                        {
+                           "url": "https://learnxinyminutes.com/docs/go/",
+                           "title": "Learn Go in Y minutes"
                         },
                         {
                            "url": "https://quii.gitbook.io/learn-go-with-tests/",
@@ -18324,6 +18344,14 @@
                            ]
                         },
                         {
+                           "url": "https://anh.cs.luc.edu/handsonPythonTutorial",
+                           "title": "Hands-on Python 3 Tutorial",
+                           "author": "Andrew N. Harrington",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://docs.python-guide.org/en/latest/",
                            "title": "Hitchhiker's Guide to Python!",
                            "notes": [
@@ -19620,6 +19648,10 @@
                            "author": "Frederick John"
                         },
                         {
+                           "url": "https://learnxinyminutes.com/docs/ruby/",
+                           "title": "Learn Ruby in Y minutes"
+                        },
+                        {
                            "url": "https://learnrubythehardway.org/book/",
                            "title": "Learn Ruby the Hard Way",
                            "author": "Zed A. Shaw"
@@ -19893,6 +19925,10 @@
                         {
                            "url": "https://rustc-dev-guide.rust-lang.org",
                            "title": "Guide to Rustc Development"
+                        },
+                        {
+                           "url": "https://learnxinyminutes.com/docs/rust/",
+                           "title": "Learn Rust in Y minutes"
                         },
                         {
                            "url": "https://rust-unofficial.github.io/too-many-lists",
@@ -20520,6 +20556,11 @@
                            "url": "https://www.syncfusion.com/ebooks/sql_queries_succinctly",
                            "title": "SQL Queries Succinctly",
                            "author": "Nick Harrison"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/sql/",
+                           "title": "SQL Tutorial",
+                           "author": "Scaler"
                         },
                         {
                            "url": "https://www.tutorialspoint.com/sqlite/",
@@ -30271,6 +30312,11 @@
                         {
                            "url": "https://www.cp.eng.chula.ac.th/books/java101-lb/",
                            "title": "แบบฝึกปฏิบัติฉบับวาจาจาวา",
+                           "author": "สมชาย ประสิทธิ์จูตระกูล"
+                        },
+                        {
+                           "url": "https://www.cp.eng.chula.ac.th/books/bp-vjjv/",
+                           "title": "เริ่มเรียนเขียนโปรแกรม: ฉบับวาจาจาวา",
                            "author": "สมชาย ประสิทธิ์จูตระกูล"
                         },
                         {
@@ -40717,6 +40763,11 @@
                            "title": "Clojure language Tutorial - for Beginners"
                         },
                         {
+                           "url": "https://www.youtube.com/watch?v=ciGyHkDuPAE",
+                           "title": "Clojure Tutorial",
+                           "author": "Derek Banas"
+                        },
+                        {
                            "url": "http://mooc.fi/courses/2014/clojure/",
                            "title": "Functional Programming with Clojure"
                         },
@@ -43755,6 +43806,11 @@
                         {
                            "url": "https://web.archive.org/web/20201111225216/luatut.com/crash_course.html",
                            "title": "Lua Interactive Crash Course"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=iMacxZQMPXs",
+                           "title": "Lua Tutorial",
+                           "author": "Derek Banas"
                         }
                      ],
                      "subsections": []
@@ -43926,6 +43982,11 @@
                         {
                            "url": "https://www.coursera.org/learn/machine-learning",
                            "title": "Stanford University Machine Learning"
+                        },
+                        {
+                           "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/",
+                           "title": "Statistics for Applications",
+                           "author": "MIT OpenCourseWare"
                         },
                         {
                            "url": "https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp",
@@ -59925,6 +59986,10 @@
                            "title": "Learn JavaScript"
                         },
                         {
+                           "url": "https://learnjavascript.online",
+                           "title": "Learn JavaScript"
+                        },
+                        {
                            "url": "http://learn.knockoutjs.com",
                            "title": "Learn knockout.js"
                         },
@@ -60872,6 +60937,16 @@
                         {
                            "url": "https://replit.com/languages/dart",
                            "title": "Replit"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "DevOps",
+                     "entries": [
+                        {
+                           "url": "https://kodekloud.com/kodekloud-engineer/",
+                           "title": "KodeKloud"
                         }
                      ],
                      "subsections": []
