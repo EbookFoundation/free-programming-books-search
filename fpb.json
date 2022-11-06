@@ -5658,6 +5658,20 @@
                      "subsections": []
                   },
                   {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://onlineaavedan.com/study_material/1543909480.pdf",
+                           "title": "C in Hindi | Hindi",
+                           "author": "Kuldeep Chand",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C++",
                      "entries": [
                         {
@@ -26141,7 +26155,7 @@
                            ]
                         },
                         {
-                           "url": "https://azure.microsoft.com/mediahandler/files/resourcefiles/learn-azure-in-a-month-of-lunches/Learn_Azure_in_a_Month_of_Lunches.pdf",
+                           "url": "https://clouddamcdnprodep.azureedge.net/gdc/2014519/original",
                            "title": "Learn Azure in a Month of Lunches",
                            "author": "Iain Foulds",
                            "notes": [
@@ -38990,6 +39004,11 @@
                            "author": "Anisul Islam"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLysy6TYSMvpJmMN0ElbC936RmmFustDiy",
+                           "title": "Java Course! Full Course Bangla",
+                           "author": "Online Course"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3rAHKr6IteF5kdgN6BorH9l",
                            "title": "Java Swing Bangla Tutorials",
                            "author": "Anisul Islam"
@@ -48622,6 +48641,11 @@
                                  "author": "WsCube Tech"
                               },
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbz1cgxiH5KCBsyQij1HsPtG",
+                                 "title": "Bootstrap Tutorial for beginners in Hindi / Urdu",
+                                 "author": "Yahoo Baba"
+                              },
+                              {
                                  "url": "https://youtube.com/playlist?list=PLgPJX9sVy92wc38jA6JtvkA4l1xmJcKKH",
                                  "title": "Bootstrap Tutorial for Beginners(Hindi)",
                                  "author": "CS Geeks"
@@ -48831,6 +48855,11 @@
                                  "notes": [
                                     "Thapa Technical"
                                  ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLPAcs2twrK5_FzWMttkbTuM0dB5A-ni-Q",
+                                 "title": "jQuery Video Course",
+                                 "author": "w3webschool.net"
                               }
                            ]
                         },
