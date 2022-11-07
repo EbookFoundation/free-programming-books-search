@@ -41115,6 +41115,10 @@
                            "title": "Advanced Data Mining with Weka MOOC"
                         },
                         {
+                           "url": "https://www.udemy.com/course/an-introduction-to-data-science/",
+                           "title": "An Introduction to Data Science"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLYizQ5FvN6pvIOcOd6dFZu3lQqc6zBGp2",
                            "title": "Apache Airflow Tutorials",
                            "author": "Tuan Vu",
@@ -41229,11 +41233,34 @@
                            "author": "Udacity"
                         },
                         {
+                           "url": "https://www.udacity.com/course/intro-to-data-science--ud359",
+                           "title": "Intro to Data Science",
+                           "author": "Udacity"
+                        },
+                        {
+                           "url": "https://alison.com/course/introduction-to-data-science-revised",
+                           "title": "Introduction to Data Science",
+                           "author": "Alison"
+                        },
+                        {
+                           "url": "https://www.simplilearn.com/data-science-free-course-for-beginners-skillup",
+                           "title": "Introduction to Data Science",
+                           "author": "SkillUp by Simplilearn"
+                        },
+                        {
                            "url": "https://www.coursera.org/learn/python-data-analysis",
                            "title": "Introduction to Data Science in Python",
                            "author": "Christopher Brooks",
                            "notes": [
                               "Coursera"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
+                           "title": "Learn Data Science Tutorial - Full Course for Beginners",
+                           "author": "Barton Poulson",
+                           "notes": [
+                              "FreeCodeCamp.org"
                            ]
                         },
                         {
@@ -42918,6 +42945,14 @@
                            "url": "https://www.udemy.com/javascript-essentials/",
                            "title": "Javascript Essentials",
                            "author": "Lawrence Turton",
+                           "notes": [
+                              "Udemy"
+                           ]
+                        },
+                        {
+                           "url": "https://www.udemy.com/course/javascriptfundamentals",
+                           "title": "Javascript Fundamentals",
+                           "author": "Bharath Thippireddy",
                            "notes": [
                               "Udemy"
                            ]
@@ -47902,6 +47937,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiHYxUk8dSu2_G7MR1PaGXN4",
                            "title": "Binary Trees - Level 1",
                            "author": "Pepcoding"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL-Jc9J83PIiFJRioti3ZV7QabwoJK6eKe",
+                           "title": "Bit Manipulation - Level 2",
+                           "author": "Pepecoding"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLyMom0n-MBrpakdIZvnhd6PFUCKNAyKo1",
@@ -56364,6 +56404,11 @@
                            "author": "Enes Bayram"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLKnjBHu2xXNPkeQtMOJczzEO6LK5OV35K",
+                           "title": "C# Dersleri",
+                           "author": "Murat Yücedağ"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLi1BmHvgBkxIYweLR52cRJnit4AEEugn4",
                            "title": "C# Dersleri | Visual Studio 2022 ile C# Programlama | C# Giriş",
                            "author": "Yazılım Teknolojileri Akademisi"
@@ -61739,6 +61784,10 @@
                         {
                            "url": "https://www.e-olymp.com/en/",
                            "title": "E-olymp"
+                        },
+                        {
+                           "url": "https://exercism.org",
+                           "title": "Exercism"
                         },
                         {
                            "url": "https://www.facebook.com/hackercup",
