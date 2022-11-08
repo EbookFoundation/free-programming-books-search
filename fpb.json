@@ -5699,6 +5699,20 @@
                      "subsections": []
                   },
                   {
+                     "section": "Data Structure and Algorithms",
+                     "entries": [
+                        {
+                           "url": "http://www.bccfalna.com/IOC-AllEBooks/DSnAinHindi.pdf",
+                           "title": "Data Structure with C | Hindi",
+                           "author": "Kuldeep Chand",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Java",
                      "entries": [
                         {
@@ -39004,6 +39018,11 @@
                            "author": "Anisul Islam"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLdl6zXgLsy3xCae1uL6rJ8Ay9sIiyBy5I",
+                           "title": "Java Basic Syntax Bangla Tutorial",
+                           "author": "Bangla Coding Tutor"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLysy6TYSMvpJmMN0ElbC936RmmFustDiy",
                            "title": "Java Course! Full Course Bangla",
                            "author": "Online Course"
@@ -58146,11 +58165,27 @@
                            ]
                         },
                         {
+                           "url": "https://products.golangdojo.com/golang-cheat-sheet-by-golang-dojo",
+                           "title": "Go Dojo Cheatsheet",
+                           "author": "Golang CheatSheet by golang-dojo",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://thevalleyofcode.pages.dev/go-handbook.pdf",
                            "title": "Go Handbook",
                            "author": "Flavio Copes, The Valley of Code",
                            "notes": [
                               "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://devsonket.com/go",
+                           "title": "গো | ডেভ সংকেত<",
+                           "author": "devsonket",
+                           "notes": [
+                              "HTML"
                            ]
                         }
                      ],
