@@ -6393,11 +6393,6 @@
                            "notes": [
                               "PDF"
                            ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/watch?v=fQbTeNX1mvM",
-                           "title": "Tutorial Git Dasar",
-                           "author": "Programmer Zaman Now"
                         }
                      ],
                      "subsections": []
@@ -6538,11 +6533,6 @@
                            "url": "https://id.javascript.info",
                            "title": "Tutorial JavaScript Modern",
                            "author": "Ilya Kantor"
-                        },
-                        {
-                           "url": "https://www.youtube.com/watch?v=SDROba_M42g",
-                           "title": "Tutorial JavaScript Pemrograman Berorientasi Objek",
-                           "author": "Programmer Zaman Now"
                         }
                      ],
                      "subsections": [
@@ -6581,17 +6571,6 @@
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "Machine Learning",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL2O3HdJI4voHNEv59SdXKRQVRZAFmwN9E",
-                           "title": "Tutorial Belajar Machine Learning Dasar | Python Scikit-Learn",
-                           "author": "Indonesia Belajar"
-                        }
-                     ],
-                     "subsections": []
                   },
                   {
                      "section": "MySQL",
@@ -13557,6 +13536,7 @@
                         {
                            "url": "https://riptutorial.com/Download/graphql.pdf",
                            "title": "Learning graphqL",
+                           "author": "Compiled from StackOverflow Documentation",
                            "notes": [
                               "PDF"
                            ]
@@ -15998,6 +15978,7 @@
                               {
                                  "url": "https://riptutorial.com/Download/vue-js.pdf",
                                  "title": "Learning Vue.js",
+                                 "author": "Compiled from StackOverflow Documentation",
                                  "notes": [
                                     "PDF"
                                  ]
@@ -16126,6 +16107,7 @@
                         {
                            "url": "https://riptutorial.com/Download/kotlin.pdf",
                            "title": "Learning Kotlin",
+                           "author": "Compiled from StackOverflow Documentation",
                            "notes": [
                               "PDF"
                            ]
@@ -16584,9 +16566,8 @@
                         {
                            "url": "https://riptutorial.com/Download/lua.pdf",
                            "title": "Learning Lua ebook",
-                           "author": "Rip Tutorial",
+                           "author": "Compiled from StackOverflow Documentation",
                            "notes": [
-                              "Compiled from StackOverflow documentation",
                               "PDF"
                            ]
                         },
@@ -17762,6 +17743,14 @@
                                  "notes": [
                                     "Markdown, PDF"
                                  ]
+                              },
+                              {
+                                 "url": "https://riptutorial.com/Download/laravel.pdf",
+                                 "title": "Learning Laravel",
+                                 "author": "Compiled from StackOverflow Documentation",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               }
                            ]
                         },
@@ -18470,6 +18459,14 @@
                         {
                            "url": "http://learnpythonbreakpython.com",
                            "title": "Learn Python, Break Python"
+                        },
+                        {
+                           "url": "https://learnxinyminutes.com/docs/python/",
+                           "title": "Learn Python in Y minutes",
+                           "author": "LearnXinYMinutes",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://www.packtpub.com/free-ebooks/learn-python-programming-second-edition",
@@ -26820,6 +26817,10 @@
                            "accessNotes": "Leanpub account or valid email requested"
                         },
                         {
+                           "url": "https://en.wikibooks.org/wiki/JPEG_-_Idea_and_Practice",
+                           "title": "JPEG - Idea and Practice"
+                        },
+                        {
                            "url": "https://www.scratchapixel.com",
                            "title": "Learn Computer Graphics From Scratch!",
                            "author": "Scratchapixel",
@@ -29281,7 +29282,7 @@
                      "subsections": []
                   },
                   {
-                     "section": "Security",
+                     "section": "Security & Privacy",
                      "entries": [
                         {
                            "url": "http://toc.cryptobook.us",
@@ -29359,6 +29360,14 @@
                            "notes": [
                               "GitBook",
                               ":construction: *in process*"
+                           ]
+                        },
+                        {
+                           "url": "https://programming-dp.com",
+                           "title": "Programming Differential Privacy",
+                           "author": "Joseph Near, Chiké Abuah",
+                           "notes": [
+                              "HTML, PDF"
                            ]
                         },
                         {
@@ -30260,6 +30269,16 @@
                },
                "index": {},
                "sections": [
+                  {
+                     "section": "0 - Meta-Lists",
+                     "entries": [
+                        {
+                           "url": "https://sites.google.com/nptel.iitm.ac.in/translated-ebook/telugu",
+                           "title": "Books - Telugu"
+                        }
+                     ],
+                     "subsections": []
+                  },
                   {
                      "section": "C",
                      "entries": [
@@ -40713,6 +40732,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.sololearn.com/learning/1080",
+                           "title": "Learn C#",
+                           "author": ""
+                        },
+                        {
                            "url": "https://www.learnhowtoprogram.com/c-and-net",
                            "title": "Learn how to program: C# and .NET",
                            "author": "Epicodus Inc."
@@ -40789,6 +40813,11 @@
                               "edX",
                               ":card_file_box: *archived*"
                            ]
+                        },
+                        {
+                           "url": "https://www.sololearn.com/learning/1051",
+                           "title": "Sololearn C++",
+                           "author": ""
                         }
                      ],
                      "subsections": []
@@ -41240,6 +41269,16 @@
                            "author": "Curran Kelleher"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLlgLmuG_KgbasW0lpInSAIxYd2vqAEPit",
+                           "title": "Hadoop Tutorial for Beginners",
+                           "author": "Great Learning"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=MLDcapDQba4",
+                           "title": "Hive Tutorial",
+                           "author": "Great Learning"
+                        },
+                        {
                            "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
                            "title": "IBM Data Science Professional Certificate",
                            "notes": [
@@ -41273,6 +41312,11 @@
                            "notes": [
                               "Coursera"
                            ]
+                        },
+                        {
+                           "url": "https://www.sololearn.com/learning/1093",
+                           "title": "Learn Data Science",
+                           "author": ""
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=ua-CiDNNj30",
@@ -41439,6 +41483,11 @@
                                  "url": "https://popsql.com/learn-sql",
                                  "title": "Learn SQL",
                                  "author": "PopSQL"
+                              },
+                              {
+                                 "url": "https://www.sololearn.com/learning/1060",
+                                 "title": "Learn SQL",
+                                 "author": ""
                               },
                               {
                                  "url": "https://www.programiz.com/sql",
@@ -41693,7 +41742,13 @@
                            "notes": [
                               "Udemy"
                            ]
-                        },
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Chef",
+                     "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLsgnv1SN76ILtD3TnVtXpX1hmwjyY9OuT",
                            "title": "CHEF Tutorial",
@@ -41758,6 +41813,11 @@
                            "notes": [
                               "freeCodeCamp"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=17Bl31rlnRM",
+                           "title": "Docker Tutorial for Beginners - What is Docker? Introduction to Containers",
+                           "author": "Kunal Kushwaha"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
@@ -42245,6 +42305,14 @@
                            "author": "Michael Van Sickle",
                            "notes": [
                               "freeCodeCamp"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=jFfo23yIWac",
+                           "title": "Learn Go Programming by Building 11 Projects – Full Course",
+                           "author": "Akhil Sharma",
+                           "notes": [
+                              "FreeCodeCamp"
                            ]
                         },
                         {
@@ -43376,6 +43444,11 @@
                                  ]
                               },
                               {
+                                 "url": "https://www.sololearn.com/learning/1097",
+                                 "title": "Learn React + Redux",
+                                 "author": ""
+                              },
+                              {
                                  "url": "https://scrimba.com/learn/learnreact",
                                  "title": "Learn React for Free",
                                  "author": "Bob Ziroll",
@@ -43660,6 +43733,16 @@
                               {
                                  "url": "https://vueschool.io/courses/vuex-for-everyone",
                                  "title": "Vuex for Everyone"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Webpack",
+                           "entries": [
+                              {
+                                 "url": "https://www.classcentral.com/course/youtube-learn-webpack-course-45823/classroom",
+                                 "title": "Learn Webpack Course",
+                                 "author": "Colt Steele"
                               }
                            ]
                         }
@@ -44185,7 +44268,7 @@
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
-                           "title": "Computer Networking Full Course",
+                           "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
                            "author": "Kunal Kushwaha"
                         },
                         {
@@ -44295,6 +44378,11 @@
                            "url": "https://www.learnhowtoprogram.com/php",
                            "title": "Learn how to program: PHP",
                            "author": "Epicodus Inc."
+                        },
+                        {
+                           "url": "https://www.sololearn.com/learning/1059",
+                           "title": "Learn PHP",
+                           "author": ""
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-",
@@ -44559,6 +44647,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.programiz.com/python-programming",
+                           "title": "Learn Python Programming",
+                           "author": "Programiz"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=f79MRyMsjrQ",
@@ -45440,6 +45533,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1ZqzYnpIuQAn2rcjhOtbqGX",
                            "title": "Learn Swift",
                            "author": "CodeWithChris"
+                        },
+                        {
+                           "url": "https://www.sololearn.com/learning/1075",
+                           "title": "Learn Swift 4",
+                           "author": ""
                         },
                         {
                            "url": "https://www.udacity.com/course/server-side-swift--ud1031",
@@ -47106,6 +47204,22 @@
                      "subsections": []
                   },
                   {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-css-mk1265",
+                           "title": "آموزش css",
+                           "author": "محمدحسین سیدآقایی"
+                        },
+                        {
+                           "url": "https://maktabkhooneh.org/course/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-html-mk1263",
+                           "title": "آموزش html",
+                           "author": "محمدحسین سیدآقایی"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Java",
                      "entries": [
                         {
@@ -48109,6 +48223,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "Arduino",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLV3C-t_tgjGFyXP_-AF37AoIuxM9jzELM",
+                           "title": "Arduino Programming Series (हिंदी में)",
+                           "author": "Engineers & Electronics"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Assembly",
                      "entries": [
                         {
@@ -48320,6 +48445,11 @@
                   {
                      "section": "Compiler Design",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL9FuOtXibFjVR-87LcU-DS-9TJcbG97_p",
+                           "title": "Compiler Design",
+                           "author": "Abhishek Sharma"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEKtKSIHYusizkESC42diyc",
                            "title": "Compiler Design (Complete Playlist)",
@@ -48962,6 +49092,11 @@
                                  "url": "https://www.youtube.com/playlist?list=PLUVqY59GNZQNCk_D9VW_zNh60WuQIzo3K",
                                  "title": "Node.js Tutorials for Beginners in Hindi",
                                  "author": "Tutorials Website"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL8p2I9GklV456iofeMKReMTvWLr7Ki9At",
+                                 "title": "NodeJS in Hindi",
+                                 "author": "Code Step By Step"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7occsESx2X1E2R2Uw5wCoeG",
@@ -49941,6 +50076,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=fQbTeNX1mvM",
+                           "title": "Tutorial Git Dasar",
+                           "author": "Programmer Zaman Now"
                         }
                      ],
                      "subsections": []
@@ -50292,6 +50432,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=SDROba_M42g",
+                           "title": "Tutorial JavaScript Pemrograman Berorientasi Objek",
+                           "author": "Programmer Zaman Now"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLU4DS8KR-LJ3-zouYHHknPq1G5VTB8PRf",
@@ -55637,10 +55782,18 @@
                         {
                            "url": "https://youtube.com/playlist?list=PLvvtf05eMZ2CpeAsq93DqWJHHyvCSa2Qn",
                            "title": "WEB API-ASP.NET Core in Sinhala",
-                           "author": "Fiqri Ismail",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "Fiqri Ismail"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C#",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLvvtf05eMZ2CXD2JdZgSBgyl13ODqHOkO",
+                           "title": "C# Full Course in Sinhala",
+                           "author": "Fiqri Ismail"
                         }
                      ],
                      "subsections": []
@@ -55651,10 +55804,7 @@
                         {
                            "url": "https://youtube.com/playlist?list=PLWAgeLqk4SjDlN6nHs91rECgx4PbzfoZh",
                            "title": "HTML සිංහලෙන්",
-                           "author": "SL Geek School",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "SL Geek School"
                         }
                      ],
                      "subsections": []
@@ -55673,10 +55823,7 @@
                         {
                            "url": "https://youtube.com/playlist?list=PLA3ZeQncjeVu9VHevp2SmPCQ9muVO3fEB",
                            "title": "Sinhala Java Netbeans Lessons",
-                           "author": "Chanux Bro",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "Chanux Bro"
                         }
                      ],
                      "subsections": []
@@ -55687,10 +55834,7 @@
                         {
                            "url": "https://youtube.com/playlist?list=PLYmyc7wRFoQjxkHAzHh1UIdU7ZdjTQvQt",
                            "title": "JavaScript Tutorial in Sinhala",
-                           "author": "BestJobsLK",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "BestJobsLK"
                         }
                      ],
                      "subsections": [
@@ -55700,33 +55844,21 @@
                               {
                                  "url": "https://youtube.com/playlist?list=PLvvtf05eMZ2DpDyWwmAjEuicvVxx4vIYB",
                                  "title": "Fundamentals | React JS in Sinhala",
-                                 "author": "Fiqri Ismail",
-                                 "notes": [
-                                    "YouTube"
-                                 ]
+                                 "author": "Fiqri Ismail"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLvfC6i-hEZBnqqF7giszuYI0iqenU5NY0",
+                                 "title": "MERN Stack Developer - Beginners",
+                                 "author": "TechWithGeorge"
                               },
                               {
                                  "url": "https://youtube.com/playlist?list=PLtoqJbwHBeHzAooLCGOzYVE9mkAeCnT9y",
                                  "title": "REACT | MERN CRUD App in Sinhala",
-                                 "author": "Haritha Weerathunga",
-                                 "notes": [
-                                    "YouTube"
-                                 ]
+                                 "author": "Haritha Weerathunga"
                               }
                            ]
                         }
                      ]
-                  },
-                  {
-                     "section": "C#",
-                     "entries": [
-                        {
-                           "url": "https://youtube.com/playlist?list=PLvvtf05eMZ2CXD2JdZgSBgyl13ODqHOkO",
-                           "title": "C# Full Course in Sinhala",
-                           "author": "Fiqri Ismail"
-                        }
-                     ],
-                     "subsections": []
                   }
                ]
             },
@@ -56005,15 +56137,123 @@
                "index": {},
                "sections": [
                   {
+                     "section": "Android",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=7ZLKpN8vXLo",
+                           "title": "Android Development course in 2 Hours in Telugu",
+                           "author": "Python Life"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLeCpoxUq3EhmgHp7KI-Ih3X2PcNYRtC5y",
+                           "title": "Android App Development Tutorials For Beginners in Telugu Android Studio",
+                           "author": "Sai Gopi"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Angular",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=9MxS8oNlnMM",
+                           "title": "Angular In Telugu | ANGULAR 10 IN TELUGU |angular in telugu|ANGULAR INTRODUCTION FOR BEGINNERS(2021)",
+                           "author": "TeluguTechSteps"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLO7Oa5iXf4QhtPXkaNX05qhGQSKFsvAF7",
+                           "title": "Angular In Telugu",
+                           "author": "TeluguTechSteps"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Artificial Intelligence and Machine Learning",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=fwMMBaXIpqQ",
+                           "title": "Artificial Intelligence 12 Hours Course In Telugu",
+                           "author": "Python Life"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=UehuI1w10lg",
+                           "title": "Machine Learning full course 6 Hours in telugu",
+                           "author": "Python Life"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLVG0Zju2HPJe0bhmV6l1MEE-6h0MG-20P",
+                           "title": "Machine Learning in Telugu",
+                           "author": "Nerchuko"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Automata Theory",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLLOxZwkBK52CTVrHjYa7-SpXlEtef1TqL",
+                           "title": "AUTOMATA THEORY",
+                           "author": "Sundeep Saradhi Kanthety"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL06g_pc9cPAgkzWkp9FEDs59wGjgX0YLA",
+                           "title": "Formal Languages and Automata Theory (FLAT) Full course in Telugu",
+                           "author": "SRT Telugu Lectures"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Bash and Shell",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLd8alL65M1GYJOLGK312G1qDv-Tv9aBbs",
+                           "title": "Bash Scripting in Telugu",
+                           "author": "Trie Tree Technologies"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=Duq5MtBEChc",
+                           "title": "Shell Scripting full course In Telugu by 7Hills | Linux In Telugu | Bash scripting | programming",
+                           "author": "7 Hills"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Bootstrap",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=1MrR6eTQYgI",
+                           "title": "BOOTSTRAP INTRODUCTION IN TELUGU",
+                           "author": "TeluguTechSteps"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLv_sM9ZH4RUU9Yopth1p1DbEu1ebr1vTb",
+                           "title": "Bootstrap Tutorials in Telugu by Kotha Abhishek",
+                           "author": "Chintu Tutorials"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/watch?v=HdvRHC5TiwE",
+                           "title": "C Language in Telugu - Complete Tutorial in 12 Hours",
+                           "author": "Telugu Computer World"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL3KKfF5A0sSKZutcrUiTCQDX0hn7Tw61E",
+                           "title": "C Language Tutorial",
+                           "author": "Telugu Scit Tutorials"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-n8Iz-_3MuNsJFzr0UlGUu",
                            "title": "C Language Tutorials",
-                           "author": "Telugu Computer World",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "Telugu Computer World"
                         }
                      ],
                      "subsections": []
@@ -56022,12 +56262,141 @@
                      "section": "C++",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/watch?v=uZBXKmQH5u8",
+                           "title": "C++ Complete Tutorial",
+                           "author": "Telugu Computer World"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm9keJjsA95jKa4EUVLd7mQP",
                            "title": "C++ Language Tutorials",
-                           "author": "Telugu Computer World",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "Telugu Computer World"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm9keJjsA95jKa4EUVLd7mQP",
+                           "title": "C++ Programming in Telugu - Complete Tutorial in 14 Hours",
+                           "author": "Telugu Computer World"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Cloud Computing",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL35ft-0sAlPhkcplnefpnc7U4BzLTh_Uh",
+                           "title": "Cloud Computing",
+                           "author": "Cloud Computing in Telugu"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=jXuv9X8T-ZY",
+                           "title": "Cloud Computing || Introduction to Cloud Computing || Cloud Computing in Telugu",
+                           "author": "Cloud Computing in Telugu"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Compiler Design",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLXs97PqiPGv_KtMEdRHNxrjRWuYIIxRtK",
+                           "title": "Compiler Design Telugu Series",
+                           "author": "Jahnavi Raghava Singh"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=UYVPOBU3BlQ",
+                           "title": "INTRODUCTION TO COMPILER DESIGN, PHASES OF COMPILER DETAIL IN TELUGU",
+                           "author": "CSE & IT Tutorials 4u"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Database Management Systems",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=nVgLiJOI2U8",
+                           "title": "Data Base Management System In Telugu in 7hrs | DBMS in telugu | MySql Full Course",
+                           "author": "Believer 01"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL3KKfF5A0sSLnIMTfr7bBw_wRW2vCm3T6",
+                           "title": "DBMS Tutorial",
+                           "author": "Telugu Scit Tutorials"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Data Science",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=WKHlx--15_I",
+                           "title": "Data Science Course For Beginners in Telugu",
+                           "author": "Python Life"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=CEv7b4xKrVo",
+                           "title": "What is Data Science in Telugu ?",
+                           "author": "Python Life"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Data Structures and Algorithms",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=pm_ugbO2FlY",
+                           "title": "Data Structures in Telugu in 7hrs | Full Course | Learn Data Structures",
+                           "author": "Believer 01"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLJSrGkRNEDAgmq4kKkPuh8aFJs-zxVbWK",
+                           "title": "Data Structures",
+                           "author": "Lab Mug"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Ethical Hacking",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=96_znX8_4Mg",
+                           "title": "Complete Ethical Hacking Course in Telugu || Tech Cookie",
+                           "author": "Tech Cookie"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=C5ig8YxRHUM",
+                           "title": "Ethical Hacking Tutorial in Telugu | Ethical Hacking Course | Edureka Telugu",
+                           "author": "edureka! Telugu"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "HTML and CSS",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=cS0TG1iksLM",
+                           "title": "HTML Tutorials in Telugu || with in \"3:30 Hours\" || Computersadda.com",
+                           "author": "Computers adda"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLv_sM9ZH4RUWkdiiILVHnNZUsOr2DBS7S",
+                           "title": "HTML in Telugu || HTML in Telugu by Kotha Abhishek",
+                           "author": "Chintu Tutorials"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=z7_gt7x6XAM",
+                           "title": "CSS Tutorial for Beginners in Telugu | Best CSS tutorial for beginners | CSS3 Tutorial | TechEnlgiht",
+                           "author": "TECH ENLIGHT"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLv_sM9ZH4RUVjmxTl5PysFSxJ6VQbdnRc",
+                           "title": "CSS Tutorials in telugu || CSS in Telugu by Kotha Abhishek",
+                           "author": "Chintu Tutorials"
                         }
                      ],
                      "subsections": []
@@ -56038,10 +56407,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLXj4XH7LcRfBJVCGguyIFbyj__hDSSBm9",
                            "title": "Stacks and Queues in Telugu || Data Structures in Telugu",
-                           "author": "Sudhakar Atchala",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "Sudhakar Atchala"
                         }
                      ],
                      "subsections": []
@@ -56080,26 +56446,179 @@
                      "section": "Java",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLacgMXFs7kl8wrP2mPyJgsWVk-FP31qq1",
+                           "title": "Core Java in Telugu Language",
+                           "author": "H Y R Tutorials"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2Lyt9-2hhRj37otchec1OJL",
                            "title": "Full Java Tutorials in Telugu - Telugu Web Guru",
-                           "author": "",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "telugu web guru"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=AzJEnN2pK_I",
+                           "title": "Java 8 Hours Course in Telugu",
+                           "author": "Python Life"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=wXfmWSGE2ok",
+                           "title": "Java in Telugu - Complete Tutorial in 13 Hours",
+                           "author": "Telugu Computer World"
                         }
                      ],
                      "subsections": []
                   },
                   {
-                     "section": "Javascript",
+                     "section": "JavaScript",
                      "entries": [
                         {
                            "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2KqDjTuU_qHr-tI_CHOkIsN",
                            "title": "Full Java Script Tutorials in Telugu - Telugu Web Guru",
-                           "author": "telugu web guru",
-                           "notes": [
-                              "YouTube"
+                           "author": "telugu web guru"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=GuahuUTSUKI",
+                           "title": "JavaScript Complete Tutorials In Telugu by Kotha Abhishek",
+                           "author": "Chintu Tutorials"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=BTuCzffKh8E",
+                           "title": "JAVA SCRIPT FOR BEGINNERS IN 7 HOURS || LEARN JAVA SCRIPT IN 7 HOURS || JAVA SCRIPT",
+                           "author": "Sundeep Saradhi Kanthety"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLv_sM9ZH4RUW_Pgz-6B0Q-YTfWvC7RVFN",
+                           "title": "JavaScript in Telugu || JavaScript in Telugu by Kotha Abhishek",
+                           "author": "Chintu Tutorials"
+                        }
+                     ],
+                     "subsections": [
+                        {
+                           "section": "ExpressJS",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLxS8q3V3GDdzobKWCoXVYFsXlb5kyq4_N",
+                                 "title": "Express JS In Telugu",
+                                 "author": "WhatsMySugesstion"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=_jgN80P6YII",
+                                 "title": "Express JS in Telugu | express.js Tutorial for Beginners in Telugu",
+                                 "author": "Telugu Skillhub"
+                              }
                            ]
+                        },
+                        {
+                           "section": "NextJS",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=9jcX6w1xHJY",
+                                 "title": "1 What is Next js In Telugu | next js | btech in telugu",
+                                 "author": "B TECH IN TELUGU"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=yqJlmkgroik",
+                                 "title": "Next.js Crash Course in Telugu | Next.js in Telugu",
+                                 "author": "Telugu Skillhub"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "NodeJS",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=MY2Vxtfn5Tw",
+                                 "title": "NodeJS Tutorial",
+                                 "author": "Telugu Skillhub"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLYnehuuSeAHtu27M2By66v6kJpF_oDR5I",
+                                 "title": "Node JS in Telugu | Node.js Tutorial for Beginners in Telugu",
+                                 "author": "Know something!!!"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "ReactJS",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/watch?v=1r79Eqw6tfg",
+                                 "title": "React JS In Telugu",
+                                 "author": "Telugu Skillhub"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLWnZ0qt0PImVaDkDbF96dnRGO0_lXVLKf",
+                                 "title": "React JS In Telugu (Playlist)",
+                                 "author": "Telugu Skillhub"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "VueJS",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLO7Oa5iXf4Qjd9AjhYSkOoY4aPe1pkKzk",
+                                 "title": "VUE JS IN TELUGU",
+                                 "author": "TeluguTechSteps"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=JvtuSh5fllA",
+                                 "title": "Vue js Tutorials //Vue js tutorial for beginners in Telugu // Easy Learning Channel",
+                                 "author": "Easy Learning Channel"
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     "section": "Laravel",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLYnehuuSeAHvBW7ruB1sPomY1SK_3fvx0",
+                           "title": "Laravel",
+                           "author": "Know something!!!"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=pXB8MuQmeWA",
+                           "title": "#1 How to install laravel | Telugu Tutorial",
+                           "author": "Know something!!!"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "MongoDB",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=ZQuQ-wHuPlg",
+                           "title": "Mongo db full course in 1hour in telugu",
+                           "author": "Python Life"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLeCpoxUq3Ehk9FDCQvswVhg5qrODqJ4Xp",
+                           "title": "MongoDB Database Tutorials for beginners in Telugu",
+                           "author": "Sai Gopi"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "PHP",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=sX6g3zyPXkA",
+                           "title": "PHP Development Tutorial in Telugu - Learn in 24 Hours Part 1",
+                           "author": "Telugu Computer World"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=zZ0QNRMxWkE",
+                           "title": "PHP Development Tutorial in Telugu - Learn in 24 Hours Part 2",
+                           "author": "Telugu Computer World"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm8TRhX27z6JG0DtR8FR_WuO",
+                           "title": "PHP Tutorials",
+                           "author": "Telugu Computer World"
                         }
                      ],
                      "subsections": []
@@ -56116,19 +56635,28 @@
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR",
-                           "title": "Python in Telugu - Step by Step Tutorials",
-                           "author": "Telugu Computer World",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2JgeekeyLRQcwZsfLNbW8zQ",
+                           "title": "Full Python Tutorial in Telugu | Telugu Web Guru",
+                           "author": "Telugu Web Guru"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLh6Yk2rpZu2JgeekeyLRQcwZsfLNbW8zQ",
-                           "title": "Object oriented programming with python- Telugu Web Guru",
-                           "notes": [
-                              "You Tube"
-                           ]
+                           "title": "Object oriented programming with python- Telugu Web Guru"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR",
+                           "title": "Python in Telugu - Step by Step Tutorials",
+                           "author": "Telugu Computer World"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=fP9IvI4qu80",
+                           "title": "Python in Telugu For Beginners - Complete Tutorial in 10 Hours",
+                           "author": "Telugu Computer World"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLC2mgeYbYNm-3aTUq98pbmrA3P1_m-aJR",
+                           "title": "Python in Telugu - Step by Step Tutorials",
+                           "author": "Telugu Computer World"
                         }
                      ],
                      "subsections": []
@@ -56139,10 +56667,28 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLXx2-0oYp1LO9H8ciGQaTr6SN80dteTlc",
                            "title": "R Programming Language Training Videos In telugu - R ట్రైనింగ్ వీడియోస్ ఇన్ తెలుగు R programming ట్రైనింగ్ వీడియోస్ ఇన్ తెలుగు",
-                           "author": "VLR Training",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "author": "VLR Training"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=3eW7Q_PaB2E",
+                           "title": "R programming basics Part - 1(Telugu)",
+                           "author": "Target Data Science & Statistics"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "SQL",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=2XB5CddzEaM",
+                           "title": "SQL commands and PL/SQL programs complete in telugu - Oracle SQL-PL/SQL in telugu",
+                           "author": "Edusoft Learning Systems - Learning Simplified"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLXx2-0oYp1LPUXvjjriVMaMWALucsitR1",
+                           "title": "Sql tutorials in telugu - sql video tutorials - sql tutorials for beginners telugu",
+                           "author": "VLR Training"
                         }
                      ],
                      "subsections": []
@@ -58203,6 +58749,14 @@
                            ]
                         },
                         {
+                           "url": "https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html",
+                           "title": "GraphQL Cheat Sheet",
+                           "author": "Jim Manico, Jakub Maćkowski",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://simplecheatsheet.com/tag/graphql-cheat-sheet",
                            "title": "GraphQL Cheat Sheet",
                            "author": "Simple Cheat Sheet",
@@ -58927,14 +59481,6 @@
                            "url": "https://gto76.github.io/python-cheatsheet",
                            "title": "Comprehensive Python Cheatsheet",
                            "author": "Jure Šorn",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "https://learnxinyminutes.com/docs/python/",
-                           "title": "Learn Python in Y minutes",
-                           "author": "LearnXinYMinutes",
                            "notes": [
                               "HTML"
                            ]
@@ -60452,6 +60998,11 @@
                         {
                            "url": "http://www.techbeamers.com/python-tutorial-step-by-step",
                            "title": "Learn Python Step by Step"
+                        },
+                        {
+                           "url": "https://www.freecodecamp.org/learn/machine-learning-with-python",
+                           "title": "Machine Learning with Python",
+                           "author": "FreeCodeCamp"
                         },
                         {
                            "url": "https://runestone.academy/runestone/books/published/py4e-int/index.html",
