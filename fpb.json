@@ -18457,6 +18457,14 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/animator/learn-python",
+                           "title": "Learn Python 3",
+                           "author": "Ankit Mahato",
+                           "notes": [
+                              "PDF, HTML, Markdown"
+                           ]
+                        },
+                        {
                            "url": "http://learnpythonbreakpython.com",
                            "title": "Learn Python, Break Python"
                         },
@@ -57040,6 +57048,11 @@
                            "url": "https://youtube.com/playlist?list=PLGrTHqyRDvx6PqKkqSPwph57HNN4RWgR2",
                            "title": "JavaScript Eğitim Serisi",
                            "author": "Hakan Yalçınkaya | Kodluyoruz"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLXuv2PShkuHws6qBQiX1fwEdBA25XOze-",
+                           "title": "JavaScript Programlama Dersleri",
+                           "author": "Sadık Turan"
                         }
                      ],
                      "subsections": []
