@@ -828,6 +828,51 @@
             },
             {
                "language": {
+                  "code": "ca",
+                  "name": "Catalan, Valencian"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "Algorismes i Estructures de Dades",
+                     "entries": [
+                        {
+                           "url": "https://repositori.udl.cat/bitstream/handle/10459.1/63471/Eines%20Josep%20M%20Ribo%20electronic.pdf?sequence=1&isAllowed=y",
+                           "title": "Apropament a les estructures de dades des del programari lliure",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C",
+                     "entries": [
+                        {
+                           "url": "https://ca.wikibooks.org/wiki/Programaci%C3%B3_en_C",
+                           "title": "Programació en C"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Ciències de la Computació",
+                     "entries": [
+                        {
+                           "url": "https://github.com/EbookFoundation/free-programming-books/files/9808381/logica-proposicional-i-predicats.pdf",
+                           "title": "Lògica Proposicional i de Predicats",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
                   "code": "cs",
                   "name": "Czech"
                },
@@ -1333,6 +1378,11 @@
                            "url": "http://javabog.dk",
                            "title": "Objektorienteret programmering i Java",
                            "author": "Jacob Nordfalk"
+                        },
+                        {
+                           "url": "http://javabog.dk",
+                           "title": "The Complete Reference Java",
+                           "author": "Swaminaryan"
                         }
                      ],
                      "subsections": []
@@ -38705,6 +38755,17 @@
                            ]
                         }
                      ]
+                  },
+                  {
+                     "section": "iOS",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQaOY10EEc8bNbEBMyiJU1I-GIgs1LQfj",
+                           "title": "iOS & Xcode دورة برمجة تطبيقات الايفون باستخدام لغة سويفت  ",
+                           "author": "بامبرمج"
+                        }
+                     ],
+                     "subsections": []
                   }
                ]
             },
@@ -39936,6 +39997,11 @@
                            "url": "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/?no-filter=true",
                            "title": "Data Structures and Algorithms",
                            "author": "Tech Dev Guide by Google"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLrk5tgtnMN6StFV60jlQ9W-RXyHppbp8G",
+                           "title": "Data Structures And Algorithms DSA In JAVA Full Course",
+                           "author": "Coding Ninjas"
                         },
                         {
                            "url": "https://www.youtube.com/watch?v=BBpAmxU_NQo",
@@ -43311,6 +43377,14 @@
                               {
                                  "url": "https://masteringnextjs.com",
                                  "title": "Mastering Next.js"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=1WmNXEVia8I",
+                                 "title": "Next.js for Beginners - Full Course",
+                                 "author": "Kapehe",
+                                 "notes": [
+                                    "FreeCodeCamp"
+                                 ]
                               },
                               {
                                  "url": "https://youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH",
@@ -48245,6 +48319,11 @@
                      "section": "Assembly",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLR2FqYUVaFJpHPw1ExSVJZFNlXzJYGAT1",
+                           "title": "Assembly Language Programming Tutorials in Urdu Hindi",
+                           "author": "Programology"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL-DxAN1jsRa-3KzeQeEeoL_XpUHKfPL1u",
                            "title": "x64 Assembly Language",
                            "author": "The Cyber Expert"
@@ -48428,6 +48507,11 @@
                      "section": "Competitive Programming",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfHs-LbtPOrlQHA37LFQg3S",
+                           "title": "Competitive Programming Series - Java Placement Course",
+                           "author": "Wscube Tech"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-",
                            "title": "Competitive Programming/DSA Course | Hindi",
                            "author": "Luv"
@@ -48533,6 +48617,11 @@
                            "author": "Apna College"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
+                           "title": "Complete C++ Placement DSA Course",
+                           "author": "CodeHelp by Babbar"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLmGElG-9wxc9Us6IK6Qy-KHlG_F3IS6Q9",
                            "title": "Data Structure And Algorithms Course | DSA Tutorial in Hindi",
                            "author": "ScoreShala"
@@ -48587,6 +48676,11 @@
                            "url": "https://www.youtube.com/playlist?list=PL-Jc9J83PIiF5VZmktfqW6WVU1pxBF6l_",
                            "title": "Linked Lists - Level 1",
                            "author": "Pepcoding"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLKZaSt2df1gy75J3irj89a2vSGqeQdtDA",
+                           "title": "Simplified DSA with FRAZ",
+                           "author": "Fraz"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd",
@@ -48748,6 +48842,11 @@
                            "url": "https://www.youtube.com/watch?v=77b2lVHHZqI",
                            "title": "Github | All about Git and GitHub",
                            "author": "Anuj Bhaiya"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLVdoaEL574VBxxcGQmTjxS-JoP5rKV8Wi",
+                           "title": "GitHub Tutorial in Hindi",
+                           "author": "Be A Programmar"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLbGui_ZYuhigWA1mNWzwErSBIZvgOJbNc",
@@ -53138,11 +53237,42 @@
             },
             {
                "language": {
+                  "code": "no",
+                  "name": "Norwegian"
+               },
+               "index": {},
+               "sections": [
+                  {
+                     "section": "Java",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLIrUJXSXz9cmvNZ_Y0QT-r25efmN42rm5",
+                           "title": "Java-programmering",
+                           "author": "UDL.no"
+                        }
+                     ],
+                     "subsections": []
+                  }
+               ]
+            },
+            {
+               "language": {
                   "code": "pl",
                   "name": "Polish"
                },
                "index": {},
                "sections": [
+                  {
+                     "section": "0 - Niezależne od języka programowania",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLGhEqiD7wAd5D-fe-Qz027_1yAH3rFMYF",
+                           "title": "OSDev",
+                           "author": "Gynvael Coldwind"
+                        }
+                     ],
+                     "subsections": []
+                  },
                   {
                      "section": "Assembly Language",
                      "entries": [
@@ -53714,7 +53844,7 @@
                      "section": "Flutter",
                      "entries": [
                         {
-                           "url": "https://app.balta.io/courses/7184",
+                           "url": "https://balta.io/cursos/criando-seu-primeiro-app-com-flutter",
                            "title": "Criando seu primeiro App com Flutter",
                            "author": "Andre Baltieri",
                            "notes": [
@@ -54158,11 +54288,6 @@
                            "notes": [
                               "Cod3r"
                            ]
-                        },
-                        {
-                           "url": "https://app.rocketseat.com.br/discover/courses",
-                           "title": "Curso Starter ES6, Node, React e React Native",
-                           "author": "Rocketseat"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLy5T05I_eQYOoUz2TtAqq35RLCc-xBZCe",
@@ -54991,7 +55116,7 @@
                            "section": "Angular",
                            "entries": [
                               {
-                                 "url": "https://app.balta.io/courses/7181",
+                                 "url": "https://balta.io/cursos/comecando-com-angular",
                                  "title": "Começando com Angular",
                                  "author": "Andre Baltieri",
                                  "notes": [
@@ -56711,6 +56836,33 @@
                "index": {},
                "sections": [
                   {
+                     "section": "Algorithms & Data Structures",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PL0ROnaCzUGB65_YkASLAEmcW_mtxFtq4m",
+                           "title": "การออกแบบและวิเคราะห์อัลกอริทึม",
+                           "author": "สมชาย ประสิทธิ์จูตระกูล"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Artificial Intelligence",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLcBOyD1N1T-PIYnPZ9_iHtug9e-BcHIob",
+                           "title": "NLP 2021",
+                           "author": "EkapolC"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLcBOyD1N1T-MnWcKQZqE8FXrgoiiVdXvI",
+                           "title": "Pattern 2022",
+                           "author": "EkapolC"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C",
                      "entries": [
                         {
@@ -56739,6 +56891,17 @@
                            "url": "http://marcuscode.com/lang/cpp",
                            "title": "ภาษา C++",
                            "author": "MarcusCode"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Databases",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PL7fB6_3v0nhxRBOP44PL8SnhXnauinlb2",
+                           "title": "วิชา Database System (ปี 58/1)",
+                           "author": "Aj Earn KMUTNB"
                         }
                      ],
                      "subsections": []
@@ -57064,6 +57227,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8",
                            "title": "JAVA Dersleri",
                            "author": "Engin Demiroğ"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLEcJSEQK_cD5KHgg9sXumeg659hAr2j4W",
+                           "title": "Java Dersleri ve Nesne Yönelimli Programlama",
+                           "author": "Kodlama Vakti"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLIHume2cwmHctrHFHADb0slNyn95x2M4I",
@@ -60594,6 +60762,11 @@
                         {
                            "url": "http://www.learnjavaonline.org",
                            "title": "Learn Java"
+                        },
+                        {
+                           "url": "https://www.javatpoint.com/java-tutorial",
+                           "title": "Learn Java",
+                           "author": "Java T Point"
                         },
                         {
                            "url": "https://www.learneroo.com/modules/11",
