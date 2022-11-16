@@ -1011,6 +1011,14 @@
                                  "notes": [
                                     "PDF"
                                  ]
+                              },
+                              {
+                                 "url": "https://www.cybersecurity.cz/data/slovnik_v310.pdf",
+                                 "title": "Výkladový slovník Kybernetické bezpečnosti",
+                                 "author": "Petr Jirásek, Luděk Novák, Josef Požár",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               }
                            ]
                         },
@@ -5703,20 +5711,6 @@
                            "url": "https://programming-tutorial-hindi.blogspot.com/p/index.html",
                            "title": "C Tutorial/Notes | Hindi",
                            "author": "Hridayesh Kumar Gupta"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "C",
-                     "entries": [
-                        {
-                           "url": "https://onlineaavedan.com/study_material/1543909480.pdf",
-                           "title": "C in Hindi | Hindi",
-                           "author": "Kuldeep Chand",
-                           "notes": [
-                              "PDF"
-                           ]
                         }
                      ],
                      "subsections": []
@@ -12184,6 +12178,11 @@
                            "title": "C++ Tricks"
                         },
                         {
+                           "url": "https://www.cprogramming.com/tutorial/c++-tutorial.html",
+                           "title": "C++ Tutorial",
+                           "author": "Alex Allain"
+                        },
+                        {
                            "url": "http://web.stanford.edu/class/cs106x/",
                            "title": "CS106X Programming Abstractions in C++"
                         },
@@ -15058,6 +15057,10 @@
                            ]
                         },
                         {
+                           "url": "https://www.tutorialspoint.com/javascript/index.htm",
+                           "title": "Javascript Tutorial"
+                        },
+                        {
                            "url": "https://en.wikibooks.org/wiki/JavaScript",
                            "title": "JavaScript Wikibook",
                            "author": "Wikibooks",
@@ -15724,12 +15727,23 @@
                               },
                               {
                                  "url": "https://nodejs.org/en/docs/",
-                                 "title": "Node Documentation"
+                                 "title": "Node Documentation",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               },
                               {
                                  "url": "https://www.oreilly.com/library/view/node-up-and/9781449332235/",
                                  "title": "Node: Up and Running",
                                  "author": "Tom Hughes-Croucher"
+                              },
+                              {
+                                 "url": "https://ia801309.us.archive.org/5/items/HandbookOfNeuralComputingApplicationsPDFStormRG/Node.js%20Design%20Patterns%20-%20Casciaro,%20Mario%20%5BPDF%5D%5BStormRG%5D.pdf",
+                                 "title": "Node.js Design Patterns",
+                                 "author": "Mario Casciaro",
+                                 "notes": [
+                                    "PDF"
+                                 ]
                               },
                               {
                                  "url": "http://goalkicker.com/NodeJSBook",
@@ -15751,6 +15765,10 @@
                                  "url": "https://github.com/azat-co/practicalnode",
                                  "title": "Practical Node.js: Building Real-World Scalable Web Apps",
                                  "author": "Azat Mardan"
+                              },
+                              {
+                                 "url": "https://www.serverless.com/framework/docs/getting-started",
+                                 "title": "Serverless framework getting started"
                               },
                               {
                                  "url": "https://exploringjs.com/nodejs-shell-scripting/index.html",
@@ -20624,8 +20642,20 @@
                            ]
                         },
                         {
+                           "url": "https://docs.oracle.com/cd/A87860_01/doc/server.817/a76965/c14sqlpl.htm#5943",
+                           "title": "Oracle8i Concepts: Chapter 15 - SQL and PL/SQL",
+                           "author": "Lefty Leverenz, Diana Rehfield, Cathy Baird",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://philip.greenspun.com/sql/",
-                           "title": "SQL For Web Nerds"
+                           "title": "SQL For Web Nerds",
+                           "author": "Philip Greenspun",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "http://goalkicker.com/SQLBook/",
@@ -20638,7 +20668,10 @@
                         {
                            "url": "https://www.syncfusion.com/ebooks/sql_queries_succinctly",
                            "title": "SQL Queries Succinctly",
-                           "author": "Nick Harrison"
+                           "author": "Nick Harrison",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://www.scaler.com/topics/sql/",
@@ -20647,11 +20680,18 @@
                         },
                         {
                            "url": "https://www.tutorialspoint.com/sqlite/",
-                           "title": "SQLite Tutorial"
+                           "title": "SQLite Tutorial",
+                           "notes": [
+                              "HTML, PDF"
+                           ]
                         },
                         {
-                           "url": "http://use-the-index-luke.com",
-                           "title": "Use The Index, Luke!: A Guide To SQL Database Performance"
+                           "url": "https://use-the-index-luke.com",
+                           "title": "Use The Index, Luke!: A Guide To SQL Database Performance",
+                           "author": "Markus Winand",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -22869,6 +22909,14 @@
                            "title": "Go - hands on"
                         },
                         {
+                           "url": "https://www.ime.usp.br/~gold/cursos/2015/MAC5742/reports/GoLang.pdf",
+                           "title": "Go Lang - A linguagem do Google",
+                           "author": "Suelen Goularte Carvalho",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://goporexemplo.golangbr.org",
                            "title": "Go por Exemplo",
                            "author": "Mark McGranaghan, Jeremy Ashkenas, golangbr, Daniela Tamy Iwassa",
@@ -23741,6 +23789,16 @@
                         {
                            "url": "http://scratched.gse.harvard.edu/resources/informatica-creativa-0",
                            "title": "Informatica Creativa"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Javascript",
+                     "entries": [
+                        {
+                           "url": "https://marplo.net/javascript",
+                           "title": "Curs si Tutoriale JavaScript"
                         }
                      ],
                      "subsections": []
@@ -29364,6 +29422,14 @@
                            "title": "CryptoParty Handbook"
                         },
                         {
+                           "url": "https://pages.cs.wisc.edu/~ace/media/gray-hat-hacking.pdf",
+                           "title": "Gray Hat Hacking: The Ethical Hacker's Handbook",
+                           "author": "Allen Harper, Jonathan Ness, Chris Eagle, Shon Harris, Gideon Lenkey, Terron Williams",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://cacr.uwaterloo.ca/hac/index.html",
                            "title": "Handbook of Applied Cryptography"
                         },
@@ -30420,6 +30486,14 @@
                            "author": "สมชาย ประสิทธิ์จูตระกูล"
                         },
                         {
+                           "url": "https://www.cp.eng.chula.ac.th/wp-content/uploads/2022/01/JavaProg_vjjv_3.0.1.pdf",
+                           "title": "เริ่มเรียนเขียนโปรแกรมฉบับวาจาจาวา",
+                           "author": "สมชาย ประสิทธิ์จูตระกูล",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://www.cp.eng.chula.ac.th/books/bp-vjjv/",
                            "title": "เริ่มเรียนเขียนโปรแกรม: ฉบับวาจาจาวา",
                            "author": "สมชาย ประสิทธิ์จูตระกูล"
@@ -30752,18 +30826,6 @@
                         {
                            "url": "http://www.belgeler.org/sag/sag.html",
                            "title": "Linux Sistem Yöneticisinin Kılavuzu"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Matlab",
-                     "entries": [
-                        {
-                           "url": "https://web.archive.org/web/20210727221605/https://ismailari.com/blog/matlab-programlamaya-giris/",
-                           "title": "Matlab Programlamaya Giris",
-                           "author": "İsmail Arı",
-                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -34932,6 +34994,28 @@
                      "subsections": []
                   },
                   {
+                     "section": "Persuasive Technology",
+                     "entries": [
+                        {
+                           "url": "https://anchor.fm/digital-mindfulness/episodes/DM-20-BJ-Fogg---Persuasive-Technology--Behavioural-Design-eu6onh",
+                           "title": "Persuasive Technology and Behavioural Design",
+                           "author": "BJ Fogg",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.humanetech.com/podcast",
+                           "title": "Your Undivided Attention",
+                           "author": "Tristan Harris and Aza Raskin",
+                           "notes": [
+                              "podcast"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "PHP",
                      "entries": [
                         {
@@ -35877,6 +35961,14 @@
                         {
                            "url": "https://podcast.ausha.co/poddev",
                            "title": "Programmez!",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://podcast.ausha.co/saas-club",
+                           "title": "SaaS Club",
+                           "author": "Les recettes françaises du logiciel service",
                            "notes": [
                               "podcast"
                            ]
@@ -40861,6 +40953,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+                           "title": "C++ Tutorial for Beginners - Learn C++ in 1 Hour",
+                           "author": "Programming with Mosh"
+                        },
+                        {
                            "url": "https://www.udemy.com/course/free-learn-c-tutorial-beginners/",
                            "title": "C++ Tutorial for Complete Beginners",
                            "author": "John Purcell",
@@ -41756,85 +41853,127 @@
                            ]
                         }
                      ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Ansible",
-                     "entries": [
+                     "subsections": [
                         {
-                           "url": "https://www.udemy.com/course/ansible-gcp",
-                           "title": "Ansible + GCP",
-                           "author": "Rohit Abraham",
-                           "notes": [
-                              "Udemy"
+                           "section": "Ansible",
+                           "entries": [
+                              {
+                                 "url": "https://www.udemy.com/course/ansible-gcp",
+                                 "title": "Ansible + GCP",
+                                 "author": "Rohit Abraham",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/ansible-basics-an-automation-technical-overview",
+                                 "title": "Ansible Basics: An Automation Technical Overview",
+                                 "author": "Red Hat, Inc.",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/ansible-for-the-absolute-beginner-devops",
+                                 "title": "Ansible for the Absolute Beginner - DevOps",
+                                 "author": "Vijay Patel",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/aws-provisioning-using-ansible-with-real-time-examples",
+                                 "title": "AWS Provisioning using Ansible with real-time examples",
+                                 "author": "Narendra P",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/devops-beginners-guide-to-automation-with-ansible",
+                                 "title": "DevOps: Beginner's Guide To Automation With Ansible",
+                                 "author": "TetraNoodle Team, Manuj Aggarwal",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/red-hat-ansible-automation-for-sap",
+                                 "title": "Red Hat Ansible Automation for SAP (RH045)",
+                                 "author": "Red Hat, Inc.",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/ansible-aws",
+                                 "title": "Use Ansible with Amazon Web Services",
+                                 "author": "Rohit Abraham",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              }
                            ]
                         },
                         {
-                           "url": "https://www.udemy.com/course/ansible-basics-an-automation-technical-overview",
-                           "title": "Ansible Basics: An Automation Technical Overview",
-                           "author": "Red Hat, Inc.",
-                           "notes": [
-                              "Udemy"
+                           "section": "Chef",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLsgnv1SN76ILtD3TnVtXpX1hmwjyY9OuT",
+                                 "title": "CHEF Tutorial",
+                                 "author": "Online Tutorials"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLKK5zTDXqzFM53J6-rikDrqbbY0Pu-9SP",
+                                 "title": "Learning Chef",
+                                 "author": "Nathen Harvey"
+                              }
                            ]
                         },
                         {
-                           "url": "https://www.udemy.com/course/ansible-for-the-absolute-beginner-devops",
-                           "title": "Ansible for the Absolute Beginner - DevOps",
-                           "author": "Vijay Patel",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/aws-provisioning-using-ansible-with-real-time-examples",
-                           "title": "AWS Provisioning using Ansible with real-time examples",
-                           "author": "Narendra P",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/devops-beginners-guide-to-automation-with-ansible",
-                           "title": "DevOps: Beginner's Guide To Automation With Ansible",
-                           "author": "TetraNoodle Team, Manuj Aggarwal",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/red-hat-ansible-automation-for-sap",
-                           "title": "Red Hat Ansible Automation for SAP (RH045)",
-                           "author": "Red Hat, Inc.",
-                           "notes": [
-                              "Udemy"
-                           ]
-                        },
-                        {
-                           "url": "https://www.udemy.com/course/ansible-aws",
-                           "title": "Use Ansible with Amazon Web Services",
-                           "author": "Rohit Abraham",
-                           "notes": [
-                              "Udemy"
+                           "section": "Jenkins",
+                           "entries": [
+                              {
+                                 "url": "https://www.udemy.com/course/free-advanced-jenkins-in-k8s-docker-in-docker",
+                                 "title": "FREE Advanced Jenkins in K8s (Docker in Docker)",
+                                 "author": "CS Career Kaizen",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG",
+                                 "title": "Jenkins",
+                                 "author": "Automation Step by Step"
+                              },
+                              {
+                                 "url": "https://www.udemy.com/course/jenkins-for-beginners-n",
+                                 "title": "Jenkins for Beginners",
+                                 "author": "Musab Zayadneh",
+                                 "notes": [
+                                    "Udemy"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.mygreatlearning.com/academy/learn-for-free/courses/jenkins-tutorial",
+                                 "title": "Jenkins Tutorial",
+                                 "notes": [
+                                    "Great Learning"
+                                 ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL8VbCbavWfeGt_Hyq0h9Pymi9DTGowd5X",
+                                 "title": "Jenkins Tutorial Step by Step",
+                                 "author": "The Testing Academy"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUKGrfcoNYRgqam5YBERN8xa",
+                                 "title": "Jenkins Tutorial Video [2022 updated]",
+                                 "author": "Simplilearn"
+                              }
                            ]
                         }
-                     ],
-                     "subsections": []
-                  },
-                  {
-                     "section": "Chef",
-                     "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLsgnv1SN76ILtD3TnVtXpX1hmwjyY9OuT",
-                           "title": "CHEF Tutorial",
-                           "author": "Online Tutorials"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLKK5zTDXqzFM53J6-rikDrqbbY0Pu-9SP",
-                           "title": "Learning Chef",
-                           "author": "Nathen Harvey"
-                        }
-                     ],
-                     "subsections": []
+                     ]
                   },
                   {
                      "section": "Digital Electronics",
@@ -42333,6 +42472,11 @@
                            "author": "Traversy Media"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij",
+                           "title": "Go Programming Language Tutorial",
+                           "author": "ProgrammingKnowledge"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL3eAkoh7fypr8zrkiygiY1e9osoqjoV9w",
                            "title": "Golang | Gin HTTP Framework",
                            "author": "Pragmatic Reviews"
@@ -42825,6 +42969,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.edx.org/course/fundamentals-of-java-ee-development",
+                           "title": "Fundamentals of Java EE Development",
+                           "author": "Will Dinyes",
+                           "notes": [
+                              "edX"
+                           ]
+                        },
+                        {
                            "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/",
                            "title": "Introduction to Java"
                         },
@@ -42832,6 +42984,11 @@
                            "url": "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
                            "title": "Introduction to Java + DSA",
                            "author": "Kunal Kushwaha"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLkeaG1zpPTHiMjczpmZ6ALd46VjjiQJ_8",
+                           "title": "Java Beginner",
+                           "author": "Coding with John"
                         },
                         {
                            "url": "https://www.udemy.com/course/java-design-patterns-tutorial",
@@ -42915,6 +43072,11 @@
                            "notes": [
                               "YouTube"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+                           "title": "Java Tutorial for Beginners",
+                           "author": "Programming with Mosh"
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK",
@@ -43140,6 +43302,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/watch?v=Qqx_wzMmFeA",
+                           "title": "JavaScript Tutorial for Beginners - Full Course in 8 Hours [2020]",
+                           "author": "Clever Programmer"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax",
                            "title": "JavaScript Tutorials",
                            "author": "Moshfegh Hamedani",
@@ -43283,6 +43450,11 @@
                                  "notes": [
                                     "My Lesson"
                                  ]
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gsJS5QgFT2IvWIX78dV3_v",
+                                 "title": "AngularJS Tutorials",
+                                 "author": "The Net Ninja"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLP6DbQBkn9ymGQh2qpk9ImLHdSH5T7yw7",
@@ -43590,6 +43762,11 @@
                                  "url": "https://www.youtube.com/watch?v=zxP4oGejqpU",
                                  "title": "React State Management using Context API (useContext + useReducer Hooks = Magic)",
                                  "author": "The Full Stack Junkie"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ",
+                                 "title": "React Testing Library Crash Course",
+                                 "author": "The Net Ninja"
                               },
                               {
                                  "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC",
@@ -43950,6 +44127,14 @@
                      "section": "Kubernetes",
                      "entries": [
                         {
+                           "url": "https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat",
+                           "title": "Fundamentals of Containers, Kubernetes, and Red Hat OpenShift",
+                           "author": "Zach Gutterman, Richard Allred",
+                           "notes": [
+                              "edX"
+                           ]
+                        },
+                        {
                            "url": "https://kube.academy/paths/kubernetes-core-concepts",
                            "title": "Kubernetes Core Concepts",
                            "author": "KubeAcademy",
@@ -43966,6 +44151,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/watch?v=0j-iIW3_sbg",
+                           "title": "Kubernetes Full Course in 7 Hours",
+                           "author": "Edureka"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC",
                            "title": "Kubernetes Tutorial for Beginners",
                            "author": "TechWorld with Nana"
@@ -43976,6 +44166,14 @@
                   {
                      "section": "Linux",
                      "entries": [
+                        {
+                           "url": "https://www.edx.org/course/fundamentals-of-red-hat-enterprise-linux",
+                           "title": "Fundamentals of Red Hat Enterprise Linux",
+                           "author": "Chris Caillouet",
+                           "notes": [
+                              "edX"
+                           ]
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLAi9X1uG6jZ2b1mUmrUcc_aEoc8tfss8e",
                            "title": "IIEC RISE 1.0 RHCSA8 and Python3",
@@ -44001,6 +44199,11 @@
                            "notes": [
                               "Udemy"
                            ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As",
+                           "title": "Linux Command Line Tutorial For Beginners",
+                           "author": "Programming Knowledge"
                         },
                         {
                            "url": "https://ryanstutorials.net/linuxtutorial",
@@ -44651,6 +44854,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLrk5tgtnMN6TYBW0-U4YhIRyYEVpqVEnJ",
                            "title": "Data Structures And Algorithms In Python",
                            "author": "Coding Ninjas"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLCC34OHNcOtqW9BJmgQPPzUpJ8hl49AGy",
+                           "title": "Django Wednesdays",
+                           "author": "Codemy.com"
                         },
                         {
                            "url": "https://practice.geeksforgeeks.org/courses/fork-python",
@@ -46079,6 +46287,11 @@
                            "notes": [
                               "University of Waterloo"
                            ]
+                        },
+                        {
+                           "url": "https://syllabus.migracode.org/courses/introduction-3",
+                           "title": "Web Development Course",
+                           "author": "MigraCode Barcelona"
                         },
                         {
                            "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
@@ -48455,6 +48668,14 @@
                            "author": "CodeHelp - by Babbar",
                            "notes": [
                               "YouTube"
+                           ]
+                        },
+                        {
+                           "url": "https://www.mygreatlearning.com/academy/learn-for-free/courses/c-programming-in-hindi1",
+                           "title": "C++ Programming in Hindi",
+                           "author": "Bharani Akella",
+                           "notes": [
+                              "My Great Learning"
                            ]
                         },
                         {
@@ -52210,10 +52431,6 @@
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLJRimEWvctNAfE5JrkwswQv6Yy4abqDl2",
-                           "title": "C++ 프로그래밍 강좌"
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PLRx0vPvlEmdDNHeulKC6JM25MmZVS_3nT",
                            "title": "C언어 기초 프로그래밍 강좌"
                         },
@@ -52356,10 +52573,6 @@
                            "notes": [
                               "T 아카데미"
                            ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL9kzervdzKxzBQ4UsMy4H_PANaTEApq_X",
-                           "title": "Swfit로 시작하는 아이폰 앱 개발 교과서"
                         }
                      ],
                      "subsections": []
@@ -52426,15 +52639,6 @@
                                  "notes": [
                                     "YouTube"
                                  ]
-                              }
-                           ]
-                        },
-                        {
-                           "section": "Node.js",
-                           "entries": [
-                              {
-                                 "url": "https://www.youtube.com/playlist?list=PL9kzervdzKxy-c7UQgZbnZIr14DCPM87j",
-                                 "title": "모던 웹을 위한 Node.js 프로그래밍"
                               }
                            ]
                         },
@@ -52723,10 +52927,6 @@
                            "notes": [
                               "김영한"
                            ]
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLY9pe3iUjRrRiJeg0jw22yW1G5yzAdiqC",
-                           "title": "Spring 강좌"
                         }
                      ],
                      "subsections": []
@@ -53037,6 +53237,11 @@
                            "url": "https://youtube.com/playlist?list=PLBKJGko2JEdF4irCbI5BdHIEfxEdfMNqA",
                            "title": "javascript tutorial in malayalam",
                            "author": "Tintu Vlogger"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWdQ6qcl5Vo4JPOA3kxpCJ3A",
+                           "title": "JavaScript Malayalam Tutorials For Beginners",
+                           "author": "Learn Programming In Malayalam"
                         }
                      ],
                      "subsections": [
@@ -53105,6 +53310,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "MySQL",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWcxc10XNwm7CeOEMrjVr8a9",
+                           "title": "MySQL Malayalam Tutorials for beginners",
+                           "author": "Learn Programming In Malayalam"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "PHP",
                      "entries": [
                         {
@@ -53132,6 +53348,11 @@
                            "url": "https://youtube.com/playlist?list=PLY-ecO2csVHfbpOmWamlb8Mujjdnl1jks",
                            "title": "Python Tutorial Malayalam | Best Malayalam Python Programming Tutorial",
                            "author": "Brototype Malayalam"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLwe8bwPXjlLveEHvTbKMXJOPkFdXnu4xi",
+                           "title": "Python",
+                           "author": "Learn CSE Malayalam"
                         }
                      ],
                      "subsections": [
@@ -53157,6 +53378,11 @@
                                  "url": "https://youtube.com/playlist?list=PL1JrLEBAapUU-HCC1f5x8YiGEMoZdGl0e",
                                  "title": "Python Flask Malayalam Tutorial",
                                  "author": "Yes Tech Media"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWccYbgcomf5bWTGV7DPqTtB",
+                                 "title": "Web Development with Python Flask",
+                                 "author": "Learn Programming In Malayalam"
                               }
                            ]
                         }
@@ -55048,6 +55274,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs",
+                           "title": "Curso de Shell Scripting - Programação no Linux",
+                           "author": "Bóson Treinamentos"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLXoSGejyuQGqJEEyo2fY3SA-QCKlF2rxO",
                            "title": "Curso Shell GNU",
                            "author": "debxp",
@@ -55837,6 +56068,15 @@
                            "title": "Python для начинающих",
                            "notes": [
                               "BEG"
+                           ]
+                        },
+                        {
+                           "url": "https://stepik.org/course/85388",
+                           "title": "Python для тех, у кого лапки",
+                           "author": "Мария Чакчурина, Дмитрий Колосов",
+                           "notes": [
+                              "Stepik",
+                              "INT"
                            ]
                         },
                         {
@@ -59733,11 +59973,11 @@
                            ]
                         },
                         {
-                           "url": "https://pydatascience.org/data-science-cheatsheets/",
-                           "title": "Python for Data Science Cheatsheet",
+                           "url": "https://www.datacamp.com/cheat-sheet/python-for-data-science-a-cheat-sheet-for-beginners",
+                           "title": "Python for Data Science - A Cheat Sheet for Beginners",
                            "author": "DataCamp",
                            "notes": [
-                              "HTML and Image"
+                              "PDF"
                            ]
                         },
                         {
@@ -61146,7 +61386,18 @@
                            "author": "W3Schools"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Laravel",
+                           "entries": [
+                              {
+                                 "url": "http://bootcamp.laravel.com",
+                                 "title": "Learn the PHP Framework for Web Artisans",
+                                 "author": "Laravel Team"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "PostgreSQL",
@@ -61373,6 +61624,11 @@
                            "url": "https://www.khanacademy.org/computing/computer-programming/sql",
                            "title": "Intro to SQL: Querying and managing data",
                            "author": "Khan Academy"
+                        },
+                        {
+                           "url": "https://www.w3schools.com/MySQL/",
+                           "title": "MySQL Tutorial",
+                           "author": "W3Schools"
                         },
                         {
                            "url": "https://www.codecademy.com/courses/learn-sql",
@@ -62548,8 +62804,8 @@
                            "title": "Codingame"
                         },
                         {
-                           "url": "https://cp-algorithms.com",
-                           "title": "CP Algorithms"
+                           "url": "https://medium.com/cheat-sheets/cheat-sheet-for-competitive-programming-with-c-f2e8156d5aa9",
+                           "title": "Competitive Programming Cheat Sheet"
                         },
                         {
                            "url": "https://cses.fi/problemset",
