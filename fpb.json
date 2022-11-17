@@ -44475,8 +44475,19 @@
                            "author": "Mohammed Mohammed"
                         },
                         {
-                           "url": "https://matlabacademy.mathworks.com",
-                           "title": "MATLAB and Simulink Training"
+                           "url": "https://matlabacademy.mathworks.com/details/matlab-for-data-processing-and-visualization/mlvi",
+                           "title": "MATLAB for Data Processing and Visualization",
+                           "author": "Renee Bach"
+                        },
+                        {
+                           "url": "https://matlabacademy.mathworks.com/details/matlab-fundamentals/mlbe",
+                           "title": "MATLAB Fundamentals",
+                           "author": "Erin Byrne"
+                        },
+                        {
+                           "url": "https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted",
+                           "title": "MATLAB Onramp",
+                           "author": "Renee Bach"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLRWKj4sFG7-6_Xr9yqg6SMr_F80KdFVhN",
@@ -44487,11 +44498,37 @@
                            ]
                         },
                         {
+                           "url": "https://matlabacademy.mathworks.com/details/matlab-programming-techniques/mlpr",
+                           "title": "MATLAB Programming Techniques",
+                           "author": "Matt Tearle"
+                        },
+                        {
                            "url": "http://ocw.mit.edu/courses/mathematics/18-s997-introduction-to-matlab-programming-fall-2011/",
                            "title": "MIT 18.S997 Introduction to MATLAB Programming"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Simulink",
+                           "entries": [
+                              {
+                                 "url": "https://matlabacademy.mathworks.com/details/circuit-simulation-onramp/circuits",
+                                 "title": "Circuit Simulation Onramp",
+                                 "author": "Alisha Schor"
+                              },
+                              {
+                                 "url": "https://matlabacademy.mathworks.com/details/simulink-fundamentals/slbe",
+                                 "title": "Simulink Fundamentals",
+                                 "author": "Alisha Schor, Zhi Wang"
+                              },
+                              {
+                                 "url": "https://matlabacademy.mathworks.com/details/simulink-onramp/simulink",
+                                 "title": "Simulink Onramp",
+                                 "author": "Alisha Schor"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Misc",
@@ -57539,6 +57576,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLXuv2PShkuHzbwIbcT29XZJBLyx3nWDzb",
                            "title": "Sıfırdan Uygulamalı React Geliştirme: Hooks,Redux & Firebase",
                            "author": "Sadık Turan"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL-Hkw4CrSVq_eyixSZ4sVI1x6d7akLpsy",
+                           "title": "Yeni Başlayanlar İçin React",
+                           "author": "Arin Yazilim"
                         }
                      ],
                      "subsections": []
@@ -62960,6 +63002,10 @@
                            ]
                         },
                         {
+                           "url": "http://www.smashthestack.org/wargames.html",
+                           "title": "SmashtheStack"
+                        },
+                        {
                            "url": "https://tryhackme.com",
                            "title": "TryHackMe",
                            "notes": [
@@ -63212,6 +63258,10 @@
                         {
                            "url": "https://uva.onlinejudge.org/index.php?Itemid=8&option=com_onlinejudge",
                            "title": "UVa Online Judge"
+                        },
+                        {
+                           "url": "https://www.vulnhub.com",
+                           "title": "Vulnhub.com"
                         },
                         {
                            "url": "https://acmp.ru",
