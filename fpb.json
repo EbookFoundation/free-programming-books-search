@@ -7009,6 +7009,14 @@
                                  ]
                               },
                               {
+                                 "url": "https://get-git.readthedocs.io/it/latest/",
+                                 "title": "get-git",
+                                 "author": "Arialdo Martini",
+                                 "notes": [
+                                    "HTML, PDF, EPUB"
+                                 ]
+                              },
+                              {
                                  "url": "https://git-scm.com/book/it",
                                  "title": "Pro Git",
                                  "author": "Scott Chacon, Ben Straub",
@@ -13778,7 +13786,7 @@
                         {
                            "url": "http://learnyouahaskell.com",
                            "title": "Learn You a Haskell for Great Good",
-                           "author": "Miran Lipovaca"
+                           "author": "Miran Lipovača"
                         },
                         {
                            "url": "https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/",
@@ -29954,6 +29962,14 @@
                            "url": "http://blog.anvard.org/conversational-git/",
                            "title": "Conversational Git",
                            "author": "Alan Hohn"
+                        },
+                        {
+                           "url": "https://get-git.readthedocs.io/en/latest/",
+                           "title": "get-git",
+                           "author": "Arialdo Martini",
+                           "notes": [
+                              "HTML, PDF, EPUB"
+                           ]
                         },
                         {
                            "url": "http://rogerdudler.github.io/git-guide/",
