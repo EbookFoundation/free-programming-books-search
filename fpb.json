@@ -13522,6 +13522,10 @@
                            ]
                         },
                         {
+                           "url": "https://golangbyexample.com",
+                           "title": "Golang by Example"
+                        },
+                        {
                            "url": "https://www.digitalocean.com/community/books/how-to-code-in-go-ebook",
                            "title": "How To Code in Go",
                            "author": "Mark Bates, Cory Lanou, Timothy J. Raymond",
