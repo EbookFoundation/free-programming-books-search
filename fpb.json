@@ -11459,6 +11459,16 @@
                            ]
                         },
                         {
+                           "url": "https://learnbyexample.github.io/cli_text_processing_coreutils/",
+                           "title": "Command line text processing with GNU Coreutils",
+                           "author": "Sundeep Agarwal"
+                        },
+                        {
+                           "url": "https://learnbyexample.github.io/cli-computing/",
+                           "title": "Computing from the Command Line",
+                           "author": "Sundeep Agarwal"
+                        },
+                        {
                            "url": "https://magpi.raspberrypi.org/books/command-line-second-edition/pdf/download",
                            "title": "Conquer the Command Line",
                            "author": "Richard Smedley",
@@ -12481,6 +12491,11 @@
                         {
                            "url": "http://data-sorcery.org/contents/",
                            "title": "Data Sorcery with Clojure"
+                        },
+                        {
+                           "url": "https://www.learn-clojurescript.com",
+                           "title": "Learn ClojureScript",
+                           "author": "Andrew Meredith"
                         },
                         {
                            "url": "https://github.com/magomimmo/modern-cljs",
@@ -13539,7 +13554,8 @@
                         },
                         {
                            "url": "https://quii.gitbook.io/learn-go-with-tests/",
-                           "title": "Learn Go with Tests"
+                           "title": "Learn Go with Tests",
+                           "author": "Chris James"
                         },
                         {
                            "url": "https://miek.nl/go/",
@@ -18766,6 +18782,19 @@
                            ]
                         },
                         {
+                           "url": "https://prappleizer.github.io/textbook.pdf",
+                           "title": "Python for Astronomers",
+                           "author": "Imad Pasha, Christopher Agostino",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://wesmckinney.com/book/",
+                           "title": "Python for Data Analysis",
+                           "author": "Wes McKinney"
+                        },
+                        {
                            "url": "http://py4e.com/book",
                            "title": "Python for Everybody",
                            "author": "Charles Russell Severance",
@@ -18781,6 +18810,11 @@
                            "notes": [
                               "2.7.5"
                            ]
+                        },
+                        {
+                           "url": "https://pyneng.readthedocs.io/en/latest/",
+                           "title": "Python for network engineers",
+                           "author": "Natasha Samoylenko"
                         },
                         {
                            "url": "http://pymbook.readthedocs.org/en/latest/",
@@ -26669,6 +26703,11 @@
                            "author": "Wikibooks"
                         },
                         {
+                           "url": "https://datascienceatthecommandline.com/2e/",
+                           "title": "Data Science at the Command Line",
+                           "author": "Jeroen Janssens"
+                        },
+                        {
                            "url": "https://allendowney.github.io/ElementsOfDataScience/README.html",
                            "title": "Elements of Data Science",
                            "author": "Allen B. Downey"
@@ -27138,6 +27177,11 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://learnbyexample.github.io/vim_reference/",
+                           "title": "Vim Reference Guide",
+                           "author": "Sundeep Agarwal"
                         },
                         {
                            "url": "http://vimregex.com",
@@ -28470,6 +28514,11 @@
                            "author": "Basecamp, 37signals",
                            "notes": [],
                            "manualReviewRequired": true
+                        },
+                        {
+                           "url": "https://learnbyexample.github.io/learn_gnugrep_ripgrep/",
+                           "title": "GNU GREP and RIPGREP",
+                           "author": "Sundeep Agarwal"
                         },
                         {
                            "url": "https://www.syncfusion.com/ebooks/google_maps_api_succinctly",
