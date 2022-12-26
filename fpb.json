@@ -36082,8 +36082,64 @@
                      "section": "Niezależne od języka programowania",
                      "entries": [
                         {
+                           "url": "https://bettersoftwaredesign.pl",
+                           "title": "Better Software Design",
+                           "author": "Mariusz Gil",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLYQwwHlHNdgjSEgrmGv0fbHuxd5p7f5qA",
+                           "title": "Biznes Myśli",
+                           "author": "Vladimir Alekseichenko",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLdHokABybL4nu6h5C3ig4XSG2Ni6XeED0",
+                           "title": "Chwila Dla Admina",
+                           "author": "Artur Molendowski",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://devenv.pl/podcast",
+                           "title": "Dev Env",
+                           "author": "Adrian Piętka, Bartłomiej Michalski, Mateusz Konieczny",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
                            "url": "https://devstyle.pl/category/podcast",
                            "title": "DevTalk"
+                        },
+                        {
+                           "url": "https://piatkipodeployu.pl",
+                           "title": "Piątki po deployu",
+                           "author": "Mateusz Anioła, Miłosz Kusiciel",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://porozmawiajmyoit.pl",
+                           "title": "Porozmawiajmy o IT",
+                           "author": "Krzysztof Kempiński",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://anchor.fm/przeprogramowani",
+                           "title": "Przeprogramowani",
+                           "author": "Przemek Smyrdek, Marcin Czarkowski",
+                           "notes": [
+                              "podcast"
+                           ]
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLTKLAGr6FHxOcW4NRX3BCkU7Zml92WU1u",
@@ -40062,10 +40118,6 @@
                            "url": "https://www.youtube.com/playlist?list=PLv9sD0fPjvSHqIOLTIvHJWjkdH0IdzmXT",
                            "title": "Advanced Data Structures",
                            "author": "Uzair Javed Akhtar"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PL6EF0274BD849A7D5",
-                           "title": "Algorithm Design and Implementation"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O",
