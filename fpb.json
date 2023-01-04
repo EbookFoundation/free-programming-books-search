@@ -10734,6 +10734,30 @@
                      "subsections": []
                   },
                   {
+                     "section": "TypeScript",
+                     "entries": [
+                        {
+                           "url": "https://typescript-kr.github.io",
+                           "title": "5분 안에 보는 타입스크립트"
+                        },
+                        {
+                           "url": "https://joshua1988.github.io/ts",
+                           "title": "타입스크립트 핸드북",
+                           "author": "Captain Pangyo"
+                        },
+                        {
+                           "url": "https://heropy.blog/2020/01/27/typescript",
+                           "title": "한눈에 보는 타입스크립트",
+                           "author": "HEROPY\nTech"
+                        },
+                        {
+                           "url": "https://radlohead.gitbook.io/typescript-deep-dive",
+                           "title": "TypeScript Deep Dive"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Unicode",
                      "entries": [
                         {
