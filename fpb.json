@@ -11745,6 +11745,15 @@
                            "author": "Daniel Holden"
                         },
                         {
+                           "url": "https://build-your-own.org",
+                           "title": "Build Your Own Redis with C/C++",
+                           "author": "build-your-own.org",
+                           "notes": [
+                              "HTML",
+                              ":construction: *in process*"
+                           ]
+                        },
+                        {
                            "url": "http://www.oualline.com/books.free/style/",
                            "title": "C Elements of Style",
                            "author": "Steve Oualline"
