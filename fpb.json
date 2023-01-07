@@ -33298,6 +33298,14 @@
                      "section": "Miscellaneous",
                      "entries": [
                         {
+                           "url": "https://anchor.fm/metwally",
+                           "title": "أخوك الكبير متولي",
+                           "author": "Ahmed Metwally",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
                            "url": "http://www.askdeveloper.com",
                            "title": "AskDeveloper Podcast",
                            "author": "Mohamed Elsherif",
@@ -33333,6 +33341,14 @@
                            "url": "https://anchor.fm/refaie",
                            "title": "The Egyptian Guy",
                            "author": "Mohamed Refaie",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://theweeklynoob.netlify.app",
+                           "title": "The Weekly Noob",
+                           "author": "Nabil Tharwat",
                            "notes": [
                               "podcast"
                            ]
