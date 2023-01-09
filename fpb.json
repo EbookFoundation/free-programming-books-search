@@ -29286,6 +29286,11 @@
                            "author": "Reginald Braithwaite"
                         },
                         {
+                           "url": "https://www.freecodecamp.org/news/learn-to-code-book",
+                           "title": "How to Learn to Code & Get a Developer Job in 2023",
+                           "author": "Quincy Larson"
+                        },
+                        {
                            "url": "https://mixmastamyk.bitbucket.io/pro_soft_dev/intro.html",
                            "title": "Professional Software Development For Students",
                            "author": "Mike G. Miller"
@@ -34532,6 +34537,14 @@
                            ]
                         },
                         {
+                           "url": "https://coder.show",
+                           "title": "Coder Radio",
+                           "author": "Chris Fisher, Michael Dominick, Wes Payne",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
                            "url": "https://www.codingblocks.net",
                            "title": "Coding Blocks",
                            "author": "Michael Outlaw, Joe Zack, Allen Underwood",
@@ -34694,6 +34707,14 @@
                            "url": "https://learntocodewith.me/podcast/",
                            "title": "Learn to Code with Me",
                            "author": "Laurence Bradford",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://lexfridman.com/podcast",
+                           "title": "Lex Fridman Podcast",
+                           "author": "Lex Fridman",
                            "notes": [
                               "podcast"
                            ]
@@ -35474,6 +35495,14 @@
                            "url": "https://www.swiftbysundell.com/podcast/",
                            "title": "Swift by Sundell",
                            "author": "John Sundell",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://swiftunwrapped.github.io",
+                           "title": "Swift Unwrapped",
+                           "author": "Jesse Squires, JP Simard",
                            "notes": [
                               "podcast"
                            ]
@@ -57985,6 +58014,17 @@
                            "url": "https://tedu.com.vn/khoa-hoc/lap-trinh-du-an-website-ban-hang-aspnet-mvc-4-1.html",
                            "title": "Lập trình dự án Website bán hàng ASP.NET MVC 4",
                            "author": "TEDU"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "AutoIt",
+                     "entries": [
+                        {
+                           "url": "https://j2team.teachable.com/p/hoc-lap-trinh-autoit",
+                           "title": "Học lập trình AutoIt",
+                           "author": "J2TEAM"
                         }
                      ],
                      "subsections": []
