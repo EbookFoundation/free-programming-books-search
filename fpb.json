@@ -22666,6 +22666,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.ime.usp.br/~pf/algoritmos_para_grafos/",
+                           "title": "Algoritmos para Grafos (via Sedgewick)",
+                           "author": "Paulo Feofiloff",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "http://www.ime.usp.br/~slago/slago-C.pdf",
                            "title": "Apostila Linguagem C",
                            "author": "Silvio Lago",
@@ -22710,7 +22718,11 @@
                         },
                         {
                            "url": "http://www.ime.usp.br/~pf/algoritmos/",
-                           "title": "Projeto de Algoritmos em C"
+                           "title": "Projeto de Algoritmos (em C)",
+                           "author": "Paulo Feofiloff",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -22922,9 +22934,25 @@
                      "section": "Fundamentos Matemáticos Computacionais",
                      "entries": [
                         {
+                           "url": "https://www.ime.usp.br/~pf/analise_de_algoritmos/",
+                           "title": "Análise de Algoritmos",
+                           "author": "Paulo Feofiloff",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://educapes.capes.gov.br/bitstream/capes/432209/2/Livro_Matematica%20Discreta.pdf",
                            "title": "Computação: Matemática Discreta",
                            "author": "Raquel Montezuma Pinheiro Cabral",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.ime.usp.br/~pf/grafos-exercicios/",
+                           "title": "Exercícios de Teoria dos Grafos",
+                           "author": "Paulo Feofiloff",
                            "notes": [
                               "PDF"
                            ]
@@ -22938,9 +22966,25 @@
                            ]
                         },
                         {
+                           "url": "https://www.ime.usp.br/~pf/livrinho-AA/",
+                           "title": "Minicurso de Análise de Algoritmos",
+                           "author": "Paulo Feofiloff",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://www.ime.usp.br/~pf/otimizacao-combinatoria/",
                            "title": "Otimização Combinatória",
                            "author": "Paulo Feofiloff",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://www.ime.usp.br/~pf/teoriadosgrafos/",
+                           "title": "Uma Introdução Sucinta à Teoria dos Grafos",
+                           "author": "Y. Kohayakawa, Y. Wakabayashi, P. Feofiloff",
                            "notes": [
                               "PDF"
                            ]
