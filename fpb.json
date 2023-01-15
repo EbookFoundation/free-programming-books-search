@@ -11705,6 +11705,14 @@
                            ]
                         },
                         {
+                           "url": "https://www.ime.usp.br/~pf/algorithms/",
+                           "title": "Algorithms Design (in C)",
+                           "author": "Paulo Feofiloff",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
                            "url": "https://magpi.raspberrypi.com/books/c-gui-programming",
                            "title": "An Introduction to C & GUI Programming",
                            "author": "Simon Long",
