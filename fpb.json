@@ -28409,6 +28409,14 @@
                            "author": "Paul Orland"
                         },
                         {
+                           "url": "https://www.ime.usp.br/~pf/graph-exercises/",
+                           "title": "Graph Theory Exercises",
+                           "author": "Paulo Feofiloff",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://github.com/liuxinyu95/unplugged",
                            "title": "Isomorphism -- Mathematics of Programming",
                            "author": "Larry LIU Xinyu"
