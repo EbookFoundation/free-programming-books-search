@@ -27005,6 +27005,14 @@
                            "author": "Bob Nystrom"
                         },
                         {
+                           "url": "https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns",
+                           "title": "Level up your code with game programming patterns",
+                           "author": "Unity",
+                           "notes": [
+                              "HTML & PDF"
+                           ]
+                        },
+                        {
                            "url": "http://pcgbook.com",
                            "title": "Procedural Content Generation in Games",
                            "author": "Noor Shaker, Julian Togelius, Mark Nelson"
