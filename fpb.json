@@ -9603,14 +9603,6 @@
                            ]
                         },
                         {
-                           "url": "http://works.surgo.jp/translation/pyguide.html",
-                           "title": "Google Python スタイルガイド",
-                           "author": "Amit Patel, Antoine Picard, Eugene Jhong, Jeremy Hylton, Matt Smart, Mike Shields, Kosei Kitahara",
-                           "notes": [
-                              "翻訳"
-                           ]
-                        },
-                        {
                            "url": "http://japanichaos.appspot.com",
                            "title": "Notes on scientific computing with python",
                            "author": "花田康高"
