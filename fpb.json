@@ -12166,8 +12166,7 @@
                            "title": "A Complete Guide to Standard C++ Algorithms",
                            "author": "Šimon Tóth",
                            "notes": [
-                              "PDF, LaTeX",
-                              ":construction: *in process*"
+                              "PDF, LaTeX"
                            ]
                         },
                         {
@@ -29390,6 +29389,88 @@
                      "subsections": []
                   },
                   {
+                     "section": "Programming",
+                     "entries": [
+                        {
+                           "url": "https://www.smashwords.com/books/view/639609",
+                           "title": "Design of a Programmer",
+                           "author": "Prakash Hegade",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "http://www.cse.iitd.ernet.in/~suban/CSL102/",
+                           "title": "Introduction to Computer Science",
+                           "author": "Prof. Subhashis Banerjee, IIT Delhi"
+                        },
+                        {
+                           "url": "http://www.computingbook.org",
+                           "title": "Introduction to Computing",
+                           "author": "David Evans"
+                        },
+                        {
+                           "url": "https://www.cs.cornell.edu/info/people/tt/Principled_Programming.html",
+                           "title": "Principled Programming / Introduction to Coding in Any Imperative Language",
+                           "author": "Tim Teitelbaum"
+                        },
+                        {
+                           "url": "https://papl.cs.brown.edu/2019/",
+                           "title": "Programming and Programming Languages",
+                           "author": "Shriram Krishnamurthi"
+                        },
+                        {
+                           "url": "http://cs.brown.edu/~sk/Publications/Books/ProgLangs/",
+                           "title": "Programming Languages: Application and Interpretation (2nd Edition)",
+                           "author": "Shriram Krishnamurthi"
+                        },
+                        {
+                           "url": "https://web.mit.edu/6.001/6.037/sicp.pdf",
+                           "title": "Structure and Interpretation of Computer Programs",
+                           "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://sarabander.github.io/sicp/html/index.xhtml",
+                           "title": "Structure and Interpretation of Computer Programs",
+                           "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "http://self.gutenberg.org/wplbn0002828847-the-black-art-of-programming-by-mcilroy-mark.aspx?",
+                           "title": "The Black Art of Programming",
+                           "author": "Mark McIlroy"
+                        },
+                        {
+                           "url": "https://kilthub.cmu.edu/articles/The_Craft_of_Programming/6610514",
+                           "title": "The Craft of Programming",
+                           "author": "John C. Reynolds"
+                        },
+                        {
+                           "url": "https://natureofcode.com/book",
+                           "title": "The Nature of Code",
+                           "author": "Daniel Shiffman",
+                           "notes": [
+                              "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://greenteapress.com/wp/think-complexity-2e/",
+                           "title": "Think Complexity",
+                           "author": "- Allen B. Downey",
+                           "notes": [
+                              "2nd Edition",
+                              "PDF, HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Programming Paradigms",
                      "entries": [
                         {
@@ -29975,28 +30056,11 @@
                            ]
                         },
                         {
-                           "url": "https://www.smashwords.com/books/view/639609",
-                           "title": "Design of a Programmer",
-                           "author": "Prakash Hegade",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
                            "url": "http://homotopytypetheory.org/book/",
                            "title": "Homotopy Type Theory: Univalent Foundations of Mathematics",
                            "notes": [
                               "PDF"
                            ]
-                        },
-                        {
-                           "url": "http://www.cse.iitd.ernet.in/~suban/CSL102/",
-                           "title": "Introduction to Computer Science",
-                           "author": "Prof. Subhashis Banerjee, IIT Delhi"
-                        },
-                        {
-                           "url": "http://www.computingbook.org",
-                           "title": "Introduction to Computing"
                         },
                         {
                            "url": "http://cglab.ca/~michiel/TheoryOfComputation/",
@@ -30025,11 +30089,6 @@
                            "author": "Scott F. Smith"
                         },
                         {
-                           "url": "https://papl.cs.brown.edu/2019/",
-                           "title": "Programming and Programming Languages",
-                           "author": "Shriram Krishnamurthi"
-                        },
-                        {
                            "url": "http://www.cse.chalmers.se/research/group/logic/book/",
                            "title": "Programming in Martin-Löf's Type Theory",
                            "author": "Bengt Nordstroem"
@@ -30053,57 +30112,6 @@
                            "author": "Hanne Riis Nielson, Flemming Nielson",
                            "notes": [
                               "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://web.mit.edu/6.001/6.037/sicp.pdf",
-                           "title": "Structure and Interpretation of Computer Programs",
-                           "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://sarabander.github.io/sicp/html/index.xhtml",
-                           "title": "Structure and Interpretation of Computer Programs",
-                           "author": "Harold Abelson, Gerald Jay Sussman, Julie Sussman",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "http://self.gutenberg.org/wplbn0002828847-the-black-art-of-programming-by-mcilroy-mark.aspx?",
-                           "title": "The Black Art of Programming",
-                           "author": "Mark McIlroy"
-                        },
-                        {
-                           "url": "https://kilthub.cmu.edu/articles/The_Craft_of_Programming/6610514",
-                           "title": "The Craft of Programming",
-                           "author": "John C. Reynolds"
-                        },
-                        {
-                           "url": "https://natureofcode.com/book",
-                           "title": "The Nature of Code",
-                           "author": "Daniel Shiffman",
-                           "notes": [
-                              "HTML"
-                           ]
-                        },
-                        {
-                           "url": "https://joshua.smcvt.edu/computation",
-                           "title": "Theory of Computation, Making Connections",
-                           "author": "Jim Hefferon",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
-                           "url": "https://greenteapress.com/wp/think-complexity-2e/",
-                           "title": "Think Complexity",
-                           "author": "- Allen B. Downey",
-                           "notes": [
-                              "2nd Edition",
-                              "PDF, HTML"
                            ]
                         }
                      ],
