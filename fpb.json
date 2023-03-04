@@ -27123,6 +27123,21 @@
                            "author": "Concepts and illustrations"
                         },
                         {
+                           "url": "https://www.pbr-book.org",
+                           "title": "Physically Based Rendering, Third Edition: from Theory to Implementation",
+                           "author": "Matt Pharr, Wenzel Jakob, Greg Humphreys"
+                        },
+                        {
+                           "url": "https://www.realtimerendering.com/raytracinggems/rtg/index.html",
+                           "title": "Ray Tracing Gems",
+                           "author": "Eric Haines, Tomas Akenine-Möller"
+                        },
+                        {
+                           "url": "https://www.realtimerendering.com/raytracinggems/rtg2/index.html",
+                           "title": "Ray Tracing Gems II",
+                           "author": "Adam Marrs, Peter Shirley, Ingo Wald"
+                        },
+                        {
                            "url": "https://raytracing.github.io",
                            "title": "Ray Tracing in One Weekend",
                            "author": "Peter Shirley",
@@ -27138,6 +27153,11 @@
                         {
                            "url": "http://www.opengl-tutorial.org",
                            "title": "Tutorials for modern OpenGL"
+                        },
+                        {
+                           "url": "http://lavalle.pl/vr/",
+                           "title": "Virtual Reality",
+                           "author": "Steven M. LaValle"
                         },
                         {
                            "url": "http://webglinsights.com",
