@@ -37582,9 +37582,24 @@
                      "section": "Algorithms & Data Structures",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLnrlZUDQofUvLtIMvVxZRYYju7ni0Xsxq",
+                           "title": "بالعربي CS50T كورس || CS50T in Arabic‏",
+                           "author": "Coders Camp - Rasha Abdeen"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL3X--QIIK-OEUIwbQU79V76RHelBUQKiz",
+                           "title": "سلسة الخوارزميات وحل المشاكل المستوى الاول",
+                           "author": "Programming Advices"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY6KH-8c9F-lMWn-r02hyoV_",
                            "title": "Algorithms - Full Coures In Arabic‏",
                            "author": "Hard-Code"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLEBRPBUkZ4maAlTZw3eZFwfwIGXaln0in",
+                           "title": "Algorithms Design & Analysis‏",
+                           "author": "FCI-Career-Build"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL1DUmTEdeA6JlommmGP5wicYLxX5PVCQt",
@@ -37609,7 +37624,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLnrlZUDQofUv7JE4QIahAyztrQU9bnJmd",
                            "title": "CS50 In Arabic‏",
-                           "author": "Coders Camp"
+                           "author": "Coders Camp - Rasha Abdeen"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLknwEmKsW8OvsdJ64v5YljHNtt100kN6w",
@@ -37627,7 +37642,7 @@
                         {
                            "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY4UQq4vXgGPwGLVX1Y5faaS",
                            "title": "Data Structure‏",
-                           "author": "Hard Code"
+                           "author": "Hard-Code"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLS-MrzRLZtmdIHJ-Osvv_sJO1Msc4VM_7",
@@ -37638,6 +37653,14 @@
                            "url": "https://www.youtube.com/playlist?list=PLsGJzJ8SQXTcsXRVviurGei0lf_t_I4D8",
                            "title": "Data Structure C++‎‏",
                            "author": "Mega Code"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL0vtyWBHY2NVOtPYuz0rNw6kmuLmVZ780",
+                           "title": "Data Structures and Algorithms‏",
+                           "author": "Tarek Alabd‏",
+                           "notes": [
+                              ":construction: *in process*"
+                           ]
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp",
@@ -37732,6 +37755,11 @@
                      "section": "C",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLEBRPBUkZ4mb6lVqSLRQ7mvSFRcoR7-XV",
+                           "title": "Data Structures In Arabic Using C‏",
+                           "author": "FCI-Career-Build"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLMm8EjqH1EFXI8wByY0umF_DQON2S9uws",
                            "title": "Introduction to Programming ( C Language - مقدمة في البرمجة ( لغة السي",
                            "author": "Ahmed Sallam"
@@ -37778,6 +37806,11 @@
                   {
                      "section": "C++‎",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY6z3264DylWHcHBtmEjUWrA",
+                           "title": "[ أصول البرمجة ] - شرح المؤشرات ( Pointers ) في لغة C/C++‎‏",
+                           "author": "Hard-Code"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PL0vtyWBHY2NXXdrLompmAnxOaEfcAVmQi",
                            "title": "كورس البرمجة للمبتدئين بلغة C++‎‏",
@@ -37849,6 +37882,16 @@
                            "author": "KMR Script"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAwy-rS6WKudwVeb_x63EzgS",
+                           "title": "Fundamentals Of Programming With C++‎‏",
+                           "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL3X--QIIK-OFIRbOHbOXbcfSAvw198lUy",
+                           "title": "Introduction to Programming Using C++‎‏",
+                           "author": "Programming Advices"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLkH1REggdbJpykrlVYYRteEstS6F4VNtP",
                            "title": "Modern c++‎‏",
                            "author": "Moatasem El Sayed‏",
@@ -37918,6 +37961,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLkzDzmo9y3VHDFKp7LuXd-FwbefvTL5o0",
                            "title": "Database Design",
                            "author": "تخاريف مبرمج"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLTRDUPO2OmIljJwE9XMYE_XEgEIWZDCuQ",
+                           "title": "Designing Data Intensive Applications بالعربي",
+                           "author": "Ahmed Elemam"
                         }
                      ],
                      "subsections": [
@@ -38005,6 +38053,33 @@
                      "subsections": []
                   },
                   {
+                     "section": "DevOps",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLTRDUPO2OmInz2Fo41zwnoR1IArx70Hig",
+                           "title": "GitOps and K8s بالعربي",
+                           "author": "Ahmed Elemam"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Elastic",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLZd2bo_SbAm-Z4WBo9-_mWLyjjwDioux-",
+                           "title": "Elastic 5‏",
+                           "author": "Ismail Anjrini"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLZd2bo_SbAm87XtU1K1p_uxqJBjaQJAY1",
+                           "title": "Elastic بالعربي",
+                           "author": "Ismail Anjrini"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Flutter",
                      "entries": [
                         {
@@ -38054,6 +38129,11 @@
                      "section": "Game Development",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLqBd9au_wtU3eX7mLVuLLOt9sfbDWlJsq",
+                           "title": "شرح محرك الألعاب Godot‏",
+                           "author": "Ahmed Mo'nis"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLXUEZFpQn01Hp06m0MxlMzj8x5Y2n9Dek",
                            "title": "Godot - تعلم الأساسيات لتصميم الألعاب",
                            "author": "SpriteSheet"
@@ -38085,9 +38165,19 @@
                            "author": "أكاديمية ترميز"
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PL_aOZuct6oAogr4UMkWddU7leOXw0QKJS",
+                           "title": "Git & Github in Arabic | Git & Github كورس تعلم",
+                           "author": "Khalid Elshafie"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAw4eOj58MZPakHjaO3frVMF",
                            "title": "Git and Github‏",
                            "author": "Elzero Web School"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL1FWK-sgJ9elQBDq5EtQ8AJFTlfqCJfEX",
+                           "title": "Git GitHub & Bitbucket‏",
+                           "author": "Bashir Pro"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLF8OvnCBlEY0CRqKiYKwOtrH-75MGIuyM",
@@ -38230,6 +38320,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLnzqK5HvcpwQbsAGChtjlNPLVv6kTEXRG",
                            "title": "JAVA Programming Full Project by Arabic (uni_staff project) |(المشروع الختامي بالجافا كاملا بشرح عربي )",
                            "author": "محمد شوشان"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLEBRPBUkZ4mZ-5ziYzaoK1leOLYHpqPXJ",
+                           "title": "Java SE 8 Core Features‏",
+                           "author": "FCI-Career-Build"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLwAjM63H9bRuXIojpKDei4dVLRcvqP8V7",
@@ -38500,6 +38595,16 @@
                            ]
                         },
                         {
+                           "section": "Nuxt.js",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLLXntwspGdhCBdax1ZJTEX6Gg5vCwOSUL",
+                                 "title": "Nuxt.js Course‏",
+                                 "author": "Mahmoud Zohdi - محمود زهدي"
+                              }
+                           ]
+                        },
+                        {
                            "section": "PugJs",
                            "entries": [
                               {
@@ -38673,6 +38778,21 @@
                            "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5VdA0sd-nLM0LMzhfivfwmu",
                            "title": "13 ML Helper Tutorials برنامج المساعد في تعليم الآلة",
                            "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL5JZLxl_tFCdOXYNVz7Wl7XyFR67q658r",
+                           "title": "Introduction to Machine Learning‏",
+                           "author": "Khaled Mostafa Elsayed"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLZd2bo_SbAm-LKJ_x_OuOZtuwEFqbJ5B7",
+                           "title": "Microservice بالعربي",
+                           "author": "Ismail Anjrini"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLgAqrVq84PDdfiDow3YVsgc1q34JD415Z",
+                           "title": "Microservices Architecture in Arabic‏",
+                           "author": "Software Architecture Talks in Arabic"
                         }
                      ],
                      "subsections": []
@@ -38719,6 +38839,16 @@
                            "url": "https://www.youtube.com/playlist?list=PL6-3IRz2XF5XHsUtAUid97yRi011KSDBZ",
                            "title": "28 NLP-08 تكنيكات حديثة في المعالجة اللغوية الطبيعية",
                            "author": "Hesham Asem"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL5JZLxl_tFCcKucpxtkwbneqAvHaPOCK6",
+                           "title": "Convolutional Neural Network (CNN)‏",
+                           "author": "Khaled Mostafa Elsayed"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL5JZLxl_tFCd-ixMkn_CJPQhhQRFhZXjY",
+                           "title": "NLP-Transformers‏",
+                           "author": "Khaled Mostafa Elsayed"
                         }
                      ],
                      "subsections": []
@@ -38894,6 +39024,11 @@
                                  "author": "Professional Code"
                               },
                               {
+                                 "url": "https://www.youtube.com/playlist?list=PL_aOZuct6oAoloeFcwrIy5w5fJ5rVOGG8",
+                                 "title": "Laravel Arabic Tutorial (بالعربي)",
+                                 "author": "Khalid Elshafie"
+                              },
+                              {
                                  "url": "https://www.youtube.com/playlist?list=PLCm7ZeRfGSP4NNEikwx3wUAskQHB3p-LK",
                                  "title": "Laravel in Arabic Framework 2020 - شرح لارافل دوره لارافل بالعربي المتكاملة بمشروع متجر",
                                  "author": "Professional Code"
@@ -38935,6 +39070,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLvGNfY-tFUN8HRLDE-D2sXvIgYwspdmFE",
                            "title": "تعلم أساسيات البرمجة",
                            "author": "غريب الشيخ || Ghareeb Elshaik"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLYyqC4bNbCIcxKO_r77w5MN1SRRnnfvNQ",
+                           "title": "كورس بايثون من الصفر | سلسلة دروس لغة البايثون | python",
+                           "author": "أكاديمية ترميز"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLfDx4cQoUNOazcliAXXivOrg9GiAVuoQg",
@@ -39017,6 +39157,54 @@
                            "url": "https://www.youtube.com/playlist?list=PL1DUmTEdeA6LKTMW3wrlT3GiFMCL_r_Sn",
                            "title": "R Tutorial For Beginners",
                            "author": "محمد الدسوقي"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "RabbitMQ",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLZd2bo_SbAm9uJ2J5ryEOZV7ojLwGkATc",
+                           "title": "RabbitMQ بالعربي",
+                           "author": "Ismail Anjrini"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Redis",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLZd2bo_SbAm_ijqLfnx94qkmytbWjUQ-h",
+                           "title": "Redis بالعربي",
+                           "author": "Ismail Anjrini"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLZd2bo_SbAm-5J9eQ2cdOoyKAr_H2LxNY",
+                           "title": "Redis in 5 Minutes‏",
+                           "author": "Ismail Anjrini"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "RegEx",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLt0HRIA9i35v2W3JFiCIeUMC4GoD9titN",
+                           "title": "التعابير النمطية‌ | REGEX‏",
+                           "author": "Learn With Naw"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLBPdtL8DZBZISjop48YSJ82FF-2uIhe-f",
+                           "title": "Crash Course - Regular Expression - Regex | دورة مكثفة - التعابير النظامية",
+                           "author": "Abdallah Alfaham • عبد الله الفحام"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLwCMLs3sjOY4aVMg7hgQGHyQBZnHgFjJk",
+                           "title": "Regular Expression tutorial - Arabic‏",
+                           "author": "Hard-Code"
                         }
                      ],
                      "subsections": []
