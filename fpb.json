@@ -6668,8 +6668,12 @@
                      "section": "NoSQL",
                      "entries": [
                         {
-                           "url": "https://kristories.gitbooks.io/pengantar-mongodb/content/",
-                           "title": "MongoDB Untuk Indonesia"
+                           "url": "https://kristories.gumroad.com/l/mongodb-untuk-indonesia",
+                           "title": "MongoDB Untuk Indonesia: Memahami Konsep dan Implementasi MongoDB",
+                           "author": "Wahyu Kristianto",
+                           "notes": [
+                              "PDF, email address *requested*, not required"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -13014,12 +13018,13 @@
                                  ]
                               },
                               {
-                                 "url": "https://elviovicosa.com/freebies/versioned-apis-with-phoenix-by-elvio-vicosa.pdf",
+                                 "url": "https://web.archive.org/web/20210309052043/https://elviovicosa.com/freebies/versioned-apis-with-phoenix-by-elvio-vicosa.pdf",
                                  "title": "Versioned APIs with Phoenix",
                                  "author": "Elvio Vicosa",
                                  "notes": [
                                     "PDF"
-                                 ]
+                                 ],
+                                 "accessNotes": ":card_file_box: archived"
                               }
                            ]
                         }
