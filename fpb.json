@@ -26737,6 +26737,14 @@
                            "author": "Andrew Odewahn"
                         },
                         {
+                           "url": "https://people.irisa.fr/Anthony.Baire/docker-tutorial.pdf",
+                           "title": "Docker Tutorial",
+                           "author": "Anthony Baire",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://www.tutorialspoint.com/docker/",
                            "title": "Docker Tutorial",
                            "author": "Tutorials Point",
