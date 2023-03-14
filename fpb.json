@@ -809,6 +809,14 @@
                            "url": "https://python.maateen.me",
                            "title": "সহজ ভাষায় পাইথন ৩",
                            "author": "Maksudur Rahman Maateen"
+                        },
+                        {
+                           "url": "https://hukush-pakush.com",
+                           "title": "হুকুশ পাকুশের প্রোগ্রামিং শিক্ষা",
+                           "author": "Ikram Mahmud",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": []
