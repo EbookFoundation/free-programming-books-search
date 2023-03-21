@@ -5379,8 +5379,13 @@
                            "section": "Symfony",
                            "entries": [
                               {
-                                 "url": "https://symfony.com/doc/5.0/the-fast-track/fr/index.html",
-                                 "title": "En route pour Symfony 5",
+                                 "url": "https://symfony.com/doc/5.4/the-fast-track/fr/index.html",
+                                 "title": "En route pour Symfony 5.4",
+                                 "author": "Fabien Potencier"
+                              },
+                              {
+                                 "url": "https://symfony.com/doc/current/the-fast-track/fr/index.html",
+                                 "title": "En route pour Symfony 6.2",
                                  "author": "Fabien Potencier"
                               }
                            ]
