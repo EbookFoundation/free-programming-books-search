@@ -1034,7 +1034,7 @@
                            "section": "Matematika",
                            "entries": [
                               {
-                                 "url": "http://math.feld.cvut.cz/habala/teaching/dma.htm",
+                                 "url": "https://math.fel.cvut.cz/cz/lide/habala/teaching/dma.html",
                                  "title": "Diskrétní matematika",
                                  "author": "Petr Habala",
                                  "notes": [
@@ -1211,9 +1211,12 @@
                      "section": "Python",
                      "entries": [
                         {
-                           "url": "http://diveintopython3.py.cz/index.html",
+                           "url": "https://knihy.nic.cz/files/nic/edice/mark_pilgrim_dip3_ver3.pdf",
                            "title": "Ponořme se do Pythonu 3",
-                           "author": "Mark Pilgrim"
+                           "author": "Mark Pilgrim",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://i.iinfo.cz/files/root/k/Ucebnice_jazyka_Python.pdf",
@@ -41427,6 +41430,11 @@
                   {
                      "section": "C++",
                      "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLNUvpxaaFJ_i6BYqbxTVeK5AOcFzQbboQ",
+                           "title": "C++ Compilation, Linking, and Makefiles",
+                           "author": "Amy Larson"
+                        },
                         {
                            "url": "https://www.udacity.com/course/c-for-programmers--ud210",
                            "title": "C++ For Programmers",
