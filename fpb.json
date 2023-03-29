@@ -2151,6 +2151,20 @@
                      "subsections": []
                   },
                   {
+                     "section": "Rust",
+                     "entries": [
+                        {
+                           "url": "https://rust-lang-de.github.io/rustbook-de/",
+                           "title": "Die Programmiersprache Rust",
+                           "author": "Steve Klabnik, Carol Nichols, Übersetzung durch die Rust-Gemeinschaft",
+                           "notes": [
+                              "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Scilab",
                      "entries": [
                         {
@@ -7842,11 +7856,12 @@
                      "section": "UML",
                      "entries": [
                         {
-                           "url": "http://liuct.altervista.org/download/repository/ingsof/Appunti_UML.pdf",
+                           "url": "https://web.archive.org/web/20110322065222/http://liuct.altervista.org/download/repository/ingsof/Appunti_UML.pdf",
                            "title": "Appunti di UML",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://areaprofessional.com/documenti/D03_IntroGestioneProgettoSW.pdf",
@@ -19518,9 +19533,9 @@
                            "author": "Sara Altman, Bill Behrman, Hadley Wickham"
                         },
                         {
-                           "url": "https://geocompr.robinlovelace.net",
+                           "url": "https://r.geocompx.org",
                            "title": "Geocomputation with R",
-                           "author": "RobinLovelace, Jakub Nowosad, Jannes Muenchow"
+                           "author": "Robin Lovelace, Jakub Nowosad, Jannes Muenchow"
                         },
                         {
                            "url": "https://github.com/gjkerns/IPSUR",
@@ -19554,9 +19569,9 @@
                            ]
                         },
                         {
-                           "url": "http://r4ds.had.co.nz",
+                           "url": "https://r4ds.hadley.nz",
                            "title": "R for Data Science",
-                           "author": "Garrett Grolemund, Hadley Wickham"
+                           "author": "Hadley Wickham, Mine Çetinkaya-Rundel, Garrett Grolemund"
                         },
                         {
                            "url": "http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/spatialEpiBook.pdf",
@@ -19579,9 +19594,9 @@
                            ]
                         },
                         {
-                           "url": "http://r-pkgs.had.co.nz",
+                           "url": "https://r-pkgs.org",
                            "title": "R Packages",
-                           "author": "Hadley Wickham"
+                           "author": "Hadley Wickham, Jenny Bryan"
                         },
                         {
                            "url": "http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/practicalsBookNoAns.pdf",
@@ -19638,6 +19653,11 @@
                         {
                            "url": "http://cran.r-project.org/manuals.html",
                            "title": "The R Manuals"
+                        },
+                        {
+                           "url": "https://www.tmwr.org",
+                           "title": "Tidy Modelling with R",
+                           "author": "Max Kuhn and Julia Silge"
                         },
                         {
                            "url": "http://tidytextmining.com",
@@ -40679,6 +40699,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn",
                            "title": "Graph Series by Striver | C++ | Java | Interview Centric | Algorithms | Problems",
                            "author": "take U forward"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P",
+                           "title": "Graph Theory playlist",
+                           "author": "WilliamFiset"
                         },
                         {
                            "url": "https://courses.edx.org/courses/course-v1:IITBombayX+CS213.1x+1T2017/course/",
