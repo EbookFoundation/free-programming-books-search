@@ -56800,6 +56800,11 @@
                      "section": "Java",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLuhSdp06EMkLgaWqSPZKLqePVw-dtqaTT",
+                           "title": "Introduction to Java",
+                           "author": "Masith Prasanga"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLqeCu_1ZdDl63h6YR3QsxcGOB7yDS7i3b",
                            "title": "Object Oriented Programming ",
                            "author": "LankaDroid Programming Kuppiya",
@@ -56842,6 +56847,16 @@
                                  "url": "https://youtube.com/playlist?list=PLtoqJbwHBeHzAooLCGOzYVE9mkAeCnT9y",
                                  "title": "REACT | MERN CRUD App in Sinhala",
                                  "author": "Haritha Weerathunga"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Spring Boot",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLuhSdp06EMkIhKEo_H-IjrG0cozCuS9lE",
+                                 "title": "REST API with Spring Boot",
+                                 "author": "Masith Prasanga"
                               }
                            ]
                         }
