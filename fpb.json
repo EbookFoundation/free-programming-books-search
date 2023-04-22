@@ -22690,6 +22690,28 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://github.com/J-AugustoManzano/livro_Assembly-Intro-8086",
+                           "title": "Linguagem Assembly: Introdução ao padrão Intel 8086",
+                           "author": "José Augusto N. G. Manzano",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Basic",
+                     "entries": [
+                        {
+                           "url": "https://github.com/J-AugustoManzano/livro_Small-Basic-1.2",
+                           "title": "Programação de computadores para iniciantes com Small Basic",
+                           "author": "José Augusto N. G. Manzano",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -23403,6 +23425,20 @@
                      ]
                   },
                   {
+                     "section": "Julia",
+                     "entries": [
+                        {
+                           "url": "https://github.com/J-AugustoManzano/LivroLinJulia",
+                           "title": "Programação de Computadores com Linguagem Julia",
+                           "author": "José Augusto N. G. Manzano",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Kubernetes",
                      "entries": [
                         {
@@ -23451,6 +23487,36 @@
                            "title": "Introdução a linguagem LISP",
                            "notes": [
                               "HTML"
+                           ]
+                        },
+                        {
+                           "url": "https://novo.manzano.pro.br/wp/download/linguagem-lisp-primeiros-passos-com-common-lisp-cl/",
+                           "title": "Linguagem LISP - Primeiros passos com Common LISP (CL)",
+                           "author": "José Augusto N. G. Manzano",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Logo",
+                     "entries": [
+                        {
+                           "url": "https://github.com/J-AugustoManzano/livro_AcadTat",
+                           "title": "Academia da Tartaruga",
+                           "author": "José Augusto N. G. Manzano",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/J-AugustoManzano/livro_Logo-Intro-UCBLogo",
+                           "title": "Linguagem Logo: Introdução com UCBLogo 6.2.2",
+                           "author": "José Augusto N. G. Manzano",
+                           "notes": [
+                              "PDF"
                            ]
                         }
                      ],
