@@ -4496,8 +4496,12 @@
                      "section": "Python",
                      "entries": [
                         {
-                           "url": "http://python.coderz.ir",
-                           "title": "کتاب آزاد آموزش پایتون"
+                           "url": "https://python.coderz.ir",
+                           "title": "پایتون به پارسی",
+                           "author": "سعید درویش",
+                           "notes": [
+                              "HTML"
+                           ]
                         }
                      ],
                      "subsections": [
