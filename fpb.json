@@ -7905,7 +7905,7 @@
                      "entries": [],
                      "subsections": [
                         {
-                           "section": "IDE and editors",
+                           "section": "IDE とエディター",
                            "entries": [
                               {
                                  "url": "https://nanasi.jp/code.html",
@@ -9120,6 +9120,11 @@
                            "author": "古籏一浩"
                         },
                         {
+                           "url": "https://ja.javascript.info",
+                           "title": "現代の JavaScript チュートリアル",
+                           "author": "Ilya Kantor"
+                        },
+                        {
                            "url": "https://kenju.gitbooks.io/js_step-up-to-intermediate",
                            "title": "中上級者になるためのJavaScript",
                            "author": "Kenju"
@@ -9223,6 +9228,21 @@
                                  "url": "https://ja.reactjs.org/tutorial/tutorial.html",
                                  "title": "チュートリアル：React の導入",
                                  "author": "Facebook Inc."
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Svelte",
+                           "entries": [
+                              {
+                                 "url": "https://svelte.jp/tutorial/basics",
+                                 "title": "Svelte Tutorial",
+                                 "author": "Svelte.dev"
+                              },
+                              {
+                                 "url": "https://developer.mozilla.org/ja/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started",
+                                 "title": "Svelte をはじめる",
+                                 "author": "MDN"
                               }
                            ]
                         }
