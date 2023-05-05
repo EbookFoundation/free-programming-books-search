@@ -33551,9 +33551,33 @@
                            ]
                         },
                         {
+                           "url": "https://youtube.com/playlist?list=PL0_C_32YKLpx7K88481CY3J21cw85oFCM",
+                           "title": "برمجة ستريم",
+                           "author": "Mohamed Abusrea",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLvGNfY-tFUN-mGlfovyGACjPVmkzAsQFJ",
+                           "title": "بودكاست",
+                           "author": "Ghareeb Elshaikh",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
                            "url": "http://www.askdeveloper.com",
                            "title": "AskDeveloper Podcast",
                            "author": "Mohamed Elsherif",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLsqPSxnrsWLuE-O3IKIUWy6Hmelz3bMWy",
+                           "title": "Codezilla Codecast - بودكاست البرمجة",
+                           "author": "Islam Hesham",
                            "notes": [
                               "podcast"
                            ]
@@ -33578,6 +33602,14 @@
                            "url": "https://nullplus.plus",
                            "title": "null++: بالعربي",
                            "author": "Mohamed Luay, Ahmad Alfy",
+                           "notes": [
+                              "podcast"
+                           ]
+                        },
+                        {
+                           "url": "https://anchor.fm/ahmdelemam",
+                           "title": "Tech Podcast بالعربي",
+                           "author": "Ahmed Elemam",
                            "notes": [
                               "podcast"
                            ]
