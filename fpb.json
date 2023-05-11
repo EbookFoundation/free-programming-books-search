@@ -21717,14 +21717,6 @@
             },
             {
                "language": {
-                  "code": "mi",
-                  "name": "Maori"
-               },
-               "index": {},
-               "sections": []
-            },
-            {
-               "language": {
                   "code": "my",
                   "name": "Burmese"
                },
@@ -53835,9 +53827,12 @@
                      "section": "C",
                      "entries": [
                         {
-                           "url": "https://youtube.com/playlist?list=PL1JrLEBAapUXh0dSzCk3dvQtGmjT9fBBj",
-                           "title": "C programming malayalam tutorial",
-                           "author": "Yes Tech Media"
+                           "url": "https://www.youtube.com/playlist?list=PLwe8bwPXjlLtUxDFwafx_XvheCUmrP2cM",
+                           "title": "C Programming",
+                           "author": "Learn CSE Malayalam",
+                           "notes": [
+                              "YouTube"
+                           ]
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PLBKJGko2JEdEVpp5vyyfKYdv3r2GC777i",
@@ -53845,12 +53840,9 @@
                            "author": "Tintu Vlogger"
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLwe8bwPXjlLtUxDFwafx_XvheCUmrP2cM",
-                           "title": "C Programming",
-                           "author": "Learn CSE Malayalam",
-                           "notes": [
-                              "YouTube"
-                           ]
+                           "url": "https://youtube.com/playlist?list=PL1JrLEBAapUXh0dSzCk3dvQtGmjT9fBBj",
+                           "title": "C programming malayalam tutorial",
+                           "author": "Yes Tech Media"
                         }
                      ],
                      "subsections": []
@@ -53906,14 +53898,14 @@
                      "section": "Git",
                      "entries": [
                         {
+                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nsAlTIl6FcEubM2CtHW7zTC",
+                           "title": "Git malayalam tutorial github",
+                           "author": "Debug Media"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLY-ecO2csVHdLhAO6TERaMJXP8aqyWVt-",
                            "title": "Git Tutorial Malayalam | Best Malayalam Git Tutorial | Date With Git",
                            "author": "Brototype Malayalam"
-                        },
-                        {
-                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nsAlTIl6FcEubM2CtHW7zTC",
-                           "title": "git malayalam tutorial github",
-                           "author": "Debug Media"
                         }
                      ],
                      "subsections": []
@@ -53928,18 +53920,18 @@
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PL4KwFGqvN4ntbMZdiSS0nFXo49KZCCcdw",
-                           "title": "css malayalam tutorial",
+                           "title": "CSS malayalam tutorial",
+                           "author": "Debug Media"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nupwUNXQs2Dn0za5a8ijVPH",
+                           "title": "html malayalam tutorial",
                            "author": "Debug Media"
                         },
                         {
                            "url": "https://youtube.com/playlist?list=PL1JrLEBAapUVyMVQp6SmpytH1HPeCiNPH",
                            "title": "HTML Tutorial Malayalam Full",
                            "author": "Yes Tech Media"
-                        },
-                        {
-                           "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nupwUNXQs2Dn0za5a8ijVPH",
-                           "title": "html malayalam tutorial",
-                           "author": "Debug Media"
                         }
                      ],
                      "subsections": [
@@ -53975,14 +53967,14 @@
                            "author": "Yes Tech Media"
                         },
                         {
-                           "url": "https://youtube.com/playlist?list=PLBKJGko2JEdF4irCbI5BdHIEfxEdfMNqA",
-                           "title": "javascript tutorial in malayalam",
-                           "author": "Tintu Vlogger"
-                        },
-                        {
                            "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWdQ6qcl5Vo4JPOA3kxpCJ3A",
                            "title": "JavaScript Malayalam Tutorials For Beginners",
                            "author": "Learn Programming In Malayalam"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLBKJGko2JEdF4irCbI5BdHIEfxEdfMNqA",
+                           "title": "javascript tutorial in malayalam",
+                           "author": "Tintu Vlogger"
                         }
                      ],
                      "subsections": [
@@ -53990,25 +53982,20 @@
                            "section": "Node.js",
                            "entries": [
                               {
-                                 "url": "https://youtube.com/playlist?list=PL1JrLEBAapUUKTpfCPV5Qirq-psQwY0Qq",
-                                 "title": "Node.js Malayalam Tutorial",
-                                 "author": "Yes Tech Media"
-                              },
-                              {
                                  "url": "https://youtube.com/playlist?list=PLBKJGko2JEdHNBid0azo2vDTi6Vx9p63h",
                                  "title": "Node js malayalam free course",
                                  "author": "Tintu Vlogger"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PL1JrLEBAapUUKTpfCPV5Qirq-psQwY0Qq",
+                                 "title": "Node.js Malayalam Tutorial",
+                                 "author": "Yes Tech Media"
                               }
                            ]
                         },
                         {
                            "section": "React",
                            "entries": [
-                              {
-                                 "url": "https://youtube.com/playlist?list=PLBKJGko2JEdG8FUKu2hUF6K7irvbT8hIM",
-                                 "title": "React js malayalam tutorial",
-                                 "author": "Tintu Vlogger"
-                              },
                               {
                                  "url": "https://youtube.com/playlist?list=PLY-ecO2csVHfgVM9sChmUirqK7BXUBX9P",
                                  "title": "React Challenge",
@@ -54023,6 +54010,11 @@
                                  "url": "https://youtube.com/playlist?list=PL4KwFGqvN4nuKJ3bJSP-LcchabWJtPtE8",
                                  "title": "React js malayalam tutorial",
                                  "author": "Debug Media"
+                              },
+                              {
+                                 "url": "https://youtube.com/playlist?list=PLBKJGko2JEdG8FUKu2hUF6K7irvbT8hIM",
+                                 "title": "React js malayalam tutorial",
+                                 "author": "Tintu Vlogger"
                               }
                            ]
                         }
@@ -54032,17 +54024,17 @@
                      "section": "Kotlin",
                      "entries": [
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLaP7lUdqAGYPpEutAk6o1jKC08Rc5xMXs",
-                           "title": "Kotlin Malayalam | Kotlin programming Tutorials for android malayalam",
-                           "author": "CODEAVIAL",
+                           "url": "https://www.youtube.com/playlist?list=PLefF9wgiOa4WFRP4IvRCZre7xLjRkJdlQ",
+                           "title": "Kotlin / Android App Development",
+                           "author": "Nikin Sk",
                            "notes": [
                               "YouTube"
                            ]
                         },
                         {
-                           "url": "https://www.youtube.com/playlist?list=PLefF9wgiOa4WFRP4IvRCZre7xLjRkJdlQ",
-                           "title": "Kotlin / Android App Development",
-                           "author": "Nikin Sk",
+                           "url": "https://www.youtube.com/playlist?list=PLaP7lUdqAGYPpEutAk6o1jKC08Rc5xMXs",
+                           "title": "Kotlin Malayalam | Kotlin programming Tutorials for android malayalam",
+                           "author": "CODEAVIAL",
                            "notes": [
                               "YouTube"
                            ]
@@ -54081,6 +54073,11 @@
                      "section": "Python",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLwe8bwPXjlLveEHvTbKMXJOPkFdXnu4xi",
+                           "title": "Python",
+                           "author": "Learn CSE Malayalam"
+                        },
+                        {
                            "url": "https://www.youtube.com/watch?v=ihnWXGPxNEk",
                            "title": "Python Programming Malayalam Tutorial",
                            "author": "Yes Tech Media"
@@ -54089,11 +54086,6 @@
                            "url": "https://youtube.com/playlist?list=PLY-ecO2csVHfbpOmWamlb8Mujjdnl1jks",
                            "title": "Python Tutorial Malayalam | Best Malayalam Python Programming Tutorial",
                            "author": "Brototype Malayalam"
-                        },
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLwe8bwPXjlLveEHvTbKMXJOPkFdXnu4xi",
-                           "title": "Python",
-                           "author": "Learn CSE Malayalam"
                         }
                      ],
                      "subsections": [
@@ -56966,6 +56958,17 @@
                            "author": "BestJobsLK"
                         }
                      ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "PHP",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/watch?v=RdxtOQUflrk",
+                           "title": "PHP Full Course in Sinhala | 2022",
+                           "author": "AUK Learning Center"
+                        }
+                     ],
                      "subsections": [
                         {
                            "section": "React",
@@ -56984,6 +56987,11 @@
                                  "url": "https://youtube.com/playlist?list=PLtoqJbwHBeHzAooLCGOzYVE9mkAeCnT9y",
                                  "title": "REACT | MERN CRUD App in Sinhala",
                                  "author": "Haritha Weerathunga"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/watch?v=tM02uzhHDPI&t=759s",
+                                 "title": "React JS Full Course in Sinhala | 2023",
+                                 "author": "AUK Learning Center"
                               }
                            ]
                         },
