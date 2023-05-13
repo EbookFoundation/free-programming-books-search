@@ -52381,6 +52381,17 @@
                      "subsections": []
                   },
                   {
+                     "section": "Bash / Shell",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLhlcRDRHVUzR-5TKDC1VPMtyhEyyQ5uwy",
+                           "title": "Programmazione di sistema - Bash",
+                           "author": "Nicola Bicocchi"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "C",
                      "entries": [
                         {
@@ -52576,6 +52587,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLUFFnpJdi99kewGZIHpCDgarZER_-J1am",
                            "title": "Programmazione a Oggetti (Java)",
                            "author": "M. Torchiano, Politecnico di Torino"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLhlcRDRHVUzTruZmXalUSJAK26pouP8ST",
+                           "title": "Programmazione ad Oggetti - Java",
+                           "author": "Nicola Bicocchi"
                         }
                      ],
                      "subsections": []
@@ -52699,6 +52715,11 @@
                            "url": "https://www.programmareinpython.it/video-corso-python-base/",
                            "title": "Le Basi di Python - Corso Completo",
                            "author": "Michele Saba"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLhlcRDRHVUzR2WHN9VTPZrawqRYHz5ALF",
+                           "title": "Programmazione ad Oggetti - Python",
+                           "author": "Nicola Bicocchi"
                         }
                      ],
                      "subsections": []
@@ -53835,6 +53856,11 @@
                            ]
                         },
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLY-ecO2csVHeKaBI7lAM1jbIPU8K6fUxY",
+                           "title": "C programming",
+                           "author": "Brototype malayalam"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PLBKJGko2JEdEVpp5vyyfKYdv3r2GC777i",
                            "title": "C programming for beginners in malayalam quarantine learning programming malayalam",
                            "author": "Tintu Vlogger"
@@ -53851,9 +53877,35 @@
                      "section": "C++",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLefF9wgiOa4VZ4RuSArY4mNO8Roz79cUU",
+                           "title": "C++ Course Malayalam",
+                           "author": "Nikin Sk"
+                        },
+                        {
                            "url": "https://youtube.com/playlist?list=PL1JrLEBAapUXVcHV3rO-g-N4gBHcBe2c-",
                            "title": "C++ Malayalam Tutorial Full",
                            "author": "Yes Tech Media"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "C#",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL1JrLEBAapUW5ijzyEqYxRawB73rsjHW9",
+                           "title": "C# (C Sharp) Malayalam Tutorial",
+                           "author": "Yes Tech Media"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWfGQWWU7RhIAp1DH3rzSUc1",
+                           "title": "Learn C# For Beginners in Malayalam",
+                           "author": "Learn Programming In Malayalam"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLojKTE9JEtKBuWRSpqG-3LVginbvvR3Pf",
+                           "title": "Learn C#.net  in Malayalam",
+                           "author": "Praketha Technologies"
                         }
                      ],
                      "subsections": []
@@ -53884,12 +53936,54 @@
                      "subsections": []
                   },
                   {
+                     "section": "Docker",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK",
+                           "title": "Docker",
+                           "author": "Automation Step by Step"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLmFap_OoBJh7Z5tTSkeXciuIMZnKdJ1uu",
+                           "title": "Docker Tutorial",
+                           "author": "Tech Trivandrum"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Flutter",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLr11YFCnWCCMQYU8z3Gol2gVA2nBtoKVo",
+                           "title": "Flutter Beginner Tutorials",
+                           "author": "Mallu Developer"
+                        },
+                        {
+                           "url": "https://www.youtube.com/watch?v=l0f7olpevO0&list=PL1JrLEBAapUWv_JSolgE5pdcDKWw80wKA",
+                           "title": "Flutter Malayalam Tutorial",
+                           "author": "Yes Tech Media"
+                        },
                         {
                            "url": "https://youtube.com/playlist?list=PLY-ecO2csVHcUlBVvIMAa3dbja12TFJiN",
                            "title": "Flutter Malayalam Tutorial Series",
                            "author": "Brototype Malayalam"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Game Development",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLY-ecO2csVHegnXkm4aLAZTRF_3nTMJMW",
+                           "title": "Game development challenge tutorial series",
+                           "author": "Brototype Malayalam"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLcP4K64TKma33Vz9AhPvJpVJuO5jRbcyw",
+                           "title": "Game Development Tutorial Malayalam | Godot",
+                           "author": "Spotix"
                         }
                      ],
                      "subsections": []
@@ -53906,6 +54000,11 @@
                            "url": "https://youtube.com/playlist?list=PLY-ecO2csVHdLhAO6TERaMJXP8aqyWVt-",
                            "title": "Git Tutorial Malayalam | Best Malayalam Git Tutorial | Date With Git",
                            "author": "Brototype Malayalam"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQzJEzrRmXOW7pKbwpicijzUdxZmDgqNL",
+                           "title": "Git Tutorial - Malayalam",
+                           "author": "Code Malayalam"
                         }
                      ],
                      "subsections": []
@@ -53932,6 +54031,11 @@
                            "url": "https://youtube.com/playlist?list=PL1JrLEBAapUVyMVQp6SmpytH1HPeCiNPH",
                            "title": "HTML Tutorial Malayalam Full",
                            "author": "Yes Tech Media"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLCOzHVsG8mkp3ZrXMzgLusYQpCdMbpLcj",
+                           "title": "Learn CSS by doing the projects",
+                           "author": "Web Diary"
                         }
                      ],
                      "subsections": [
@@ -53942,6 +54046,11 @@
                                  "url": "https://youtube.com/playlist?list=PL1JrLEBAapUWqs_HbcYngAOmpPbiccqNy",
                                  "title": "BOOTSTRAP Malayalam Tutorial",
                                  "author": "Yes Tech Media"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLDavEIls6jrsC9EEox1WWvOlktDJcEUo6",
+                                 "title": "Bootstrap Malayalam Tutorials",
+                                 "author": "Malayalam Tutorials"
                               }
                            ]
                         }
@@ -53950,6 +54059,11 @@
                   {
                      "section": "Java",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLY-ecO2csVHeKaBI7lAM1jbIPU8K6fUxY",
+                           "title": "Java",
+                           "author": "Brototype"
+                        },
                         {
                            "url": "https://youtube.com/playlist?list=PL1JrLEBAapUXndScHzvMaSVOspebvFOsH",
                            "title": "Java Programming Malayalam Tutorial",
@@ -53961,6 +54075,11 @@
                   {
                      "section": "JavaScript",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLCOzHVsG8mkowATYScNYIuYLw-E9U-d7z",
+                           "title": "Javascript learn with doing projects",
+                           "author": "Web Diary"
+                        },
                         {
                            "url": "https://www.youtube.com/watch?v=3mjwtu4_0uk",
                            "title": "JavaScript Malayalam Tutorial",
@@ -53978,6 +54097,46 @@
                         }
                      ],
                      "subsections": [
+                        {
+                           "section": "Angular",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLVd0Txw0J6UUCic_69gFK2zras64JoTE2",
+                                 "title": "Angular Malayalam Tutorials for Beginners",
+                                 "author": "IT_Master"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLBKJGko2JEdGb_R2SVmIPW3imvmEC5GiE",
+                                 "title": "Angular 6 malayalam tutorial",
+                                 "author": "Tintu Vlogger"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "jQuery",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLBKJGko2JEdFmFLY9z4hCn3g0cZZYSs1k",
+                                 "title": "Jquery Malayalam tutorial",
+                                 "author": "Tintu Vlogger"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL-Z1WBeTYPOqiOAzKcidBIP8uzAgP7e4j",
+                                 "title": "Learn Jquery in malayalam",
+                                 "author": "Aks Programming"
+                              }
+                           ]
+                        },
+                        {
+                           "section": "Next.JS",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL5Y_OOpi0rh0VAfV9Lz7gTdxhPTkmNxeC",
+                                 "title": "Next.js Material UI Malayalam Tutorial",
+                                 "author": "Tutorial Hut"
+                              }
+                           ]
+                        },
                         {
                            "section": "Node.js",
                            "entries": [
@@ -54000,6 +54159,11 @@
                                  "url": "https://youtube.com/playlist?list=PLY-ecO2csVHfgVM9sChmUirqK7BXUBX9P",
                                  "title": "React Challenge",
                                  "author": "Brototype Malayalam"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLCOzHVsG8mkrePHYn73VBEK4dqwa4W7LU",
+                                 "title": "React in malayalam",
+                                 "author": "Web Diary"
                               },
                               {
                                  "url": "https://youtube.com/playlist?list=PL1JrLEBAapUX44d5zzl0hf7vX7caSCidT",
@@ -54043,12 +54207,38 @@
                      "subsections": []
                   },
                   {
+                     "section": "Linux",
+                     "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWcImNxiu-wgnurqLM3fKNDY",
+                           "title": "Learn Linux Malayalam",
+                           "author": "Learn Programming In Malayalam"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLmFap_OoBJh6ZIbXANxdBYAlKCCAngX5o",
+                           "title": "Linux Malayalam",
+                           "author": "Tech Trivandrum"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "MySQL",
                      "entries": [
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLBKJGko2JEdFKFGGVaveL5IOxxSNq3eBS",
+                           "title": "Mysql Malayalam tutorial series",
+                           "author": "Tintu Vlogger"
+                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLQzHWfiB9fWcxc10XNwm7CeOEMrjVr8a9",
                            "title": "MySQL Malayalam Tutorials for beginners",
                            "author": "Learn Programming In Malayalam"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL1JrLEBAapUXMuDKwPVVzhlBge9fdxV51",
+                           "title": "SQL / MYSQL Malayalam Tutorial Full Course",
+                           "author": "Yes Tech Media"
                         }
                      ],
                      "subsections": []
@@ -54065,9 +54255,35 @@
                            "url": "https://youtube.com/playlist?list=PLBKJGko2JEdH_T2ki6ty4xGV19qB7Hpmm",
                            "title": "php tutorial in malayalam",
                            "author": "Tintu Vlogger"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PL-Z1WBeTYPOoO9mJxVveZ1VgZPVXmyhFL",
+                           "title": "Learn PHP programming in malayalam",
+                           "author": "Aks Programming"
                         }
                      ],
-                     "subsections": []
+                     "subsections": [
+                        {
+                           "section": "Laravel",
+                           "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLpCgJe2jMIrAZqrKDAS6bl_BB66MmPENB",
+                                 "title": "Laravel Malayalam for Beginners - 2023",
+                                 "author": "Let's LEARN with JP"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLbasZIkCgHJFQ2MxkwhokpGPyL4MKVAQt",
+                                 "title": "Laravel Tutorial for Beginners in Malayalam",
+                                 "author": "Code Band"
+                              },
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PL-Z1WBeTYPOpqIe09MwnH62VwOLAj2tJz",
+                                 "title": "Laravel Tutorials in malayalam",
+                                 "author": "Aks Programming"
+                              }
+                           ]
+                        }
+                     ]
                   },
                   {
                      "section": "Python",
@@ -54092,6 +54308,11 @@
                         {
                            "section": "Django",
                            "entries": [
+                              {
+                                 "url": "https://www.youtube.com/playlist?list=PLFUS7KFPLkNYStmg2qIUGctQ2OOO0Mw63",
+                                 "title": "Python Django malayalam",
+                                 "author": "DotPy Media"
+                              },
                               {
                                  "url": "https://www.youtube.com/watch?v=Obu5qj9sdaE",
                                  "title": "Python Django malayalam tutorial",
