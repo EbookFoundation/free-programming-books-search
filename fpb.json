@@ -52133,6 +52133,16 @@
                      "section": "Mobile",
                      "entries": [
                         {
+                           "url": "https://www.youtube.com/playlist?list=PLP5MAKLy8lP9VP6KL4Q9ClYCuGhet59Od",
+                           "title": "Corso Dart Italiano 2023",
+                           "author": "Edoardo Midali"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLP5MAKLy8lP93TzdGqBnuc2dK02Mz6-VH",
+                           "title": "Corso Flutter Italiano 2023",
+                           "author": "Edoardo Midali"
+                        },
+                        {
                            "url": "https://www.youtube.com/playlist?list=PL0qAPtx8YtJftaLnIroe7q9udsc9_qg6x",
                            "title": "DART & FLUTTER (per il mobile)",
                            "author": "Fabrizio Camuso"
