@@ -12520,6 +12520,11 @@
                            "title": "A Brief Beginner’s Guide To Clojure"
                         },
                         {
+                           "url": "https://clojure-book.gitlab.io",
+                           "title": "Clojure",
+                           "author": "Karthikeyan A K"
+                        },
+                        {
                            "url": "http://java.ociweb.com/mark/clojure/article.html",
                            "title": "Clojure - Functional Programming for the JVM",
                            "author": "R. Mark Volkmann"
