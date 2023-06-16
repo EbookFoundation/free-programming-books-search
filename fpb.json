@@ -31030,6 +31030,11 @@
                            "author": "Karl Seguin,",
                            "notes": [],
                            "manualReviewRequired": true
+                        },
+                        {
+                           "url": "https://github.com/Furkan-Gulsen/turkce-go-egitimi",
+                           "title": "Türkçe Go Eğitimi",
+                           "author": "Muhammed Furkan Gülşen"
                         }
                      ],
                      "subsections": []
@@ -43102,6 +43107,22 @@
                      "subsections": []
                   },
                   {
+                     "section": "Graph Theory",
+                     "entries": [
+                        {
+                           "url": "https://youtube.com/playlist?list=PLztBpqftvzxXBhbYxoaZJmnZF6AUQr1mH",
+                           "title": "Graph Theory",
+                           "author": "Wrath of Math"
+                        },
+                        {
+                           "url": "https://youtube.com/playlist?list=PLYrahs7hsYIQiSNxTfZndQz7jWPXsA1ur",
+                           "title": "Graph Theory - DM",
+                           "author": "SCCI Labs IIT Ropar"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Haskell",
                      "entries": [
                         {
@@ -45081,6 +45102,11 @@
                         {
                            "url": "http://www.infocobuild.com/education/audio-video-courses/computer-science/cs194-spring2013-berkeley.html",
                            "title": "Berkeley's CS 194: What is an Operating System?"
+                        },
+                        {
+                           "url": "https://pdos.csail.mit.edu/6.S081/2020/schedule.html",
+                           "title": "MIT 6.S081: Operating System Engineering(Fall 2020)",
+                           "author": "Frans Kaashoek, Robert Morris"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
@@ -47425,7 +47451,7 @@
                            "title": "Programación en lenguaje Java (2009)"
                         },
                         {
-                           "url": "https://ocw.unican.es/course/view.php?id=26",
+                           "url": "https://ocw.unican.es/course/view.php?id=240",
                            "title": "Programación en lenguaje Java (2015)"
                         },
                         {
