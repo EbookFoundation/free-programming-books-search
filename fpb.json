@@ -25894,10 +25894,6 @@
                            "title": "InfoQ Minibooks"
                         },
                         {
-                           "url": "http://www.intechopen.com/subjects/computer-and-information-science",
-                           "title": "InTech: Computer and Information Science"
-                        },
-                        {
                            "url": "https://github.com/revolunet/JSbooks",
                            "title": "JSBooks - directory of free javascript ebooks"
                         },
@@ -25942,11 +25938,6 @@
                            "title": "Papers we love"
                         },
                         {
-                           "url": "https://en.wikibooks.org/wiki/Category%3aComputer_programming",
-                           "title": "Programming",
-                           "author": "Wikibooks"
-                        },
-                        {
                            "url": "http://www.red-gate.com/community/books/index",
                            "title": "Red Gate Books"
                         },
@@ -25963,7 +25954,7 @@
                            "title": "TechBeamers.com"
                         },
                         {
-                           "url": "http://www.techbooksforfree.com",
+                           "url": "https://www.techbooksforfree.com",
                            "title": "TechBooksForFree.com"
                         },
                         {
@@ -26132,7 +26123,7 @@
                            "author": "Larry LIU Xinyu"
                         },
                         {
-                           "url": "https://www.programming-books.io/essential/algorithms",
+                           "url": "https://www.programming-books.io/essential/algorithms/",
                            "title": "Essential Algorithms",
                            "author": "Krzysztof Kowalczyk and  Stack Overflow Documentation project",
                            "notes": [
@@ -26532,14 +26523,6 @@
                            ]
                         },
                         {
-                           "url": "https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETESHARDENINGGUIDANCE.PDF",
-                           "title": "Kubernetes Hardening Guidance",
-                           "author": "NSA, CISA",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
                            "url": "https://clouddamcdnprodep.azureedge.net/gdc/2014519/original",
                            "title": "Learn Azure in a Month of Lunches",
                            "author": "Iain Foulds",
@@ -26820,7 +26803,7 @@
                            "author": "Simon J.D. Prince"
                         },
                         {
-                           "url": "http://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book.pdf",
+                           "url": "https://dallery.gallery/wp-content/uploads/2022/07/The-DALL%C2%B7E-2-prompt-book.pdf",
                            "title": "DALLE-E 2 prompt book",
                            "author": "Dallery.Gallery, Guy Parson",
                            "notes": [
@@ -27117,7 +27100,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.gameaipro.com",
+                           "url": "https://www.gameaipro.com",
                            "title": "Game AI Pro",
                            "author": "Steve Rabin"
                         },
@@ -27193,9 +27176,12 @@
                            "title": "GPU Gems"
                         },
                         {
-                           "url": "http://www.gamedev.net/page/resources/_/technical/graphics-programming-and-theory/graphics-programming-black-book-r1698",
+                           "url": "https://www.gamedev.net/tutorials/_/technical/graphics-programming-and-theory/graphics-programming-black-book-r1698/",
                            "title": "Graphics Programming Black Book",
-                           "author": "Michael Abrash"
+                           "author": "Michael Abrash",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://open.gl",
@@ -27224,7 +27210,7 @@
                            ]
                         },
                         {
-                           "url": "http://learnopengl.com",
+                           "url": "https://learnopengl.com",
                            "title": "Learn OpenGL",
                            "author": "Joey de Vries"
                         },
@@ -27243,14 +27229,6 @@
                            "author": "Jason L. McKesson",
                            "notes": [
                               "draft"
-                           ]
-                        },
-                        {
-                           "url": "https://www.cs.csustan.edu/~rsc/CS3600F00/Notes.pdf",
-                           "title": "Notes for a Computer Graphics Programming Course",
-                           "author": "Dr. Steve Cunningham",
-                           "notes": [
-                              "PDF"
                            ]
                         },
                         {
@@ -27282,7 +27260,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.realtimerendering.com/resources/shaderx/",
+                           "url": "https://www.realtimerendering.com/resources/shaderx/",
                            "title": "ShaderX series",
                            "author": "Wolfgang Engel"
                         },
@@ -27329,14 +27307,6 @@
                            "url": "http://searchuserinterfaces.com/book/",
                            "title": "Search User Interfaces",
                            "author": "Marti A. Hearst"
-                        },
-                        {
-                           "url": "https://informatique-libre.be/swilmet/glib-gtk-book/glib-gtk-dev-platform.pdf",
-                           "title": "The GLib/GTK+ Development Platform",
-                           "author": "Sébastien Wilmet",
-                           "notes": [
-                              "PDF"
-                           ]
                         },
                         {
                            "url": "https://pressbooks.library.ryerson.ca/webdesign/",
@@ -27484,12 +27454,15 @@
                      "section": "Licensing",
                      "entries": [
                         {
-                           "url": "http://www.aliprandi.org/cc-user-guide/",
+                           "url": "https://archive.org/download/CreativeCommonsUserGuide/CreativeCommonsUserGuide.pdf",
                            "title": "Creative Commons: a user guide",
-                           "author": "Simone Aliprandi"
+                           "author": "Simone Aliprandi",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
-                           "url": "http://rosenlaw.com/oslbook/",
+                           "url": "https://rosenlaw.com/oslbook/",
                            "title": "Open Source Licensing Software Freedom and Intellectual Property Law",
                            "author": "Lawrence Rosen"
                         },
@@ -29299,11 +29272,24 @@
                         },
                         {
                            "url": "http://www.bottomupcs.com",
-                           "title": "Computer Science from the Bottom Up"
+                           "title": "Computer Science from the Bottom Up",
+                           "author": "Ian Wienand",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://aaltodoc.aalto.fi/handle/123456789/6318",
+                           "title": "Flexible Operating System Internals: The Design and Implementation of the Anykernel and Rump Kernels",
+                           "author": "Antti Kantee",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System",
                            "title": "How to Make a Computer Operating System",
+                           "author": "Samy Pesse",
                            "notes": [
                               ":construction: *in process*"
                            ]
@@ -29334,13 +29320,24 @@
                         {
                            "url": "https://gustavus.edu/mcs/max/os-book/",
                            "title": "Operating Systems and Middleware",
+                           "author": "Max Hailperin",
                            "notes": [
-                              "PDF and LaTeX"
+                              "PDF, LaTeX"
+                           ]
+                        },
+                        {
+                           "url": "https://github.com/tuhdo/os01/releases/tag/0.0.1",
+                           "title": "Operating Systems: From 0 to 1",
+                           "author": "Tu, Ho Doang",
+                           "notes": [
+                              "PDF",
+                              ":construction: *in process*"
                            ]
                         },
                         {
                            "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
                            "title": "Operating Systems: Three Easy Pieces",
+                           "author": "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau",
                            "notes": [
                               "PDF"
                            ]
@@ -29364,22 +29361,26 @@
                         {
                            "url": "http://catb.org/esr/writings/taoup/html/",
                            "title": "The Art of Unix Programming",
-                           "author": "Eric S. Raymond"
-                        },
-                        {
-                           "url": "http://www.fixup.fi/misc/rumpkernel-book/",
-                           "title": "The Design and Implementation of the Anykernel and Rump Kernels",
-                           "author": "Antti Kantee"
+                           "author": "Eric S. Raymond",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://littleosbook.github.io",
-                           "title": "The little book about OS development",
-                           "author": "Erik Helin, Adam Renberg"
+                           "title": "The Little Book About OS Development",
+                           "author": "Erik Helin, Adam Renberg -",
+                           "notes": [
+                              "PDF, HTML"
+                           ]
                         },
                         {
                            "url": "http://greenteapress.com/semaphores/",
                            "title": "The Little Book of Semaphores",
-                           "author": "Allen B. Downey"
+                           "author": "Allen B. Downey",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://www.greenteapress.com/thinkos/index.html",
@@ -29406,8 +29407,12 @@
                            ]
                         },
                         {
-                           "url": "https://pdos.csail.mit.edu/6.828/2012/xv6.html",
-                           "title": "Xv6, a simple Unix-like teaching operating system"
+                           "url": "https://pdos.csail.mit.edu/6.828/2022/xv6.html",
+                           "title": "Xv6, a simple Unix-like teaching operating system",
+                           "author": "Russ Cox, Frans Kaashoek and Robert Morris",
+                           "notes": [
+                              "PDF, HTML"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -31017,6 +31022,11 @@
                            "notes": [
                               "GitBook"
                            ]
+                        },
+                        {
+                           "url": "https://github.com/mkdemir/Git_ve_Github_Rehberi",
+                           "title": "Git ve Github Rehberi",
+                           "author": "Mustafa Kaan Demir"
                         }
                      ],
                      "subsections": []
@@ -61064,6 +61074,10 @@
                            "author": ""
                         },
                         {
+                           "url": "https://www.scaler.com/topics/cloud-computing/",
+                           "title": "Cloud Computing Tutorial by Scaler"
+                        },
+                        {
                            "url": "https://cloud.google.com/training/free-labs/",
                            "title": "Google Cloud Platform"
                         }
@@ -61108,6 +61122,16 @@
                            "url": "https://www.w3schools.com/datascience/default.asp",
                            "title": "Data Science Tutorial",
                            "author": "W3Schools"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/data-science/",
+                           "title": "Data Science Tutorial for Beginners",
+                           "author": "Scaler Topics"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/course/python-for-data-science/",
+                           "title": "Data Science Tutorial for Beginners - Video Course",
+                           "author": "course by Yash Sinha Scaler Topics"
                         },
                         {
                            "url": "https://www.kdnuggets.com/2021/05/essential-linear-algebra-data-science-machine-learning.html",
@@ -61505,6 +61529,11 @@
                                  "author": "W3Schools"
                               },
                               {
+                                 "url": "https://www.scaler.com/topics/angular/",
+                                 "title": "AngularJS Tutorial",
+                                 "author": "Scaler Topics"
+                              },
+                              {
                                  "url": "https://egghead.io",
                                  "title": "egghead.io: Learn AngularJS with Tutorial Videos & Training"
                               },
@@ -61526,6 +61555,11 @@
                                  "url": "https://www.w3schools.com/jquery/",
                                  "title": "jQuery Tutorial",
                                  "author": "W3Schools"
+                              },
+                              {
+                                 "url": "https://www.scaler.com/topics/jquery/",
+                                 "title": "jQuery Tutorial",
+                                 "author": "Scaler Topics"
                               }
                            ]
                         },
@@ -61545,6 +61579,11 @@
                                  "url": "https://www.w3schools.com/react/",
                                  "title": "React Tutorial",
                                  "author": "W3Schools"
+                              },
+                              {
+                                 "url": "https://www.scaler.com/topics/react/",
+                                 "title": "React Tutorial",
+                                 "author": "Scaler Topics"
                               }
                            ]
                         },
@@ -61709,6 +61748,11 @@
                            "url": "https://www.w3schools.com/nodejs",
                            "title": "Node.js Tutorial",
                            "author": "W3Schools"
+                        },
+                        {
+                           "url": "https://www.scaler.com/topics/nodejs/",
+                           "title": "Node.js Tutorial",
+                           "author": "Scaler Topics"
                         }
                      ],
                      "subsections": []
