@@ -12793,15 +12793,35 @@
                      "section": "CUDA",
                      "entries": [
                         {
-                           "url": "https://docs.nvidia.com/pdf/CUDA_C_Best_Practices_Guide.pdf",
+                           "url": "https://web.archive.org/web/20170517050133/https://docs.nvidia.com/pdf/CUDA_C_Best_Practices_Guide.pdf",
                            "title": "CUDA C Best Practices Guide",
+                           "author": "Nvidia",
+                           "notes": [
+                              "PDF"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "https://web.archive.org/web/20181228130113/https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf",
+                           "title": "CUDA C Programming Guide",
+                           "author": "Nvidia",
+                           "notes": [
+                              "PDF"
+                           ],
+                           "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "https://docs.nvidia.com/cuda/pdf/CUDA_C_Best_Practices_Guide.pdf",
+                           "title": "CUDA C++ Best Practices Guide",
+                           "author": "Nvidia",
                            "notes": [
                               "PDF"
                            ]
                         },
                         {
-                           "url": "https://docs.nvidia.com/pdf/CUDA_C_Programming_Guide.pdf",
-                           "title": "CUDA C Programming Guide",
+                           "url": "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf",
+                           "title": "CUDA C++ Programming guide",
+                           "author": "Nvidia",
                            "notes": [
                               "PDF"
                            ]
@@ -12809,6 +12829,7 @@
                         {
                            "url": "http://www.nvidia.com/content/cudazone/download/OpenCL/NVIDIA_OpenCL_ProgrammingGuide.pdf",
                            "title": "OpenCL Programming Guide for CUDA Architecture",
+                           "author": "Nvidia",
                            "notes": [
                               "PDF"
                            ]
