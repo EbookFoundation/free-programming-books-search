@@ -11005,8 +11005,7 @@
                            "author": "James A. Brown, Sandra Pakin, Raymond P. Polivka - 1988",
                            "notes": [
                               "PDF"
-                           ],
-                           "accessNotes": ":card_file_box: archived"
+                           ]
                         },
                         {
                            "url": "http://www.softwarepreservation.org/projects/apl/Books/CollegeMathematicswithAPL",
@@ -11316,7 +11315,8 @@
                            "author": "Randall Hyde",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://grain-lang.org/docs/",
@@ -11335,7 +11335,8 @@
                            "author": "Tuomo Tuomo Venäläinen",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.egr.unlv.edu/~ed/x86.html",
@@ -11382,7 +11383,7 @@
                               {
                                  "url": "https://archive.org/details/ataribooks-machine-language-for-beginners",
                                  "title": "Machine Language for Beginners",
-                                 "author": "Richard Mansfield [6502 CPU]"
+                                 "author": "Richard Mansfield"
                               },
                               {
                                  "url": "http://chortle.ccsu.edu/AssemblyTutorial/index.html",
@@ -11517,7 +11518,8 @@
                            "author": "Anthony Scemama",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://mywiki.wooledge.org/BashGuide",
@@ -11624,8 +11626,7 @@
                            "author": "Ken O. Burtch",
                            "notes": [
                               "PDF"
-                           ],
-                           "accessNotes": ":card_file_box: archived"
+                           ]
                         },
                         {
                            "url": "http://slackbook.org",
@@ -11753,7 +11754,8 @@
                            "author": "Ted Jensen",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.ime.usp.br/~pf/algorithms/",
@@ -11931,8 +11933,7 @@
                            "author": "Yashavant Kanetkar",
                            "notes": [
                               "PDF"
-                           ],
-                           "accessNotes": ":card_file_box: latest 14th edition"
+                           ]
                         },
                         {
                            "url": "https://ben.klemens.org/pdfs/gsl_stats.pdf",
@@ -12003,7 +12004,8 @@
                            "author": "Open Standards Org - www.open-std.org",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.crasseux.com/books/ctut.pdf",
@@ -12111,12 +12113,14 @@
                            "author": "Matthew P Jones",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://web.archive.org/web/20161220072449/http://www.brpreiss.com/books/opus6/",
                            "title": "Data Structures and Algorithms with Object-Oriented Design Patterns in C#",
-                           "author": "Bruno Preiss"
+                           "author": "Bruno Preiss",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://damieng.com/blog/2007/11/08/dissecting-a-c-application-inside-sharpdevelop",
@@ -12494,7 +12498,8 @@
                         },
                         {
                            "url": "http://web.archive.org/web/20150310075109/http://cs.colby.edu/kgburke/?resource=chapelTutorial",
-                           "title": "Chapel Tutorial for Programmers"
+                           "title": "Chapel Tutorial for Programmers",
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -12557,6 +12562,7 @@
                            "notes": [
                               "PDF"
                            ],
+                           "accessNotes": ":card_file_box: archived",
                            "otherLinks": [
                               {
                                  "title": ":card_file_box: _unglued_",
@@ -13345,7 +13351,8 @@
                            "title": "Apex Workbook",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://developer.force.com/workbook",
@@ -13367,14 +13374,16 @@
                            "title": "Force.com Workbook",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://web.archive.org/web/20131209081736/http://media.developerforce.com/workbooks/HerokuPostgres_Workbooks_Web_Final.pdf",
                            "title": "Heroku Postgres",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://res.cloudinary.com/hy4kyit2a/image/upload/workbook_text_Heroku.pdf",
@@ -13388,7 +13397,8 @@
                            "title": "Integration Workbook",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://res.cloudinary.com/hy4kyit2a/image/upload/s1_mobile_woorkbook_v3-21.pdf",
@@ -13402,7 +13412,8 @@
                            "title": "Visualforce Workbook",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -13413,7 +13424,8 @@
                         {
                            "url": "https://web.archive.org/web/20180919061255/http://galileo.phys.virginia.edu/classes/551.jvn.fall01/primer.htm",
                            "title": "A Beginner's Guide to Forth",
-                           "author": "J.V. Noble"
+                           "author": "J.V. Noble",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://ficl.sourceforge.net/pdf/Forth_Primer.pdf",
@@ -13867,7 +13879,8 @@
                            "author": "J.R. Heard",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.yesodweb.com/book",
@@ -14055,7 +14068,8 @@
                         },
                         {
                            "url": "https://web.archive.org/web/20160505010319/http://learnjs.io/canvassing/read/",
-                           "title": "Canvassing"
+                           "title": "Canvassing",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://mdo.github.io/code-guide/",
@@ -14126,7 +14140,8 @@
                            "author": "Damian Wielgosik",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://joshondesign.com/p/books/canvasdeepdive/toc.html",
@@ -14239,7 +14254,8 @@
                         {
                            "url": "https://web.archive.org/web/20181215200026/http://apress.jensimmons.com/v5/pro-html5-programming/ch0.html",
                            "title": "Pro HTML5 Programming",
-                           "author": "Jen Simmons, Chris O'Connor, Dylan Wooters, Peter Lubbers"
+                           "author": "Jen Simmons, Chris O'Connor, Dylan Wooters, Peter Lubbers",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://resilientwebdesign.com/#Resilientweb%20design",
@@ -14254,7 +14270,8 @@
                         {
                            "url": "https://web.archive.org/web/20191116073929/http://smacss.com/",
                            "title": "Scalable and Modular Architecture for CSS",
-                           "author": "Jonathan Snook"
+                           "author": "Jonathan Snook",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://flaviocopes.com/page/css-handbook/",
@@ -14573,7 +14590,8 @@
                            "author": "Duane A. Bailey",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.programming-books.io/essential/java/",
@@ -15184,7 +15202,8 @@
                            "author": "Reginald Braithwaite",
                            "notes": [
                               "HTML"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.syncfusion.com/resources/techportal/ebooks/javascript",
@@ -15290,7 +15309,8 @@
                            "author": "Azat Mardanov",
                            "notes": [
                               "HTML"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://addyosmani.com/largescalejavascript/",
@@ -15698,7 +15718,8 @@
                               {
                                  "url": "https://web.archive.org/web/20140621124403/https://leanpub.com/express/read",
                                  "title": "Express.js Guide",
-                                 "author": "Azat Mardanov"
+                                 "author": "Azat Mardanov",
+                                 "accessNotes": ":card_file_box: archived"
                               },
                               {
                                  "url": "https://flaviocopes.com/page/express-handbook/",
@@ -17985,7 +18006,8 @@
                                  "title": "The Symfony Best practices 4.1.x",
                                  "notes": [
                                     "PDF"
-                                 ]
+                                 ],
+                                 "accessNotes": ":card_file_box: archived"
                               },
                               {
                                  "url": "https://symfony.com/doc/2.8/index.html",
@@ -18464,7 +18486,8 @@
                            "notes": [
                               "PDF",
                               "2.6"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.thedigitalcatbooks.com/pycabook-introduction/",
@@ -18478,7 +18501,8 @@
                         {
                            "url": "https://web.archive.org/web/20180411011411/http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html",
                            "title": "Code Like a Pythonista: Idiomatic Python",
-                           "author": "David Goodger"
+                           "author": "David Goodger",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.codecademy.com/learn/python",
@@ -18513,7 +18537,8 @@
                            "author": "B. R. Preiss",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://diveintopython3.problemsolving.io",
@@ -18553,7 +18578,8 @@
                            "notes": [
                               "PDF",
                               ":construction: *in process*"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://developers.google.com/edu/python/",
@@ -18817,8 +18843,7 @@
                            "author": "Marty Alchin",
                            "notes": [
                               "PDF"
-                           ],
-                           "accessNotes": ":card_file_box: archived"
+                           ]
                         },
                         {
                            "url": "https://runestone.academy/runestone/books/published/pythonds3/index.html",
@@ -18849,7 +18874,8 @@
                            "notes": [
                               "PDF",
                               "2.6"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://pysdr.org",
@@ -18882,7 +18908,8 @@
                            "notes": [
                               "PDF",
                               "2.7"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://docs.python.org/3/download.html",
@@ -19162,7 +19189,8 @@
                         {
                            "url": "https://web.archive.org/web/20200626001242/http://effbot.org/librarybook/",
                            "title": "The Standard Python Library",
-                           "author": "Fredrik Lundh"
+                           "author": "Fredrik Lundh",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://greenteapress.com/wp/think-complexity-2e/",
@@ -19362,7 +19390,8 @@
                                  "title": "Effective Django",
                                  "notes": [
                                     "1.5"
-                                 ]
+                                 ],
+                                 "accessNotes": ":card_file_box: archived"
                               },
                               {
                                  "url": "http://www.tangowithdjango.com/book17/",
@@ -19943,7 +19972,8 @@
                         },
                         {
                            "url": "https://web.archive.org/web/20180321101922/http://www.humblelittlerubybook.com/book/html/index.html",
-                           "title": "Mr. Neighborly's Humble Little Ruby Book"
+                           "title": "Mr. Neighborly's Humble Little Ruby Book",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://launchschool.com/books/oo_ruby",
@@ -20102,7 +20132,8 @@
                               {
                                  "url": "https://web.archive.org/web/20190319201525/http://objectsonrails.com/",
                                  "title": "Objects on Rails",
-                                 "author": "Avdi Grimm"
+                                 "author": "Avdi Grimm",
+                                 "accessNotes": ":card_file_box: archived"
                               },
                               {
                                  "url": "http://guides.railsgirls.com",
@@ -20229,7 +20260,8 @@
                         {
                            "url": "https://web.archive.org/web/20190520171322/http://www.rustforrubyists.com/book",
                            "title": "Rust for Rubyists",
-                           "author": "Steve Klabnik"
+                           "author": "Steve Klabnik",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://github.com/nrc/r4cppp",
@@ -20310,7 +20342,8 @@
                         {
                            "url": "https://web.archive.org/web/20190629103826/http://naildrivin5.com/scalatour/",
                            "title": "Another tour of Scala",
-                           "author": "David Copeland"
+                           "author": "David Copeland",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://underscore.io/books/creative-scala/",
@@ -21631,7 +21664,8 @@
                            "author": "Kraig Brockschmidt",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         }
                      ],
                      "subsections": []
@@ -21683,7 +21717,8 @@
                         },
                         {
                            "url": "https://web.archive.org/web/20190516192814/http://www.ousob.com/ng/clguide/",
-                           "title": "CA-Clipper 5.2 Norton Guide"
+                           "title": "CA-Clipper 5.2 Norton Guide",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://en.wikibooks.org/wiki/Clipper_Tutorial%3A_a_Guide_to_Open_Source_Clipper(s)",
@@ -26007,7 +26042,8 @@
                            "author": "Riccardo Poli, et al.",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://archive.org/details/AlgorithmDesign1stEditionByJonKleinbergAndEvaTardos2005PDF",
@@ -26117,7 +26153,8 @@
                            "author": "G. Barnett, L. Del Tongo",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.tutorialspoint.com/data_structures_algorithms/",
@@ -26402,7 +26439,8 @@
                         {
                            "url": "https://web.archive.org/web/20220127020549/https://chain.courses/",
                            "title": "chain.courses",
-                           "author": "James Gan, Rishub Kumar"
+                           "author": "James Gan, Rishub Kumar",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://www.ibm.com/downloads/cas/RYWXAR0M",
@@ -26631,7 +26669,8 @@
                         {
                            "url": "https://web.archive.org/web/20170326232435/http://www.network-theory.co.uk/docs/gccintro/index.html",
                            "title": "An Introduction to GCC",
-                           "author": "Brian Gough"
+                           "author": "Brian Gough",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.diku.dk/~torbenm/Basics/",
@@ -27255,7 +27294,8 @@
                            "author": "Jason L. McKesson",
                            "notes": [
                               "draft"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.songho.ca/opengl/index.html",
@@ -27420,7 +27460,8 @@
                            "author": "Run Paint Run Run, Run Paint Press",
                            "notes": [
                               "PDF"
-                           ]
+                           ],
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "https://learnbyexample.github.io/vim_reference/",
@@ -28549,8 +28590,7 @@
                         {
                            "url": "https://archive.org/details/in.ernet.dli.2015.141538/",
                            "title": "Combinatorial Problems And Exercises (1979)",
-                           "author": "L. Lovasz",
-                           "accessNotes": ":card_file_box: archived"
+                           "author": "L. Lovasz"
                         },
                         {
                            "url": "http://cglab.ca/~michiel/DiscreteStructures/",
@@ -30273,7 +30313,8 @@
                         {
                            "url": "https://web.archive.org/web/20150418034451/http://www.cs.jhu.edu/~scott/pl/book/dist/",
                            "title": "Principles of Programming Languages",
-                           "author": "Scott F. Smith"
+                           "author": "Scott F. Smith",
+                           "accessNotes": ":card_file_box: archived"
                         },
                         {
                            "url": "http://www.cse.chalmers.se/research/group/logic/book/",
@@ -48007,6 +48048,10 @@
                            "url": "https://toplearn.com/courses/85/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%AC%D8%A7%D9%88%D8%A7-%D8%A7%D8%B2-%D8%B5%D9%81%D8%B1",
                            "title": "آموزش جاوا از صفر",
                            "author": "Mohammad Ghari"
+                        },
+                        {
+                           "url": "https://b2n.ir/j02632",
+                           "title": "آموزش ديتابيس در جاوا"
                         },
                         {
                            "url": "https://maktabkhooneh.org/course/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-%D8%AC%D8%A7%D9%88%D8%A7-mk242",
