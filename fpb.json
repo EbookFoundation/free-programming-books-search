@@ -25919,8 +25919,9 @@
                      "section": "0 - Meta-Lists",
                      "entries": [
                         {
-                           "url": "http://www.atariarchives.org",
-                           "title": "atariarchives.org"
+                           "url": "https://www.atariarchives.org",
+                           "title": "Atariarchives.org",
+                           "author": "Atariarchives.org makes books, information, and software for Atari and other classic computers available on the Web."
                         },
                         {
                            "url": "https://www.bento.io",
@@ -25932,21 +25933,14 @@
                         },
                         {
                            "url": "https://codecatalog.org",
-                           "title": "Code Catalog: A Collection of Code Examples from Prominent Open Source Projects",
-                           "notes": [
-                              "HTML"
-                           ]
+                           "title": "Code Catalog: A Collection of Code Examples from Prominent Open Source Projects"
                         },
                         {
-                           "url": "http://conceptf1.blogspot.com/2013/11/list-of-freely-available-programming.html",
+                           "url": "https://conceptf1.blogspot.com/2013/11/list-of-freely-available-programming.html",
                            "title": "conceptf1.blogspot.com"
                         },
                         {
-                           "url": "http://stephane.ducasse.free.fr/FreeBooks.html",
-                           "title": "Free Smalltalk Books, collected by Stéphane Ducasse"
-                        },
-                        {
-                           "url": "http://www.freetechbooks.com",
+                           "url": "https://www.freetechbooks.com",
                            "title": "Free Tech Books"
                         },
                         {
@@ -25955,12 +25949,16 @@
                            "author": "Programming Notes for Professionals books"
                         },
                         {
-                           "url": "http://www.redbooks.ibm.com",
+                           "url": "https://www.redbooks.ibm.com",
                            "title": "IBM Redbooks"
                         },
                         {
-                           "url": "http://www.infoq.com/minibooks/",
+                           "url": "https://www.infoq.com/minibooks/",
                            "title": "InfoQ Minibooks"
+                        },
+                        {
+                           "url": "https://www.intechopen.com/subjects/9",
+                           "title": "InTech: Computer and Information Science"
                         },
                         {
                            "url": "https://github.com/revolunet/JSbooks",
@@ -25999,7 +25997,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.oreilly.com/openbook/",
+                           "url": "https://www.oreilly.com/openbook/",
                            "title": "O'Reilly's Open Books Project"
                         },
                         {
@@ -26007,7 +26005,7 @@
                            "title": "Papers we love"
                         },
                         {
-                           "url": "http://www.red-gate.com/community/books/index",
+                           "url": "https://www.red-gate.com/hub/books/",
                            "title": "Red Gate Books"
                         },
                         {
@@ -26019,7 +26017,7 @@
                            "title": "Stef's Free Online Smalltalk Books"
                         },
                         {
-                           "url": "http://www.techbeamers.com",
+                           "url": "https://www.techbeamers.com",
                            "title": "TechBeamers.com"
                         },
                         {
@@ -26027,7 +26025,7 @@
                            "title": "TechBooksForFree.com"
                         },
                         {
-                           "url": "http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list",
+                           "url": "https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list",
                            "title": "The Definitive C++ Book Guide and List"
                         },
                         {
@@ -26035,8 +26033,13 @@
                            "title": "Theassayer.org"
                         },
                         {
-                           "url": "http://www.tutorialspoint.com",
+                           "url": "https://www.tutorialspoint.com",
                            "title": "Tutorials Point"
+                        },
+                        {
+                           "url": "http://visualgo.net",
+                           "title": "Visualgo: Algorithm and Data Structure Visualization",
+                           "author": "Visualise data structures and algorithms through animation"
                         }
                      ],
                      "subsections": []
@@ -26047,7 +26050,7 @@
                         {
                            "url": "https://web.archive.org/web/20191020195105/http://www0.cs.ucl.ac.uk/staff/W.Langdon/ftp/papers/poli08_fieldguide.pdf",
                            "title": "A Field Guide To Genetic Programming",
-                           "author": "Riccardo Poli, et al.",
+                           "author": "Riccardo Poli, William B. Langdon, Nicholas F. McPhee",
                            "notes": [
                               "PDF"
                            ],
@@ -26056,13 +26059,10 @@
                         {
                            "url": "https://archive.org/details/AlgorithmDesign1stEditionByJonKleinbergAndEvaTardos2005PDF",
                            "title": "Algorithm Design",
-                           "author": "Jon Kleinberg, Éva Tardos",
-                           "notes": [
-                              "PDF"
-                           ]
+                           "author": "Jon Kleinberg, Éva Tardos"
                         },
                         {
-                           "url": "http://code.google.com/p/graphbook/",
+                           "url": "https://code.google.com/p/graphbook/",
                            "title": "Algorithmic Graph Theory",
                            "author": "David Joyner, Minh Van Nguyen, David Phillips",
                            "notes": [
@@ -26093,7 +26093,7 @@
                            ]
                         },
                         {
-                           "url": "http://jeffe.cs.illinois.edu/teaching/algorithms/",
+                           "url": "https://jeffe.cs.illinois.edu/teaching/algorithms/",
                            "title": "Algorithms Course Materials",
                            "author": "Jeff Erickson"
                         },
@@ -26106,25 +26106,14 @@
                            ]
                         },
                         {
-                           "url": "http://www.cse.iitd.ernet.in/~ssen/csl356/admin356.html",
-                           "title": "Analysis and Design of Algorithms",
-                           "author": "Sandeep Sen, IIT Delhi"
-                        },
-                        {
-                           "url": "http://visualgo.net",
-                           "title": "Animated Algorithm and Data Structure Visualization",
-                           "notes": [
-                              "Resource"
-                           ]
-                        },
-                        {
                            "url": "https://github.com/mdipierro/nlib",
                            "title": "Annotated Algorithms in Python: Applications in Physics, Biology, and Finance",
-                           "author": "Massimo di Pierro"
+                           "author": "Massimo Di Pierro"
                         },
                         {
                            "url": "http://cslibrary.stanford.edu/110/BinaryTrees.pdf",
                            "title": "Binary Trees",
+                           "author": "Nick Parlante",
                            "notes": [
                               "PDF"
                            ]
@@ -26143,11 +26132,6 @@
                            "author": "Wikibooks"
                         },
                         {
-                           "url": "http://www.cse.iitd.ernet.in/~suban/cs130/index.html",
-                           "title": "Data Structures",
-                           "author": "Prof. Subhashis Banerjee, IIT Delhi"
-                        },
-                        {
                            "url": "https://inst.eecs.berkeley.edu/~cs61b/fa14/book2/data-structures.pdf",
                            "title": "Data Structures (Into Java)",
                            "author": "Paul N. Hilfinger",
@@ -26159,39 +26143,25 @@
                            "url": "https://web.archive.org/web/20170715160229/http://dotnetslackers.com/Community/files/folders/data-structures-and-algorithms/entry30283.aspx",
                            "title": "Data Structures and Algorithms: Annotated Reference with Examples",
                            "author": "G. Barnett, L. Del Tongo",
-                           "notes": [
-                              "PDF"
-                           ],
                            "accessNotes": ":card_file_box: archived"
-                        },
-                        {
-                           "url": "https://www.tutorialspoint.com/data_structures_algorithms/",
-                           "title": "Data Structures and Algorithms Tutorial",
-                           "author": "Tutorials Point",
-                           "notes": [
-                              "HTML, PDF"
-                           ]
                         },
                         {
                            "url": "https://www.syncfusion.com/resources/techportal/ebooks/datastructurespart1",
                            "title": "Data Structures Succinctly Part 1, Syncfusion",
-                           "notes": [
-                              "PDF, Kindle",
-                              "email address *requested*, not required"
-                           ]
+                           "author": "Robert Horvick"
                         },
                         {
                            "url": "https://www.syncfusion.com/resources/techportal/ebooks/datastructurespart2",
                            "title": "Data Structures Succinctly Part 2, Syncfusion",
-                           "notes": [
-                              "PDF, Kindle",
-                              "email address *requested*, not required"
-                           ]
+                           "author": "Robert Horvick"
                         },
                         {
                            "url": "https://github.com/liuxinyu95/AlgoXY",
                            "title": "Elementary Algorithms",
-                           "author": "Larry LIU Xinyu"
+                           "author": "Larry Liu Xinyu",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://www.programming-books.io/essential/algorithms/",
@@ -26207,12 +26177,7 @@
                            "author": "Al Aho, Jeff Ullman"
                         },
                         {
-                           "url": "http://geomalgorithms.com",
-                           "title": "Geometry Algorithms",
-                           "author": "Dan Sunday"
-                        },
-                        {
-                           "url": "http://ianparberry.com/books/free/license.html",
+                           "url": "https://ianparberry.com/books/free/license.html",
                            "title": "Lectures Notes on Algorithm Analysis and Computational Complexity (Fourth Edition)",
                            "author": "Ian Parberry",
                            "notes": [
@@ -26222,10 +26187,7 @@
                         {
                            "url": "http://people.mpi-inf.mpg.de/~mehlhorn/LEDAbook.html",
                            "title": "LEDA: A Platform for Combinatorial and Geometric Computing",
-                           "author": "K. Mehlhorn, et al.",
-                           "notes": [
-                              "HTML"
-                           ]
+                           "author": "K. Mehlhorn, St. Näher"
                         },
                         {
                            "url": "http://cslibrary.stanford.edu/103/LinkedListBasics.pdf",
@@ -26244,20 +26206,22 @@
                            ]
                         },
                         {
-                           "url": "http://www.jjj.de/fxt/fxtbook.pdf",
+                           "url": "https://www.jjj.de/fxt/fxtbook.pdf",
                            "title": "Matters Computational: Ideas, Algorithms, Source Code",
+                           "author": "Jörg Arndt",
                            "notes": [
                               "PDF"
                            ]
                         },
                         {
-                           "url": "http://opendatastructures.org",
+                           "url": "https://opendatastructures.org",
                            "title": "Open Data Structures: An Introduction",
                            "author": "Pat Morin"
                         },
                         {
-                           "url": "http://planning.cs.uiuc.edu",
-                           "title": "Planning Algorithms"
+                           "url": "http://lavalle.pl/planning/",
+                           "title": "Planning Algorithms",
+                           "author": "Steven M. LaValle"
                         },
                         {
                            "url": "http://ianparberry.com/books/free/license.html",
@@ -26279,19 +26243,21 @@
                         {
                            "url": "https://www.inf.hs-flensburg.de/lang/algorithmen/sortieren/algoen.htm",
                            "title": "Sequential and parallel sorting algorithms",
+                           "author": "Hans Werner Lang",
                            "notes": [
                               "HTML"
                            ]
                         },
                         {
-                           "url": "http://igm.univ-mlv.fr/~mac/REC/text-algorithms.pdf",
+                           "url": "https://igm.univ-mlv.fr/~mac/REC/text-algorithms.pdf",
                            "title": "Text Algorithms",
+                           "author": "Maxime Crochemore, Wojciech Rytter",
                            "notes": [
                               "PDF"
                            ]
                         },
                         {
-                           "url": "http://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK/BOOK.HTM",
+                           "url": "https://www8.cs.umu.se/kurser/TDBAfl/VT06/algorithms/BOOK/BOOK/BOOK.HTM",
                            "title": "The Algorithm Design Manual",
                            "author": "Steven S. Skiena",
                            "notes": [
@@ -26299,7 +26265,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.designofapproxalgs.com/book.pdf",
+                           "url": "https://www.designofapproxalgs.com/book.pdf",
                            "title": "The Design of Approximation Algorithms",
                            "author": "David P. Williamson, David B. Shmoys",
                            "notes": [
@@ -26321,12 +26287,8 @@
                         },
                         {
                            "url": "https://greenteapress.com/wp/think-complexity-2e/",
-                           "title": "Think Complexity",
-                           "author": "Allen B. Downey",
-                           "notes": [
-                              "2nd Edition",
-                              "PDF, HTML"
-                           ]
+                           "title": "Think Complexity (2nd Edition)",
+                           "author": "Allen B. Downey"
                         }
                      ],
                      "subsections": []
@@ -26339,7 +26301,7 @@
                            "title": "Artificial Intelligence for a Better Future: An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies",
                            "author": "Bernd Carsten Stahl",
                            "notes": [
-                              "PDF"
+                              "PDF, EPUB"
                            ]
                         },
                         {
@@ -26369,10 +26331,7 @@
                         {
                            "url": "https://www.cs.mcgill.ca/~wlh/grl_book/",
                            "title": "Graph Representational Learning Book",
-                           "author": "William L. Hamilton",
-                           "notes": [
-                              "HTML, PDF"
-                           ]
+                           "author": "William L. Hamilton"
                         },
                         {
                            "url": "https://github.com/correll/Introduction-to-Autonomous-Robots/releases",
@@ -26395,7 +26354,7 @@
                            "title": "On the Path to AI: Law’s prophecies and the conceptual foundations of the machine learning age",
                            "author": "Thomas D. Grant, Damon J. Wischik",
                            "notes": [
-                              "PDF"
+                              "PDF, EPUB"
                            ]
                         },
                         {
@@ -26590,6 +26549,14 @@
                            "url": "https://aws.amazon.com/s3/cloud-storage-cost-optimization-ebook/",
                            "title": "How to optimize storage costs using Amazon S3",
                            "author": "AWS",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://media.defense.gov/2022/Aug/29/2003066362/-1/-1/0/CTR_KUBERNETES_HARDENING_GUIDANCE_1.2_20220829.PDF",
+                           "title": "Kubernetes Hardening Guidance",
+                           "author": "NSA, CISA",
                            "notes": [
                               "PDF"
                            ]
@@ -27304,6 +27271,14 @@
                               "draft"
                            ],
                            "accessNotes": ":card_file_box: archived"
+                        },
+                        {
+                           "url": "https://dokumen.tips/documents/computer-grafics-notes.html",
+                           "title": "Notes for a Computer Graphics Programming Course",
+                           "author": "Steve Cunningham",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "http://www.songho.ca/opengl/index.html",
