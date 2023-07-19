@@ -2355,7 +2355,7 @@
                      "section": "Java",
                      "entries": [
                         {
-                           "url": "https://repository.kallipos.gr/bitstream/11419/6217/4/DataStructures-%ce%9a%ce%9f%ce%a5.pdf",
+                           "url": "https://repository.kallipos.gr/bitstream/11419/6217/3/DataStructures-%CE%9A%CE%9F%CE%A5.pdf",
                            "title": "Δομές δεδομένων",
                            "author": "Γεωργιάδης Λουκάς, Νικολόπουλος Σταύρος, Παληός Λεωνίδας",
                            "notes": [
@@ -6560,6 +6560,11 @@
                            "url": "https://github.com/kholidfu/emacs_doc",
                            "title": "Dokumentasi Emacs Bahasa Indonesia",
                            "author": "Kholid Fuadi"
+                        },
+                        {
+                           "url": "https://github.com/nauvalazhar/pengantar-vi-improved",
+                           "title": "Pengantar Vi iMproved: Sebuah panduan praktikal Vim sebagai editor teks sehari-hari",
+                           "author": "Muhamad Nauval Azhar"
                         }
                      ],
                      "subsections": []
@@ -19044,10 +19049,6 @@
                            ]
                         },
                         {
-                           "url": "http://pythonpracticeprojects.com",
-                           "title": "Python Practice Projects"
-                        },
-                        {
                            "url": "https://en.wikibooks.org/wiki/Python_Programming",
                            "title": "Python Programming",
                            "author": "Wikibooks",
@@ -23786,6 +23787,11 @@
                            ]
                         },
                         {
+                           "url": "https://pedropark99.github.io/Introducao_R/",
+                           "title": "Introdução à Linguagem R: seus fundamentos e sua prática",
+                           "author": "Pedro Duarte Faria"
+                        },
+                        {
                            "url": "http://www.uesc.br/editora/livrosdigitais_20140513/r_cientistas.pdf",
                            "title": "R para cientistas sociais",
                            "author": "Jakson Alves de Aquino",
@@ -26993,6 +26999,11 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html",
+                           "title": "Introduction to Cultural Analytics & Python",
+                           "author": "Melanie Walsh"
                         },
                         {
                            "url": "https://docs.google.com/file/d/0B6iefdnF22XQeVZDSkxjZ0Z5VUE/edit?pli=1",
@@ -41907,7 +41918,7 @@
                            ]
                         },
                         {
-                           "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/",
+                           "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",
                            "title": "MIT's Mathematics for Computer Science"
                         }
                      ],
