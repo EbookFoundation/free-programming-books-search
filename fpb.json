@@ -1930,20 +1930,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Mathematik",
-                     "entries": [
-                        {
-                           "url": "http://www.loria.fr/~zimmerma/sagebook/CalculDeutsch.pdf",
-                           "title": "Calcul mathématique avec SAGE",
-                           "author": "Paul Zimmermann, et al.",
-                           "notes": [
-                              "PDF"
-                           ]
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Meta-Lists",
                      "entries": [
                         {
@@ -2159,6 +2145,20 @@
                            "author": "Steve Klabnik, Carol Nichols, Übersetzung durch die Rust-Gemeinschaft",
                            "notes": [
                               "HTML"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Sage",
+                     "entries": [
+                        {
+                           "url": "https://www.loria.fr/~zimmerma/sagebook/CalculDeutsch.pdf",
+                           "title": "Rechnen mit SageMath",
+                           "author": "Paul Zimmermann, et al.",
+                           "notes": [
+                              "PDF"
                            ]
                         }
                      ],
@@ -5324,18 +5324,6 @@
                      "subsections": []
                   },
                   {
-                     "section": "Mathématiques",
-                     "entries": [
-                        {
-                           "url": "https://web.archive.org/web/20210715234128/http://sagebook.gforge.inria.fr/",
-                           "title": "Calcul mathématique avec Sage",
-                           "author": "Paul Zimmermann, et al.",
-                           "accessNotes": ":card_file_box: archived"
-                        }
-                     ],
-                     "subsections": []
-                  },
-                  {
                      "section": "Lua",
                      "entries": [
                         {
@@ -5539,7 +5527,7 @@
                         {
                            "url": "https://hal.inria.fr/inria-00540485/file/sagebook-web-20130530.pdf",
                            "title": "Calcul mathématique avec Sage",
-                           "author": "A. Casamayou, N. Cohen, G. Connan, T. Dumont, L. Fousse, F. Maltey, M. Meulien, M. Mezzarobba, C. Pernet, N. M. Thiéry, P. Zimmermann",
+                           "author": "P. Zimmermann, et al.",
                            "notes": [
                               "PDF"
                            ]
@@ -12238,6 +12226,14 @@
                            ]
                         },
                         {
+                           "url": "https://darrenyao.com/usacobook/cpp.pdf",
+                           "title": "An Introduction to the USA Computing Olympiad, C++ Edition",
+                           "author": "Darren Yao",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://fbb-git.gitlab.io/cppannotations",
                            "title": "C++ Annotations",
                            "author": "Frank B. Brokken",
@@ -14558,6 +14554,14 @@
                            ]
                         },
                         {
+                           "url": "https://darrenyao.com/usacobook/java.pdf",
+                           "title": "An Introduction to the USA Computing Olympiad, Java Edition",
+                           "author": "Darren Yao",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "http://ptgmedia.pearsoncmg.com/images/0131478303/downloads/Iverson_book.pdf",
                            "title": "Apache Jakarta Commons: Reusable Java Components",
                            "author": "Will Iverson",
@@ -15236,6 +15240,14 @@
                            "author": "Wikibooks",
                            "notes": [
                               "HTML, PDF"
+                           ]
+                        },
+                        {
+                           "url": "https://diogoeichert.github.io/JSwC.epub",
+                           "title": "JavaScript with Classes",
+                           "author": "Diogo Eichert",
+                           "notes": [
+                              "EPUB"
                            ]
                         },
                         {
@@ -19490,6 +19502,27 @@
                                  "author": "Wes McKinney, the Pandas Development Team",
                                  "notes": [
                                     "HTML, PDF"
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "section": "PyOpenCl",
+                           "entries": [
+                              {
+                                 "url": "http://homepages.math.uic.edu/~jan/mcs572f16/mcs572notes/lec29.html",
+                                 "title": "Programming GPUs with Python: PyOpenCL and PyCUDA",
+                                 "author": "Jan Verschelde, University of Illinois Chicago",
+                                 "notes": [
+                                    "HTML"
+                                 ]
+                              },
+                              {
+                                 "url": "https://documen.tician.de/pyopencl/",
+                                 "title": "PyOpenCl Documentation",
+                                 "author": "Andreas Kloeckner",
+                                 "notes": [
+                                    "HTML"
                                  ]
                               }
                            ]
@@ -41765,6 +41798,14 @@
                                  "notes": [
                                     "javatodev"
                                  ]
+                              },
+                              {
+                                 "url": "https://javatodev.com/how-to-build-aws-vpc-using-terraform-step-by-step/",
+                                 "title": "How to Build AWS VPC Using Terraform – Step By Step",
+                                 "author": "Chinthaka Dinadasa",
+                                 "notes": [
+                                    "javatodev"
+                                 ]
                               }
                            ]
                         },
@@ -52972,10 +53013,6 @@
                   {
                      "section": "JavaScript",
                      "entries": [
-                        {
-                           "url": "https://www.youtube.com/playlist?list=PLBXuLgInP-5kLy13XLuK8iBWVFDBJygYr",
-                           "title": "모던 웹을 위한 JavaScript + jQuery"
-                        },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLuHgQVnccGMA4uSig3hCjl7wTDeyIeZVU",
                            "title": "JavaScript 입문 수업",
