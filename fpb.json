@@ -1391,6 +1391,20 @@
                      "subsections": []
                   },
                   {
+                     "section": "Delphi",
+                     "entries": [
+                        {
+                           "url": "http://olewitthansen.dk/Datalogi/ProgrammeringMedDelphi.pdf",
+                           "title": "Programmering Med Delphi 7",
+                           "author": "Ole Witt-Hansen",
+                           "notes": [
+                              "PDF"
+                           ]
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
                      "section": "Java",
                      "entries": [
                         {
@@ -48558,6 +48572,17 @@
                            "url": "https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/",
                            "title": "La programmation en C++ moderne",
                            "author": "Zeste de savoir informaticienzero mehdidou99"
+                        }
+                     ],
+                     "subsections": []
+                  },
+                  {
+                     "section": "Delphi",
+                     "entries": [
+                        {
+                           "url": "https://apprendre-delphi.fr/apprendre-la-programmation-avec-delphi-2020.php",
+                           "title": "Apprendre la programmation avec Delphi",
+                           "author": "Patrick Prémartin"
                         }
                      ],
                      "subsections": []
