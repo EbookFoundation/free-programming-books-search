@@ -12345,8 +12345,11 @@
                            "accessNotes": ":card_file_box: archived"
                         },
                         {
-                           "url": "http://gameprogrammingpatterns.com",
-                           "title": "Game Programming Patterns"
+                           "url": "http://gameprogrammingpatterns.com/contents.html",
+                           "title": "Game Programming Patterns",
+                           "notes": [
+                              "HTML"
+                           ]
                         },
                         {
                            "url": "https://google.github.io/styleguide/cppguide.html",
@@ -63541,7 +63544,7 @@
                            "title": "AIcrowd"
                         },
                         {
-                           "url": "https://competitions.codalab.org",
+                           "url": "https://codalab.lisn.upsaclay.fr",
                            "title": "CodaLab"
                         },
                         {
