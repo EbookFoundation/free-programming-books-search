@@ -45704,6 +45704,14 @@
                            ]
                         },
                         {
+                           "url": "https://github.com/cipher387/python-for-OSINT-21-days/raw/main/Python%20for%20OSINT.%2021%20day%20course%20for%20beginners.pdf",
+                           "title": "Python for OSINT. 21 day course for beginners",
+                           "author": "cyb_detective",
+                           "notes": [
+                              "PDF"
+                           ]
+                        },
+                        {
                            "url": "https://open.cs.uwaterloo.ca/python-from-scratch/",
                            "title": "Python from Scratch",
                            "author": "Centre for Education in Math and Computing",
