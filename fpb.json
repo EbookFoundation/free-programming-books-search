@@ -18438,20 +18438,6 @@
                            ]
                         },
                         {
-                           "url": "http://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf",
-                           "title": "A Whirlwind Tour of Python",
-                           "author": "Jake VanderPlas",
-                           "notes": [
-                              "PDF"
-                           ],
-                           "otherLinks": [
-                              {
-                                 "title": "EPUB, MOBI",
-                                 "url": "http://www.oreilly.com/programming/free/a-whirlwind-tour-of-python.csp?download=yes"
-                              }
-                           ]
-                        },
-                        {
                            "url": "https://hastie.su.domains/ISLP/ISLP_website.pdf",
                            "title": "An Introduction to Statistical Learning with Applications in Python",
                            "author": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor",
@@ -18668,15 +18654,6 @@
                            "author": "Lisa Tagliaferri",
                            "notes": [
                               "PDF"
-                           ]
-                        },
-                        {
-                           "url": "http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf",
-                           "title": "How to Make Mistakes in Python",
-                           "author": "Mike Pirnat",
-                           "notes": [
-                              "PDF",
-                              "1st edition"
                            ]
                         },
                         {
@@ -39816,6 +39793,11 @@
                            "url": "https://www.youtube.com/playlist?list=PLg87mxEuu8-692INeEsxudyVifz7M3efy",
                            "title": "Flutter Bangla Tutorial",
                            "author": "Techno BD XYZ"
+                        },
+                        {
+                           "url": "https://www.youtube.com/playlist?list=PLkyGuIcLcmx3-Z3QML9xkYZtdKh91LeYC",
+                           "title": "Flutter Tutorial Bangla",
+                           "author": "Rabbil Hasan"
                         },
                         {
                            "url": "https://www.youtube.com/playlist?list=PLZJlOXxGEkuyZQ-vA7B5vpvvtWU3Upo6p",
