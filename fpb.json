@@ -21866,6 +21866,14 @@
                            "url": "https://books.saturngod.net/HTML5/",
                            "title": "HTML",
                            "author": "Saturngod"
+                        },
+                        {
+                           "url": "https://lwinmoepaing.github.io/books/",
+                           "title": "HTML & CSS - Beginner To Super Beginner",
+                           "author": "Lwin Moe Paing",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
