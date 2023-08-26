@@ -21797,6 +21797,14 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://likta.lv/wp-content/uploads/2018/12/Programmesanas_gramata_e-versija.pdf",
+                           "title": "Programmēšanas pamati",
+                           "author": "Raivis Ieviņš",
+                           "notes": [
+                              "PDF"
+                           ]
                         }
                      ],
                      "subsections": []
@@ -21811,6 +21819,11 @@
                            "notes": [
                               "PDF"
                            ]
+                        },
+                        {
+                           "url": "https://www.alvils.info/e-gramatas/programmesanas-valoda-python-iesacejiem/",
+                           "title": "Programmēšanas valoda \"Python\" iesācējiem",
+                           "author": "Alvils Bērziņš"
                         }
                      ],
                      "subsections": []
