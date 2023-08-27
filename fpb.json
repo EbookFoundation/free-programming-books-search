@@ -32639,6 +32639,10 @@
                            "title": "Java 编码规范"
                         },
                         {
+                           "url": "https://www.liaoxuefeng.com/wiki/1252599548343744",
+                           "title": "Java 教程 - 廖雪峰的官方网站"
+                        },
+                        {
                            "url": "https://github.com/waylau/servlet-3.1-specification",
                            "title": "Java Servlet 3.1 规范"
                         },
@@ -32673,6 +32677,13 @@
                         {
                            "url": "https://github.com/waylau/rest-in-action",
                            "title": "REST 实战"
+                        },
+                        {
+                           "url": "https://michaelliao.github.io/download/pdf/Spring%202.0%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.pdf",
+                           "title": "Spring 2.0核心技术与最佳实践",
+                           "notes": [
+                              "PDF"
+                           ]
                         },
                         {
                            "url": "https://github.com/qibaoguang/Spring-Boot-Reference-Guide",
@@ -32739,6 +32750,10 @@
                         {
                            "url": "https://github.com/justjavac/12-javascript-quirks",
                            "title": "javascript 的 12 个怪癖"
+                        },
+                        {
+                           "url": "https://www.liaoxuefeng.com/wiki/1022910821149312",
+                           "title": "JavaScript 教程 - 廖雪峰的官方网站"
                         },
                         {
                            "url": "http://bonsaiden.github.io/JavaScript-Garden/zh/",
@@ -33291,7 +33306,7 @@
                            ]
                         },
                         {
-                           "url": "http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000",
+                           "url": "https://www.liaoxuefeng.com/wiki/1016959663602400",
                            "title": "Python教程 - 廖雪峰的官方网站"
                         },
                         {
