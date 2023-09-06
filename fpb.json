@@ -18438,6 +18438,11 @@
                            ]
                         },
                         {
+                           "url": "https://jakevdp.github.io/WhirlwindTourOfPython/",
+                           "title": "A Whirlwind Tour of Python",
+                           "author": "Jake VanderPlas"
+                        },
+                        {
                            "url": "https://hastie.su.domains/ISLP/ISLP_website.pdf",
                            "title": "An Introduction to Statistical Learning with Applications in Python",
                            "author": "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, Jonathan Taylor",
@@ -59709,14 +59714,6 @@
                            ]
                         },
                         {
-                           "url": "https://thevalleyofcode.pages.dev/go-handbook.pdf",
-                           "title": "Go Handbook",
-                           "author": "Flavio Copes, The Valley of Code",
-                           "notes": [
-                              "PDF"
-                           ]
-                        },
-                        {
                            "url": "https://devsonket.com/go",
                            "title": "গো | ডেভ সংকেত<",
                            "author": "devsonket",
@@ -60108,14 +60105,6 @@
                                  "author": "Gourav Goyal",
                                  "notes": [
                                     "HTML"
-                                 ]
-                              },
-                              {
-                                 "url": "https://thevalleyofcode.pages.dev/next-handbook.pdf",
-                                 "title": "Ultimate Next.js Handbook",
-                                 "author": "Flavio Copes, The Valley of Code",
-                                 "notes": [
-                                    "PDF"
                                  ]
                               }
                            ]
