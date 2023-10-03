@@ -1,0 +1,148 @@
+name: "CI-CD: free-programming-books-search"
+
+on:                     # This pipeline is executed when:
+  push:                 # - A push event is fired
+    branches:           #   over this branches
+      - main
+  pull_request:         # - A pull request
+    branches:           #   over this base branches
+      - main
+    types:              #   is...
+      - opened          #   submitted
+      - synchronize     #   or push more commits
+      - reopened        #   or reopened after closed (no merged)
+
+permissions:
+  # needed to checkouts/branching
+  contents: read
+
+# This allows a subsequently queued workflow run to interrupt/wait for previous runs
+concurrency:
+  group: '${{ github.workflow }}'
+  cancel-in-progress: true  # true: interrupt, false = wait for
+
+jobs:
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install dependencies
+        run: |
+          npm ci
+      - name: Run code linter
+        run: |
+          npm run lint
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install dependencies
+        run: |
+          npm ci
+      - name: Run webapp builder
+        run: |
+          npm run build
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build
+
+  # Testcases with Jest
+  test:
+    needs: [lint, build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install dependencies
+        run: |
+          npm ci
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+      - name: Run tests
+        run: npm test
+
+
+  # Tests E2E with Cypress
+  e2e:
+    needs: [lint, build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+      - name: Install dependencies
+        run: |
+          npm ci
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+      - name: Run E2E tests
+        # TODO: Enable again after configure Cypress test environment
+        if: ${{ false }}
+        run: npm run test:e2e
+
+  deploy:
+    needs: [test, e2e]
+    permissions:
+      # needs branching/commit contents
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build
+          path: build
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ github.token }}
+          # The branch the action should deploy.
+          branch: gh-pages
+          # The folder the action should deploy.
+          folder: build
+          # Test git push mode??
+          dry-run: ${{ github.event_name == 'pull_request' }}
+

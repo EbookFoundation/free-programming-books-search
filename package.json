@@ -26,12 +26,26 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint **/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "react-markdown": "<rootDir>/node_modules/react-markdown/react-markdown.min.js"
+    },
+    "testMatch": [
+      "**/*.test.js"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
     ]
   },
   "browserslist": {
@@ -47,6 +61,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "babel-jest": "26.6.0",
+    "gh-pages": "^3.2.3",
+    "react-test-renderer": "^17.0.2"
   }
 }

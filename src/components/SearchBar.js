@@ -3,7 +3,7 @@ import React, {useEffect} from "react";
 function SearchBar(props) {
   useEffect(() => {
     document.getElementById("searchBar").value = props.defaultTerm
-  }, []);
+  }, [props]);
 
   const handleChange = (e) => {
     props.changeParameter("searchTerm", e.target.value);
