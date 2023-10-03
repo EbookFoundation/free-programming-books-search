@@ -56,6 +56,7 @@ function jsonToArray(json) {
 }
 
 function App() {
+  const appContextPath = process.env.PUBLIC_URL + "/";
   // keeps the state of the json
   const [data, setData] = useState(undefined); 
   // put all books into one array. uses more memory, but search is faster and less complex
@@ -89,13 +90,13 @@ function App() {
     async function fetchData() {
       try {
         setQueries(queryString.parse(document.location.search));
-    if (queries.lang) {
-      if (queries.lang === "langs" || queries.lang === "subjects") {
-        changeParameter("lang.code", "en");
-      } else {
-        changeParameter("lang.code", queries.lang);
-      }
-    }
+        if (queries.lang) {
+          if (queries.lang === "langs" || queries.lang === "subjects") {
+            changeParameter("lang.code", "en");
+          } else {
+            changeParameter("lang.code", queries.lang);
+          }
+        }
         // setLoading(true);
         let result = await axios.get(
           "https://raw.githubusercontent.com/EbookFoundation/free-programming-books-search/main/fpb.json"
@@ -201,7 +202,7 @@ function App() {
       //         lang: entry.item.lang,
       //         section: entry.item.section,
       //         title: `List of all ${section} books in ${entry.item.lang.name}`,
-      //         url: `/free-programming-books-search?sect=books&lang=${langCode}&file=free-programming-books-${langCode}#${section}`,
+      //         url: `${appContextPath}?sect=books&lang=${langCode}&file=free-programming-books-${langCode}#${section}`,
       //         samePage: true,
       //       },
       //     };
@@ -253,7 +254,7 @@ function App() {
       </ThemeContext.Consumer>
       <header className="header">
         <h1>
-          <a href="/free-programming-books-search/">free-programming-books</a>
+          <a href={`${appContextPath}`}>free-programming-books</a>
         </h1>
 
         <p>
