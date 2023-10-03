@@ -25,6 +25,9 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:develop": "cross-env NODE_ENV=development PUBLIC_URL=. react-scripts build",
+    "preserve": "npm run build:develop",
+    "serve": "npx serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gh-pages": "^3.2.3"
   }
 }

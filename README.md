@@ -39,6 +39,14 @@ The free-programming-books-search is a companion project of [free-programming-bo
 5. Type `npm install react-scripts`.
 6. Type `npm start`. At this point, the command prompt should start up the server, and a tab in your default browser should open up to localhost.
 
+#### Serving the production build locally
+
+Type `npm run serve` if you want run the optimized production build in a local server.
+
+At this point, the command prompt should build the app and start up the server.
+
+Open a tab in your default browser and go to `http://localhost:3000`.
+
 ## Deployment
 
 MAKE SURE YOU HAVE COMPLETED THE INSTALLATION STEPS FIRST!
