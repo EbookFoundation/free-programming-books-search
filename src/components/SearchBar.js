@@ -23,6 +23,7 @@ function SearchBar(props) {
         type="text"
         name="searchTerm"
         placeholder={"Search Book or Author"}
+        required
         className="searchterm"
         onChange={handleChange}
       />
