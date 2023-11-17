@@ -95,7 +95,7 @@ function LangFilters({ changeParameter, data, langCode }) {
     <div className="langFilters">
       <div className="filterHeader">
         <h3>Filter by Language</h3>
-        <button onClick={() => setShow(!showFilters)}>{showFilters ? "-" : "+"}</button>
+        <button onClick={() => setShow(!showFilters)}>{showFilters ? "-" : <p align="left" "+">}</button>
       </div>
       {showFilters ? filterList : ""}
     </div>
