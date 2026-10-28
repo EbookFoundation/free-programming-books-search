@@ -281,20 +281,33 @@ function App() {
           </a>
         </p>
 
+    <div>
+      {loading ? (
+        <p />
+      ) : (
         <div>
-          {loading ? (
-            <p />
-          ) : (
-            <div>
-              <SearchBar changeParameter={changeParameter} defaultTerm={searchParams.searchTerm} />{" "}
-              <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams["lang.code"]} />{" "}
-            </div>
+          {window.location.pathname !== "/code-of-conduct" && window.location.pathname !== "/cla" && (
+            <>
+              <SearchBar changeParameter={changeParameter} defaultTerm={searchParams.searchTerm} langCode={searchParams.langCode} />
+              <LangFilters changeParameter={changeParameter} data={data} langCode={searchParams.langCode} />
+            </>
           )}
         </div>
-      </header>
+      )}
+    </div>    
+            
+        
+          
 
-      <section className="search-results">
-        {loading ? (
+      
+         
+          
+          
+          
+        
+
+      
+        
           <p>Loading</p>
         ) : resultsList ? (
           <div>
